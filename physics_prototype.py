@@ -8,7 +8,7 @@ from math import radians, sin, cos, sqrt, atan2, degrees
 
 # TO BE VALIDATED AND TESTED
 drivetrain_efficiency = .85
-tire_coeff = 0.1 #assumed value for friciton coeffecient of tire rubber
+tire_coeff = 0.01 #assumed value for friciton coeffecient of tire rubber
 g = 9.81
 prim_red = 1
 sec_red = 1
@@ -84,7 +84,7 @@ def read_coords(filename):
 def throttle_calc():
     global throttle, dist, time, time_step, distance_covered, has_ended
     if distance_covered < dist:
-        throttle = 100
+        throttle = 34
     else:
         throttle = 0
 
@@ -255,6 +255,7 @@ def torque_gear_ratio_calculation(gear):
     print(f"Corrected Torque: {corrected_torque:.2f} Nm")
     print(f"Throttle Torque: {throttle_torque:.2f} Nm")
     print("torque:", torque)
+    print("throttle:", throttle)
     
 
 
@@ -353,7 +354,7 @@ def main():
     get_hp()
     get_torque()
     #get_throttle_from_csv()
-    #throttle_calc()
+    throttle_calc()
     #idle_check()
     #begin_check(on_idle)
     #init_speed_ms = final_speed_ms 
@@ -413,9 +414,9 @@ def time_round():
     global time
     time = round(time, 1)  # Round time to 1 decimal place  
 
-rpm = 7035
-gear = 3
-coords = read_coords('Lusail_Coords.csv')
+rpm = 4500
+gear = 1
+coords = read_coords('eme_straight.csv')
 dist = total_distance(coords) * 1000
 throttle = 0
 main()

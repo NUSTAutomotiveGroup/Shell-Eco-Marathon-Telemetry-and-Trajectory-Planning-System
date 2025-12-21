@@ -1,96 +1,157 @@
-import numpy as np  
-import pandas as pd  
-import math  
+import csv
+import math
 
-# === SETTINGS ===
-track_width = 0.00014  # Approx track width (deg equivalent, you can adjust)
-deg_to_m = 111_320     # Approx conversion deg -> meters (at equator)
-file_in = 'smoothed_lusail.csv'
-file_out = 'final_track_combined.csv'
+def haversine_bearing(lat1, lon1, lat2, lon2):
+    """Calculate initial bearing between two points"""
+    lat1, lon1, lat2, lon2 = map(math.radians, [lat1, lon1, lat2, lon2])
+    
+    dlon = lon2 - lon1
+    x = math.sin(dlon) * math.cos(lat2)
+    y = math.cos(lat1) * math.sin(lat2) - math.sin(lat1) * math.cos(lat2) * math.cos(dlon)
+    
+    bearing = math.atan2(x, y)
+    return bearing
 
-# === LOAD DATA ===
-data = pd.read_csv(file_in)
-t_long = data['t-long'].values
-t_lat = data['t-lat'].values
-tn_long = data['tn-long'].values
-tn_lat = data['tn-lat'].values
+def offset_point(lat, lon, bearing, distance_m):
+    """
+    Offset a point by a distance in meters at a given bearing
+    bearing in radians, distance in meters
+    """
+    R = 6371000  # Earth's radius in meters
+    
+    lat1 = math.radians(lat)
+    lon1 = math.radians(lon)
+    
+    lat2 = math.asin(math.sin(lat1) * math.cos(distance_m / R) +
+                     math.cos(lat1) * math.sin(distance_m / R) * math.cos(bearing))
+    
+    lon2 = lon1 + math.atan2(math.sin(bearing) * math.sin(distance_m / R) * math.cos(lat1),
+                             math.cos(distance_m / R) - math.sin(lat1) * math.sin(lat2))
+    
+    return math.degrees(lat2), math.degrees(lon2)
 
-# === ARRAYS FOR RESULTS ===
-inner_long, inner_lat = [], []
-outer_long, outer_lat = [], []
-seg_inner_long, seg_inner_lat = [], []
-seg_outer_long, seg_outer_lat = [], []
-seg_heading_deg, seg_width_m = [], []
+def create_track_bounds(input_csv, output_csv, road_width_m=10):
+    """
+    Create inner and outer bounds of a track from centerline coordinates
+    
+    Args:
+        input_csv: Path to CSV with lat,lon columns
+        output_csv: Path for output CSV
+        road_width_m: Total road width in meters (default 10m)
+    """
+    # Read centerline points
+    points = []
+    with open(input_csv, 'r') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            lat = float(row['latitude'])
+            lon = float(row['longitude'])
+            points.append((lat, lon))
+    
+    if len(points) < 2:
+        raise ValueError("Need at least 2 points to create bounds")
+    
+    offset_distance = road_width_m / 2
+    
+    # Calculate bounds for each point
+    inner_bounds = []
+    outer_bounds = []
+    node_0 = []
+    node_1 = []
+    node_2 = []
+    node_3 = []
+    node_4 = []
+    node_5 = []
+    node_6 = []
+    node_7 = []
+    node_8 = []
+    node_9 = []
+    
+    
+    for i in range(len(points)):
+        lat, lon = points[i]
+        
+        # Calculate bearing (tangent direction)
+        if i == 0:
+            # First point: use forward bearing
+            bearing = haversine_bearing(lat, lon, points[i+1][0], points[i+1][1])
+        elif i == len(points) - 1:
+            # Last point: use backward bearing
+            bearing = haversine_bearing(points[i-1][0], points[i-1][1], lat, lon)
+        else:
+            # Middle points: average of incoming and outgoing bearings
+            bearing_in = haversine_bearing(points[i-1][0], points[i-1][1], lat, lon)
+            bearing_out = haversine_bearing(lat, lon, points[i+1][0], points[i+1][1])
+            bearing = (bearing_in + bearing_out) / 2
+        
+        # Calculate perpendicular bearings (left and right)
+        left_bearing = bearing + math.pi / 2  # 90 degrees left
+        right_bearing = bearing - math.pi / 2  # 90 degrees right
+        
+        # Create offset points
+        left_lat, left_lon = offset_point(lat, lon, left_bearing, offset_distance)
+        right_lat, right_lon = offset_point(lat, lon, right_bearing, offset_distance)
+        node_0_lat, node_0_lon = offset_point(lat, lon, left_bearing, 5)
+        node_1_lat, node_1_lon = offset_point(lat, lon, left_bearing, 4)
+        node_2_lat, node_2_lon = offset_point(lat, lon, left_bearing, 3)
+        node_3_lat, node_3_lon = offset_point(lat, lon, left_bearing, 2)
+        node_4_lat, node_4_lon = offset_point(lat, lon, left_bearing, 1)
+        node_5_lat, node_5_lon = offset_point(lat, lon, right_bearing, 1)
+        node_6_lat, node_6_lon = offset_point(lat, lon, right_bearing, 2)
+        node_7_lat, node_7_lon = offset_point(lat, lon, right_bearing, 3)
+        node_8_lat, node_8_lon = offset_point(lat, lon, right_bearing, 4)
+        node_9_lat, node_9_lon = offset_point(lat, lon, right_bearing, 5)
+        
+        inner_bounds.append((left_lat, left_lon))
+        outer_bounds.append((right_lat, right_lon))
+        node_0.append((node_0_lat, node_0_lon))
+        node_1.append((node_1_lat, node_1_lon))
+        node_2.append((node_2_lat, node_2_lon))
+        node_3.append((node_3_lat, node_3_lon))
+        node_4.append((node_4_lat, node_4_lon))
+        node_5.append((node_5_lat, node_5_lon))
+        node_6.append((node_6_lat, node_6_lon))
+        node_7.append((node_7_lat, node_7_lon))
+        node_8.append((node_8_lat, node_8_lon))
+        node_9.append((node_9_lat, node_9_lon))
 
-# === LOOP THROUGH TRACK ===
-for i in range(1, len(t_long)):
-    dx = t_long[i] - t_long[i - 1]
-    dy = t_lat[i] - t_lat[i - 1]
-    norm = np.sqrt(dx**2 + dy**2)
-    if norm == 0:
-        continue
 
-    # Normalize direction
-    dx /= norm
-    dy /= norm
+    # Write output CSV
+    with open(output_csv, 'w', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(['type', 'latitude', 'longitude', 'left_latitude', 'left_longitude', 'right_latitude', 'right_longitude', 'node_0_latitude', 'node_0_longitude', 'node_1_latitude', 'node_1_longitude', 'node_2_latitude', 'node_2_longitude', 'node_3_latitude', 'node_3_longitude', 'node_4_latitude', 'node_4_longitude', 'node_5_latitude', 'node_5_longitude', 'node_6_latitude', 'node_6_longitude', 'node_7_latitude', 'node_7_longitude', 'node_8_latitude', 'node_8_longitude', 'node_9_latitude', 'node_9_longitude'])
+        
+        # Write centerline
+        for i in range(len(points)):
+            center_lat, center_lon = points[i]
+            inner_lat, inner_lon = inner_bounds[i]
+            outer_lat, outer_lon = outer_bounds[i]
+            node_0_lat, node_0_lon = node_0[i]
+            node_1_lat, node_1_lon = node_1[i]
+            node_2_lat, node_2_lon = node_2[i]
+            node_3_lat, node_3_lon = node_3[i]
+            node_4_lat, node_4_lon = node_4[i]
+            node_5_lat, node_5_lon = node_5[i]
+            node_6_lat, node_6_lon = node_6[i]
+            node_7_lat, node_7_lon = node_7[i]
+            node_8_lat, node_8_lon = node_8[i]
+            node_9_lat, node_9_lon = node_9[i]
+            writer.writerow([i, center_lat, center_lon, inner_lat, inner_lon, outer_lat, outer_lon, node_0_lat, node_0_lon, node_1_lat, node_1_lon, node_2_lat, node_2_lon, node_3_lat, node_3_lon, node_4_lat, node_4_lon, node_5_lat, node_5_lon, node_6_lat, node_6_lon, node_7_lat, node_7_lon, node_8_lat, node_8_lon, node_9_lat, node_9_lon])
+        # Write inner bound
+        #for lat, lon in inner_bounds:
+         #   writer.writerow(['inner', lat, lon])
+        
+        # Write outer bound
+        #for lat, lon in outer_bounds:        #   writer.writerow(['outer', lat, lon])
+    
+    print(f"Created bounds with {len(points)} points per boundary")
+    print(f"Output saved to: {output_csv}")
 
-    # Heading angle (in degrees)
-    heading = math.degrees(math.atan2(dy, dx))
-
-    # Perpendicular vector (90° rotated)
-    perp_dx = -dy
-    perp_dy = dx
-
-    # Inner wall
-    inner_long_i = t_long[i] - perp_dx * (track_width / 2)
-    inner_lat_i = t_lat[i] - perp_dy * (track_width / 2)
-    inner_long.append(inner_long_i)
-    inner_lat.append(inner_lat_i)
-
-    # Outer wall
-    outer_long_i = t_long[i] + perp_dx * (track_width / 2)
-    outer_lat_i = t_lat[i] + perp_dy * (track_width / 2)
-    outer_long.append(outer_long_i)
-    outer_lat.append(outer_lat_i)
-
-    # Segment endpoints
-    seg_inner_long.append(inner_long_i)
-    seg_inner_lat.append(inner_lat_i)
-    seg_outer_long.append(outer_long_i)
-    seg_outer_lat.append(outer_lat_i)
-
-    # Convert track width (approx degrees → meters)
-    width_m = track_width * deg_to_m
-    seg_width_m.append(width_m)
-    seg_heading_deg.append(heading)
-
-# === CLOSE THE LOOP ===
-inner_long.append(inner_long[0])
-inner_lat.append(inner_lat[0])
-outer_long.append(outer_long[0])
-outer_lat.append(outer_lat[0])
-seg_inner_long.append(seg_inner_long[0])
-seg_inner_lat.append(seg_inner_lat[0])
-seg_outer_long.append(seg_outer_long[0])
-seg_outer_lat.append(seg_outer_lat[0])
-seg_heading_deg.append(seg_heading_deg[0])
-seg_width_m.append(seg_width_m[0])
-
-# === COMBINE INTO ONE CSV ===
-combined = pd.DataFrame({
-    'center-long': t_long[:len(seg_inner_long)],
-    'center-lat': t_lat[:len(seg_inner_lat)],
-    'inner-long': inner_long,
-    'inner-lat': inner_lat,
-    'outer-long': outer_long,
-    'outer-lat': outer_lat,
-    'seg-inner-long': seg_inner_long,
-    'seg-inner-lat': seg_inner_lat,
-    'seg-outer-long': seg_outer_long,
-    'seg-outer-lat': seg_outer_lat,
-    'seg-heading-deg': seg_heading_deg,
-    'seg-width-m': seg_width_m
-})
-
-combined.to_csv(file_out, index=False)
-print(f"✅ Combined track data saved to '{file_out}'")
+# Example usage
+if __name__ == "__main__":
+    # Adjust these parameters
+    INPUT_FILE = "sem_apme_2025-track_coordinates.csv"  # Your input CSV
+    OUTPUT_FILE = "track_with_bounds.csv"  # Output CSV
+    ROAD_WIDTH = 12  # Total road width in meters
+    
+    create_track_bounds(INPUT_FILE, OUTPUT_FILE, ROAD_WIDTH)

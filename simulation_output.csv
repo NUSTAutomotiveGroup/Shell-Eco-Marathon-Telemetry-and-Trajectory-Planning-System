@@ -1,2 +1,0 @@
-time_s,x_m,y_m,heading_deg,steer_inner_deg,steer_outer_deg,curvature_1_per_m,goal_x,goal_y
-0.0,25.892500209999998,51.44766642,0.0,0.0,0.0,7.360000000744549e-07,25.4924841,51.44767562
