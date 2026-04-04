@@ -431,7 +431,7 @@ def main():
     print(f"Distance traveled: {distance_covered:.2f} meters")
     time += time_step
     print("time step:", time_step)
-    time_round() 
+    timeRound() 
     print("time:", time)
     print("Kinetic Energy:", Total_KE)
     print("Ideal Kinetic Energy:", ideal_Total_KE)
@@ -442,7 +442,7 @@ def main():
 
 
 
-def time_round():
+def timeRound():
     global time
     time = round(time, 1)  # Round time to 1 decimal place  
 
@@ -454,7 +454,7 @@ throttle = 0
 main()
 
 while has_ended == 0:
-    time_round()
+    timeRound()
     hasEndedBasic()
     if final_speed_ms > 3:
         main()
