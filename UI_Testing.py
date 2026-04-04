@@ -10,8 +10,9 @@ x = []
 y = []
 Z = []
 
-with open('For_Map.csv', 'r') as csvfile:
+with open('sem_apme_2025-track_coordinates.csv', 'r') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
+    next(csvreader, None)
     for row in csvreader:
         x.append(float(row[1]))
         y.append(float(row[2]))
@@ -23,7 +24,10 @@ z = np.array(Z)
 
 colors = plt.cm.jet(np.linspace(0, 1, n))
 
-plt.scatter(x, y, label='Lusail Coordinates', color = colors[z])
+scatter = plt.scatter(x, y, label='Lusail Coordinates', color = colors[z])
+plt.colorbar(scatter, ax=ax, label='Elevation (m)')
+plt.gca().invert_xaxis()
+
 
 plt.title('Lusail Coordinates Plot')
 plt.grid()
