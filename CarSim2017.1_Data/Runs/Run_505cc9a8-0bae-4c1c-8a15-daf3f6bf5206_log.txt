@@ -1,0 +1,3 @@
+
+The run stopped at T = 0 because there was a problem opening PARSFILE "D:\Products_Dev\trunk\Image\CarSim\Core\CarSim_Data\Runs\Run_505cc9a8-0bae-4c1c-8a15-daf3f6bf5206_all.par".
+

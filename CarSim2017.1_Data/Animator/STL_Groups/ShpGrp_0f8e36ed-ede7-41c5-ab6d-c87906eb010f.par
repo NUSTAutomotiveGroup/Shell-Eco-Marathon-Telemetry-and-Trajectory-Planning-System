@@ -1,0 +1,65 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`Tree`Scenery
+*ANGLE_Z 180
+*ANGLE_Y 0
+*ANGLE_X 0
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+
+#RingCtrl1 1
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.png
+PARSFILE Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par
+#BlueLink0 Animator: Shape File Link`Tree` Trees` , Shape File`Shape_c332e104-9569-468b-8def-bef049d6ca43
+
+#MiscYellow0
+translucent_fix on
+#ENDMYellow
+
+set_lighting off
+set_angle_x 0
+set_angle_y 0
+set_angle_z 180
+PARSFILE Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par
+#BlueLink1 Animator: Shape File Link`Tree, 90` Trees` , Shape File`Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423
+
+translucent_fix on
+set_lighting off
+set_angle_x 0
+set_angle_y 0
+set_angle_z 180
+PARSFILE Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par
+#BlueLink2 Animator: Shape File Link`Mulch (Standard)` Trees` , Shape File`Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927
+
+translucent_fix on
+set_lighting off
+set_angle_x 0
+set_angle_y 0
+set_angle_z 180
+PARSFILE Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par
+#BlueLink3 Animator: Shape File Link`Tree Shadow (Standard)` Shadows (Legacy)` , Shape File`Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb
+
+translucent_fix on
+set_lighting off
+set_angle_x 0
+set_angle_y 0
+set_angle_z 180
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+#Library : Animator: Shape Assembly
+#DataSet : Tree
+#Category: Scenery
+#FileID  : ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f
+#Product : CarSim 2017.1
+#VehCode Shape Assembly
+
+END

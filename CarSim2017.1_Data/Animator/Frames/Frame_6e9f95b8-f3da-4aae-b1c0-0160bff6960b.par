@@ -1,0 +1,43 @@
+PARSFILE
+#FullDataName Animator: Reference Frame`Aero Fz`Aero Forces
+ADD_REFERENCE_FRAME Aero Forces Aero Fz
+#RingCtrl0 yaw_pitch_roll
+SET_EULER_ANGLES yaw_pitch_roll
+SET_X_NAME X_S1
+SET_Y_NAME Y_S1
+SET_Z_NAME Z_S1
+SET_ROLL_NAME Roll_E
+SET_PITCH_NAME Pitch
+SET_YAW_NAME Yaw
+SET_OFFSET_VAR_Z 0.05
+SET_FRAME_SCALE_Z_NAME FZ_SCALE
+
+#MiscYellow0
+define_output FZ_SCALE 0; m; Fz_Air x 10 for VSV
+eq_out FZ_SCALE = FZ_AIR * 10
+#ENDMYellow
+
+WRT_X_S1
+ANI_X_S1
+WRT_Y_S1
+ANI_Y_S1
+WRT_Z_S1
+ANI_Z_S1
+WRT_Roll_E
+ANI_Roll_E
+WRT_Pitch
+ANI_Pitch
+WRT_Yaw
+ANI_Yaw
+WRT_FZ_SCALE
+ANI_FZ_SCALE
+
+LOG_ENTRY Used Dataset: Animator: Reference Frame; { Aero Forces } Aero Fz
+#Library : Animator: Reference Frame
+#DataSet : Aero Fz
+#Category: Aero Forces
+#FileID  : Frame_6e9f95b8-f3da-4aae-b1c0-0160bff6960b
+#Product : CarSim 2017.1
+#VehCode Reference Frame
+
+END

@@ -1,0 +1,50 @@
+PARSFILE
+#FullDataName Road: X-Y-Z Coordinates of Reference Line`No Data`Empty (You should edit or delete this)
+#RingCtrl0 2
+#RingCtrl1 1
+DEFINE_PATHS 1
+IPATH = NPATH
+PATH_ID = IPATH
+DEFINE_XY_TABLES 1
+ITAB_XY = NTAB_XY
+XY_TABLE_ID = ITAB_XY
+SET_DESCRIPTION PATH_ID No Data
+SET_DESCRIPTION XY_TABLE_ID No Data
+IPATHSEG = 1
+PATH_ID_DM = PATH_ID
+SEGMENT_TYPE = 1
+XY_SEGMENT_ID = XY_TABLE_ID
+
+#CheckBox0 0    
+OPT_PATH_LOOP 0
+
+#RadioCtrl0 0    
+
+SPATH_START 0
+#DiagramTwo0
+*3D_DATA 3, 2 ! columns x rows
+*ALL_CARPET
+0, 1, 2, 3
+0.0000, 0.0000, 0.0000, 0.000
+0.0000, 0.0000, 0.0000, 0.000
+ENDTABLE
+
+SEGMENT_XY_TABLE
+0, 0, 0.000
+0, 0, 0.000
+ENDTABLE
+
+ROAD_ZS_TABLE SPLINE
+0.000, 0
+0.000, 0
+ENDTABLE
+
+LOG_ENTRY Used Dataset: Road: X-Y-Z Coordinates of Reference Line; { Empty (You should edit or delete this) } No Data
+#Library : Road: X-Y-Z Coordinates of Reference Line
+#DataSet : No Data
+#Category: Empty (You should edit or delete this)
+#FileID  : RoadXYZ_759e43e0-bfdb-4659-b1a4-02990cf4017e
+#Product : CarSim 2017.1
+#VehCode X-Y-Z Coords of Ref. Line
+
+END

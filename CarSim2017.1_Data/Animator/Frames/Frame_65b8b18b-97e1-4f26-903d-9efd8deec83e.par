@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName Animator: Reference Frame`Car XYZ Yaw`Car Tracking
+ADD_REFERENCE_FRAME Car Tracking Car XYZ Yaw
+#RingCtrl0 yaw_pitch_roll
+SET_EULER_ANGLES yaw_pitch_roll
+SET_X_NAME Xo
+SET_Y_NAME Yo
+SET_Z_NAME Zo
+SET_YAW_NAME Yaw
+
+WRT_Xo
+ANI_Xo
+WRT_Yo
+ANI_Yo
+WRT_Zo
+ANI_Zo
+WRT_Yaw
+ANI_Yaw
+
+LOG_ENTRY Used Dataset: Animator: Reference Frame; { Car Tracking } Car XYZ Yaw
+#Library : Animator: Reference Frame
+#DataSet : Car XYZ Yaw
+#Category: Car Tracking
+#FileID  : Frame_65b8b18b-97e1-4f26-903d-9efd8deec83e
+#Product : CarSim 2017.1
+#VehCode Reference Frame
+
+END

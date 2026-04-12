@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Plot: Setup`Modified Longitudinal Speed`Vehicle Motion
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Vx, Time, Vehicle Speed
+PLOTCHANNELS Vcross, Time, Calculated Crossing Vehicle Speed
+
+#ENDMYellow
+
+YAXISLABEL km/h
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Modified Longitudinal Speed
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Vehicle Motion } Modified Longitudinal Speed
+#Library : Plot: Setup
+#DataSet : Modified Longitudinal Speed
+#Category: Vehicle Motion
+#FileID  : Plot_b26092e7-45b9-4116-bdc3-70f0939548d2
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Generic VS Commands`Euro NCAP AEB: Single CCrb Test`ADAS Support
+#VehCode VS Commands
+
+#MiscYellow0
+DEFINE_PARAMETER Start_Distance = 12; m ; Distance to EVT when test starts
+DEFINE_PARAMETER t_bk = 4; s ; Start time of braking event
+
+EQ_OUT Vx_EVT = SPEED_TARGET(0, T - t_bk, 2)
+
+EQ_PRE_INIT SSTART = START_EVT - Start_Distance - X_Sensor ! Initial location of VUT
+
+! This output is used to control the visibility of brake lights shown by VS Visualizer
+DEFINE_OUTPUT Bk_EVT = GT(t, t_bk);  - ; Brake lights for EVT
+#ENDMYellow
+
+PARSFILE Animator\Frames\Frame_98b78536-0175-4a08-84c7-14478fa86af4.par
+#BlueLink0 Animator: Reference Frame`Brake Lights Ref. Frame` ` , Miscellaneous`Frame_98b78536-0175-4a08-84c7-14478fa86af4
+
+PARSFILE Animator\STL\Shape_b823932a-7890-4984-bfd3-2c0025233781.par
+#BlueLink1 Animator: Shape File Link`EVT Brake Lights` AEB Testing` , Miscellaneous`Shape_b823932a-7890-4984-bfd3-2c0025233781
+
+PARSFILE Animator\STL\Shape_2a0f5cb6-ae5b-4a59-94f3-73171e2707d1.par
+#BlueLink2 Animator: Shape File Link`SUV: Brake Lights (E-Class)` AEB Testing` , Miscellaneous`Shape_2a0f5cb6-ae5b-4a59-94f3-73171e2707d1
+
+PARSFILE Plot\Setup\Plot_79f3157d-d29b-4f16-ba4e-cc4b4a19b7ed.par
+#BlueLink3 Plot: Setup`Distances for Closest 2 Objects, Sensor 1` ADAS` , Plot`Plot_79f3157d-d29b-4f16-ba4e-cc4b4a19b7ed
+
+
+#EMBEDDED_NOTES
+#This dataset has a few commands to support the CCRb test. The VUT and EVT initially travel at the same speed with a starting distance between them set to the parameter Start_Distance.
+#
+#This dataset also includes three links to show brake lights for the EVT for this test.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { ADAS Support } Euro NCAP AEB: Single CCrb Test
+#Library : Generic VS Commands
+#DataSet : Euro NCAP AEB: Single CCrb Test
+#Category: ADAS Support
+#FileID  : GenVS_76feac98-a064-4b3a-b6b5-85e5d1a186c5
+#Product : CarSim 2017.1
+#VehCode VS Commands
+
+END

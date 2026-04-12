@@ -1,0 +1,74 @@
+PARSFILE
+#FullDataName CarSim Run Control`Lane Keeping, Normal Driving`Driver Model
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_eee37fc3-c457-4c48-aa2e-73ee0d03f290
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_7fd93935-5e80-4d39-bf60-d7ff5dbaa0af.par
+#BlueLink0 Animator: Camera Setup`180 deg. Azimuth, 10 deg. El., Veh. Ref.` Vehicle Reference` , Animator camera`Camera_7fd93935-5e80-4d39-bf60-d7ff5dbaa0af
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 3
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0.8 0 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_30c22a64-baf6-443f-93a1-3f2a95df26b9.par
+#BlueLink2 Vehicle: Assembly`D-Class, Sedan 2017` D-Class` , Vehicle Configuration`Vehicle_30c22a64-baf6-443f-93a1-3f2a95df26b9
+
+PARSFILE Procedures\Proc_3fbeb1bc-2f07-4fe0-8f83-dace053c3999.par
+#BlueLink28 Procedures`Lane Keeping, Normal Driving` Driver Controls` , Procedure`Proc_3fbeb1bc-2f07-4fe0-8f83-dace053c3999
+
+PARSFILE Animator\HUD\HUD_76ec3dd7-5fff-4651-881a-2dab4d3bed43.par
+#BlueLink9 Animator: HUD`Throttle, Brake, G-G, Speedo, and Tach` Vehicle Status Indicators` , Miscellaneous`HUD_76ec3dd7-5fff-4651-881a-2dab4d3bed43
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_4c0e86ee-c21f-408d-8b23-6643df4bf3f4.png
+WRITE_SENSOR_DETECT
+Title Lane Keeping, Normal Driving <Driver Model>
+CATEGORY Driver Model 
+DATASET_TITLE Lane Keeping, Normal Driving
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#A speed target can be calculated along a path while attempting to remain within specified target limits of lateral and longitudinal acceleration.
+#
+#One of the most important uses of the control option Speed (Closed loop) Using Path Preview is to produce realistic driving speed schedules reflecting real highway driving performance levels.
+#
+#In this example, a car maintains its lane position while accelerating and decelerating within limits typical of highway driving. Top speed is subject to a limit that varies along the route, just like with posted speed limits.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Driver Model } Lane Keeping, Normal Driving
+#Library : CarSim Run Control
+#DataSet : Lane Keeping, Normal Driving
+#Category: Driver Model
+#FileID  : Run_eee37fc3-c457-4c48-aa2e-73ee0d03f290
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

@@ -1,0 +1,24 @@
+PARSFILE
+#FullDataName Batch Runs`Trailers`Built-In Solvers
+#CheckBox1 0    
+
+#MiscYellow1
+#<Trailers (Extra License Needed)> Fishhook Procedure: Van w/ Trailer
+#<Trailers (Extra License Needed)> Trailer: Railroad Track Crossing
+#<Trailers (Extra License Needed)> Trailer: Reversing (Parametric Hitch)
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains the datasets which are in the Trailers category
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; { Built-In Solvers } Trailers
+#Library : Batch Runs
+#DataSet : Trailers
+#Category: Built-In Solvers
+#FileID  : BatRun_c3972aae-5d80-45bc-8093-d09829cfae25
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

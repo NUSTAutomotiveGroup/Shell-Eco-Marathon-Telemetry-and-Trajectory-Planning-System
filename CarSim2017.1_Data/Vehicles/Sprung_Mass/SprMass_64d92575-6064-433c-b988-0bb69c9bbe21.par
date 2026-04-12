@@ -1,0 +1,61 @@
+PARSFILE
+#FullDataName Vehicle: Sprung Mass`Pickup, Compact: Lowered`Pickup, Compact
+#VehCode Rigid sprung mass
+#RingCtrl0 0
+X_LENGTH 2780
+Y_LENGTH 1500
+iaxle 2
+iside 1
+LX_H 4175
+H_H 495
+H_CG_SU 665
+LX_AXLE 2780
+LX_CG_SU 970
+M_SU 1306
+IXX_SU 846.6
+IYY_SU 1816
+IZZ_SU 1816
+IXZ_SU 0
+*RX 0.805
+*RY 1.179
+*RZ 1.179
+Y_CG_SU 0
+Y_H 0
+IXY_SU 0
+IYZ_SU 0
+Z_LENGTH 1840
+Y_LENGTH 1665
+*HWC_LF 475
+*HWC_RF 475
+*HWC_LR 450
+*HWC_RR 450
+
+symbol_set <<hitch_x>> -4.175
+symbol_set <<hitch_y>> 0
+symbol_set <<hitch_z>> 0.495
+H_WC 450
+iside 2
+H_WC 450
+iaxle 1
+iside 1
+H_WC 475
+iside 2
+H_WC 475
+iaxle 2
+iside 1
+
+#EMBEDDED_NOTES
+#This sprung mass, Pickup, Compact: Sprung Mass Lowered, is an example of a vehicle that has been lowered by altering the wheel center location.
+#
+#The sprung mass properties are identical to the example Pickup, Compact Sprung Mass.  The only difference is the wheel centers have been moved FARTHER away from the sprung mass cordinate system.  The ground is defined by the contact patch of the tires.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; { Pickup, Compact } Pickup, Compact: Lowered
+#Library : Vehicle: Sprung Mass
+#DataSet : Pickup, Compact: Lowered
+#Category: Pickup, Compact
+#FileID  : SprMass_64d92575-6064-433c-b988-0bb69c9bbe21
+#Product : CarSim 2017.1
+#VehCode Rigid sprung mass
+
+END

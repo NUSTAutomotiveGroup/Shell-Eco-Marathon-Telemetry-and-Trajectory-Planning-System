@@ -1,0 +1,63 @@
+PARSFILE
+#FullDataName Control: Steering by the Closed-loop Driver Model`Go to Left 4m, dS = 100m`Lane Changes
+#CheckBox0 0    
+OPT_DRIVER_MODEL 1
+#CheckBox1 0    
+CREATE_PATH_OBJ off
+#CheckBox2 1    
+
+#MiscYellow0
+iltarg 2
+#ENDMYellow
+
+#RingCtrl0 0
+#RingCtrl1 SPLINE_FLAT
+#DiagramOne0
+LTARG_TABLE SPLINE_FLAT
+0, -2
+5, -1.97538
+10, -1.90212
+15, -1.78202
+20, -1.61804
+25, -1.41422
+30, -1.17558
+35, -0.90798
+40, -0.61804
+45, -0.31286
+50, 0
+55, 0.31286
+60, 0.61804
+65, 0.90798
+70, 1.17558
+75, 1.41422
+80, 1.61804
+85, 1.78202
+90, 1.90212
+95, 1.97538
+100, 2
+ENDTABLE
+#RadioCtrl0 0    
+
+AV_SW_MAX_DM 1200
+TLAG_DM 0
+A_SW_MAX_DM 720
+*TPREV 3
+*GAIN 0.7
+VLOW_DRIVER 10
+SET_PATH_WIDTH 0.1
+SET_PATH_DASH_INTERVAL 0.5
+SET_PATH_VERTEX_INTERVAL 0.25
+SET_PATH_DZ 0.03
+SET_PATH_COLOR 0 0 1
+
+TPREV_CONSTANT 3
+
+LOG_ENTRY Used Dataset: Control: Steering by the Closed-loop Driver Model; { Lane Changes } Go to Left 4m, dS = 100m
+#Library : Control: Steering by the Closed-loop Driver Model
+#DataSet : Go to Left 4m, dS = 100m
+#Category: Lane Changes
+#FileID  : StrDM_e1e3c4e3-bee5-47dd-8da9-761891003863
+#Product : CarSim 2017.1
+#VehCode Driver Path Follower
+
+END

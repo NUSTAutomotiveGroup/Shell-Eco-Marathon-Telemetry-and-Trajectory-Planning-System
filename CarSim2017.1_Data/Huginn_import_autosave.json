@@ -1,0 +1,380 @@
+{
+  "SimulinkCodeImporterVersion": 1,
+  "LibraryFileName": "Huginn",
+  "OutputFolder": "C:\\Users\\Public\\Documents\\CarSim2017.1_Data",
+  "CustomCode": {
+    "SourceFiles": "\"D:\\FYP\\Computational Stuff (Non ML)\\Shell-Eco-Marathon-Telemetry-and-Trajectory-Planning-System\\physics_prototype.py\"",
+    "GlobalVariableInterface": false
+  },
+  "FunctionsToImport": "physics_prototype.beginCheck",
+  "FunctionSettings": [
+    {
+      "Name": "physics_prototype.accelTotal",
+      "PortSpecArray": [],
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.accelerationCalculation",
+      "PortSpecArray": [],
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.beginCheck",
+      "PortSpecArray": {
+        "ArgName": "on_idle",
+        "PortName": "on_idle",
+        "Scope": "Input",
+        "Index": "1",
+        "Type": "double",
+        "Size": "[1 1]",
+        "IsGlobal": false
+      },
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.calculateBearing",
+      "PortSpecArray": [
+        {
+          "ArgName": "y",
+          "PortName": "y",
+          "Scope": "Output",
+          "Index": "1",
+          "Type": "double",
+          "Size": "[1 1]",
+          "IsGlobal": false
+        },
+        {
+          "ArgName": "lat1",
+          "PortName": "lat1",
+          "Scope": "Input",
+          "Index": "1",
+          "Type": "double",
+          "Size": "[1 1]",
+          "IsGlobal": false
+        },
+        {
+          "ArgName": "lon1",
+          "PortName": "lon1",
+          "Scope": "Input",
+          "Index": "2",
+          "Type": "double",
+          "Size": "[1 1]",
+          "IsGlobal": false
+        },
+        {
+          "ArgName": "lat2",
+          "PortName": "lat2",
+          "Scope": "Input",
+          "Index": "3",
+          "Type": "double",
+          "Size": "[1 1]",
+          "IsGlobal": false
+        },
+        {
+          "ArgName": "lon2",
+          "PortName": "lon2",
+          "Scope": "Input",
+          "Index": "4",
+          "Type": "double",
+          "Size": "[1 1]",
+          "IsGlobal": false
+        }
+      ],
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.decelerationCalculation",
+      "PortSpecArray": [],
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.distancePerTime",
+      "PortSpecArray": {
+        "ArgName": "distance",
+        "PortName": "distance",
+        "Scope": "Output",
+        "Index": "1",
+        "Type": "double",
+        "Size": "[1 1]",
+        "IsGlobal": false
+      },
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.dragEffect",
+      "PortSpecArray": [],
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.finalSpeedToRpm",
+      "PortSpecArray": [
+        {
+          "ArgName": "rpm",
+          "PortName": "rpm",
+          "Scope": "Output",
+          "Index": "1",
+          "Type": "double",
+          "Size": "[1 1]",
+          "IsGlobal": false
+        },
+        {
+          "ArgName": "gear",
+          "PortName": "gear",
+          "Scope": "Input",
+          "Index": "1",
+          "Type": "double",
+          "Size": "[1 1]",
+          "IsGlobal": false
+        }
+      ],
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.gearChange",
+      "PortSpecArray": [
+        {
+          "ArgName": "gear",
+          "PortName": "gear",
+          "Scope": "Output",
+          "Index": "1",
+          "Type": "double",
+          "Size": "[1 1]",
+          "IsGlobal": false
+        },
+        {
+          "ArgName": "gear",
+          "PortName": "gear",
+          "Scope": "Input",
+          "Index": "1",
+          "Type": "double",
+          "Size": "[1 1]",
+          "IsGlobal": false
+        }
+      ],
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.getHP",
+      "PortSpecArray": [],
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.getHasEndedFromCSV",
+      "PortSpecArray": [],
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.getInterpolatedTorque",
+      "PortSpecArray": [
+        {
+          "ArgName": "torque",
+          "PortName": "torque",
+          "Scope": "Output",
+          "Index": "1",
+          "Type": "double",
+          "Size": "[1 1]",
+          "IsGlobal": false
+        },
+        {
+          "ArgName": "current_rpm",
+          "PortName": "current_rpm",
+          "Scope": "Input",
+          "Index": "1",
+          "Type": "double",
+          "Size": "[1 1]",
+          "IsGlobal": false
+        }
+      ],
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.getTorque",
+      "PortSpecArray": [],
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.hasEndedBasic",
+      "PortSpecArray": [],
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.haversine",
+      "PortSpecArray": [
+        {
+          "ArgName": "y",
+          "PortName": "y",
+          "Scope": "Output",
+          "Index": "1",
+          "Type": "double",
+          "Size": "[1 1]",
+          "IsGlobal": false
+        },
+        {
+          "ArgName": "lat1",
+          "PortName": "lat1",
+          "Scope": "Input",
+          "Index": "1",
+          "Type": "double",
+          "Size": "[1 1]",
+          "IsGlobal": false
+        },
+        {
+          "ArgName": "lon1",
+          "PortName": "lon1",
+          "Scope": "Input",
+          "Index": "2",
+          "Type": "double",
+          "Size": "[1 1]",
+          "IsGlobal": false
+        },
+        {
+          "ArgName": "lat2",
+          "PortName": "lat2",
+          "Scope": "Input",
+          "Index": "3",
+          "Type": "double",
+          "Size": "[1 1]",
+          "IsGlobal": false
+        },
+        {
+          "ArgName": "lon2",
+          "PortName": "lon2",
+          "Scope": "Input",
+          "Index": "4",
+          "Type": "double",
+          "Size": "[1 1]",
+          "IsGlobal": false
+        }
+      ],
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.idleCheck",
+      "PortSpecArray": [],
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.kineticEnergy",
+      "PortSpecArray": [],
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.main",
+      "PortSpecArray": [],
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.readCoords",
+      "PortSpecArray": [
+        {
+          "ArgName": "coords",
+          "PortName": "coords",
+          "Scope": "Output",
+          "Index": "1",
+          "Type": "double",
+          "Size": "[1 1]",
+          "IsGlobal": false
+        },
+        {
+          "ArgName": "filename",
+          "PortName": "filename",
+          "Scope": "Input",
+          "Index": "1",
+          "Type": "double",
+          "Size": "[1 1]",
+          "IsGlobal": false
+        }
+      ],
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.rpmRound",
+      "PortSpecArray": {
+        "ArgName": "y",
+        "PortName": "y",
+        "Scope": "Output",
+        "Index": "1",
+        "Type": "double",
+        "Size": "[1 1]",
+        "IsGlobal": false
+      },
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.speedCalc",
+      "PortSpecArray": [
+        {
+          "ArgName": "rpm",
+          "PortName": "rpm",
+          "Scope": "Input",
+          "Index": "1",
+          "Type": "double",
+          "Size": "[1 1]",
+          "IsGlobal": false
+        },
+        {
+          "ArgName": "gear",
+          "PortName": "gear",
+          "Scope": "Input",
+          "Index": "2",
+          "Type": "double",
+          "Size": "[1 1]",
+          "IsGlobal": false
+        }
+      ],
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.speedUpdate",
+      "PortSpecArray": [],
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.throttleCalc",
+      "PortSpecArray": [],
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.timeRound",
+      "PortSpecArray": [],
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.torqueGearRatioCalculation",
+      "PortSpecArray": {
+        "ArgName": "gear",
+        "PortName": "gear",
+        "Scope": "Input",
+        "Index": "1",
+        "Type": "double",
+        "Size": "[1 1]",
+        "IsGlobal": false
+      },
+      "IsDeterministic": false
+    },
+    {
+      "Name": "physics_prototype.totalDistance",
+      "PortSpecArray": [
+        {
+          "ArgName": "distance",
+          "PortName": "distance",
+          "Scope": "Output",
+          "Index": "1",
+          "Type": "double",
+          "Size": "[1 1]",
+          "IsGlobal": false
+        },
+        {
+          "ArgName": "coords",
+          "PortName": "coords",
+          "Scope": "Input",
+          "Index": "1",
+          "Type": "double",
+          "Size": "[1 1]",
+          "IsGlobal": false
+        }
+      ],
+      "IsDeterministic": false
+    }
+  ]
+}

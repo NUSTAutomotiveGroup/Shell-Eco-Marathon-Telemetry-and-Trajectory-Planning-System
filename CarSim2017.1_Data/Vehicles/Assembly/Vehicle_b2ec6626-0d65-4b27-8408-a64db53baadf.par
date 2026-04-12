@@ -1,0 +1,96 @@
+PARSFILE
+#FullDataName Vehicle: Assembly`SEM1`
+#VehCode Ind_Ind
+#CheckBox0 0    
+#CheckBox1 1    
+
+#RingCtrl0 2
+OPT_PT 2
+#RingCtrl1 1
+#RingCtrl2 1
+#RingCtrl3 0
+
+* Front components
+iaxle 1
+symbol_push  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_52d00983-7021-4ad7-8c6c-4e0ee3de6404.par
+#BlueLink19 Suspension: Independent System Kinematics`Exotic - Front` Exotic` , Kinematics`KinInd_52d00983-7021-4ad7-8c6c-4e0ee3de6404
+
+PARSFILE Suspensions\Compliance\CmpInd_2b16f5ad-b911-4647-be70-43ea27928d9d.par
+#BlueLink16 Suspension: Independent Compliance, Springs, and Dampers`Exotic - Rear` Exotic` , Compliance`CmpInd_2b16f5ad-b911-4647-be70-43ea27928d9d
+
+
+OPT_ALL_FOUR_TIRES_ALIKE 1
+
+* LF tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_4fbc06b1-343f-4ce7-896b-5336d4836ade.par
+#BlueLink999 Tire`sem` Normalized Tires` , Tire`Tire_4fbc06b1-343f-4ce7-896b-5336d4836ade
+
+
+* RF tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_4fbc06b1-343f-4ce7-896b-5336d4836ade.par
+#BlueLink10 Tire`sem` Normalized Tires` , Tire`Tire_4fbc06b1-343f-4ce7-896b-5336d4836ade
+
+* Rear components
+iaxle 2
+symbol_add  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_6beeb7de-841d-4706-876f-d2ad1c0e471c.par
+#BlueLink20 Suspension: Independent System Kinematics`Exotic - Rear` Exotic` , Kinematics`KinInd_6beeb7de-841d-4706-876f-d2ad1c0e471c
+
+PARSFILE Suspensions\Compliance\CmpInd_2b16f5ad-b911-4647-be70-43ea27928d9d.par
+#BlueLink17 Suspension: Independent Compliance, Springs, and Dampers`Exotic - Rear` Exotic` , Compliance`CmpInd_2b16f5ad-b911-4647-be70-43ea27928d9d
+
+
+* LR tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_4fbc06b1-343f-4ce7-896b-5336d4836ade.par
+#BlueLink999 Tire`sem` Normalized Tires` , Tire`Tire_4fbc06b1-343f-4ce7-896b-5336d4836ade
+
+
+* RR tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_4fbc06b1-343f-4ce7-896b-5336d4836ade.par
+#BlueLink999 Tire`sem` Normalized Tires` , Tire`Tire_4fbc06b1-343f-4ce7-896b-5336d4836ade
+
+symbol_set <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par
+#BlueLink0 Vehicle: Sprung Mass`sem_sprung` ` , Sprung Mass`SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b
+
+PARSFILE Aerodynamics\Aero_Main\Aero_f859fe21-5fac-4ae2-8aef-5c1268cf9de2.par
+#BlueLink1 Aerodynamics: Basic`sem_aero` ` , Aerodynamics`Aero_f859fe21-5fac-4ae2-8aef-5c1268cf9de2
+
+PARSFILE Animator\Vehicles\AniVeh_60c109ee-5c8d-45dd-bfaa-dfba617c42c7.par
+#BlueLink2 Animator: Vehicles and Sensor Targets`2A Gooseneck` ` , Vehicle 3D Shape`AniVeh_60c109ee-5c8d-45dd-bfaa-dfba617c42c7
+
+PARSFILE Powertrain\Rwd\RWD_02ab1f32-7e9e-4fa6-b0c5-3005c1f474df.par
+#BlueLink4 Powertrain: Rear-Wheel Drive`sem_power` ` , Powertrain`RWD_02ab1f32-7e9e-4fa6-b0c5-3005c1f474df
+
+PARSFILE Brakes\4W_System\Brk4W_fe782403-49f0-41fe-9d31-b3b1cb8e31da.par
+#BlueLink6 Brakes: Four-Wheel System`A-Class w/o ABS` A-Class` , Brake System`Brk4W_fe782403-49f0-41fe-9d31-b3b1cb8e31da
+
+PARSFILE Steering\System2\StrSys2_15589801-d4e7-488f-9884-031d53c5d85c.par
+#BlueLink7 Steering`A-Class, Hatchback: Manual, R&P 2017` ` , Steering System`StrSys2_15589801-d4e7-488f-9884-031d53c5d85c
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_60c109ee-5c8d-45dd-bfaa-dfba617c42c7.png
+
+LOG_ENTRY Used Dataset: Vehicle: Assembly; SEM1
+#Library : Vehicle: Assembly
+#DataSet : SEM1
+#Category: 
+#FileID  : Vehicle_b2ec6626-0d65-4b27-8408-a64db53baadf
+#Product : CarSim 2017.1
+#VehCode Ind_Ind
+
+END

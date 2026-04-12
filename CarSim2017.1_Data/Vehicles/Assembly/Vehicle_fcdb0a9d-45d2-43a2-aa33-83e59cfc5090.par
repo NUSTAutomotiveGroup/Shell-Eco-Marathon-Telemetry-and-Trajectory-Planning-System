@@ -1,0 +1,114 @@
+PARSFILE
+#FullDataName Vehicle: Assembly`D-Class, Sedan 2017 (PT Mounts, FF Based AWD)`D-Class
+#VehCode E_Ind_Ind
+#CheckBox0 0    
+#CheckBox1 0    
+
+#RingCtrl0 3
+OPT_PT 3
+#RingCtrl1 1
+#RingCtrl2 1
+#RingCtrl3 0
+
+* Front components
+iaxle 1
+symbol_push  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_72c84268-e5ff-4653-93e4-64cc9c37e17d.par
+#BlueLink19 Suspension: Independent System Kinematics`D-Class, Sedan - Front` D-Class` , Kinematics`KinInd_72c84268-e5ff-4653-93e4-64cc9c37e17d
+
+PARSFILE Suspensions\Compliance\CmpInd_da70ea08-7da6-41b8-b80c-19fad9f297e0.par
+#BlueLink16 Suspension: Independent Compliance, Springs, and Dampers`D-Class, Sedan - Front` D-Class` , Compliance`CmpInd_da70ea08-7da6-41b8-b80c-19fad9f297e0
+
+
+OPT_ALL_FOUR_TIRES_ALIKE 1
+
+* LF tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_226ce359-1dc5-472f-9e34-ec3debbea095.par
+#BlueLink999 Tire`215/55 R17` Touring Tires` , Tire`Tire_226ce359-1dc5-472f-9e34-ec3debbea095
+
+
+* RF tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_226ce359-1dc5-472f-9e34-ec3debbea095.par
+#BlueLink10 Tire`215/55 R17` Touring Tires` , Tire`Tire_226ce359-1dc5-472f-9e34-ec3debbea095
+
+* Rear components
+iaxle 2
+symbol_add  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_3f0e7257-9c0b-4b54-9c22-a9aaacdc6917.par
+#BlueLink20 Suspension: Independent System Kinematics`D-Class, Sedan - Rear` D-Class` , Kinematics`KinInd_3f0e7257-9c0b-4b54-9c22-a9aaacdc6917
+
+PARSFILE Suspensions\Compliance\CmpInd_39df7721-d21a-4116-ba8e-45be4d71ba08.par
+#BlueLink17 Suspension: Independent Compliance, Springs, and Dampers`D-Class, Sedan - Rear` D-Class` , Compliance`CmpInd_39df7721-d21a-4116-ba8e-45be4d71ba08
+
+
+* LR tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_226ce359-1dc5-472f-9e34-ec3debbea095.par
+#BlueLink999 Tire`215/55 R17` Touring Tires` , Tire`Tire_226ce359-1dc5-472f-9e34-ec3debbea095
+
+
+* RR tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_226ce359-1dc5-472f-9e34-ec3debbea095.par
+#BlueLink999 Tire`215/55 R17` Touring Tires` , Tire`Tire_226ce359-1dc5-472f-9e34-ec3debbea095
+
+symbol_set <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Vehicles\Sprung_Mass\SprMass_4294a746-652b-41aa-98ee-4a883271fbcc.par
+#BlueLink0 Vehicle: Sprung Mass`D-Class, Sedan w/ Powertrain Mount` D-Class` , Sprung Mass`SprMass_4294a746-652b-41aa-98ee-4a883271fbcc
+
+PARSFILE Aerodynamics\Aero_Main\Aero_a610d4fd-9cf5-4ffa-90af-33c3c3fe903c.par
+#BlueLink1 Aerodynamics: Basic`D-Class, Sedan` Sedans` , Aerodynamics`Aero_a610d4fd-9cf5-4ffa-90af-33c3c3fe903c
+
+PARSFILE Animator\Vehicles\AniVeh_f2dbf3b6-68ed-4f69-9064-eaa72ebcf53c.par
+#BlueLink2 Animator: Vehicles and Sensor Targets`D-Class, Sedan (Transparent)` D-Class Vehicles` , Vehicle 3D Shape`AniVeh_f2dbf3b6-68ed-4f69-9064-eaa72ebcf53c
+
+R_REAR_DRIVE_SC 0
+PMAX_SC 201
+PARSFILE Powertrain\4wd\4WD_a70bf04b-350b-4fea-b9bb-57697c349925.par
+#BlueLink5 Powertrain: 4-Wheel Drive`150 kW, 6-spd., R4.1 (Eng. Mounted Fr. Diff.)` 150 kW Powertrains` , Powertrain`4WD_a70bf04b-350b-4fea-b9bb-57697c349925
+
+PARSFILE Brakes\4W_System\Brk4W_f138e0c2-eba6-485e-be4c-6ea1d747f4a1.par
+#BlueLink6 Brakes: Four-Wheel System`D-Class, Sedan w/ ABS` D-Class` , Brake System`Brk4W_f138e0c2-eba6-485e-be4c-6ea1d747f4a1
+
+PARSFILE Steering\System2\StrSys2_a9f35dbf-b99a-4ebd-b214-0d37152bc6a3.par
+#BlueLink7 Steering`D-Class, Sedan 2017: Power, R&P` CS D-Class` , Steering System`StrSys2_a9f35dbf-b99a-4ebd-b214-0d37152bc6a3
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_f2dbf3b6-68ed-4f69-9064-eaa72ebcf53c.png
+
+#EMBEDDED_NOTES
+#Generic D-Class Sedan (Mid-Size) with Strut front and Tri-Link Strut rear suspension.
+#
+#D-Class vehicles include the Alfa Romeo 159, Audi A4, BMW 3 Series, Cadillac CTS, Lexus IS, and Mercedes-Benz C-Class.
+#
+#In this example, the engine (and any rigid parts which move together with the engine, e.g. transmission, clutch/torque converter) is treated as a single independent rigid body from the chassis (sprung mass).
+#
+#Details on engine body location and how the engine is mounted are specified on another screen: Engine Mounts: Engine Mass and Geometry. This is linked from the sprung mass dataset "D-Class, Sedan w/ Powertrain Mount.
+#
+#The engine body also reacts in the pitch / roll directions with the drive torque through the drive shafts and/or propeller shaft(s).
+#
+#The drive torque reactions are specified on the Powertrain screen (See the checkbox for "Front drive torque pitch effect").
+#
+#Updated for CarSim 2017:  Revised the steering system parameters.  Tested for: On-Center, Static Steer, and Free Response Stability.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Assembly; { D-Class } D-Class, Sedan 2017 (PT Mounts, FF Based AWD)
+#Library : Vehicle: Assembly
+#DataSet : D-Class, Sedan 2017 (PT Mounts, FF Based AWD)
+#Category: D-Class
+#FileID  : Vehicle_fcdb0a9d-45d2-43a2-aa33-83e59cfc5090
+#Product : CarSim 2017.1
+#VehCode E_Ind_Ind
+
+END

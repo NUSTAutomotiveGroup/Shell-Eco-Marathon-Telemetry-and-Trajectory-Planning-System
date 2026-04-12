@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Exotic Racecar: Front Tire`CS Exotic Car
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\vehicles\Exotic_Race_Car\Exotic_RaceCar_Front_Tire.obj
+#ENDMYellow
+
+SET_COLOR 1 1 1
+*SPECULAR 0.8
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+SET_SPECULAR 0.8 0.8 0.8
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_9aeeb4d8-711a-4e91-af4f-05e82614e894.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS Exotic Car } Exotic Racecar: Front Tire
+#Library : Animator: Shape File Link
+#DataSet : Exotic Racecar: Front Tire
+#Category: CS Exotic Car
+#FileID  : Shape_9aeeb4d8-711a-4e91-af4f-05e82614e894
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

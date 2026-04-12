@@ -1,0 +1,54 @@
+PARSFILE
+#FullDataName Generic VS Commands`Handbrake Turn Variable Definitions 2017`Miscellaneous Custom Controls
+#VehCode VS Commands
+
+#MiscYellow0
+define_parameter vx_in 50; km/h; Speed to begin steer
+
+define_parameter rate 1; deg/s; Apply handbrake when vehicle begins to yaw
+
+define_parameter yaw_max 25; deg; Once the car has rotated, release the brake and unwind the steering
+
+define_parameter hb_on 0; -; hb_on is the control signal. 0 = OFF, 1 = FULLY ON
+define_parameter p_target 0; mpa;
+
+define_variable p_state 0; mpa; state variable for brake dynamics
+
+define_parameter pmax = 6.625; mpa; the max wheel cylinder pressure to be used in the brake event
+
+define_parameter tc_hb = 0.06; sec; time constant for the handbrake
+
+! a differential equation supplies a time constant for brake pressure
+eq_in p_target = hb_on * pmax; calculate pressures
+eq_differential p_state = (p_target - p_state) / tc_hb;
+
+! assign values to import varibles
+eq_in imp_pbk_l2 = p_state;
+
+! both brakes have same pressure
+eq_in imp_pbk_r2 = imp_pbk_l2;
+
+! import command
+imp_pbk_l2 vs_replace 0
+imp_pbk_r2 vs_replace 0
+
+!define table to be used
+define_table hbk_rel 1
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#See notes within the VS Commands at right.
+#
+#Updated in 2017: includes additional VS command functionality introduced in the last several versions.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { Miscellaneous Custom Controls } Handbrake Turn Variable Definitions 2017
+#Library : Generic VS Commands
+#DataSet : Handbrake Turn Variable Definitions 2017
+#Category: Miscellaneous Custom Controls
+#FileID  : GenVS_983df623-7bec-4ec2-bdb0-186139c9f18a
+#Product : CarSim 2017.1
+#VehCode VS Commands
+
+END

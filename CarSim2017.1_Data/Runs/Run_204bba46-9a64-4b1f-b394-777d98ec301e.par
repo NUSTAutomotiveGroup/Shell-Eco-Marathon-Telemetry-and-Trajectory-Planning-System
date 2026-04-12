@@ -1,0 +1,85 @@
+PARSFILE
+#FullDataName CarSim Run Control`Events: Reverse Spin`Steering Tests
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_204bba46-9a64-4b1f-b394-777d98ec301e
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_9420feda-471d-4218-a289-2df6fb091649.par
+#BlueLink0 Animator: Camera Setup`325 deg. Azimuth, 33.5 deg. FOV, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_9420feda-471d-4218-a289-2df6fb091649
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 3
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_e7198cbd-2d8b-48a3-b221-f4b4f079c185.par
+#BlueLink2 Vehicle: Assembly`B-Class, Sports Car 2017` B-Class` , Vehicle Configuration`Vehicle_e7198cbd-2d8b-48a3-b221-f4b4f079c185
+
+PARSFILE Procedures\Proc_84923d7e-e8d7-48cd-9da8-3f3a662a0d7a.par
+#BlueLink28 Procedures`Reverse Spin` Event Triggered Tests` , Procedure`Proc_84923d7e-e8d7-48cd-9da8-3f3a662a0d7a
+
+PARSFILE Animator\Arrows\Arrows_0707108a-af33-4db9-b1d3-bdbd23eea887.par
+#BlueLink9 Animator: Wheel Arrows and Other Indicators`Tire Skid Marks (2 Axles)` Tire Paths (2 Axle)` , Miscellaneous`Arrows_0707108a-af33-4db9-b1d3-bdbd23eea887
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_4986d2bf-e6a5-4076-b5cc-94a288fa5a6d.png
+WRITE_SENSOR_DETECT
+Title Events: Reverse Spin <Steering Tests>
+CATEGORY Steering Tests 
+DATASET_TITLE Events: Reverse Spin
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example uses Events to set up a Reverse Spin maneuver as an entertaining illustration of several concepts.
+#
+#The driver starts in reverse at full throttle using open-loop speed control. Steering is also controlled in open-loop mode, holding the steer angle at zero.
+#
+#When the speed reaches "vx_r" km/h in reverse, the throttle is closed, the transmisssion is shifted into neutral, and a rapid steering input is made to spin the car.
+#
+#After yawing "yaw_spin" deg, the driver brakes hard. The Event trigger is set to occur when the speed exceeds +1 km/h so we know the car is moving forward.
+#
+#Once this happens the Event is switched (with the brakes still applied) to a new Event with a trigger set to occur when the vehicle has nearly stopped.
+#
+#Finally the brakes are released, the closed loop driver model is switched on to drive straight ahead, the throttle is opened half way, and the transmission set to shift automatically.
+#
+#Note the use of opt_direction -1 on Event E. This tells the driver model the car is traveling in the road reverse direction (i.e., negative station position).
+#
+#This Event-driven test is terminated when the vehicle speed exceeds "vx_max" km/h.
+#
+#Using Events, any output variable or equation can be set as a trigger. When some threshold level of a trigger is reached (either increasing or decreasing), any aspect of the run can be changed. Changes may include control methods (i.e., from open loop to closed loop or vice versa), model parameters, or definition of the environment.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Steering Tests } Events: Reverse Spin
+#Library : CarSim Run Control
+#DataSet : Events: Reverse Spin
+#Category: Steering Tests
+#FileID  : Run_204bba46-9a64-4b1f-b394-777d98ec301e
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

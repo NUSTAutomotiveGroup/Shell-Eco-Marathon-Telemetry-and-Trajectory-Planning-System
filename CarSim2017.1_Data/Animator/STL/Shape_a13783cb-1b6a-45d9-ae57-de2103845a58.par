@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Utility Truck: Bed Details`CS Utility Truck
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\vehicles\Mini Truck\bed_details.obj
+#ENDMYellow
+
+SET_COLOR 1 1 1
+SET_OFFSET_X -0.58
+SET_OFFSET_Y 0
+SET_OFFSET_Z 0
+*SPECULAR 0.3
+*TRANSPARENCY 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+set_transparency 1
+SET_SPECULAR 0.3 0.3 0.3
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_a13783cb-1b6a-45d9-ae57-de2103845a58.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS Utility Truck } Utility Truck: Bed Details
+#Library : Animator: Shape File Link
+#DataSet : Utility Truck: Bed Details
+#Category: CS Utility Truck
+#FileID  : Shape_a13783cb-1b6a-45d9-ae57-de2103845a58
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

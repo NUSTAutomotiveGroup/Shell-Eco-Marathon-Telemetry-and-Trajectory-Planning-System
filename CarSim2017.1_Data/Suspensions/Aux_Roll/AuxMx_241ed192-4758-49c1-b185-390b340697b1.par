@@ -1,0 +1,26 @@
+PARSFILE
+#FullDataName Suspension: Auxiliary Roll Moment`Linear: 1150 N-m/deg`Linear
+#CheckBox0 0    
+
+#RingCtrl0 COEFFICIENT
+#RingCtrl1 CONSTANT
+#RingCtrl2 MULTIPLY
+MX_AUX_COMBINE MULTIPLY
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+MX_AUX_COEFFICIENT 1150
+MX_AUX_FSTATIC_CONSTANT 1
+*SCALAR 1150
+*SCALAR2 1
+
+
+LOG_ENTRY Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 1150 N-m/deg
+#Library : Suspension: Auxiliary Roll Moment
+#DataSet : Linear: 1150 N-m/deg
+#Category: Linear
+#FileID  : AuxMx_241ed192-4758-49c1-b185-390b340697b1
+#Product : CarSim 2017.1
+#VehCode Aux. Roll Moment
+
+END

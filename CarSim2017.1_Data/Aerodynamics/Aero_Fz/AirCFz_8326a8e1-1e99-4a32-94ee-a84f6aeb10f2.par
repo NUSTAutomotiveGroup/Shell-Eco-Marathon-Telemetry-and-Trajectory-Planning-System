@@ -1,0 +1,58 @@
+PARSFILE
+#FullDataName Aerodynamics: Fz (Lift) Coef. vs. Aero Slip`D-Class, Sedan`
+#CheckBox0 0    
+
+#RingCtrl0 SPLINE
+#RadioCtrl0 0    
+
+#DiagramOne0
+FZ_AERO_SHAPING_TABLE SPLINE
+-180, 0.24
+-170, 0.242412295
+-160, 0.249358222
+-150, 0.26
+-140, 0.273054073
+-130, 0.286945927
+-120, 0.3
+-110, 0.310641778
+-100, 0.317587705
+-90, 0.32
+-80, 0.313667725
+-70, 0.295434667
+-60, 0.2675
+-50, 0.233233059
+-40, 0.196766941
+-30, 0.1625
+-20, 0.134565333
+-10, 0.116332275
+0, 0.11
+10, 0.116332275
+20, 0.134565333
+30, 0.1625
+40, 0.196766941
+50, 0.233233059
+60, 0.2675
+70, 0.295434667
+80, 0.313667725
+90, 0.32
+100, 0.317587705
+110, 0.310641778
+120, 0.3
+130, 0.286945927
+140, 0.273054073
+150, 0.26
+160, 0.249358222
+170, 0.242412295
+180, 0.24
+ENDTABLE
+
+
+LOG_ENTRY Used Dataset: Aerodynamics: Fz (Lift) Coef. vs. Aero Slip; D-Class, Sedan
+#Library : Aerodynamics: Fz (Lift) Coef. vs. Aero Slip
+#DataSet : D-Class, Sedan
+#Category: 
+#FileID  : AirCFz_8326a8e1-1e99-4a32-94ee-a84f6aeb10f2
+#Product : CarSim 2017.1
+#VehCode Lift vs. Aero Slip
+
+END

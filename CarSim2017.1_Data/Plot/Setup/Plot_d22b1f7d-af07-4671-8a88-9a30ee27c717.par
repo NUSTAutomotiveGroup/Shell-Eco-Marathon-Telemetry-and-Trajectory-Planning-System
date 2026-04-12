@@ -1,0 +1,46 @@
+PARSFILE
+#FullDataName Plot: Setup`Oversteer Indicator`User-Defined Variables
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow1
+define_output esc_os2 =  ge(esc_yrp * esc_err, 0)
+#ENDMYellow
+
+#MiscYellow0
+PLOTCHANNELS esc_os, time, with dead zone
+PLOTCHANNELS esc_os2, time, ge(esc_yrp * esc_err)
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Oversteer Indicator
+
+END_ENTITY Plot
+
+
+#EMBEDDED_NOTES
+#This dataset is linked to a VS Command dataset that adds an ESC via VS Commands. The variables listed here are defined with some of those VS Commands.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Plot: Setup; { User-Defined Variables } Oversteer Indicator
+#Library : Plot: Setup
+#DataSet : Oversteer Indicator
+#Category: User-Defined Variables
+#FileID  : Plot_d22b1f7d-af07-4671-8a88-9a30ee27c717
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

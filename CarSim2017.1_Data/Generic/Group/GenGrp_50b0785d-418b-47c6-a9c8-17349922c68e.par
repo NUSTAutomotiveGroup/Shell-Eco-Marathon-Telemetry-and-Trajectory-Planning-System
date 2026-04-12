@@ -1,0 +1,45 @@
+PARSFILE
+#FullDataName Generic Data Group`Diesel Engine (6 Cylinder)`Audio Sound Sets
+#VehCode Generic Group
+#MiscYellow0
+define_parameter ncyls = 6;
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+#ENDMYellow
+
+PARSFILE Animator\Sound\Sample\SndSmp_30abd745-f045-4670-b6a5-f5d9e37ba113.par
+#BlueLink0 Animator: Sound Sample`Diesel 6 Cyl. - Power Off` Diesel Engine` , Link 1`SndSmp_30abd745-f045-4670-b6a5-f5d9e37ba113
+
+
+PARSFILE Animator\Sound\Sample\SndSmp_f107203a-a225-4132-8ebc-daab89d25fd4.par
+#BlueLink1 Animator: Sound Sample`Diesel 6 Cyl. - Power On` Diesel Engine` , Link 2`SndSmp_f107203a-a225-4132-8ebc-daab89d25fd4
+
+
+#BlueLink2 ` , Link 3` , Link 3` , Link 3`
+
+
+#BlueLink3 ` , Link 4` , Link 4` , Link 4`
+
+
+#BlueLink4 ` , Link 5` , Link 5` , Link 5`
+
+
+#BlueLink5 ` , Link 6` , Link 6` , Link 6`
+
+
+
+
+
+
+#EMBEDDED_NOTES
+#The sound samples are based on a 6 cylinder engine. The frequency can be scaled for a different number of cylinders by setting the ncyls parameter here.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Data Group; { Audio Sound Sets } Diesel Engine (6 Cylinder)
+#Library : Generic Data Group
+#DataSet : Diesel Engine (6 Cylinder)
+#Category: Audio Sound Sets
+#FileID  : GenGrp_50b0785d-418b-47c6-a9c8-17349922c68e
+#Product : CarSim 2017.1
+#VehCode Generic Group
+
+END

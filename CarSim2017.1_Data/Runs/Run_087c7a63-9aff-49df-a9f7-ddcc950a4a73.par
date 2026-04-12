@@ -1,0 +1,80 @@
+PARSFILE
+#FullDataName CarSim Run Control`Twist Beam Suspension Legacy`Suspension and Ride Tests
+#VEHICLECODE Ind_Twist
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_087c7a63-9aff-49df-a9f7-ddcc950a4a73
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_d988c2d4-cc54-46a0-bd8a-31056567ae48.par
+#BlueLink0 Animator: Camera Setup`150 deg. Azimuth, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_d988c2d4-cc54-46a0-bd8a-31056567ae48
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 4
+#RingCtrl7 -1
+*RUN_COLOR 0 0 0.8
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_2a7c1fe8-6a9f-4c95-950f-e88bba04889e.par
+#BlueLink2 Vehicle: Assembly`B-Class, Hatchback 2017: Twist Beam (Leg.)` B-Class` , Vehicle Configuration`Vehicle_2a7c1fe8-6a9f-4c95-950f-e88bba04889e
+
+PARSFILE Procedures\Proc_cd7fd4e1-58f5-4013-8142-b81fd633e040.par
+#BlueLink28 Procedures`Chassis Twist Road` Ride Tests` , Procedure`Proc_cd7fd4e1-58f5-4013-8142-b81fd633e040
+
+PARSFILE Plot\Setup\Plot_925774b2-2830-4346-88bc-cd769b2daeeb.par
+#BlueLink15 Plot: Setup`Camber vs. Jounce - Rear` Suspension Motion` , Plot`Plot_925774b2-2830-4346-88bc-cd769b2daeeb
+
+PARSFILE Plot\Setup\Plot_5d0d34fa-0c67-420b-91e7-7ec4c84644d9.par
+#BlueLink16 Plot: Setup`Steer vs. Jounce - Rear` Suspension Motion` , Plot`Plot_5d0d34fa-0c67-420b-91e7-7ec4c84644d9
+
+PARSFILE Plot\Setup\Plot_7095748e-d908-4cf0-a872-3c952661aff1.par
+#BlueLink17 Plot: Setup`Steer vs. Roll - Rear` Suspension Motion` , Plot`Plot_7095748e-d908-4cf0-a872-3c952661aff1
+
+PARSFILE Plot\Setup\Plot_01214797-258a-46b4-bda1-87469cd6b93a.par
+#BlueLink18 Plot: Setup`Wheel Lateral vs. Jounce - Rear` Suspension Motion` , Plot`Plot_01214797-258a-46b4-bda1-87469cd6b93a
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_82c243fc-f3db-4580-95e7-f811abb55d9f.png
+WRITE_SENSOR_DETECT
+Title Twist Beam Suspension Legacy <Suspension and Ride Tests>
+CATEGORY Suspension and Ride Tests 
+DATASET_TITLE Twist Beam Suspension Legacy
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example uses the dedicated (legacy) twist beam solver, which is based on an equivalent kinematics formulation.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Suspension and Ride Tests } Twist Beam Suspension Legacy
+#Library : CarSim Run Control
+#DataSet : Twist Beam Suspension Legacy
+#Category: Suspension and Ride Tests
+#FileID  : Run_087c7a63-9aff-49df-a9f7-ddcc950a4a73
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

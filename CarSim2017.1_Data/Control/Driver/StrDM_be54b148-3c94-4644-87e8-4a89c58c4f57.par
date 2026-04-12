@@ -1,0 +1,36 @@
+PARSFILE
+#FullDataName Control: Steering by the Closed-loop Driver Model`Highway Merge`Highway Merge
+#CheckBox0 0    
+OPT_DRIVER_MODEL 1
+#CheckBox1 0    
+CREATE_PATH_OBJ off
+#CheckBox2 0    
+
+#RingCtrl0 0
+#RingCtrl1 LINEAR_FLAT
+#DiagramOne0
+LTARG_TABLE LINEAR_FLAT
+0, 5
+475, 5
+550, 1
+ENDTABLE
+#RadioCtrl0 0    
+
+AV_SW_MAX_DM 1200
+TLAG_DM 0
+A_SW_MAX_DM 720
+*TPREV 0.75
+*SCALAR 1
+VLOW_DRIVER 10
+
+TPREV_CONSTANT 0.75
+
+LOG_ENTRY Used Dataset: Control: Steering by the Closed-loop Driver Model; { Highway Merge } Highway Merge
+#Library : Control: Steering by the Closed-loop Driver Model
+#DataSet : Highway Merge
+#Category: Highway Merge
+#FileID  : StrDM_be54b148-3c94-4644-87e8-4a89c58c4f57
+#Product : CarSim 2017.1
+#VehCode Driver Path Follower
+
+END

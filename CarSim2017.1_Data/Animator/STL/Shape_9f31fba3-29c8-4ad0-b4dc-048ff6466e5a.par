@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Handling Course Details With Shadows`Handling Course
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\scenery\handling_course_OSG\Details_Shadows.OSG
+#ENDMYellow
+
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+vsv_enable_shadows_recursive
+#MiscYellow0
+translucent_fix on
+#ENDMYellow
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_614e20f4-a550-401b-86b4-f904a05376d4.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (No Grid)` Shape Preview` , Video Camera`Camera_614e20f4-a550-401b-86b4-f904a05376d4
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_9f31fba3-29c8-4ad0-b4dc-048ff6466e5a.png
+
+#EMBEDDED_NOTES
+#This image will only animate using the VsVisualizer.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Handling Course } Handling Course Details With Shadows
+#Library : Animator: Shape File Link
+#DataSet : Handling Course Details With Shadows
+#Category: Handling Course
+#FileID  : Shape_9f31fba3-29c8-4ad0-b4dc-048ff6466e5a
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

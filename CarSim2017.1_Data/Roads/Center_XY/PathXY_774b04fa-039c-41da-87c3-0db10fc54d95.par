@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Path: X-Y Coordinates`Long Straight`
+#RingCtrl0 1
+DEFINE_PATHS 1
+IPATH = NPATH
+PATH_ID IPATH
+DEFINE_XY_TABLES 1
+ITAB_XY = NTAB_XY
+XY_TABLE_ID = ITAB_XY
+SET_DESCRIPTION PATH_ID Long Straight
+SET_DESCRIPTION XY_TABLE_ID Long Straight
+IPATHSEG = 1
+PATH_ID_DM = PATH_ID
+SEGMENT_TYPE = 1
+XY_SEGMENT_ID = XY_TABLE_ID
+
+#CheckBox0 0    
+OPT_PATH_LOOP 0
+
+#RadioCtrl0 0    
+
+SPATH_START 0
+#DiagramOne0
+SEGMENT_XY_TABLE
+0.0000, 0.0000, 0.000
+4000.0000, 0.0000, 4000.000
+ENDTABLE
+
+LOG_ENTRY Used Dataset: Path: X-Y Coordinates; Long Straight
+#Library : Path: X-Y Coordinates
+#DataSet : Long Straight
+#Category: 
+#FileID  : PathXY_774b04fa-039c-41da-87c3-0db10fc54d95
+#Product : CarSim 2017.1
+#VehCode X-Y Coordinates of Path
+
+END

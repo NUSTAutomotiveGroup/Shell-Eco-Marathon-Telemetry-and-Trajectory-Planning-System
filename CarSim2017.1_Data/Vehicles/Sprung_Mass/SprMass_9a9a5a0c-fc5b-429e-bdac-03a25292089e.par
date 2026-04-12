@@ -1,0 +1,55 @@
+PARSFILE
+#FullDataName Vehicle: Sprung Mass`Exotic Racecar, Mid-Engine`Exotic Car
+#VehCode Rigid sprung mass
+#RingCtrl0 0
+X_LENGTH 2650
+Y_LENGTH 1500
+iaxle 2
+iside 1
+LX_H 3500
+H_H 325
+H_CG_SU 375
+LX_AXLE 2650
+LX_CG_SU 1455
+M_SU 1200
+IXX_SU 614.2
+IYY_SU 1065.2
+IZZ_SU 1065.2
+IXZ_SU 0
+*RX 0.715
+*RY 0.942
+*RZ 0.942
+Y_CG_SU 0
+Y_H 0
+IXY_SU 0
+IYZ_SU 0
+Z_LENGTH 1146
+Y_LENGTH 1909
+*HWC_LF 375
+*HWC_RF 375
+*HWC_LR 360
+*HWC_RR 360
+
+symbol_set <<hitch_x>> -3.5
+symbol_set <<hitch_y>> 0
+symbol_set <<hitch_z>> 0.325
+H_WC 360
+iside 2
+H_WC 360
+iaxle 1
+iside 1
+H_WC 375
+iside 2
+H_WC 375
+iaxle 2
+iside 1
+
+LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; { Exotic Car } Exotic Racecar, Mid-Engine
+#Library : Vehicle: Sprung Mass
+#DataSet : Exotic Racecar, Mid-Engine
+#Category: Exotic Car
+#FileID  : SprMass_9a9a5a0c-fc5b-429e-bdac-03a25292089e
+#Product : CarSim 2017.1
+#VehCode Rigid sprung mass
+
+END

@@ -1,0 +1,49 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`Sub Compact OSG 2012`CS A-Class
+*COLOR .36 .117 .117
+*OFFSET_X 0.02
+*OFFSET_Y 0
+*OFFSET_Z 0.268
+*X_REF_LENGTH 2430
+*Y_REF_LENGTH 1780
+*Z_REF_LENGTH 1191
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 1    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_cd0e7791-d16f-4ee7-b865-c66937fe55d3.png
+PARSFILE Animator\STL\Shape_6abbbadd-808c-4781-91d3-be05225b2f8f.par
+#BlueLink0 Animator: Shape File Link`Sub Compact: OSG 2012` CS Sub Compact` , Shape File`Shape_6abbbadd-808c-4781-91d3-be05225b2f8f
+
+set_offset_x 0.02
+set_offset_y 0
+set_offset_z 0.268
+PARSFILE Animator\STL\Shape_3613d8d2-a563-4c3b-94f0-6056cfacf762.par
+#BlueLink13 Animator: Shape File Link`Sub-Compact: Driver 2012` CS Sub Compact` , Shape File`Shape_3613d8d2-a563-4c3b-94f0-6056cfacf762
+
+set_offset_x 0.02
+set_offset_y 0
+set_offset_z 0.268
+x_ref_length 2430
+y_ref_length 1780
+z_ref_length 1191
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { CS A-Class } Sub Compact OSG 2012
+#Library : Animator: Shape Assembly
+#DataSet : Sub Compact OSG 2012
+#Category: CS A-Class
+#FileID  : ShpGrp_cd0e7791-d16f-4ee7-b865-c66937fe55d3
+#Product : CarSim 2017.1
+#VehCode Shape Assembly
+
+END

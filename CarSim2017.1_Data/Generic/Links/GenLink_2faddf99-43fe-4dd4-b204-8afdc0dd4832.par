@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Generic Group of Links`Mcity: EVT, Sensor, FCW and AEB Commands`
+#VehCode Generic Links
+#BlueLink2 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+PARSFILE Generic\VS_commands\GenVS_12890b1d-e551-4dba-8cc2-f0367f4d4b2d.par
+#BlueLink5 Generic VS Commands`Euro NCAP AEB: Sensor Booleans` ADAS Support` , Miscellaneous`GenVS_12890b1d-e551-4dba-8cc2-f0367f4d4b2d
+
+PARSFILE Control\Braking\PbkCon_85da6c47-4408-479b-9385-c7f114b4bbda.par
+#BlueLink6 Control: Braking MC Pressure (Open Loop)`Mcity ADAS example` ` , Miscellaneous`PbkCon_85da6c47-4408-479b-9385-c7f114b4bbda
+
+#BlueLink7 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink13 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink14 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+
+#EMBEDDED_NOTES
+#The AEB tests use a forward-facing sensor, two moving objects, and some VS Commands.
+#
+#The VS Commands for the alert and command to brake must both follow the definition of the sensor and target vehicle.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Group of Links; Mcity: EVT, Sensor, FCW and AEB Commands
+#Library : Generic Group of Links
+#DataSet : Mcity: EVT, Sensor, FCW and AEB Commands
+#Category: 
+#FileID  : GenLink_2faddf99-43fe-4dd4-b204-8afdc0dd4832
+#Product : CarSim 2017.1
+#VehCode Generic Links
+
+END

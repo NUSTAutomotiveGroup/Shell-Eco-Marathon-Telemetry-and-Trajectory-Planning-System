@@ -1,0 +1,46 @@
+PARSFILE
+#FullDataName Generic VS Commands`VS Visualizer HUD Rearview Mirror`HUD Gauges
+#VehCode VS Commands
+
+#MiscYellow0
+! Rear view render area
+ADD_ENTITY hud_view Rear View Widget
+  location 20 20 512 128
+  align_x right
+  align_y top
+  size_mode absolute
+  place_mode absolute
+  cameraman_name Rear View Camera
+  flip_x on
+END_ENTITY hud_view Rear View Widget
+
+! Frame around the rear view render
+ADD_ENTITY hud_image Rear View Frame
+  location 10 15 532 138
+  align_x right
+  align_y top
+  size_mode absolute
+  place_mode absolute
+  opacity 1
+  image_file Animator\Hud\RearViewFrame.dds
+END_ENTITY hud_image Rear View Frame
+
+ADD_ENTITY Cameraman fixed
+  NAME Rear View Camera
+  BASE_REFERENCE_FRAME rear view mirror
+  SET_FIELD_OF_VIEW 33
+END_ENTITY Cameraman fixed
+#ENDMYellow
+
+#BlueLink0 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { HUD Gauges } VS Visualizer HUD Rearview Mirror
+#Library : Generic VS Commands
+#DataSet : VS Visualizer HUD Rearview Mirror
+#Category: HUD Gauges
+#FileID  : GenVS_2a2f1dcd-ed75-441c-8006-2c5f411682ad
+#Product : CarSim 2017.1
+#VehCode VS Commands
+
+END

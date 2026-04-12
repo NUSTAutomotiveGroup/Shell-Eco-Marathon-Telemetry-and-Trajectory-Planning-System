@@ -1,0 +1,43 @@
+PARSFILE
+#FullDataName Animator: Group`Upper Control Arms (Front)`CS Pickup, Baja
+PARSFILE Animator\Frames\Frame_61cb55dc-fe33-402d-a3fd-bd9705ff7ffa.par
+#BlueLink9 Animator: Reference Frame`LF UCA - Off-Road` Control Arms` , Miscellaneous`Frame_61cb55dc-fe33-402d-a3fd-bd9705ff7ffa
+
+PARSFILE Animator\STL\Shape_e6f20278-aa51-486d-ad58-9f25af2b09da.par
+#BlueLink10 Animator: Shape File Link`Pickup, Baja: Upper Control Arm (Front)` CS Pickup, Baja` , Miscellaneous`Shape_e6f20278-aa51-486d-ad58-9f25af2b09da
+
+#MiscYellow0
+set_angle_x -15
+#ENDMYellow
+
+PARSFILE Animator\Frames\Frame_8179727a-39ab-450f-83ae-0e4ca3556e93.par
+#BlueLink11 Animator: Reference Frame`RF UCA - Off-Road` Control Arms` , Miscellaneous`Frame_8179727a-39ab-450f-83ae-0e4ca3556e93
+
+PARSFILE Animator\STL\Shape_e6f20278-aa51-486d-ad58-9f25af2b09da.par
+#BlueLink12 Animator: Shape File Link`Pickup, Baja: Upper Control Arm (Front)` CS Pickup, Baja` , Miscellaneous`Shape_e6f20278-aa51-486d-ad58-9f25af2b09da
+
+#MiscYellow2
+set_angle_x -15
+set_angle_z 180
+#ENDMYellow
+
+*X_REF_LENGTH 2575
+*Y_REF_LENGTH 1380
+*Z_REF_LENGTH 1215
+
+#CheckBox0 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_f2e9fdc6-8eb7-4c80-a895-b3a3c8b4ed69.par
+#BlueLink20 Animator: Camera Setup`Shape Preview (Side) Static` Shape Preview` , Video Camera`Camera_f2e9fdc6-8eb7-4c80-a895-b3a3c8b4ed69
+
+
+LOG_ENTRY Used Dataset: Animator: Group; { CS Pickup, Baja } Upper Control Arms (Front)
+#Library : Animator: Group
+#DataSet : Upper Control Arms (Front)
+#Category: CS Pickup, Baja
+#FileID  : Group_faf2db26-b664-4971-b65d-fc8471e310fc
+#Product : CarSim 2017.1
+#VehCode Animator Group
+
+END

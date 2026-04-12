@@ -1,0 +1,72 @@
+PARSFILE
+#FullDataName CarSim Run Control`MF-Tyre/MF-Swift v7: DLC`* More Examples (Extra License Options)
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_0f8c329c-b0d5-4229-a3ec-b43c4a899697
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_f672fe6b-6162-4c2f-8df7-54285c2c5a0f.par
+#BlueLink0 Animator: Camera Setup`0 deg. Azimuth, 1 deg. El., Veh. Ref.` Vehicle Reference` , Animator camera`Camera_f672fe6b-6162-4c2f-8df7-54285c2c5a0f
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 12
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 1
+#RingCtrl7 -1
+*RUN_COLOR 1 1 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_e5f10bdc-a8ed-4753-bf29-fc0fbcbda0ed.par
+#BlueLink2 Vehicle: Assembly`B-Class, Hatchback 2017: MF-Tyre/MF-Swift v7` B-Class` , Vehicle Configuration`Vehicle_e5f10bdc-a8ed-4753-bf29-fc0fbcbda0ed
+
+PARSFILE Procedures\Proc_3ae0353d-bd7c-43a3-9da4-150b6952a10e.par
+#BlueLink28 Procedures`DLC @ 120 km/h (Quick Start)` Handling Testing` , Procedure`Proc_3ae0353d-bd7c-43a3-9da4-150b6952a10e
+
+PARSFILE Plot\Setup\Plot_986ce074-9acb-4be0-8bd7-ac8e03eb16ab.par
+#BlueLink15 Plot: Setup`Steer Torque` Steering` , Plot`Plot_986ce074-9acb-4be0-8bd7-ac8e03eb16ab
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_82c243fc-f3db-4580-95e7-f811abb55d9f.png
+WRITE_SENSOR_DETECT
+Title MF-Tyre/MF-Swift v7: DLC <* More Examples (Extra License Options)>
+CATEGORY * More Examples (Extra License Options) 
+DATASET_TITLE MF-Tyre/MF-Swift v7: DLC
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#A B-Class Hatchback uses the MF-Tyre/MF-Swift version 7 model performing a double lane change maneuver at 120 km/h.
+#
+#To see how the MF-Tyre/MF-Swift data is incorporated into CarSim, browse to the Vehicle: Assembly screen and click on the tire datasets.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { * More Examples (Extra License Options) } MF-Tyre/MF-Swift v7: DLC
+#Library : CarSim Run Control
+#DataSet : MF-Tyre/MF-Swift v7: DLC
+#Category: * More Examples (Extra License Options)
+#FileID  : Run_0f8c329c-b0d5-4229-a3ec-b43c4a899697
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

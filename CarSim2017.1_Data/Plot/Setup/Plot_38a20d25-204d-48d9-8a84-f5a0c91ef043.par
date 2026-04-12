@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Plot: Setup`Roll Rate vs. Event Elapsed Time`Fishhook
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d.par
+#BlueLink0 Plot: Format`Lines without Symbols` ` , Plot format`PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d
+
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS AVx, T_Event
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Roll Rate vs. Event Elapsed Time
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Fishhook } Roll Rate vs. Event Elapsed Time
+#Library : Plot: Setup
+#DataSet : Roll Rate vs. Event Elapsed Time
+#Category: Fishhook
+#FileID  : Plot_38a20d25-204d-48d9-8a84-f5a0c91ef043
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

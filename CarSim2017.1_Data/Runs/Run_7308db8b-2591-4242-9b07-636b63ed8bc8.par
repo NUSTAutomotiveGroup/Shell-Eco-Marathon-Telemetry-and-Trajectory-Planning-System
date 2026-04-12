@@ -1,0 +1,78 @@
+PARSFILE
+#FullDataName CarSim Run Control`Intersection, 4-Way w/ Flat Roads`Road Networks: Intersections and Roundabouts
+#VEHICLECODE Ind_SA
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_7308db8b-2591-4242-9b07-636b63ed8bc8
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+#BlueLink12 ` , Models` , Models` , Models`
+
+PARSFILE Animator\Cameras\Camera_983fc5af-efcf-48ad-98d0-03c726fb93eb.par
+#BlueLink0 Animator: Camera Setup`Fixed View High - Looking South` Fixed Camera` , Animator camera`Camera_983fc5af-efcf-48ad-98d0-03c726fb93eb
+
+#CheckBox0 0    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 1    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 1
+#RingCtrl7 -1
+*RUN_COLOR 1 1 1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_b1c294fd-be2e-4498-8616-8f859856094a.par
+#BlueLink2 Vehicle with Loads, Sensors, Trailer, etc.`Large European Van w/ Payload` European Van` , Vehicle Configuration`VehLoad_b1c294fd-be2e-4498-8616-8f859856094a
+
+PARSFILE Procedures\Proc_892c134b-a798-438b-a33a-7c115f8a607d.par
+#BlueLink28 Procedures`Intersection, 4-Way with Flat Roads` Road Networks` , Procedure`Proc_892c134b-a798-438b-a33a-7c115f8a607d
+
+DELETE_PLOT_GROUP default
+PLOT_GROUP default
+PARSFILE Plot\Setup\Plot_4442302e-a863-4794-b309-f1b015bb4fa7.par
+#BlueLink15 Plot: Setup`Longitudinal Speed` Vehicle Motion` , Plot`Plot_4442302e-a863-4794-b309-f1b015bb4fa7
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_a8aec856-9536-4ef7-a407-8f78b29909e9.png
+WRITE_SENSOR_DETECT
+Title Intersection, 4-Way w/ Flat Roads <Road Networks: Intersections and Roundabouts>
+CATEGORY Road Networks: Intersections and Roundabouts 
+DATASET_TITLE Intersection, 4-Way w/ Flat Roads
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example was provided in older versions to show how to switch roads using VS Events. It has been modified to use flat roads. Because they are flat, the tire/ground contect does not change with location.
+#
+#A single flat road (ID = 999) is used three times to automatically generate visual information for the video. Two reference paths are defined, and are used for traffic vehicles.
+#
+#VS Events to change the target used by the driver model from one path to the other, and to change speed.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Road Networks: Intersections and Roundabouts } Intersection, 4-Way w/ Flat Roads
+#Library : CarSim Run Control
+#DataSet : Intersection, 4-Way w/ Flat Roads
+#Category: Road Networks: Intersections and Roundabouts
+#FileID  : Run_7308db8b-2591-4242-9b07-636b63ed8bc8
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

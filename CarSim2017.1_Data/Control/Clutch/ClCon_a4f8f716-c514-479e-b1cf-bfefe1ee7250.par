@@ -1,0 +1,26 @@
+PARSFILE
+#FullDataName Control: Clutch (Open Loop)`Fast Engagement`
+opt_clutch_mode 0
+#CheckBox0 0    
+
+#RingCtrl0 LINEAR_FLAT
+#RadioCtrl0 0    
+
+#DiagramOne0
+CLUTCH_CONTROL_TABLE LINEAR_FLAT
+0, 1
+0.4, 1
+0.5, 0
+1, 0
+ENDTABLE
+
+
+LOG_ENTRY Used Dataset: Control: Clutch (Open Loop); Fast Engagement
+#Library : Control: Clutch (Open Loop)
+#DataSet : Fast Engagement
+#Category: 
+#FileID  : ClCon_a4f8f716-c514-479e-b1cf-bfefe1ee7250
+#Product : CarSim 2017.1
+#VehCode Open-Loop Clutch
+
+END

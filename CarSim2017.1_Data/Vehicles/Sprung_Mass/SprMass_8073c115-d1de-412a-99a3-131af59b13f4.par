@@ -1,0 +1,55 @@
+PARSFILE
+#FullDataName Vehicle: Sprung Mass`Tractor`
+#VehCode Rigid sprung mass
+#RingCtrl0 0
+X_LENGTH 2050
+Y_LENGTH 1500
+iaxle 2
+iside 1
+LX_H 2700
+H_H 430
+H_CG_SU 1000
+LX_AXLE 2050
+LX_CG_SU 1050
+M_SU 3000
+IXX_SU 377.1
+IYY_SU 1765
+IZZ_SU 1765
+IXZ_SU 0
+*RX 0.355
+*RY 0.767
+*RZ 0.767
+Y_CG_SU 0
+Y_H 0
+IXY_SU 0
+IYZ_SU 0
+Z_LENGTH 1883
+Y_LENGTH 1094
+*HWC_LF 550
+*HWC_RF 550
+*HWC_LR 750
+*HWC_RR 750
+
+symbol_set <<hitch_x>> -2.7
+symbol_set <<hitch_y>> 0
+symbol_set <<hitch_z>> 0.43
+H_WC 750
+iside 2
+H_WC 750
+iaxle 1
+iside 1
+H_WC 550
+iside 2
+H_WC 550
+iaxle 2
+iside 1
+
+LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; Tractor
+#Library : Vehicle: Sprung Mass
+#DataSet : Tractor
+#Category: 
+#FileID  : SprMass_8073c115-d1de-412a-99a3-131af59b13f4
+#Product : CarSim 2017.1
+#VehCode Rigid sprung mass
+
+END

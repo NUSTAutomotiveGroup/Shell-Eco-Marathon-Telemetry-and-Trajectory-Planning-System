@@ -1,0 +1,55 @@
+PARSFILE
+#FullDataName Vehicle: Sprung Mass`SUV, Full Size`
+#VehCode Rigid sprung mass
+#RingCtrl0 0
+X_LENGTH 3140
+Y_LENGTH 1500
+iaxle 2
+iside 1
+LX_H 4475
+H_H 425
+H_CG_SU 781
+LX_AXLE 3140
+LX_CG_SU 1330
+M_SU 2257
+IXX_SU 846.6
+IYY_SU 3524.9
+IZZ_SU 3524.9
+IXZ_SU 0
+*RX 0.612
+*RY 1.250
+*RZ 1.250
+Y_CG_SU 0
+Y_H 0
+IXY_SU 0
+IYZ_SU 0
+Z_LENGTH 1955
+Y_LENGTH 2029
+*HWC_LF 400
+*HWC_RF 400
+*HWC_LR 400
+*HWC_RR 400
+
+symbol_set <<hitch_x>> -4.475
+symbol_set <<hitch_y>> 0
+symbol_set <<hitch_z>> 0.425
+H_WC 400
+iside 2
+H_WC 400
+iaxle 1
+iside 1
+H_WC 400
+iside 2
+H_WC 400
+iaxle 2
+iside 1
+
+LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; SUV, Full Size
+#Library : Vehicle: Sprung Mass
+#DataSet : SUV, Full Size
+#Category: 
+#FileID  : SprMass_6dce9e1b-ec33-4150-8a30-a38a987fe406
+#Product : CarSim 2017.1
+#VehCode Rigid sprung mass
+
+END

@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName Models: Transfer to Target by FTP`No Data`Empty (You should edit or delete this)
+
+*TARGET_ID 
+
+#CheckBox0 0    
+*LEAVE_FILES 0
+#CheckBox1 0    
+OPT_IO_UPDATE 0
+#CheckBox2 0    
+#CheckBox3 0    
+*MULTI_SOLVERS 0
+
+#RingCtrl0 2
+OPT_INT_METHOD 2
+#RingCtrl1 0
+*FTP_USEFMU 0
+*USE_DIFF_SOLVERS 0
+
+LOG_ENTRY Used Dataset: Models: Transfer to Target by FTP; { Empty (You should edit or delete this) } No Data
+#Library : Models: Transfer to Target by FTP
+#DataSet : No Data
+#Category: Empty (You should edit or delete this)
+#FileID  : FTP_367569b7-598c-4f38-83f0-10b70e6ce78d
+#Product : CarSim 2017.1
+#VehCode 
+
+END

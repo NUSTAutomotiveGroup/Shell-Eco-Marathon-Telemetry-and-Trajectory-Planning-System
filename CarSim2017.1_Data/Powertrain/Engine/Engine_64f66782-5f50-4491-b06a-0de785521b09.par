@@ -1,0 +1,63 @@
+PARSFILE
+#FullDataName Powertrain: Engine`sem_1`
+#RingCtrl0 LINEAR
+#RingCtrl1 CONSTANT
+#CheckBox0 0    
+OPT_THROTTLE_DELAY 0
+
+#DiagramOne0
+MENGINE_TABLE LINEAR
+0, 0
+400, 0
+517, 0
+633, 0.1
+750, 0.1
+1107, 0.12
+1463, 0.66
+1820, 1.14
+2177, 1.57
+2533, 2.03
+2890, 2.39
+3247, 2.84
+3603, 3.1
+3960, 3.46
+4317, 3.72
+4673, 3.96
+5030, 4.23
+5387, 4.49
+5743, 4.64
+6100, 4.8
+6500, 5
+6700, 5
+6900, 5.1
+7100, 5.1
+7300, 5.1
+7500, 5.2
+7700, 5.2
+7900, 5.2
+8100, 5.2
+8300, 5.2
+ENDTABLE
+MENGINE_THROTTLE_CONSTANT .85
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+PARSFILE Powertrain\Fuel_Rate\FuelRate_a32b7233-c00b-43fa-b605-4c55b974550c.par
+#BlueLink0 Powertrain: Fuel Consumption Rate`150 kW Gasoline Engine` ` , Fuel Rate`FuelRate_a32b7233-c00b-43fa-b605-4c55b974550c
+
+PARSFILE Generic\Group\GenGrp_efabcbad-be3a-48c3-a446-5dff753de8d2.par
+#BlueLink1 Generic Data Group`Gasoline Engine (4 Cylinder)` Audio Sound Sets` , Miscellaneous`GenGrp_efabcbad-be3a-48c3-a446-5dff753de8d2
+
+AV_ENG_IDLE 750
+IENG 0.016
+*SCALAR2 .85
+
+LOG_ENTRY Used Dataset: Powertrain: Engine; sem_1
+#Library : Powertrain: Engine
+#DataSet : sem_1
+#Category: 
+#FileID  : Engine_64f66782-5f50-4491-b06a-0de785521b09
+#Product : CarSim 2017.1
+#VehCode 2D Table 
+
+END

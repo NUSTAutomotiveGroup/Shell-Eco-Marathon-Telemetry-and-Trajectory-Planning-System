@@ -1,0 +1,30 @@
+PARSFILE
+#FullDataName Batch Runs`Steering Tests`Built-In Solvers
+#CheckBox1 0    
+
+#MiscYellow1
+#<Steering Tests> Events: Reverse Spin
+#<Steering Tests> On Center Steer Test
+#<Steering Tests> Sine Sweep Steer Angle Test
+#<Steering Tests> Sine Sweep Steer Torque Test
+#<Steering Tests> Speed Variable Steer Test w/ 4WS
+#<Steering Tests> Static Steer Test - Brakes Off
+#<Steering Tests> Static Steer Test - Brakes On
+#<Steering Tests> Torque Input: Apply and Release - Manual
+#<Steering Tests> Torque Input: Apply and Release - Power
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains the datasets which are in the Steering Tests category
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; { Built-In Solvers } Steering Tests
+#Library : Batch Runs
+#DataSet : Steering Tests
+#Category: Built-In Solvers
+#FileID  : BatRun_d57189d7-0ed4-4c7b-a6dc-aced99f1b312
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

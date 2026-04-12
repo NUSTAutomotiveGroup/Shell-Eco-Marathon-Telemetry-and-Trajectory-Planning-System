@@ -1,0 +1,49 @@
+PARSFILE
+
+! EXPANDED_PARSFILE for Math models and animator
+
+! This is an expansion of the Parsfile: "Animator\STL\Shape_c4fe824d-4603-4d6d-bead-126dda74fa5b.par"
+! It contains the contents of that file plus the contents of any files linked
+! with the "PARSFILE" keyword.
+
+! File created: 16:32 on November 29, 2016 by CarSim 2017
+
+PRODUCT_NAME CarSim
+
+ENTER_PARSFILE Animator\STL\Shape_c4fe824d-4603-4d6d-bead-126dda74fa5b.par`11-29-2016`16:32:12
+#FullDataName Animator: Shape File Link`Details`Mcity
+add_obj Animator\3D_Shape_Files_User\Mcity\Details.OSGB
+SET_COLOR 1 1 1
+set_lighting on
+set_fogging off
+vsv_enable_shadows_recursive
+ENTER_PARSFILE Animator\Cameras\Camera_ff46d53b-e8a4-41c2-846e-85f38eff5a17.par`11-17-2016`08:44:02
+#FullDataName Animator: Camera Setup`Shape Preview to Make Image`Shape Preview
+SET_CAMERA_Reference_Frame  Fixed
+ENTER_PARSFILE Animator\Frames\Frame_8d039c3c-753d-406b-9c28-9406943a988c.par`11-17-2016`08:44:03
+#FullDataName Animator: Reference Frame`Fixed`
+ADD_REFERENCE_FRAME  Fixed
+SET_EULER_ANGLES yaw_pitch_roll
+LOG_ENTRY Used Dataset: Animator: Reference Frame; Fixed
+EXIT_PARSFILE Animator\Frames\Frame_8d039c3c-753d-406b-9c28-9406943a988c.par
+
+SET_LOOKPOINT_Reference_Frame  Fixed
+SET_LOOKPOINT_X -1
+SET_LOOKPOINT_Y 0
+SET_LOOKPOINT_Z 0.7
+SET_AZIMUTH 60
+SET_ELEVATION 7
+SET_DISTANCE 35
+SET_CAMERAMAN_NAME External camera
+FOG_SCALE 0
+SET_FIELD_OF_VIEW 14
+SUN_POSITION 10 10 100
+LOG_ENTRY Used Dataset: Animator: Camera Setup; { Shape Preview } Shape Preview to Make Image
+EXIT_PARSFILE Animator\Cameras\Camera_ff46d53b-e8a4-41c2-846e-85f38eff5a17.par
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Mcity } Details
+EXIT_PARSFILE Animator\STL\Shape_c4fe824d-4603-4d6d-bead-126dda74fa5b.par
+
+
+
+END

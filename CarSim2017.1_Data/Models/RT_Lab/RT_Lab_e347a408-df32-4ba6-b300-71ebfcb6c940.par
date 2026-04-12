@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Models: Transfer to RT-Lab Target v7.x-v8.x`No Data`Empty (You should edit or delete this)
+*USER_ID ntuser
+*USER_PWD ntuser
+
+*TARGET_ID 
+
+#RingCtrl0 2
+OPT_INT_METHOD 2
+#RingCtrl1 -1
+*iCORE1 -1
+#RingCtrl2 -1
+*iCORE2 -1
+#RingCtrl3 -1
+*iCORE3 -1
+#RingCtrl4 -1
+*iCORE4 -1
+#RingCtrl5 -1
+*iCORE5 -1
+#CheckBox0 0    
+OPT_IO_UPDATE 0
+#CheckBox1 0    
+*MULTI_CORE 0
+#CheckBox2 0    
+#CheckBox3 0    
+*isDft_LGN 0
+
+*USE_DIFF_SOLVERS 0
+
+LOG_ENTRY Used Dataset: Models: Transfer to RT-Lab Target v7.x-v8.x; { Empty (You should edit or delete this) } No Data
+#Library : Models: Transfer to RT-Lab Target v7.x-v8.x
+#DataSet : No Data
+#Category: Empty (You should edit or delete this)
+#FileID  : RT_Lab_e347a408-df32-4ba6-b300-71ebfcb6c940
+#Product : CarSim 2017.1
+#VehCode 
+
+END

@@ -1,0 +1,90 @@
+PARSFILE
+#FullDataName CarSim Run Control`Crosswind and Tripped Rollover`Extended Models
+#VEHICLECODE Ind_SA
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_5a1d6cfd-1aad-453a-84b8-31d83323066d
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+#BlueLink12 ` , Models` , Models` , Models`
+
+PARSFILE Animator\Cameras\Camera_de42b31d-f3fe-4a1d-9f41-6616dbab24b5.par
+#BlueLink0 Animator: Camera Setup`RR View, Road Ref. (Frt. Facing)` Road Reference` , Animator camera`Camera_de42b31d-f3fe-4a1d-9f41-6616dbab24b5
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 1    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 10
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 3
+#RingCtrl7 -1
+*RUN_COLOR 0.8 0 0
+SET_RUN_COLOR 0.8 0 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_0ec09a67-62e7-4411-b976-560c2f487931.par
+#BlueLink2 Vehicle with Loads, Sensors, Trailer, etc.`E-Class, SUV 2017: Roof Load (Single Pt. Tire)` Rollover` , Vehicle Configuration`VehLoad_0ec09a67-62e7-4411-b976-560c2f487931
+
+PARSFILE Procedures\Proc_0aa5ed22-f578-498b-8e62-2a8b89633a82.par
+#BlueLink28 Procedures`Crosswind and Tripped Rollover` Stability Testing` , Procedure`Proc_0aa5ed22-f578-498b-8e62-2a8b89633a82
+
+PARSFILE Generic\Group\GenGrp_c11e4bbe-5e3a-4498-91a5-6c42d1db378a.par
+#BlueLink9 Generic Data Group`2 Axle - Fx, Fy, Fz` Tire Force Arrows` , Miscellaneous`GenGrp_c11e4bbe-5e3a-4498-91a5-6c42d1db378a
+
+DELETE_PLOT_GROUP default
+PLOT_GROUP default
+PARSFILE Plot\Setup\Plot_57fbe53b-9356-4cb1-9fd0-29f3e70d3894.par
+#BlueLink15 Plot: Setup`Road Wheel Steer Angle - Front` Steering` , Plot`Plot_57fbe53b-9356-4cb1-9fd0-29f3e70d3894
+
+PARSFILE Plot\Setup\Plot_076736e1-2cdd-49d5-8a36-d55940b011f0.par
+#BlueLink16 Plot: Setup`Steering: Handwheel Angle` Controls: Driver` , Plot`Plot_076736e1-2cdd-49d5-8a36-d55940b011f0
+
+PARSFILE Plot\Setup\Plot_6bb14d6c-a68f-4d3b-a1c7-683c8b2f437a.par
+#BlueLink17 Plot: Setup`Steering Wheel Angular Rate` Steering` , Plot`Plot_6bb14d6c-a68f-4d3b-a1c7-683c8b2f437a
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_6a406309-46ad-4966-bff0-ace339f3d75d.png
+WRITE_SENSOR_DETECT
+Title Crosswind and Tripped Rollover <Extended Models>
+CATEGORY Extended Models 
+DATASET_TITLE Crosswind and Tripped Rollover
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example demonstrates an Event-driven test where an SUV with a roof load is driving along a coastal highway, slowly drifts off the road, and encounters a wind gust.
+#
+#As the SUV reaches the edge of the road, it encounters a gust of wind from the gap in the cliff to the left. The wind gust nudges the vehicle onto the shoulder which is lower than the road surface and has a lower coefficient of friction than the road. The driver overreacts, rapidly applying a steering wheel input to steer the vehicle back onto the road surface. The sudden steer input induces large yaw and roll moments, and the front right wheel experiences a very large lateral force, the results of which are a tripped rollover.
+#
+#This vehicle uses tire datasets which do not use the user-defined tire contact patch dimensions. Browse to the Vehicle: Assembly screen by clicking on the Vehicle: Loads, Sensors, etc. blue link "E-Class, SUV w/ Roof Load (Single Pt. Tire).
+#
+#Once on the Vehicle: Loads, Sensors, etc. screen, click on the vehicle blue link to browse to the Vehicle: Assembly screen and click on the tire dataset "265/75 R16 (Single Contact Point)" for more information.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Extended Models } Crosswind and Tripped Rollover
+#Library : CarSim Run Control
+#DataSet : Crosswind and Tripped Rollover
+#Category: Extended Models
+#FileID  : Run_5a1d6cfd-1aad-453a-84b8-31d83323066d
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

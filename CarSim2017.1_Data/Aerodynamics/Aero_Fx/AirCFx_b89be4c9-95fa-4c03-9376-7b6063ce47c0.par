@@ -1,0 +1,62 @@
+PARSFILE
+#FullDataName Aerodynamics: Fx (Drag) Coef. vs. Aero Slip`D-Class, Sedan`
+#CheckBox0 0    
+
+#RingCtrl0 SPLINE
+#RadioCtrl0 0    
+
+#DiagramOne0
+FX_AERO_SHAPING_TABLE SPLINE
+-180, -0.46
+-170, -0.453
+-160, -0.432
+-150, -0.398
+-140, -0.352
+-130, -0.296
+-120, -0.23
+-110, -0.157
+-100, -0.08
+-90, 0
+-80, 0.049
+-70, 0.096
+-60, 0.14
+-50, 0.18
+-40, 0.214
+-30, 0.242
+-20, 0.263
+-10, 0.276
+0, 0.28
+10, 0.276
+20, 0.263
+30, 0.242
+40, 0.214
+50, 0.18
+60, 0.14
+70, 0.096
+80, 0.049
+90, 0
+100, -0.08
+110, -0.157
+120, -0.23
+130, -0.296
+140, -0.352
+150, -0.398
+160, -0.432
+170, -0.453
+180, -0.46
+ENDTABLE
+
+
+#EMBEDDED_NOTES
+#Example drag coefficient data.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Aerodynamics: Fx (Drag) Coef. vs. Aero Slip; D-Class, Sedan
+#Library : Aerodynamics: Fx (Drag) Coef. vs. Aero Slip
+#DataSet : D-Class, Sedan
+#Category: 
+#FileID  : AirCFx_b89be4c9-95fa-4c03-9376-7b6063ce47c0
+#Product : CarSim 2017.1
+#VehCode Drag vs. Aero Slip
+
+END

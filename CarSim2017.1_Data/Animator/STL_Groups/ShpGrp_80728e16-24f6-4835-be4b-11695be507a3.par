@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`GT Race Tire`Tires
+*X_REF_LENGTH 291
+*Y_REF_LENGTH 195
+*Z_REF_LENGTH 291
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 1    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_80728e16-24f6-4835-be4b-11695be507a3.png
+PARSFILE Animator\STL\Shape_31fd7692-38cd-47c2-931c-ed5fe771ef10.par
+#BlueLink0 Animator: Shape File Link`DOT Racing Tire` Tires` , Shape File`Shape_31fd7692-38cd-47c2-931c-ed5fe771ef10
+
+PARSFILE Animator\STL\Shape_59f21b1e-ef8e-4fa6-965b-bc4ee15dd86a.par
+#BlueLink1 Animator: Shape File Link`GT Wheel` Tires` , Shape File`Shape_59f21b1e-ef8e-4fa6-965b-bc4ee15dd86a
+
+x_ref_length 291
+y_ref_length 195
+z_ref_length 291
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } GT Race Tire
+#Library : Animator: Shape Assembly
+#DataSet : GT Race Tire
+#Category: Tires
+#FileID  : ShpGrp_80728e16-24f6-4835-be4b-11695be507a3
+#Product : CarSim 2017.1
+#VehCode Shape Assembly
+
+END

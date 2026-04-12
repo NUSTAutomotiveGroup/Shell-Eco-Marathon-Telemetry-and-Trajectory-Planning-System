@@ -1,0 +1,42 @@
+PARSFILE
+#FullDataName Generic Data Group`LCA Sub-compact (Rear)`Control Arms
+#VehCode Generic Group
+PARSFILE Animator\Groups\Group_2d8bb9ac-04dc-4311-a388-3f8a91439901.par
+#BlueLink0 Animator: Group`Lower Control Arms (Rear)` Sub Compact Susp. Parts` , Link 1`Group_2d8bb9ac-04dc-4311-a388-3f8a91439901
+
+
+PARSFILE Output\Sensors\MoSen_18dd9935-ac1e-48a0-b2a8-b2d1972bc4b7.par
+#BlueLink1 Positions, Velocities, and Accelerations`Rear LCA` LCA Sub-compact` , Link 2`MoSen_18dd9935-ac1e-48a0-b2a8-b2d1972bc4b7
+
+
+
+#MiscYellow3
+iaxle 2
+iside 1
+L_LCA 338
+iside 2
+L_LCA 338
+#ENDMYellow
+
+
+
+
+
+
+
+
+#EMBEDDED_NOTES
+#This dataset adds animation shapes and output variables to show movements of a lower control arm. Although CarSim does not include linkages in the suspension, the movements can be estimated from the wheel travel.
+#
+#Motion sensors are used to output variables for the attachment point.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Data Group; { Control Arms } LCA Sub-compact (Rear)
+#Library : Generic Data Group
+#DataSet : LCA Sub-compact (Rear)
+#Category: Control Arms
+#FileID  : GenGrp_391bae9b-4a4e-4b80-a3a0-6a9accd1371e
+#Product : CarSim 2017.1
+#VehCode Generic Group
+
+END

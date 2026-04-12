@@ -1,0 +1,46 @@
+PARSFILE
+#FullDataName Events`D. Have Coasted to 80 km/h`Sine with Dwell
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl0 ~=
+#RingCtrl1 >=
+#RingCtrl10 2
+#RingCtrl11 4
+*NAME1 OPT_SWD_RESTORE
+*NAME2 T
+*VALUE1 0
+*VALUE2 0
+*SPEED 80
+
+#MiscYellow0
+! Set T_Event to hit zero at the next write time
+T_EVENT_START = TSTEP_WRITE * CEIL(T/TSTEP_WRITE + .001) ;
+TSTART_STEER = T_EVENT_START;
+#ENDMYellow
+
+DEFINE_EVENT OPT_SWD_RESTORE ~= 0 ; Events\Events_d0b4e58c-6c70-42aa-8909-4472dd7099d1.par
+#BlueLink0 Events`D1. Save State at 80 km/h` Sine with Dwell` , Events`Events_d0b4e58c-6c70-42aa-8909-4472dd7099d1
+
+DEFINE_EVENT T >= 0 ; Events\Events_66d82aca-f992-425f-bb09-d018030df90c.par
+#BlueLink1 Events`E. Start Sine with Dwell` Sine with Dwell` , Events`Events_66d82aca-f992-425f-bb09-d018030df90c
+
+
+#EMBEDDED_NOTES
+#Two options are provided here to support the save/restore capability in CarSim to reduce the simulation time. This option is enabled by setting the parameter OPT_SWD_RESTORE to a non-zero value.
+#
+#If OPT_SWD_RESTORE is not zero, then the vehicle state will be saved (D1); otherwise, just start the sine-with-dwell steering control.
+#
+#This also sets the start time for the steer control to match the next scheduled write time.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Sine with Dwell } D. Have Coasted to 80 km/h
+#Library : Events
+#DataSet : D. Have Coasted to 80 km/h
+#Category: Sine with Dwell
+#FileID  : Events_fec269b6-91c8-4ad9-a8b9-9c30e29f2c44
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

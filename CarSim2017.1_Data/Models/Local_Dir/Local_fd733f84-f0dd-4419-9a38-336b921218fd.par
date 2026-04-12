@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Models: Transfer to Local Windows Directory`Simple Run from MATLAB (32-bit)`Running from MATLAB
+*USE_ALT_DIR 1
+#ALTPATH Extensions\Custom_M
+#CheckBox0 0    
+OPT_IO_UPDATE 0
+#CheckBox1 0    
+#CheckBox2 0    
+*USE_DIFF_SOLVERS 0
+
+#RingCtrl0 2
+OPT_INT_METHOD 2
+#RingCtrl1 0
+*X64SOLVER 0
+#MiscYellow1
+simfile simple.sim
+
+*cpar_include Extensions\Custom_M\Simple.m
+*cpar_include Extensions\Custom_M\vs_api_def_m.h
+*cpar_include Extensions\Custom_M\vs_dll_path.m
+#ENDMYellow
+
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+#EMBEDDED_NOTES
+#This identifies the folder containing an M file that will read the simfile "simple.sim", load the VS solver DLL for the currently selected vehicle, and make the run.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: Transfer to Local Windows Directory; { Running from MATLAB } Simple Run from MATLAB (32-bit)
+#Library : Models: Transfer to Local Windows Directory
+#DataSet : Simple Run from MATLAB (32-bit)
+#Category: Running from MATLAB
+#FileID  : Local_fd733f84-f0dd-4419-9a38-336b921218fd
+#Product : CarSim 2017.1
+#VehCode 
+
+END

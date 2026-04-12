@@ -1,0 +1,31 @@
+PARSFILE
+#FullDataName Animator: Reference Frame`LF Wheel`Wheels (Non-spinning Part)
+ADD_REFERENCE_FRAME Wheels (Non-spinning Part) LF Wheel
+#RingCtrl0 yaw_roll_pitch
+SET_EULER_ANGLES yaw_roll_pitch
+SET_X_NAME x_l1
+SET_Y_NAME y_l1
+SET_Z_NAME z_l1
+SET_ROLL_NAME Roll_L1
+SET_YAW_NAME Yaw_L1
+
+WRT_x_l1
+ANI_x_l1
+WRT_y_l1
+ANI_y_l1
+WRT_z_l1
+ANI_z_l1
+WRT_Roll_L1
+ANI_Roll_L1
+WRT_Yaw_L1
+ANI_Yaw_L1
+
+LOG_ENTRY Used Dataset: Animator: Reference Frame; { Wheels (Non-spinning Part) } LF Wheel
+#Library : Animator: Reference Frame
+#DataSet : LF Wheel
+#Category: Wheels (Non-spinning Part)
+#FileID  : Frame_e660567d-7c2c-4508-9492-d7b9695814e6
+#Product : CarSim 2017.1
+#VehCode Reference Frame
+
+END

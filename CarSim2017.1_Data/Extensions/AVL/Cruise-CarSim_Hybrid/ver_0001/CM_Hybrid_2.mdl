@@ -1,0 +1,9 @@
+$======================================================================
+$ Applikation: CRUISE - Driving Performance, Fuel Consumption and Emissions Calculation
+$ Modelldateien: .lay, .dbf, .stc
+$ erstellt am: January 19, 2011 - Uhrzeit: 1:44:28 pm
+$======================================================================
+[Files]
+LAYOUT_FILE       = 'CM_Hybrid_2.lay'
+DATEN_FILE        = 'CM_Hybrid_2.dbf'
+STRUCT_FILE       = 'CM_Hybrid_2.stc'

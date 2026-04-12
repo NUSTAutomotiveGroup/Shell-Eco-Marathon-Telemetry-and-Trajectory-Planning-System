@@ -1,0 +1,23 @@
+PARSFILE
+#FullDataName Events`Stop Due to Speed Error`Stop Run Now
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl10 0
+#RingCtrl11 4
+
+#MiscYellow0
+stop_run_now  due to speed error
+#ENDMYellow
+
+
+LOG_ENTRY Used Dataset: Events; { Stop Run Now } Stop Due to Speed Error
+#Library : Events
+#DataSet : Stop Due to Speed Error
+#Category: Stop Run Now
+#FileID  : Events_85f2c3fd-6078-452c-8a32-9dd84d69102b
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

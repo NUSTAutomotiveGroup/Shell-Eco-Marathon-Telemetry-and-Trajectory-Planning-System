@@ -1,0 +1,96 @@
+PARSFILE
+#FullDataName CarSim Run Control`Chassis Flex: Flexible Chassis`* More Examples (Extra License Options)
+#VEHICLECODE F_Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_e8824e5d-2cc4-40a3-975e-3bb3d0a7615f
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_5feacfa5-2cee-4705-8aee-f5baa805e553.par
+#BlueLink0 Animator: Camera Setup`FL View, Road Ref. (Rr. Facing)` Road Reference` , Animator camera`Camera_5feacfa5-2cee-4705-8aee-f5baa805e553
+
+#CheckBox0 1    
+#CheckBox1 1    
+#CheckBox2 0    
+#CheckBox3 1    
+#CheckBox4 1    
+#CheckBox5 1    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 1
+#RingCtrl1 0
+#RingCtrl2 0
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 1 0.8 0
+SET_RUN_COLOR 1 0.8 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_8fe74207-08e2-49f1-912a-ce5352333663.par
+#BlueLink2 Vehicle: Assembly`B-Class, Sports Car 2017 w/ Chassis Flex` B-Class` , Vehicle Configuration`Vehicle_8fe74207-08e2-49f1-912a-ce5352333663
+
+PARSFILE Procedures\Proc_fce62114-6e9d-4cc6-90ff-2244a4447571.par
+#BlueLink28 Procedures`Cross Slope Sine Sweep Test` Ride Tests` , Procedure`Proc_fce62114-6e9d-4cc6-90ff-2244a4447571
+
+INSTALL_DRIVER_SPEED_CONTROLLER CarSim9
+Opt_SC 3
+OPT_SC 3
+SPEED_TARGET_COMBINE ADD
+SPEED_TARGET_CONSTANT 0
+SPEED_TARGET_S_CONSTANT 50
+OPT_SC_ENGINE_BRAKING 0
+OPT_STOP 0
+TSTART 0
+SSTART 0
+TSTART_WRITE = TSTART;
+TSTOP 16
+SSTOP =  SSTART + 1 ;
+OPT_DIRECTION 1
+*SPEED 50
+*TSTOP 16
+*TSTART 0
+*SSTART 0
+
+SPECIAL_PARSFILE Runs\Run_c1668a5c-6b20-4093-a750-5e2e742451f4.par
+#BlueLink23 CarSim Run Control`Chassis Flex: Rigid Chassis Overlay` Suspension and Ride Tests` , Overlay run or ERD file`Run_c1668a5c-6b20-4093-a750-5e2e742451f4
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_4986d2bf-e6a5-4076-b5cc-94a288fa5a6d.png
+WRITE_SENSOR_DETECT
+Title Chassis Flex: Flexible Chassis <* More Examples (Extra License Options)>
+CATEGORY * More Examples (Extra License Options) 
+DATASET_TITLE Chassis Flex: Flexible Chassis
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example illustrates the CarSim Torsional Flexibility model on a Cross Slope Sine Sweep road.
+#
+#To see the vehicle settings, browse to the Vehicle: Assembly screen and click on the sprung mass blue link. This brings you to the Vehicle: Sprung Mass screen. On the Sprung Mass screen you can see the data for the Frame Torsional Flexibility.
+#
+#This example is overlaid with another simulation: "Chassis Flex: Rigid Chassis Overlay".
+#
+#A Frame Twist license is required to run the math model for this example. However, you can still view the simulation results provided with CarSim by clicking the "Video" and "Plot" buttons.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { * More Examples (Extra License Options) } Chassis Flex: Flexible Chassis
+#Library : CarSim Run Control
+#DataSet : Chassis Flex: Flexible Chassis
+#Category: * More Examples (Extra License Options)
+#FileID  : Run_e8824e5d-2cc4-40a3-975e-3bb3d0a7615f
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

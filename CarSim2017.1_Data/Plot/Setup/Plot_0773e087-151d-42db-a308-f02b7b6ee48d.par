@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName Plot: Setup`Lateral Forces`Tire Forces
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Fy_L1, Time
+PLOTCHANNELS Fy_R1, Time
+PLOTCHANNELS Fy_L2, Time
+PLOTCHANNELS Fy_R2, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Lateral Forces
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Tire Forces } Lateral Forces
+#Library : Plot: Setup
+#DataSet : Lateral Forces
+#Category: Tire Forces
+#FileID  : Plot_0773e087-151d-42db-a308-f02b7b6ee48d
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

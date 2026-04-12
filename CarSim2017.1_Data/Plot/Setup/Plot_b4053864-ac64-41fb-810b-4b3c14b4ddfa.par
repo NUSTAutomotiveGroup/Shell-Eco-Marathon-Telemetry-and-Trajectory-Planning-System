@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Plot: Setup`Pneumatic Trail vs. Alpha`Tire Tester Derived Outputs
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS trail_l1, alpha_l1
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Pneumatic Trail vs. Alpha
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Pneumatic Trail vs. Alpha
+#Library : Plot: Setup
+#DataSet : Pneumatic Trail vs. Alpha
+#Category: Tire Tester Derived Outputs
+#FileID  : Plot_b4053864-ac64-41fb-810b-4b3c14b4ddfa
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

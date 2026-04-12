@@ -1,0 +1,20 @@
+PARSFILE
+#FullDataName Control: Shifting (Closed Loop)`AT 8th Mode`
+#CheckBox0 0    
+
+#RingCtrl0 CONSTANT
+MODE_TRANS_CONSTANT 8
+#RadioCtrl0 0    
+
+*SCALAR 8
+
+
+LOG_ENTRY Used Dataset: Control: Shifting (Closed Loop); AT 8th Mode
+#Library : Control: Shifting (Closed Loop)
+#DataSet : AT 8th Mode
+#Category: 
+#FileID  : GearCL_d074ff29-5923-4bdd-82bf-9f042f18018b
+#Product : CarSim 2017.1
+#VehCode Closed-Loop Shift Control
+
+END

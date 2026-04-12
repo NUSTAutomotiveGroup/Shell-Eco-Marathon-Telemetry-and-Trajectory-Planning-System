@@ -1,0 +1,88 @@
+PARSFILE
+#FullDataName Procedures`Follow Short GPS Path`Driving
+#CheckBox3 0    
+
+#RingCtrl0 6
+#RingCtrl1 1
+OPT_STOP 1
+TSTART 0
+SSTART 0
+TSTART_WRITE = TSTART;
+TSTOP 240
+SSTOP 2500
+OPT_DIRECTION 0
+*SPEED 30
+*TSTOP 240
+*TSTART 0
+*SSTART 0
+*SSTOP 2500
+
+PARSFILE Control\Driver\StrDM_40481a6a-19ed-4b76-93cf-009167125143.par
+#BlueLink27 Control: Steering by the Closed-loop Driver Model`1.8 m Right, 1.0 sec. Preview` Constant Position` , Steering`StrDM_40481a6a-19ed-4b76-93cf-009167125143
+
+PARSFILE Control\Gear_at\GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86.par
+#BlueLink30 Control: Shifting (Closed Loop)`AT All Gears` ` , Shifting Control`GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86
+
+PARSFILE Control\Speed_path\SpdPath_32a9c48d-3bea-47b7-85ca-2a6afb574c2d.par
+#BlueLink33 Control: Speed (Closed Loop) Using Path Preview`0.2/0.2 G Max Ax/Ay Limits, 113 km/h max` Highway Driving` , Speed vs. station`SpdPath_32a9c48d-3bea-47b7-85ca-2a6afb574c2d
+
+PARSFILE Roads\3D_Road\Road_96dc861e-f0bf-4c88-906c-764beeb6b894.par
+#BlueLink0 Road: 3D Surface (All Properties)`GPS Imported Road - Short` Scenic Roads` , Miscellaneous`Road_96dc861e-f0bf-4c88-906c-764beeb6b894
+
+#BlueLink1 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink2 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink3 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink6 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink7 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+PARSFILE Plot\Setup\Plot_315ea46e-b7b6-40d8-84de-a7ef2624a470.par
+#BlueLink8 Plot: Setup`Lateral Tracking vs. Station` Tracking` , Plot`Plot_315ea46e-b7b6-40d8-84de-a7ef2624a470
+
+PARSFILE Plot\Setup\Plot_076736e1-2cdd-49d5-8a36-d55940b011f0.par
+#BlueLink9 Plot: Setup`Steering: Handwheel Angle` Controls: Driver` , Plot`Plot_076736e1-2cdd-49d5-8a36-d55940b011f0
+
+PARSFILE Plot\Setup\Plot_57fbe53b-9356-4cb1-9fd0-29f3e70d3894.par
+#BlueLink10 Plot: Setup`Road Wheel Steer Angle - Front` Steering` , Plot`Plot_57fbe53b-9356-4cb1-9fd0-29f3e70d3894
+
+PARSFILE Plot\Setup\Plot_3c5f8bac-e2f6-4ebc-ab48-a1828a269fd4.par
+#BlueLink11 Plot: Setup`Slip Angles: Instant` Tire Kinematics` , Plot`Plot_3c5f8bac-e2f6-4ebc-ab48-a1828a269fd4
+
+PARSFILE Plot\Setup\Plot_8b22f20a-1297-43cf-9e59-a0b1d530d136.par
+#BlueLink12 Plot: Setup`Lateral Accel. of CG's` Vehicle Motion` , Plot`Plot_8b22f20a-1297-43cf-9e59-a0b1d530d136
+
+PARSFILE Plot\Setup\Plot_2865bd77-14b2-4e51-9c7f-3484aa98e979.par
+#BlueLink13 Plot: Setup`Roll Angle of Sprung Masses` Vehicle Motion` , Plot`Plot_2865bd77-14b2-4e51-9c7f-3484aa98e979
+
+PARSFILE Plot\Setup\Plot_a146934a-339c-4983-9664-0f9749a0dfd6.par
+#BlueLink14 Plot: Setup`Vertical Forces` Tire Forces` , Plot`Plot_a146934a-339c-4983-9664-0f9749a0dfd6
+
+PARSFILE Plot\Setup\Plot_4442302e-a863-4794-b309-f1b015bb4fa7.par
+#BlueLink15 Plot: Setup`Longitudinal Speed` Vehicle Motion` , Plot`Plot_4442302e-a863-4794-b309-f1b015bb4fa7
+
+PARSFILE Plot\Setup\Plot_dafae624-d48a-4548-93eb-fa73d080e21a.par
+#BlueLink16 Plot: Setup`Brake Control: Master Cyl. Pressure` Controls: Driver` , Plot`Plot_dafae624-d48a-4548-93eb-fa73d080e21a
+
+PARSFILE Plot\Setup\Plot_e9245ea7-f2a3-45b4-800c-35cabdaf5628.par
+#BlueLink17 Plot: Setup`GPS Trajectory: Lat vs Long (Relative)` Tracking` , Plot`Plot_e9245ea7-f2a3-45b4-800c-35cabdaf5628
+
+PARSFILE Plot\Setup\Plot_7679fc4a-fed3-4962-92b0-580442100841.par
+#BlueLink18 Plot: Setup`GPS Trajectory: Lat vs Long` Tracking` , Plot`Plot_7679fc4a-fed3-4962-92b0-580442100841
+
+#BlueLink19 Plot: Setup`Magnitude -- S1 (2 Objects)` Object Sensors` , Plot`
+
+#BlueLink20 Plot: Setup`Magnitude S2 (1 Object)` Object Sensors` , Plot`
+
+
+LOG_ENTRY Used Dataset: Procedures; { Driving } Follow Short GPS Path
+#Library : Procedures
+#DataSet : Follow Short GPS Path
+#Category: Driving
+#FileID  : Proc_afb97f73-4e46-43c6-a00e-129ace4c243e
+#Product : CarSim 2017.1
+#VehCode Procedure
+
+END

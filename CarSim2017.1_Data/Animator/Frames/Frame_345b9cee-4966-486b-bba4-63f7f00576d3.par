@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Animator: Reference Frame`RP3`Rollover Ref. Frames
+ADD_REFERENCE_FRAME Rollover Ref. Frames RP3
+#RingCtrl0 yaw_pitch_roll
+SET_EULER_ANGLES yaw_pitch_roll
+SET_X_NAME X_RP3
+SET_Y_NAME Y_RP3
+SET_Z_NAME Z_RP3
+SET_ROLL_NAME Roll
+SET_PITCH_NAME Pitch
+SET_YAW_NAME Yaw
+SET_OFFSET_VAR_X 0
+SET_OFFSET_VAR_Y 0
+SET_OFFSET_VAR_Z 0
+
+WRT_X_RP3
+ANI_X_RP3
+WRT_Y_RP3
+ANI_Y_RP3
+WRT_Z_RP3
+ANI_Z_RP3
+WRT_Roll
+ANI_Roll
+WRT_Pitch
+ANI_Pitch
+WRT_Yaw
+ANI_Yaw
+
+LOG_ENTRY Used Dataset: Animator: Reference Frame; { Rollover Ref. Frames } RP3
+#Library : Animator: Reference Frame
+#DataSet : RP3
+#Category: Rollover Ref. Frames
+#FileID  : Frame_345b9cee-4966-486b-bba4-63f7f00576d3
+#Product : CarSim 2017.1
+#VehCode Reference Frame
+
+END

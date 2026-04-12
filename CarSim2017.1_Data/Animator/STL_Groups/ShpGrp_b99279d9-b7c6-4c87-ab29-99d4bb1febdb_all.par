@@ -1,0 +1,129 @@
+PARSFILE
+
+! EXPANDED_PARSFILE for Math models and animator
+
+! This is an expansion of the Parsfile: "Animator\STL_Groups\ShpGrp_b99279d9-b7c6-4c87-ab29-99d4bb1febdb.par"
+! It contains the contents of that file plus the contents of any files linked
+! with the "PARSFILE" keyword.
+
+! File created: 10:01 on March 30, 2017 by CarSim 2017.1
+
+PRODUCT_NAME CarSim
+
+ENTER_PARSFILE Animator\STL_Groups\ShpGrp_b99279d9-b7c6-4c87-ab29-99d4bb1febdb.par`03-30-2017`10:00:58
+#FullDataName Animator: Shape Assembly`E-Class, Sedan Right Side Driver`E-class right-handed steering
+ENTER_PARSFILE Animator\STL\Shape_46bbd8c3-972b-491b-ada8-8b076bd1780a.par`03-29-2017`11:41:43
+#FullDataName Animator: Shape File Link`European Sedan: Body`CS European Sedan
+add_obj Animator\3D_shape_files_CS\vehicles\european_sedan\body.obj
+SET_COLOR 0 0 .6
+set_lighting on
+set_fogging on
+USE_RUN_COLOR
+SET_SPECULAR 1 1 1
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Body
+EXIT_PARSFILE Animator\STL\Shape_46bbd8c3-972b-491b-ada8-8b076bd1780a.par
+
+set_lighting on
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.25
+ENTER_PARSFILE Animator\STL\Shape_7737add9-6e7b-4fff-b17e-730c0de9eb11.par`03-30-2017`09:31:01
+#FullDataName Animator: Shape File Link`European Sedan: Details  Right Side`E-class right-handed steering
+add_obj Animator\3D_shape_files_CS\vehicles\european_sedan\details_Right.obj
+SET_COLOR 0.753 0.753 0.753
+set_lighting on
+set_fogging on
+SET_SPECULAR 1 1 1
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Details  Right Side
+EXIT_PARSFILE Animator\STL\Shape_7737add9-6e7b-4fff-b17e-730c0de9eb11.par
+
+set_lighting on
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.25
+ENTER_PARSFILE Animator\STL\Shape_a6fdcf39-2ef6-4cd9-b8e6-ca4fb16952b9.par`03-29-2017`11:41:43
+#FullDataName Animator: Shape File Link`European Sedan: Windows`CS European Sedan
+add_obj Animator\3D_shape_files_CS\vehicles\european_sedan\windows.obj
+SET_COLOR 0 0 0
+set_lighting on
+set_fogging on
+set_transparency 0.7
+SET_SPECULAR 1 1 1
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Windows
+EXIT_PARSFILE Animator\STL\Shape_a6fdcf39-2ef6-4cd9-b8e6-ca4fb16952b9.par
+
+set_lighting on
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.25
+ENTER_PARSFILE Animator\STL\Shape_f367744a-9ee1-4faf-82c0-150d06641bff.par`03-30-2017`09:31:01
+#FullDataName Animator: Shape File Link`European Sedan: Interior Trim  Right Side`E-class right-handed steering
+add_obj Animator\3D_shape_files_CS\vehicles\european_sedan\interior_trim_Right.obj
+SET_COLOR 0.314 0.314 0.314
+set_lighting on
+set_fogging on
+SET_SPECULAR 0.3 0.3 0.3
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Interior Trim  Right Side
+EXIT_PARSFILE Animator\STL\Shape_f367744a-9ee1-4faf-82c0-150d06641bff.par
+
+set_lighting on
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.25
+ENTER_PARSFILE Animator\STL\Shape_f387cb46-2cf5-497a-97e8-712f893debe7.par`03-30-2017`09:31:01
+#FullDataName Animator: Shape File Link`European Sedan: Steering Wheel  Right Side`E-class right-handed steering
+add_obj Animator\3D_shape_files_CS\vehicles\european_sedan\steering_wheel_Right.obj
+SET_COLOR 0.878 0.878 0.878
+set_lighting on
+set_fogging on
+SET_SPECULAR 0.3 0.3 0.3
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Steering Wheel  Right Side
+EXIT_PARSFILE Animator\STL\Shape_f387cb46-2cf5-497a-97e8-712f893debe7.par
+
+set_lighting on
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.25
+ENTER_PARSFILE Animator\STL\Shape_553b0025-1973-4c33-a914-46aeb25f6ef9.par`03-29-2017`11:41:43
+#FullDataName Animator: Shape File Link`European Sedan: Seats`CS European Sedan
+add_obj Animator\3D_shape_files_CS\vehicles\european_sedan\seats.obj
+SET_COLOR 0.878 0.878 0.878
+set_lighting on
+set_fogging on
+SET_SPECULAR 0.3 0.3 0.3
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Seats
+EXIT_PARSFILE Animator\STL\Shape_553b0025-1973-4c33-a914-46aeb25f6ef9.par
+
+set_lighting on
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.25
+ENTER_PARSFILE Animator\STL\Shape_b96704e2-ae94-4240-9931-5ca0d30607ce.par`03-30-2017`09:31:01
+#FullDataName Animator: Shape File Link`European Sedan: Driver  Right Side`E-class right-handed steering
+add_obj Animator\3D_shape_files_CS\vehicles\european_sedan\driver\driver_Right.obj
+SET_COLOR 1 1 1
+set_lighting on
+set_fogging on
+SET_SPECULAR 0 0 0
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Driver  Right Side
+EXIT_PARSFILE Animator\STL\Shape_b96704e2-ae94-4240-9931-5ca0d30607ce.par
+
+set_lighting on
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.25
+x_ref_length 2711
+y_ref_length 1725
+z_ref_length 1400
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { E-class right-handed steering } E-Class, Sedan Right Side Driver
+EXIT_PARSFILE Animator\STL_Groups\ShpGrp_b99279d9-b7c6-4c87-ab29-99d4bb1febdb.par
+
+
+
+END

@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Models: Self-Contained Solvers`Steer Controller with VB`Simple Steer Controller
+#RingCtrl1 2
+OPT_INT_METHOD 2
+#CheckBox0 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox1 1    
+*USE_WRAPPER 1
+#CheckBox2 1    
+OPT_IO_UPDATE 1
+#CheckBox3 0    
+
+*WRAPPER Extensions\Custom_VB\Steer_Control\Steer_Control.exe
+PARSFILE IO_Channels\I_Channels\Import_e03bd574-6389-4bfd-8d2a-8402612aad4f.par
+#BlueLink0 I/O Channels: Import`Driver` ` , Misc. Link`Import_e03bd574-6389-4bfd-8d2a-8402612aad4f
+
+PARSFILE IO_Channels\O_Channels\Export_86dfac00-c52b-4b8c-a292-3a2813681185.par
+#BlueLink1 I/O Channels: Export`Steering Control` ` , Misc. Link`Export_86dfac00-c52b-4b8c-a292-3a2813681185
+
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+#EMBEDDED_NOTES
+#Specifies an external wrapper program to call when running this example. The program is written in Visual Basic and calls a CarSim solver DLL to run the simulation using import and export variables to define the external steering model.
+#
+#The source code for the external wrapper program is described in the Tech Memo available from the menu Help > Technical Memos > Example: Extending a model with VS commands and the API.
+#
+#NOTE: The Visual Basic wrapper program automatically detects whether a 32-bit or 64-bit solver should be used. The selection of 32-bit or 64-bit solvers on this screen is ignored.
+#
+#
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: Self-Contained Solvers; { Simple Steer Controller } Steer Controller with VB
+#Library : Models: Self-Contained Solvers
+#DataSet : Steer Controller with VB
+#Category: Simple Steer Controller
+#FileID  : Extern_8c871908-32f1-4c76-acfb-87cca42a670f
+#Product : CarSim 2017.1
+#VehCode 
+
+END

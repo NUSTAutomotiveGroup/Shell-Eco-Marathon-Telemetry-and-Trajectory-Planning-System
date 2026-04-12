@@ -1,0 +1,171 @@
+Include PARSFILE "C:\Users\Public\Documents\CarSim2017.1_Data\Results\Run_1255e55b-9af3-438e-ae5e-d47f6fc15382\Run_all.par"
+Used Dataset: I/O Channels: Import; Throttle #1
+Used Dataset: I/O Channels: Export; speed
+Used Dataset: Models: Simulink; New Simulink with No Connections
+Used Dataset: Animator: Reference Frame; { Car Tracking } Car X-Y
+Used Dataset: Animator: Camera Setup; K & C View
+Used Dataset: Suspension: Dive Angle (Caster Change); SLA - Front
+Used Dataset: Suspension: Longitudinal Movement; SLA - Front
+Used Dataset: Suspension: Camber Angle; SLA - Front
+Used Dataset: Suspension: Lateral Movement Due to Jounce; SLA - Front
+Used Dataset: Suspension: Toe Angle; SLA - Front
+Used Dataset: Suspension: Dive Angle (Caster Change); SLA - Front
+Used Dataset: Suspension: Longitudinal Movement; SLA - Front
+Used Dataset: Suspension: Camber Angle; SLA - Front
+Used Dataset: Suspension: Lateral Movement Due to Jounce; SLA - Front
+Used Dataset: Suspension: Toe Angle; SLA - Front
+Used Dataset: Suspension: Independent System Kinematics; { B-Class } B-Class, Sports Car - Front
+Used Dataset: Suspension: Shock Absorber; Big Car
+Used Dataset: Suspension: Jounce and Rebound Stops; +25 mm / -55 mm
+Used Dataset: Suspension: Shock Absorber; Big Car
+Used Dataset: Suspension: Jounce and Rebound Stops; +25 mm / -55 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 384 N-m/deg
+Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { B-Class } B-Class, Sports Car - Front
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Tire
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Sports Car
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Performance Tires } 205/45 R17
+Used Dataset: Tire: Lateral Force; { Performance Tires } 205/45 R17
+Used Dataset: Tire: Longitudinal Force; { Performance Tires } 205/45 R17
+Used Dataset: Tire: Camber Thrust Coefficient; { Performance Tires } 205/45 R17
+Used Dataset: Tire; { Performance Tires } 205/45 R17
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Tire
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Sports Car
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Performance Tires } 205/45 R17
+Used Dataset: Tire: Lateral Force; { Performance Tires } 205/45 R17
+Used Dataset: Tire: Longitudinal Force; { Performance Tires } 205/45 R17
+Used Dataset: Tire: Camber Thrust Coefficient; { Performance Tires } 205/45 R17
+Used Dataset: Tire; { Performance Tires } 205/45 R17
+Used Dataset: Suspension: Longitudinal Movement; 5-Link - Rear
+Used Dataset: Suspension: Camber Angle; 5-Link - Rear
+Used Dataset: Suspension: Lateral Movement Due to Jounce; 5-Link - Rear
+Used Dataset: Suspension: Toe Angle; 5-Link - Rear
+Used Dataset: Suspension: Longitudinal Movement; 5-Link - Rear
+Used Dataset: Suspension: Camber Angle; 5-Link - Rear
+Used Dataset: Suspension: Lateral Movement Due to Jounce; 5-Link - Rear
+Used Dataset: Suspension: Toe Angle; 5-Link - Rear
+Used Dataset: Suspension: Independent System Kinematics; { B-Class } B-Class, Sports Car - Rear
+Used Dataset: Suspension: Shock Absorber; Big Car
+Used Dataset: Suspension: Jounce and Rebound Stops; +70 mm / -50 mm
+Used Dataset: Suspension: Shock Absorber; Big Car
+Used Dataset: Suspension: Jounce and Rebound Stops; +70 mm / -50 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 384 N-m/deg
+Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { B-Class } B-Class, Sports Car - Rear
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Tire
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Sports Car
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Performance Tires } 205/45 R17
+Used Dataset: Tire: Lateral Force; { Performance Tires } 205/45 R17
+Used Dataset: Tire: Longitudinal Force; { Performance Tires } 205/45 R17
+Used Dataset: Tire: Camber Thrust Coefficient; { Performance Tires } 205/45 R17
+Used Dataset: Tire; { Performance Tires } 205/45 R17
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Tire
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Sports Car
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Performance Tires } 205/45 R17
+Used Dataset: Tire: Lateral Force; { Performance Tires } 205/45 R17
+Used Dataset: Tire: Longitudinal Force; { Performance Tires } 205/45 R17
+Used Dataset: Tire: Camber Thrust Coefficient; { Performance Tires } 205/45 R17
+Used Dataset: Tire; { Performance Tires } 205/45 R17
+Used Dataset: Vehicle: Sprung Mass; { B-Class } B-Class, Sports Car
+Used Dataset: Aerodynamics: Fx (Drag) Coef. vs. Aero Slip; 0.30 at 0 Degrees
+Used Dataset: Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip; 0.5 at 90 deg
+Used Dataset: Aerodynamics: Fz (Lift) Coef. vs. Aero Slip; 0.18 at 0 Degrees
+Used Dataset: Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip; 0.3 at 90 deg
+Used Dataset: Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip; -0.15 at 0 Degrees
+Used Dataset: Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip; 0.05 at 90 deg
+Used Dataset: Aerodynamics: Basic; B-Class, Sports Car
+Used Dataset: Animator: Shape File Link; { CS Sports Car } Conv.: Body
+Used Dataset: Animator: Shape File Link; { CS Sports Car } Conv.: Details
+Used Dataset: Animator: Shape File Link; { CS Sports Car } Conv.: Windows
+Used Dataset: Animator: Shape File Link; { CS Sports Car } Conv.: Driver
+Used Dataset: Animator: Shape Assembly; { CS B-Class } B-Class, Convertible
+Used Dataset: Animator: Sound Modifier; { Wind } Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Wind } Frequency: Speed Effect
+Used Dataset: Animator: Sound Sample; Wind Noise
+Used Dataset: Animator: Sound Set; Wind Noise
+Used Dataset: Animator: Shape File Link; { CS Sports Car } Conv.: Brake Lights
+Used Dataset: Animator: Vehicles and Sensor Targets; { B-Class Vehicles } B-Class, Sports Car
+Used Dataset: Powertrain: Fuel Consumption Rate; 150 kW Gasoline Engine
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power Off Loudness: Load Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power Off Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Gas Engine } 4 Cyl. - Power Off
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power On Loudness: Load Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power On Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Gas Engine } 4 Cyl. - Power On
+Used Dataset: Generic Data Group; { Audio Sound Sets } Gasoline Engine (4 Cylinder)
+Used Dataset: Powertrain: Engine; 125 kW  Engine
+Used Dataset: Powertrain: Clutch Torque; Maximum 1800 N-m (Linear)
+Used Dataset: Powertrain: Shift Schedule; { 5-speed } 5-speed, 1-2 Shift
+Used Dataset: Powertrain: Shift Schedule; { 5-speed } 5-speed, 1-2 Shift
+Used Dataset: Powertrain: Shift Schedule; { 5-speed } 5-speed, 1-2 Shift
+Used Dataset: Powertrain: Transmission (18 Gears or CVT); 5-Speed
+Used Dataset: Powertrain: Rear Differential; Locked: Gear Ratio 4.1
+Used Dataset: Powertrain: Rear Differential; Locked: Gear Ratio 4.1
+Used Dataset: Powertrain: Rear-Wheel Drive; { 125 kW Powertrains } nEW_tRANS
+Used Dataset: Brakes: Four-Wheel System; { B-Class } B-Class, Sports Car w/ ABS
+Used Dataset: Steering System: Compliance; Constant: Zero
+Used Dataset: Steering System: Kinematics for 2 Wheels (Rack & Pinion); { B-Class } B-Class, Sports Car 2017
+Used Dataset: Steering: Power Assist Force; { B-Class } B-Class Sports Car, Not Spd Sens 2017
+Used Dataset: Steering System: Compliance; B-Class, Sports Car: Linear (2017)
+Used Dataset: Steering: Parking Torque for 2 Wheels; B-Class Sports Car 2017
+Used Dataset: Steering; { CS B-Class } B-Class, Sports Car: Power, R&P 2017
+Used Dataset: Vehicle: Assembly; { B-Class } B-Class, Sports Car 2017 #1
+Used Dataset: Control: Steering by the Closed-loop Driver Model; { Constant Position } No Offset, 1 sec. Preview
+Used Dataset: Control: Clutch Shifting Timelines (Closed Loop); Fast
+Used Dataset: Control: Shifting (Closed Loop); Closed-loop Shift and Clutch (All Gears, Fast)
+Used Dataset: Path: X-Y Coordinates; Lusail
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Braking } Wheel Speeds
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Powertrain } Fuel Consumed
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Steering } Road Wheel Steer Angle
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Controls: Driver } Clutch: Control Input
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Tracking } Station vs. Time
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Powertrain } Gear Ratio
+Used Dataset: Procedures; { Driving } Lusail Test #1
+ sem 1
+Used Dataset: CarSim Run Control; sem 1
+
+Time to read input = 0.047
+Function F_BOOST_R_TABLE extrapolated (out of range HIGH) for X = 130.436 N-m at T = 0
+Function F_REB_STOP_TABLE(1,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(1,1) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(1,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(1,2) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(2,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(2,1) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(2,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(2,2) extrapolated (out of range LOW) for X = 0 mm at T = 0
+
+Run started: ERD output file = C:\Users\Public\Documents\CarSim2017.1_Data\Results\Run_1255e55b-9af3-438e-ae5e-d47f6fc15382\LastRun.bin
+Function INV_CAP_TC_TABLE extrapolated (out of range HIGH) for X = 1.00088 - at T = 0.0015
+Function FUEL_RATE_CARPET extrapolated (out of range LOW) for X = 1199.94 rpm at T = 3.5515
+Function FY_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for X = 26.103 deg at T = 96.203
+Function MZ_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for X = 26.103 deg at T = 96.203
+Function FY_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for X = 26.0316 deg at T = 96.204
+Function MZ_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for X = 26.0316 deg at T = 96.204
+
+Run stopped at t = 525. Stop time reached.
+
+Computational efficiency: RTIME = 0.041019 sec/sim. sec
+

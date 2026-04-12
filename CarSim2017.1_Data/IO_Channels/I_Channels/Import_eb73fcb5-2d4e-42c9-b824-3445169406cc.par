@@ -1,0 +1,23 @@
+PARSFILE
+#FullDataName I/O Channels: Import`Center Differential`Powertrain Imports
+#RingCtrl0 1
+#RingCtrl1 1
+*README_FILE Results\Run_fb3eab9c-06f6-4605-b5d6-6cae46cc875a\Run_imp_tab.txt
+
+#MiscYellow0
+IMP_CLUTCH_D3 Add 0.0! 0
+IMP_CLT_D3_2 Add 0.0! 0
+#ENDMYellow
+
+#BlueLink0 CarSim Run Control`Active Transfer Case Control - Multi-Port` Simulink and LabVIEW Models` , example run`Run_fb3eab9c-06f6-4605-b5d6-6cae46cc875a
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Import; { Powertrain Imports } Center Differential
+#Library : I/O Channels: Import
+#DataSet : Center Differential
+#Category: Powertrain Imports
+#FileID  : Import_eb73fcb5-2d4e-42c9-b824-3445169406cc
+#Product : CarSim 2017.1
+#VehCode Import Channels
+
+END

@@ -1,0 +1,27 @@
+PARSFILE
+#FullDataName Batch Runs`Brake Tests`Built-In Solvers
+#CheckBox1 0    
+
+#MiscYellow1
+#<Brake Tests> Brake Distance Test (Force Input w. ABS)
+#<Brake Tests> Brake Distance Test (Force Input)
+#<Brake Tests> Brake Distance Test (Pressure Input)
+#<Brake Tests> Braking - Split Mu: ABS
+#<Brake Tests> Braking - Split Mu: No ABS
+#<Brake Tests> Braking in Turn: Brake Temp. and Booster Effects
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains the datasets which are in the Brake Tests category
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; { Built-In Solvers } Brake Tests
+#Library : Batch Runs
+#DataSet : Brake Tests
+#Category: Built-In Solvers
+#FileID  : BatRun_836dcd55-3405-475c-a9ea-5970669a6b9d
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

@@ -1,0 +1,34 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Utility Truck: Cab`CS Utility Truck
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\vehicles\Mini Truck\body.obj
+#ENDMYellow
+
+SET_COLOR 1 0.6 0
+*SPECULAR 0.5
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 1    
+USE_RUN_COLOR
+#CheckBox4 1    
+
+SET_SPECULAR 0.5 0.5 0.5
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_ec6006e1-b1ae-4c47-b3b2-1781411b3bb1.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS Utility Truck } Utility Truck: Cab
+#Library : Animator: Shape File Link
+#DataSet : Utility Truck: Cab
+#Category: CS Utility Truck
+#FileID  : Shape_ec6006e1-b1ae-4c47-b3b2-1781411b3bb1
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

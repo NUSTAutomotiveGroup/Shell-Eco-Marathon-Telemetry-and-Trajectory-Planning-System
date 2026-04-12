@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Big SUV Tire`Tires
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\tires\275_70R16\tire.obj
+#ENDMYellow
+
+SET_COLOR 1 1 1
+*SPECULAR 0.3
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+SET_SPECULAR 0.3 0.3 0.3
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_52079630-c01a-43a9-bc0c-30080f01066f.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Top)` Shape Preview` , Video Camera`Camera_52079630-c01a-43a9-bc0c-30080f01066f
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_4b202713-9ff6-4e73-bda5-778266a33899.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Big SUV Tire
+#Library : Animator: Shape File Link
+#DataSet : Big SUV Tire
+#Category: Tires
+#FileID  : Shape_4b202713-9ff6-4e73-bda5-778266a33899
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

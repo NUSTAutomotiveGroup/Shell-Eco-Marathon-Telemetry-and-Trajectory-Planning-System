@@ -1,0 +1,49 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`Short for Reg. Cab`CS Pickup, Compact
+*COLOR .251 .314 .243
+*OFFSET_X -2
+*OFFSET_Y 0
+*OFFSET_Z 0.49
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_2c43e742-baf0-4637-b763-d6f37257182d.png
+PARSFILE Animator\STL\Shape_d36dcd0b-3460-4221-b5a7-e13ff3b4cba2.par
+#BlueLink0 Animator: Shape File Link`Pickup, Compact: Short Box Body` CS Pickup, Compact` , Shape File`Shape_d36dcd0b-3460-4221-b5a7-e13ff3b4cba2
+
+set_offset_x -2
+set_offset_y 0
+set_offset_z 0.49
+PARSFILE Animator\STL\Shape_91e1700f-edbb-49d7-929b-797fd4d35aad.par
+#BlueLink1 Animator: Shape File Link`Pickup, Compact: Short Box Details` CS Pickup, Compact` , Shape File`Shape_91e1700f-edbb-49d7-929b-797fd4d35aad
+
+set_offset_x -2
+set_offset_y 0
+set_offset_z 0.49
+PARSFILE Animator\STL\Shape_417f386f-21d5-47cd-934a-08fc2a211f0c.par
+#BlueLink2 Animator: Shape File Link`License` CS Pickup, Compact` , Shape File`Shape_417f386f-21d5-47cd-934a-08fc2a211f0c
+
+set_offset_x -2
+set_offset_y 0
+set_offset_z 0.49
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { CS Pickup, Compact } Short for Reg. Cab
+#Library : Animator: Shape Assembly
+#DataSet : Short for Reg. Cab
+#Category: CS Pickup, Compact
+#FileID  : ShpGrp_2c43e742-baf0-4637-b763-d6f37257182d
+#Product : CarSim 2017.1
+#VehCode Shape Assembly
+
+END

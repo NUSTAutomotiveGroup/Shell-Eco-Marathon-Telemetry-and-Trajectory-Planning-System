@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName Plot: Setup`Overturning Moments`Tire Moments
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Mx_L1, Time
+PLOTCHANNELS Mx_R1, Time
+PLOTCHANNELS Mx_L2, Time
+PLOTCHANNELS Mx_R2, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Overturning Moments
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Tire Moments } Overturning Moments
+#Library : Plot: Setup
+#DataSet : Overturning Moments
+#Category: Tire Moments
+#FileID  : Plot_64cb3336-8c32-4bee-ac86-7a1aead2adec
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

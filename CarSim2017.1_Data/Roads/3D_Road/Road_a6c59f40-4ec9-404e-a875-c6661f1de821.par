@@ -1,0 +1,61 @@
+PARSFILE
+#FullDataName Road: 3D Surface (All Properties)`GPS Imported Road - Long`Scenic Roads
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Roads\3D_Road\Road_a6c59f40-4ec9-404e-a875-c6661f1de821.png
+#RingCtrl0 1
+#CheckBox0 0    
+
+DEFINE_ROADS 1
+IROAD = NROAD
+ROAD_ID IROAD
+CURRENT_ROAD_ID = ROAD_ID
+set_description road_id GPS Imported Road - Long
+PARSFILE Roads\Center_XY\PathXY_2d4ce48c-1864-4541-9023-333f33c20c78.par
+#BlueLink0 Path: X-Y Coordinates`GPS Imported Path - Long` Public Road Section` , Reference Path`PathXY_2d4ce48c-1864-4541-9023-333f33c20c78
+
+ROAD_PATH_ID = PATH_ID
+
+set_description road_path_id PATH_ID for: GPS Imported Path - Long
+#BlueLink1 ` , Path Elevation` , Path Elevation` , Path Elevation`
+
+#BlueLink2 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+PARSFILE Roads\Friction\RdMu_25e73395-9471-44b9-9c60-27bd9cc24921.par
+#BlueLink3 Road: Friction Map, S-L Grid`Constant: 0.85` Constant` , Friction`RdMu_25e73395-9471-44b9-9c60-27bd9cc24921
+
+PARSFILE Roads\Shapes\RdShape_f995adab-edeb-4e9d-9584-5cce01cc9225.par
+#BlueLink4 Road: Animator Surface Shapes`Long GPS Road` Scenic Road Shapes` , Road shape definitions`RdShape_f995adab-edeb-4e9d-9584-5cce01cc9225
+
+#BlueLink10 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+RR_SURF 1
+add_reference_frame road_stuff_1
+reference_frame_ghosts off
+add_reference_frame road_stuff_2
+reference_frame_ghosts off
+PARSFILE Animator\Groups\Group_12c4e4db-d56b-4717-bd4c-6255decf763f.par
+#BlueLink7 Animator: Group`Slightly Cloudy Sky` Skies` , 3D Shapes`Group_12c4e4db-d56b-4717-bd4c-6255decf763f
+
+add_reference_frame road_stuff_3
+reference_frame_ghosts off
+add_reference_frame road_stuff_4
+reference_frame_ghosts off
+add_reference_frame road_stuff_5
+reference_frame_ghosts off
+add_reference_frame road_stuff_6
+reference_frame_ghosts off
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_6d843d53-9fb1-478e-846d-16cb6e63ce2b.par
+#BlueLink5 Animator: Camera Setup`High Front View, Road Ref. (Rr. Facing)` Road Reference` , Camera`Camera_6d843d53-9fb1-478e-846d-16cb6e63ce2b
+
+parsfile Roads\3D_Road\Road_a6c59f40-4ec9-404e-a875-c6661f1de821.ani
+
+LOG_ENTRY Used Dataset: Road: 3D Surface (All Properties); { Scenic Roads } GPS Imported Road - Long
+#Library : Road: 3D Surface (All Properties)
+#DataSet : GPS Imported Road - Long
+#Category: Scenic Roads
+#FileID  : Road_a6c59f40-4ec9-404e-a875-c6661f1de821
+#Product : CarSim 2017.1
+#VehCode 3D Road
+
+END

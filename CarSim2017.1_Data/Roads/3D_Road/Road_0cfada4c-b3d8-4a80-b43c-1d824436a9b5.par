@@ -1,0 +1,313 @@
+PARSFILE
+#FullDataName Road: 3D Surface (All Properties)`Lusail_Raod`Variable Width Roads
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Roads\3D_Road\Road_0cfada4c-b3d8-4a80-b43c-1d824436a9b5.png
+#RingCtrl0 1
+#CheckBox0 0    
+
+DEFINE_ROADS 1
+IROAD = NROAD
+ROAD_ID IROAD
+CURRENT_ROAD_ID = ROAD_ID
+set_description road_id Lusail_Raod
+PARSFILE Roads\Center_XY\PathXY_9c516fea-efdf-45e3-b862-8ae0dc19716a.par
+#BlueLink0 Path: X-Y Coordinates`Lusail` ` , Reference Path`PathXY_9c516fea-efdf-45e3-b862-8ae0dc19716a
+
+ROAD_PATH_ID = PATH_ID
+
+set_description road_path_id PATH_ID for: Lusail
+#BlueLink1 ` , Path Elevation` , Path Elevation` , Path Elevation`
+
+PARSFILE Roads\dZ_Map_V_Wdth\VarWidZ_a0dd581e-7a75-4e7b-9845-b736349cef5e.par
+#BlueLink2 Road: Off-Center Elevation Map, Variable Width`Road w/ Median` Variable Width Roads` , Miscellaneous`VarWidZ_a0dd581e-7a75-4e7b-9845-b736349cef5e
+
+PARSFILE Roads\Friction_V_Wdth\VarWidMu_fd44e332-2a33-4e59-bd8f-be03307cc909.par
+#BlueLink3 Road: Friction Map, Variable Width`Road (0.75) w/ Median and Grass` ` , Friction`VarWidMu_fd44e332-2a33-4e59-bd8f-be03307cc909
+
+PARSFILE Roads\Shapes\RdShape_8c8a59c7-01ef-42eb-8aa5-a5c0c0605130.par
+#BlueLink4 Road: Animator Surface Shapes`DLC Road` Roads` , Road shape definitions`RdShape_8c8a59c7-01ef-42eb-8aa5-a5c0c0605130
+
+PARSFILE Roads\dZ_Map\RdMapZ_a9fac581-bef5-49a9-b09e-cf60a907590d.par
+#BlueLink10 Road: Off-Center Elevation Map, S-L Grid`Ditch, 5 m to Right of Center` Gutters, Curbs, Ditches` , Miscellaneous`RdMapZ_a9fac581-bef5-49a9-b09e-cf60a907590d
+
+RR_SURF 1
+L_CAMERA_FRONT 0.5
+L_CAMERA_REAR 0.5
+add_reference_frame road_stuff_1
+reference_frame_ghosts off
+PARSFILE Roads\AniGroup\AniRep_ba5432bd-a816-40b2-87a0-56bb90bebf25.par
+#BlueLink6 Road: Animator Repeated Object`Mixed Forest` ` , 3D Shapes`AniRep_ba5432bd-a816-40b2-87a0-56bb90bebf25
+
+add_reference_frame road_stuff_2
+reference_frame_ghosts off
+PARSFILE Roads\AniGroup\AniRep_c3bc46e7-16c5-44c0-8d31-1e9dbbff236f.par
+#BlueLink7 Road: Animator Repeated Object`No U-Turn on Median` ` , 3D Shapes`AniRep_c3bc46e7-16c5-44c0-8d31-1e9dbbff236f
+
+add_reference_frame road_stuff_3
+reference_frame_ghosts off
+PARSFILE Animator\Groups\Group_4ccae742-4649-427a-8871-7b3629a730a2.par
+#BlueLink8 Animator: Group`Partly Cloudy Sky` Skies` , 3D Shapes`Group_4ccae742-4649-427a-8871-7b3629a730a2
+
+add_reference_frame road_stuff_4
+reference_frame_ghosts off
+add_reference_frame road_stuff_5
+reference_frame_ghosts off
+add_reference_frame road_stuff_6
+reference_frame_ghosts off
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36b2ee7b-54ec-4c39-9781-51b289ab39c0.par
+#BlueLink5 Animator: Camera Setup`Rear View , Road Ref. (Frt. Facing)` Road Reference` , Camera`Camera_36b2ee7b-54ec-4c39-9781-51b289ab39c0
+
+parsfile Roads\3D_Road\Road_0cfada4c-b3d8-4a80-b43c-1d824436a9b5.ani
+
+add_reference_frame road_stuff_1_1
+reference_frame_ghosts off
+set_offset_var_yaw 313.74029669
+set_offset_var_x -68.4554368679
+set_offset_var_y 1.00501285837
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_2_1
+reference_frame_ghosts off
+set_offset_var_yaw 133.74029669
+set_offset_var_x 18.2422906555
+set_offset_var_y 83.9718980733
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_3_1
+reference_frame_ghosts off
+set_offset_var_yaw 316.420006724
+set_offset_var_x -95.0466963909
+set_offset_var_y 51.00173804
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_4_1
+reference_frame_ghosts off
+set_offset_var_yaw 106.242520637
+set_offset_var_x -11.0945783541
+set_offset_var_y 127.060812058
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_5_1
+reference_frame_ghosts off
+set_offset_var_yaw 290.804280252
+set_offset_var_x -152.708120153
+set_offset_var_y 151.208028166
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_6_1
+reference_frame_ghosts off
+set_offset_var_yaw 120.723416082
+set_offset_var_x -58.5803099808
+set_offset_var_y 206.618860641
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_7_1
+reference_frame_ghosts off
+set_offset_var_yaw 310.788865729
+set_offset_var_x -186.855775739
+set_offset_var_y 203.409776969
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_8_1
+reference_frame_ghosts off
+set_offset_var_yaw 123.334153714
+set_offset_var_x -99.6780319569
+set_offset_var_y 288.535568207
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_9_1
+reference_frame_ghosts off
+set_offset_var_yaw 113.622671383
+set_offset_var_x -125.395480272
+set_offset_var_y 342.639688977
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_10_1
+reference_frame_ghosts off
+set_offset_var_yaw 316.71073011
+set_offset_var_x -250.208461926
+set_offset_var_y 291.458758345
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_11_1
+reference_frame_ghosts off
+set_offset_var_yaw 129.896290518
+set_offset_var_x -162.864948923
+set_offset_var_y 408.492055333
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_12_1
+reference_frame_ghosts off
+set_offset_var_yaw 111.072673591
+set_offset_var_x -184.262461716
+set_offset_var_y 448.481495559
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_13_1
+reference_frame_ghosts off
+set_offset_var_yaw 294.430548597
+set_offset_var_x -311.212109423
+set_offset_var_y 416.258021814
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_14_1
+reference_frame_ghosts off
+set_offset_var_yaw 90
+set_offset_var_x -209.9399
+set_offset_var_y 496.845284011
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_15_1
+reference_frame_ghosts off
+set_offset_var_yaw 271.873589239
+set_offset_var_x -328.119144205
+set_offset_var_y 509.553165254
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_16_1
+reference_frame_ghosts off
+set_offset_var_yaw 188.05808992
+set_offset_var_x -231.954024315
+set_offset_var_y 617.384703783
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_17_1
+reference_frame_ghosts off
+set_offset_var_yaw 0
+set_offset_var_x -208.871377489
+set_offset_var_y 508.4047
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_18_1
+reference_frame_ghosts off
+set_offset_var_yaw 153.603426411
+set_offset_var_x -148.566418735
+set_offset_var_y 606.835952011
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_19_1
+reference_frame_ghosts off
+set_offset_var_yaw 140.278355193
+set_offset_var_x -87.7113201808
+set_offset_var_y 565.616748432
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_20_1
+reference_frame_ghosts off
+set_offset_var_yaw 140.279316999
+set_offset_var_x -33.5382716429
+set_offset_var_y 522.012674291
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_21_1
+reference_frame_ghosts off
+set_offset_var_yaw -45.1877432792
+set_offset_var_x -138.380673265
+set_offset_var_y 465.16509966
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_22_1
+reference_frame_ghosts off
+set_offset_var_yaw 151.015502404
+set_offset_var_x 80.9371196652
+set_offset_var_y 468.021407887
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_23_1
+reference_frame_ghosts off
+set_offset_var_yaw -39.7201166342
+set_offset_var_x -77.0097656665
+set_offset_var_y 407.288733061
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_24_1
+reference_frame_ghosts off
+set_offset_var_yaw -28.9838706741
+set_offset_var_x -20.0354400402
+set_offset_var_y 367.598688967
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_25_1
+reference_frame_ghosts off
+set_offset_var_yaw -15.9718464877
+set_offset_var_x 32.6789131801
+set_offset_var_y 334.471923205
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_26_1
+reference_frame_ghosts off
+set_offset_var_yaw -21.2760143353
+set_offset_var_x 73.8870479333
+set_offset_var_y 306.550640161
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_27_1
+reference_frame_ghosts off
+set_offset_var_yaw 161.432113167
+set_offset_var_x 180.129609125
+set_offset_var_y 412.862928131
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_28_1
+reference_frame_ghosts off
+set_offset_var_yaw 113.921935793
+set_offset_var_x 252.629640379
+set_offset_var_y 344.652411918
+set_offset_var_z 0.2
+parsfile Animator\STL\Shape_5f235565-63f3-498c-8aa0-abca99ce3850.par
+
+add_reference_frame road_stuff_1_2
+reference_frame_ghosts off
+set_offset_var_x -82.7819785565
+set_offset_var_y 146.274355327
+set_offset_var_z 0.165384615385
+parsfile Animator\STL\Shape_a438f4d6-2005-449c-9add-8bfe08d7be95.par
+
+add_reference_frame road_stuff_2_2
+reference_frame_ghosts off
+set_offset_var_x -174.09378225
+set_offset_var_y 310.397370008
+set_offset_var_z 0.165384615385
+parsfile Animator\STL\Shape_a438f4d6-2005-449c-9add-8bfe08d7be95.par
+
+#EMBEDDED_NOTES
+#This dataset describes a road that widens to make room for a median. The median is described with a linked variable-width dZ dataset.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Road: 3D Surface (All Properties); { Variable Width Roads } Lusail_Raod
+#Library : Road: 3D Surface (All Properties)
+#DataSet : Lusail_Raod
+#Category: Variable Width Roads
+#FileID  : Road_0cfada4c-b3d8-4a80-b43c-1d824436a9b5
+#Product : CarSim 2017.1
+#VehCode 3D Road
+
+END

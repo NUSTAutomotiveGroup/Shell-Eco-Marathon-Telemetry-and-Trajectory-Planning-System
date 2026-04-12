@@ -1,0 +1,68 @@
+PARSFILE
+#FullDataName Procedures`Small Bump`Driving
+#CheckBox3 0    
+#CheckBox4 0    
+
+#RingCtrl0 1
+#RingCtrl1 1
+OPT_STOP 1
+TSTART 0
+SSTART -10
+TSTART_WRITE = TSTART;
+TSTOP 5
+SSTOP 10
+OPT_DIRECTION 0
+*SPEED 40
+*TSTOP 5
+*TSTART 0
+*SSTART -10
+*SSTOP 10
+
+INSTALL_DRIVER_SPEED_CONTROLLER CarSim9
+OPT_SC 3
+SPEED_TARGET_COMBINE ADD
+SPEED_TARGET_CONSTANT 0
+SPEED_TARGET_S_CONSTANT 40
+OPT_SC_ENGINE_BRAKING 0
+PARSFILE Control\Driver\StrDM_b1b075a4-4356-41fe-9ec7-f15ebb269874.par
+#BlueLink27 Control: Steering by the Closed-loop Driver Model`No Offset, 1.5 sec. Preview` Constant Position` , Steering`StrDM_b1b075a4-4356-41fe-9ec7-f15ebb269874
+
+PARSFILE Control\Braking\PbkCon_bf4961f4-c4cf-4b18-a8f7-5f65e31ecd3f.par
+#BlueLink28 Control: Braking MC Pressure (Open Loop)`Constant: 0 MPa` Constant` , Braking`PbkCon_bf4961f4-c4cf-4b18-a8f7-5f65e31ecd3f
+
+PARSFILE Control\Gear_at\GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86.par
+#BlueLink30 Control: Shifting (Closed Loop)`AT All Gears` ` , Shifting Control`GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86
+
+PARSFILE Roads\3D_Road\Road_f7785a5e-d989-4113-9929-cf6cf5d3673e.par
+#BlueLink0 Road: 3D Surface (All Properties)`Small, Smooth Bump` Ride Roads` , Miscellaneous`Road_f7785a5e-d989-4113-9929-cf6cf5d3673e
+
+PARSFILE Generic\Group\GenGrp_c11e4bbe-5e3a-4498-91a5-6c42d1db378a.par
+#BlueLink1 Generic Data Group`2 Axle - Fx, Fy, Fz` Tire Force Arrows` , Miscellaneous`GenGrp_c11e4bbe-5e3a-4498-91a5-6c42d1db378a
+
+PARSFILE Plot\Setup\Plot_d0e4f394-324b-4100-8ec2-8341d3833dd0.par
+#BlueLink8 Plot: Setup`Wheel Fore/Aft vs. Jounce - Front` Suspension Motion` , Plot`Plot_d0e4f394-324b-4100-8ec2-8341d3833dd0
+
+PARSFILE Plot\Setup\Plot_6e2f3a00-abab-44a5-bc5a-93bf8392e0a7.par
+#BlueLink9 Plot: Setup`Wheel Lateral vs. Jounce - Front` Suspension Motion` , Plot`Plot_6e2f3a00-abab-44a5-bc5a-93bf8392e0a7
+
+
+#EMBEDDED_NOTES
+#This Procedure has the vehicle driving over a small, smooth bump at 40 kph.
+#
+#The small bump was created using a new screen in CarSim 8.2 which allows you to enter data for the incremental elevation and dz ratio seperately.
+#
+#To see how this is done, click on the blue link for the 3D road "Small, Smooth Bump."
+#
+#This will bring you to the Road: 3D Surface screen. On this screen, click on the Off-center elevation dataset "Small, Smooth Bump."
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Procedures; { Driving } Small Bump
+#Library : Procedures
+#DataSet : Small Bump
+#Category: Driving
+#FileID  : Proc_1bf70edd-1b04-4dad-98d0-e7bf881836a2
+#Product : CarSim 2017.1
+#VehCode Procedure
+
+END

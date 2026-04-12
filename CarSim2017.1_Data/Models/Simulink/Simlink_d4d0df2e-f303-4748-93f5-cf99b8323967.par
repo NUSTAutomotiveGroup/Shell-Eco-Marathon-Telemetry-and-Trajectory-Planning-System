@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Models: Simulink`TCS Controller`
+#RunMdlFile Extensions\Simulink\tcs_CS2017.mdl
+#RingCtrl1 2
+OPT_INT_METHOD 2
+#CheckBox0 0    
+*USE_ALT_DIR 0
+#CheckBox1 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox2 1    
+OPT_IO_UPDATE 1
+#CheckBox3 1    
+
+*TSTEP 0.001
+*FREQ_MODEL 1000
+*TSTEP_OUT 0.025
+*FREQ_OUT 40
+tstep 0.001
+iprint 25
+PARSFILE IO_Channels\I_Channels\Import_f8578316-9ecc-4bd2-bd34-80e41435fed6.par
+#BlueLink0 I/O Channels: Import`ESC/TCS` ` , Import`Import_f8578316-9ecc-4bd2-bd34-80e41435fed6
+
+PARSFILE IO_Channels\O_Channels\Export_3729b0f3-a3ac-4cb6-9e7c-4ea08439af91.par
+#BlueLink1 I/O Channels: Export`ESC/TCS` ` , Export`Export_3729b0f3-a3ac-4cb6-9e7c-4ea08439af91
+
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+#EMBEDDED_NOTES
+#This dataset links to a Simulink model of an TCS controller, which controls excessive wheel spin with modulated brake pressures and engine torque management.
+#
+#The Simulink TCS model is set to use "variable step" numerical integration, which means it will inherit the time step from CarSim. The box is checked on this screen to set the time step here, to ensure that the time step used is compatible with possible limits or requirement in the Simulink model.
+#
+#In this case, the time step is set at 0.001, the method is AM-2, and the option is checked to communicate with Simulink at an interval of 1/2 the time step (i.e., 0.0005 sec).
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: Simulink; TCS Controller
+#Library : Models: Simulink
+#DataSet : TCS Controller
+#Category: 
+#FileID  : Simlink_d4d0df2e-f303-4748-93f5-cf99b8323967
+#Product : CarSim 2017.1
+#VehCode 
+
+END

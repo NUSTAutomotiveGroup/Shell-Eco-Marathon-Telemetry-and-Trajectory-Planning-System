@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Large Rental Trailer: Brake Lights On`Trailer: Rental, 1A
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\vehicles\trailers\trailer_rental_1a\brakes_on.obj
+#ENDMYellow
+
+SET_COLOR 1 0 0
+SET_ANGLE_Z 0
+SET_ANGLE_Y -3
+SET_ANGLE_X 0
+SET_OFFSET_X 0.02
+SET_OFFSET_Y 0
+SET_OFFSET_Z 0.86
+X_REF_LENGTH 2696
+Y_REF_LENGTH 2024
+Z_REF_LENGTH 1757
+*SPECULAR 0.5
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+SET_SPECULAR 0.5 0.5 0.5
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_52079630-c01a-43a9-bc0c-30080f01066f.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Top)` Shape Preview` , Video Camera`Camera_52079630-c01a-43a9-bc0c-30080f01066f
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_efbd0f33-a16b-49cb-953a-0e6a3dc7b0ff.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Trailer: Rental, 1A } Large Rental Trailer: Brake Lights On
+#Library : Animator: Shape File Link
+#DataSet : Large Rental Trailer: Brake Lights On
+#Category: Trailer: Rental, 1A
+#FileID  : Shape_efbd0f33-a16b-49cb-953a-0e6a3dc7b0ff
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

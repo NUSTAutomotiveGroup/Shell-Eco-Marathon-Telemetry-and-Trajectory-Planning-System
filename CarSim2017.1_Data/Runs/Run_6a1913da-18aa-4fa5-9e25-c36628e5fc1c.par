@@ -1,0 +1,98 @@
+PARSFILE
+#FullDataName CarSim Run Control`Camera Sensor (Simulink)`* CS 2017 - Live Video
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_6a1913da-18aa-4fa5-9e25-c36628e5fc1c
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Models\Simulink\Simlink_f3151a22-1654-4aaa-9333-107c38e44fdb.par
+#BlueLink12 Models: Simulink`Camera Sensor` Live Video` , Models`Simlink_f3151a22-1654-4aaa-9333-107c38e44fdb
+
+PARSFILE Animator\Cameras\Camera_5517eaa4-ec66-45f1-87b8-979b0dfc4a12.par
+#BlueLink0 Animator: Camera Setup`Camera Sensor: C-Class Hatchback` Sensor View` , Animator camera`Camera_5517eaa4-ec66-45f1-87b8-979b0dfc4a12
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 1    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 1
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 2
+#RingCtrl7 -1
+*RUN_COLOR 0.8 0 0
+OPT_BUFFER_WRITE 1
+AUTOSIZE OFF
+BLOCKING_RT_READ ON
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 1
+LIVE_SERVER_MAX_CONNECTIONS 1
+PARSFILE Vehicles\Assembly\Vehicle_66b583ad-c651-4dc5-8584-24faba7a8744.par
+#BlueLink2 Vehicle: Assembly`C-Class, Hatchback 2017 (Camera Sensor)` C-Class` , Vehicle Configuration`Vehicle_66b583ad-c651-4dc5-8584-24faba7a8744
+
+PARSFILE Procedures\Proc_d9f05c4b-f080-4978-87a3-1e368783e2ca.par
+#BlueLink28 Procedures`Speed = 110, 2 m Right` Driver Controls` , Procedure`Proc_d9f05c4b-f080-4978-87a3-1e368783e2ca
+
+PARSFILE Roads\3D_Road\Road_9469fd2b-9552-4e7e-a1af-8621419d94ff.par
+#BlueLink9 Road: 3D Surface (All Properties)`4-Lane Section (Adjacent Lanes)` Many Lanes` , Miscellaneous`Road_9469fd2b-9552-4e7e-a1af-8621419d94ff
+
+PARSFILE Generic\Group\GenGrp_4d8a5673-ffb3-42c1-a093-bdd6b7810485.par
+#BlueLink10 Generic Data Group`ACC, 2 Lanes Fwd w/o Display` Traffic and Blind-Spot Sensors` , Miscellaneous`GenGrp_4d8a5673-ffb3-42c1-a093-bdd6b7810485
+
+PARSFILE Generic\VS_commands\GenVS_05ef2bed-c11c-4c9e-9d14-0e746287cf25.par
+#BlueLink11 Generic VS Commands`Camera Sensor on Upper Front Window` Camera Sensors` , Miscellaneous`GenVS_05ef2bed-c11c-4c9e-9d14-0e746287cf25
+
+DELETE_PLOT_GROUP default
+PLOT_GROUP default
+PARSFILE Plot\Setup\Plot_4442302e-a863-4794-b309-f1b015bb4fa7.par
+#BlueLink15 Plot: Setup`Longitudinal Speed` Vehicle Motion` , Plot`Plot_4442302e-a863-4794-b309-f1b015bb4fa7
+
+PARSFILE Plot\Setup\Plot_79f3157d-d29b-4f16-ba4e-cc4b4a19b7ed.par
+#BlueLink16 Plot: Setup`Distances for Closest 2 Objects, Sensor 1` ADAS` , Plot`Plot_79f3157d-d29b-4f16-ba4e-cc4b4a19b7ed
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_66b583ad-c651-4dc5-8584-24faba7a8744.png
+WRITE_SENSOR_DETECT
+Title Camera Sensor (Simulink) <* CS 2017 - Live Video>
+CATEGORY * CS 2017 - Live Video 
+DATASET_TITLE Camera Sensor (Simulink)
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example shows the simulated vehicle with a camera sensor traveling on a road with forward traffic in two lanes and oncoming traffic in a third lane.
+#
+#The camera sensor's image information is passed to Simulink, and headway distance and number of other cars are detected by an image processing. The minimum supported Matlab version is R2014b. The Computer Vision System Toolbox is also required.
+#
+#In this example, speed control is provided used ACC with a built-in sensor.
+#
+#A CarSim Sensors license is required to run this simulation.  However, the license is not needed to view results.
+#
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { * CS 2017 - Live Video } Camera Sensor (Simulink)
+#Library : CarSim Run Control
+#DataSet : Camera Sensor (Simulink)
+#Category: * CS 2017 - Live Video
+#FileID  : Run_6a1913da-18aa-4fa5-9e25-c36628e5fc1c
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

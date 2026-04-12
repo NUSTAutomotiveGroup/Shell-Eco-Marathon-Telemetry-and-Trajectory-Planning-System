@@ -1,0 +1,76 @@
+PARSFILE
+#FullDataName CarSim Run Control`Pickup, Full Size, Dual Tires`* CS 2017 - Dual Tires
+#VEHICLECODE Ind_SA
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_9d9f1a0d-0e61-4934-bbf6-1a04656cb58a
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_358f7aeb-0e81-446e-a19f-f2c18b21801b.par
+#BlueLink0 Animator: Camera Setup`13 deg. Azimuth, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_358f7aeb-0e81-446e-a19f-f2c18b21801b
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 8
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 2
+#RingCtrl7 -1
+*RUN_COLOR 0.8 0 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_ae45149c-7f2f-468d-a986-6fe3e02f236a.par
+#BlueLink2 Vehicle: Assembly`Pickup, Full Size Reg Cab w Duals 2017` Pickup, Full Size` , Vehicle Configuration`Vehicle_ae45149c-7f2f-468d-a986-6fe3e02f236a
+
+PARSFILE Procedures\Proc_38b53763-4ae2-4178-9faa-9b74ba426016.par
+#BlueLink28 Procedures`DLC @ 120 km/h (no tire force arrows)` Handling Testing` , Procedure`Proc_38b53763-4ae2-4178-9faa-9b74ba426016
+
+PARSFILE Generic\Group\GenGrp_29d43960-537c-43a9-a45c-11cb62509517.par
+#BlueLink9 Generic Data Group`2 Axle - Fx, Fy, Fz (Duals)` Tire Force Arrows` , Miscellaneous`GenGrp_29d43960-537c-43a9-a45c-11cb62509517
+
+PARSFILE Plot\Setup\Plot_502b7c43-dc6b-4e6c-9c08-25f4135ec232.par
+#BlueLink15 Plot: Setup`Slip Angles: Instant (dual tires - inner)` Tire Kinematics` , Plot`Plot_502b7c43-dc6b-4e6c-9c08-25f4135ec232
+
+PARSFILE Plot\Setup\Plot_0bc7ec62-3363-4efa-8cf9-bf9bf6fe8010.par
+#BlueLink16 Plot: Setup`Slip Angles: Instant (dual tires - outer)` Tire Kinematics` , Plot`Plot_0bc7ec62-3363-4efa-8cf9-bf9bf6fe8010
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_e5bd67ac-57d0-48c6-b145-12a25772cb42.png
+WRITE_SENSOR_DETECT
+Title Pickup, Full Size, Dual Tires <* CS 2017 - Dual Tires>
+CATEGORY * CS 2017 - Dual Tires 
+DATASET_TITLE Pickup, Full Size, Dual Tires
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#CarSim 2017 supports vehicles with dual tires. This example illustrates their installation on a full-size pickup truck.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { * CS 2017 - Dual Tires } Pickup, Full Size, Dual Tires
+#Library : CarSim Run Control
+#DataSet : Pickup, Full Size, Dual Tires
+#Category: * CS 2017 - Dual Tires
+#FileID  : Run_9d9f1a0d-0e61-4934-bbf6-1a04656cb58a
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

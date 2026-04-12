@@ -1,0 +1,65 @@
+PARSFILE
+#FullDataName Moving Object`AEB Target Vehicle`AEB Testing
+
+DEFINE_MOVING_OBJECTS 1
+IOBJECT_INCREMENT
+symbol_add <<o>> 1
+SET_DESCRIPTION OBJECT_NAME AEB Target Vehicle
+#CheckBox0 0    
+#CheckBox1 0    
+OPT_RECYCLE_OBJ 0
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+OPT_RECT_OBJ 1
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl0 3
+#MiscYellow0
+DEFINE_PARAMETER start_evt = 60; m ; Starting station of EVT
+DEFINE_PARAMETER lat_evt = 0; m ; Lateral offset of EVT
+DEFINE_OUTPUT Vx_EVT = 0; km/h; EVT Speed
+#ENDMYellow
+
+H_OBJ -1.35
+*REFLECT 1
+*COLOR 1 0.6 0
+*S_INIT start_evt
+*L_INIT lat_evt
+MATERIAL_TYPE_OBJ 0
+REFLECT_OBJ 1
+*SPEED Vx_EVT
+*SIZE 1
+WIDTH_OBJ 1.6
+LX_FRONT_OBJ 1
+LENGTH_OBJ 1
+*HEADING_VEL 0
+HeadO_<<o>> 0
+PARSFILE Animator\Vehicles\AniVeh_0c49bee3-15ec-4eab-8a87-840a5d4ac707.par
+#BlueLink0 Animator: Vehicles and Sensor Targets`EVT` ` , Animator shape(s)`AniVeh_0c49bee3-15ec-4eab-8a87-840a5d4ac707
+
+EQ_INIT S_Obj_<<o>> start_evt
+EQ_INIT LatO_<<o>> lat_evt
+DEFINE_VARIABLE HeadV_O_<<o>> 0;deg; Heading vector for ODEs
+DEFINE_VARIABLE SPEED_O_<<o>> = Vx_EVT;km/h; Speed magnitude for ODEs
+EQ_OUT SPEED_O_<<o>> = Vx_EVT;
+EQ_DIFFERENTIAL LatO_<<o>> = sin(HeadV_O_<<o>>)*SPEED_O_<<o>>
+EQ_DIFFERENTIAL S_Obj_<<o>> = cos(HeadV_O_<<o>>)*SPEED_O_<<o>>
+
+#EMBEDDED_NOTES
+#Several parameters are defined here so they can be set from the Run Control screen or elsewhere.
+#
+#The most critical is the output variable Vx_EVT. Depending on the type of test, it can be zero, 20 km/h, or a function of time.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Moving Object; { AEB Testing } AEB Target Vehicle
+#Library : Moving Object
+#DataSet : AEB Target Vehicle
+#Category: AEB Testing
+#FileID  : Target_c96398d7-ce7f-4881-a3fb-46f5f23b9298
+#Product : CarSim 2017.1
+#VehCode Moving Object
+
+END

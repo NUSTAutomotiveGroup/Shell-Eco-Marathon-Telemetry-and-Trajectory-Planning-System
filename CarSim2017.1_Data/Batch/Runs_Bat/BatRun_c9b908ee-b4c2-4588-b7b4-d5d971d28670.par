@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Batch Runs`ADAS and Active Safety (Including AEB)`Built-In Solvers
+#CheckBox1 0    
+
+#MiscYellow1
+#<ADAS and Active Safety> ACC, 4-Lane Road, Fwd and Opp. Traffic
+#<ADAS and Active Safety> ACC, 5-Lane Road, 3 Lanes Fwd Traffic
+#<ADAS and Active Safety> Blind Spot Warning, Reversing in Parking Lot
+#<ADAS and Active Safety> Lane Departure in Double Lane Change
+#<ADAS and Active Safety> Lane Departure Warning, 4 Lanes Divided
+#<ADAS and Active Safety> Lane Departure Warning, 4 Lanes, Adjacent
+#<ADAS and Active Safety> Many Sensors, 5-Lane Road, 3 Lanes Fwd
+#<AEB: Automated Emergency Braking> AEB  CCRb: - 2 m/s2, 12 m
+#<AEB: Automated Emergency Braking> AEB  CCRb: - 6 m/s2, 12 m
+#<AEB: Automated Emergency Braking> AEB  CCRb: - 6 m/s2, 40 m
+#<AEB: Automated Emergency Braking> AEB Test Series for CCRm
+#<AEB: Automated Emergency Braking> AEB Test Series for CCRs
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains the datasets which are in the ADAS and Active Safety and AEB: Automated Emergency Braking categories
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; { Built-In Solvers } ADAS and Active Safety (Including AEB)
+#Library : Batch Runs
+#DataSet : ADAS and Active Safety (Including AEB)
+#Category: Built-In Solvers
+#FileID  : BatRun_c9b908ee-b4c2-4588-b7b4-d5d971d28670
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

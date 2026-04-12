@@ -1,0 +1,83 @@
+PARSFILE
+#FullDataName CarSim Run Control`Braking: Advanced, Type A Ext. ABS`Brake Tests
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_a51cebc0-6291-46c6-a66f-e7abf4c8035a
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Models\Simulink\Simlink_ec3439cd-74d6-4a17-83a5-fb75bb464820.par
+#BlueLink12 Models: Simulink`Type A ABS Controller` Braking Controls` , Models`Simlink_ec3439cd-74d6-4a17-83a5-fb75bb464820
+
+PARSFILE Animator\Cameras\Camera_8eb08baf-478b-4574-8772-fb6308e8fbd6.par
+#BlueLink0 Animator: Camera Setup`35 deg. Azimuth, 42 deg. FOV, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_8eb08baf-478b-4574-8772-fb6308e8fbd6
+
+#CheckBox0 1    
+#CheckBox1 1    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0.6 0.2 0.6
+SET_RUN_COLOR 0.6 0.2 0.6
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_0784d2bd-bfb3-4db3-a9a3-939be6410358.par
+#BlueLink2 Vehicle: Assembly`E-Class, Sedan 2017: w/ Temp. and Boost` E-Class` , Vehicle Configuration`Vehicle_0784d2bd-bfb3-4db3-a9a3-939be6410358
+
+PARSFILE Procedures\Proc_7b30fa68-3ee7-4dcf-8126-8500064113a1.par
+#BlueLink28 Procedures`Braking from 80 km/h, 250 N Pedal Force` Accel. and Brake Testing` , Procedure`Proc_7b30fa68-3ee7-4dcf-8126-8500064113a1
+
+PARSFILE Roads\3D_Road\Road_1858fd7f-8c63-404a-a7a7-9f6c232bb1e9.par
+#BlueLink9 Road: 3D Surface (All Properties)`1200 m, Two Lanes` Straight` , Miscellaneous`Road_1858fd7f-8c63-404a-a7a7-9f6c232bb1e9
+
+PARSFILE Roads\Friction\RdMu_3b0c5b27-b912-4170-9439-b5397fef112d.par
+#BlueLink10 Road: Friction Map, S-L Grid`Contant: 0.5` Constant` , Miscellaneous`RdMu_3b0c5b27-b912-4170-9439-b5397fef112d
+
+
+SPECIAL_PARSFILE Runs\Run_91b65b8e-26ed-4685-b693-b7eca1bd4ef1.par
+#BlueLink23 CarSim Run Control`Braking: ABS Type A Ctrl., Legacy` Brake Tests` , Overlay run or ERD file`Run_91b65b8e-26ed-4685-b693-b7eca1bd4ef1
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_56213a52-605a-4200-ab95-2aae09c11489.png
+WRITE_SENSOR_DETECT
+Title Braking: Advanced, Type A Ext. ABS <Brake Tests>
+CATEGORY Brake Tests 
+DATASET_TITLE Braking: Advanced, Type A Ext. ABS
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example is an update of an example vehicle with a brake system with pedal-force input, power boost, a volume-flow parameter for caliper dynamics, and thermal/fade effects. ABS conrol is provided by a Simulink model with a model that used to be called "Type A" (ABS control is applied before proportioning).
+#
+#This updated version of the "Type A" example uses the standard 4-wheel brake system library.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Brake Tests } Braking: Advanced, Type A Ext. ABS
+#Library : CarSim Run Control
+#DataSet : Braking: Advanced, Type A Ext. ABS
+#Category: Brake Tests
+#FileID  : Run_a51cebc0-6291-46c6-a66f-e7abf4c8035a
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

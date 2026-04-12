@@ -1,0 +1,72 @@
+PARSFILE
+#FullDataName CarSim Run Control`Mcity Proving Grounds`* CS 2017 - Mcity
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_5291f6e6-7013-4f4a-ad38-af20b4c29b95
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_8e88a03d-829a-4903-9070-6f77c84a8e7b.par
+#BlueLink0 Animator: Camera Setup`Mcity: Scene view - 160 deg Azimuth, 20 deg El` Mcity` , Animator camera`Camera_8e88a03d-829a-4903-9070-6f77c84a8e7b
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 3
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0.8 0 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_a0aaeca0-2c47-4094-9562-cbd5e0d325b6.par
+#BlueLink2 Vehicle: Assembly`C-Class, Hatchback 2017` C-Class` , Vehicle Configuration`Vehicle_a0aaeca0-2c47-4094-9562-cbd5e0d325b6
+
+PARSFILE Procedures\Proc_1e8ce24c-4d4b-4aed-88d9-f6fd1ee5fd33.par
+#BlueLink28 Procedures`30 km/h Mcity` Mcity` , Procedure`Proc_1e8ce24c-4d4b-4aed-88d9-f6fd1ee5fd33
+
+PARSFILE Roads\Center_XY\PathXY_05881466-c8de-47d7-aab5-5d55309b3a3e.par
+#BlueLink9 Path: X-Y Coordinates`Mcity Straight Path` Mcity` , Miscellaneous`PathXY_05881466-c8de-47d7-aab5-5d55309b3a3e
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_a0aaeca0-2c47-4094-9562-cbd5e0d325b6.png
+WRITE_SENSOR_DETECT
+Title Mcity Proving Grounds <* CS 2017 - Mcity>
+CATEGORY * CS 2017 - Mcity 
+DATASET_TITLE Mcity Proving Grounds
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#Simple straight path example using Mcity simulation.
+#
+#To aid in the development of additional driving paths, a grid map of Mcity can be found on the Help Menu under the heading "Real-Time and DS Systems"
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { * CS 2017 - Mcity } Mcity Proving Grounds
+#Library : CarSim Run Control
+#DataSet : Mcity Proving Grounds
+#Category: * CS 2017 - Mcity
+#FileID  : Run_5291f6e6-7013-4f4a-ad38-af20b4c29b95
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

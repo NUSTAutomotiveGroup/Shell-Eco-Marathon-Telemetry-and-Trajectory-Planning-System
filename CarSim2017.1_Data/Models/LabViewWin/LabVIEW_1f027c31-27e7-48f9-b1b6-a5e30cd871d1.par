@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Models: LabVIEW for Windows (VI)`ACC 1st Car`labview_two_vehicles
+#RunMdlFile Extensions\LabView\Multi_Vehicle\i_i_ACC.vi
+#RunSimCat Ind_Ind`Extensions\LabView\Multi_Vehicle\i_i.dll
+*SIM_CODE1 Ind_Ind
+*SIM_PATH1 Extensions\LabView\Multi_Vehicle\i_i.dll
+#RingCtrl0 1
+#RingCtrl1 2
+OPT_INT_METHOD 2
+#CheckBox0 1    
+*USE_DIFF_SOLVERS 1
+#CheckBox1 0    
+OPT_IO_UPDATE 0
+#CheckBox2 0    
+
+#MiscYellow0
+IMP_PCON_BK Add 0.0! 1
+#ENDMYellow
+
+PARSFILE IO_Channels\O_Channels\Export_cd46af09-813a-451b-b6bb-def0b4b3623a.par
+#BlueLink1 I/O Channels: Export`Radar Active Cruise (Ext. Sen.)` ` , Export`Export_cd46af09-813a-451b-b6bb-def0b4b3623a
+
+#MiscYellow1
+simfile Car1.sim
+#ENDMYellow
+
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+#EMBEDDED_NOTES
+#This example illustrates a simple LabVIEW model that displays the tire lateral forces based on 4 exported variables from CarSim.  (Libraries -> Models -> Models: LabVIEW for Windows (VI))
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: LabVIEW for Windows (VI); { labview_two_vehicles } ACC 1st Car
+#Library : Models: LabVIEW for Windows (VI)
+#DataSet : ACC 1st Car
+#Category: labview_two_vehicles
+#FileID  : LabVIEW_1f027c31-27e7-48f9-b1b6-a5e30cd871d1
+#Product : CarSim 2017.1
+#VehCode 
+
+END

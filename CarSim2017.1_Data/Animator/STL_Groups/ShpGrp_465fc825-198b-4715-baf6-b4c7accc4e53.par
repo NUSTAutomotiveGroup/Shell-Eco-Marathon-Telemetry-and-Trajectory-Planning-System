@@ -1,0 +1,54 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`Tractor`
+*OFFSET_X 0
+*OFFSET_Y 0
+*OFFSET_Z 0.55
+*X_REF_LENGTH 2050
+*Y_REF_LENGTH 1094
+*Z_REF_LENGTH 1883
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 1    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_465fc825-198b-4715-baf6-b4c7accc4e53.png
+PARSFILE Animator\STL\Shape_75b44873-794e-4c5f-b397-d837a560a843.par
+#BlueLink0 Animator: Shape File Link`Tractor: Body` CS Tractor` , Shape File`Shape_75b44873-794e-4c5f-b397-d837a560a843
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.55
+PARSFILE Animator\STL\Shape_48eda158-4000-4e68-993a-0d30c4a23e60.par
+#BlueLink1 Animator: Shape File Link`Tractor: Details` CS Tractor` , Shape File`Shape_48eda158-4000-4e68-993a-0d30c4a23e60
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.55
+PARSFILE Animator\STL\Shape_d8323125-811a-44fb-914f-ebfcc1fa6645.par
+#BlueLink2 Animator: Shape File Link`Tractor: Driver` CS Tractor` , Shape File`Shape_d8323125-811a-44fb-914f-ebfcc1fa6645
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.55
+x_ref_length 2050
+y_ref_length 1094
+z_ref_length 1883
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_614e20f4-a550-401b-86b4-f904a05376d4.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (No Grid)` Shape Preview` , Video Camera`Camera_614e20f4-a550-401b-86b4-f904a05376d4
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; Tractor
+#Library : Animator: Shape Assembly
+#DataSet : Tractor
+#Category: 
+#FileID  : ShpGrp_465fc825-198b-4715-baf6-b4c7accc4e53
+#Product : CarSim 2017.1
+#VehCode Shape Assembly
+
+END

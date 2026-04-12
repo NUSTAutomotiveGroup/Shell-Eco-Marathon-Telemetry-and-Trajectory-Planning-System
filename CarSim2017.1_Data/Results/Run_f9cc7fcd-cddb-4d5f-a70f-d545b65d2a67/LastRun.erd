@@ -1,0 +1,17 @@
+ERDFILEV2.00
+16, -1, -1, 64, 1, 0.025000
+TITLE   Friction Ellipse - Alpha = -2 deg <Tire Tester>
+CATEGORYTire Tester
+DATASET Friction Ellipse - Alpha = -2 deg
+SHORTNAMAlpha_L1Fx_L1   Fy_L1   Fz_L1   Gamma_L1Kappa_L1mu_x_l1 mu_y_l1 Mx_L1   My_L1   mz_fx_l1mz_fy_l1Mz_L1   slip_l1 trail_l1y_ctc_l1
+UNITSNAMdeg     N       N       N       deg     -       -       -       N-m     N-m     N-m     N-m     N-m     -       mm      mm      
+LONGNAMESlip angle                      Longitudinal force              Lateral force                   Vertical force                  Inclination angle               Slip ratio                      Normalized longitudinal force   Normalized lateral force        Overturning moment, tire L1     Rolling resistance moment       Mz due to Fx and CTC lat. shift Aligning moment due to Fy       Aligning moment, tire L1        Tangent of slip angle           Pneumatic trail                 CTC lateral shift               
+GENNAME Angle                           Force                           Force                           Force                           Angle                           Longitudinal slip               mu_x_l1                         mu_y_l1                         Moment                          Moment                          mz_fx_l1                        mz_fy_l1                        Moment                          slip_l1                         trail_l1                        y_ctc_l1                        
+RIGIBODYTest tire                       Test tire                       Test tire                       Test tire                       Test tire                       Test tire                       Test tire                       Test tire                       Tire L1 overturning             Test tire                       Test tire                       Test tire                       Tire L1 aligning                Test tire                       Test tire                       Test tire                       
+HISTORY VS Tire Tester for CarSim and TruckSim 2017: Revision 30115, February 02, 2017
+HISTORY Input parameter file was Results\Run_f9cc7fcd-cddb-4d5f-a70f-d545b65d2a67\Run_all.par
+XLABEL  Time
+XUNITS  s
+XSTART  0.000000
+HISTORY Run made at 15:56 on February 03, 2017.
+END

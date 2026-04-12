@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Animator: Group (More)`Outrigger Fz Arrows`
+PARSFILE Animator\Frames\Frame_0d25e230-4d1f-4d26-b402-c859e37bf607.par
+#BlueLink9 Animator: Reference Frame`L1 Outrigger Fz` Rollover Ref. Frames` , Miscellaneous`Frame_0d25e230-4d1f-4d26-b402-c859e37bf607
+
+PARSFILE Animator\STL_Groups\ShpGrp_633107e3-ce5c-4346-b0d8-f6d93c814de8.par
+#BlueLink10 Animator: Shape Assembly`Fz Double (Tail Origin)` Arrows` , Miscellaneous`ShpGrp_633107e3-ce5c-4346-b0d8-f6d93c814de8
+
+PARSFILE Animator\Frames\Frame_f4ee939b-a700-43bb-b4be-6fd1344b50c1.par
+#BlueLink11 Animator: Reference Frame`L2 Outrigger Fz` Rollover Ref. Frames` , Miscellaneous`Frame_f4ee939b-a700-43bb-b4be-6fd1344b50c1
+
+PARSFILE Animator\STL_Groups\ShpGrp_633107e3-ce5c-4346-b0d8-f6d93c814de8.par
+#BlueLink12 Animator: Shape Assembly`Fz Double (Tail Origin)` Arrows` , Miscellaneous`ShpGrp_633107e3-ce5c-4346-b0d8-f6d93c814de8
+
+PARSFILE Animator\Frames\Frame_fc3ba14e-8893-45da-bc52-243b715d60a0.par
+#BlueLink15 Animator: Reference Frame`R1 Outrigger Fz` Rollover Ref. Frames` , Miscellaneous`Frame_fc3ba14e-8893-45da-bc52-243b715d60a0
+
+PARSFILE Animator\STL_Groups\ShpGrp_633107e3-ce5c-4346-b0d8-f6d93c814de8.par
+#BlueLink16 Animator: Shape Assembly`Fz Double (Tail Origin)` Arrows` , Miscellaneous`ShpGrp_633107e3-ce5c-4346-b0d8-f6d93c814de8
+
+PARSFILE Animator\Frames\Frame_3496dc25-ae94-49ce-8865-f460e3c6e3d0.par
+#BlueLink17 Animator: Reference Frame`R2 Outrigger Fz` Rollover Ref. Frames` , Miscellaneous`Frame_3496dc25-ae94-49ce-8865-f460e3c6e3d0
+
+PARSFILE Animator\STL_Groups\ShpGrp_633107e3-ce5c-4346-b0d8-f6d93c814de8.par
+#BlueLink18 Animator: Shape Assembly`Fz Double (Tail Origin)` Arrows` , Miscellaneous`ShpGrp_633107e3-ce5c-4346-b0d8-f6d93c814de8
+
+
+#CheckBox0 0    
+
+
+LOG_ENTRY Used Dataset: Animator: Group (More); Outrigger Fz Arrows
+#Library : Animator: Group (More)
+#DataSet : Outrigger Fz Arrows
+#Category: 
+#FileID  : GroupM_dfa0bd36-eabf-4eb9-99a3-4f195ff44ddd
+#Product : CarSim 2017.1
+#VehCode Group (More)
+
+END

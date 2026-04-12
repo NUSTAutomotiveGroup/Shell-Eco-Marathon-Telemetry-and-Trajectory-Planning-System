@@ -1,0 +1,1 @@
+mex -DWIN32 -output vs_sf_custom.mexw32 -I..\common vs_sf_custom.c ..\solver_steer_control\external.c ..\common\vs_get_api.c

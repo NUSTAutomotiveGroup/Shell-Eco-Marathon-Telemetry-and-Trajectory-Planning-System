@@ -1,0 +1,42 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Front Solid Drive Axle`Misc. Parts
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\misc\solid_axle.obj
+#ENDMYellow
+
+SET_COLOR 0.502 0.502 0.502
+SET_ANGLE_Z 180
+SET_ANGLE_Y 0
+SET_ANGLE_X 0
+SET_OFFSET_X 0
+SET_OFFSET_Y -0.007
+SET_OFFSET_Z 0
+X_REF_LENGTH 1
+Y_REF_LENGTH 1700
+Z_REF_LENGTH 1
+*SPECULAR 0
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+SET_SPECULAR 0 0 0
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_3651c341-b4ca-45a4-bec3-45a2f5e7cf4f.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Misc. Parts } Front Solid Drive Axle
+#Library : Animator: Shape File Link
+#DataSet : Front Solid Drive Axle
+#Category: Misc. Parts
+#FileID  : Shape_3651c341-b4ca-45a4-bec3-45a2f5e7cf4f
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

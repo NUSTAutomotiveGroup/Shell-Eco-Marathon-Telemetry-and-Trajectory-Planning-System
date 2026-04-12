@@ -1,0 +1,78 @@
+PARSFILE
+#FullDataName CarSim Run Control`DLC, Preview Speed Control`Driver Model
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_e5fc6ea4-a17d-4cb4-a0b9-358425d6806e
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_36b2ee7b-54ec-4c39-9781-51b289ab39c0.par
+#BlueLink0 Animator: Camera Setup`Rear View , Road Ref. (Frt. Facing)` Road Reference` , Animator camera`Camera_36b2ee7b-54ec-4c39-9781-51b289ab39c0
+
+#CheckBox0 1    
+#CheckBox1 1    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0.796 1 0.996
+SET_RUN_COLOR 0.796 1 0.996
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_30c22a64-baf6-443f-93a1-3f2a95df26b9.par
+#BlueLink2 Vehicle: Assembly`D-Class, Sedan 2017` D-Class` , Vehicle Configuration`Vehicle_30c22a64-baf6-443f-93a1-3f2a95df26b9
+
+PARSFILE Procedures\Proc_cb3bccad-52e1-464c-9947-0a4e2972a793.par
+#BlueLink28 Procedures`DLC w/ Preview Speed Control` Driver Controls` , Procedure`Proc_cb3bccad-52e1-464c-9947-0a4e2972a793
+
+
+SPECIAL_PARSFILE Runs\Run_a7c00e97-7aa4-480f-92e5-de930e6d0a56.par
+#BlueLink23 CarSim Run Control`DLC, Constant Target Speed` Driver Model` , Overlay run or ERD file`Run_a7c00e97-7aa4-480f-92e5-de930e6d0a56
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_4c0e86ee-c21f-408d-8b23-6643df4bf3f4.png
+WRITE_SENSOR_DETECT
+Title DLC, Preview Speed Control <Driver Model>
+CATEGORY Driver Model 
+DATASET_TITLE DLC, Preview Speed Control
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#A speed target can be calculated along a path while attempting to remain within specified target limits of lateral and longitudinal acceleration.
+#
+#This example uses the Speed (Closed Loop) using Path Preview to calculate a target speed profile subject to target limits of 0.7 G longitudinal and 0.3 G lateral acceleration.
+#
+#It enters the test section at 120 km/h, brakes hard, steers through the double lane change, then begins to accelerate.
+#
+#This example is overlaid with a similar run that uses a constant target speed of 48 km/h.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Driver Model } DLC, Preview Speed Control
+#Library : CarSim Run Control
+#DataSet : DLC, Preview Speed Control
+#Category: Driver Model
+#FileID  : Run_e5fc6ea4-a17d-4cb4-a0b9-358425d6806e
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

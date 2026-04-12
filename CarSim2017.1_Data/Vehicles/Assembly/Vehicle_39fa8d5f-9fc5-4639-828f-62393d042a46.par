@@ -1,0 +1,107 @@
+PARSFILE
+#FullDataName Vehicle: Assembly`D-Class, SUV 2017: 4WD, Ext. Rr. Twin Clutch Ctrl.`D-Class
+#VehCode Ind_SA
+#CheckBox0 0    
+#CheckBox1 0    
+
+#RingCtrl0 3
+OPT_PT 3
+#RingCtrl1 1
+#RingCtrl2 3
+#RingCtrl3 0
+
+* Front components
+iaxle 1
+symbol_push  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_67c9bb60-cfad-4bdd-925f-ea66a2fa8f20.par
+#BlueLink19 Suspension: Independent System Kinematics`D-Class, SUV - Front` D-Class` , Kinematics`KinInd_67c9bb60-cfad-4bdd-925f-ea66a2fa8f20
+
+PARSFILE Suspensions\Compliance\CmpInd_83b37c60-f193-47f3-8b2e-03d0e2ecf1f5.par
+#BlueLink16 Suspension: Independent Compliance, Springs, and Dampers`D-Class, SUV - Front` D-Class` , Compliance`CmpInd_83b37c60-f193-47f3-8b2e-03d0e2ecf1f5
+
+
+OPT_ALL_FOUR_TIRES_ALIKE 1
+
+* LF tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_9031a6fd-7ca9-432d-af7b-32dbfd42cbf8.par
+#BlueLink999 Tire`235/55 R18` Touring Tires` , Tire`Tire_9031a6fd-7ca9-432d-af7b-32dbfd42cbf8
+
+
+* RF tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_9031a6fd-7ca9-432d-af7b-32dbfd42cbf8.par
+#BlueLink10 Tire`235/55 R18` Touring Tires` , Tire`Tire_9031a6fd-7ca9-432d-af7b-32dbfd42cbf8
+
+* Rear components
+iaxle 2
+symbol_add  <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_AXLE
+PARSFILE Suspensions\Kin_Solid\KinSA_9387be47-b876-432a-861b-196833724ebf.par
+#BlueLink23 Suspension: Solid Axle System Kinematics`D-Class, SUV - Rear` ` , Kinematics`KinSA_9387be47-b876-432a-861b-196833724ebf
+
+PARSFILE Suspensions\Compliance_SA\CmpSA_9166f5c2-2174-435d-8570-aa6e19302ef9.par
+#BlueLink22 Suspension: Solid Axle Compliance, Springs, and Dampers`D-Class, SUV - Rear` ` , Compliance`CmpSA_9166f5c2-2174-435d-8570-aa6e19302ef9
+
+
+* LR tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_9031a6fd-7ca9-432d-af7b-32dbfd42cbf8.par
+#BlueLink999 Tire`235/55 R18` Touring Tires` , Tire`Tire_9031a6fd-7ca9-432d-af7b-32dbfd42cbf8
+
+
+* RR tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_9031a6fd-7ca9-432d-af7b-32dbfd42cbf8.par
+#BlueLink999 Tire`235/55 R18` Touring Tires` , Tire`Tire_9031a6fd-7ca9-432d-af7b-32dbfd42cbf8
+
+symbol_set <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Vehicles\Sprung_Mass\SprMass_0b04926a-dd8e-4f6e-b0ec-7ba3db3898fa.par
+#BlueLink0 Vehicle: Sprung Mass`D-Class, SUV` D-Class` , Sprung Mass`SprMass_0b04926a-dd8e-4f6e-b0ec-7ba3db3898fa
+
+PARSFILE Aerodynamics\Aero_Main\Aero_b684a7c8-b9a3-41b1-a1bc-6c8a48809c81.par
+#BlueLink1 Aerodynamics: Basic`D-Class, SUV` SUVs` , Aerodynamics`Aero_b684a7c8-b9a3-41b1-a1bc-6c8a48809c81
+
+PARSFILE Animator\Vehicles\AniVeh_185d62e8-e27d-4be3-87c4-3eeed284ad17.par
+#BlueLink2 Animator: Vehicles and Sensor Targets`D-Class, SUV V9` D-Class Vehicles` , Vehicle 3D Shape`AniVeh_185d62e8-e27d-4be3-87c4-3eeed284ad17
+
+PARSFILE Powertrain\4wd\4WD_802b8834-4317-4c97-a4fb-5e01ce81d6f2.par
+#BlueLink5 Powertrain: 4-Wheel Drive`150 kW, PT4WD Rr Twin Clutch Ext. Control` 150 kW Powertrains` , Powertrain`4WD_802b8834-4317-4c97-a4fb-5e01ce81d6f2
+
+PARSFILE Brakes\4W_System\Brk4W_5011ad03-3228-4bdc-8aba-aebd0486c2eb.par
+#BlueLink6 Brakes: Four-Wheel System`D-Class, SUV w/o ABS` D-Class` , Brake System`Brk4W_5011ad03-3228-4bdc-8aba-aebd0486c2eb
+
+PARSFILE Steering\System2\StrSys2_64ffa9d1-b87b-4da1-94c4-81269337c3d3.par
+#BlueLink7 Steering`D-Class, SUV 2017: Power, Recirc. Ball` CS D-Class` , Steering System`StrSys2_64ffa9d1-b87b-4da1-94c4-81269337c3d3
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_185d62e8-e27d-4be3-87c4-3eeed284ad17.png
+
+#EMBEDDED_NOTES
+#Generic D-Class SUV (Mid-Size) with SLA front suspension, Hotchkiss Solid Axle rear suspension, and an externally controlled twin clutch rear differential.
+#
+#D-Class SUVs include the Ford Escape, Honda CR-V, Jeep Wrangler and Liberty, and Toyota RAV4.
+#
+#This example vehicle's powertrain has an externally controlled twin clutch rear differential. The control signal comes from user-supplied programming such as Simulink or C-Code. Users can then tune the software control and see how the vehicle reacts. Click on the Powertrain blue link for more information regarding the settings for the externally controlled twin clutch rear differential.
+#
+#Updated for CarSim 2017:  Revised the steering system parameters.  Tested for: On-Center, Static Steer, and Free Response Stability.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Assembly; { D-Class } D-Class, SUV 2017: 4WD, Ext. Rr. Twin Clutch Ctrl.
+#Library : Vehicle: Assembly
+#DataSet : D-Class, SUV 2017: 4WD, Ext. Rr. Twin Clutch Ctrl.
+#Category: D-Class
+#FileID  : Vehicle_39fa8d5f-9fc5-4639-828f-62393d042a46
+#Product : CarSim 2017.1
+#VehCode Ind_SA
+
+END

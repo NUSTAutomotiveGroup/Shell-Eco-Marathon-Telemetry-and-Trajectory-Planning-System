@@ -1,0 +1,49 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`B-Class, Hatchback 2012 OSG`CS B-Class
+*COLOR .36 .117 .117
+*OFFSET_X 0
+*OFFSET_Y 0
+*OFFSET_Z 0.27
+*X_REF_LENGTH 2600
+*Y_REF_LENGTH 1661
+*Z_REF_LENGTH 1535
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 1    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_36d0639f-c7ce-46a8-a505-b14f2a81ff55.png
+PARSFILE Animator\STL\Shape_b15ad5bf-3fd2-4329-9721-a836e89107cf.par
+#BlueLink0 Animator: Shape File Link`B Class Hatchback Body 2012 OSG` CS Hatchback` , Shape File`Shape_b15ad5bf-3fd2-4329-9721-a836e89107cf
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.27
+PARSFILE Animator\STL\Shape_9ed0881d-f31e-4a87-9ea1-8bf68d266c20.par
+#BlueLink2 Animator: Shape File Link`B Class, Hatchback: Driver 2012` CS Hatchback` , Shape File`Shape_9ed0881d-f31e-4a87-9ea1-8bf68d266c20
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.27
+x_ref_length 2600
+y_ref_length 1661
+z_ref_length 1535
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { CS B-Class } B-Class, Hatchback 2012 OSG
+#Library : Animator: Shape Assembly
+#DataSet : B-Class, Hatchback 2012 OSG
+#Category: CS B-Class
+#FileID  : ShpGrp_36d0639f-c7ce-46a8-a505-b14f2a81ff55
+#Product : CarSim 2017.1
+#VehCode Shape Assembly
+
+END

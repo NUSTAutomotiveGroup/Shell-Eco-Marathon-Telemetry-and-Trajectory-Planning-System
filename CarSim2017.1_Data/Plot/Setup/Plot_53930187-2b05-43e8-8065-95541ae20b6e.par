@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Plot: Setup`Hitch Roll Angle`Hitch
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d.par
+#BlueLink0 Plot: Format`Lines without Symbols` ` , Plot format`PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d
+
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Roll, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Hitch Roll Angle
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Hitch } Hitch Roll Angle
+#Library : Plot: Setup
+#DataSet : Hitch Roll Angle
+#Category: Hitch
+#FileID  : Plot_53930187-2b05-43e8-8065-95541ae20b6e
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

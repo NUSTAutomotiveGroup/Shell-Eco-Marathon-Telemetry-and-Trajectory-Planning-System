@@ -1,0 +1,53 @@
+PARSFILE
+#FullDataName Suspension: Longitudinal Movement`Strut -  Front`
+#CheckBox0 0    
+
+#RingCtrl0 SPLINE
+
+#DiagramOne0
+SUSP_X_TABLE SPLINE
+-70, -0.779336
+-60, -0.596671
+-50, -0.438583
+-40, -0.304523
+-30, -0.194019
+-20, -0.106665
+-10, -0.042102
+0, 0
+10, 0.019968
+20, 0.018152
+30, -0.005034
+40, -0.049059
+50, -0.113201
+60, -0.196434
+70, -0.297272
+ENDTABLE
+#RadioCtrl0 0    
+
+SUSP_X_AXLE_TABLE SPLINE
+-70, -0.779336
+-60, -0.596671
+-50, -0.438583
+-40, -0.304523
+-30, -0.194019
+-20, -0.106665
+-10, -0.042102
+0, 0
+10, 0.019968
+20, 0.018152
+30, -0.005034
+40, -0.049059
+50, -0.113201
+60, -0.196434
+70, -0.297272
+ENDTABLE
+
+LOG_ENTRY Used Dataset: Suspension: Longitudinal Movement; Strut -  Front
+#Library : Suspension: Longitudinal Movement
+#DataSet : Strut -  Front
+#Category: 
+#FileID  : SusX_35125851-77f6-44c6-bcb0-732d9aa828f0
+#Product : CarSim 2017.1
+#VehCode Longitudinal Movement
+
+END

@@ -1,0 +1,34 @@
+PARSFILE
+#FullDataName Generic Group of Links`Five HUD Links`
+#VehCode Generic Links
+PARSFILE Generic\Lists\GenList_71aa2b42-7693-4485-9790-a3f6dbb74a86.par
+#BlueLink0 Generic Data Lists`Tachometer` HUD Indicators` , Miscellaneous`GenList_71aa2b42-7693-4485-9790-a3f6dbb74a86
+
+PARSFILE Generic\Lists\GenList_cb0b3e41-dc9a-493e-8db6-788fcb0e2458.par
+#BlueLink1 Generic Data Lists`Speedometer w/ Gear` HUD Indicators` , Miscellaneous`GenList_cb0b3e41-dc9a-493e-8db6-788fcb0e2458
+
+PARSFILE Generic\Lists\GenList_13b27ff8-9fe4-4c22-9e94-3e3724d921eb.par
+#BlueLink2 Generic Data Lists`Throttle Fill` HUD Indicators` , Miscellaneous`GenList_13b27ff8-9fe4-4c22-9e94-3e3724d921eb
+
+PARSFILE Generic\Lists\GenList_a9752d24-7c2d-42a5-b2d5-ef9f6892b65e.par
+#BlueLink3 Generic Data Lists`Brake Indicator Light` HUD Indicators` , Miscellaneous`GenList_a9752d24-7c2d-42a5-b2d5-ef9f6892b65e
+
+PARSFILE Generic\Lists\GenList_7c586334-844f-4766-b88c-595b005e5ad2.par
+#BlueLink4 Generic Data Lists`G-G- Diagram` HUD Indicators` , Miscellaneous`GenList_7c586334-844f-4766-b88c-595b005e5ad2
+
+#BlueLink13 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink14 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink15 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+
+LOG_ENTRY Used Dataset: Generic Group of Links; Five HUD Links
+#Library : Generic Group of Links
+#DataSet : Five HUD Links
+#Category: 
+#FileID  : GenLink_210fc85a-c5d3-41a4-80a1-ee856a1416d8
+#Product : CarSim 2017.1
+#VehCode Generic Links
+
+END

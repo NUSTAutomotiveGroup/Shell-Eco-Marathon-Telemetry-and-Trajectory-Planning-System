@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName Control: Speed (Closed Loop) vs. Station (Legacy)`Normal Driving on Road Course`
+#CheckBox2 0    
+#CheckBox3 1    
+#RingCtrl0 STEP
+#RadioCtrl0 0    
+
+OPT_SC 1
+#CheckBox0 0    
+OPT_BK_SC 0
+#CheckBox1 0    
+OPT_SC_ENGINE_BRAKING 0
+OPT_VMIN -1
+PBK_CON_MAX_SC 123
+SPEED_TARGET_COMBINE ADD
+SPEED_TARGET_CONSTANT 0
+#DiagramOne0
+SPEED_TARGET_S_TABLE STEP
+0, 80
+1150, 120
+1360, 80
+2240, 80
+ENDTABLE
+
+#EMBEDDED_NOTES
+#If this table is used with the Speed Controller with Path Preview, the initial speed of the run is set to the value from the table at the station where the run begins, and sets the maximum speed that the controller can use at every station in the table.
+#
+#Controller gains are left blank on this screen intentionally.  They are overridden by the values on the
+#Control: Speed (Closed Loop) Using Path Preview screen where this dataset is used.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Control: Speed (Closed Loop) vs. Station (Legacy); Normal Driving on Road Course
+#Library : Control: Speed (Closed Loop) vs. Station (Legacy)
+#DataSet : Normal Driving on Road Course
+#Category: 
+#FileID  : SpdSta_d5036356-52c6-49e2-bda6-634857674701
+#Product : CarSim 2017.1
+#VehCode Speed vs. Station
+
+END

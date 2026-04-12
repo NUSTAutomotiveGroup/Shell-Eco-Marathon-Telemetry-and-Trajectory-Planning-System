@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Plot: Setup`Engine Angle`Engine Mount
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Yaw_Eng, time
+PLOTCHANNELS Ptch_Eng, time
+PLOTCHANNELS Roll_Eng, time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Engine Angle
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Engine Mount } Engine Angle
+#Library : Plot: Setup
+#DataSet : Engine Angle
+#Category: Engine Mount
+#FileID  : Plot_05166c0e-70a4-4bb7-865b-76000385a80c
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

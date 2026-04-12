@@ -1,0 +1,62 @@
+PARSFILE
+#FullDataName Control: Speed (Closed Loop) vs. Station (Legacy)`RR Crossing Speed`
+#CheckBox2 0    
+#CheckBox3 1    
+#RingCtrl0 SPLINE
+#RadioCtrl0 0    
+
+OPT_SC 1
+#CheckBox0 1    
+OPT_BK_SC 1
+#CheckBox1 1    
+OPT_SC_ENGINE_BRAKING 1
+SPEED_KI 0.2
+SPEED_KP 0.5
+OPT_VMIN -1
+BK_PERF_SC 0.05
+FPD_PERF_SC 0.1
+PBK_CON_MAX_SC 20
+SPEED_KP3 0.7
+SPEED_TARGET_COMBINE ADD
+SPEED_TARGET_CONSTANT 0
+#DiagramOne0
+SPEED_TARGET_S_TABLE SPLINE
+-150, 80
+-130, 80
+-120, 79.5
+-115, 79
+-110, 78.5
+-100, 77.25
+-95, 76
+-90, 74.5
+-85, 72
+-80, 67.5
+-50, 40
+-39, 32
+-34, 30
+-32.5, 29.4
+-31.5, 29
+-25, 27.4
+-22.5, 27.1
+-20, 27
+-15, 27
+5, 27
+7.5, 27.25
+8, 27.4
+10, 28
+60, 52.5
+100, 68.5
+125, 74
+150, 78
+175, 80
+ENDTABLE
+
+LOG_ENTRY Used Dataset: Control: Speed (Closed Loop) vs. Station (Legacy); RR Crossing Speed
+#Library : Control: Speed (Closed Loop) vs. Station (Legacy)
+#DataSet : RR Crossing Speed
+#Category: 
+#FileID  : SpdSta_d3a2fe74-03bf-4cfa-af57-e26a29b2ac9f
+#Product : CarSim 2017.1
+#VehCode Speed vs. Station
+
+END

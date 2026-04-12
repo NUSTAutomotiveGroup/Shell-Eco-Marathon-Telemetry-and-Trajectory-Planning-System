@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Steering (Legacy)`sem`
+OPT_STEER 0
+OPT_POWER 0
+OPT_M_SW_CALC 0
+
+OPT_STEER_DEF 1
+*RSW_F 4
+*RSW_R 4
+
+
+iside 1
+iaxle 2
+R_GEAR_STR 4
+OPT_RACK 0
+GEAR_ROT_COEFFICIENT 1/4
+
+
+iaxle 1
+R_GEAR_STR 4
+OPT_RACK 0
+GEAR_ROT_COEFFICIENT 1/4
+
+
+iside 2
+
+iaxle 2
+
+LOG_ENTRY Used Dataset: Steering (Legacy); sem
+#Library : Steering (Legacy)
+#DataSet : sem
+#Category: 
+#FileID  : StrSys_62acafe6-0bbf-48d3-b4bc-b1756033a512
+#Product : CarSim 2017.1
+#VehCode 4-Wheel Steer (Legacy)
+
+END

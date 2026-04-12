@@ -1,0 +1,25 @@
+PARSFILE
+#FullDataName Animator: Reference Frame`Skybox (Vehicle Reference)`
+ADD_REFERENCE_FRAME  Skybox (Vehicle Reference)
+#RingCtrl0 yaw_pitch_roll
+SET_EULER_ANGLES yaw_pitch_roll
+SET_X_NAME Xo
+SET_Y_NAME Yo
+SET_Z_NAME Zo
+
+WRT_Xo
+ANI_Xo
+WRT_Yo
+ANI_Yo
+WRT_Zo
+ANI_Zo
+
+LOG_ENTRY Used Dataset: Animator: Reference Frame; Skybox (Vehicle Reference)
+#Library : Animator: Reference Frame
+#DataSet : Skybox (Vehicle Reference)
+#Category: 
+#FileID  : Frame_8761c9b6-c784-4d2d-b8bc-72683578e773
+#Product : CarSim 2017.1
+#VehCode Reference Frame
+
+END

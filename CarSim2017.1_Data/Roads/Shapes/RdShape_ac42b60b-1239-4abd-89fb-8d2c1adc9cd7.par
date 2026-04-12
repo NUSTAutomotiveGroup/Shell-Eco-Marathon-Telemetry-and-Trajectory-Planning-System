@@ -1,0 +1,92 @@
+PARSFILE
+#FullDataName Road: Animator Surface Shapes`Straight Road, 2-Lane, Flat, Grass Transition`Intersections
+NLANES 5
+OPTTHRESHOLD 1
+#MiscYellow0
+# 1 1 1, Road (Medium), , 20, 1, -4.2, m, 4.2, m, , , -500, 500, 10, , -0.01, Road
+# 1 1 1, Road Transition (Light), , 20, -1, -4.2, m, -7, m, , , -500, -4.2, 10, , -0.01, Random
+# 1 1 1, Road Transition (Light), , 20, 1, 4.2, m, 7, m, , , -500, -4.2, 10, , -0.01, Random
+# 1 1 1, Road Transition (Light), , 20, -1, -4.2, m, -7, m, , , 4.2, 500, 10, , -0.01, Random
+# 1 1 1, Road Transition (Light), , 20, 1, 4.2, m, 7, m, , , 4.2, 500, 10, , -0.01, Random
+#ENDMYellow
+
+#CheckBox0 0    
+MIRROR 0
+
+COLOR(1) 1 1 1
+MATERIAL(1) Road (Medium)
+SCALE(1) 20
+LTILES(1) 1
+LIN(1) -4.2
+LINUNITS(1) m
+LOUT(1) 4.2
+LOUTUNITS(1) m
+SSTART(1) -500
+SSTOP(1) 500
+SINT(1) 10
+DZ(1) -0.01
+AUTODETAIL(1) Road
+COLOR(2) 1 1 1
+MATERIAL(2) Road Transition (Light)
+SCALE(2) 20
+LTILES(2) -1
+LIN(2) -4.2
+LINUNITS(2) m
+LOUT(2) -7
+LOUTUNITS(2) m
+SSTART(2) -500
+SSTOP(2) -4.2
+SINT(2) 10
+DZ(2) -0.01
+AUTODETAIL(2) Random
+COLOR(3) 1 1 1
+MATERIAL(3) Road Transition (Light)
+SCALE(3) 20
+LTILES(3) 1
+LIN(3) 4.2
+LINUNITS(3) m
+LOUT(3) 7
+LOUTUNITS(3) m
+SSTART(3) -500
+SSTOP(3) -4.2
+SINT(3) 10
+DZ(3) -0.01
+AUTODETAIL(3) Random
+COLOR(4) 1 1 1
+MATERIAL(4) Road Transition (Light)
+SCALE(4) 20
+LTILES(4) -1
+LIN(4) -4.2
+LINUNITS(4) m
+LOUT(4) -7
+LOUTUNITS(4) m
+SSTART(4) 4.2
+SSTOP(4) 500
+SINT(4) 10
+DZ(4) -0.01
+AUTODETAIL(4) Random
+COLOR(5) 1 1 1
+MATERIAL(5) Road Transition (Light)
+SCALE(5) 20
+LTILES(5) 1
+LIN(5) 4.2
+LINUNITS(5) m
+LOUT(5) 7
+LOUTUNITS(5) m
+SSTART(5) 4.2
+SSTOP(5) 500
+SINT(5) 10
+DZ(5) -0.01
+AUTODETAIL(5) Random
+MTL_FILE Roads/materials/road.mtl
+
+
+LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Intersections } Straight Road, 2-Lane, Flat, Grass Transition
+#Library : Road: Animator Surface Shapes
+#DataSet : Straight Road, 2-Lane, Flat, Grass Transition
+#Category: Intersections
+#FileID  : RdShape_ac42b60b-1239-4abd-89fb-8d2c1adc9cd7
+#Product : CarSim 2017.1
+#VehCode Road Shapes
+
+END

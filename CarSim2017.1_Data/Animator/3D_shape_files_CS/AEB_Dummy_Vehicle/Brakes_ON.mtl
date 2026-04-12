@@ -1,0 +1,14 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 26.08.2015 10:09:17
+
+newmtl Material__7383
+	Ns 34.0000
+	Ni 1.5000
+	d 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.9020 0.9020 0.9020
+	Kd 0.9020 0.9020 0.9020
+	Ks 0.7650 0.7650 0.7650
+	Ke 0.3788 0.3788 0.3788
+	map_Kd AEB_Dummy_Veh_Brakes_di.tga

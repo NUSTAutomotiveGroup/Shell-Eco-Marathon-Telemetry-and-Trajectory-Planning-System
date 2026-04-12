@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Pickup, Compact: Brake Lights`CS Pickup, Compact
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\vehicles\pickup_truck\box_short\brakes.obj
+#ENDMYellow
+
+SET_COLOR 1 1 1
+SET_SCALE_X 1
+SET_SCALE_Y 1.005
+SET_SCALE_Z 1
+SET_OFFSET_X -2.01
+SET_OFFSET_Y 0
+SET_OFFSET_Z 0.49
+X_REF_LENGTH 3023
+Y_REF_LENGTH 1800
+Z_REF_LENGTH 2100
+*SPECULAR 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+SET_SPECULAR 1 1 1
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_26094553-f0ac-4867-a71e-972c60361f8e.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS Pickup, Compact } Pickup, Compact: Brake Lights
+#Library : Animator: Shape File Link
+#DataSet : Pickup, Compact: Brake Lights
+#Category: CS Pickup, Compact
+#FileID  : Shape_26094553-f0ac-4867-a71e-972c60361f8e
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

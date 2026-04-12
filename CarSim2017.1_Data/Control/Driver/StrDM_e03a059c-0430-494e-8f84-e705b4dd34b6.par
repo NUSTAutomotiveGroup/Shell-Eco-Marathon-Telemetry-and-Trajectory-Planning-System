@@ -1,0 +1,63 @@
+PARSFILE
+#FullDataName Control: Steering by the Closed-loop Driver Model`Double Lane Change (Quick Start)`Double Lane Change
+#CheckBox0 0    
+OPT_DRIVER_MODEL 1
+#CheckBox1 1    
+CREATE_PATH_OBJ on
+#CheckBox2 0    
+
+#RingCtrl0 0
+#RingCtrl1 SPLINE_FLAT
+#DiagramOne0
+LTARG_TABLE SPLINE_FLAT
+65, 0
+70, 0.1
+75, 0.7
+80, 1.8
+85, 2.8
+90, 3.4
+95, 3.5
+120, 3.5
+125, 3.3
+130, 2.4
+135, 1.1
+140, 0.2
+145, 0
+ENDTABLE
+#RadioCtrl0 0    
+
+AV_SW_MAX_DM 1200
+TLAG_DM 0
+A_SW_MAX_DM 720
+*TPREV 1
+*GAIN 0
+VLOW_DRIVER 20
+SET_PATH_WIDTH 0.1
+SET_PATH_DASH_INTERVAL 0.5
+SET_PATH_VERTEX_INTERVAL 1
+SET_PATH_DZ 0.03
+SET_PATH_COLOR 0.4 0.4 1
+
+TPREV_CONSTANT 1
+
+#EMBEDDED_NOTES
+#This Double Lane Change path is used in the CarSim Quick Start Guide, and is also used often to compare different software or vehicle options.
+#
+#The preview time of 1 second is a compromise between following a path closely (shorter time means more aggressive steering to follow the path right in front of the vehicle) and remaining stable (longer time means less sensitivity to abrupt changes in the path).
+#
+#This path is defined with just a few points, using straight=line interpolation. Using a shorter preview time could cause abrupt steering changes when corners come into the preview range; a longer time reduces the ability of the controller to follow the path at all.
+#
+#For speeds lower than 20 km/h, the preview is a fixed distance.
+#
+#The target path is shown with a dashed line generated for the animator.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Control: Steering by the Closed-loop Driver Model; { Double Lane Change } Double Lane Change (Quick Start)
+#Library : Control: Steering by the Closed-loop Driver Model
+#DataSet : Double Lane Change (Quick Start)
+#Category: Double Lane Change
+#FileID  : StrDM_e03a059c-0430-494e-8f84-e705b4dd34b6
+#Product : CarSim 2017.1
+#VehCode Driver Path Follower
+
+END

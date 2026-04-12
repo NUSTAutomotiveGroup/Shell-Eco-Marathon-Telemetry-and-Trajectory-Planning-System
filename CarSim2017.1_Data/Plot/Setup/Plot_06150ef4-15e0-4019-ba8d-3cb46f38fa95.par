@@ -1,0 +1,51 @@
+PARSFILE
+#FullDataName Plot: Setup`Euro NCAP: AEB Booleans`ADAS
+
+ADD_ENTITY Plot
+
+#BlueLink1 ` , Discontinued` , Discontinued` , Discontinued`
+
+#BlueLink2 CarSim Run Control`AEB  CCRb: - 2 m/s2, 12 m` AEB: Automated Emergency Braking` , example run`Run_401dc88c-561c-41f4-a0c1-bd375b3c78bf
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+*README_FILE Results\Run_401dc88c-561c-41f4-a0c1-bd375b3c78bf\Run_out_tab.txt
+
+#MiscYellow0
+PLOTCHANNELS Show_FCW, Time
+PLOTCHANNELS Contact, Time
+PLOTCHANNELS Crashed, TIme
+
+#ENDMYellow
+
+YAXISLABEL AEB Flags
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl4 0
+#RingCtrl6 1
+#RingCtrl8 1
+
+
+PTITLE Euro NCAP: AEB Booleans
+
+END_ENTITY Plot
+
+
+#EMBEDDED_NOTES
+#These variables were added with VS Commands for the Euro NCAP AEB examples.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Plot: Setup; { ADAS } Euro NCAP: AEB Booleans
+#Library : Plot: Setup
+#DataSet : Euro NCAP: AEB Booleans
+#Category: ADAS
+#FileID  : Plot_06150ef4-15e0-4019-ba8d-3cb46f38fa95
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

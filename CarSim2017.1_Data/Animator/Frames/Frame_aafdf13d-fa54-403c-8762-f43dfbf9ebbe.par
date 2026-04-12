@@ -1,0 +1,45 @@
+PARSFILE
+#FullDataName Animator: Reference Frame`Preview Point for Custom Driver Model`
+ADD_REFERENCE_FRAME  Preview Point for Custom Driver Model
+#RingCtrl0 yaw_pitch_roll
+SET_EULER_ANGLES yaw_pitch_roll
+SET_X_NAME Xpreview
+SET_Y_NAME Ypreview
+SET_Z_NAME ZCG_SM
+SET_ROLL_NAME Roll
+SET_PITCH_NAME Pitch
+SET_YAW_NAME Yaw
+
+#MiscYellow0
+WRT_Xpreview
+WRT_Ypreview
+#ENDMYellow
+
+WRT_Xpreview
+ANI_Xpreview
+WRT_Ypreview
+ANI_Ypreview
+WRT_ZCG_SM
+ANI_ZCG_SM
+WRT_Roll
+ANI_Roll
+WRT_Pitch
+ANI_Pitch
+WRT_Yaw
+ANI_Yaw
+PARSFILE Animator\STL\Shape_fb66738d-844a-49b1-93c2-57dac1a89bc2.par
+#BlueLink0 Animator: Shape File Link`Flat Arrow for Preview Point, Rear View` Arrows` , Animator Data`Shape_fb66738d-844a-49b1-93c2-57dac1a89bc2
+
+PARSFILE Animator\STL\Shape_674b1f61-0f65-4546-92e2-4cb19e5a9598.par
+#BlueLink2 Animator: Shape File Link`Flat Arrow for Preview Point, Side View` Arrows` , Animator Data`Shape_674b1f61-0f65-4546-92e2-4cb19e5a9598
+
+
+LOG_ENTRY Used Dataset: Animator: Reference Frame; Preview Point for Custom Driver Model
+#Library : Animator: Reference Frame
+#DataSet : Preview Point for Custom Driver Model
+#Category: 
+#FileID  : Frame_aafdf13d-fa54-403c-8762-f43dfbf9ebbe
+#Product : CarSim 2017.1
+#VehCode Reference Frame
+
+END

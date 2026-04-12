@@ -1,0 +1,23 @@
+PARSFILE
+#FullDataName I/O Channels: Import`Four Wheel Steer`Steering and Susp. Imports
+#RingCtrl0 1
+#RingCtrl1 1
+*README_FILE Results\Run_686fa856-8477-4317-885b-7367022e53a9\Run_imp_tab.txt
+
+#MiscYellow0
+IMP_STEER_L2 Add 0.0! 1
+IMP_STEER_R2 Add 0.0! 1
+#ENDMYellow
+
+#BlueLink0 CarSim Run Control`External 4WS, DLC` Simulink and LabVIEW Models` , example run`Run_686fa856-8477-4317-885b-7367022e53a9
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Import; { Steering and Susp. Imports } Four Wheel Steer
+#Library : I/O Channels: Import
+#DataSet : Four Wheel Steer
+#Category: Steering and Susp. Imports
+#FileID  : Import_738a4aa2-9ff4-4abb-8837-65c72ca8872d
+#Product : CarSim 2017.1
+#VehCode Import Channels
+
+END

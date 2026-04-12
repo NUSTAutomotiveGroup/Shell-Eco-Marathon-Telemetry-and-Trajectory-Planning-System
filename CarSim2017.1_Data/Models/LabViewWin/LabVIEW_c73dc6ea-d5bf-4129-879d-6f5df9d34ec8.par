@@ -1,0 +1,34 @@
+PARSFILE
+#FullDataName Models: LabVIEW for Windows (VI)`ABS Example`
+#RunMdlFile Extensions\LabView\ABS_Example.vi
+#RingCtrl1 2
+OPT_INT_METHOD 2
+#CheckBox0 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox1 0    
+OPT_IO_UPDATE 0
+#CheckBox2 0    
+
+PARSFILE IO_Channels\I_Channels\Import_b6ba529d-e710-4159-bfb3-095c5ec337df.par
+#BlueLink0 I/O Channels: Import`ABS` Braking Imports` , Import`Import_b6ba529d-e710-4159-bfb3-095c5ec337df
+
+PARSFILE IO_Channels\O_Channels\Export_df421d7e-0823-442a-b07c-0057573f0076.par
+#BlueLink1 I/O Channels: Export`ABS Export` Braking Exports` , Export`Export_df421d7e-0823-442a-b07c-0057573f0076
+
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+#EMBEDDED_NOTES
+#This example illustrates a LabVIEW model of an ABS Controller.
+#
+#(Libraries -> Models -> Models: LabVIEW for Windows (VI))
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: LabVIEW for Windows (VI); ABS Example
+#Library : Models: LabVIEW for Windows (VI)
+#DataSet : ABS Example
+#Category: 
+#FileID  : LabVIEW_c73dc6ea-d5bf-4129-879d-6f5df9d34ec8
+#Product : CarSim 2017.1
+#VehCode 
+
+END

@@ -1,0 +1,77 @@
+PARSFILE
+#FullDataName CarSim Run Control`Trailer: Reversing (Parametric Hitch)`Trailers (Extra License Needed)
+#VEHICLECODE Ind_SA + SA_SA
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_f9d61b3d-941b-4613-853d-f84d253822b2
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_decebfa8-c6a0-42f9-99d8-cd1fb01c4eb1.par
+#BlueLink0 Animator: Camera Setup`210 deg. Azimuth, Veh. Ref. (No Yaw)` Vehicle Reference` , Animator camera`Camera_decebfa8-c6a0-42f9-99d8-cd1fb01c4eb1
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 1
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 1
+#RingCtrl7 -1
+*RUN_COLOR 1 0.6 0
+SET_RUN_COLOR 1 0.6 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_e6ef92a3-063c-414e-aaf5-a1bf97ba2ac1.par
+#BlueLink2 Vehicle with Loads, Sensors, Trailer, etc.`Pickup, Full Size w/ 2A Gooseneck Trl.` Pickup, Full Size` , Vehicle Configuration`VehLoad_e6ef92a3-063c-414e-aaf5-a1bf97ba2ac1
+
+PARSFILE Procedures\Proc_e1a259e1-9c25-44e4-8717-e295b6aeb191.par
+#BlueLink28 Procedures`Trailer Reversing` Event Triggered Tests` , Procedure`Proc_e1a259e1-9c25-44e4-8717-e295b6aeb191
+
+PARSFILE Plot\Setup\Plot_9499cba9-dd80-4da9-a1bc-748b2466af2b.par
+#BlueLink15 Plot: Setup`Jounce Stop Force` Suspension Forces and Moments` , Plot`Plot_9499cba9-dd80-4da9-a1bc-748b2466af2b
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_6ba13624-c527-4355-b1e1-654631d3017e.png
+WRITE_SENSOR_DETECT
+Title Trailer: Reversing (Parametric Hitch) <Trailers (Extra License Needed)>
+CATEGORY Trailers (Extra License Needed) 
+DATASET_TITLE Trailer: Reversing (Parametric Hitch)
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example shows a full-size pickup truck towing a two-axle Gooseneck trailer. A custom payload has been added to the trailer, represented visually with an animator shape of an agricultural tractor.
+#
+#CarSim supports two types of hitch representations. In this example, the more detailed Parametric Hitch is used.
+#
+#VS Events are used to control the trailer reversing sequence.
+#
+#A CarSim Trailer license is required to run the math model for this example. However, you can still view the simulation results provided with CarSim by clicking the "Video" and "Plot" buttons.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Trailers (Extra License Needed) } Trailer: Reversing (Parametric Hitch)
+#Library : CarSim Run Control
+#DataSet : Trailer: Reversing (Parametric Hitch)
+#Category: Trailers (Extra License Needed)
+#FileID  : Run_f9d61b3d-941b-4613-853d-f84d253822b2
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

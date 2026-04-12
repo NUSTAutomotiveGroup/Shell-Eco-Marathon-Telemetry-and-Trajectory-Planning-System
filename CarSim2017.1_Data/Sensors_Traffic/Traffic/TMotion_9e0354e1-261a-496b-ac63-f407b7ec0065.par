@@ -1,0 +1,99 @@
+PARSFILE
+#FullDataName Multiple Moving Objects`3 Vehicles, Red, Path_ID and ROAD_ID`Traffic Vehicles (Low Speed, Reusable)
+#RingCtrl0 3
+DEFINE_MOVING_OBJECTS 3
+#RingCtrl1 2
+#RingCtrl2 0
+#CheckBox0 0    
+#CheckBox1 1    
+#CheckBox3 1    
+#CheckBox5 1    
+#CheckBox38 0    
+
+*L <<L>>
+*LEAD 180
+*TRAIL -30
+*HIDE 10
+*PATH_ID PATH_ID
+*ROAD_ID ROAD_ID
+*V <<ISPEED>>
+
+IOBJECT_INCREMENT
+symbol_add <<o>> 1
+SET_DESCRIPTION OBJECT_NAME 3 Vehicles, Red, Path_ID and ROAD_ID, Object #1
+
+PATH_ID_OBJ PATH_ID
+ROAD_ID_OBJ ROAD_ID
+EQ_DIFFERENTIAL S_OBJ_<<o>> = SPEED_TARGET(S_OBJ_<<o>>,T,<<ISPEED>>)
+EQ_OUT LATO_<<o>> = <<L>>
+OPT_RECYCLE_OBJ 0
+*SINIT_1 <<START>> -140
+EQ_INIT S_OBJ_<<o>> = <<START>> -140
+*COLOR_1 0.6 0.2 0
+SET_RUN_COLOR 0.6 0.2 0
+H_OBJ = 0 ! Default for blank field
+PARSFILE Animator\Vehicles\AniVeh_9699fc52-825d-4df8-95ff-52f40197066e.par
+#BlueLink0 Animator: Vehicles and Sensor Targets`D-Class, Sedan, Low-Speed Traffic` Low-Speed Traffic` , Traffic Vehicle Ani File`AniVeh_9699fc52-825d-4df8-95ff-52f40197066e
+
+MATERIAL_TYPE_OBJ = 0
+REFLECT_OBJ = 0
+
+IOBJECT_INCREMENT
+symbol_add <<o>> 1
+SET_DESCRIPTION OBJECT_NAME 3 Vehicles, Red, Path_ID and ROAD_ID, Object #2
+
+PATH_ID_OBJ PATH_ID
+ROAD_ID_OBJ ROAD_ID
+EQ_DIFFERENTIAL S_OBJ_<<o>> = SPEED_TARGET(S_OBJ_<<o>>,T,<<ISPEED>>)
+EQ_OUT LATO_<<o>> = <<L>>
+OPT_RECYCLE_OBJ 0
+*SINIT_2 <<START>> -90
+EQ_INIT S_OBJ_<<o>> = <<START>> -90
+*COLOR_2 0.6 0.2 0
+SET_RUN_COLOR 0.6 0.2 0
+H_OBJ = 0 ! Default for blank field
+PARSFILE Animator\Vehicles\AniVeh_03e7ab11-abc2-4a74-88f9-a9205d566238.par
+#BlueLink1 Animator: Vehicles and Sensor Targets`E-Class, SUV, Low-Speed Traffic` Low-Speed Traffic` , Traffic Vehicle Ani File`AniVeh_03e7ab11-abc2-4a74-88f9-a9205d566238
+
+MATERIAL_TYPE_OBJ = 0
+REFLECT_OBJ = 0
+
+IOBJECT_INCREMENT
+symbol_add <<o>> 1
+SET_DESCRIPTION OBJECT_NAME 3 Vehicles, Red, Path_ID and ROAD_ID, Object #3
+
+PATH_ID_OBJ PATH_ID
+ROAD_ID_OBJ ROAD_ID
+EQ_DIFFERENTIAL S_OBJ_<<o>> = SPEED_TARGET(S_OBJ_<<o>>,T,<<ISPEED>>)
+EQ_OUT LATO_<<o>> = <<L>>
+OPT_RECYCLE_OBJ 0
+*SINIT_3 <<START>> -50
+EQ_INIT S_OBJ_<<o>> = <<START>> -50
+*COLOR_3 0.6 0.2 0
+SET_RUN_COLOR 0.6 0.2 0
+H_OBJ = 0 ! Default for blank field
+PARSFILE Animator\Vehicles\AniVeh_284a44ff-8fd0-4465-be0d-61ff98e5d448.par
+#BlueLink2 Animator: Vehicles and Sensor Targets`C-Class, Hatchback, Low-Speed Traffic` Low-Speed Traffic` , Traffic Vehicle Ani File`AniVeh_284a44ff-8fd0-4465-be0d-61ff98e5d448
+
+MATERIAL_TYPE_OBJ = 0
+REFLECT_OBJ = 0
+
+#EMBEDDED_NOTES
+#This dataset is intended for reuse.
+#
+#Use the commands SET_IPATH_FOR_ID and SET_IROAD_ID to set the path and road of interest before loading this dataset.
+#
+#Set Symbol Stack variables <<ISPEED>> (speed _target dataset, <<START>> (reference station values), and  <<L>> (lateral location).
+#
+#The animator shapes are set to rotate about the rear axle, similar to vehicles.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Multiple Moving Objects; { Traffic Vehicles (Low Speed, Reusable) } 3 Vehicles, Red, Path_ID and ROAD_ID
+#Library : Multiple Moving Objects
+#DataSet : 3 Vehicles, Red, Path_ID and ROAD_ID
+#Category: Traffic Vehicles (Low Speed, Reusable)
+#FileID  : TMotion_9e0354e1-261a-496b-ac63-f407b7ec0065
+#Product : CarSim 2017.1
+#VehCode Multiple Objects
+
+END

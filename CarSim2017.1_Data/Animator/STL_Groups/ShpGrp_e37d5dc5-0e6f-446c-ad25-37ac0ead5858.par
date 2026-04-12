@@ -1,0 +1,91 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`SUV, Full Size`CS SUV, Full Size
+*COLOR 0.4 0 1
+*OFFSET_X 0
+*OFFSET_Y 0
+*OFFSET_Z 0.26
+*X_REF_LENGTH 3300
+*Y_REF_LENGTH 1775
+*Z_REF_LENGTH 1950
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 1    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_e37d5dc5-0e6f-446c-ad25-37ac0ead5858.png
+PARSFILE Animator\STL\Shape_319deffc-4d9b-4f8d-8d94-607d3a3e51f2.par
+#BlueLink0 Animator: Shape File Link`SUV, Full Size: Body` CS SUV, Full Size` , Shape File`Shape_319deffc-4d9b-4f8d-8d94-607d3a3e51f2
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.26
+PARSFILE Animator\STL\Shape_df0def72-f849-4372-a8d4-7fd1707e4d16.par
+#BlueLink1 Animator: Shape File Link`SUV, Full Size: Interior Trim` CS SUV, Full Size` , Shape File`Shape_df0def72-f849-4372-a8d4-7fd1707e4d16
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.26
+PARSFILE Animator\STL\Shape_47f13bc6-e561-484e-91e7-fa089dd0b51b.par
+#BlueLink2 Animator: Shape File Link`SUV, Full Size: Interior` CS SUV, Full Size` , Shape File`Shape_47f13bc6-e561-484e-91e7-fa089dd0b51b
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.26
+PARSFILE Animator\STL\Shape_adb1cb59-5fcc-4cb5-8b3f-8aa5fe1a63db.par
+#BlueLink3 Animator: Shape File Link`SUV, Full Size: Windows` CS SUV, Full Size` , Shape File`Shape_adb1cb59-5fcc-4cb5-8b3f-8aa5fe1a63db
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.26
+PARSFILE Animator\STL\Shape_ea5aee8e-3e34-4fc2-bee5-aa9ba2b752d2.par
+#BlueLink4 Animator: Shape File Link`SUV, Full Size: License` CS SUV, Full Size` , Shape File`Shape_ea5aee8e-3e34-4fc2-bee5-aa9ba2b752d2
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.26
+PARSFILE Animator\STL\Shape_ead329d7-27cb-4f13-8fd4-78f27084c272.par
+#BlueLink5 Animator: Shape File Link`SUV, Full Size: Details` CS SUV, Full Size` , Shape File`Shape_ead329d7-27cb-4f13-8fd4-78f27084c272
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.26
+PARSFILE Animator\STL\Shape_584f5241-1125-417d-9109-20fe90241d68.par
+#BlueLink6 Animator: Shape File Link`SUV, Full Size: Steering Wheel` CS SUV, Full Size` , Shape File`Shape_584f5241-1125-417d-9109-20fe90241d68
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.26
+PARSFILE Animator\STL\Shape_258df1f0-cdab-4e65-b47c-a2e8d77eef54.par
+#BlueLink7 Animator: Shape File Link`SUV, Full Size: Body Trim (Gray)` CS SUV, Full Size` , Shape File`Shape_258df1f0-cdab-4e65-b47c-a2e8d77eef54
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.26
+PARSFILE Animator\STL\Shape_8cb376cf-2a46-44d2-9241-d588b3490b71.par
+#BlueLink13 Animator: Shape File Link`SUV, Full Size: Driver` CS SUV, Full Size` , Shape File`Shape_8cb376cf-2a46-44d2-9241-d588b3490b71
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.26
+x_ref_length 3300
+y_ref_length 1775
+z_ref_length 1950
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { CS SUV, Full Size } SUV, Full Size
+#Library : Animator: Shape Assembly
+#DataSet : SUV, Full Size
+#Category: CS SUV, Full Size
+#FileID  : ShpGrp_e37d5dc5-0e6f-446c-ad25-37ac0ead5858
+#Product : CarSim 2017.1
+#VehCode Shape Assembly
+
+END

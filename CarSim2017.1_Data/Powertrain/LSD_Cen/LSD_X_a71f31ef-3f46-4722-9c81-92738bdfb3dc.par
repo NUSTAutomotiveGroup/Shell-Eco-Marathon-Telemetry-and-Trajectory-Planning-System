@@ -1,0 +1,18 @@
+PARSFILE
+#FullDataName Powertrain: Limited Slip Differential for Center Case`No Data`Empty (You should edit or delete this)
+
+opt_clutch_diff 1
+r_clutch_yaw 1
+#RingCtrl0 0
+OPT_TORSEN 0
+
+
+LOG_ENTRY Used Dataset: Powertrain: Limited Slip Differential for Center Case; { Empty (You should edit or delete this) } No Data
+#Library : Powertrain: Limited Slip Differential for Center Case
+#DataSet : No Data
+#Category: Empty (You should edit or delete this)
+#FileID  : LSD_X_a71f31ef-3f46-4722-9c81-92738bdfb3dc
+#Product : CarSim 2017.1
+#VehCode Limited Slip Diff.
+
+END

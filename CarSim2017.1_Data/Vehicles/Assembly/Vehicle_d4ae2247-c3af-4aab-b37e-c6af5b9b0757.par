@@ -1,0 +1,107 @@
+PARSFILE
+#FullDataName Vehicle: Assembly`E-Class, SUV 2017`E-Class
+#VehCode Ind_SA
+#CheckBox0 0    
+#CheckBox1 0    
+
+#RingCtrl0 3
+OPT_PT 3
+#RingCtrl1 1
+#RingCtrl2 3
+#RingCtrl3 0
+
+* Front components
+iaxle 1
+symbol_push  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_fb39dd69-1119-4509-9926-4f1540698bc5.par
+#BlueLink19 Suspension: Independent System Kinematics`E-Class, SUV - Front` E-Class` , Kinematics`KinInd_fb39dd69-1119-4509-9926-4f1540698bc5
+
+PARSFILE Suspensions\Compliance\CmpInd_fef4adb0-d28a-4d13-b7e1-dc2b78930603.par
+#BlueLink16 Suspension: Independent Compliance, Springs, and Dampers`E-Class, SUV - Front` E-Class` , Compliance`CmpInd_fef4adb0-d28a-4d13-b7e1-dc2b78930603
+
+
+OPT_ALL_FOUR_TIRES_ALIKE 1
+
+* LF tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_02f6e3cd-112d-4b64-b26e-0133260d94fc.par
+#BlueLink999 Tire`265/75 R16 (2017)` Touring Tires` , Tire`Tire_02f6e3cd-112d-4b64-b26e-0133260d94fc
+
+
+* RF tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_02f6e3cd-112d-4b64-b26e-0133260d94fc.par
+#BlueLink10 Tire`265/75 R16 (2017)` Touring Tires` , Tire`Tire_02f6e3cd-112d-4b64-b26e-0133260d94fc
+
+* Rear components
+iaxle 2
+symbol_add  <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_AXLE
+PARSFILE Suspensions\Kin_Solid\KinSA_41dc5f2a-53fa-48b4-b463-5a4a847b0ba0.par
+#BlueLink23 Suspension: Solid Axle System Kinematics`E-Class, SUV - Rear (2017)` E-Class` , Kinematics`KinSA_41dc5f2a-53fa-48b4-b463-5a4a847b0ba0
+
+PARSFILE Suspensions\Compliance_SA\CmpSA_956e17be-2a07-4ec2-ac98-efe532c02196.par
+#BlueLink22 Suspension: Solid Axle Compliance, Springs, and Dampers`E-Class, SUV - Rear (2017)` E-Class` , Compliance`CmpSA_956e17be-2a07-4ec2-ac98-efe532c02196
+
+
+* LR tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_02f6e3cd-112d-4b64-b26e-0133260d94fc.par
+#BlueLink999 Tire`265/75 R16 (2017)` Touring Tires` , Tire`Tire_02f6e3cd-112d-4b64-b26e-0133260d94fc
+
+
+* RR tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_02f6e3cd-112d-4b64-b26e-0133260d94fc.par
+#BlueLink999 Tire`265/75 R16 (2017)` Touring Tires` , Tire`Tire_02f6e3cd-112d-4b64-b26e-0133260d94fc
+
+symbol_set <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Vehicles\Sprung_Mass\SprMass_d2148fcf-3961-44b9-991b-990f1d8d0707.par
+#BlueLink0 Vehicle: Sprung Mass`E-Class, SUV` E-Class` , Sprung Mass`SprMass_d2148fcf-3961-44b9-991b-990f1d8d0707
+
+PARSFILE Aerodynamics\Aero_Main\Aero_0a8e2fef-05a4-4e91-8e75-37e405e5e0ce.par
+#BlueLink1 Aerodynamics: Basic`E-Class, SUV` SUVs` , Aerodynamics`Aero_0a8e2fef-05a4-4e91-8e75-37e405e5e0ce
+
+PARSFILE Animator\Vehicles\AniVeh_6a406309-46ad-4966-bff0-ace339f3d75d.par
+#BlueLink2 Animator: Vehicles and Sensor Targets`E-Class, SUV` E-Class Vehicles` , Vehicle 3D Shape`AniVeh_6a406309-46ad-4966-bff0-ace339f3d75d
+
+PARSFILE Powertrain\4wd\4WD_4fb393ac-4d37-4955-a224-2b0a8d040914.par
+#BlueLink5 Powertrain: 4-Wheel Drive`200 kW, 6-spd., 4.1 Ratio` 200 kW Powertrains` , Powertrain`4WD_4fb393ac-4d37-4955-a224-2b0a8d040914
+
+PARSFILE Brakes\4W_System\Brk4W_bea2c409-da34-429e-9d51-ce0a8c008b79.par
+#BlueLink6 Brakes: Four-Wheel System`E-Class, SUV w/ ABS` E-Class` , Brake System`Brk4W_bea2c409-da34-429e-9d51-ce0a8c008b79
+
+PARSFILE Steering\System2\StrSys2_f3248047-f4f8-42b9-a287-59074190e82d.par
+#BlueLink7 Steering`E-Class, SUV 2017: Power, R&P` CS E-Class` , Steering System`StrSys2_f3248047-f4f8-42b9-a287-59074190e82d
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_6a406309-46ad-4966-bff0-ace339f3d75d.png
+
+#EMBEDDED_NOTES
+#Generic E-Class SUV with SLA front and a Hotchkiss Solid Axle rear suspension.
+#
+#E-Class SUVs include the Chevrolet Equinox, Ford Explorer, Nissan Pathfinder, and Toyota 4Runner.
+#
+#This vehicle uses tire datasets featuring the user-defined tire contact patch dimensions. Click on the tire dataset "265/75 R16" for more information.
+#
+#Updated for CarSim 2017:  Revised the Steering System Parameters, including changes to the Rear Suspension Kinematics (roll steer), Rear Suspension Compliance (compliance coefficients), and Tire (spin inertia).  Evaluated for On Center, Static Steer (Brakes on and off), Transient Response, Torque Free Response, Turning Circle, and others.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Assembly; { E-Class } E-Class, SUV 2017
+#Library : Vehicle: Assembly
+#DataSet : E-Class, SUV 2017
+#Category: E-Class
+#FileID  : Vehicle_d4ae2247-c3af-4aab-b37e-c6af5b9b0757
+#Product : CarSim 2017.1
+#VehCode Ind_SA
+
+END

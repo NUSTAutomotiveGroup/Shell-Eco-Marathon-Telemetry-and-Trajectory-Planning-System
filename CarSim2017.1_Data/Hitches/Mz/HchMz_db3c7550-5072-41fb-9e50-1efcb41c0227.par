@@ -1,0 +1,25 @@
+PARSFILE
+#FullDataName Hitch: Yaw Moment`140 Deg. Lash`
+#CheckBox0 0    
+
+#RingCtrl0 LINEAR
+#RadioCtrl0 0    
+
+#DiagramOne0
+MZ_HITCH_TABLE LINEAR
+-71, -100000
+-70, 0
+70, 0
+71, 100000
+ENDTABLE
+
+
+LOG_ENTRY Used Dataset: Hitch: Yaw Moment; 140 Deg. Lash
+#Library : Hitch: Yaw Moment
+#DataSet : 140 Deg. Lash
+#Category: 
+#FileID  : HchMz_db3c7550-5072-41fb-9e50-1efcb41c0227
+#Product : CarSim 2017.1
+#VehCode Hitch Mz
+
+END

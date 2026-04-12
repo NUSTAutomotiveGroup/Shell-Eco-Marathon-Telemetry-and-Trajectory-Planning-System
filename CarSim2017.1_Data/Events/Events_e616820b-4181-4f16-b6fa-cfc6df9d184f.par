@@ -1,0 +1,36 @@
+PARSFILE
+#FullDataName Events`C. Apply Handbrake, No Throttle 2017`Handbrake Turn
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl0 >
+#RingCtrl10 1
+#RingCtrl11 4
+*NAME1 yaw
+*VALUE1 yaw_max
+
+#MiscYellow0
+hb_on 1
+#ENDMYellow
+
+DEFINE_EVENT yaw > yaw_max ; Events\Events_894b1169-b6d5-411e-8cbc-c82a3c5ca712.par
+#BlueLink0 Events`D. Release Handbrake, Unwind Wheel, Throttle 2017` Handbrake Turn` , Events`Events_894b1169-b6d5-411e-8cbc-c82a3c5ca712
+
+
+#EMBEDDED_NOTES
+#The variable hb_on was defined on a VS command page linked on the first event in this series.
+#
+#Setting hb_on to 1 applies the handbrake. A more complicated function could be used to modulate the handbrake with control values varying from 0 to 1.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Handbrake Turn } C. Apply Handbrake, No Throttle 2017
+#Library : Events
+#DataSet : C. Apply Handbrake, No Throttle 2017
+#Category: Handbrake Turn
+#FileID  : Events_e616820b-4181-4f16-b6fa-cfc6df9d184f
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

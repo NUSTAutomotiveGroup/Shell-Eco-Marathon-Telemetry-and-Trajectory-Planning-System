@@ -1,0 +1,73 @@
+PARSFILE
+#FullDataName Generic Data Group`Traffic Vehicles for 3-Way Intersection`Traffic Vehicles
+#VehCode Generic Group
+#MiscYellow0
+symbol_push <<L>> -2
+symbol_push <<start>> 0
+speed_target_constant(2) = 80
+symbol_push <<ispeed>> 2
+#ENDMYellow
+
+#BlueLink0 ` , Link 1` , Link 1` , Link 1`
+
+
+#MiscYellow1
+set_ipath_for_id 1013
+set_iroad_for_id 1013
+#ENDMYellow
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_83489463-e6b0-4344-960c-fc199afc07ac.par
+#BlueLink1 Multiple Moving Objects`3 Vehicles, Blue, PATH_ID and ROAD_ID` Traffic Vehicles (Low Speed, Reusable)` , Link 2`TMotion_83489463-e6b0-4344-960c-fc199afc07ac
+
+
+#MiscYellow2
+symbol_set <<ispeed>> 3
+ispeed = 3
+N_SPEED_TARGET = 3
+#ENDMYellow
+
+PARSFILE Control\Speed_t\SpdTime_8273b709-e099-4c0a-ad67-3b083a0d55b6.par
+#BlueLink2 Control: Speed (Closed Loop) Using Target Speed`Intersection (S = 0), Turn` Speed vs Station` , Link 3`SpdTime_8273b709-e099-4c0a-ad67-3b083a0d55b6
+
+
+#MiscYellow3
+set_ipath_for_id 1002
+set_iroad_for_id 1002
+#ENDMYellow
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_9e0354e1-261a-496b-ac63-f407b7ec0065.par
+#BlueLink3 Multiple Moving Objects`3 Vehicles, Red, Path_ID and ROAD_ID` Traffic Vehicles (Low Speed, Reusable)` , Link 4`TMotion_9e0354e1-261a-496b-ac63-f407b7ec0065
+
+
+#MiscYellow4
+set_ipath_for_id 1001
+set_iroad_for_id 1001
+symbol_set <<start>> 40
+#ENDMYellow
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_a25f7b00-06a1-4343-8792-3f45ff611db4.par
+#BlueLink4 Multiple Moving Objects`3 Vehicles, Black, Path_ID and Road_ID` Traffic Vehicles (Low Speed, Reusable)` , Link 5`TMotion_a25f7b00-06a1-4343-8792-3f45ff611db4
+
+
+#BlueLink5 ` , Link 6` , Link 6` , Link 6`
+
+
+
+
+
+
+#EMBEDDED_NOTES
+#This dataset adds three groups of traffic vehicles to a simulation. Each linked  dataset for multiple objects specifies that the objects follow the current path (PATH_ID) and road (ROAD_ID), with station values based on a symbol stack variable <<START>>, a lateral position specified with a symbol stack variable <<L>>, and a speed defined with the SPEED_TARGET function using the dataset identifgied with the symbol stack variable <<ISPEED>>.
+#
+#The first group goes at a constant speed of 80 km/h; the other two use a table function that drops the speed in the intersection (near S = 0).
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Data Group; { Traffic Vehicles } Traffic Vehicles for 3-Way Intersection
+#Library : Generic Data Group
+#DataSet : Traffic Vehicles for 3-Way Intersection
+#Category: Traffic Vehicles
+#FileID  : GenGrp_13f27b90-f0cf-407d-bca9-8a18b6a4ecdb
+#Product : CarSim 2017.1
+#VehCode Generic Group
+
+END

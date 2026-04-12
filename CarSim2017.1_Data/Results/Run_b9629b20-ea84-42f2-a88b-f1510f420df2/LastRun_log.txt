@@ -1,0 +1,72 @@
+Include PARSFILE "Results\Run_b9629b20-ea84-42f2-a88b-f1510f420df2\Run_all.par"
+Used Dataset: Animator: Shape File Link; { Tires } Big Car Tire
+Used Dataset: Animator: Shape File Link; { Tires } Big Car Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Big Car Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Big Car
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; Extended Tire Models
+Used Dataset: Tire: Lateral Force; Extended Tire
+Used Dataset: Tire: Longitudinal Force; Extended Tire
+Used Dataset: Tire: Lateral Force vs. Inclination; Extended Tire
+Used Dataset: Tire: Aligning Moment vs. Inclination; Extended Tire
+Used Dataset: Tire: Overturning Moment; Extended Tire
+Used Dataset: Tire: Overturning Moment vs. Inclination; Extended Tire
+Used Dataset: Tire; { Extended Tire Model } Example Extended Tire
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Normalized Lateral Force vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Normalized Longitudinal Force vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Tangent of Slip Angle vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Lateral Shift of CTC vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Mz due to Fx vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Mz due to Fy and Pneumatic Trail vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Pneumatic Trail vs. Alpha
+Used Dataset: Generic VS Commands; { Miscellaneous Custom Output Variables } Derived Outputs for Tire Tester
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester } Fx vs. Fy
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester } Fx vs. Kappa
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester } Fy vs. Kappa
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester } Mz vs. Kappa
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester } Mx vs. Kappa
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester } My vs. Kappa
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester } Fy vs. Fx
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Normalized Lateral Force vs. Kappa
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Normalized Longitudinal Force vs. Kappa
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Tangent of Slip Angle vs. Kappa
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Lateral Shift of CTC vs. Kappa
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Mz due to Fx vs. Kappa
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Mz due to Fy and Pneumatic Trail vs. Kappa
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Pneumatic Trail vs. Kappa
+Used Dataset: Tire Tester; { Sweep Kappa +/- 1.0 } Sweep Kappa: Fz = 4000 N
+Used Dataset: I/O Channels: Write; All Outputs with Tire for Excel
+ Friction Ellipse - Alpha = 0 deg <Tire Tester>
+Used Dataset: CarSim Run Control; { Tire Tester } Friction Ellipse - Alpha = 0 deg
+
+Time to read input = 0.01
+Function FX_TIRE_CARPET extrapolated (out of range HIGH) for X = 1 - at T = 0
+Function FY_TIRE_CARPET extrapolated (out of range HIGH) for X = 90 deg at T = 0
+Function MZ_TIRE_CARPET extrapolated (out of range HIGH) for X = 90 deg at T = 0
+Function MX_TIRE_CARPET extrapolated (out of range HIGH) for X = 90 deg at T = 0
+
+Run started: ERD output file = Results\Run_b9629b20-ea84-42f2-a88b-f1510f420df2\LastRun.bin
+
+Run stopped at t = 0.2. kappa = 1 (-)

@@ -1,0 +1,81 @@
+PARSFILE
+#FullDataName CarSim Run Control`Simple Run from MATLAB`External Control: COM, FMU, MATLAB, Python, VB
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_dda65f6b-e649-4dc9-9a93-ab0c0cb40a99
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Models\Local_Dir\Local_fd733f84-f0dd-4419-9a38-336b921218fd.par
+#BlueLink12 Models: Transfer to Local Windows Directory`Simple Run from MATLAB (32-bit)` Running from MATLAB` , Models`Local_fd733f84-f0dd-4419-9a38-336b921218fd
+
+PARSFILE Animator\Cameras\Camera_173075a0-4016-49eb-8ce2-c8488776e092.par
+#BlueLink0 Animator: Camera Setup`3 deg. Azimuth, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_173075a0-4016-49eb-8ce2-c8488776e092
+
+#CheckBox0 1    
+#CheckBox1 1    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 1
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 1 1 0
+SET_RUN_COLOR 1 1 0
+PARSFILE Vehicles\Assembly\Vehicle_a0aaeca0-2c47-4094-9562-cbd5e0d325b6.par
+#BlueLink2 Vehicle: Assembly`C-Class, Hatchback 2017` C-Class` , Vehicle Configuration`Vehicle_a0aaeca0-2c47-4094-9562-cbd5e0d325b6
+
+PARSFILE Procedures\Proc_3ae0353d-bd7c-43a3-9da4-150b6952a10e.par
+#BlueLink28 Procedures`DLC @ 120 km/h (Quick Start)` Handling Testing` , Procedure`Proc_3ae0353d-bd7c-43a3-9da4-150b6952a10e
+
+
+SPECIAL_PARSFILE Runs\Run_f0b02a7c-2939-4577-87ec-8ed10614a213.par
+#BlueLink23 CarSim Run Control`Baseline` * * Quick Start Guide Example` , Overlay run or ERD file`Run_f0b02a7c-2939-4577-87ec-8ed10614a213
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_a0aaeca0-2c47-4094-9562-cbd5e0d325b6.png
+WRITE_SENSOR_DETECT
+Title Simple Run from MATLAB <External Control: COM, FMU, MATLAB, Python, VB>
+CATEGORY External Control: COM, FMU, MATLAB, Python, VB 
+DATASET_TITLE Simple Run from MATLAB
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#A VS solver program can be loaded and run from a MATLAB M-file. This example is described in a tech memo accessed from Help > Technical Memos > Example: Automating Runs with the VS API.
+#
+#If you want to use the feature which allows you to save multiple sets of results, the ring control must be set prior generating the files for the run.
+#
+#To make the run:
+#1. Click the button "Generate Files for this Run",
+#2. From within MATLAB, run the file "Simple.m" from the folder Extensions\Custom_M.
+#
+#For 64-bit MATLAB, please change the linked Model dataset to the 64-bit example. Be aware that a MATLAB-compatible external C compiler is required to use the MATLAB loadlibrary function for 64-bit MATLAB.
+#
+#Note that this simulation is overlaid with the Quick Start Guide, Baseline example to demonstrate that the simulation results to do not differ between running the M-file and the baseline example.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { External Control: COM, FMU, MATLAB, Python, VB } Simple Run from MATLAB
+#Library : CarSim Run Control
+#DataSet : Simple Run from MATLAB
+#Category: External Control: COM, FMU, MATLAB, Python, VB
+#FileID  : Run_dda65f6b-e649-4dc9-9a93-ab0c0cb40a99
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName Batch Runs`Output Options`Built-In Solvers
+#CheckBox1 0    
+
+#MiscYellow1
+#<Output Options> 5 Accel. and Rate Sensors: Rollover Steering Input
+#<Output Options> 5 Reference Points: Rollover Steering Input
+#<Output Options> GPS and 64-bit Output
+#<Output Options> Output to Excel Format (From ERD to CSV/MAT)
+#<Output Options> Quick Start Example: CSV Only
+#<Output Options> Quick Start Example: Export to CSV
+#<Output Options> SI Units for Output
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains the datasets which are in the Data Output Options category
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; { Built-In Solvers } Output Options
+#Library : Batch Runs
+#DataSet : Output Options
+#Category: Built-In Solvers
+#FileID  : BatRun_c35573cc-31d3-4d5f-ad4f-26119546b8a7
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

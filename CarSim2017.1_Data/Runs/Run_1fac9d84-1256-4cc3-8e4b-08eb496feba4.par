@@ -1,0 +1,76 @@
+PARSFILE
+#FullDataName CarSim Run Control`Pacejka 5.2: DLC, Consumers Union`Tire Models
+#VEHICLECODE Ind_SA
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_1fac9d84-1256-4cc3-8e4b-08eb496feba4
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_358f7aeb-0e81-446e-a19f-f2c18b21801b.par
+#BlueLink0 Animator: Camera Setup`13 deg. Azimuth, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_358f7aeb-0e81-446e-a19f-f2c18b21801b
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 1    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 1
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_2a60ac40-95e9-4647-ace6-9e2e4893dc7c.par
+#BlueLink2 Vehicle with Loads, Sensors, Trailer, etc.`Utility Truck w/ Barrels` ` , Vehicle Configuration`VehLoad_2a60ac40-95e9-4647-ace6-9e2e4893dc7c
+
+PARSFILE Procedures\Proc_59aac561-fc66-42a0-b3c0-08074697f758.par
+#BlueLink28 Procedures`Double Lane Change, Tight` Handling Testing` , Procedure`Proc_59aac561-fc66-42a0-b3c0-08074697f758
+
+INSTALL_DRIVER_SPEED_CONTROLLER CarSim9
+Opt_SC 3
+OPT_SC 3
+SPEED_TARGET_COMBINE ADD
+SPEED_TARGET_CONSTANT 0
+SPEED_TARGET_S_CONSTANT 35
+OPT_SC_ENGINE_BRAKING 0
+*SPEED 35
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Loaded\VehLoad_2a60ac40-95e9-4647-ace6-9e2e4893dc7c.png
+WRITE_SENSOR_DETECT
+Title Pacejka 5.2: DLC, Consumers Union <Tire Models>
+CATEGORY Tire Models 
+DATASET_TITLE Pacejka 5.2: DLC, Consumers Union
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#A small utility truck with a load of barrels in its bed performs a tight double lane change based on the Consumers Union double lane change test.
+#
+#This vehicle is using tire data entered on the CarSim Pacejka 5.2 data screen. Browse to the Vehicle: Assembly screen and click on the tire blue link "Pacejka 5.2 (Symmetric)" for more information.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Tire Models } Pacejka 5.2: DLC, Consumers Union
+#Library : CarSim Run Control
+#DataSet : Pacejka 5.2: DLC, Consumers Union
+#Category: Tire Models
+#FileID  : Run_1fac9d84-1256-4cc3-8e4b-08eb496feba4
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

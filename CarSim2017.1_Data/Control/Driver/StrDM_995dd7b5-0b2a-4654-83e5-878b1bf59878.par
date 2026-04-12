@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Control: Steering by the Closed-loop Driver Model`Drifts to the Left`Driver Errors
+#CheckBox0 0    
+OPT_DRIVER_MODEL 1
+#CheckBox1 0    
+CREATE_PATH_OBJ off
+#CheckBox2 0    
+
+#RingCtrl0 0
+#RingCtrl1 LINEAR_FLAT
+#DiagramOne0
+LTARG_TABLE LINEAR_FLAT
+0, -2
+1, -2
+140, 5
+160, -2
+180, -2
+ENDTABLE
+#RadioCtrl0 0    
+
+AV_SW_MAX_DM 1200
+TLAG_DM 0
+A_SW_MAX_DM 720
+*TPREV 0.7
+VLOW_DRIVER 10
+
+TPREV_CONSTANT 0.7
+
+LOG_ENTRY Used Dataset: Control: Steering by the Closed-loop Driver Model; { Driver Errors } Drifts to the Left
+#Library : Control: Steering by the Closed-loop Driver Model
+#DataSet : Drifts to the Left
+#Category: Driver Errors
+#FileID  : StrDM_995dd7b5-0b2a-4654-83e5-878b1bf59878
+#Product : CarSim 2017.1
+#VehCode Driver Path Follower
+
+END

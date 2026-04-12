@@ -1,0 +1,49 @@
+PARSFILE
+#FullDataName Plot: Setup`Sensor Point Tracking (On Road)`Driver Sensor
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Y_RDS_1, X_RDS_1
+PLOTCHANNELS Y_RDS_2, X_RDS_2
+PLOTCHANNELS Y_RDS_3, X_RDS_3
+PLOTCHANNELS Y_RDS_4, X_RDS_4
+PLOTCHANNELS Y_RDS_5, X_RDS_5
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Sensor Point Tracking (On Road)
+
+END_ENTITY Plot
+
+
+#EMBEDDED_NOTES
+#Special sensors are provided for creating advanced diver models, at user-specified distances ahead or behind the car.
+#
+#The X and Y coordinates of each sensor are output for tracking purposes.
+#
+#This set of variables provides the global coordinates of the road reference line nearest each sensor point.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Driver Sensor } Sensor Point Tracking (On Road)
+#Library : Plot: Setup
+#DataSet : Sensor Point Tracking (On Road)
+#Category: Driver Sensor
+#FileID  : Plot_98cf01d2-ddd5-49e1-8c21-33cdd16bd015
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

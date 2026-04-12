@@ -1,0 +1,439 @@
+Include PARSFILE "Results\Run_28a74dca-92fe-47fc-b187-eb24442de180\Run_all.par"
+Used Dataset: Animator: Reference Frame; { Car Tracking } Car X-Y-Z
+Used Dataset: Animator: Camera Setup; { Vehicle Reference } 13 deg. Azimuth, Veh. Ref.
+Used Dataset: Suspension: Dive Angle (Caster Change); SLA - Front
+Used Dataset: Suspension: Longitudinal Movement; SLA - Front
+Used Dataset: Suspension: Camber Angle; SLA - Front
+Used Dataset: Suspension: Lateral Movement Due to Jounce; SLA - Front
+Used Dataset: Suspension: Toe Angle; SLA - Front
+Used Dataset: Suspension: Dive Angle (Caster Change); SLA - Front
+Used Dataset: Suspension: Longitudinal Movement; SLA - Front
+Used Dataset: Suspension: Camber Angle; SLA - Front
+Used Dataset: Suspension: Lateral Movement Due to Jounce; SLA - Front
+Used Dataset: Suspension: Toe Angle; SLA - Front
+Used Dataset: Suspension: Independent System Kinematics; { B-Class } B-Class, Sports Car - Front
+Used Dataset: Suspension: Shock Absorber; Big Car
+Used Dataset: Suspension: Jounce and Rebound Stops; +25 mm / -55 mm
+Used Dataset: Suspension: Shock Absorber; Big Car
+Used Dataset: Suspension: Jounce and Rebound Stops; +25 mm / -55 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 384 N-m/deg
+Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { B-Class } B-Class, Sports Car - Front
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Tire
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Sports Car
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Performance Tires } 205/45 R17
+Used Dataset: Tire: Lateral Force; { Performance Tires } 205/45 R17
+Used Dataset: Tire: Longitudinal Force; { Performance Tires } 205/45 R17
+Used Dataset: Tire: Camber Thrust Coefficient; { Performance Tires } 205/45 R17
+Used Dataset: Tire; { Performance Tires } 205/45 R17
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Tire
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Sports Car
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Performance Tires } 205/45 R17
+Used Dataset: Tire: Lateral Force; { Performance Tires } 205/45 R17
+Used Dataset: Tire: Longitudinal Force; { Performance Tires } 205/45 R17
+Used Dataset: Tire: Camber Thrust Coefficient; { Performance Tires } 205/45 R17
+Used Dataset: Tire; { Performance Tires } 205/45 R17
+Used Dataset: Suspension: Longitudinal Movement; 5-Link - Rear
+Used Dataset: Suspension: Camber Angle; 5-Link - Rear
+Used Dataset: Suspension: Lateral Movement Due to Jounce; 5-Link - Rear
+Used Dataset: Suspension: Toe Angle; 5-Link - Rear
+Used Dataset: Suspension: Longitudinal Movement; 5-Link - Rear
+Used Dataset: Suspension: Camber Angle; 5-Link - Rear
+Used Dataset: Suspension: Lateral Movement Due to Jounce; 5-Link - Rear
+Used Dataset: Suspension: Toe Angle; 5-Link - Rear
+Used Dataset: Suspension: Independent System Kinematics; { B-Class } B-Class, Sports Car - Rear
+Used Dataset: Suspension: Shock Absorber; Big Car
+Used Dataset: Suspension: Jounce and Rebound Stops; +70 mm / -50 mm
+Used Dataset: Suspension: Shock Absorber; Big Car
+Used Dataset: Suspension: Jounce and Rebound Stops; +70 mm / -50 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 384 N-m/deg
+Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { B-Class } B-Class, Sports Car - Rear
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Tire
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Sports Car
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Performance Tires } 205/45 R17
+Used Dataset: Tire: Lateral Force; { Performance Tires } 205/45 R17
+Used Dataset: Tire: Longitudinal Force; { Performance Tires } 205/45 R17
+Used Dataset: Tire: Camber Thrust Coefficient; { Performance Tires } 205/45 R17
+Used Dataset: Tire; { Performance Tires } 205/45 R17
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Tire
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Sports Car
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Performance Tires } 205/45 R17
+Used Dataset: Tire: Lateral Force; { Performance Tires } 205/45 R17
+Used Dataset: Tire: Longitudinal Force; { Performance Tires } 205/45 R17
+Used Dataset: Tire: Camber Thrust Coefficient; { Performance Tires } 205/45 R17
+Used Dataset: Tire; { Performance Tires } 205/45 R17
+Used Dataset: Vehicle: Sprung Mass; { B-Class } B-Class, Sports Car
+Used Dataset: Aerodynamics: Fx (Drag) Coef. vs. Aero Slip; 0.30 at 0 Degrees
+Used Dataset: Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip; 0.5 at 90 deg
+Used Dataset: Aerodynamics: Fz (Lift) Coef. vs. Aero Slip; 0.18 at 0 Degrees
+Used Dataset: Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip; 0.3 at 90 deg
+Used Dataset: Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip; -0.15 at 0 Degrees
+Used Dataset: Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip; 0.05 at 90 deg
+Used Dataset: Aerodynamics: Basic; B-Class, Sports Car
+Used Dataset: Animator: Shape File Link; { CS Sports Car } Conv.: Body
+Used Dataset: Animator: Shape File Link; { CS Sports Car } Conv.: Details
+Used Dataset: Animator: Shape File Link; { CS Sports Car } Conv.: Windows
+Used Dataset: Animator: Shape File Link; { CS Sports Car } Conv.: Driver
+Used Dataset: Animator: Shape Assembly; { CS B-Class } B-Class, Convertible
+Used Dataset: Animator: Sound Modifier; { Wind } Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Wind } Frequency: Speed Effect
+Used Dataset: Animator: Sound Sample; Wind Noise
+Used Dataset: Animator: Sound Set; Wind Noise
+Used Dataset: Animator: Shape File Link; { CS Sports Car } Conv.: Brake Lights
+Used Dataset: Animator: Vehicles and Sensor Targets; { B-Class Vehicles } B-Class, Sports Car
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power Off Loudness: Load Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power Off Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Gas Engine } 4 Cyl. - Power Off
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power On Loudness: Load Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power On Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Gas Engine } 4 Cyl. - Power On
+Used Dataset: Generic Data Group; { Audio Sound Sets } Gasoline Engine (4 Cylinder)
+Used Dataset: Powertrain: Engine; 125 kW  Engine
+Used Dataset: Powertrain: Torque Converter; Torque Converter for 125 kW Engine
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 1-2 Shift
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 2-3 Shift
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 3-4 Shift
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 4-5 Shift
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 5-6 Shift
+Used Dataset: Powertrain: Transmission (18 Gears or CVT); 6-Speed
+Used Dataset: Powertrain: Rear Differential; { Viscous } Viscous: Gear Ratio 4.1
+Used Dataset: Powertrain: Rear Differential; { Viscous } Viscous: Gear Ratio 4.1
+Used Dataset: Powertrain: Rear-Wheel Drive; { 125 kW Powertrains } 125 kW, 6-spd., 4.1 Ratio
+Used Dataset: Brakes: Four-Wheel System; { B-Class } B-Class, Sports Car w/ ABS
+Used Dataset: Steering System: Compliance; Constant: Zero
+Used Dataset: Steering System: Kinematics for 2 Wheels (Rack & Pinion); { B-Class } B-Class, Sports Car 2017
+Used Dataset: Steering: Power Assist Force; { B-Class } B-Class Sports Car, Not Spd Sens 2017
+Used Dataset: Steering System: Compliance; B-Class, Sports Car: Linear (2017)
+Used Dataset: Steering: Parking Torque for 2 Wheels; B-Class Sports Car 2017
+Used Dataset: Steering; { CS B-Class } B-Class, Sports Car: Power, R&P 2017
+Used Dataset: Vehicle: Assembly; { B-Class } B-Class, Sports Car 2017
+Used Dataset: Control: Steering by the Closed-loop Driver Model; { Constant Position } 2.5 m to the Right, 1.0 sec. Preview
+Used Dataset: Control: Braking MC Pressure (Open Loop); { Constant } Constant: 0 MPa
+Used Dataset: Control: Shifting (Closed Loop); AT All Gears
+Used Dataset: Control: Speed (Closed Loop) Using Target Speed; { Constant Speed } 1 km/h
+ 200-m Radius Right, 100-m Radius Left <Curves>
+Used Dataset: Path: Segment Builder; { Curves } 200-m Radius Right, 100-m Radius Left
+Used Dataset: Road: Friction Map, S-L Grid; { Constant } Constant: 0.85
+Used Dataset: Road: Animator Surface Shapes; { Scenic Road Shapes } 200 m radius Right followed by 100 m radius Left
+Used Dataset: Road: Boundaries; { Road Boundary Stop Conditions } Stop at L = +- 5 m
+Used Dataset: Animator: Reference Frame; Skybox (Vehicle Reference)
+Used Dataset: Animator: Shape File Link; { Skies } Partly Cloudy Sky
+Used Dataset: Animator: Shape File Link; { Terrain } Complex Land Bowl for Light Grass
+Used Dataset: Animator: Group; { Skies } Partly Cloudy Sky
+Used Dataset: Road: Animator Repeated Object; { Trees } Trees for Scenic Road: 200 m Right, 100 m Left
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Road: 3D Surface (All Properties); { Scenic Roads } 90 deg turns: 200 m Right, 100 m Left
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for X (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Side View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fx 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for X (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Side View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fx 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for X (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Side View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fx 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for X (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Side View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fx 3D Arrow (Tail Origin)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Force Arrows (2 Axles) } 2A - Fx Tire Force Arrows
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Y (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fy 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Y (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fy 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Y (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fy 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Y (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fy 3D Arrow (Tail Origin)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Force Arrows (2 Axles) } 2A - Fy Tire Force Arrows
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Z (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Side View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fz 3D, Offset (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Z (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Side View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fz 3D, Offset (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Z (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Side View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fz 3D, Offset (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Z (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Side View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fz 3D, Offset (Tail Origin)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Force Arrows (2 Axles) } 2A - Fz Tire Force Arrows
+Used Dataset: Generic Data Group; { Tire Force Arrows } 2 Axle - Fx, Fy, Fz
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Forces } Vertical Forces (Front) vs. t_stamp
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Forces } Vertical Forces (Rear) vs. t_stamp
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Lateral Accel. of CG's vs. t_stamp
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Yaw Angle of Sprung Masses vs. t_stamp
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Yaw Rate of Sprung Masses vs. t_stamp
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Pitch Angle of Sprung Masses vs. t_stamp
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Roll Angle of Sprung Masses vs. t_stamp
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Steering } Road Wheel Steer Angle (Front) vs. t_stamp
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Vehicle Motion } Longitudinal Speed vs. t_stamp
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tracking } Y vs. X -- Trajectory
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tracking } Lateral Tracking vs. t_stamp
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Controls: Driver } Steering Wheel Angle vs. t_stamp
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Controls: Driver } Throttle: Control Input vs. t_stamp
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Controls: Driver } Master Cyl. Pressure vs. t_stamp
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Tracking } Station vs. t_stamp
+Used Dataset: Procedures; { Restoring to a Previous State } Low Speed - Success
+Used Dataset: Animator: HUD; { Vehicle Status Indicators } Throttle, Brake, G-G, Speedo, and Tach
+ S-Turn, Too Slow <Restore, Restart, Optimize>
+Used Dataset: CarSim Run Control; { Restore, Restart, Optimize } S-Turn, Too Slow
+
+Time to read input = 0.015
+Function F_REB_STOP_TABLE(1,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(1,1) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(1,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(1,2) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(2,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(2,1) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(2,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(2,2) extrapolated (out of range LOW) for X = 0 mm at T = 0
+
+Run started: ERD output file = Results\Run_28a74dca-92fe-47fc-b187-eb24442de180\LastRun.bin
+
+Run stopped at t = 29.016. Station limit reached: driver station = 800.011
+
+Computational efficiency: RTIME = 0.0981872 sec/sim. sec
+

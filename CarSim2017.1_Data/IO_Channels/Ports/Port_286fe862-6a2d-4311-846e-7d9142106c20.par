@@ -1,0 +1,32 @@
+PARSFILE
+#FullDataName I/O Channels: Ports`ABS Example - Multi-Port (FMU)`Braking Controls
+#RingCtrl0 1
+#RingCtrl1 3
+#CheckBox0 0    
+
+IPORT_IMP 1
+PARSFILE IO_Channels\I_Channels\Import_b6ba529d-e710-4159-bfb3-095c5ec337df.par
+#BlueLink0 I/O Channels: Import`ABS` Braking Imports` , Library for factor A`Import_b6ba529d-e710-4159-bfb3-095c5ec337df
+
+IPORT_EXP 1
+PARSFILE IO_Channels\O_Channels\Export_c1300b19-a673-4359-ac95-a14a8e85969b.par
+#BlueLink20 I/O Channels: Export`Four Wheel Speeds` Braking Exports` , Library for factor B`Export_c1300b19-a673-4359-ac95-a14a8e85969b
+
+IPORT_EXP 2
+PARSFILE IO_Channels\O_Channels\Export_56caa9fe-7bb4-45c0-86ab-f1dc297927e0.par
+#BlueLink21 I/O Channels: Export`Vehicle Speed` Braking Exports` , Baseline run`Export_56caa9fe-7bb4-45c0-86ab-f1dc297927e0
+
+IPORT_EXP 3
+PARSFILE IO_Channels\O_Channels\Export_3a65ed44-0d6d-4669-8e50-26ed8228d897.par
+#BlueLink22 I/O Channels: Export`M/C Pressure` Braking Exports` , Baseline run`Export_3a65ed44-0d6d-4669-8e50-26ed8228d897
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Ports; { Braking Controls } ABS Example - Multi-Port (FMU)
+#Library : I/O Channels: Ports
+#DataSet : ABS Example - Multi-Port (FMU)
+#Category: Braking Controls
+#FileID  : Port_286fe862-6a2d-4311-846e-7d9142106c20
+#Product : CarSim 2017.1
+#VehCode I/O Ports
+
+END

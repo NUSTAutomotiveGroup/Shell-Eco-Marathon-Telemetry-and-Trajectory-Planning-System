@@ -1,0 +1,21 @@
+PARSFILE
+#FullDataName Suspension: Longitudinal Movement`Constant: Zero`
+#CheckBox0 0    
+
+#RingCtrl0 CONSTANT
+*SCALAR 0
+
+SUSP_X_CONSTANT 0
+#RadioCtrl0 0    
+
+SUSP_X_AXLE_CONSTANT 0
+
+LOG_ENTRY Used Dataset: Suspension: Longitudinal Movement; Constant: Zero
+#Library : Suspension: Longitudinal Movement
+#DataSet : Constant: Zero
+#Category: 
+#FileID  : SusX_6958dbec-506e-48cd-92b2-7245c3a0ce38
+#Product : CarSim 2017.1
+#VehCode Longitudinal Movement
+
+END

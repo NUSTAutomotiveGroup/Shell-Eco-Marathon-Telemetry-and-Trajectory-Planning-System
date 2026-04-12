@@ -1,0 +1,27 @@
+PARSFILE
+#FullDataName Control: Steering (Open Loop)`Return: 720 deg. to Zero`Return to Zero
+OPT_DRIVER_MODEL 0
+OPT_STEER 0
+#CheckBox0 0    
+
+#RingCtrl0 LINEAR_FLAT
+#RadioCtrl0 0    
+
+#DiagramOne0
+STEER_SW_TABLE LINEAR_FLAT
+0, 720
+1.5, 720
+3.5, 0
+5, 0
+ENDTABLE
+
+
+LOG_ENTRY Used Dataset: Control: Steering (Open Loop); { Return to Zero } Return: 720 deg. to Zero
+#Library : Control: Steering (Open Loop)
+#DataSet : Return: 720 deg. to Zero
+#Category: Return to Zero
+#FileID  : StrSW_d57b1299-3ff2-4e6c-aba4-1d318180ad86
+#Product : CarSim 2017.1
+#VehCode Open-Loop Steering
+
+END

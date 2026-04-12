@@ -1,0 +1,109 @@
+
+
+
+***********  CRUISE  2015.0.0-599 [x32]  *********
+
+**************  AVL-List GmbH 2016    ************
+
+************  Build: Jan 27 2016 17:04:51  *******
+
+***********  Fri, 28.04.2017 14:30:16  ***********
+
+
+
+  ===> ERRORCODE 9: Bad file descriptor
+
+
+  Project-File:    D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\Aut_4WD.prj
+
+  Data Manager: Cruise Kernel version 2015.0 not compatible with Cruise Project version 2010.1. You should save the project with the matching GUI version of AVL CRUISE.
+
+
+  [ERROR D_222 : DM_CheckProjectVersion]
+
+
+  Structure-File:    D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\Aut_4WD.stc
+
+  Data-File:    D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\Aut_4WD.dbf
+
+  Used CPU-Time - PREPROCESSING: 0.69 Seconds
+
+  Task-File:    D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\folder.001\SAM_Folder.tsk
+
+  library not loaded...
+
+  [ERROR H_102 : MH_LoadOnlineMonitorLib_DP]
+
+
+  Error in opening Online Monitor
+
+  [WARNING H_103 : MH_OpenOnlineMonitor_DP]
+
+
+  Used CPU-Time - PREPROCESSING: 0.09 Seconds
+
+--------------------------------------------------
+
+  Starting Calculation of Task:
+
+  ***     SAM TASK  SAM Task     ***
+
+  Calculation Mode:  SIMULATION
+  Algorithm:       C FSS - Heun
+
+--------------------------------------------------
+
+  Calculation running ..
+  CarSim interface is found.
+
+  .. Calculation of Task Complete
+
+
+--------------------------------------------------
+
+  Used CPU-Time: 6.436000 Seconds
+  Real-Time Factor: 0.212757
+
+--------------------------------------------------
+  BIN File created: D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\folder.001\task.001\m_24__10.b_1
+  BIN File created: D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\folder.001\task.001\m_24__11.b_1
+  BIN File created: D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\folder.001\task.001\m_24__12.b_1
+  BIN File created: D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\folder.001\task.001\m__7___2.b_1
+  BIN File created: D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\folder.001\task.001\m__8___3.b_1
+  BIN File created: D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\folder.001\task.001\m_11___4.b_1
+  BIN File created: D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\folder.001\task.001\m_11___5.b_1
+  BIN File created: D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\folder.001\task.001\m_16___6.b_1
+  BIN File created: D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\folder.001\task.001\m_16___7.b_1
+  BIN File created: D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\folder.001\task.001\m_16___8.b_1
+  BIN File created: D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\folder.001\task.001\m_16___9.b_1
+  BIN File created: D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\folder.001\task.001\m__4___1.b_1
+
+  Number of Extrapolations in 1. Engine ->
+  Soot Emission Map = 108870
+
+  [Engine.1]: Support-Team 6 cylinder engine gasoline inline
+  [WARNING M_116 : PublishPost_04]
+
+  BIN File created: D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\folder.001\task.001\c_60__13.b_1
+  BIN File created: D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\folder.001\task.001\c181__19.b_1
+  BIN File created: D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\folder.001\task.001\c_61__14.b_1
+  BIN File created: D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\folder.001\task.001\c_62__15.b_1
+  BIN File created: D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\folder.001\task.001\c_71__16.b_1
+  BIN File created: D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\folder.001\task.001\c_80__17.b_1
+  BIN File created: D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\folder.001\task.001\c_99__18.b_1
+  BIN File created: D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\folder.001\task.001\c_51__51.b_1
+  GID File created: D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Extensions\AVL\Cruise-CarSim_Aut_4WD\ver_0001\folder.001\task.001\_x_axis_.gid
+
+  PPD-Tree is written by calculation kernel
+
+
+
+*******************  CRUISE  *********************
+
+*************** Program Finished *****************
+
+         Used CPU-Time: 16.135000  Seconds
+
+**************************************************
+
+

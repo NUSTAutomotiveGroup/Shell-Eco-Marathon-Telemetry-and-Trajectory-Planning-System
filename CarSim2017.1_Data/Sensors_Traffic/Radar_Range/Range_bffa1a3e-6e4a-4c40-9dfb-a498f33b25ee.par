@@ -1,0 +1,25 @@
+PARSFILE
+#FullDataName Sensor Range and Bearing Sensitivity`25.1 m X Limit`
+#CheckBox0 0    
+
+#RingCtrl0 EQUATION
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+SENSOR_ANTENNA_RANGE_EQUATION GT(25.1, x*cos(xcol))
+*EQUATION GT(25.1, x*cos(xcol))
+
+
+#EMBEDDED_NOTES
+#Rather than range (distance using Polar coordinates), this used the X coordinate in the sensor axis system: X*COS(XCOL)
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Sensor Range and Bearing Sensitivity; 25.1 m X Limit
+#Library : Sensor Range and Bearing Sensitivity
+#DataSet : 25.1 m X Limit
+#Category: 
+#FileID  : Range_bffa1a3e-6e4a-4c40-9dfb-a498f33b25ee
+#Product : CarSim 2017.1
+#VehCode Range & Bearing Sensitivity
+
+END

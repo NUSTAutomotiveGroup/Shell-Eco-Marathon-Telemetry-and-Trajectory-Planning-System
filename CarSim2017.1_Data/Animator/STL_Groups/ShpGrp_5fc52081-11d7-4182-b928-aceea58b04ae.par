@@ -1,0 +1,43 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`Reg Cab 6.5 Bed`CS Pickup, Full Size
+*COLOR .251 .314 .243
+*OFFSET_X -2.06
+*OFFSET_Y 0
+*OFFSET_Z 0.375
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_5fc52081-11d7-4182-b928-aceea58b04ae.png
+PARSFILE Animator\STL\Shape_c43fb886-5c93-4892-9d15-9ca10409ec31.par
+#BlueLink0 Animator: Shape File Link`Pickup, Full Size Reg Cab: 6.5 Box Body` CS Pickup, Full Size` , Shape File`Shape_c43fb886-5c93-4892-9d15-9ca10409ec31
+
+set_offset_x -2.06
+set_offset_y 0
+set_offset_z 0.375
+PARSFILE Animator\STL\Shape_bfa1d640-8e39-4047-a748-14fe6d360235.par
+#BlueLink1 Animator: Shape File Link`Pickup, Full Size Reg Cab: 6.5 Box Details` CS Pickup, Full Size` , Shape File`Shape_bfa1d640-8e39-4047-a748-14fe6d360235
+
+set_offset_x -2.06
+set_offset_y 0
+set_offset_z 0.375
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { CS Pickup, Full Size } Reg Cab 6.5 Bed
+#Library : Animator: Shape Assembly
+#DataSet : Reg Cab 6.5 Bed
+#Category: CS Pickup, Full Size
+#FileID  : ShpGrp_5fc52081-11d7-4182-b928-aceea58b04ae
+#Product : CarSim 2017.1
+#VehCode Shape Assembly
+
+END

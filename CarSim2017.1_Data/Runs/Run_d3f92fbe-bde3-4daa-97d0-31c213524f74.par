@@ -1,0 +1,74 @@
+PARSFILE
+#FullDataName CarSim Run Control`Baja Driving`Driver Model
+#VEHICLECODE Ind_SA
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_d3f92fbe-bde3-4daa-97d0-31c213524f74
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_358f7aeb-0e81-446e-a19f-f2c18b21801b.par
+#BlueLink0 Animator: Camera Setup`13 deg. Azimuth, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_358f7aeb-0e81-446e-a19f-f2c18b21801b
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 3
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0.8 0 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_3f6e9495-2bb4-4930-a1a4-aaec2a91f45f.par
+#BlueLink2 Vehicle: Assembly`Off-Road Pickup: Ind_SA` ` , Vehicle Configuration`Vehicle_3f6e9495-2bb4-4930-a1a4-aaec2a91f45f
+
+PARSFILE Procedures\Proc_f0e6784c-bd2a-4512-8310-cc5a7e4b0073.par
+#BlueLink28 Procedures`Off-Road/City Loop (OSG), Aggressive Driving` Driver Controls` , Procedure`Proc_f0e6784c-bd2a-4512-8310-cc5a7e4b0073
+
+PARSFILE Animator\HUD\HUD_76ec3dd7-5fff-4651-881a-2dab4d3bed43.par
+#BlueLink9 Animator: HUD`Throttle, Brake, G-G, Speedo, and Tach` Vehicle Status Indicators` , Miscellaneous`HUD_76ec3dd7-5fff-4651-881a-2dab4d3bed43
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_eb06e89d-a83e-4844-b6db-5f71ce5ff9a1.png
+WRITE_SENSOR_DETECT
+Title Baja Driving <Driver Model>
+CATEGORY Driver Model 
+DATASET_TITLE Baja Driving
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example demonstrates an off-road pickup truck on an off-road / city looped road.
+#
+#The truck features animation shapes of the front suspension control arms that allow you to visualize the suspension articulation, as well as tires using Variable Contact Patch Dimensions. Click on the vehicle blue link "Off-Road Pickup: Ind_SA" for more information.
+#
+#The procedure uses the Target Speed from Path Preview for the Closed-Loop Speed Controller settings.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Driver Model } Baja Driving
+#Library : CarSim Run Control
+#DataSet : Baja Driving
+#Category: Driver Model
+#FileID  : Run_d3f92fbe-bde3-4daa-97d0-31c213524f74
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

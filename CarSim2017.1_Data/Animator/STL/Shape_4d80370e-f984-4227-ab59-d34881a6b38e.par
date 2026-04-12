@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Lower Control Arm`Misc. Parts
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\misc\control_arm.obj
+#ENDMYellow
+
+SET_COLOR 0.314 0.314 0.314
+SET_SCALE_X 0.9
+SET_SCALE_Y 0.9
+SET_SCALE_Z 0.9
+SET_OFFSET_X 0
+SET_OFFSET_Y 0
+SET_OFFSET_Z -0.03
+*SPECULAR 0
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+SET_SPECULAR 0 0 0
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_52079630-c01a-43a9-bc0c-30080f01066f.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Top)` Shape Preview` , Video Camera`Camera_52079630-c01a-43a9-bc0c-30080f01066f
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_4d80370e-f984-4227-ab59-d34881a6b38e.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Misc. Parts } Lower Control Arm
+#Library : Animator: Shape File Link
+#DataSet : Lower Control Arm
+#Category: Misc. Parts
+#FileID  : Shape_4d80370e-f984-4227-ab59-d34881a6b38e
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

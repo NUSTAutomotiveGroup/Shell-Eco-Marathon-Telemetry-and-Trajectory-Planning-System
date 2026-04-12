@@ -1,0 +1,20 @@
+PARSFILE
+#FullDataName Generic VS Commands`Reverse Spin Variable Definitions`Miscellaneous Custom Controls
+#VehCode VS Commands
+
+#MiscYellow0
+DEFINE_PARAMETER vx_r -45; km/h; Reverse speed
+DEFINE_PARAMETER yaw_spin -40; deg; Spin yaw angle
+DEFINE_PARAMETER vx_max 100; km/h; max speed
+#ENDMYellow
+
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { Miscellaneous Custom Controls } Reverse Spin Variable Definitions
+#Library : Generic VS Commands
+#DataSet : Reverse Spin Variable Definitions
+#Category: Miscellaneous Custom Controls
+#FileID  : GenVS_09fe8140-c2aa-4632-8de8-f091f667766f
+#Product : CarSim 2017.1
+#VehCode VS Commands
+
+END

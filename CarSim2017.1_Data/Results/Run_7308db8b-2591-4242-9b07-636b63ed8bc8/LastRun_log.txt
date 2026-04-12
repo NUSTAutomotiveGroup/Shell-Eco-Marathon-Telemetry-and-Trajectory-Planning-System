@@ -1,0 +1,382 @@
+Include PARSFILE "Results\Run_7308db8b-2591-4242-9b07-636b63ed8bc8\Run_all.par"
+Used Dataset: Animator: Reference Frame; Fixed
+Used Dataset: Animator: Camera Setup; { Fixed Camera } Fixed View High - Looking South
+Used Dataset: Suspension: Dive Angle (Caster Change); SLA - Front
+Used Dataset: Suspension: Longitudinal Movement; SLA - Front
+Used Dataset: Suspension: Camber Angle; SLA - Front
+Used Dataset: Suspension: Lateral Movement Due to Jounce; SLA - Front
+Used Dataset: Suspension: Toe Angle; SLA - Front
+Used Dataset: Suspension: Dive Angle (Caster Change); SLA - Front
+Used Dataset: Suspension: Longitudinal Movement; SLA - Front
+Used Dataset: Suspension: Camber Angle; SLA - Front
+Used Dataset: Suspension: Lateral Movement Due to Jounce; SLA - Front
+Used Dataset: Suspension: Toe Angle; SLA - Front
+Used Dataset: Suspension: Independent System Kinematics; { European Van } Large European Van - Front
+Used Dataset: Suspension: Shock Absorber; Big SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +150 mm / -110 mm
+Used Dataset: Suspension: Shock Absorber; Big SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +150 mm / -110 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 510 N-m/deg
+Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { Pickup } Pickup, Full Size - Front
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Tire
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Rotor
+Used Dataset: Animator: Shape Assembly; { Tires } Big SUV
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Lateral Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 265/75 R16
+Used Dataset: Tire; { Touring Tires } 265/75 R16
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Tire
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Rotor
+Used Dataset: Animator: Shape Assembly; { Tires } Big SUV
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Lateral Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 265/75 R16
+Used Dataset: Tire; { Touring Tires } 265/75 R16
+Used Dataset: Suspension: Longitudinal Movement; Hotchkiss - Rear
+Used Dataset: Suspension: Lateral Movement Due to Roll and Jounce; Hotchkiss - Rear
+Used Dataset: Suspension: Roll Steer (Solid Axle); Spline: 0.15 deg/deg
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Rear Solid Drive Axle
+Used Dataset: Suspension: Solid Axle System Kinematics; Large European Van - Rear
+Used Dataset: Suspension: Spring; { Pickup } Pickup - Rear (HD)
+Used Dataset: Suspension: Shock Absorber; Big SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +150 mm / -110 mm
+Used Dataset: Suspension: Spring; { Pickup } Pickup - Rear (HD)
+Used Dataset: Suspension: Shock Absorber; Big SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +150 mm / -110 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 510 N-m/deg
+Used Dataset: Suspension: Solid Axle Compliance, Springs, and Dampers; { Pickup } Pickup, Full Size - Rear
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Tire
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Rotor
+Used Dataset: Animator: Shape Assembly; { Tires } Big SUV
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Lateral Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 265/75 R16
+Used Dataset: Tire; { Touring Tires } 265/75 R16
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Tire
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Rotor
+Used Dataset: Animator: Shape Assembly; { Tires } Big SUV
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Lateral Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 265/75 R16
+Used Dataset: Tire; { Touring Tires } 265/75 R16
+Used Dataset: Vehicle: Sprung Mass; { European Van } Large European Van
+Used Dataset: Aerodynamics: Fx (Drag) Coef. vs. Aero Slip; 0.30 at 0 Degrees
+Used Dataset: Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip; 0.5 at 90 deg
+Used Dataset: Aerodynamics: Fz (Lift) Coef. vs. Aero Slip; 0.18 at 0 Degrees
+Used Dataset: Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip; 0.3 at 90 deg
+Used Dataset: Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip; -0.15 at 0 Degrees
+Used Dataset: Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip; 0.05 at 90 deg
+Used Dataset: Aerodynamics: Basic; D-Class, Minivan
+Used Dataset: Animator: Shape File Link; { CS European Van } Large European Van: Body
+Used Dataset: Animator: Shape File Link; { CS European Van } Large European Van: Lights
+Used Dataset: Animator: Shape File Link; { CS European Van } Large European Van: Details
+Used Dataset: Animator: Shape File Link; { CS European Van } Large European Van: Front Windows
+Used Dataset: Animator: Shape File Link; { CS European Van } Large European Van: Front Window Trim
+Used Dataset: Animator: Shape File Link; { CS European Van } Large European Van: Rear Windows
+Used Dataset: Animator: Shape File Link; { CS European Van } Large European Van: Rear Window Trim
+Used Dataset: Animator: Shape File Link; { CS European Van } Large European Van: Seats
+Used Dataset: Animator: Shape File Link; { CS European Van } Large European Van: Steering Wheel
+Used Dataset: Animator: Shape File Link; { CS European Van } Large European Van: Driver
+Used Dataset: Animator: Shape Assembly; { CS European Van } Large European Van
+Used Dataset: Animator: Sound Modifier; { Wind } Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Wind } Frequency: Speed Effect
+Used Dataset: Animator: Sound Sample; Wind Noise
+Used Dataset: Animator: Sound Set; Wind Noise
+Used Dataset: Animator: Shape File Link; { CS European Van } Large European Van: Brake Lights
+Used Dataset: Animator: Vehicles and Sensor Targets; { Working Vehicles } Large European Van
+Used Dataset: Animator: Sound Modifier; { Diesel Engine } Power Off Loudness: Load Effect
+Used Dataset: Animator: Sound Modifier; { Diesel Engine } Power Off Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Diesel Engine } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Diesel Engine } Diesel 6 Cyl. - Power Off
+Used Dataset: Animator: Sound Modifier; { Diesel Engine } Power On Loudness: Load Effect
+Used Dataset: Animator: Sound Modifier; { Diesel Engine } Power On Loudness: Speed Effect
+WARNING: DEFINE_OUTPUT did not add a variable because the keyword "F_MOD" was already in use.
+Used Dataset: Animator: Sound Modifier; { Diesel Engine } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Diesel Engine } Diesel 6 Cyl. - Power On
+Used Dataset: Generic Data Group; { Audio Sound Sets } Diesel Engine (6 Cylinder)
+Used Dataset: Powertrain: Engine; 270 kW Diesel Engine
+Used Dataset: Powertrain: Torque Converter; Torque Converter for 270 kW Diesel Engine
+Used Dataset: Powertrain: Shift Schedule; { 6-speed, Diesel } 6-speed, 1-2 Shift (Diesel)
+Used Dataset: Powertrain: Shift Schedule; { 6-speed, Diesel } 6-speed, 2-3 Shift (Diesel)
+Used Dataset: Powertrain: Shift Schedule; { 6-speed, Diesel } 6-speed, 3-4 Shift (Diesel)
+Used Dataset: Powertrain: Shift Schedule; { 6-speed, Diesel } 6-speed, 4-5 Shift (Diesel)
+Used Dataset: Powertrain: Shift Schedule; { 6-speed, Diesel } 6-speed, 5-6 Shift (Diesel)
+Used Dataset: Powertrain: Transmission (18 Gears or CVT); 6-Speed for Diesel
+Used Dataset: Powertrain: Rear Differential; Open: Gear Ratio 4.1
+Used Dataset: Powertrain: Rear Differential; Open: Gear Ratio 4.1
+Used Dataset: Powertrain: Rear-Wheel Drive; 270 kW Diesel, 6-spd., 4.1 Ratio
+Used Dataset: Brakes: Proportioning / Limiting Valve; Unity until 2.0MPa then 30%
+Used Dataset: Brakes: Proportioning / Limiting Valve; Unity until 2.0MPa then 30%
+Used Dataset: Brakes: Four-Wheel System; { Pickup Trucks and SUVs } Pickup, Full Size w/ ABS
+Used Dataset: Steering System: Compliance; Constant: Zero
+Used Dataset: Steering System: Kinematics for 2 Wheels (Recirc. Ball); Pickup, Full Size
+Used Dataset: Steering: Power Assist Torque; 300 N-m Maximum
+Used Dataset: Steering System: Compliance; { Constant } Constant: 0.002 deg/N-m
+Used Dataset: Steering: Parking Torque for 2 Wheels; Zero
+Used Dataset: Steering; { Pickup Trucks and SUVs } Pickup, Full Size: Power, Recirc. Ball
+Used Dataset: Vehicle: Assembly; { European Van } Large European Van
+Used Dataset: Animator: Shape File Link; { Payloads } Crate for Large Euro. Van
+Used Dataset: Payload: Custom; Crate for Large Euro. Van
+Used Dataset: Animator: Shape File Link; { Tires } Skid Mark, Black
+Used Dataset: Animator: Shape File Link; { Tires } Skid Mark, Black
+Used Dataset: Animator: Shape File Link; { Tires } Skid Mark, Black
+Used Dataset: Animator: Shape File Link; { Tires } Skid Mark, Black
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Paths (2 Axle) } Tire Skid Marks (2 Axles) w/ Single Payload
+Used Dataset: Vehicle with Loads, Sensors, Trailer, etc.; { European Van } Large European Van w/ Payload
+Used Dataset: Control: Shifting (Closed Loop); AT All Gears
+ Straight East <Straight>
+Used Dataset: Path: Segment Builder; { Straight } Straight East
+Used Dataset: Road: Friction Map, S-L Grid; { Constant } Constant: 0.85
+Used Dataset: Road: Animator Surface Shapes; { Intersections } Straight Road, 2-Lane, Flat, Grass Transition
+Used Dataset: Road: 3D Surface (All Properties); { Straight } East-West Road, Flat, ID = 999
+ Straight North <Straight>
+Used Dataset: Path: Segment Builder; { Straight } Straight North
+Used Dataset: Road: Friction Map, S-L Grid; { Constant } Constant: 0.85
+Used Dataset: Road: Animator Surface Shapes; { Intersections } Straight Road, 2-Lane, Flat, Grass Transition
+Used Dataset: Road: 3D Surface (All Properties); { Straight } North-South Road, Flat, ID = 999
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { CS Sub Compact } Sub Compact: Body 2012
+Used Dataset: Animator: Shape File Link; { CS Sub Compact } Sub Compact: Details 2012
+Used Dataset: Animator: Shape File Link; { CS Sub Compact } Sub-Compact: Driver 2012
+Used Dataset: Animator: Shape Assembly; { CS A-Class } Sub Compact 2012
+WARNING: DEFINE_PARAMETER was used for the keyword "AIR_SPEED_REF", which was already installed.
+WARNING: DEFINE_OUTPUT did not add a variable because the keyword "V_MOD3" was already in use.
+Used Dataset: Animator: Sound Modifier; { Wind } Loudness: Speed Effect
+WARNING: DEFINE_OUTPUT did not add a variable because the keyword "V_MOD4" was already in use.
+Used Dataset: Animator: Sound Modifier; { Wind } Frequency: Speed Effect
+Used Dataset: Animator: Sound Sample; Wind Noise
+Used Dataset: Animator: Sound Set; Wind Noise
+Used Dataset: Animator: Shape File Link; { CS Sub Compact } Sub Compact: Brake Lights 2012
+Used Dataset: Animator: Vehicles and Sensor Targets; { A-Class Vehicles } A-Class, Subcompact 2012
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Body
+Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Details
+Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Windows
+Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Interior Trim
+Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Steering Wheel
+Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Seats
+Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Driver
+Used Dataset: Animator: Shape Assembly; F-Class, Sedan
+WARNING: DEFINE_PARAMETER was used for the keyword "AIR_SPEED_REF", which was already installed.
+WARNING: DEFINE_OUTPUT did not add a variable because the keyword "V_MOD3" was already in use.
+Used Dataset: Animator: Sound Modifier; { Wind } Loudness: Speed Effect
+WARNING: DEFINE_OUTPUT did not add a variable because the keyword "V_MOD4" was already in use.
+Used Dataset: Animator: Sound Modifier; { Wind } Frequency: Speed Effect
+Used Dataset: Animator: Sound Sample; Wind Noise
+Used Dataset: Animator: Sound Set; Wind Noise
+Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Brake Lights (F-Class)
+Used Dataset: Animator: Vehicles and Sensor Targets; F-Class, Sedan
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { CS SUV } D-Class, SUV V9 Body
+Used Dataset: Animator: Shape File Link; { CS SUV } D-Class, SUV V9 Interior
+Used Dataset: Animator: Shape File Link; { CS SUV } D-Class, SUV V9 Windows
+Used Dataset: Animator: Shape File Link; { CS SUV } D-Class, SUV V9 Details
+Used Dataset: Animator: Shape File Link; { CS SUV } D-Class, SUV V9 Color Details
+Used Dataset: Animator: Shape File Link; { CS SUV } D-Class, SUV V9 Driver
+Used Dataset: Animator: Shape Assembly; { CS D-Class } D-Class, SUV V9
+WARNING: DEFINE_PARAMETER was used for the keyword "AIR_SPEED_REF", which was already installed.
+WARNING: DEFINE_OUTPUT did not add a variable because the keyword "V_MOD3" was already in use.
+Used Dataset: Animator: Sound Modifier; { Wind } Loudness: Speed Effect
+WARNING: DEFINE_OUTPUT did not add a variable because the keyword "V_MOD4" was already in use.
+Used Dataset: Animator: Sound Modifier; { Wind } Frequency: Speed Effect
+Used Dataset: Animator: Sound Sample; Wind Noise
+Used Dataset: Animator: Sound Set; Wind Noise
+Used Dataset: Animator: Shape File Link; { CS SUV } D-Class, SUV V9 Brake Lights
+Used Dataset: Animator: Vehicles and Sensor Targets; { D-Class Vehicles } D-Class, SUV V9
+Used Dataset: Multiple Moving Objects; { Traffic Vehicles (Old Example) } Traffic at Intersection - 3 Vehicles
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { CS Exotic Car } Exotic: Body
+Used Dataset: Animator: Shape File Link; { CS Exotic Car } Exotic: Details
+Used Dataset: Animator: Shape File Link; { CS Exotic Car } Exotic: Windows
+Used Dataset: Animator: Shape File Link; { CS Exotic Car } Exotic: Brakes Off
+Used Dataset: Animator: Shape File Link; { CS Exotic Car } Exotic: Driver
+Used Dataset: Animator: Shape Assembly; { Exotic Car } Exotic Car
+WARNING: DEFINE_PARAMETER was used for the keyword "AIR_SPEED_REF", which was already installed.
+WARNING: DEFINE_OUTPUT did not add a variable because the keyword "V_MOD3" was already in use.
+Used Dataset: Animator: Sound Modifier; { Wind } Loudness: Speed Effect
+WARNING: DEFINE_OUTPUT did not add a variable because the keyword "V_MOD4" was already in use.
+Used Dataset: Animator: Sound Modifier; { Wind } Frequency: Speed Effect
+Used Dataset: Animator: Sound Sample; Wind Noise
+Used Dataset: Animator: Sound Set; Wind Noise
+Used Dataset: Animator: Shape File Link; { CS Exotic Car } Exotic: Brake Lights
+Used Dataset: Animator: Vehicles and Sensor Targets; { Sports Vehicles } Exotic Car
+Used Dataset: Multiple Moving Objects; { Traffic Vehicles (Old Example) } Traffic at Intersection - 1 Vehicle
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { CS Pickup, Full Size } Pickup, Full Size: Crew Cab
+Used Dataset: Animator: Shape File Link; { CS Pickup, Full Size } Pickup, Full Size: Crew Cab Details
+Used Dataset: Animator: Shape File Link; { CS Pickup, Full Size } Pickup, Full Size: 6 .5 Box Body
+Used Dataset: Animator: Shape File Link; { CS Pickup, Full Size } Pickup, Full Size: 6 .5 Box Details
+Used Dataset: Animator: Shape Assembly; { CS Pickup, Full Size } Crew Cab 6.5 Bed
+Used Dataset: Animator: Shape File Link; { CS Pickup, Full Size } Pickup. Full Size: Driver V9
+Used Dataset: Animator: Shape File Link; { CS Pickup, Full Size } Pickup, Full Size: Crew Cab Windows
+Used Dataset: Animator: Group; { CS Pickup, Full Size } Crew Cab, 6.5 Bed
+WARNING: DEFINE_PARAMETER was used for the keyword "AIR_SPEED_REF", which was already installed.
+WARNING: DEFINE_OUTPUT did not add a variable because the keyword "V_MOD3" was already in use.
+Used Dataset: Animator: Sound Modifier; { Wind } Loudness: Speed Effect
+WARNING: DEFINE_OUTPUT did not add a variable because the keyword "V_MOD4" was already in use.
+Used Dataset: Animator: Sound Modifier; { Wind } Frequency: Speed Effect
+Used Dataset: Animator: Sound Sample; Wind Noise
+Used Dataset: Animator: Sound Set; Wind Noise
+Used Dataset: Animator: Shape File Link; { CS Pickup, Full Size } Pickup, Full Size Crew Cab 6.5 Bed: Brake Lights
+Used Dataset: Animator: Vehicles and Sensor Targets; { Working Vehicles } Pickup, Full Size Crew Cab 6.5 Bed V9
+Used Dataset: Generic Data Lists; Rear View Mirror (C -Class Example)
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { CS Hatchback } C Class Hatchback 2012: OSG
+Used Dataset: Animator: Shape File Link; { CS Hatchback } C Class, Hatchback: Driver 2012
+Used Dataset: Animator: Shape Assembly; { CS C-Class } C-Class, Hatchback 2012 OSG
+WARNING: DEFINE_PARAMETER was used for the keyword "AIR_SPEED_REF", which was already installed.
+WARNING: DEFINE_OUTPUT did not add a variable because the keyword "V_MOD3" was already in use.
+Used Dataset: Animator: Sound Modifier; { Wind } Loudness: Speed Effect
+WARNING: DEFINE_OUTPUT did not add a variable because the keyword "V_MOD4" was already in use.
+Used Dataset: Animator: Sound Modifier; { Wind } Frequency: Speed Effect
+Used Dataset: Animator: Sound Sample; Wind Noise
+Used Dataset: Animator: Sound Set; Wind Noise
+Used Dataset: Animator: Shape File Link; { CS Hatchback } C-Class, Hatchback: Brake Lights 2012
+Used Dataset: Animator: Vehicles and Sensor Targets; { C-Class Vehicles } C-Class, Hatchback 2012 OSG
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { CS Sports Car } Conv.: Body
+Used Dataset: Animator: Shape File Link; { CS Sports Car } Conv.: Details
+Used Dataset: Animator: Shape File Link; { CS Sports Car } Conv.: Windows
+Used Dataset: Animator: Shape File Link; { CS Sports Car } Conv.: Driver
+Used Dataset: Animator: Shape Assembly; { CS B-Class } B-Class, Convertible
+WARNING: DEFINE_PARAMETER was used for the keyword "AIR_SPEED_REF", which was already installed.
+WARNING: DEFINE_OUTPUT did not add a variable because the keyword "V_MOD3" was already in use.
+Used Dataset: Animator: Sound Modifier; { Wind } Loudness: Speed Effect
+WARNING: DEFINE_OUTPUT did not add a variable because the keyword "V_MOD4" was already in use.
+Used Dataset: Animator: Sound Modifier; { Wind } Frequency: Speed Effect
+Used Dataset: Animator: Sound Sample; Wind Noise
+Used Dataset: Animator: Sound Set; Wind Noise
+Used Dataset: Animator: Shape File Link; { CS Sports Car } Conv.: Brake Lights
+Used Dataset: Animator: Vehicles and Sensor Targets; { B-Class Vehicles } B-Class, Sports Car
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+Used Dataset: Animator: Shape File Link; { CS Utility Truck } Utility Truck: Cab
+Used Dataset: Animator: Shape File Link; { CS Utility Truck } Utility Truck: Cab Details
+Used Dataset: Animator: Shape File Link; { CS Utility Truck } Utility Truck: Steering Wheel
+Used Dataset: Animator: Shape File Link; { CS Utility Truck } Utility Truck: Windows
+Used Dataset: Animator: Shape File Link; { CS Utility Truck } Utility Truck: Bed
+Used Dataset: Animator: Shape File Link; { CS Utility Truck } Utility Truck: Bed Details
+Used Dataset: Animator: Shape File Link; { CS Utility Truck } Utility Truck: Driver
+Used Dataset: Animator: Shape Assembly; { CS Utility Truck } Utility Truck
+Used Dataset: Animator: Shape File Link; { CS Utility Truck } Utility Truck: Brake Lights
+Used Dataset: Animator: Vehicles and Sensor Targets; { Working Vehicles } Utility Truck
+Used Dataset: Multiple Moving Objects; { Traffic Vehicles (Old Example) } Traffic at Intersection - 4 Vehicles
+ Straight East <Straight>
+Used Dataset: Path: Segment Builder; { Straight } Straight East
+Used Dataset: Road: Friction Map, S-L Grid; { Constant } Constant: 0.9
+Used Dataset: Road: Animator Surface Shapes; { Roundabout Network, Flat } Big Grass, dZ = -0.04 m
+Used Dataset: Animator: Reference Frame; Skybox (Vehicle Reference)
+Used Dataset: Animator: Shape File Link; { Skies } Partly Cloudy Sky
+Used Dataset: Animator: Shape File Link; { Terrain } Land Bowl for Light Grass
+Used Dataset: Animator: Group; { Skies } Sky for Light Grass
+Used Dataset: Road: 3D Surface (All Properties); { Roundabout Network, Flat } Big Grass, Z = -0.04, ID = 999
+Used Dataset: Generic Data Group; Intersection w/ Flat Roads and Traffic
+Used Dataset: Control: Speed (Closed Loop) Using Target Speed; { Constant Speed } 80 km/h
+Used Dataset: Control: Steering by the Closed-loop Driver Model; { Constant Position } 2 m Right, 1.5 sec. Preview
+Used Dataset: Events; { Roads and Highway - Turn Right } A. Approach Intersection
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Pitch Angle of Sprung Masses
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Roll Angle of Sprung Masses
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Vehicle Motion } Longitudinal Speed
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Longitudinal Accel. of CG's vs. Station
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Suspension Forces and Moments } Spring Force
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Kinematics } Slip Angles: Instant
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Forces } Lateral Forces
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Forces } Vertical Forces
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Controls: Driver } Brake Control: Master Cyl. Pressure
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Tracking } Station vs. Time
+Used Dataset: Procedures; { Road Networks } Intersection, 4-Way with Flat Roads
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Vehicle Motion } Longitudinal Speed
+ Intersection, 4-Way w/ Flat Roads <Road Networks: Intersections and Roundabouts>
+Used Dataset: CarSim Run Control; { Road Networks: Intersections and Roundabouts } Intersection, 4-Way w/ Flat Roads
+
+Time to read input = 0.031
+Function F_REB_STOP_TABLE(1,1) extrapolated (out of range HIGH) for X = 5.74627 mm at T = 0
+Function F_JNC_STOP_TABLE(1,1) extrapolated (out of range LOW) for X = 5.74627 mm at T = 0
+Function F_REB_STOP_TABLE(1,2) extrapolated (out of range HIGH) for X = 5.74627 mm at T = 0
+Function F_JNC_STOP_TABLE(1,2) extrapolated (out of range LOW) for X = 5.74627 mm at T = 0
+Function F_JNC_STOP_TABLE(2,1) extrapolated (out of range LOW) for X = 45.1085 mm at T = 0
+Function F_REB_STOP_TABLE(2,1) extrapolated (out of range HIGH) for X = 45.1085 mm at T = 0
+Function F_JNC_STOP_TABLE(2,2) extrapolated (out of range LOW) for X = 45.1085 mm at T = 0
+Function F_REB_STOP_TABLE(2,2) extrapolated (out of range HIGH) for X = 45.1085 mm at T = 0
+
+Run started: ERD output file = Results\Run_7308db8b-2591-4242-9b07-636b63ed8bc8\LastRun.bin
+
+Event encountered at t = 2.026: STATION > -80 m
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_d314f2ba-357d-45dc-8fbe-f8b6d23b076f.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Speed_s\SpdSta_93be7462-5d79-4ebb-b39a-1a5a0dabac73.par"
+Used Dataset: Control: Speed (Closed Loop) vs. Station (Legacy); 80 to 10 in 78m
+Used Dataset: Events; { Roads and Highway - Turn Right } B. Slow to 10 km/h
+Function PBK_DL_TABLE(2,1) extrapolated (out of range HIGH) for X = 3.00053 MPa at T = 3.17
+Function PBK_DL_TABLE(2,2) extrapolated (out of range HIGH) for X = 3.00053 MPa at T = 3.17
+Function M_BOOST_G_CARPET extrapolated (out of range LOW) for XCOL = -0.0378158 km/h at T = 7.535
+Function L_RELAX_X_FZ_TABLE(2,1) extrapolated (out of range HIGH) for X = 1.00034 N at T = 7.658
+Function FY_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for X = 26.1626 deg at T = 7.852
+Function MZ_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for X = 26.1626 deg at T = 7.852
+Function L_RELAX_X_FZ_TABLE(2,2) extrapolated (out of range HIGH) for X = 1.00027 N at T = 7.874
+
+Event encountered at t = 8.878: STATION > -7 m
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_aa579c40-ef14-4c16-abfc-0019df59b620.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Throttle\Throttle_8155671e-6ea5-4566-b6a0-31c42901bd53.par"
+Used Dataset: Control: Throttle (Open Loop); { Ramp } Ramp to 0.3 in 5 sec.
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Driver\StrDM_42e829e4-dfc4-4565-8c4a-1caab0f24d4c.par"
+Used Dataset: Control: Steering by the Closed-loop Driver Model; { Constant Position } 2 m Left, 1.5 sec. Preview
+Used Dataset: Events; { Roads and Highway - Turn Right } C. Turn Right
+
+Run stopped at t = 20. Stop time reached.
+
+Computational efficiency: RTIME = 0.0977 sec/sim. sec
+

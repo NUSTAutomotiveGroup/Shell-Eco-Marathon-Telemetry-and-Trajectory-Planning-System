@@ -1,0 +1,85 @@
+PARSFILE
+#FullDataName Generic Data Group`ACC, 2 Lanes Fwd w/o Display`Traffic and Blind-Spot Sensors
+#VehCode Generic Group
+#MiscYellow0
+N_LTARG = N_LTARG + 1
+ILTARG = N_LTARG
+ltarg_constant = 2
+#ENDMYellow
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_554a5df2-2d16-4867-8f10-6d87881f5588.par
+#BlueLink0 Multiple Moving Objects`2 Veh., Variable Speed for AAC` Traffic Vehicles (w/o Target Display)` , Link 1`TMotion_554a5df2-2d16-4867-8f10-6d87881f5588
+
+
+#MiscYellow1
+N_LTARG = N_LTARG + 1
+ILTARG = N_LTARG
+ltarg_constant = -2
+#ENDMYellow
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_0b1c369e-54c9-40d5-a049-49941899d10a.par
+#BlueLink1 Multiple Moving Objects`6 Veh., Speed = Vx * 0.95, ILTARG` Traffic Vehicles (w/o Target Display)` , Link 2`TMotion_0b1c369e-54c9-40d5-a049-49941899d10a
+
+
+#MiscYellow2
+N_LTARG = N_LTARG + 1
+ILTARG = N_LTARG
+ltarg_constant = 6
+define_parameter vx_ref = speed_target(0,0,1); ...
+  km/h; Reference speed
+#ENDMYellow
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_7b3dbe12-22b5-4162-aad5-a74b1cd4c9f6.par
+#BlueLink2 Multiple Moving Objects`6 Veh., ILTARG, Speed = -Vx_Ref` Traffic Vehicles (w/o Target Display)` , Link 3`TMotion_7b3dbe12-22b5-4162-aad5-a74b1cd4c9f6
+
+
+#MiscYellow3
+ISPEED = 2
+N_SPEED_TARGET = 2
+#ENDMYellow
+
+PARSFILE Control\Speed_t\SpdTime_26c077aa-689c-4a04-9d1f-8d53a9c20b10.par
+#BlueLink3 Control: Speed (Closed Loop) Using Target Speed`Traffic Speed for ACC` Speed vs Time` , Link 4`SpdTime_26c077aa-689c-4a04-9d1f-8d53a9c20b10
+
+
+PARSFILE Sensors_Traffic\Radar\Radar_2c746cd8-d0de-4b24-b062-d4fdea17796c.par
+#BlueLink4 ADAS Sensors for Range and Tracking`FCW and ACC, X = -1250, Z = 1450` Forward Facing Sensors (w/o Display)` , Link 5`Radar_2c746cd8-d0de-4b24-b062-d4fdea17796c
+
+
+PARSFILE Generic\VS_commands\GenVS_5bda99aa-7aed-41c8-91b2-5dd1b15d8322.par
+#BlueLink5 Generic VS Commands`ACC Equations` ADAS Support` , Link 6`GenVS_5bda99aa-7aed-41c8-91b2-5dd1b15d8322
+
+
+
+#MiscYellow7
+LTARG_OFFSET(1) =  2 ! Put the driver at L = 2
+ACC_DISTANCE = 8
+#ENDMYellow
+
+
+
+
+#EMBEDDED_NOTES
+#This dataset assembles some traffic vehicles with an ACC Sensor and two blind-spot sensors. The equations used to show the ACC icon and modify the target speed used internally by the CarSim speed controller involve the detection of the closest vehicle.
+#
+#The equation that modifies the internal target speed uses detection variables such as SpdS<<s>>_1 and MagS<<s>>_1, where <<s>> is the number of the ACC Sensor. These detection variables are created when there is at least one sensor and at least one moving object.
+#
+#The linked datasets are made to ensure that moving objects (the traffic vehicles) and the ACC Sensor are defined before the link to the ACC Equations.
+#
+#The moving objects from link 1 follow a target speed defined in link 3. The vehicles from link 3 use a speed assigned to a custom parameter VX_REF.
+#
+#The lateral positions of the moving objects are set using the LTARG function, with datasets specified with ILTARG.
+#
+#N_LTARG is the number of LTARG datasets that will be shown in the Echo file. The
+#default value is 1; it can be set to any positive number up to 100. In this example it is being used to increment the number of target paths being used and shown in the echo files.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Data Group; { Traffic and Blind-Spot Sensors } ACC, 2 Lanes Fwd w/o Display
+#Library : Generic Data Group
+#DataSet : ACC, 2 Lanes Fwd w/o Display
+#Category: Traffic and Blind-Spot Sensors
+#FileID  : GenGrp_4d8a5673-ffb3-42c1-a093-bdd6b7810485
+#Product : CarSim 2017.1
+#VehCode Generic Group
+
+END

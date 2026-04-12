@@ -1,0 +1,20 @@
+PARSFILE
+#FullDataName Control: Shifting (Closed Loop)`AT 5th Mode`
+#CheckBox0 0    
+
+#RingCtrl0 CONSTANT
+MODE_TRANS_CONSTANT 5
+#RadioCtrl0 0    
+
+*SCALAR 5
+
+
+LOG_ENTRY Used Dataset: Control: Shifting (Closed Loop); AT 5th Mode
+#Library : Control: Shifting (Closed Loop)
+#DataSet : AT 5th Mode
+#Category: 
+#FileID  : GearCL_2fc0063b-a0d7-40a7-b8b3-037599260668
+#Product : CarSim 2017.1
+#VehCode Closed-Loop Shift Control
+
+END

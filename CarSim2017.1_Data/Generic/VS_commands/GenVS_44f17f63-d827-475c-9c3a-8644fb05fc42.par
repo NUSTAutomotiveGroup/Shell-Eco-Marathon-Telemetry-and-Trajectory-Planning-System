@@ -1,0 +1,63 @@
+PARSFILE
+#FullDataName Generic VS Commands`39 States to Linearize (Root Locus) v2016`Linearization
+#VehCode VS Commands
+
+#MiscYellow0
+OPT_LINEARIZATION 1
+linear_sv SV_ZO
+linear_sv SV_PITCH
+linear_sv SV_ROLL
+linear_sv SV_A_COL
+linear_sv SV_DA_COL
+linear_sv SV_POS_GR_A1
+linear_sv SV_DPOS_GR_A1
+linear_sv SV_A_IN_GR1
+linear_sv SV_DA_IN_GR1
+linear_sv SV_STR_L1
+linear_sv SV_STR_R1
+linear_sv SV_STR_L2
+linear_sv SV_STR_R2
+linear_sv SV_JNC_L1
+linear_sv SV_JNC_R1
+linear_sv SV_JNC_L2
+linear_sv SV_JNC_R2
+linear_sv SV_SLIP_LAT_L1
+linear_sv SV_SLIP_LAT_R1
+linear_sv SV_SLIP_LAT_L2
+linear_sv SV_SLIP_LAT_R2
+linear_sv SV_SLIP_LONG_L1
+linear_sv SV_SLIP_LONG_R1
+linear_sv SV_SLIP_LONG_L2
+linear_sv SV_SLIP_LONG_R2
+linear_sv SV_VXS
+linear_sv SV_VYS
+linear_sv SV_VZS
+linear_sv SV_AVZ
+linear_sv SV_AVY
+linear_sv SV_AVX
+linear_sv SV_JNCR_L1
+linear_sv SV_JNCR_R1
+linear_sv SV_JNCR_L2
+linear_sv SV_JNCR_R2
+linear_sv SV_AVY_L1
+linear_sv SV_AVY_R1
+linear_sv SV_AVY_L2
+linear_sv SV_AVY_R2
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#39 state variables are specified to linearize the system for examples involving steering input (steering wheel angle or torque).
+#
+#State variables regarding the steer system have been changed in Version 2016.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { Linearization } 39 States to Linearize (Root Locus) v2016
+#Library : Generic VS Commands
+#DataSet : 39 States to Linearize (Root Locus) v2016
+#Category: Linearization
+#FileID  : GenVS_44f17f63-d827-475c-9c3a-8644fb05fc42
+#Product : CarSim 2017.1
+#VehCode VS Commands
+
+END

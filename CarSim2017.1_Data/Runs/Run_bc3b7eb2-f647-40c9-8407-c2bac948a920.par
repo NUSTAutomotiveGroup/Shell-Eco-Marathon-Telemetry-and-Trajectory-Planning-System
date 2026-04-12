@@ -1,0 +1,78 @@
+PARSFILE
+#FullDataName CarSim Run Control`Non-Linear Suspension Compliance`Suspension and Ride Tests
+#VEHICLECODE Ind_SA
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_bc3b7eb2-f647-40c9-8407-c2bac948a920
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_a08a4edb-7ef4-4e36-ba06-ab65da2c8449.par
+#BlueLink0 Animator: Camera Setup`90 deg. Azimuth (Close), Veh. Ref.` Vehicle Reference` , Animator camera`Camera_a08a4edb-7ef4-4e36-ba06-ab65da2c8449
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0.8 0 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_2f0a8c58-5dfb-4a19-801d-de2b07aa0ec3.par
+#BlueLink2 Vehicle: Assembly`SUV, Full Size` ` , Vehicle Configuration`Vehicle_2f0a8c58-5dfb-4a19-801d-de2b07aa0ec3
+
+PARSFILE Procedures\Proc_1bf70edd-1b04-4dad-98d0-e7bf881836a2.par
+#BlueLink28 Procedures`Small Bump` Driving` , Procedure`Proc_1bf70edd-1b04-4dad-98d0-e7bf881836a2
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_2f0a8c58-5dfb-4a19-801d-de2b07aa0ec3.png
+WRITE_SENSOR_DETECT
+Title Non-Linear Suspension Compliance <Suspension and Ride Tests>
+CATEGORY Suspension and Ride Tests 
+DATASET_TITLE Non-Linear Suspension Compliance
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#Non-linear front suspension compliance properties are used on a vehicle travelling over a small, smooth bump.
+#
+#The vehicle linked to this example is the Full Size SUV. To see how the non-linear suspension compliance properties were applied to this vehicle:
+#
+#(1) Browse to the Vehicle: Assembly screen and click on the blue link for the front suspension Springs, Dampers, and Compliance.
+#
+#(2) On the Suspension: Independent Compliance screen, click on the blue link "SUV, Full Size - Front Compliances."
+#
+#(3) On the Susp.: Compliance (Nonlinear) screen, note the two Translational Compliance datasets at the bottom of the screen. Both of these datasets are linked to tables showing nonlinear data for the Longitudinal displacement as a function of Fx, and Lateral displacement as a function of Fy.
+#
+#The small bump was created using data for the incremental elevation and dz ratio seperately. Click on the Procedure blue link "Small Bump", and follow the links for the 3D road to see how this was done.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Suspension and Ride Tests } Non-Linear Suspension Compliance
+#Library : CarSim Run Control
+#DataSet : Non-Linear Suspension Compliance
+#Category: Suspension and Ride Tests
+#FileID  : Run_bc3b7eb2-f647-40c9-8407-c2bac948a920
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName Animator: Group`Overcast Sky`Skies
+PARSFILE Animator\Frames\Frame_8761c9b6-c784-4d2d-b8bc-72683578e773.par
+#BlueLink0 Animator: Reference Frame`Skybox (Vehicle Reference)` ` , Miscellaneous`Frame_8761c9b6-c784-4d2d-b8bc-72683578e773
+
+PARSFILE Animator\STL\Shape_8e36e98b-3732-4378-bdd3-d579e6289bb4.par
+#BlueLink1 Animator: Shape File Link`Overcast Sky` Skies` , Miscellaneous`Shape_8e36e98b-3732-4378-bdd3-d579e6289bb4
+
+PARSFILE Animator\STL\Shape_8747e07e-81f8-4899-bd41-ca6921d43beb.par
+#BlueLink2 Animator: Shape File Link`Complex Land Bowl for Light Grass` Terrain` , Miscellaneous`Shape_8747e07e-81f8-4899-bd41-ca6921d43beb
+
+
+#CheckBox0 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink20 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+LOG_ENTRY Used Dataset: Animator: Group; { Skies } Overcast Sky
+#Library : Animator: Group
+#DataSet : Overcast Sky
+#Category: Skies
+#FileID  : Group_36ff4541-557e-4d39-b359-9400affa06b5
+#Product : CarSim 2017.1
+#VehCode Animator Group
+
+END

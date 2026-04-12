@@ -1,0 +1,101 @@
+PARSFILE
+#FullDataName Vehicle: Assembly`F-Class, Sedan w/ 8-spd. Transmission`F-Class
+#VehCode Ind_Ind
+#CheckBox0 0    
+#CheckBox1 0    
+
+#RingCtrl0 3
+OPT_PT 3
+#RingCtrl1 1
+#RingCtrl2 1
+#RingCtrl3 0
+
+* Front components
+iaxle 1
+symbol_push  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_0b3ec92b-f3fd-472f-9ab5-b05fe99d40d2.par
+#BlueLink19 Suspension: Independent System Kinematics`F-Class, Sedan - Front` F-Class` , Kinematics`KinInd_0b3ec92b-f3fd-472f-9ab5-b05fe99d40d2
+
+PARSFILE Suspensions\Compliance\CmpInd_b05c6295-56d0-4bdd-a2bc-549f5d116e48.par
+#BlueLink16 Suspension: Independent Compliance, Springs, and Dampers`F-Class, Sedan - Front` F-Class` , Compliance`CmpInd_b05c6295-56d0-4bdd-a2bc-549f5d116e48
+
+
+OPT_ALL_FOUR_TIRES_ALIKE 1
+
+* LF tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_c0aee3cf-de00-47e7-a950-7672d49197f6.par
+#BlueLink999 Tire`225/60 R18` Touring Tires` , Tire`Tire_c0aee3cf-de00-47e7-a950-7672d49197f6
+
+
+* RF tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_c0aee3cf-de00-47e7-a950-7672d49197f6.par
+#BlueLink10 Tire`225/60 R18` Touring Tires` , Tire`Tire_c0aee3cf-de00-47e7-a950-7672d49197f6
+
+* Rear components
+iaxle 2
+symbol_add  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_a406f3f7-bb50-45ea-b2c8-2f6d84a4c311.par
+#BlueLink20 Suspension: Independent System Kinematics`F-Class, Sedan - Rear` F-Class` , Kinematics`KinInd_a406f3f7-bb50-45ea-b2c8-2f6d84a4c311
+
+PARSFILE Suspensions\Compliance\CmpInd_7b3a469b-f00c-4a1b-864d-52d965e6e4f7.par
+#BlueLink17 Suspension: Independent Compliance, Springs, and Dampers`F-Class, Sedan - Rear` F-Class` , Compliance`CmpInd_7b3a469b-f00c-4a1b-864d-52d965e6e4f7
+
+
+* LR tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_c0aee3cf-de00-47e7-a950-7672d49197f6.par
+#BlueLink999 Tire`225/60 R18` Touring Tires` , Tire`Tire_c0aee3cf-de00-47e7-a950-7672d49197f6
+
+
+* RR tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_c0aee3cf-de00-47e7-a950-7672d49197f6.par
+#BlueLink999 Tire`225/60 R18` Touring Tires` , Tire`Tire_c0aee3cf-de00-47e7-a950-7672d49197f6
+
+symbol_set <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par
+#BlueLink0 Vehicle: Sprung Mass`sem_sprung` ` , Sprung Mass`SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b
+
+PARSFILE Animator\Vehicles\AniVeh_ecb4bc00-731a-4eec-9e10-b0fa5a9a76b7.par
+#BlueLink2 Animator: Vehicles and Sensor Targets`F-Class, Sedan` ` , Vehicle 3D Shape`AniVeh_ecb4bc00-731a-4eec-9e10-b0fa5a9a76b7
+
+R_REAR_DRIVE_SC 1
+PMAX_SC 285
+PARSFILE Powertrain\4wd\4WD_64133fec-ca47-4c1f-bd3d-5827b0d72eae.par
+#BlueLink5 Powertrain: 4-Wheel Drive`300 kW, 8-spd., 2.65 Ratio` 300 kW Powertrains` , Powertrain`4WD_64133fec-ca47-4c1f-bd3d-5827b0d72eae
+
+PARSFILE Brakes\4W_System\Brk4W_d6e9994d-bed9-4a09-b67d-ea74fbaacb09.par
+#BlueLink6 Brakes: Four-Wheel System`F-Class, Sedan w/ ABS` F-Class` , Brake System`Brk4W_d6e9994d-bed9-4a09-b67d-ea74fbaacb09
+
+PARSFILE Steering\System2\StrSys2_55718f82-7712-4296-899b-f458675aadcb.par
+#BlueLink7 Steering`F-Class, Sedan: Power, R&P` ` , Steering System`StrSys2_55718f82-7712-4296-899b-f458675aadcb
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_ecb4bc00-731a-4eec-9e10-b0fa5a9a76b7.png
+
+#EMBEDDED_NOTES
+#Generic F-Class sedan with SLA front and 5-Link rear suspension.
+#
+#F-Class vehicles include the Audi A8, Bentley Continental, Maserati Quattroporte, Mercedes Benz S-Class, Rolls-Royce Phantom, and Toyota Crown.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Assembly; { F-Class } F-Class, Sedan w/ 8-spd. Transmission
+#Library : Vehicle: Assembly
+#DataSet : F-Class, Sedan w/ 8-spd. Transmission
+#Category: F-Class
+#FileID  : Vehicle_81830257-ea40-4d1d-88b0-d2b4ed1b5612
+#Product : CarSim 2017.1
+#VehCode Ind_Ind
+
+END

@@ -1,0 +1,31 @@
+PARSFILE
+#FullDataName Control: Steering by the Closed-loop Driver Model`1.65 m Right, 1.5 sec. Preview`Constant Position
+#CheckBox0 0    
+OPT_DRIVER_MODEL 1
+#CheckBox1 0    
+CREATE_PATH_OBJ off
+#CheckBox2 0    
+
+#RingCtrl0 0
+#RingCtrl1 CONSTANT
+LTARG_CONSTANT -1.65
+#RadioCtrl0 0    
+
+AV_SW_MAX_DM 1200
+TLAG_DM 0
+A_SW_MAX_DM 720
+*TPREV 1.5
+*SCALAR -1.65
+VLOW_DRIVER 20
+
+TPREV_CONSTANT 1.5
+
+LOG_ENTRY Used Dataset: Control: Steering by the Closed-loop Driver Model; { Constant Position } 1.65 m Right, 1.5 sec. Preview
+#Library : Control: Steering by the Closed-loop Driver Model
+#DataSet : 1.65 m Right, 1.5 sec. Preview
+#Category: Constant Position
+#FileID  : StrDM_1c70a826-e18c-45eb-8db1-29790baf5799
+#Product : CarSim 2017.1
+#VehCode Driver Path Follower
+
+END

@@ -1,0 +1,42 @@
+PARSFILE
+#FullDataName Plot: Setup`Y v.s X -- Trajectory (Custom Driver View Point)`Tracking
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Yo, Xo
+PLOTCHANNELS Y_Design, X_Design
+PLOTCHANNELS Y_Target, X_Target
+PLOTCHANNELS Ypreview, Xpreview
+
+#ENDMYellow
+
+YAXISLABEL Global Y coordinate - m
+XAXISLABEL Global X coordinate - m
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Y v.s X -- Trajectory (Custom Driver View Point)
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Tracking } Y v.s X -- Trajectory (Custom Driver View Point)
+#Library : Plot: Setup
+#DataSet : Y v.s X -- Trajectory (Custom Driver View Point)
+#Category: Tracking
+#FileID  : Plot_8064ead5-1ca9-4c41-b9f8-c69692603301
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

@@ -1,0 +1,25 @@
+PARSFILE
+#FullDataName I/O Channels: Import`External Springs`Steering and Susp. Imports
+#RingCtrl0 1
+#RingCtrl1 1
+*README_FILE Results\Run_929543f1-d805-4596-b016-c92aaed14f88\Run_imp_tab.txt
+
+#MiscYellow0
+IMP_FS_L1 Add 0.0! 1
+IMP_FS_L2 Add 0.0! 1
+IMP_FS_R1 Add 0.0! 1
+IMP_FS_R2 Add 0.0! 1
+#ENDMYellow
+
+#BlueLink0 CarSim Run Control`External Springs, DLC` Simulink and LabVIEW Models` , example run`Run_929543f1-d805-4596-b016-c92aaed14f88
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Import; { Steering and Susp. Imports } External Springs
+#Library : I/O Channels: Import
+#DataSet : External Springs
+#Category: Steering and Susp. Imports
+#FileID  : Import_82d4371e-1b4d-468f-b43d-70ba9e137245
+#Product : CarSim 2017.1
+#VehCode Import Channels
+
+END

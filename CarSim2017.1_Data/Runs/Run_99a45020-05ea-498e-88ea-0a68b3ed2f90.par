@@ -1,0 +1,73 @@
+PARSFILE
+#FullDataName CarSim Run Control`Lowered Suspension`Suspension and Ride Tests
+#VEHICLECODE Ind_SA
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_99a45020-05ea-498e-88ea-0a68b3ed2f90
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_d988c2d4-cc54-46a0-bd8a-31056567ae48.par
+#BlueLink0 Animator: Camera Setup`150 deg. Azimuth, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_d988c2d4-cc54-46a0-bd8a-31056567ae48
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0.592 1 0.976
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_d7322e06-e371-4c74-80da-b53c56267504.par
+#BlueLink2 Vehicle: Assembly`Pickup, Compact: RWD, Lowered` Pickup, Compact` , Vehicle Configuration`Vehicle_d7322e06-e371-4c74-80da-b53c56267504
+
+PARSFILE Procedures\Proc_25729178-c100-470f-93d3-d0dabb8dcc48.par
+#BlueLink28 Procedures`Railroad Track Crossing` Driving` , Procedure`Proc_25729178-c100-470f-93d3-d0dabb8dcc48
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_09994c3b-b9da-4624-9c14-c69c0c438f3f.png
+WRITE_SENSOR_DETECT
+Title Lowered Suspension <Suspension and Ride Tests>
+CATEGORY Suspension and Ride Tests 
+DATASET_TITLE Lowered Suspension
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example simulates a vehicle with a suspension lowering kit. Most suspension lowering kits work by raising the wheel center height relative to the CG of the sprung mass.
+#
+#In this example, the sprung mass of the "Pickup, Compact: RWD, Lowered" has the same sprung mass properties as another example vehicle called "Pickup, Compact: RWD." The only difference is the wheel center heights are higher relative to the sprung mass coordinate system. Since the ground is defined by the bottom of the tires, this has the effect of lowering the vehicle's sprung mass.
+#
+#The truck is crossing railroad tracks set at an angle with respect to the main road. Target Speed vs. Station is used to provide both the acceleration and braking control for this simulation.
+#
+#You can study this example to learn how to utilize the variable width roads in CarSim to model a ballasted railroad track or similar surface as well as two crossing roads.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Suspension and Ride Tests } Lowered Suspension
+#Library : CarSim Run Control
+#DataSet : Lowered Suspension
+#Category: Suspension and Ride Tests
+#FileID  : Run_99a45020-05ea-498e-88ea-0a68b3ed2f90
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

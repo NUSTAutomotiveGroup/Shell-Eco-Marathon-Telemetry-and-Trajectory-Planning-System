@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Mountains: Rugged`Terrain
+#MiscYellow3
+add_obj Animator\3D_Shape_Files_CS\scenery\horizon\mountains_w_light_grass.obj
+#ENDMYellow
+
+SET_COLOR 1 1 1
+SET_SCALE_X 10
+SET_SCALE_Y 10
+SET_SCALE_Z 10
+#CheckBox0 1    
+set_lighting off
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_52079630-c01a-43a9-bc0c-30080f01066f.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Top)` Shape Preview` , Video Camera`Camera_52079630-c01a-43a9-bc0c-30080f01066f
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_50478149-75f0-4359-abdf-2eca4bf8b9ce.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Terrain } Mountains: Rugged
+#Library : Animator: Shape File Link
+#DataSet : Mountains: Rugged
+#Category: Terrain
+#FileID  : Shape_50478149-75f0-4359-abdf-2eca4bf8b9ce
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

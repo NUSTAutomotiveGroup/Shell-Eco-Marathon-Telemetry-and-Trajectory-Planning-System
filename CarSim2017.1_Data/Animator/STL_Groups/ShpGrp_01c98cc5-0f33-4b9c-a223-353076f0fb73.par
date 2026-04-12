@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`D-Class, Minivan 2012`CS D-Class
+*COLOR .36 .117 .117
+*OFFSET_Z 0
+*X_REF_LENGTH 3000
+*Y_REF_LENGTH 1905
+*Z_REF_LENGTH 1669
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 1    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_01c98cc5-0f33-4b9c-a223-353076f0fb73.png
+PARSFILE Animator\STL\Shape_e32c9122-1484-4eee-8e2b-7c8faa0c744b.par
+#BlueLink0 Animator: Shape File Link`Minivan: Body 2012` CS Minivan` , Shape File`Shape_e32c9122-1484-4eee-8e2b-7c8faa0c744b
+
+PARSFILE Animator\STL\Shape_0ceae2bf-92e3-407d-a4db-bf8a15e345e8.par
+#BlueLink1 Animator: Shape File Link`Minivan: Details 2012` CS Minivan` , Shape File`Shape_0ceae2bf-92e3-407d-a4db-bf8a15e345e8
+
+PARSFILE Animator\STL\Shape_c1e22226-c8f0-428e-a7cb-843fa487a908.par
+#BlueLink2 Animator: Shape File Link`Minivan: Driver 2012` CS Minivan` , Shape File`Shape_c1e22226-c8f0-428e-a7cb-843fa487a908
+
+x_ref_length 3000
+y_ref_length 1905
+z_ref_length 1669
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { CS D-Class } D-Class, Minivan 2012
+#Library : Animator: Shape Assembly
+#DataSet : D-Class, Minivan 2012
+#Category: CS D-Class
+#FileID  : ShpGrp_01c98cc5-0f33-4b9c-a223-353076f0fb73
+#Product : CarSim 2017.1
+#VehCode Shape Assembly
+
+END

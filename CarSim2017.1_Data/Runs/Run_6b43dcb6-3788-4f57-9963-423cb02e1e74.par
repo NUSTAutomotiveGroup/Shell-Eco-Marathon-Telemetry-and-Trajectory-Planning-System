@@ -1,0 +1,79 @@
+PARSFILE
+#FullDataName CarSim Run Control`Brake Distance Test (Force Input)`Brake Tests
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_6b43dcb6-3788-4f57-9963-423cb02e1e74
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_045f9b8a-2e8a-4608-8066-fecace521157.par
+#BlueLink0 Animator: Camera Setup`RL View, Road Ref. (Frt. Facing)` Road Reference` , Animator camera`Camera_045f9b8a-2e8a-4608-8066-fecace521157
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0 0.4 0.373
+SET_RUN_COLOR 0 0.4 0.373
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_0784d2bd-bfb3-4db3-a9a3-939be6410358.par
+#BlueLink2 Vehicle: Assembly`E-Class, Sedan 2017: w/ Temp. and Boost` E-Class` , Vehicle Configuration`Vehicle_0784d2bd-bfb3-4db3-a9a3-939be6410358
+
+PARSFILE Procedures\Proc_6176f125-a511-4ae7-a0d8-4f94800fa0d5.par
+#BlueLink28 Procedures`100 - 0 km/h Braking Distance Test (Force)` Accel. and Brake Testing` , Procedure`Proc_6176f125-a511-4ae7-a0d8-4f94800fa0d5
+
+#BlueLink9 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+PARSFILE Generic\Group\GenGrp_c11e4bbe-5e3a-4498-91a5-6c42d1db378a.par
+#BlueLink10 Generic Data Group`2 Axle - Fx, Fy, Fz` Tire Force Arrows` , Miscellaneous`GenGrp_c11e4bbe-5e3a-4498-91a5-6c42d1db378a
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_56213a52-605a-4200-ab95-2aae09c11489.png
+WRITE_SENSOR_DETECT
+Title Brake Distance Test (Force Input) <Brake Tests>
+CATEGORY Brake Tests 
+DATASET_TITLE Brake Distance Test (Force Input)
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#New for CarSim 2017: The Boost and Thermal Brake System is now treated as an option using a ring control on the Brake system screen.
+#
+#This example shows an E-Class Sedan with the Boost and Thermal brake system performing a Braking Distance Test: a straight line stop from 100 km/h. Since this vehicle has the Boost and Thermal brake system, pedal force has to be used as the driver control input for braking.
+#
+#The brake system dataset includes caliper and rotor properties as well as temperature sensitivity. To see how this dataset is set up, browse to the Vehicle: Assembly screen and click on the brake system blue link "E-Class, Sedan w/ Temp. and Boost".
+#
+#Braking distance is easily measured. The car is traveling at 102 km/h at the start of the simulation and coasts down to 100  km/h.  Using Events, the car is repositioned to the start of the road (0 m) and simultaneously begins to brake. Review the plot of Station vs. Time to measure the vehicle's braking distance.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Brake Tests } Brake Distance Test (Force Input)
+#Library : CarSim Run Control
+#DataSet : Brake Distance Test (Force Input)
+#Category: Brake Tests
+#FileID  : Run_6b43dcb6-3788-4f57-9963-423cb02e1e74
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

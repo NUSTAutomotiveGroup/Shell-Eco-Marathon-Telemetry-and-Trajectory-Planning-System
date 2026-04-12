@@ -1,0 +1,55 @@
+PARSFILE
+#FullDataName Moving Object`AEB EVT Tow Vehicle`AEB Testing
+
+DEFINE_MOVING_OBJECTS 1
+IOBJECT_INCREMENT
+symbol_add <<o>> 1
+SET_DESCRIPTION OBJECT_NAME AEB EVT Tow Vehicle
+#CheckBox0 0    
+#CheckBox1 0    
+OPT_RECYCLE_OBJ 0
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+OPT_RECT_OBJ 0
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl0 3
+H_OBJ 0.1
+*REFLECT 0
+*COLOR 1 0.6 0
+*S_INIT start_evt + 8
+*L_INIT lat_evt
+MATERIAL_TYPE_OBJ 0
+REFLECT_OBJ 0
+*SPEED Vx_EVT
+*SIZE 0.1
+DIAMETER_OBJ 0.1
+*HEADING_VEL 0
+HeadO_<<o>> 0
+PARSFILE Animator\Vehicles\AniVeh_6a406309-46ad-4966-bff0-ace339f3d75d.par
+#BlueLink0 Animator: Vehicles and Sensor Targets`E-Class, SUV` E-Class Vehicles` , Animator shape(s)`AniVeh_6a406309-46ad-4966-bff0-ace339f3d75d
+
+EQ_INIT S_Obj_<<o>> start_evt + 8
+EQ_INIT LatO_<<o>> lat_evt
+DEFINE_VARIABLE HeadV_O_<<o>> 0;deg; Heading vector for ODEs
+DEFINE_VARIABLE SPEED_O_<<o>> = Vx_EVT;km/h; Speed magnitude for ODEs
+EQ_OUT SPEED_O_<<o>> = Vx_EVT;
+EQ_DIFFERENTIAL LatO_<<o>> = sin(HeadV_O_<<o>>)*SPEED_O_<<o>>
+EQ_DIFFERENTIAL S_Obj_<<o>> = cos(HeadV_O_<<o>>)*SPEED_O_<<o>>
+
+#EMBEDDED_NOTES
+#The tow vehicle is included for the purpose of making a better video. It is located 8 m from the target, with the same lateral offset.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Moving Object; { AEB Testing } AEB EVT Tow Vehicle
+#Library : Moving Object
+#DataSet : AEB EVT Tow Vehicle
+#Category: AEB Testing
+#FileID  : Target_6736143c-cac4-4b69-aecf-3293f9d13da1
+#Product : CarSim 2017.1
+#VehCode Moving Object
+
+END

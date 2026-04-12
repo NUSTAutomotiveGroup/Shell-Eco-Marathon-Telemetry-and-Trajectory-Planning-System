@@ -1,0 +1,30 @@
+PARSFILE
+#FullDataName Animator: Sound Modifier`Wind Frequency`Wind
+
+
+#RingCtrl0 FREQUENCY
+ADD_SOUND_MODIFIER FREQUENCY
+SOUNDMOD_OPERATION mult
+
+SOUNDMOD_INPUT_NAME vAir
+SOUNDMOD_INPUT_MIN 0.0
+SOUNDMOD_INPUT_LOW 125
+SOUNDMOD_INPUT_HIGH 250
+SOUNDMOD_INPUT_MAX 375
+SOUNDMOD_OUTPUT_MIN 0.0
+SOUNDMOD_OUTPUT_LOW 0.6667
+SOUNDMOD_OUTPUT_HIGH 1.3333
+SOUNDMOD_OUTPUT_MAX 2.0
+
+WRT_vAir
+ANI_vAir
+
+LOG_ENTRY Used Dataset: Animator: Sound Modifier; { Wind } Wind Frequency
+#Library : Animator: Sound Modifier
+#DataSet : Wind Frequency
+#Category: Wind
+#FileID  : SndMod_8360bf51-8bc6-4f05-b7e2-d2b0fcfb9b04
+#Product : CarSim 2017.1
+#VehCode Sound Modifier
+
+END

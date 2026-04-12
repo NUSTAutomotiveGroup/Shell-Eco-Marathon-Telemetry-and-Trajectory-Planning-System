@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Models: Simulink`Radar Active Cruise: First Car (Ext. Sen.)`Active Cruise Control
+#RunMdlFile Extensions\Simulink\Radar_Acc_ExtSen_CS9.mdl
+#RingCtrl1 2
+OPT_INT_METHOD 2
+#CheckBox0 0    
+*USE_ALT_DIR 0
+#CheckBox1 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox2 0    
+OPT_IO_UPDATE 0
+#CheckBox3 0    
+
+PARSFILE IO_Channels\O_Channels\Export_cd46af09-813a-451b-b6bb-def0b4b3623a.par
+#BlueLink1 I/O Channels: Export`Radar Active Cruise (Ext. Sen.)` ` , Export`Export_cd46af09-813a-451b-b6bb-def0b4b3623a
+
+#MiscYellow1
+simfile Radar_Acc_ExtSen_Car_1.sim
+#ENDMYellow
+
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+#EMBEDDED_NOTES
+#This Models: Simulink dataset is used in an example in which two vehicle models are simulated simultaneously under the control of Simulink. This dataset is used for the first vehicle, which is detected by a second vehicle.
+#
+#Both Models: Simulink datasets identify the same Simulink model. However, they specify different simfiles and math model DLL files.
+#
+#This dataset specifies a top-level simfile named "Radar_Acc_ExtSen_Car_1.sim" which will provide information to the CarSim S-Function about vehicle 1 (i.e., the lead vehicle).
+#
+#For more details on this example, please see the Technical Memo: "Example: Running Multiple Vehicles in Simulink."
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: Simulink; { Active Cruise Control } Radar Active Cruise: First Car (Ext. Sen.)
+#Library : Models: Simulink
+#DataSet : Radar Active Cruise: First Car (Ext. Sen.)
+#Category: Active Cruise Control
+#FileID  : Simlink_c9f7a84e-f799-4d5f-8a28-7cf08c3fda39
+#Product : CarSim 2017.1
+#VehCode 
+
+END

@@ -1,0 +1,36 @@
+PARSFILE
+#FullDataName Events`C. Hard Brake`Reverse Spin
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl0 >
+#RingCtrl10 1
+#RingCtrl11 4
+*NAME1 vx
+*VALUE1 1
+
+PARSFILE Control\Braking\PbkCon_99583725-3fab-4a15-a40c-665c2c8bd2f5.par
+#BlueLink10 Control: Braking MC Pressure (Open Loop)`Constant: 3 MPa` Constant` , Miscellaneous`PbkCon_99583725-3fab-4a15-a40c-665c2c8bd2f5
+
+DEFINE_EVENT vx > 1 ; Events\Events_f84f64ff-c834-4782-a120-2b1510cfcccd.par
+#BlueLink0 Events`D. Get Ready` Reverse Spin` , Events`Events_f84f64ff-c834-4782-a120-2b1510cfcccd
+
+
+#EMBEDDED_NOTES
+#In this event, the brakes are applied.
+#
+#Since the vehicle's direction is changing from reverse to forward (as it spins), we test to see that the speed has risen above +1 km/h before the next event. This is used to make sure the vehicle is just barely moving.
+#
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Reverse Spin } C. Hard Brake
+#Library : Events
+#DataSet : C. Hard Brake
+#Category: Reverse Spin
+#FileID  : Events_9a50b6f9-88cf-4945-bc5e-37af6198442a
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

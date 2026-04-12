@@ -1,0 +1,29 @@
+PARSFILE
+#FullDataName Events`A. Accelerate to Speed`Handbrake Turn
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl0 >
+#RingCtrl10 1
+#RingCtrl11 4
+*NAME1 vx
+*VALUE1 vx_in
+
+DEFINE_EVENT vx > vx_in ; Events\Events_e30d57d4-9aeb-4358-8f74-6b91b78eea52.par
+#BlueLink0 Events`B. Turn-in` Handbrake Turn` , Events`Events_e30d57d4-9aeb-4358-8f74-6b91b78eea52
+
+
+#EMBEDDED_NOTES
+#Accelerate the vehicle to a pre-determined speed.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Handbrake Turn } A. Accelerate to Speed
+#Library : Events
+#DataSet : A. Accelerate to Speed
+#Category: Handbrake Turn
+#FileID  : Events_9b00e2c3-7314-4983-b5f7-ad0d68a9fb84
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

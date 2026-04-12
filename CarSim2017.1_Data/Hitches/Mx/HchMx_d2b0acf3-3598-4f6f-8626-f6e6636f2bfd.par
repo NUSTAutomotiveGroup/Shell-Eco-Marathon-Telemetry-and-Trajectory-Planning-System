@@ -1,0 +1,20 @@
+PARSFILE
+#FullDataName Hitch: Roll Moment`Constant: Zero`
+#CheckBox0 0    
+
+#RingCtrl0 CONSTANT
+#RadioCtrl0 0    
+
+MX_HITCH_CONSTANT 0
+*SCALAR 0
+
+
+LOG_ENTRY Used Dataset: Hitch: Roll Moment; Constant: Zero
+#Library : Hitch: Roll Moment
+#DataSet : Constant: Zero
+#Category: 
+#FileID  : HchMx_d2b0acf3-3598-4f6f-8626-f6e6636f2bfd
+#Product : CarSim 2017.1
+#VehCode Hitch Mx
+
+END

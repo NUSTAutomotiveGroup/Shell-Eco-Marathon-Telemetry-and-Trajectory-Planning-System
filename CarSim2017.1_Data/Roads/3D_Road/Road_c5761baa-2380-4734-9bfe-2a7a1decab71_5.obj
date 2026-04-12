@@ -1,0 +1,22 @@
+# Shape file for lane 5
+v -100.000 -4.000 0.000
+vt 0.000 0.000
+v -100.000 -7.100 0.000
+vt -0.969 0.000
+v 1200.000 -4.000 0.000
+vt 0.000 43.333
+v 1200.000 -7.100 0.000
+vt -0.969 43.333
+mtllib Roads\3D_Road\Road_c5761baa-2380-4734-9bfe-2a7a1decab71_5.mtl
+usemtl Road Transition (Light)
+vn 0.0 0.0 1.0
+
+g g1
+s 1
+f  1/1/1 2/2/1 4/4/1 3/3/1
+g g2
+s 2
+g g3
+s 3
+g g4
+s 4

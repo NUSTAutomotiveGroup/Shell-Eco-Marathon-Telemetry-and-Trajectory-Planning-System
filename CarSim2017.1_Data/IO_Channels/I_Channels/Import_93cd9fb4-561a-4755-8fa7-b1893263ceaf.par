@@ -1,0 +1,21 @@
+PARSFILE
+#FullDataName I/O Channels: Import`Throttle`
+#RingCtrl0 0
+#RingCtrl1 1
+*README_FILE Results\Run_84980fe9-aeb3-4eb2-9960-95fb758e901a\Run_imp_tab.txt
+
+#MiscYellow0
+#ENDMYellow
+
+#BlueLink0 CarSim Run Control`8-Speed Transmission` Powertrain Tests` , example run`Run_84980fe9-aeb3-4eb2-9960-95fb758e901a
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Import; Throttle
+#Library : I/O Channels: Import
+#DataSet : Throttle
+#Category: 
+#FileID  : Import_93cd9fb4-561a-4755-8fa7-b1893263ceaf
+#Product : CarSim 2017.1
+#VehCode Import Channels
+
+END

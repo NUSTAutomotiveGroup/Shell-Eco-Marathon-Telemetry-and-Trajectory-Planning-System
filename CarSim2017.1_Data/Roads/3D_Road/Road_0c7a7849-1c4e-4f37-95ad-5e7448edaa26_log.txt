@@ -1,0 +1,13 @@
+Include PARSFILE "Roads\3D_Road\Road_0c7a7849-1c4e-4f37-95ad-5e7448edaa26.par"
+Include PARSFILE "Roads\Center_XY\PathXY_9c516fea-efdf-45e3-b862-8ae0dc19716a.par"
+Used Dataset: Path: X-Y Coordinates; Lusail
+Include PARSFILE "Roads\Center_Z\RdRefZ_598f8ea7-d2f1-4e0b-a828-7b8c7dfb136e.par"
+Used Dataset: Road: Reference Line Elevation; Flat
+ Lusail
+Used Dataset: Road: 3D Surface (All Properties); Lusail
+
+Time to read input = 0.002
+
+Run stopped at t = 0. Stop time reached.
+
+Run started: ERD output file = Roads\3D_Road\Road_0c7a7849-1c4e-4f37-95ad-5e7448edaa26.bin

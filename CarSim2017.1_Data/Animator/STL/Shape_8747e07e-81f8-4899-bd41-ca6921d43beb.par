@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Complex Land Bowl for Light Grass`Terrain
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\scenery\landbowls\complex_land_for_light_grass.obj
+#ENDMYellow
+
+SET_COLOR .8 .8 .8
+SET_SCALE_X 15
+SET_SCALE_Y 15
+SET_SCALE_Z 1
+#CheckBox0 1    
+set_lighting off
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_52079630-c01a-43a9-bc0c-30080f01066f.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Top)` Shape Preview` , Video Camera`Camera_52079630-c01a-43a9-bc0c-30080f01066f
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_8747e07e-81f8-4899-bd41-ca6921d43beb.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Terrain } Complex Land Bowl for Light Grass
+#Library : Animator: Shape File Link
+#DataSet : Complex Land Bowl for Light Grass
+#Category: Terrain
+#FileID  : Shape_8747e07e-81f8-4899-bd41-ca6921d43beb
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

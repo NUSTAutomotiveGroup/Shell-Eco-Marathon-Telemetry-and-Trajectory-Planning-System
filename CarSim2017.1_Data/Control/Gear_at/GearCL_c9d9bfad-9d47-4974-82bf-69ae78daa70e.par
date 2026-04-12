@@ -1,0 +1,23 @@
+PARSFILE
+#FullDataName Control: Shifting (Closed Loop)`MT 1st Mode`
+#CheckBox0 0    
+
+#RingCtrl0 CONSTANT
+MODE_TRANS_CONSTANT 1
+#RadioCtrl0 0    
+
+PARSFILE Control\Gear_mt\GearOL_dee9d4f0-1186-4f83-8295-da88c783383e.par
+#BlueLink0 Control: Shifting (Open Loop)`Constant: 1st Gear Only w/ Clutch` ` , Open-Loop Shifting`GearOL_dee9d4f0-1186-4f83-8295-da88c783383e
+
+*SCALAR 1
+
+
+LOG_ENTRY Used Dataset: Control: Shifting (Closed Loop); MT 1st Mode
+#Library : Control: Shifting (Closed Loop)
+#DataSet : MT 1st Mode
+#Category: 
+#FileID  : GearCL_c9d9bfad-9d47-4974-82bf-69ae78daa70e
+#Product : CarSim 2017.1
+#VehCode Closed-Loop Shift Control
+
+END

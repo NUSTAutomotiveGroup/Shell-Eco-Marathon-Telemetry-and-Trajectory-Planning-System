@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Sensor Field for 90 deg FOV, Yaw = 35`Sensors
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\misc\sensors\Sensor90.obj
+#ENDMYellow
+
+SET_COLOR 0.8 0 0
+SET_ANGLE_Z 35
+X_REF_LENGTH 1
+Y_REF_LENGTH 1
+Z_REF_LENGTH 1
+*SPECULAR 0.05
+*TRANSPARENCY 0.3
+#CheckBox0 1    
+set_lighting off
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+set_transparency 0.3
+SET_SPECULAR 0.05 0.05 0.05
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_c303e4ff-d090-4123-9e87-dbb2ddb82862.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Sensors } Sensor Field for 90 deg FOV, Yaw = 35
+#Library : Animator: Shape File Link
+#DataSet : Sensor Field for 90 deg FOV, Yaw = 35
+#Category: Sensors
+#FileID  : Shape_c303e4ff-d090-4123-9e87-dbb2ddb82862
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

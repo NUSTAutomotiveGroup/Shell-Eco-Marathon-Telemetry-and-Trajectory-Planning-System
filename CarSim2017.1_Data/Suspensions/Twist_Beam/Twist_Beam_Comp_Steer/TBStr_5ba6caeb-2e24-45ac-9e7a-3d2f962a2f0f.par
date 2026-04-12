@@ -1,0 +1,80 @@
+PARSFILE
+#FullDataName Suspension: Twist Beam Compliances - Steer`B-Class, Hatchback - Rear`
+define_variable S_CP_FX1 = 0.0; deg/N; var. steer due to par. Fx(L)
+define_variable S_CP_FY1 = 0.0; deg/N; var. steer due to par. Fy(L)
+define_variable S_CP_FZ1 = 0.0; deg/N; var. steer due to par. Fz(L)
+define_variable S_CP_MY1 = 0.0; deg/N-m; var. steer due to par. My(L)
+define_variable S_CP_MZ1 = 0.0; deg/N-m; var. steer due to par. Mz(L)
+define_variable S_CO_FX1 = 0.0; deg/N; var. steer due to opp. Fx(L)
+define_variable S_CO_FY1 = 0.0; deg/N; var. steer due to opp. Fy(L)
+define_variable S_CO_FZ1 = 0.0; deg/N; var. steer due to opp. Fz(L)
+define_variable S_CO_MY1 = 0.0; deg/N-m; var. steer due to opp. My(L)
+define_variable S_CO_MZ1 = 0.0; deg/N-m; var. steer due to opp. Mz(L)
+define_variable S_CP_FX2 = 0.0; deg/N; var. steer due to par. Fx(R)
+define_variable S_CP_FY2 = 0.0; deg/N; var. steer due to par. Fy(R)
+define_variable S_CP_FZ2 = 0.0; deg/N; var. steer due to par. Fz(R)
+define_variable S_CP_MY2 = 0.0; deg/N-m; var. steer due to par. My(R)
+define_variable S_CP_MZ2 = 0.0; deg/N-m; var. steer due to par. Mz(R)
+define_variable S_CO_FX2 = 0.0; deg/N; var. steer due to opp. Fx(R)
+define_variable S_CO_FY2 = 0.0; deg/N; var. steer due to opp. Fy(R)
+define_variable S_CO_FZ2 = 0.0; deg/N; var. steer due to opp. Fz(R)
+define_variable S_CO_MY2 = 0.0; deg/N-m; var. steer due to opp. My(R)
+define_variable S_CO_MZ2 = 0.0; deg/N-m; var. steer due to opp. Mz(R)
+#CheckBox0 0    
+#CheckBox1 0    
+
+*S_CP_FX_L -0.00015
+*S_CP_FX_R 0.0
+*S_CP_FY_L -0.000032
+*S_CP_FY_R 0.0
+*S_CP_FZ_L -0.000011
+*S_CP_FZ_R 0.0
+*S_CP_MY_L 0.0
+*S_CP_MY_R 0.0
+*S_CP_MZ_L 0.0012
+*S_CP_MZ_R 0.0
+*S_CO_FX_L -0.00015
+*S_CO_FX_R 0.0
+*S_CO_FY_L -0.000032
+*S_CO_FY_R 0.0
+*S_CO_FZ_L -0.000011
+*S_CO_FZ_R 0.0
+*S_CO_MY_L 0.0
+*S_CO_MY_R 0.0
+*S_CO_MZ_L 0.0012
+*S_CO_MZ_R 0.0
+
+S_CP_FX1 -0.00015
+S_CP_FX2 -0.00015*(-1)
+S_CP_FY1 -0.000032
+S_CP_FY2 -0.000032
+S_CP_FZ1 -0.000011
+S_CP_FZ2 -0.000011*(-1)
+S_CP_MY1 0.0
+S_CP_MY2 0.0*(-1)
+S_CP_MZ1 0.0012
+S_CP_MZ2 0.0012
+S_CO_FX1 -0.00015
+S_CO_FX2 -0.00015*(-1)
+S_CO_FY1 -0.000032
+S_CO_FY2 -0.000032
+S_CO_FZ1 -0.000011
+S_CO_FZ2 -0.000011*(-1)
+S_CO_MY1 0.0
+S_CO_MY2 0.0*(-1)
+S_CO_MZ1 0.0012
+S_CO_MZ2 0.0012
+
+#EMBEDDED_NOTES
+#This screen is a new feature of CarSim 2016. It automatically defines new variables with VS Commands using values specified in the GUI.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Suspension: Twist Beam Compliances - Steer; B-Class, Hatchback - Rear
+#Library : Suspension: Twist Beam Compliances - Steer
+#DataSet : B-Class, Hatchback - Rear
+#Category: 
+#FileID  : TBStr_5ba6caeb-2e24-45ac-9e7a-3d2f962a2f0f
+#Product : CarSim 2017.1
+#VehCode Twist Beam (Steer)
+
+END

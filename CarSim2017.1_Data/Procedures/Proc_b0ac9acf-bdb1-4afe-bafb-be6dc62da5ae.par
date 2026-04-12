@@ -1,0 +1,74 @@
+PARSFILE
+#FullDataName Procedures`Constant Speed for Ext. Driver Control`Driving
+#CheckBox3 0    
+#CheckBox4 0    
+
+#RingCtrl0 1
+#RingCtrl1 0
+#RingCtrl2 0
+OPT_STOP 0
+TSTART 0
+SSTART 220
+TSTART_WRITE = TSTART;
+TSTOP 30
+SSTOP =  SSTART + 1 ;
+OPT_DIRECTION 1
+*SPEED 100
+*TSTOP 30
+*TSTART 0
+*SSTART 220
+*SSTOP 2235
+
+INSTALL_DRIVER_SPEED_CONTROLLER CarSim9
+OPT_SC 3
+SPEED_TARGET_COMBINE ADD
+SPEED_TARGET_CONSTANT 0
+SPEED_TARGET_S_CONSTANT 100
+OPT_SC_ENGINE_BRAKING 0
+PARSFILE Control\Steer\StrSW_d02d6236-3489-4162-b8b9-953cdc586f4c.par
+#BlueLink27 Control: Steering (Open Loop)`Constant: Zero Degrees` ` , Steering`StrSW_d02d6236-3489-4162-b8b9-953cdc586f4c
+
+PARSFILE Control\Braking\PbkCon_bf4961f4-c4cf-4b18-a8f7-5f65e31ecd3f.par
+#BlueLink28 Control: Braking MC Pressure (Open Loop)`Constant: 0 MPa` Constant` , Braking`PbkCon_bf4961f4-c4cf-4b18-a8f7-5f65e31ecd3f
+
+PARSFILE Control\Gear_at\GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86.par
+#BlueLink30 Control: Shifting (Closed Loop)`AT All Gears` ` , Shifting Control`GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86
+
+PARSFILE Roads\3D_Road\Road_3c09687f-3630-4619-9c60-5cf045f4e0a5.par
+#BlueLink0 Road: 3D Surface (All Properties)`Alt 3 from FHWA` Scenic Roads` , Miscellaneous`Road_3c09687f-3630-4619-9c60-5cf045f4e0a5
+
+PARSFILE Plot\Setup\Plot_a36e548a-8671-4d4e-9e37-36a10f06b90f.par
+#BlueLink8 Plot: Setup`Y vs. X -- Trajectory` Tracking` , Plot`Plot_a36e548a-8671-4d4e-9e37-36a10f06b90f
+
+PARSFILE Plot\Setup\Plot_8b4e796a-c402-49cb-8e90-d22a09d47ec1.par
+#BlueLink9 Plot: Setup`Error Area to Design Path` Driver Sensor` , Plot`Plot_8b4e796a-c402-49cb-8e90-d22a09d47ec1
+
+PARSFILE Plot\Setup\Plot_dd7900f8-87e4-44ee-bc1d-1e15598972cb.par
+#BlueLink10 Plot: Setup`Lateral Distance to Design Path` Driver Sensor` , Plot`Plot_dd7900f8-87e4-44ee-bc1d-1e15598972cb
+
+PARSFILE Plot\Setup\Plot_f8f580da-f2a2-4a35-99e7-2124019efe56.par
+#BlueLink11 Plot: Setup`Sensor Point Tracking` Driver Sensor` , Plot`Plot_f8f580da-f2a2-4a35-99e7-2124019efe56
+
+PARSFILE Plot\Setup\Plot_98cf01d2-ddd5-49e1-8c21-33cdd16bd015.par
+#BlueLink12 Plot: Setup`Sensor Point Tracking (On Road)` Driver Sensor` , Plot`Plot_98cf01d2-ddd5-49e1-8c21-33cdd16bd015
+
+
+#EMBEDDED_NOTES
+#This Procedure is designed to be used with the Simulink External Driver Control example.
+#
+#Note that since the steering controls are defined in Simulink, the open-loop steering control dataset on this screen is specified to be "No Steer": Steering wheel angle  = 0 deg.
+#
+#The driver controls specify a closed-loop speed control with a constant target speed of 100 kph, no brake pressure, and automatic gear selection using all available gears.
+#
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Procedures; { Driving } Constant Speed for Ext. Driver Control
+#Library : Procedures
+#DataSet : Constant Speed for Ext. Driver Control
+#Category: Driving
+#FileID  : Proc_b0ac9acf-bdb1-4afe-bafb-be6dc62da5ae
+#Product : CarSim 2017.1
+#VehCode Procedure
+
+END

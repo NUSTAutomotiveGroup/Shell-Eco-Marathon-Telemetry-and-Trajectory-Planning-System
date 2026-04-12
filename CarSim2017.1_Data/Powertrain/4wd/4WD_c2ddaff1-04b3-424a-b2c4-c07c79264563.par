@@ -1,0 +1,61 @@
+PARSFILE
+#FullDataName Powertrain: 4-Wheel Drive`250 kW, 7-spd., Ext. Differentials`250 kW Powertrains
+
+OPT_PT 3
+R_REAR_DRIVE_SC 0.5
+
+OPT_ENGINE_PITCH_REACTION(1) 0
+OPT_ENGINE_PITCH_REACTION(2) 0
+
+#RingCtrl0 1
+R_MDRIVE 1
+#RingCtrl1 1
+OPT_ENGINE_INTERNAL 1
+#RingCtrl2 1
+#RingCtrl3 2
+#RingCtrl4 0
+OPT_DIFF_INTERNAL(3) 0
+#RingCtrl5 0
+#RingCtrl6 0
+DRIVELINE_FREQ 9
+DRIVELINE_ZETA 0.9
+
+#CheckBox0 0    
+#CheckBox1 0    
+
+OPT_PWR_CPL_INTERNAL 1
+OPT_TRANS_INTERNAL 1
+OPT_DIFF_INTERNAL(1) 0
+OPT_DIFF_INTERNAL(2) 0
+
+PARSFILE Powertrain\Engine\Engine_3c6aca1f-e960-4b7f-9ab9-5285fe3fdb90.par
+#BlueLink0 Powertrain: Engine`250 kW  Engine` ` , Engine`Engine_3c6aca1f-e960-4b7f-9ab9-5285fe3fdb90
+
+PARSFILE Powertrain\TConv\TC_0d2c5e87-fc0e-4a25-9e05-1e57a458454e.par
+#BlueLink1 Powertrain: Torque Converter`Torque Converter for 250 kW Engine` ` , Torque Conv.`TC_0d2c5e87-fc0e-4a25-9e05-1e57a458454e
+
+PARSFILE Powertrain\TransExt\Trans18_5ffbe315-ee09-4746-af50-28438e742285.par
+#BlueLink10 Powertrain: Transmission (18 Gears or CVT)`7-Speed` ` , Transmission (Extended)`Trans18_5ffbe315-ee09-4746-af50-28438e742285
+
+
+IDIFF 3
+
+IDIFF 1
+
+IDIFF 2
+
+#EMBEDDED_NOTES
+#Example powertrain that uses an externally modeled differentials.  External Transfer Case, External Front Differential, and External Rear Differential are chosen on the pull down menus when the internal differential data are not used.
+#
+#The diagram to the right details the input and output variables that are typically used when using an external differential models.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Powertrain: 4-Wheel Drive; { 250 kW Powertrains } 250 kW, 7-spd., Ext. Differentials
+#Library : Powertrain: 4-Wheel Drive
+#DataSet : 250 kW, 7-spd., Ext. Differentials
+#Category: 250 kW Powertrains
+#FileID  : 4WD_c2ddaff1-04b3-424a-b2c4-c07c79264563
+#Product : CarSim 2017.1
+#VehCode 4WD
+
+END

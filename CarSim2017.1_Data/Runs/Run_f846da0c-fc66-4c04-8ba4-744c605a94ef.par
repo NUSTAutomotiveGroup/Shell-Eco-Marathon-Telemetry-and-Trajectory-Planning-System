@@ -1,0 +1,79 @@
+PARSFILE
+#FullDataName CarSim Run Control`MF-Swift 7.1, Rigid Ring: Acc./Braking`* More Examples (Extra License Options)
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_f846da0c-fc66-4c04-8ba4-744c605a94ef
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_09439551-c64a-4943-9211-22177923f7cf.par
+#BlueLink0 Animator: Camera Setup`Left Side View, Road Ref.` Road Reference` , Animator camera`Camera_09439551-c64a-4943-9211-22177923f7cf
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 1    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 12
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 1 1 0.2
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_f7c79ddc-5f26-4156-82ec-47423b070cb5.par
+#BlueLink2 Vehicle: Assembly`C-Class, H.Back 2017: (MF-Swift 7.1: R. Ring)` C-Class` , Vehicle Configuration`Vehicle_f7c79ddc-5f26-4156-82ec-47423b070cb5
+
+PARSFILE Procedures\Proc_d895948e-10ee-49da-bc45-cc14e63e6e15.par
+#BlueLink28 Procedures`Accel. then Brake` Accel. and Brake Testing` , Procedure`Proc_d895948e-10ee-49da-bc45-cc14e63e6e15
+
+*TSTEP 0.0005
+*FREQ_MODEL 2000
+*TSTEP_OUT 0.002
+*FREQ_OUT 500
+tstep 0.0005
+iprint 4
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_f7c79ddc-5f26-4156-82ec-47423b070cb5.png
+WRITE_SENSOR_DETECT
+Title MF-Swift 7.1, Rigid Ring: Acc./Braking <* More Examples (Extra License Options)>
+CATEGORY * More Examples (Extra License Options) 
+DATASET_TITLE MF-Swift 7.1, Rigid Ring: Acc./Braking
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example shows an acceleration and braking maneuver with the MF-Swift v7.1 (Rigid-Ring) tire model.
+#
+#Math model time step is set as 0.0005 sec to stabilize numerical calculaiton.
+#
+#To see how the MF-Swift data is incorporated into CarSim, browse to the Vehicle: Assembly screen and click on the tire datasets.
+#
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { * More Examples (Extra License Options) } MF-Swift 7.1, Rigid Ring: Acc./Braking
+#Library : CarSim Run Control
+#DataSet : MF-Swift 7.1, Rigid Ring: Acc./Braking
+#Category: * More Examples (Extra License Options)
+#FileID  : Run_f846da0c-fc66-4c04-8ba4-744c605a94ef
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

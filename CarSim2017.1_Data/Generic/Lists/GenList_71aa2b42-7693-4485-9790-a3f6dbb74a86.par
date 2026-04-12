@@ -1,0 +1,45 @@
+PARSFILE
+#FullDataName Generic Data Lists`Tachometer`HUD Indicators
+#VehCode Generic Lists
+#MiscYellow0
+ADD_ENTITY hud_image Tach (BG)
+  location 190 10 150 150
+  align_x right
+  align_y bottom
+  size_mode absolute
+  place_mode absolute
+  image_file Animator\Hud\Tachometer.dds
+END_ENTITY hud_image Tach (BG)
+#ENDMYellow
+
+
+#MiscYellow1
+ANI_AV_Eng
+WRT_AV_Eng
+ADD_ENTITY hud_image Tachometer (Needle)
+  location 190 10 150 150
+  align_x right
+  align_y bottom
+  size_mode absolute
+  place_mode absolute
+  rotate -(AV_Eng * 0.03) + 150
+  image_file Animator\Hud\Needle.dds
+END_ENTITY hud_image Tachometer (Needle)
+#ENDMYellow
+
+
+
+
+#EMBEDDED_NOTES
+#This dataset is for VS Visualizer. It will show a tachometer  with a background image and a needle image rotated and angular velocity of the engine crankshaft.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Data Lists; { HUD Indicators } Tachometer
+#Library : Generic Data Lists
+#DataSet : Tachometer
+#Category: HUD Indicators
+#FileID  : GenList_71aa2b42-7693-4485-9790-a3f6dbb74a86
+#Product : CarSim 2017.1
+#VehCode Generic Lists
+
+END

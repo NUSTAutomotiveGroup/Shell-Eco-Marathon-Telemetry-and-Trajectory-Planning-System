@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Plot: Setup`Mz due to Fy and Pneumatic Trail vs. Alpha`Tire Tester Derived Outputs
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS mz_fy_l1, Alpha_l1
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Mz due to Fy and Pneumatic Trail vs. Alpha
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Mz due to Fy and Pneumatic Trail vs. Alpha
+#Library : Plot: Setup
+#DataSet : Mz due to Fy and Pneumatic Trail vs. Alpha
+#Category: Tire Tester Derived Outputs
+#FileID  : Plot_9ff74ee3-819a-42ac-b06c-a1eba074faf6
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

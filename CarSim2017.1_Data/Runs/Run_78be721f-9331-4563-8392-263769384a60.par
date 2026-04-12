@@ -1,0 +1,79 @@
+PARSFILE
+#FullDataName CarSim Run Control`A. QS DLC stop @ 3s`Restore, Restart, Optimize
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_78be721f-9331-4563-8392-263769384a60
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_358f7aeb-0e81-446e-a19f-f2c18b21801b.par
+#BlueLink0 Animator: Camera Setup`13 deg. Azimuth, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_358f7aeb-0e81-446e-a19f-f2c18b21801b
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 1    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 1    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 1
+#RingCtrl2 0
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 3
+*RUN_COLOR 0.8 0 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_a0aaeca0-2c47-4094-9562-cbd5e0d325b6.par
+#BlueLink2 Vehicle: Assembly`C-Class, Hatchback 2017` C-Class` , Vehicle Configuration`Vehicle_a0aaeca0-2c47-4094-9562-cbd5e0d325b6
+
+PARSFILE Procedures\Proc_3ae0353d-bd7c-43a3-9da4-150b6952a10e.par
+#BlueLink28 Procedures`DLC @ 120 km/h (Quick Start)` Handling Testing` , Procedure`Proc_3ae0353d-bd7c-43a3-9da4-150b6952a10e
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_5a4dbf21-c784-41c5-89f7-b11a4981cad1.par
+#BlueLink9 Multiple Moving Objects`10 Driver Preview Points, Set by DM` Points of Interest` , Miscellaneous`TMotion_5a4dbf21-c784-41c5-89f7-b11a4981cad1
+
+OPT_STOP 0
+TSTOP 3
+OPT_DIRECTION 1
+*TSTOP 3
+OPT_VS_FILETYPE 3
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_a0aaeca0-2c47-4094-9562-cbd5e0d325b6.png
+
+OPT_ALL_WRITE 1
+WRITE_SENSOR_DETECT
+Title A. QS DLC stop @ 3s <Restore, Restart, Optimize>
+CATEGORY Restore, Restart, Optimize 
+DATASET_TITLE A. QS DLC stop @ 3s
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This is a copy of the double lane change run made for the Quick Start Guide. This version stops at 3s to demonstrate how a simulation can be continued.
+#
+#The stop time is set here to 3s, overriding the setting from the linked procedure dataset. The stop station condition is not specified.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Restore, Restart, Optimize } A. QS DLC stop @ 3s
+#Library : CarSim Run Control
+#DataSet : A. QS DLC stop @ 3s
+#Category: Restore, Restart, Optimize
+#FileID  : Run_78be721f-9331-4563-8392-263769384a60
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

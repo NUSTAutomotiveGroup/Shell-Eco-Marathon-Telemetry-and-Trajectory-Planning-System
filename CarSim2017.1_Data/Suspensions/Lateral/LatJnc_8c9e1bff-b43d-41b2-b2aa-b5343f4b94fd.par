@@ -1,0 +1,54 @@
+PARSFILE
+#FullDataName Suspension: Lateral Movement Due to Jounce`Semi-Trailing Arm - Rear`
+#CheckBox0 0    
+
+#RingCtrl0 SPLINE
+#DiagramOne0
+SUSP_LAT_TABLE SPLINE
+-70, 4.99533
+-60, 4.11606
+-50, 3.29308
+-40, 2.52578
+-30, 1.81351
+-20, 1.15562
+-10, 0.55138
+0, 0
+10, -0.499439
+20, -0.948023
+30, -1.34707
+40, -1.69821
+50, -2.00349
+60, -2.26554
+70, -2.48774
+ENDTABLE
+SUSP_Y_AXLE_ROLL_COMBINE ADD ! in case this is for a solid axle
+SUSP_LAT_AXLE_JOUNCE_TABLE SPLINE
+-70, 4.99533
+-60, 4.11606
+-50, 3.29308
+-40, 2.52578
+-30, 1.81351
+-20, 1.15562
+-10, 0.55138
+0, 0
+10, -0.499439
+20, -0.948023
+30, -1.34707
+40, -1.69821
+50, -2.00349
+60, -2.26554
+70, -2.48774
+ENDTABLE
+#RadioCtrl0 0    
+
+
+
+LOG_ENTRY Used Dataset: Suspension: Lateral Movement Due to Jounce; Semi-Trailing Arm - Rear
+#Library : Suspension: Lateral Movement Due to Jounce
+#DataSet : Semi-Trailing Arm - Rear
+#Category: 
+#FileID  : LatJnc_8c9e1bff-b43d-41b2-b2aa-b5343f4b94fd
+#Product : CarSim 2017.1
+#VehCode Lateral Movement
+
+END

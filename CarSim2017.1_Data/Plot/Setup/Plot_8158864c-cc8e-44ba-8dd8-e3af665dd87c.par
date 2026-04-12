@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Plot: Setup`Throttle: Control Input vs Station`Controls: Driver
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Throttle, station
+PLOTCHANNELS Thr_Eng, station
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Throttle: Control Input vs Station
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Controls: Driver } Throttle: Control Input vs Station
+#Library : Plot: Setup
+#DataSet : Throttle: Control Input vs Station
+#Category: Controls: Driver
+#FileID  : Plot_8158864c-cc8e-44ba-8dd8-e3af665dd87c
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

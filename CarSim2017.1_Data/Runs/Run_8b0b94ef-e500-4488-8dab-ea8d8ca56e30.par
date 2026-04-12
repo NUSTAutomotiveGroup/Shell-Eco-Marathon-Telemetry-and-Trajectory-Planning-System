@@ -1,0 +1,85 @@
+PARSFILE
+#FullDataName CarSim Run Control`Configurable Heads Up Display (HUD) - Handling Course (OSG) with Gauges`VS Visualizer Examples
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_8b0b94ef-e500-4488-8dab-ea8d8ca56e30
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_ecdefc4d-7cad-4145-8e71-fe30ae738fd5.par
+#BlueLink0 Animator: Camera Setup`254 deg. Azimuth, 45 deg. FOV, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_ecdefc4d-7cad-4145-8e71-fe30ae738fd5
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 1
+#RingCtrl7 -1
+*RUN_COLOR 0 0.2 1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_6ceb894f-f343-4cf4-81a5-6e3cdea807ba.par
+#BlueLink2 Vehicle: Assembly`Exotic Racecar, Mid-Eng.: MT w/ Var. Gains` Exotic` , Vehicle Configuration`Vehicle_6ceb894f-f343-4cf4-81a5-6e3cdea807ba
+
+PARSFILE Procedures\Proc_c1ebcb93-3935-413a-94be-f5ac6951e00f.par
+#BlueLink28 Procedures`Handling Course (OSG), Race Driving` Driver Controls` , Procedure`Proc_c1ebcb93-3935-413a-94be-f5ac6951e00f
+
+PARSFILE Animator\HUD\HUD_76ec3dd7-5fff-4651-881a-2dab4d3bed43.par
+#BlueLink9 Animator: HUD`Throttle, Brake, G-G, Speedo, and Tach` Vehicle Status Indicators` , Miscellaneous`HUD_76ec3dd7-5fff-4651-881a-2dab4d3bed43
+
+PARSFILE Generic\VS_commands\GenVS_4d0aa2ec-1afe-44a2-b9ab-daa109a26a34.par
+#BlueLink10 Generic VS Commands`VS Visualizer HUD Handling Course Map` HUD Gauges` , Miscellaneous`GenVS_4d0aa2ec-1afe-44a2-b9ab-daa109a26a34
+
+PARSFILE Generic\VS_commands\GenVS_6e8d6522-115f-41d2-872d-d9f6ec179bba.par
+#BlueLink11 Generic VS Commands`VS Visualizer HUD Handling Course Info` HUD Gauges` , Miscellaneous`GenVS_6e8d6522-115f-41d2-872d-d9f6ec179bba
+
+PARSFILE Plot\Setup\Plot_f5d0f978-49a4-4e36-9c25-7d47b1c2be3e.par
+#BlueLink15 Plot: Setup`Wheel Cylinder Pressures` Braking` , Plot`Plot_f5d0f978-49a4-4e36-9c25-7d47b1c2be3e
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_2c9c151a-13e0-4668-bd91-2b8ea79ed58a.png
+WRITE_SENSOR_DETECT
+Title Configurable Heads Up Display (HUD) - Handling Course (OSG) with Gauges <VS Visualizer Examples>
+CATEGORY VS Visualizer Examples 
+DATASET_TITLE Configurable Heads Up Display (HUD) - Handling Course (OSG) with Gauges
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#Heads-Up-Display (HUD) elements are available for use with the VS Visualizer.
+#
+#This example also demonstrates a method to replace speed controller gains using VS Commands. Click on the dataset "Exotic Racecar, Mid-Eng.: MT w/ Var. Gains" for more information.
+#
+#The VS Visualizer HUD gauges are defined in an Animator: HUD dataset linked to the Run Control screen. To see how this was set up, click on the blue link "FiveHUD Links."
+#
+#The tires for this example were linked to sound sets, resulting in tire noises during the frequent high slip conditions.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { VS Visualizer Examples } Configurable Heads Up Display (HUD) - Handling Course (OSG) with Gauges
+#Library : CarSim Run Control
+#DataSet : Configurable Heads Up Display (HUD) - Handling Course (OSG) with Gauges
+#Category: VS Visualizer Examples
+#FileID  : Run_8b0b94ef-e500-4488-8dab-ea8d8ca56e30
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

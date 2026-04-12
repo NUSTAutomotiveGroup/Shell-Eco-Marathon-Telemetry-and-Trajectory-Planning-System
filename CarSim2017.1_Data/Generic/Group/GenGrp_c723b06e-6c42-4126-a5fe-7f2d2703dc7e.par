@@ -1,0 +1,63 @@
+PARSFILE
+#FullDataName Generic Data Group`Intersection w/ Flat Roads and Traffic`
+#VehCode Generic Group
+PARSFILE Roads\3D_Road\Road_3b0d1bc9-a559-4dc4-87f2-ad3d7c54cef5.par
+#BlueLink0 Road: 3D Surface (All Properties)`East-West Road, Flat, ID = 999` Straight` , Link 1`Road_3b0d1bc9-a559-4dc4-87f2-ad3d7c54cef5
+
+
+PARSFILE Roads\3D_Road\Road_678513cc-3226-410c-85b1-3c16153058b2.par
+#BlueLink1 Road: 3D Surface (All Properties)`North-South Road, Flat, ID = 999` Straight` , Link 2`Road_678513cc-3226-410c-85b1-3c16153058b2
+
+
+#MiscYellow2
+path_id_dm  = 1
+#ENDMYellow
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_1ecd64a1-d441-4396-a27f-43223253a138.par
+#BlueLink2 Multiple Moving Objects`Traffic at Intersection - 3 Vehicles` Traffic Vehicles (Old Example)` , Link 3`TMotion_1ecd64a1-d441-4396-a27f-43223253a138
+
+
+#MiscYellow3
+PATH_ID_OBJ(1) 2
+#ENDMYellow
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_9701bbbd-2be9-4536-ba4e-329dd51f79cd.par
+#BlueLink3 Multiple Moving Objects`Traffic at Intersection - 1 Vehicle` Traffic Vehicles (Old Example)` , Link 4`TMotion_9701bbbd-2be9-4536-ba4e-329dd51f79cd
+
+
+#MiscYellow4
+PATH_ID_OBJ(4) 2
+#ENDMYellow
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_1a38ee83-a363-4bff-9f28-6deb6139c47d.par
+#BlueLink4 Multiple Moving Objects`Traffic at Intersection - 4 Vehicles` Traffic Vehicles (Old Example)` , Link 5`TMotion_1a38ee83-a363-4bff-9f28-6deb6139c47d
+
+
+#MiscYellow5
+PATH_ID_OBJ(5) 2
+PATH_ID_OBJ(6) 2
+PATH_ID_OBJ(7) 1
+PATH_ID_OBJ(8) 2
+#ENDMYellow
+
+PARSFILE Roads\3D_Road\Road_c161cbdc-8b8f-4f1f-9255-833f13fadcee.par
+#BlueLink5 Road: 3D Surface (All Properties)`Big Grass, Z = -0.04, ID = 999` Roundabout Network, Flat` , Link 6`Road_c161cbdc-8b8f-4f1f-9255-833f13fadcee
+
+
+
+
+
+
+#EMBEDDED_NOTES
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Data Group; Intersection w/ Flat Roads and Traffic
+#Library : Generic Data Group
+#DataSet : Intersection w/ Flat Roads and Traffic
+#Category: 
+#FileID  : GenGrp_c723b06e-6c42-4126-a5fe-7f2d2703dc7e
+#Product : CarSim 2017.1
+#VehCode Generic Group
+
+END

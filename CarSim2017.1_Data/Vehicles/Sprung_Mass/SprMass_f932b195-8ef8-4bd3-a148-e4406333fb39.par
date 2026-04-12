@@ -1,0 +1,55 @@
+PARSFILE
+#FullDataName Vehicle: Sprung Mass`Pickup, Full Size, Super Cab, 5.5 ft. Bed`Pickup, Full Size
+#VehCode Rigid sprung mass
+#RingCtrl0 0
+X_LENGTH 3500
+Y_LENGTH 1500
+iaxle 2
+iside 1
+LX_H 4890
+H_H 350
+H_CG_SU 795
+LX_AXLE 3500
+LX_CG_SU 1400
+M_SU 1998
+IXX_SU 846.6
+IYY_SU 5757
+IZZ_SU 5757
+IXZ_SU 0
+*RX 0.651
+*RY 1.697
+*RZ 1.697
+Y_CG_SU 0
+Y_H 0
+IXY_SU 0
+IYZ_SU 0
+Z_LENGTH 1935
+Y_LENGTH 1700
+*HWC_LF 400
+*HWC_RF 400
+*HWC_LR 400
+*HWC_RR 400
+
+symbol_set <<hitch_x>> -4.89
+symbol_set <<hitch_y>> 0
+symbol_set <<hitch_z>> 0.35
+H_WC 400
+iside 2
+H_WC 400
+iaxle 1
+iside 1
+H_WC 400
+iside 2
+H_WC 400
+iaxle 2
+iside 1
+
+LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; { Pickup, Full Size } Pickup, Full Size, Super Cab, 5.5 ft. Bed
+#Library : Vehicle: Sprung Mass
+#DataSet : Pickup, Full Size, Super Cab, 5.5 ft. Bed
+#Category: Pickup, Full Size
+#FileID  : SprMass_f932b195-8ef8-4bd3-a148-e4406333fb39
+#Product : CarSim 2017.1
+#VehCode Rigid sprung mass
+
+END

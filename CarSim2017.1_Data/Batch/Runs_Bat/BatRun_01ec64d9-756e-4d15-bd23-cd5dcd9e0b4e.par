@@ -1,0 +1,24 @@
+PARSFILE
+#FullDataName Batch Runs`VS Visualizer Examples`Built-In Solvers
+#CheckBox1 0    
+
+#MiscYellow1
+#<VS Visualizer Examples> Configurable Heads Up Display (HUD) - Handling Course (OSG)
+#<VS Visualizer Examples> Configurable Heads Up Display (HUD) - Handling Course (OSG) with Gauges
+#<VS Visualizer Examples> Configurable Heads Up Display (HUD) - Rearview Mirror
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains the datasets which are in the VS Visualizer Examples category
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; { Built-In Solvers } VS Visualizer Examples
+#Library : Batch Runs
+#DataSet : VS Visualizer Examples
+#Category: Built-In Solvers
+#FileID  : BatRun_01ec64d9-756e-4d15-bd23-cd5dcd9e0b4e
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

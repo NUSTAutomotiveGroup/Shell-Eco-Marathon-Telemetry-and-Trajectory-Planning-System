@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Road: Animator Surface Shapes`Big Grass, dZ = -0.04 m`Roundabout Network, Flat
+NLANES 1
+#MiscYellow0
+# 1 1 1, Grass (Light), , 25, 80, -2000, m, 2000, m, 1, 1, -2000, 2000, 25, 1, -0.04, Foliage
+#ENDMYellow
+
+#CheckBox0 0    
+MIRROR 0
+
+COLOR(1) 1 1 1
+MATERIAL(1) Grass (Light)
+SCALE(1) 25
+LTILES(1) 80
+LIN(1) -2000
+LINUNITS(1) m
+LOUT(1) 2000
+LOUTUNITS(1) m
+LDIV(1) 1
+LIPRINT(1) 1
+SSTART(1) -2000
+SSTOP(1) 2000
+SINT(1) 25
+IPRINT(1) 1
+DZ(1) -0.04
+AUTODETAIL(1) Foliage
+MTL_FILE Roads\materials\road.mtl
+
+
+LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Roundabout Network, Flat } Big Grass, dZ = -0.04 m
+#Library : Road: Animator Surface Shapes
+#DataSet : Big Grass, dZ = -0.04 m
+#Category: Roundabout Network, Flat
+#FileID  : RdShape_76a36443-ce9d-4d53-afb7-a75bafb4cc2d
+#Product : CarSim 2017.1
+#VehCode Road Shapes
+
+END

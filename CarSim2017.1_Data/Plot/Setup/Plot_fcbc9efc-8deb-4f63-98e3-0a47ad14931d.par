@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Plot: Setup`Sensor Lateral Acceleration`Position, Accel. and Rate Sensors
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS AyG_S1, Time
+PLOTCHANNELS AyG_S2, Time
+PLOTCHANNELS AyG_S3, Time
+PLOTCHANNELS AyG_S4, Time
+PLOTCHANNELS AyG_S5, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Sensor Lateral Acceleration
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Position, Accel. and Rate Sensors } Sensor Lateral Acceleration
+#Library : Plot: Setup
+#DataSet : Sensor Lateral Acceleration
+#Category: Position, Accel. and Rate Sensors
+#FileID  : Plot_fcbc9efc-8deb-4f63-98e3-0a47ad14931d
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

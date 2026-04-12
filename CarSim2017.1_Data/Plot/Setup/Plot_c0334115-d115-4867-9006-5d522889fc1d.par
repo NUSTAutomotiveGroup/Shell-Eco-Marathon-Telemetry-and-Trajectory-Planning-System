@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Plot: Setup`Fz vs. Alpha`Tire Tester
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Fz_L1, Alpha_L1
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Fz vs. Alpha
+
+END_ENTITY Plot
+
+
+#EMBEDDED_NOTES
+#This dataset defines a plot setup for variables that were created in external.c for a Custom C code example that simulates a tire test. You can plot these variables only from tire tester examples.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Tire Tester } Fz vs. Alpha
+#Library : Plot: Setup
+#DataSet : Fz vs. Alpha
+#Category: Tire Tester
+#FileID  : Plot_c0334115-d115-4867-9006-5d522889fc1d
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

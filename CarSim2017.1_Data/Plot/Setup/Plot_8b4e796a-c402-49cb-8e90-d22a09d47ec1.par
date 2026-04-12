@@ -1,0 +1,47 @@
+PARSFILE
+#FullDataName Plot: Setup`Error Area to Design Path`Driver Sensor
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS A_DRV_1, time
+PLOTCHANNELS A_DRV_2, time
+PLOTCHANNELS A_DRV_3, time
+PLOTCHANNELS A_DRV_4, time
+PLOTCHANNELS A_DRV_5, time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Error Area to Design Path
+
+END_ENTITY Plot
+
+
+#EMBEDDED_NOTES
+#Special sensors are provided for creating advanced diver models, at user-specified distances ahead or behind the car.
+#
+#One of the outputs produced by each sensor is the area between the target path and the line from the vehicle origin to the sensor.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Driver Sensor } Error Area to Design Path
+#Library : Plot: Setup
+#DataSet : Error Area to Design Path
+#Category: Driver Sensor
+#FileID  : Plot_8b4e796a-c402-49cb-8e90-d22a09d47ec1
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

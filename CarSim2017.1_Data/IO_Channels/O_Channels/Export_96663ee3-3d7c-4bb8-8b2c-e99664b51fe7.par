@@ -1,0 +1,29 @@
+PARSFILE
+#FullDataName I/O Channels: Export`Complex Throttle Regime`
+#RingCtrl0 1
+#RingCtrl1 1
+*README_FILE Results\Run_84980fe9-aeb3-4eb2-9960-95fb758e901a\Run_out_tab.txt
+
+
+EXPORT Vx
+EXPORT Mfuel
+EXPORT GearStat
+#MiscYellow0
+#Number of Selected Channels: 3
+#CHN_NAME: Vx
+#CHN_NAME: Mfuel
+#CHN_NAME: GearStat
+#ENDMYellow
+
+#BlueLink0 CarSim Run Control`8-Speed Transmission` Powertrain Tests` , example run`Run_84980fe9-aeb3-4eb2-9960-95fb758e901a
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Export; Complex Throttle Regime
+#Library : I/O Channels: Export
+#DataSet : Complex Throttle Regime
+#Category: 
+#FileID  : Export_96663ee3-3d7c-4bb8-8b2c-e99664b51fe7
+#Product : CarSim 2017.1
+#VehCode Export Channels
+
+END

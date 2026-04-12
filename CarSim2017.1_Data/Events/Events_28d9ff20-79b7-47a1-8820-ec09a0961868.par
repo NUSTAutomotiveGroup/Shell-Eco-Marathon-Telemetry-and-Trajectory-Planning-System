@@ -1,0 +1,31 @@
+PARSFILE
+#FullDataName Events`A. Reverse to "vx_r" km/h`Reverse Spin
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl0 <
+#RingCtrl10 1
+#RingCtrl11 4
+*NAME1 vx
+*VALUE1 vx_r
+
+DEFINE_EVENT vx < vx_r ; Events\Events_3129cff2-b578-4a8d-994c-9cb6d72ebb71.par
+#BlueLink0 Events`B. Spin` Reverse Spin` , Events`Events_3129cff2-b578-4a8d-994c-9cb6d72ebb71
+
+
+#EMBEDDED_NOTES
+#In this event, the vehicle is acclerating at full throttle in reverse until the speed vx exceeds the trigger vx_r km/h.
+#
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Reverse Spin } A. Reverse to "vx_r" km/h
+#Library : Events
+#DataSet : A. Reverse to "vx_r" km/h
+#Category: Reverse Spin
+#FileID  : Events_28d9ff20-79b7-47a1-8820-ec09a0961868
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

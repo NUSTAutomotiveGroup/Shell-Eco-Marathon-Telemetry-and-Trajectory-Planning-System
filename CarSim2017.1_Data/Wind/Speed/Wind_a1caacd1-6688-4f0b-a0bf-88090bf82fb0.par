@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Wind Amplitude`Constant: Zero`
+#CheckBox0 0    
+
+#RingCtrl0 CONSTANT
+#RingCtrl1 CONSTANT
+#RingCtrl2 MULTIPLY
+WIND_SPEED_COMBINE MULTIPLY
+WIND_SPEED_CONSTANT 0
+WIND_SPEED_S_CONSTANT 1
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*SCALAR 0
+*SCALAR2 1
+D_AIR 1.206
+
+
+#EMBEDDED_NOTES
+#Wind Speed (kph)
+#
+#This dataset is used to represent a constant wind speed of 0 kph.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Wind Amplitude; Constant: Zero
+#Library : Wind Amplitude
+#DataSet : Constant: Zero
+#Category: 
+#FileID  : Wind_a1caacd1-6688-4f0b-a0bf-88090bf82fb0
+#Product : CarSim 2017.1
+#VehCode Wind Speed
+
+END

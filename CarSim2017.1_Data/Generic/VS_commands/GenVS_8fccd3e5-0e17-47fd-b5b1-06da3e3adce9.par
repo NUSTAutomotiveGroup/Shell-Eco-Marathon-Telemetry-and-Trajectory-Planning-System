@@ -1,0 +1,143 @@
+PARSFILE
+#FullDataName Generic VS Commands`ESC: Parametric Electronic Stability Control`ADAS Support
+#VehCode VS Commands
+
+#MiscYellow0
+! Vehicle data required
+DEFINE_PARAMETER p_usg 1; deg/g; Understeer gradient at road wheels
+DEFINE_PARAMETER p_r_prop 0.8; -; Controller rear brake proportioning factor
+
+! ESC tuning parameters
+DEFINE_PARAMETER p_v_cutoff 15; km/h; Controller cutoff speed
+
+DEFINE_PARAMETER p_master_gain 1; -; Master controller gain
+
+DEFINE_PARAMETER p_esc_kp_us = 20; Mpa; Controller gain for yaw rate
+DEFINE_PARAMETER p_esc_deadzone_us = 3; deg/s; Yaw rate error threshold for intervention
+DEFINE_PARAMETER p_esc_kp_db = 20; Mpa; Controller gain for sideslip rate
+DEFINE_PARAMETER p_esc_deadzone_db = 0.5; deg/s; Sideslip rate level for intervention
+
+DEFINE_PARAMETER p_esc_pbk_sat = 12; Mpa; Maximum brake pressure
+
+! Get the average road coefficent of friction under the 4 tires
+DEFINE_OUTPUT Mu_Ave = (muy_l1 + muy_r1 + muy_l2 + muy_r2) / 4 ; - ; Average road mu
+
+DEFINE_OUTPUT ESC_V = max(vx, p_v_cutoff); km/h; Vehicle speed for ESC equations
+DEFINE_OUTPUT ESC_Str = (steer_l1 + steer_r1) / 2; deg ; Average front wheel steer
+
+! Yaw rate esc_yrp1 is for linear range. p_usg is multiplied by G because p_usg
+! is expressed in internal units (rad/m/s2) once the run begins. (See eq. 6-22 in Fundamentals)
+DEFINE_UNITS rad/s 1
+IAXLE = 2
+IUNIT = 1
+DEFINE_OUTPUT ESC_Yrp1 = ESC_V * ESC_Str / lx_axle/ (1 + p_usg * g * ESC_V * ESC_V / lx_axle); ...
+  rad/s ; Yaw rate for linear range
+
+DEFINE_OUTPUT ESC_Yrp2 = g * Mu_Ave / ESC_V; rad/s; Yaw rate at frictional limit
+DEFINE_OUTPUT ESC_Yrp = sign(min(abs(esc_yrp1), esc_yrp2), esc_yrp1); rad/s; Yaw rate target
+DEFINE_OUTPUT ESC_Err = avz - esc_yrp; rad/s ; Yaw rate error
+
+DEFINE_OUTPUT ESC_Ctl = max(abs(esc_err) - p_esc_deadzone_us, 0) * p_esc_kp_us;-; ...
+   Int. control for dead zone
+
+DEFINE_OUTPUT ESC_Sig = if_gt_0_then(vx - p_v_cutoff, esc_ctl, 0); - ; ...
+   Int. control for cutoff speed
+
+! Is vehicle response limited by the front tires (understeer) or rear tires (oversteer)?
+! If the target yaw rate and error have opposite sign, the vehicle is understeer.
+! If the target yaw rate and error have the same sign, the vehicle is oversteer.
+! Also, if the target yaw rate is small (within deadzone) the vehicle is oversteer.
+
+DEFINE_OUTPUT ESC_OS = or(lt(abs(esc_yrp), p_esc_deadzone_us), ge(esc_yrp * esc_err, 0));-; ...
+  Boolean: Oversteer?
+
+DEFINE_OUTPUT ESC_B_R1 = if_gt_0_then(ESC_OS, if_gt_0_then(esc_err, esc_sig, 0), 0); - ; ...
+  Boolean, OS, R1 Brake
+DEFINE_OUTPUT ESC_B_L1 = if_gt_0_then(ESC_OS, if_gt_0_then(esc_err, 0, esc_sig), 0); - ; ...
+  Boolean, OS, L1 Brake
+DEFINE_OUTPUT ESC_B_L2 = if_gt_0_then(ESC_OS, 0, if_gt_0_then(esc_err, p_r_prop * esc_sig, 0); - ; ...
+  Boolean, OS, L2 Brake
+DEFINE_OUTPUT ESC_B_R2 = if_gt_0_then(ESC_OS, 0, if_gt_0_then(esc_err, 0, p_r_prop * esc_sig); - ; ...
+  Boolean, OS, R2 Brake
+
+! ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+! Add a control component based on the sideslip angle rate (BetaR)
+! At steady state, the sideslip angle rate is zero
+! If BetaR and target yaw rate have same sign, car is becoming more oversteer
+! If BetaR and target yaw rate have opposite sign, car is becoming more understeer
+! If inside the control dead band, don't control for sideslip rate
+DEFINE_OUTPUT ESC_osdb = if_gt_0_then(esc_yrp * betar, 1, 0);
+! Control signal component with dead band and cutof speed
+DEFINE_OUTPUT ESCdbctl = max(abs(betar) - p_esc_deadzone_db, 0) * p_esc_kp_db;
+DEFINE_OUTPUT ESCdbsig = if_gt_0_then(vx - p_v_cutoff, escdbctl, 0);
+
+! Oversteer, turning left, brake RF (outside) wheel
+DEFINE_OUTPUT ESCdbr1 = if_gt_0_then(esc_yrp, if_gt_0_then(esc_osdb, escdbsig, 0), 0);
+! Oversteer, turning right, brake LF (outside) wheel
+DEFINE_OUTPUT ESCdbl1 = if_gt_0_then(esc_yrp, 0, if_gt_0_then(esc_osdb, escdbsig, 0));
+! Understeer, turning left, brake LR (inside) wheel
+DEFINE_OUTPUT ESCdbl2 = if_gt_0_then(esc_yrp, if_gt_0_then(esc_osdb, 0, escdbsig), 0);
+! Understeer, turning right, brake RR (inside) wheel
+DEFINE_OUTPUT escdbr2 = if_gt_0_then(esc_yrp, 0, if_gt_0_then(esc_osdb, 0, escdbsig));
+
+! ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+! Put the calculated pressures into the import variables
+EQ_OUT imp_pbk_l1 = MIN(ESC_B_L1 + escdbl1, p_esc_pbk_sat);
+EQ_OUT imp_pbk_r1 = MIN(ESC_B_R1 + escdbr1, p_esc_pbk_sat);
+EQ_OUT imp_pbk_l2 = MIN(ESC_B_L2 + escdbl2, p_esc_pbk_sat);
+EQ_OUT imp_pbk_r2 = MIN(ESC_B_R2 + escdbr2, p_esc_pbk_sat);
+
+DEFINE_OUTPUT ESC_Icon = OR(OR(imp_pbk_l1, imp_pbk_r1), OR(imp_pbk_l2, imp_pbk_r2)); - ; ...
+  Boolean: ESC Status
+  
+! Activate the import variables for brake pressures. Use the keyword vs_add
+! so any internal open- or closed-loop brake pressure will still be used, and
+! the import won't be added to the array for imports from external code.
+IMPORT imp_pbk_l1 VS_ADD 0.0
+IMPORT imp_pbk_r1 VS_ADD 0.0
+IMPORT imp_pbk_l2 VS_ADD 0.0
+IMPORT imp_pbk_r2 VS_ADD 0.0
+#ENDMYellow
+
+PARSFILE Generic\Lists\GenList_f4555ee9-17a0-46aa-8ad4-b6b71c023d26.par
+#BlueLink0 Generic Data Lists`ESC Alert` HUD Indicators` , Miscellaneous`GenList_f4555ee9-17a0-46aa-8ad4-b6b71c023d26
+
+PARSFILE Plot\Setup\Plot_4442302e-a863-4794-b309-f1b015bb4fa7.par
+#BlueLink3 Plot: Setup`Longitudinal Speed` Vehicle Motion` , Plot`Plot_4442302e-a863-4794-b309-f1b015bb4fa7
+
+PARSFILE Plot\Setup\Plot_f5d0f978-49a4-4e36-9c25-7d47b1c2be3e.par
+#BlueLink4 Plot: Setup`Wheel Cylinder Pressures` Braking` , Plot`Plot_f5d0f978-49a4-4e36-9c25-7d47b1c2be3e
+
+PARSFILE Plot\Setup\Plot_b86d8c49-db4e-400a-a282-322334d38a2e.par
+#BlueLink5 Plot: Setup`Vehicle Sideslip Angle` Vehicle Motion` , Plot`Plot_b86d8c49-db4e-400a-a282-322334d38a2e
+
+PARSFILE Plot\Setup\Plot_e8a23cd9-8cc6-40b0-a6a5-1914cfd4937d.par
+#BlueLink6 Plot: Setup`Vehicle Sideslip Angle Rate` Vehicle Motion` , Plot`Plot_e8a23cd9-8cc6-40b0-a6a5-1914cfd4937d
+
+PARSFILE Plot\Setup\Plot_486be63d-b3e0-4266-8b64-2244e91793ec.par
+#BlueLink7 Plot: Setup`ESC Variables` User-Defined Variables` , Plot`Plot_486be63d-b3e0-4266-8b64-2244e91793ec
+
+PARSFILE Plot\Setup\Plot_d22b1f7d-af07-4671-8a88-9a30ee27c717.par
+#BlueLink8 Plot: Setup`Oversteer Indicator` User-Defined Variables` , Plot`Plot_d22b1f7d-af07-4671-8a88-9a30ee27c717
+
+
+#EMBEDDED_NOTES
+#The parameter p_usg is the linear range understeer gradient for the vehicle being tested.
+#
+#You should run an understeer test to determine an appropriate value for any vehicle that will use this controller.
+#
+#You may also need to adjust the controller gain (p_esc_kp). Heavier vehicles or vehicles with smaller brakes may need higher values.
+#
+#The link at the bottom causes VS Visualizer to show an ESC alert icon when the output variable esc_icon (defined in this dataset) is nonzero.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { ADAS Support } ESC: Parametric Electronic Stability Control
+#Library : Generic VS Commands
+#DataSet : ESC: Parametric Electronic Stability Control
+#Category: ADAS Support
+#FileID  : GenVS_8fccd3e5-0e17-47fd-b5b1-06da3e3adce9
+#Product : CarSim 2017.1
+#VehCode VS Commands
+
+END

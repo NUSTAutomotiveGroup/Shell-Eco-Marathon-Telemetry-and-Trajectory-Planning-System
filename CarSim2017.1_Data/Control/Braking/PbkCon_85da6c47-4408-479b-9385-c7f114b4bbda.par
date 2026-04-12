@@ -1,0 +1,20 @@
+PARSFILE
+#FullDataName Control: Braking MC Pressure (Open Loop)`Mcity ADAS example`
+#CheckBox0 0    
+
+#RingCtrl0 EQUATION
+#RadioCtrl0 0    
+
+PBK_CON_EQUATION 25000000*ApplyAEB
+*EQUATION 25000000*ApplyAEB
+
+
+LOG_ENTRY Used Dataset: Control: Braking MC Pressure (Open Loop); Mcity ADAS example
+#Library : Control: Braking MC Pressure (Open Loop)
+#DataSet : Mcity ADAS example
+#Category: 
+#FileID  : PbkCon_85da6c47-4408-479b-9385-c7f114b4bbda
+#Product : CarSim 2017.1
+#VehCode Brake Control
+
+END

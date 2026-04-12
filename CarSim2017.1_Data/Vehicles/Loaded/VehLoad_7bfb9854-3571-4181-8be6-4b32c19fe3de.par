@@ -1,0 +1,56 @@
+PARSFILE
+#FullDataName Vehicle with Loads, Sensors, Trailer, etc.`E-Class, Sedan 2017: w/ 5 Driver Sensors`E-Class
+#VehCode Ind_Ind
+#CheckBox0 0    
+#CheckBox1 0    
+
+symbol_push <<hitch_x>> 0
+symbol_push <<hitch_y>> 0
+symbol_push <<hitch_z>> 0
+iunit 1
+PARSFILE Vehicles\Assembly\Vehicle_c616bd9e-46f1-4800-91f5-7360458fcaa1.par
+#BlueLink0 Vehicle: Assembly`E-Class, Sedan 2017` E-Class` , Lead Unit`Vehicle_c616bd9e-46f1-4800-91f5-7360458fcaa1
+
+ADD_REFERENCE_FRAME LeadUnitPayloads
+SET_EULER_ANGLES YAW_PITCH_ROLL
+SET_X_NAME Xo
+WRT_Xo
+ANI_Xo
+SET_Y_NAME Yo
+WRT_Yo
+ANI_Yo
+SET_Z_NAME Zo
+WRT_Zo
+ANI_Zo
+SET_YAW_NAME Yaw
+WRT_Yaw
+ANI_Yaw
+SET_PITCH_NAME Pitch
+WRT_Pitch
+ANI_Pitch
+SET_ROLL_NAME Roll_E
+WRT_Roll_E
+ANI_Roll_E
+PARSFILE Output\DrvSensor\DrvSen_e1249794-1c3d-4451-be79-047cb07d05fd.par
+#BlueLink7 Preview Points for External Driver Control`5 Driver Sensor Points` ` , Miscellaneous`DrvSen_e1249794-1c3d-4451-be79-047cb07d05fd
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_56213a52-605a-4200-ab95-2aae09c11489.png
+
+#EMBEDDED_NOTES
+#This example shows an E-Class sedan with a link for five Driver Preview Points. These preview points are for use with an external driver model controller. Click on the blue link, below, for more information on how this data is organized.
+#
+#This vehicle is intended to be used with the Run Control dataset:
+#Category: Simulink and LabVIEW Models
+#Dataset: Ext. Driver Model
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle with Loads, Sensors, Trailer, etc.; { E-Class } E-Class, Sedan 2017: w/ 5 Driver Sensors
+#Library : Vehicle with Loads, Sensors, Trailer, etc.
+#DataSet : E-Class, Sedan 2017: w/ 5 Driver Sensors
+#Category: E-Class
+#FileID  : VehLoad_7bfb9854-3571-4181-8be6-4b32c19fe3de
+#Product : CarSim 2017.1
+#VehCode Ind_Ind
+
+END

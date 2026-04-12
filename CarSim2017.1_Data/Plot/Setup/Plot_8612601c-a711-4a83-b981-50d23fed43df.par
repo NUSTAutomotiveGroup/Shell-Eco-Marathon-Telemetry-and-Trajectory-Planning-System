@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Plot: Setup`Hitch Pitch Angle`Hitch
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d.par
+#BlueLink0 Plot: Format`Lines without Symbols` ` , Plot format`PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d
+
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Pitch_H, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Hitch Pitch Angle
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Hitch } Hitch Pitch Angle
+#Library : Plot: Setup
+#DataSet : Hitch Pitch Angle
+#Category: Hitch
+#FileID  : Plot_8612601c-a711-4a83-b981-50d23fed43df
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

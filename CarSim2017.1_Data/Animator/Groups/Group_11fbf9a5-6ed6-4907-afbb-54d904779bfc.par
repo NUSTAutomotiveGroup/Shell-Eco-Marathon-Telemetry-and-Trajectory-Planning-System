@@ -1,0 +1,52 @@
+PARSFILE
+#FullDataName Animator: Group`Lower Control Arms (Front)`Sub Compact Susp. Parts
+#BlueLink0 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink1 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink2 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink3 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+PARSFILE Animator\Frames\Frame_8cbd494a-1e64-415a-9986-831d1a39bc50.par
+#BlueLink9 Animator: Reference Frame`LF LCA` Lower Control Arms` , Miscellaneous`Frame_8cbd494a-1e64-415a-9986-831d1a39bc50
+
+PARSFILE Animator\STL\Shape_4d80370e-f984-4227-ab59-d34881a6b38e.par
+#BlueLink10 Animator: Shape File Link`Lower Control Arm` Misc. Parts` , Miscellaneous`Shape_4d80370e-f984-4227-ab59-d34881a6b38e
+
+#MiscYellow0
+set_angle_x  5
+set_angle_z 180
+#ENDMYellow
+
+PARSFILE Animator\Frames\Frame_c665ee2d-75a2-4f93-a12f-c19da4c491dd.par
+#BlueLink11 Animator: Reference Frame`RF LCA` Lower Control Arms` , Miscellaneous`Frame_c665ee2d-75a2-4f93-a12f-c19da4c491dd
+
+PARSFILE Animator\STL\Shape_4d80370e-f984-4227-ab59-d34881a6b38e.par
+#BlueLink12 Animator: Shape File Link`Lower Control Arm` Misc. Parts` , Miscellaneous`Shape_4d80370e-f984-4227-ab59-d34881a6b38e
+
+#MiscYellow2
+set_angle_x  5
+#ENDMYellow
+
+
+#CheckBox0 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink20 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+#EMBEDDED_NOTES
+#This dataset is used by VS Visualizer to show lower control arms for the front of a vehcle.  Although CarSim does not include linkages in the suspension, the movements can be estimated from the wheel travel.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Group; { Sub Compact Susp. Parts } Lower Control Arms (Front)
+#Library : Animator: Group
+#DataSet : Lower Control Arms (Front)
+#Category: Sub Compact Susp. Parts
+#FileID  : Group_11fbf9a5-6ed6-4907-afbb-54d904779bfc
+#Product : CarSim 2017.1
+#VehCode Animator Group
+
+END

@@ -1,0 +1,82 @@
+PARSFILE
+#FullDataName Multiple Moving Objects`Traffic at Intersection - 3 Vehicles`Traffic Vehicles (Old Example)
+#RingCtrl0 3
+DEFINE_MOVING_OBJECTS 3
+#RingCtrl1 3
+#RingCtrl2 0
+#CheckBox0 0    
+#CheckBox1 1    
+#CheckBox3 1    
+#CheckBox5 1    
+#CheckBox38 0    
+
+*L -2
+*PATH_ID path_id_dm
+*V 70/3.6
+
+IOBJECT_INCREMENT
+symbol_add <<o>> 1
+SET_DESCRIPTION OBJECT_NAME Traffic at Intersection - 3 Vehicles, Object #1
+
+PATH_ID_OBJ path_id_dm
+EQ_DIFFERENTIAL S_OBJ_<<o>> = 70/3.6
+EQ_OUT LATO_<<o>> = -2
+OPT_RECYCLE_OBJ 0
+*SINIT_1 -85
+EQ_INIT S_OBJ_<<o>> = -85
+*COLOR_1 0 0.4 0
+SET_RUN_COLOR 0 0.4 0
+H_OBJ = 0 ! Default for blank field
+PARSFILE Animator\Vehicles\AniVeh_b14ad677-d682-43e8-af70-e8b7d82428ed.par
+#BlueLink0 Animator: Vehicles and Sensor Targets`A-Class, Subcompact 2012` A-Class Vehicles` , Traffic Vehicle Ani File`AniVeh_b14ad677-d682-43e8-af70-e8b7d82428ed
+
+MATERIAL_TYPE_OBJ = 0
+REFLECT_OBJ = 0
+
+IOBJECT_INCREMENT
+symbol_add <<o>> 1
+SET_DESCRIPTION OBJECT_NAME Traffic at Intersection - 3 Vehicles, Object #2
+
+PATH_ID_OBJ path_id_dm
+EQ_DIFFERENTIAL S_OBJ_<<o>> = 70/3.6
+EQ_OUT LATO_<<o>> = -2
+OPT_RECYCLE_OBJ 0
+*SINIT_2 -50
+EQ_INIT S_OBJ_<<o>> = -50
+*COLOR_2 0 0.6 1
+SET_RUN_COLOR 0 0.6 1
+H_OBJ = 0 ! Default for blank field
+PARSFILE Animator\Vehicles\AniVeh_ecb4bc00-731a-4eec-9e10-b0fa5a9a76b7.par
+#BlueLink1 Animator: Vehicles and Sensor Targets`F-Class, Sedan` ` , Traffic Vehicle Ani File`AniVeh_ecb4bc00-731a-4eec-9e10-b0fa5a9a76b7
+
+MATERIAL_TYPE_OBJ = 0
+REFLECT_OBJ = 0
+
+IOBJECT_INCREMENT
+symbol_add <<o>> 1
+SET_DESCRIPTION OBJECT_NAME Traffic at Intersection - 3 Vehicles, Object #3
+
+PATH_ID_OBJ path_id_dm
+EQ_DIFFERENTIAL S_OBJ_<<o>> = 70/3.6
+EQ_OUT LATO_<<o>> = -2
+OPT_RECYCLE_OBJ 0
+*SINIT_3 -10
+EQ_INIT S_OBJ_<<o>> = -10
+*COLOR_3 1 1 0
+SET_RUN_COLOR 1 1 0
+H_OBJ = 0 ! Default for blank field
+PARSFILE Animator\Vehicles\AniVeh_185d62e8-e27d-4be3-87c4-3eeed284ad17.par
+#BlueLink2 Animator: Vehicles and Sensor Targets`D-Class, SUV V9` D-Class Vehicles` , Traffic Vehicle Ani File`AniVeh_185d62e8-e27d-4be3-87c4-3eeed284ad17
+
+MATERIAL_TYPE_OBJ = 0
+REFLECT_OBJ = 0
+
+LOG_ENTRY Used Dataset: Multiple Moving Objects; { Traffic Vehicles (Old Example) } Traffic at Intersection - 3 Vehicles
+#Library : Multiple Moving Objects
+#DataSet : Traffic at Intersection - 3 Vehicles
+#Category: Traffic Vehicles (Old Example)
+#FileID  : TMotion_1ecd64a1-d441-4396-a27f-43223253a138
+#Product : CarSim 2017.1
+#VehCode Multiple Objects
+
+END

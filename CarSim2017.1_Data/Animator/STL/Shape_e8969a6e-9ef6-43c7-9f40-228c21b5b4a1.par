@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Sports Car Wheel`Tires
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\tires\195_45R16\wheel.obj
+#ENDMYellow
+
+SET_COLOR .62 .62 .62
+*SPECULAR 0.5
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+SET_SPECULAR 0.5 0.5 0.5
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_52079630-c01a-43a9-bc0c-30080f01066f.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Top)` Shape Preview` , Video Camera`Camera_52079630-c01a-43a9-bc0c-30080f01066f
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_e8969a6e-9ef6-43c7-9f40-228c21b5b4a1.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Sports Car Wheel
+#Library : Animator: Shape File Link
+#DataSet : Sports Car Wheel
+#Category: Tires
+#FileID  : Shape_e8969a6e-9ef6-43c7-9f40-228c21b5b4a1
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

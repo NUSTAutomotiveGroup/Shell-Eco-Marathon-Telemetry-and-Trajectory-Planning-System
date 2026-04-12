@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName I/O Channels: Import`Replace Entire System`External Steer
+#RingCtrl0 0
+#RingCtrl1 1
+*README_FILE Results\Run_f41b5078-044e-4770-97a2-89ed1e12bd65\Run_imp_tab.txt
+
+#MiscYellow0
+IMP_STEER_L1 Add 0.0! 1
+IMP_DSTEER_L1 Add 0.0! 1
+IMP_STEER_R1 Add 0.0! 1
+IMP_DSTEER_R1 Add 0.0! 1
+IMP_R_STR_EXT_L1 Add 0.0! 1
+IMP_R_STR_EXT_R1 Add 0.0! 1
+IMP_STEER_T_IN Add 0.0! 1
+#ENDMYellow
+
+#BlueLink0 CarSim Run Control`Closed Loop: Replace Entire System` * CS 2017 - External Steering Models` , example run`Run_f41b5078-044e-4770-97a2-89ed1e12bd65
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Import; { External Steer } Replace Entire System
+#Library : I/O Channels: Import
+#DataSet : Replace Entire System
+#Category: External Steer
+#FileID  : Import_6993ad40-4291-472b-b0f1-1aa9961e66d6
+#Product : CarSim 2017.1
+#VehCode Import Channels
+
+END

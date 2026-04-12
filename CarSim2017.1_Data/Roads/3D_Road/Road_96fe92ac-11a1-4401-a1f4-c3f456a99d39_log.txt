@@ -1,0 +1,18 @@
+Include PARSFILE "Roads\3D_Road\Road_96fe92ac-11a1-4401-a1f4-c3f456a99d39.par"
+Include PARSFILE "Roads\Center_XY\PathXY_9c516fea-efdf-45e3-b862-8ae0dc19716a.par"
+Used Dataset: Path: X-Y Coordinates; Lusail
+Include PARSFILE "Roads\dZ_Map_V_Wdth\VarWidZ_a0dd581e-7a75-4e7b-9845-b736349cef5e.par"
+Used Dataset: Road: Off-Center Elevation Map, Variable Width; { Variable Width Roads } Road w/ Median
+Include PARSFILE "Roads\Friction_V_Wdth\VarWidMu_fd44e332-2a33-4e59-bd8f-be03307cc909.par"
+Used Dataset: Road: Friction Map, Variable Width; Road (0.75) w/ Median and Grass
+Include PARSFILE "Roads\Shapes\RdShape_8c8a59c7-01ef-42eb-8aa5-a5c0c0605130.par"
+Used Dataset: Road: Animator Surface Shapes; { Roads } DLC Road
+Include PARSFILE "Roads\dZ_Map\RdMapZ_a9fac581-bef5-49a9-b09e-cf60a907590d.par"
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Gutters, Curbs, Ditches } Ditch, 5 m to Right of Center
+ Road w/ Median <Variable Width Roads>
+Used Dataset: Road: 3D Surface (All Properties); { Variable Width Roads } Road w/ Median
+
+Time to read input = 0.004
+
+Run started: ERD output file = Roads\3D_Road\Road_96fe92ac-11a1-4401-a1f4-c3f456a99d39.bin
+Function ROAD_DZ_CARPET(2) extrapolated (out of range HIGH) for XCOL = 60 m at T = 0

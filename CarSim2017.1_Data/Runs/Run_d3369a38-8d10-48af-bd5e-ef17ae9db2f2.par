@@ -1,0 +1,75 @@
+PARSFILE
+#FullDataName CarSim Run Control`Events: Shift 2WD to 4WD`Powertrain Tests
+#VEHICLECODE Ind_SA
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_d3369a38-8d10-48af-bd5e-ef17ae9db2f2
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_d988c2d4-cc54-46a0-bd8a-31056567ae48.par
+#BlueLink0 Animator: Camera Setup`150 deg. Azimuth, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_d988c2d4-cc54-46a0-bd8a-31056567ae48
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 1
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_80811179-86e3-4fcf-86ba-13eaa5eb5f0e.par
+#BlueLink2 Vehicle: Assembly`Pickup, Compact: RWD` Pickup, Compact` , Vehicle Configuration`Vehicle_80811179-86e3-4fcf-86ba-13eaa5eb5f0e
+
+PARSFILE Procedures\Proc_4f1772ac-e296-4bd2-be9f-50d3002934dc.par
+#BlueLink28 Procedures`2WD to 4WD` Event Triggered Tests` , Procedure`Proc_4f1772ac-e296-4bd2-be9f-50d3002934dc
+
+PARSFILE Generic\VS_commands\GenVS_d0827ccf-e59c-4f31-909b-08a766616ce9.par
+#BlueLink9 Generic VS Commands`4x4 Indicator` HUD Gauges` , Miscellaneous`GenVS_d0827ccf-e59c-4f31-909b-08a766616ce9
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_09994c3b-b9da-4624-9c14-c69c0c438f3f.png
+WRITE_SENSOR_DETECT
+Title Events: Shift 2WD to 4WD <Powertrain Tests>
+CATEGORY Powertrain Tests 
+DATASET_TITLE Events: Shift 2WD to 4WD
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example uses Events to simulate a hill-climb and switch powertrains during the course of the simulation.
+#
+#In this example, a 2WD pickup truck attempts to climb a steep off-road hill. Browse to the Vehicle: Assembly screen and click on the blue link for the powertrain to see that the vehicle has RWD only.
+#
+#As the truck climbs the hill tire traction is lost, the rear wheels spin, and the vehicle becomes stuck. When the truck starts to roll backwards the throttle is closed and the transmission is shifted into neutral. At this point the drivetrain is shifted into 4WD and engages low range (2:1 ratio) in the transfer case. This is accomplished by replacing the entire powertrain dataset linked to the run. Once this happens the additional traction provided by the now-driven front tires allows the truck to successfully to climb the hill.
+#
+#When using Events, any output variable or equation can be set as a trigger. When some threshold level of a trigger is reached (either increasing or decreasing), any aspect of the run can be changed. Changes may include control methods (i.e., from open loop to closed loop or vice versa), model parameters, or definition of the environment.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Powertrain Tests } Events: Shift 2WD to 4WD
+#Library : CarSim Run Control
+#DataSet : Events: Shift 2WD to 4WD
+#Category: Powertrain Tests
+#FileID  : Run_d3369a38-8d10-48af-bd5e-ef17ae9db2f2
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

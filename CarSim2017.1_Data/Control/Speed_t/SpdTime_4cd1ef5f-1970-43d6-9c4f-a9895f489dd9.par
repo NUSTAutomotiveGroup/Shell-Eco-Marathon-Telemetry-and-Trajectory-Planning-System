@@ -1,0 +1,43 @@
+PARSFILE
+#FullDataName Control: Speed (Closed Loop) Using Target Speed`10 km/h`Constant Speed
+#CheckBox2 0    
+#CheckBox3 1    
+*SCALAR 10
+*SCALAR2 0
+#RingCtrl0 CONSTANT
+#RingCtrl1 CONSTANT
+#RingCtrl2 ADD
+SPEED_TARGET_COMBINE ADD
+#RadioCtrl0 1    
+#RadioCtrl1 0    
+
+#CheckBox0 1    
+OPT_BK_SC 1
+#CheckBox1 1    
+OPT_SC_ENGINE_BRAKING 1
+SPEED_KI 0.15
+SPEED_KP 0.15
+OPT_VMIN -1
+BK_PERF_SC 0.1
+FPD_PERF_SC 0.1
+PBK_CON_MAX_SC 10
+SPEED_KP3 0
+OPT_SC 1
+SPEED_TARGET_CONSTANT 10
+SPEED_TARGET_S_CONSTANT 0
+
+#EMBEDDED_NOTES
+#This dataset sets up the closed-loop speed controller with feedback gains suitable for the ISO steady-turning series of tests.
+#
+#The speed of 10 km/h is used to obtain an approximate experimental version of the Ackermann steering angle. At lower speeds, some vehicle have steering system friction that affect the steering. This speed is a compromise that reduces the parking-steer hysteresis while still showing low accleration effects on the standard 100-m radius path.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Control: Speed (Closed Loop) Using Target Speed; { Constant Speed } 10 km/h
+#Library : Control: Speed (Closed Loop) Using Target Speed
+#DataSet : 10 km/h
+#Category: Constant Speed
+#FileID  : SpdTime_4cd1ef5f-1970-43d6-9c4f-a9895f489dd9
+#Product : CarSim 2017.1
+#VehCode Target Speed
+
+END

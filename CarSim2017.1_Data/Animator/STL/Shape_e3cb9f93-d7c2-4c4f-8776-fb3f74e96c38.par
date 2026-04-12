@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Handling Course Trees OSG`Handling Course
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\scenery\handling_course_OSG\TreeLine.OSG
+#ENDMYellow
+
+#CheckBox0 1    
+set_lighting off
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+#MiscYellow0
+translucent_fix on
+#ENDMYellow
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_614e20f4-a550-401b-86b4-f904a05376d4.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (No Grid)` Shape Preview` , Video Camera`Camera_614e20f4-a550-401b-86b4-f904a05376d4
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_e3cb9f93-d7c2-4c4f-8776-fb3f74e96c38.png
+
+#EMBEDDED_NOTES
+#This image will only animate using the VsVisualizer.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Handling Course } Handling Course Trees OSG
+#Library : Animator: Shape File Link
+#DataSet : Handling Course Trees OSG
+#Category: Handling Course
+#FileID  : Shape_e3cb9f93-d7c2-4c4f-8776-fb3f74e96c38
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

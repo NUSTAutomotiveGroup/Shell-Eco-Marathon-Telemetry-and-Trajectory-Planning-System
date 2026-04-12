@@ -1,0 +1,64 @@
+PARSFILE
+#FullDataName Generic Data Lists`Speedometer w/ Gear`HUD Indicators
+#VehCode Generic Lists
+#MiscYellow0
+ADD_ENTITY hud_image Vx (Back Ground)
+  location 10 10 200 200
+  align_x right
+  align_y bottom
+  size_mode absolute
+  place_mode absolute
+  image_file Animator\Hud\Speedometer.dds
+END_ENTITY hud_image Vx (Back Ground)
+#ENDMYellow
+
+
+#MiscYellow1
+ANI_Vx_R2
+WRT_Vx_R2
+ANI_Vx_L2
+WRT_Vx_L2
+ADD_ENTITY hud_image Vx (Needle)
+  location 10 10 200 200
+  align_x right
+  align_y bottom
+  size_mode absolute
+  place_mode absolute
+  ! Speed calculation for a RWD vehicle.  For FWD or AWD, adjust accordingly.
+  rotate -((Vx_R2+Vx_L2) / 2.0 * 1.5) + 150
+  image_file Animator\Hud\Needle.dds
+END_ENTITY hud_image Vx (Needle)
+#ENDMYellow
+
+
+#MiscYellow2
+ANI_gearstat
+WRT_gearstat
+ADD_ENTITY hud_text Text Output - GearStat
+  align_x right
+  align_y bottom
+  size_mode absolute
+  place_mode absolute
+  location 100 37 35 35
+    value gearstat
+  precision 0
+  color 1 1 1 1
+  outline_color 0 0 0 0.5
+END_ENTITY hud_text Text Output - gearstat
+#ENDMYellow
+
+
+
+#EMBEDDED_NOTES
+#This dataset is for VS Visualizer. It will show a speedometer with a background image and a needle image rotated by an average of the spin rates of the front two wheels. It will also show the current tranmission gear with a text display.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Data Lists; { HUD Indicators } Speedometer w/ Gear
+#Library : Generic Data Lists
+#DataSet : Speedometer w/ Gear
+#Category: HUD Indicators
+#FileID  : GenList_cb0b3e41-dc9a-493e-8db6-788fcb0e2458
+#Product : CarSim 2017.1
+#VehCode Generic Lists
+
+END

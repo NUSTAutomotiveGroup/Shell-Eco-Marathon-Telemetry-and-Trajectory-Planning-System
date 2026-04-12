@@ -1,0 +1,79 @@
+PARSFILE
+#FullDataName CarSim Run Control`Braking: Fade Test, Repeated 0-100-0 km/h`Brake Tests
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_74b24f87-b691-4d8f-a72d-b1911d3f6f94
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Models\Simulink\Simlink_ec3439cd-74d6-4a17-83a5-fb75bb464820.par
+#BlueLink12 Models: Simulink`Type A ABS Controller` Braking Controls` , Models`Simlink_ec3439cd-74d6-4a17-83a5-fb75bb464820
+
+PARSFILE Animator\Cameras\Camera_a08a4edb-7ef4-4e36-ba06-ab65da2c8449.par
+#BlueLink0 Animator: Camera Setup`90 deg. Azimuth (Close), Veh. Ref.` Vehicle Reference` , Animator camera`Camera_a08a4edb-7ef4-4e36-ba06-ab65da2c8449
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 3
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0 0 0.4
+SET_RUN_COLOR 0 0 0.4
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_0784d2bd-bfb3-4db3-a9a3-939be6410358.par
+#BlueLink2 Vehicle: Assembly`E-Class, Sedan 2017: w/ Temp. and Boost` E-Class` , Vehicle Configuration`Vehicle_0784d2bd-bfb3-4db3-a9a3-939be6410358
+
+PARSFILE Procedures\Proc_1a0efb3f-c4cf-4907-bd89-acbee10beac8.par
+#BlueLink28 Procedures`Brake Fade Test Initialization` Accel. and Brake Testing` , Procedure`Proc_1a0efb3f-c4cf-4907-bd89-acbee10beac8
+
+*SPEED 120
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_56213a52-605a-4200-ab95-2aae09c11489.png
+WRITE_SENSOR_DETECT
+Title Braking: Fade Test, Repeated 0-100-0 km/h <Brake Tests>
+CATEGORY Brake Tests 
+DATASET_TITLE Braking: Fade Test, Repeated 0-100-0 km/h
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example demsonstrates modeling a brake fade test in CarSim using Events.
+#
+#The vehicle makes repeated 0-100-0 km/h runs. The vehicle position is reset to zero station position for the beginning of each test cycle.
+#
+#You can see in the plots that the brake rotors must reach their ideal operating temperature before they can generate enough brake torque to drive the wheels below their ABS slip target, thus engaging the ABS. This happens for stops 3, 4, 5, and 6. As the rotor temperatures increase beyond their operating range the amount of brake torque they can generate decreases, preventing the brakes from driving the wheels below their ABS slip target. This is equivalent to brake pad fade and when this happens, the ABS does not engage. This effect may be seen in the plots for Brake Torque and Long. Accel. of CG's.
+#
+#Also shown is the animation of the brake rotors glowing from the heat.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Brake Tests } Braking: Fade Test, Repeated 0-100-0 km/h
+#Library : CarSim Run Control
+#DataSet : Braking: Fade Test, Repeated 0-100-0 km/h
+#Category: Brake Tests
+#FileID  : Run_74b24f87-b691-4d8f-a72d-b1911d3f6f94
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

@@ -1,0 +1,34 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Minivan: Body 2012 OSG`CS Minivan
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\vehicles\ClassD_Minivan\ClassD_Minivan.OSG
+#ENDMYellow
+
+SET_COLOR 0.878 0.878 0.878
+*SPECULAR 0.6
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 1    
+USE_RUN_COLOR
+#CheckBox4 1    
+
+SET_SPECULAR 0.6 0.6 0.6
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_52079630-c01a-43a9-bc0c-30080f01066f.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Top)` Shape Preview` , Video Camera`Camera_52079630-c01a-43a9-bc0c-30080f01066f
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_9ef79875-9df8-47f0-b2e9-78a96d57275d.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS Minivan } Minivan: Body 2012 OSG
+#Library : Animator: Shape File Link
+#DataSet : Minivan: Body 2012 OSG
+#Category: CS Minivan
+#FileID  : Shape_9ef79875-9df8-47f0-b2e9-78a96d57275d
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

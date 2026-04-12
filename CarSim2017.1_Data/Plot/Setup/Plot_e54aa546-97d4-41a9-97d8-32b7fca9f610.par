@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Plot: Setup`Ground Elevation - Rear`Ground
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Zgnd_L2, Time
+PLOTCHANNELS Zgnd_R2, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Ground Elevation - Rear
+
+END_ENTITY Plot
+
+
+#EMBEDDED_NOTES
+#This is the global vertical coordinate of the gorund (road) at the center of tire contact for each tire.
+#
+#If the tire is off the ground, it is the Z coordinate of the point on the road nearest the tire.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Ground } Ground Elevation - Rear
+#Library : Plot: Setup
+#DataSet : Ground Elevation - Rear
+#Category: Ground
+#FileID  : Plot_e54aa546-97d4-41a9-97d8-32b7fca9f610
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

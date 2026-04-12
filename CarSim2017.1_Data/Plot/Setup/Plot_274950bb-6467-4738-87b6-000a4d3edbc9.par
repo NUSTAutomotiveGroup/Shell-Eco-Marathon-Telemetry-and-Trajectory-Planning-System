@@ -1,0 +1,57 @@
+PARSFILE
+#FullDataName Plot: Setup`ID Numbers for Closest 15 Objects, Sensor 1`ADAS
+
+ADD_ENTITY Plot
+
+#BlueLink2 CarSim Run Control`Lane Departure Warning, 4 Lanes Divided` ADAS and Active Safety` , example run`Run_ac239c45-a6ea-4eb4-928a-fd54b73f6d20
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+*README_FILE Results\Run_ac239c45-a6ea-4eb4-928a-fd54b73f6d20\Run_out_tab.txt
+
+#MiscYellow0
+PLOTCHANNELS ID_S1_1, Time
+PLOTCHANNELS ID_S1_2, Time
+PLOTCHANNELS ID_S1_3, Time
+PLOTCHANNELS ID_S1_4, Time
+PLOTCHANNELS ID_S1_5, Time
+PLOTCHANNELS ID_S1_6, Time
+PLOTCHANNELS ID_S1_7, Time
+PLOTCHANNELS ID_S1_8, Time
+PLOTCHANNELS ID_S1_9, Time
+PLOTCHANNELS ID_S1_10, Time
+PLOTCHANNELS ID_S1_11, Time
+PLOTCHANNELS ID_S1_12, Time
+PLOTCHANNELS ID_S1_13, Time
+PLOTCHANNELS ID_S1_14, Time
+PLOTCHANNELS ID_S1_15, Time
+
+#ENDMYellow
+
+YAXISLABEL Object ID Number
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl4 0
+#RingCtrl6 1
+#RingCtrl8 1
+
+
+PTITLE ID Numbers for Closest 15 Objects, Sensor 1
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { ADAS } ID Numbers for Closest 15 Objects, Sensor 1
+#Library : Plot: Setup
+#DataSet : ID Numbers for Closest 15 Objects, Sensor 1
+#Category: ADAS
+#FileID  : Plot_274950bb-6467-4738-87b6-000a4d3edbc9
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

@@ -1,0 +1,21 @@
+PARSFILE
+#FullDataName Control: Braking Pedal Force (Open Loop)`Constant: Zero`
+#CheckBox0 0    
+
+#RingCtrl0 CONSTANT
+#RadioCtrl0 0    
+
+F_BRAKE_PEDAL_CONSTANT 0
+OPT_VMIN -1
+*SCALAR 0
+
+
+LOG_ENTRY Used Dataset: Control: Braking Pedal Force (Open Loop); Constant: Zero
+#Library : Control: Braking Pedal Force (Open Loop)
+#DataSet : Constant: Zero
+#Category: 
+#FileID  : FbkCon_53897d38-3e93-4227-9836-48e894739a3d
+#Product : CarSim 2017.1
+#VehCode Open-Loop Pedal Force
+
+END

@@ -1,0 +1,67 @@
+PARSFILE
+#FullDataName Vehicle: Sprung Mass`D-Class, Sedan w/ Powertrain Mount`D-Class
+#VehCode Rigid frame + engine mount
+#RingCtrl0 2
+X_LENGTH 2780
+Y_LENGTH 1500
+iaxle 2
+iside 1
+LX_H 3975
+H_H 375
+H_CG_SU 520
+LX_AXLE 2780
+LX_CG_SU 1110
+M_SU 1370
+IXX_SU 671.3
+IYY_SU 2315.3
+IZZ_SU 2315.3
+IXZ_SU 0
+*RX 0.700
+*RY 1.300
+*RZ 1.300
+Y_CG_SU 0
+Y_H 0
+IXY_SU 0
+IYZ_SU 0
+Z_LENGTH 1471
+Y_LENGTH 1795
+*HWC_LF 340
+*HWC_RF 340
+*HWC_LR 325
+*HWC_RR 325
+
+symbol_set <<hitch_x>> -3.975
+symbol_set <<hitch_y>> 0
+symbol_set <<hitch_z>> 0.375
+H_WC 325
+iside 2
+H_WC 325
+iaxle 1
+iside 1
+H_WC 340
+iside 2
+H_WC 340
+iaxle 2
+iside 1
+PARSFILE Engine_Mounts\Engine_Mass\EngMass_cc348caf-c99f-465d-8f91-b83ab2a0564a.par
+#BlueLink0 Engine Mounts: Engine Mass and Geometry`Engine Body, 2 Mounts w/ Torq. Rod (V-Eng.)` ` , Engine`EngMass_cc348caf-c99f-465d-8f91-b83ab2a0564a
+
+
+#EMBEDDED_NOTES
+#In this example, "Engine Mount" is selected in the advanced settings. Therefore, the engine (and any rigid parts which move together with the engine, e.g. transmission, clutch/torque converter) is treated as one independent rigid body from the chassis (sprung mass).
+#
+#Engine body location and how the engine is mounted are specified on other screen: Engine Mounts: Engine Mass and Geometry.
+#
+#The sprung mass (kg) on this screen is supposed to be the entire sprung mass including the engine body which is specified on the other screen. The VehicleSim solver automatically subtracts the engine mass from the entire sprung mass in order to not duplicate the engine mass.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; { D-Class } D-Class, Sedan w/ Powertrain Mount
+#Library : Vehicle: Sprung Mass
+#DataSet : D-Class, Sedan w/ Powertrain Mount
+#Category: D-Class
+#FileID  : SprMass_4294a746-652b-41aa-98ee-4a883271fbcc
+#Product : CarSim 2017.1
+#VehCode Rigid frame + engine mount
+
+END

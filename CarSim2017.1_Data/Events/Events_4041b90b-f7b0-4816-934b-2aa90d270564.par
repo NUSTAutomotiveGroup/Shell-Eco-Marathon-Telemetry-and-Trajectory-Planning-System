@@ -1,0 +1,35 @@
+PARSFILE
+#FullDataName Events`D2. Restore State for 80 km/h`Sine with Dwell
+#CheckBox1 1    
+RESET_EVENTS
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl0 >
+#RingCtrl10 1
+#RingCtrl11 4
+*NAME1 T
+*VALUE1 0
+*SPEED 80
+
+#MiscYellow0
+RESTORE_STATE TSTART_SWD + TSTEP
+#ENDMYellow
+
+DEFINE_EVENT T > 0 ; Events\Events_66d82aca-f992-425f-bb09-d018030df90c.par
+#BlueLink0 Events`E. Start Sine with Dwell` Sine with Dwell` , Events`Events_66d82aca-f992-425f-bb09-d018030df90c
+
+
+#EMBEDDED_NOTES
+#Restore the state of the vehicle as it was saved at 80 km/h, ready for the next sine-with-dwell steering input.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Sine with Dwell } D2. Restore State for 80 km/h
+#Library : Events
+#DataSet : D2. Restore State for 80 km/h
+#Category: Sine with Dwell
+#FileID  : Events_4041b90b-f7b0-4816-934b-2aa90d270564
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

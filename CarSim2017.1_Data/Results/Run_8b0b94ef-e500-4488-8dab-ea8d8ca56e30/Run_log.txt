@@ -1,0 +1,279 @@
+Include PARSFILE "C:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Results\Run_8b0b94ef-e500-4488-8dab-ea8d8ca56e30\Run_all.par"
+Used Dataset: Animator: Reference Frame; { Car Tracking } Car X-Y-Z
+Used Dataset: Animator: Camera Setup; { Vehicle Reference } 254 deg. Azimuth, 45 deg. FOV, Veh. Ref.
+Used Dataset: Suspension: Dive Angle (Caster Change); { SLA } SLA - Front
+Used Dataset: Suspension: Longitudinal Movement; { SLA } SLA - Front
+Used Dataset: Suspension: Camber Angle; { SLA } SLA - Front
+Used Dataset: Suspension: Lateral Movement Due to Jounce; { SLA } SLA - Front
+Used Dataset: Suspension: Toe Angle; { SLA } SLA - Front
+Used Dataset: Suspension: Dive Angle (Caster Change); { SLA } SLA - Front
+Used Dataset: Suspension: Longitudinal Movement; { SLA } SLA - Front
+Used Dataset: Suspension: Camber Angle; { SLA } SLA - Front
+Used Dataset: Suspension: Lateral Movement Due to Jounce; { SLA } SLA - Front
+Used Dataset: Suspension: Toe Angle; { SLA } SLA - Front
+Used Dataset: Suspension: Independent System Kinematics; { Exotic } Exotic - Front
+Used Dataset: Suspension: Shock Absorber; Big Car
+Used Dataset: Suspension: Jounce and Rebound Stops; +70 mm / -25 mm
+Used Dataset: Suspension: Shock Absorber; Big Car
+Used Dataset: Suspension: Jounce and Rebound Stops; +70 mm / -25 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 569 N-m/deg
+Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { Exotic } Exotic Racecar - Front
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Custom Variables } Speed Controller Gains
+Used Dataset: Generic VS Commands; { Miscellaneous Custom Controls } Speed Control Variables
+Used Dataset: Generic Table; { Speed Controller: Accel Limits } Controller Gains: KP
+Used Dataset: Generic Table; { Speed Controller: Accel Limits } Controller Gains: KI
+Used Dataset: Generic Table; { Speed Controller: Accel Limits } Controller Gains: KP3
+Used Dataset: Generic Data Group; { Speed Controller Gains } Variable Gains (Vx_err)
+Used Dataset: Animator: Shape File Link; { CS Exotic Car } Exotic Racecar: Front Tire
+Used Dataset: Animator: Shape Assembly; { Tires } Exotic Racecar Front Tire
+Used Dataset: Animator: Sound Modifier; { Tire Lateral Slip Sound Modifiers } Loudness: Lateral Force Effects
+Used Dataset: Animator: Sound Modifier; { Tire Speed Sound Modifiers } Loudness: Lateral Speed Effects
+Used Dataset: Animator: Sound Sample; { Tire Sounds } Lateral Slip
+Used Dataset: Animator: Sound Modifier; { Wheelspin / Lockup Sound Modifiers } Loudness: Longitudinal Force Effects
+Used Dataset: Animator: Sound Modifier; { Tire Speed Sound Modifiers } Loudness: Longitudinal Speed Effects
+Used Dataset: Animator: Sound Sample; { Tire Sounds } Wheelspin / Brake Lockup
+Used Dataset: Animator: Sound Set; { Tire Sounds } Tire Sounds - Scaled to Fz_Ref
+Used Dataset: Tire: Vertical Load vs. Deflection; { Racing } GT Front - 27/68 - 18
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Racing Tires } GT Front - 27/68 - 18
+Used Dataset: Tire: Lateral Force; { Racing Tires } GT Front - 27/68 - 18
+Used Dataset: Tire: Longitudinal Force; { Racing Tires } GT Front - 27/68 - 18
+Used Dataset: Tire: Camber Thrust Coefficient; { Racing Tires } GT Front - 27/68 - 18
+Used Dataset: Tire; { Performance Tires } Exotic Racecar Front - 235/35 19
+Used Dataset: Animator: Shape File Link; { CS Exotic Car } Exotic Racecar: Front Tire
+Used Dataset: Animator: Shape Assembly; { Tires } Exotic Racecar Front Tire
+Used Dataset: Animator: Sound Modifier; { Tire Lateral Slip Sound Modifiers } Loudness: Lateral Force Effects
+Used Dataset: Animator: Sound Modifier; { Tire Speed Sound Modifiers } Loudness: Lateral Speed Effects
+Used Dataset: Animator: Sound Sample; { Tire Sounds } Lateral Slip
+Used Dataset: Animator: Sound Modifier; { Wheelspin / Lockup Sound Modifiers } Loudness: Longitudinal Force Effects
+Used Dataset: Animator: Sound Modifier; { Tire Speed Sound Modifiers } Loudness: Longitudinal Speed Effects
+Used Dataset: Animator: Sound Sample; { Tire Sounds } Wheelspin / Brake Lockup
+Used Dataset: Animator: Sound Set; { Tire Sounds } Tire Sounds - Scaled to Fz_Ref
+Used Dataset: Tire: Vertical Load vs. Deflection; { Racing } GT Front - 27/68 - 18
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Racing Tires } GT Front - 27/68 - 18
+Used Dataset: Tire: Lateral Force; { Racing Tires } GT Front - 27/68 - 18
+Used Dataset: Tire: Longitudinal Force; { Racing Tires } GT Front - 27/68 - 18
+Used Dataset: Tire: Camber Thrust Coefficient; { Racing Tires } GT Front - 27/68 - 18
+Used Dataset: Tire; { Performance Tires } Exotic Racecar Front - 235/35 19
+Used Dataset: Suspension: Longitudinal Movement; { 5-Link Rear } 5-Link - Rear
+Used Dataset: Suspension: Camber Angle; { 5-Link Rear } 5-Link - Rear
+Used Dataset: Suspension: Lateral Movement Due to Jounce; { 5-Link Rear } 5-Link - Rear
+Used Dataset: Suspension: Toe Angle; { 5-Link Rear } 5-Link - Rear
+Used Dataset: Suspension: Longitudinal Movement; { 5-Link Rear } 5-Link - Rear
+Used Dataset: Suspension: Camber Angle; { 5-Link Rear } 5-Link - Rear
+Used Dataset: Suspension: Lateral Movement Due to Jounce; { 5-Link Rear } 5-Link - Rear
+Used Dataset: Suspension: Toe Angle; { 5-Link Rear } 5-Link - Rear
+Used Dataset: Suspension: Independent System Kinematics; { Exotic } Exotic - Rear
+Used Dataset: Suspension: Shock Absorber; Big Car
+Used Dataset: Suspension: Jounce and Rebound Stops; +60 mm / -40 mm
+Used Dataset: Suspension: Shock Absorber; Big Car
+Used Dataset: Suspension: Jounce and Rebound Stops; +60 mm / -40 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 1150 N-m/deg
+Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { Exotic } Exotic Racecar - Rear
+Used Dataset: Animator: Shape File Link; { CS Exotic Car } Exotic Racecar: Rear Tire
+Used Dataset: Animator: Shape Assembly; { Tires } Exotic Racecar Rear Tire
+Used Dataset: Animator: Sound Modifier; { Tire Lateral Slip Sound Modifiers } Loudness: Lateral Force Effects
+Used Dataset: Animator: Sound Modifier; { Tire Speed Sound Modifiers } Loudness: Lateral Speed Effects
+Used Dataset: Animator: Sound Sample; { Tire Sounds } Lateral Slip
+Used Dataset: Animator: Sound Modifier; { Wheelspin / Lockup Sound Modifiers } Loudness: Longitudinal Force Effects
+Used Dataset: Animator: Sound Modifier; { Tire Speed Sound Modifiers } Loudness: Longitudinal Speed Effects
+Used Dataset: Animator: Sound Sample; { Tire Sounds } Wheelspin / Brake Lockup
+Used Dataset: Animator: Sound Set; { Tire Sounds } Tire Sounds - Scaled to Fz_Ref
+Used Dataset: Tire: Vertical Load vs. Deflection; { Racing } GT Rear - 28/71 - 18
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Racing Tires } GT Rear - 28/71 - 18
+Used Dataset: Tire: Lateral Force; { Racing Tires } GT Rear - 28/71 - 18
+Used Dataset: Tire: Longitudinal Force; { Racing Tires } GT Rear - 28/71 - 18
+Used Dataset: Tire: Camber Thrust Coefficient; { Racing Tires } GT Rear - 28/71 - 18
+Used Dataset: Tire; { Performance Tires } Exotic Racecar Rear - 305/30 19
+Used Dataset: Animator: Shape File Link; { CS Exotic Car } Exotic Racecar: Rear Tire
+Used Dataset: Animator: Shape Assembly; { Tires } Exotic Racecar Rear Tire
+Used Dataset: Animator: Sound Modifier; { Tire Lateral Slip Sound Modifiers } Loudness: Lateral Force Effects
+Used Dataset: Animator: Sound Modifier; { Tire Speed Sound Modifiers } Loudness: Lateral Speed Effects
+Used Dataset: Animator: Sound Sample; { Tire Sounds } Lateral Slip
+Used Dataset: Animator: Sound Modifier; { Wheelspin / Lockup Sound Modifiers } Loudness: Longitudinal Force Effects
+Used Dataset: Animator: Sound Modifier; { Tire Speed Sound Modifiers } Loudness: Longitudinal Speed Effects
+Used Dataset: Animator: Sound Sample; { Tire Sounds } Wheelspin / Brake Lockup
+Used Dataset: Animator: Sound Set; { Tire Sounds } Tire Sounds - Scaled to Fz_Ref
+Used Dataset: Tire: Vertical Load vs. Deflection; { Racing } GT Rear - 28/71 - 18
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Racing Tires } GT Rear - 28/71 - 18
+Used Dataset: Tire: Lateral Force; { Racing Tires } GT Rear - 28/71 - 18
+Used Dataset: Tire: Longitudinal Force; { Racing Tires } GT Rear - 28/71 - 18
+Used Dataset: Tire: Camber Thrust Coefficient; { Racing Tires } GT Rear - 28/71 - 18
+Used Dataset: Tire; { Performance Tires } Exotic Racecar Rear - 305/30 19
+Used Dataset: Vehicle: Sprung Mass; { Exotic Car } Exotic Racecar, Mid-Engine
+Used Dataset: Aerodynamics: Fx (Drag) Coef. vs. Bounce and Pitch; { Exotic } Exotic Racecar
+Used Dataset: Aerodynamics: Fy (Side Force) Coef. vs. Bounce and Pitch; No Effect
+Used Dataset: Aerodynamics: Fz (Lift) Coef. vs. Bounce and Pitch; { Exotic } Exotic Racecar
+Used Dataset: Aerodynamics: Mx (Roll Moment) Coef. vs. Bounce and Pitch; No Effect
+Used Dataset: Aerodynamics: My (Pitch Moment) Coef. vs. Bounce and Pitch; { Exotic } Exotic Racecar
+Used Dataset: Aerodynamics: Mz (Yaw Moment) Coef. vs. Bounce and Pitch; No Effect
+Used Dataset: Aerodynamics: Pitch, Bounce, Yaw; { Exotic } Exotic Racecar
+Used Dataset: Animator: Shape File Link; { CS Exotic Car } Exotic Racecar: Body
+Used Dataset: Animator: Shape File Link; { CS Exotic Car } Exotic Racecar: Details
+Used Dataset: Animator: Shape File Link; { CS Exotic Car } Exotic Racecar: Windows
+Used Dataset: Animator: Shape File Link; { CS Exotic Car } Exotic Racecar: Driver
+Used Dataset: Animator: Shape File Link; { CS Exotic Car } Exotic Racecar: Window Net
+Used Dataset: Animator: Shape Assembly; { Exotic Car } Exotic Racear
+Used Dataset: Animator: Sound Modifier; { Wind Sound Modifiers } Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Wind Sound Modifiers } Frequency: Speed Effect
+Used Dataset: Animator: Sound Sample; { Wind Noise } Wind Noise
+Used Dataset: Animator: Sound Set; { Wind Noise } Wind Noise
+Used Dataset: Animator: Shape File Link; { CS Exotic Car } Exotic Racecar: Brake Lights
+Used Dataset: Animator: Vehicles and Sensor Targets; { Sports Vehicles } Exotic Racecar
+Used Dataset: Powertrain: Fuel Consumption Rate; 300 kW Gasoline Engine
+Used Dataset: Animator: Sound Modifier; { Gas Engine Sound Modifiers } Power Off Loudness: Load Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine Sound Modifiers } Power Off Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine Sound Modifiers } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Gas Engine Sounds } 4 Cyl. - Power Off
+Used Dataset: Animator: Sound Modifier; { Gas Engine Sound Modifiers } Power On Loudness: Load Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine Sound Modifiers } Power On Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine Sound Modifiers } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Gas Engine Sounds } 4 Cyl. - Power On
+Used Dataset: Generic Data Group; { Audio Sound Sets } Gasoline Engine (4 Cylinder)
+Used Dataset: Powertrain: Engine; { CS Engine Torque Curves } 300 kW  Engine (GT)
+Used Dataset: Powertrain: Clutch Torque; Maximum 1800 N-m (Linear)
+Used Dataset: Powertrain: Shift Schedule; { 6-speed, MT } 6-speed, 1-2 Shift (MT, Max RPM)
+Used Dataset: Powertrain: Shift Schedule; { 6-speed, MT } 6-speed, 2-3 Shift (MT, Max RPM)
+Used Dataset: Powertrain: Shift Schedule; { 6-speed, MT } 6-speed, 3-4 Shift (MT, Max RPM)
+Used Dataset: Powertrain: Shift Schedule; { 6-speed, MT } 6-speed, 4-5 Shift (MT, Max RPM)
+Used Dataset: Powertrain: Shift Schedule; { 6-speed, MT } 6-speed, 5-6 Shift (MT, Max RPM)
+Used Dataset: Powertrain: Transmission (18 Gears or CVT); 6-Speed Manual (Shift at Max RPM)
+Used Dataset: Powertrain: Rear Differential; { CS Rear Differentials } Viscous - Gear Ratio 3.44
+Used Dataset: Powertrain: Rear Differential; { CS Rear Differentials } Viscous - Gear Ratio 3.44
+Used Dataset: Powertrain: Rear-Wheel Drive; 300 kW, 6-spd., 3.44 Ratio (MT)
+Used Dataset: Brakes: Four-Wheel System; { Exotic } Exotic w/o ABS
+Used Dataset: Steering System: Compliance; Constant: Zero
+Used Dataset: Steering System: Kinematics for 2 Wheels (Rack & Pinion); { Exotic } Exotic
+Used Dataset: Steering System: Compliance; Constant: Zero
+Used Dataset: Steering: Parking Torque for 2 Wheels; Zero
+Used Dataset: Steering; { CS GT } GT: Manual R&P
+Used Dataset: Animator: Reference Frame; { CS GT } GT LF Brake Caliper
+Used Dataset: Animator: Shape File Link; { CS GT } GT: LF Fixed Caliper
+Used Dataset: Animator: Reference Frame; { CS GT } GT RF Brake Caliper
+Used Dataset: Animator: Shape File Link; { CS GT } GT: RF Fixed Caliper
+Used Dataset: Animator: Reference Frame; { CS GT } GT LR Brake Caliper
+Used Dataset: Animator: Shape File Link; { CS GT } GT: LR Fixed Caliper
+Used Dataset: Animator: Reference Frame; { CS GT } GT RR Brake Caliper
+Used Dataset: Animator: Shape File Link; { CS GT } GT: RR Fixed Caliper
+Used Dataset: Animator: Group; { CS GT } GT Brake Calipers
+Used Dataset: Vehicle: Assembly; { Exotic } Exotic Racecar, Mid-Eng.: MT w/ Var. Gains
+Used Dataset: Control: Steering by the Closed-loop Driver Model; { Constant Position } No Offset, 0.5 sec. Preview
+Used Dataset: Control: Clutch Shifting Timelines (Closed Loop); Fast
+Used Dataset: Control: Shifting (Closed Loop); { Closed-Loop Shift and Clutch } Closed-loop Shift and Clutch (All Gears, Fast)
+Used Dataset: Control: Speed (Closed Loop) Using Path Preview; { Aggressive Driving } Race Driving (GT w/ Var. Gains)
+Used Dataset: Path: X-Y Coordinates; { Handling Course } Handling Course Left Edge
+Used Dataset: Road: Reference Line Elevation; { Handling Course } Handling Course
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Handling Course } Handling Course Camber
+Used Dataset: Road: Friction Map, S-L Grid; { Handling Course } 1.0 Asphalt, 1.1 Concrete Surface, 0.75 Grass
+Used Dataset: Road: Animator Surface Shapes; No Machine-Generated Shapes
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Handling Course } Handling Course Curbing
+Used Dataset: Road: Boundaries; { Road Boundary Stop Conditions } Handling Course Edges
+Used Dataset: Animator: Reference Frame; { Road Tracking } Camera Front Point w/o Yaw
+Used Dataset: Animator: Shape File Link; { Skies } Slightly Cloudy Sky
+Used Dataset: Animator: Shape File Link; { Terrain } Complex Land Bowl for Light Grass
+Used Dataset: Animator: Group; { Skies } Slightly Cloudy Sky
+Used Dataset: Animator: Shape File Link; { Terrain } Handling Course OSG
+Used Dataset: Road: Animator Repeated Object; { Handling Course } Handling Course Cones
+Used Dataset: Animator: Shape File Link; { Handling Course } Handling Course Details With Shadows
+Used Dataset: Animator: Shape File Link; { Handling Course } Handling Course Trees OSG
+Used Dataset: Animator: Group; { Handling Course } Handling Course Extra Shapes OSG
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Road: 3D Surface (All Properties); { Handling Roads } Handling Course OSG
+Used Dataset: Path: X-Y Coordinates; { Handling Course } Handling Course Race Line
+Used Dataset: Animator: Shape File Link; { Tire Marks } Skid Mark, Black
+Used Dataset: Animator: Shape File Link; { Tire Marks } Skid Mark, Black
+Used Dataset: Animator: Shape File Link; { Tire Marks } Skid Mark, Black
+Used Dataset: Animator: Shape File Link; { Tire Marks } Skid Mark, Black
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Paths (2 Axle) } Tire Skid Marks (2 Axles)
+Used Dataset: Surface: Roughness Profiles; Example Road Roughness
+Used Dataset: Events; { Stop Conditions } Stop Condition: Record Exactly 1 Lap
+Used Dataset: Animator: Shape File Link; { Primitives } Sphere
+Used Dataset: Animator: Vehicles and Sensor Targets; { Point Indicators } Sphere
+Used Dataset: Animator: Shape File Link; { Primitives } Sphere
+Used Dataset: Animator: Vehicles and Sensor Targets; { Point Indicators } Sphere
+Used Dataset: Animator: Shape File Link; { Primitives } Sphere
+Used Dataset: Animator: Vehicles and Sensor Targets; { Point Indicators } Sphere
+Used Dataset: Animator: Shape File Link; { Primitives } Sphere
+Used Dataset: Animator: Vehicles and Sensor Targets; { Point Indicators } Sphere
+Used Dataset: Animator: Shape File Link; { Primitives } Sphere
+Used Dataset: Animator: Vehicles and Sensor Targets; { Point Indicators } Sphere
+Used Dataset: Animator: Shape File Link; { Primitives } Sphere
+Used Dataset: Animator: Vehicles and Sensor Targets; { Point Indicators } Sphere
+Used Dataset: Animator: Shape File Link; { Primitives } Sphere
+Used Dataset: Animator: Vehicles and Sensor Targets; { Point Indicators } Sphere
+Used Dataset: Animator: Shape File Link; { Primitives } Sphere
+Used Dataset: Animator: Vehicles and Sensor Targets; { Point Indicators } Sphere
+Used Dataset: Animator: Shape File Link; { Primitives } Sphere
+Used Dataset: Animator: Vehicles and Sensor Targets; { Point Indicators } Sphere
+Used Dataset: Animator: Shape File Link; { Primitives } Sphere
+Used Dataset: Animator: Vehicles and Sensor Targets; { Point Indicators } Sphere
+Used Dataset: Multiple Moving Objects; { Points of Interest } 10 Driver Preview Points, Set by DM
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Vehicle Motion } Longitudinal Speed vs. Station
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Longitudinal vs. Lateral Accel.
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Steering } Steering Wheel Angle vs Station
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Controls: Driver } Throttle: Control Input vs Station
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Controls: Driver } Brake Control: Master Cyl. Pressure vs Station
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Forces } Lateral Forces
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Forces } Longitudinal Forces
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Roll Angle of Sprung Masses vs. Station
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Vehicle Sideslip Angle vs. Station
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Aerodynamics and Wind } Aerodynamic Forces
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tracking } Path Curvature vs. Station
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Ground } Ground Slope on Path vs. Station
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Longitudinal Accel. of CG's vs. Station
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Lateral Accel. of CG's vs. Station
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Tracking } Station vs. Time
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Vehicle Sideslip Angle
+Used Dataset: Procedures; { Driver Controls } Handling Course (OSG), Race Driving
+Used Dataset: Animator: HUD; { HUD Groups } Throttle, Brake, G-G, Speedo, and Tach
+Used Dataset: Generic VS Commands; { HUD Gauges } VS Visualizer HUD Handling Course Map
+Used Dataset: Generic VS Commands; { HUD Gauges } VS Visualizer HUD Handling Course Info
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Braking } Wheel Cylinder Pressures
+ Configurable Heads Up Display (HUD) - Handling Course (OSG) with Gauges <VS Visualizer Examples>
+Used Dataset: CarSim Run Control; { VS Visualizer Examples } Configurable Heads Up Display (HUD) - Handling Course (OSG) with Gauges
+
+Time to read input = 0.015
+
+The run stopped at T = 0 because 
+You need a running copy of CarSim Browser or CSLM.exe
+and a CarSim 2017 Beta license to use this math model.
+Please contact your sales agent or Mechanical Simulation
+at www.carsim.com.
+
+

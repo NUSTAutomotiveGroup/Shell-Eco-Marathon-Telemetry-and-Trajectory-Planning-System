@@ -1,0 +1,24 @@
+PARSFILE
+#FullDataName Batch Runs`Unconventional Vehicles`Built-In Solvers
+#CheckBox1 0    
+
+#MiscYellow1
+#<Unconventional Vehicles> Three-wheeled Vehicle
+#<Unconventional Vehicles> Tractor w/ Center Pivot Front Axle
+#<Unconventional Vehicles> Utility Truck
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains the datasets which are in the Non-Car Vehicle Types category
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; { Built-In Solvers } Unconventional Vehicles
+#Library : Batch Runs
+#DataSet : Unconventional Vehicles
+#Category: Built-In Solvers
+#FileID  : BatRun_b1f62ddd-2224-49e7-beec-4dfbcfc6e7b9
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

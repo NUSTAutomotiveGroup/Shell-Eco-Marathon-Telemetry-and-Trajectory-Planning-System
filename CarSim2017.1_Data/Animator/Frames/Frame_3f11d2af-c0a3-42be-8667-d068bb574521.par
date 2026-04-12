@@ -1,0 +1,34 @@
+PARSFILE
+#FullDataName Animator: Reference Frame`LR LCA`Lower Control Arms
+ADD_REFERENCE_FRAME Lower Control Arms LR LCA
+#RingCtrl0 yaw_pitch_roll
+SET_EULER_ANGLES yaw_pitch_roll
+SET_X_NAME x_s3
+SET_Y_NAME y_s3
+SET_Z_NAME z_s3
+SET_ROLL_NAME RolLcaL2
+SET_PITCH_NAME Pitch
+SET_YAW_NAME Yaw
+
+WRT_x_s3
+ANI_x_s3
+WRT_y_s3
+ANI_y_s3
+WRT_z_s3
+ANI_z_s3
+WRT_RolLcaL2
+ANI_RolLcaL2
+WRT_Pitch
+ANI_Pitch
+WRT_Yaw
+ANI_Yaw
+
+LOG_ENTRY Used Dataset: Animator: Reference Frame; { Lower Control Arms } LR LCA
+#Library : Animator: Reference Frame
+#DataSet : LR LCA
+#Category: Lower Control Arms
+#FileID  : Frame_3f11d2af-c0a3-42be-8667-d068bb574521
+#Product : CarSim 2017.1
+#VehCode Reference Frame
+
+END

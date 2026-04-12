@@ -1,0 +1,103 @@
+PARSFILE
+#FullDataName Vehicle: Assembly`Pickup, Compact: RWD`Pickup, Compact
+#VehCode Ind_SA
+#CheckBox0 0    
+#CheckBox1 0    
+
+#RingCtrl0 2
+OPT_PT 2
+#RingCtrl1 1
+#RingCtrl2 3
+#RingCtrl3 0
+
+* Front components
+iaxle 1
+symbol_push  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_b42df0e2-f38e-459d-a72f-a3b5c35d0bf2.par
+#BlueLink19 Suspension: Independent System Kinematics`Pickup, Compact - Front` Pickup` , Kinematics`KinInd_b42df0e2-f38e-459d-a72f-a3b5c35d0bf2
+
+PARSFILE Suspensions\Compliance\CmpInd_a34b2265-f23e-40be-a7d6-c1e225f3fe24.par
+#BlueLink16 Suspension: Independent Compliance, Springs, and Dampers`Pickup, Compact - Front` Pickup` , Compliance`CmpInd_a34b2265-f23e-40be-a7d6-c1e225f3fe24
+
+
+OPT_ALL_FOUR_TIRES_ALIKE 1
+
+* LF tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_eb3b908c-1c0c-493c-9d77-444b7fd44912.par
+#BlueLink999 Tire`215/70 R15` Touring Tires` , Tire`Tire_eb3b908c-1c0c-493c-9d77-444b7fd44912
+
+
+* RF tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_eb3b908c-1c0c-493c-9d77-444b7fd44912.par
+#BlueLink10 Tire`215/70 R15` Touring Tires` , Tire`Tire_eb3b908c-1c0c-493c-9d77-444b7fd44912
+
+* Rear components
+iaxle 2
+symbol_add  <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_AXLE
+PARSFILE Suspensions\Kin_Solid\KinSA_d515c606-c00e-47dc-abdb-91f661b45287.par
+#BlueLink23 Suspension: Solid Axle System Kinematics`Pickup, Compact - Rear` Pickup` , Kinematics`KinSA_d515c606-c00e-47dc-abdb-91f661b45287
+
+PARSFILE Suspensions\Compliance_SA\CmpSA_ca3da429-1395-46b6-9a87-5587e3f77800.par
+#BlueLink22 Suspension: Solid Axle Compliance, Springs, and Dampers`Pickup, Compact - Rear` Pickup` , Compliance`CmpSA_ca3da429-1395-46b6-9a87-5587e3f77800
+
+
+* LR tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_eb3b908c-1c0c-493c-9d77-444b7fd44912.par
+#BlueLink999 Tire`215/70 R15` Touring Tires` , Tire`Tire_eb3b908c-1c0c-493c-9d77-444b7fd44912
+
+
+* RR tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_eb3b908c-1c0c-493c-9d77-444b7fd44912.par
+#BlueLink999 Tire`215/70 R15` Touring Tires` , Tire`Tire_eb3b908c-1c0c-493c-9d77-444b7fd44912
+
+symbol_set <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Vehicles\Sprung_Mass\SprMass_941b5381-94a9-4a8f-a9c0-8ce5857c3c77.par
+#BlueLink0 Vehicle: Sprung Mass`Pickup, Compact` Pickup, Compact` , Sprung Mass`SprMass_941b5381-94a9-4a8f-a9c0-8ce5857c3c77
+
+PARSFILE Aerodynamics\Aero_Main\Aero_5f556566-acbf-4475-b2a2-ddbf30e34a3a.par
+#BlueLink1 Aerodynamics: Basic`Pickup, Compact` Pickup` , Aerodynamics`Aero_5f556566-acbf-4475-b2a2-ddbf30e34a3a
+
+PARSFILE Animator\Vehicles\AniVeh_09994c3b-b9da-4624-9c14-c69c0c438f3f.par
+#BlueLink2 Animator: Vehicles and Sensor Targets`Pickup, Compact` Working Vehicles` , Vehicle 3D Shape`AniVeh_09994c3b-b9da-4624-9c14-c69c0c438f3f
+
+PARSFILE Powertrain\Rwd\RWD_e91083ef-0948-4998-9bff-bab111a8fc9a.par
+#BlueLink4 Powertrain: Rear-Wheel Drive`200 kW, 6-spd., 4.1 Ratio` ` , Powertrain`RWD_e91083ef-0948-4998-9bff-bab111a8fc9a
+
+PARSFILE Brakes\4W_System\Brk4W_741784e7-899e-454b-b6d2-b395135bb215.par
+#BlueLink6 Brakes: Four-Wheel System`Pickup, Compact w/ ABS` Pickup Trucks and SUVs` , Brake System`Brk4W_741784e7-899e-454b-b6d2-b395135bb215
+
+PARSFILE Steering\System2\StrSys2_53515216-2d4d-4852-aacd-4c6ae0bc8dbd.par
+#BlueLink7 Steering`Pickup, Compact: Power, Recirc. Ball` Pickup Trucks and SUVs` , Steering System`StrSys2_53515216-2d4d-4852-aacd-4c6ae0bc8dbd
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_09994c3b-b9da-4624-9c14-c69c0c438f3f.png
+
+#EMBEDDED_NOTES
+#Generic compact pickup truck with an SLA front and a Hotchkiss Solid Axle rear suspension.
+#
+#Compact pickup trucks include the Chevrolet Colorado, Nissan Frontier, and Toyota Tacoma.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Assembly; { Pickup, Compact } Pickup, Compact: RWD
+#Library : Vehicle: Assembly
+#DataSet : Pickup, Compact: RWD
+#Category: Pickup, Compact
+#FileID  : Vehicle_80811179-86e3-4fcf-86ba-13eaa5eb5f0e
+#Product : CarSim 2017.1
+#VehCode Ind_SA
+
+END

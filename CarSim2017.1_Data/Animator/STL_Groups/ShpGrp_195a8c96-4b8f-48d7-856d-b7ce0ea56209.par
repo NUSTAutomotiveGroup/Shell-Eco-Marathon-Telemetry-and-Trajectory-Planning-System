@@ -1,0 +1,43 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`Crew Cab 8 Bed`CS Pickup, Full Size
+*COLOR .251 .314 .243
+*OFFSET_X -2.825
+*OFFSET_Y 0
+*OFFSET_Z 0.375
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_195a8c96-4b8f-48d7-856d-b7ce0ea56209.png
+PARSFILE Animator\STL\Shape_f4aa836a-eed8-4980-81ee-3d7353c3a2e0.par
+#BlueLink0 Animator: Shape File Link`Pickup, Full Size: 8 Box Body` CS Pickup, Full Size` , Shape File`Shape_f4aa836a-eed8-4980-81ee-3d7353c3a2e0
+
+set_offset_x -2.825
+set_offset_y 0
+set_offset_z 0.375
+PARSFILE Animator\STL\Shape_000e380d-a5b8-47a5-8258-4b8770e9a684.par
+#BlueLink1 Animator: Shape File Link`Pickup, Full Size: 8 Box Details` CS Pickup, Full Size` , Shape File`Shape_000e380d-a5b8-47a5-8258-4b8770e9a684
+
+set_offset_x -2.825
+set_offset_y 0
+set_offset_z 0.375
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { CS Pickup, Full Size } Crew Cab 8 Bed
+#Library : Animator: Shape Assembly
+#DataSet : Crew Cab 8 Bed
+#Category: CS Pickup, Full Size
+#FileID  : ShpGrp_195a8c96-4b8f-48d7-856d-b7ce0ea56209
+#Product : CarSim 2017.1
+#VehCode Shape Assembly
+
+END

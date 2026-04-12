@@ -1,0 +1,58 @@
+PARSFILE
+#FullDataName Vehicle with Loads, Sensors, Trailer, etc.`B-Class, Sports Car 2017: w/ Driver and Fuel`
+#VehCode Ind_Ind
+#CheckBox0 0    
+#CheckBox1 0    
+
+symbol_push <<hitch_x>> 0
+symbol_push <<hitch_y>> 0
+symbol_push <<hitch_z>> 0
+iunit 1
+PARSFILE Vehicles\Assembly\Vehicle_e7198cbd-2d8b-48a3-b221-f4b4f079c185.par
+#BlueLink0 Vehicle: Assembly`B-Class, Sports Car 2017` B-Class` , Lead Unit`Vehicle_e7198cbd-2d8b-48a3-b221-f4b4f079c185
+
+ADD_REFERENCE_FRAME LeadUnitPayloads
+SET_EULER_ANGLES YAW_PITCH_ROLL
+SET_X_NAME Xo
+WRT_Xo
+ANI_Xo
+SET_Y_NAME Yo
+WRT_Yo
+ANI_Yo
+SET_Z_NAME Zo
+WRT_Zo
+ANI_Zo
+SET_YAW_NAME Yaw
+WRT_Yaw
+ANI_Yaw
+SET_PITCH_NAME Pitch
+WRT_Pitch
+ANI_Pitch
+SET_ROLL_NAME Roll_E
+WRT_Roll_E
+ANI_Roll_E
+PARSFILE Payloads\Box\Box_5cfc75a9-4a1b-48d9-aa4d-5459e53f38d2.par
+#BlueLink1 Payload: Box Shape`Driver` B-Class, Sports Car Payloads` , Miscellaneous`Box_5cfc75a9-4a1b-48d9-aa4d-5459e53f38d2
+
+PARSFILE Payloads\Box\Box_6ee8a565-0469-4f65-9d83-ffdb8a3f68e8.par
+#BlueLink2 Payload: Box Shape`Fuel` B-Class, Sports Car Payloads` , Miscellaneous`Box_6ee8a565-0469-4f65-9d83-ffdb8a3f68e8
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_4986d2bf-e6a5-4076-b5cc-94a288fa5a6d.png
+
+#EMBEDDED_NOTES
+#This example shows a B-Class sports car with two payloads added to the vehicle's sprung mass: one representing the driver, and one representing the fuel load.
+#
+#
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle with Loads, Sensors, Trailer, etc.; B-Class, Sports Car 2017: w/ Driver and Fuel
+#Library : Vehicle with Loads, Sensors, Trailer, etc.
+#DataSet : B-Class, Sports Car 2017: w/ Driver and Fuel
+#Category: 
+#FileID  : VehLoad_aa47b945-1e61-4f87-ad9a-2ed301c1b205
+#Product : CarSim 2017.1
+#VehCode Ind_Ind
+
+END

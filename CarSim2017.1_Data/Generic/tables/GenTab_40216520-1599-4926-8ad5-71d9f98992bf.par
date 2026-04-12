@@ -1,0 +1,30 @@
+PARSFILE
+#FullDataName Generic Table`EVT Speed Profile - 0 km/h`
+#RingCtrl0 CONSTANT
+#CheckBox0 0    
+
+#MiscYellow0
+ivx_evt_t 1
+#ENDMYellow
+
+vx_evt_t_CONSTANT 0
+_CONSTANT 1
+#RadioCtrl0 1    
+#RadioCtrl1 0    
+
+*KEYWORD vx_evt_t
+*X_LABEL Time
+*Y_LABEL Velocity
+*SCALAR 0
+*SCALAR2 1
+
+
+LOG_ENTRY Used Dataset: Generic Table; EVT Speed Profile - 0 km/h
+#Library : Generic Table
+#DataSet : EVT Speed Profile - 0 km/h
+#Category: 
+#FileID  : GenTab_40216520-1599-4926-8ad5-71d9f98992bf
+#Product : CarSim 2017.1
+#VehCode table
+
+END

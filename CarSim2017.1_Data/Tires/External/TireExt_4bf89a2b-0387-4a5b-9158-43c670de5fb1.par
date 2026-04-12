@@ -1,0 +1,53 @@
+PARSFILE
+#FullDataName Tire (External)`225/60 R18 (Simple TYDEX/STI Model)`User Tire Model
+FZ_REF 30000
+Y_LENGTH 225
+#CheckBox3 1    
+
+#RingCtrl0 11
+#RingCtrl5 0
+OPT_TIRE_MODEL 10
+
+X_LENGTH 364
+Z_LENGTH 364
+PARSFILE Animator\STL_Groups\ShpGrp_d5b55623-3c6f-43ea-b7a0-880a3303d1d2.par
+#BlueLink0 Animator: Shape Assembly`Sports Car` Tires` , Animator`ShpGrp_d5b55623-3c6f-43ea-b7a0-880a3303d1d2
+
+WRITE_WHEEL_OFFSET
+*SET_THICKNESS 225
+*SET_RADIUS 364
+KY_TIRE 956.08
+IT 0
+
+#External API information
+EXTERNAL_TIRE_MODULE_DLL Extensions\User_Tire\vsStiWrapper\vsStiWrapper.dll
+INSTALL_EXTERNAL_TIRE_API
+*3RD_PARTY_DLL Extensions\User_Tire\simple_sti\simple_sti.dll
+*EXT_MODULE_DLL Extensions\User_Tire\vsStiWrapper\vsStiWrapper.dll
+
+#User Tire Model setting data
+USER_STI_DLL Extensions\User_Tire\simple_sti\simple_sti.dll
+PARSFILE Generic\tables\GenTab_f29628c6-465c-42e4-aa23-d94ae54f28da.par
+#BlueLink1 Generic Table`User STI Parameters (TYPARR array)` ` , External`GenTab_f29628c6-465c-42e4-aa23-d94ae54f28da
+
+USER_STI_INIT
+
+#EMBEDDED_NOTES
+#This tire data selects the model option "3rd-Party Tire model STI", which adopts an external tire model and bypass the CarSim internal tire model.  In this option, the external tire model calculates all tire forces and moments, and also searches a tire/ground contact point.
+#
+#The external tire model is based on the TYDEX/STI format and provided by a separate DLL file whose location is specified in the path field of "Tire program file (DLL)." The model involves simple linear calculations.
+#
+#The other DLL file specified in the path field of "VS STI module (DLL)" is the wrapper program based on VS STI format which interfaces between VS vehicle solver and the TYDEX/STI tire model.
+#
+#All tire properties are set in a TYPARR array, which is set in a generic table (root keyword: STI_TYPARR), and the data is linked through Generic Group.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Tire (External); { User Tire Model } 225/60 R18 (Simple TYDEX/STI Model)
+#Library : Tire (External)
+#DataSet : 225/60 R18 (Simple TYDEX/STI Model)
+#Category: User Tire Model
+#FileID  : TireExt_4bf89a2b-0387-4a5b-9158-43c670de5fb1
+#Product : CarSim 2017.1
+#VehCode Tire (External)
+
+END

@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName Batch Runs`Road Networks: Intersections and Roundabouts`Built-In Solvers
+#CheckBox1 0    
+
+#MiscYellow1
+#<Road Networks: Intersections and Roundabouts> Intersection, 3-Way w/ Curbs, Traffic, C-Class
+#<Road Networks: Intersections and Roundabouts> Intersection, 4-Way w/ Curbs, Pickup w/ Trailer
+#<Road Networks: Intersections and Roundabouts> Intersection, 4-Way w/ Flat Roads
+#<Road Networks: Intersections and Roundabouts> Road Network - Roundabouts (Flat)
+#<Road Networks: Intersections and Roundabouts> Roundabout (3D, 36 m), C-Class, Traffic
+#<Road Networks: Intersections and Roundabouts> Roundabout (3D, 36 m), Pickup w/ Trailer
+#<Road Networks: Intersections and Roundabouts> Roundabout (3D, 36 m), Visible Boundaries
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains the datasets which are in the Road Networks: Intersections and Roundabouts category
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; { Built-In Solvers } Road Networks: Intersections and Roundabouts
+#Library : Batch Runs
+#DataSet : Road Networks: Intersections and Roundabouts
+#Category: Built-In Solvers
+#FileID  : BatRun_30d4b990-0502-4e25-b496-c75fe2b1c3e2
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

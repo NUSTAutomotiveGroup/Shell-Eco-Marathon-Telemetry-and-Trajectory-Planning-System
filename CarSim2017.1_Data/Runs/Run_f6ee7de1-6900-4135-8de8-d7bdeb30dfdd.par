@@ -1,0 +1,71 @@
+PARSFILE
+#FullDataName CarSim Run Control`Roll Sine Sweep`Suspension and Ride Tests
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_f6ee7de1-6900-4135-8de8-d7bdeb30dfdd
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_5feacfa5-2cee-4705-8aee-f5baa805e553.par
+#BlueLink0 Animator: Camera Setup`FL View, Road Ref. (Rr. Facing)` Road Reference` , Animator camera`Camera_5feacfa5-2cee-4705-8aee-f5baa805e553
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 1 0.6 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_b7ee4c2f-6a9f-42e2-9c96-65096d95bffb.par
+#BlueLink2 Vehicle with Loads, Sensors, Trailer, etc.`D-Class, Sedan 2017: w/ 5 Sensors` D-Class` , Vehicle Configuration`VehLoad_b7ee4c2f-6a9f-42e2-9c96-65096d95bffb
+
+PARSFILE Procedures\Proc_fce62114-6e9d-4cc6-90ff-2244a4447571.par
+#BlueLink28 Procedures`Cross Slope Sine Sweep Test` Ride Tests` , Procedure`Proc_fce62114-6e9d-4cc6-90ff-2244a4447571
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_4c0e86ee-c21f-408d-8b23-6643df4bf3f4.png
+WRITE_SENSOR_DETECT
+Title Roll Sine Sweep <Suspension and Ride Tests>
+CATEGORY Suspension and Ride Tests 
+DATASET_TITLE Roll Sine Sweep
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#A synthesized cross slope sine sweep road is used to excite the ride dynamics of a vehicle.
+#
+#The vehicle linked to this example is the D-Class sedan with five acceleration and rate sensors. The acceleration and rate sensors simulate the accelerometers and rate sensors you would instrument a test vehicle with.
+#
+#You can use the plots and animation to analyze the results of this test to study and understand the effects this type of road has on the tire and damper forces, suspension behavior, etc.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Suspension and Ride Tests } Roll Sine Sweep
+#Library : CarSim Run Control
+#DataSet : Roll Sine Sweep
+#Category: Suspension and Ride Tests
+#FileID  : Run_f6ee7de1-6900-4135-8de8-d7bdeb30dfdd
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

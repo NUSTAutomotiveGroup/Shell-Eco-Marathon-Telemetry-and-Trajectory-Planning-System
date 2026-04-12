@@ -1,0 +1,63 @@
+PARSFILE
+#FullDataName Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip`D-Class, Sedan`
+#CheckBox0 0    
+
+#RingCtrl0 SPLINE
+#RadioCtrl0 0    
+
+#DiagramOne0
+MZ_AERO_SHAPING_TABLE SPLINE
+-180, 0
+-170, 0.012539257
+-160, 0.024697515
+-150, 0.036105352
+-140, 0.046416146
+-130, 0.055316608
+-120, 0.062536304
+-110, 0.067855865
+-100, 0.071113661
+-90, 0.072210704
+-80, 0.071113661
+-70, 0.067855865
+-60, 0.062536304
+-50, 0.055316608
+-40, 0.046416146
+-30, 0.036105352
+-20, 0.024697515
+-10, 0.012539257
+0, 0
+10, -0.012539257
+20, -0.024697515
+30, -0.036105352
+40, -0.046416146
+50, -0.055316608
+60, -0.062536304
+70, -0.067855865
+80, -0.071113661
+90, -0.072210704
+100, -0.071113661
+110, -0.067855865
+120, -0.062536304
+130, -0.055316608
+140, -0.046416146
+150, -0.036105352
+160, -0.024697515
+170, -0.012539257
+180, 0
+ENDTABLE
+*SCALAR 0
+
+
+#EMBEDDED_NOTES
+#In CarSim versions 7.01b and earlier, CMz data had an incorrect sign that has been corrected in this dataset.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip; D-Class, Sedan
+#Library : Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip
+#DataSet : D-Class, Sedan
+#Category: 
+#FileID  : AirCMz_87d50646-4d40-4906-98bf-d34d301eaacb
+#Product : CarSim 2017.1
+#VehCode Mz vs. Aero Slip
+
+END

@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Plot: Setup`Longitudinal Speed vs. t_stamp`Vehicle Motion
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Vx, t_stamp
+PLOTCHANNELS VxTarget, t_stamp
+PLOTCHANNELS Vx_2, t_stamp
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Longitudinal Speed vs. t_stamp
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Vehicle Motion } Longitudinal Speed vs. t_stamp
+#Library : Plot: Setup
+#DataSet : Longitudinal Speed vs. t_stamp
+#Category: Vehicle Motion
+#FileID  : Plot_f2f65e8a-3208-4057-9d62-44b92d7f5e4b
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

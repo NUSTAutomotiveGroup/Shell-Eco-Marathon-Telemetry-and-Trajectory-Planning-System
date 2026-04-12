@@ -1,0 +1,426 @@
+Include PARSFILE "Results\Run_ee0fded7-92b7-45c4-b54f-6a767405da5b\Run_all.par"
+Used Dataset: Animator: Reference Frame; { Car Tracking } Car X-Y-Z
+Used Dataset: Animator: Camera Setup; { Vehicle Reference } 350 deg. Azimuth, Veh. Ref.
+Used Dataset: Suspension: Dive Angle (Caster Change); SLA - Front
+Used Dataset: Suspension: Longitudinal Movement; SLA - Front
+Used Dataset: Suspension: Camber Angle; SLA - Front
+Used Dataset: Suspension: Lateral Movement Due to Jounce; SLA - Front
+Used Dataset: Suspension: Toe Angle; SLA - Front
+Used Dataset: Suspension: Dive Angle (Caster Change); SLA - Front
+Used Dataset: Suspension: Longitudinal Movement; SLA - Front
+Used Dataset: Suspension: Camber Angle; SLA - Front
+Used Dataset: Suspension: Lateral Movement Due to Jounce; SLA - Front
+Used Dataset: Suspension: Toe Angle; SLA - Front
+Used Dataset: Suspension: Independent System Kinematics; { European Van } Large European Van - Front
+Used Dataset: Suspension: Shock Absorber; Big SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +150 mm / -110 mm
+Used Dataset: Suspension: Shock Absorber; Big SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +150 mm / -110 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 510 N-m/deg
+Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { Pickup } Pickup, Full Size - Front
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Tire
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Rotor
+Used Dataset: Animator: Shape Assembly; { Tires } Big SUV
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Lateral Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 265/75 R16
+Used Dataset: Tire; { Touring Tires } 265/75 R16
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Tire
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Rotor
+Used Dataset: Animator: Shape Assembly; { Tires } Big SUV
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Lateral Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 265/75 R16
+Used Dataset: Tire; { Touring Tires } 265/75 R16
+Used Dataset: Suspension: Longitudinal Movement; Hotchkiss - Rear
+Used Dataset: Suspension: Lateral Movement Due to Roll and Jounce; Hotchkiss - Rear
+Used Dataset: Suspension: Roll Steer (Solid Axle); Spline: 0.15 deg/deg
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Rear Solid Drive Axle
+Used Dataset: Suspension: Solid Axle System Kinematics; Large European Van - Rear
+Used Dataset: Suspension: Spring; { Pickup } Pickup - Rear (HD)
+Used Dataset: Suspension: Shock Absorber; Big SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +150 mm / -110 mm
+Used Dataset: Suspension: Spring; { Pickup } Pickup - Rear (HD)
+Used Dataset: Suspension: Shock Absorber; Big SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +150 mm / -110 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 510 N-m/deg
+Used Dataset: Suspension: Solid Axle Compliance, Springs, and Dampers; { Pickup } Pickup, Full Size - Rear
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Tire
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Rotor
+Used Dataset: Animator: Shape Assembly; { Tires } Big SUV
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Lateral Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 265/75 R16
+Used Dataset: Tire; { Touring Tires } 265/75 R16
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Tire
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Rotor
+Used Dataset: Animator: Shape Assembly; { Tires } Big SUV
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Lateral Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 265/75 R16
+Used Dataset: Tire; { Touring Tires } 265/75 R16
+Used Dataset: Vehicle: Sprung Mass; { European Van } Large European Van
+Used Dataset: Aerodynamics: Fx (Drag) Coef. vs. Aero Slip; 0.30 at 0 Degrees
+Used Dataset: Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip; 0.5 at 90 deg
+Used Dataset: Aerodynamics: Fz (Lift) Coef. vs. Aero Slip; 0.18 at 0 Degrees
+Used Dataset: Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip; 0.3 at 90 deg
+Used Dataset: Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip; -0.15 at 0 Degrees
+Used Dataset: Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip; 0.05 at 90 deg
+Used Dataset: Aerodynamics: Basic; D-Class, Minivan
+Used Dataset: Animator: Shape File Link; { CS European Van } Large European Van: Body
+Used Dataset: Animator: Shape File Link; { CS European Van } Large European Van: Lights
+Used Dataset: Animator: Shape File Link; { CS European Van } Large European Van: Details
+Used Dataset: Animator: Shape File Link; { CS European Van } Large European Van: Front Windows
+Used Dataset: Animator: Shape File Link; { CS European Van } Large European Van: Front Window Trim
+Used Dataset: Animator: Shape File Link; { CS European Van } Large European Van: Rear Windows
+Used Dataset: Animator: Shape File Link; { CS European Van } Large European Van: Rear Window Trim
+Used Dataset: Animator: Shape File Link; { CS European Van } Large European Van: Seats
+Used Dataset: Animator: Shape File Link; { CS European Van } Large European Van: Steering Wheel
+Used Dataset: Animator: Shape File Link; { CS European Van } Large European Van: Driver
+Used Dataset: Animator: Shape Assembly; { CS European Van } Large European Van
+Used Dataset: Animator: Sound Modifier; { Wind } Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Wind } Frequency: Speed Effect
+Used Dataset: Animator: Sound Sample; Wind Noise
+Used Dataset: Animator: Sound Set; Wind Noise
+Used Dataset: Animator: Shape File Link; { CS European Van } Large European Van: Brake Lights
+Used Dataset: Animator: Vehicles and Sensor Targets; { Working Vehicles } Large European Van
+Used Dataset: Animator: Sound Modifier; { Diesel Engine } Power Off Loudness: Load Effect
+Used Dataset: Animator: Sound Modifier; { Diesel Engine } Power Off Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Diesel Engine } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Diesel Engine } Diesel 6 Cyl. - Power Off
+Used Dataset: Animator: Sound Modifier; { Diesel Engine } Power On Loudness: Load Effect
+Used Dataset: Animator: Sound Modifier; { Diesel Engine } Power On Loudness: Speed Effect
+WARNING: DEFINE_OUTPUT did not add a variable because the keyword "F_MOD" was already in use.
+Used Dataset: Animator: Sound Modifier; { Diesel Engine } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Diesel Engine } Diesel 6 Cyl. - Power On
+Used Dataset: Generic Data Group; { Audio Sound Sets } Diesel Engine (6 Cylinder)
+Used Dataset: Powertrain: Engine; 270 kW Diesel Engine
+Used Dataset: Powertrain: Torque Converter; Torque Converter for 270 kW Diesel Engine
+Used Dataset: Powertrain: Shift Schedule; { 6-speed, Diesel } 6-speed, 1-2 Shift (Diesel)
+Used Dataset: Powertrain: Shift Schedule; { 6-speed, Diesel } 6-speed, 2-3 Shift (Diesel)
+Used Dataset: Powertrain: Shift Schedule; { 6-speed, Diesel } 6-speed, 3-4 Shift (Diesel)
+Used Dataset: Powertrain: Shift Schedule; { 6-speed, Diesel } 6-speed, 4-5 Shift (Diesel)
+Used Dataset: Powertrain: Shift Schedule; { 6-speed, Diesel } 6-speed, 5-6 Shift (Diesel)
+Used Dataset: Powertrain: Transmission (18 Gears or CVT); 6-Speed for Diesel
+Used Dataset: Powertrain: Rear Differential; Open: Gear Ratio 4.1
+Used Dataset: Powertrain: Rear Differential; Open: Gear Ratio 4.1
+Used Dataset: Powertrain: Rear-Wheel Drive; 270 kW Diesel, 6-spd., 4.1 Ratio
+Used Dataset: Brakes: Proportioning / Limiting Valve; Unity until 2.0MPa then 30%
+Used Dataset: Brakes: Proportioning / Limiting Valve; Unity until 2.0MPa then 30%
+Used Dataset: Brakes: Four-Wheel System; { Pickup Trucks and SUVs } Pickup, Full Size w/ ABS
+Used Dataset: Steering System: Compliance; Constant: Zero
+Used Dataset: Steering System: Kinematics for 2 Wheels (Recirc. Ball); Pickup, Full Size
+Used Dataset: Steering: Power Assist Torque; 300 N-m Maximum
+Used Dataset: Steering System: Compliance; { Constant } Constant: 0.002 deg/N-m
+Used Dataset: Steering: Parking Torque for 2 Wheels; Zero
+Used Dataset: Steering; { Pickup Trucks and SUVs } Pickup, Full Size: Power, Recirc. Ball
+Used Dataset: Vehicle: Assembly; { European Van } Large European Van
+Used Dataset: Animator: Shape File Link; { Payloads } Crate for Large Euro. Van
+Used Dataset: Payload: Custom; Crate for Large Euro. Van
+Used Dataset: Suspension: Shock Absorber; Small SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +120 mm / -60 mm
+Used Dataset: Suspension: Shock Absorber; Small SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +120 mm / -60 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; Load Dependent: Trailer
+Used Dataset: Suspension: Solid Axle Compliance, Springs, and Dampers; { Trailers } Rental Trailer
+Used Dataset: Suspension: Lateral Movement Due to Roll and Jounce; Roll Center: 100 mm Below Axle
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Straight Axle
+Used Dataset: Suspension: Solid Axle System Kinematics; { Trailers } Rental Trailer
+Used Dataset: Animator: Shape File Link; { Tires } Trailer Tire
+Used Dataset: Animator: Shape File Link; { Tires } Trailer Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Trailer Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Trailer Nut
+Used Dataset: Animator: Shape Assembly; { Tires } Trailer Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; Trailer - 235/80 R16
+Used Dataset: Tire: Lateral Force; Trailer - 235/80 R16
+Used Dataset: Tire: Longitudinal Force; Trailer - 235/80  R16
+Used Dataset: Tire: Camber Thrust Coefficient; Trailer - 235/80 R16
+Used Dataset: Tire; Trailer - 235/80 R16
+Used Dataset: Animator: Shape File Link; { Tires } Trailer Tire
+Used Dataset: Animator: Shape File Link; { Tires } Trailer Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Trailer Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Trailer Nut
+Used Dataset: Animator: Shape Assembly; { Tires } Trailer Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; Trailer - 235/80 R16
+Used Dataset: Tire: Lateral Force; Trailer - 235/80 R16
+Used Dataset: Tire: Longitudinal Force; Trailer - 235/80  R16
+Used Dataset: Tire: Camber Thrust Coefficient; Trailer - 235/80 R16
+Used Dataset: Tire; Trailer - 235/80 R16
+Used Dataset: Brakes: Trailer Two-Wheel System; No Brakes
+Used Dataset: Vehicle: Trailer Sprung Mass; 1A Trailer (Rental)
+Used Dataset: Aerodynamics: Basic; No Aerodynamics
+Used Dataset: Animator: Shape File Link; { Trailer: Rental, 1A } Rental Trailer: Details
+Used Dataset: Animator: Shape File Link; { Trailer: Rental, 1A } Rental Trailer: Stripe
+Used Dataset: Animator: Shape File Link; { Trailer: Rental, 1A } Rental Trailer: Walls
+Used Dataset: Animator: Shape Assembly; { Trailers } 1A Large Rental Trailer
+Used Dataset: Animator: Shape File Link; { Trailer: Rental, 1A } Large Rental Trailer: Brake Lights On
+Used Dataset: Animator: Vehicles and Sensor Targets; 1A Rental Trailer
+Used Dataset: Hitch: Roll Moment; Constant: Zero
+Used Dataset: Hitch: Pitch Moment; 90-90 Deg. Lash
+Used Dataset: Hitch: Yaw Moment; 140 Deg. Lash
+Used Dataset: Animator: Shape File Link; { Trailer Hitches } Ball Hitch
+Used Dataset: Hitch: Joint Assembly; Ball
+Used Dataset: Vehicle: Trailer with 1 Axle; 1A Rental Trailer
+Used Dataset: Payload: Box Shape; Rental Trailer
+Used Dataset: Vehicle with Loads, Sensors, Trailer, etc.; { European Van } Large European Van w/ Trailer
+ Straight East <Straight>
+Used Dataset: Path: Segment Builder; { Straight } Straight East
+Used Dataset: Road: Friction Map, S-L Grid; { Constant } Constant: 0.9
+Used Dataset: Road: Animator Surface Shapes; { Roads } 1 km Square w/ Line
+Used Dataset: Animator: Reference Frame; Skybox (Vehicle Reference)
+Used Dataset: Animator: Shape File Link; { Skies } Partly Cloudy Sky
+Used Dataset: Animator: Shape File Link; { Terrain } Complex Land Bowl for Light Grass
+Used Dataset: Animator: Group; { Skies } Partly Cloudy Sky
+Used Dataset: Road: Animator Repeated Object; { Cones } 2 Cones at S=3
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Road: 3D Surface (All Properties); { Flat Test Pads } 1 km Square w/ Cones, Mu = 0.9
+Used Dataset: Road: Friction Map, S-L Grid; { Constant } Constant: 0.9
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for X (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Side View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fx 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for X (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Side View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fx 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for X (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Side View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fx 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for X (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Side View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fx 3D Arrow (Tail Origin)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Force Arrows (2 Axles) } 2A - Fx Tire Force Arrows
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Y (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fy 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Y (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fy 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Y (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fy 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Y (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fy 3D Arrow (Tail Origin)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Force Arrows (2 Axles) } 2A - Fy Tire Force Arrows
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Z (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Side View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fz 3D, Offset (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Z (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Side View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fz 3D, Offset (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Z (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Side View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fz 3D, Offset (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Z (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Side View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fz 3D, Offset (Tail Origin)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Force Arrows (2 Axles) } 2A - Fz Tire Force Arrows
+Used Dataset: Generic Data Group; { Tire Force Arrows } 2 Axle - Fx, Fy, Fz
+Used Dataset: Control: Throttle (Open Loop); { Constant } Constant: 0.5
+Used Dataset: Control: Braking MC Pressure (Open Loop); { Constant } Constant: 0 MPa
+Used Dataset: Control: Steering (Open Loop); Constant: Zero Degrees
+Used Dataset: Control: Shifting (Closed Loop); AT All Gears
+Used Dataset: Events; { Go to Constant Speed } A. Go to 80 km/h Speed and Settle
+Used Dataset: Events; { Slowly Increasing Steer Test } A. Wait to Start Slowly Increasing Steer
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Fishhook } Vertical Tire Force Sums
+Used Dataset: Generic VS Commands; { Miscellaneous Custom Output Variables } Define Fishhook Variables
+Used Dataset: Events; { Fishhook with Roll Rate Feedback } A. Wait to start Fishhook
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Sine with Dwell } Steer Angle vs. Event Elapsed Time
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Fishhook } Roll Rate vs. Event Elapsed Time
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Fishhook } Roll Angle of Sprung Masses
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Controls: Driver } Steering: Handwheel Angle
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Forces } Vertical Forces
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Vehicle Motion } Longitudinal Speed
+Used Dataset: Procedures; { Stability Testing } Fishhook Procedure
+Used Dataset: Animator: Shape File Link; { Tires } Skid Mark, Black
+Used Dataset: Animator: Shape File Link; { Tires } Skid Mark, Black
+Used Dataset: Animator: Shape File Link; { Tires } Skid Mark, Black
+Used Dataset: Animator: Shape File Link; { Tires } Skid Mark, Black
+Used Dataset: Animator: Shape File Link; { Tires } Skid Mark, Black
+Used Dataset: Animator: Shape File Link; { Tires } Skid Mark, Black
+Used Dataset: Animator: Wheel Arrows and Other Indicators; Tire Skid Marks (3 Axles)
+ Fishhook Procedure: Van w/ Trailer <Trailers (Extra License Needed)>
+Used Dataset: CarSim Run Control; { Trailers (Extra License Needed) } Fishhook Procedure: Van w/ Trailer
+
+Time to read input = 0.091
+Function L_RELAX_X_FZ_TABLE(1,2,1) extrapolated (out of range HIGH) for X = 1.03005 N at T = 0
+Function L_RELAX_X_FZ_TABLE(1,2,2) extrapolated (out of range HIGH) for X = 1.03005 N at T = 0
+Function F_REB_STOP_TABLE(1,1,1) extrapolated (out of range HIGH) for X = 3.14895 mm at T = 0
+Function F_JNC_STOP_TABLE(1,1,1) extrapolated (out of range LOW) for X = 3.14895 mm at T = 0
+Function F_REB_STOP_TABLE(1,1,2) extrapolated (out of range HIGH) for X = 3.14895 mm at T = 0
+Function F_JNC_STOP_TABLE(1,1,2) extrapolated (out of range LOW) for X = 3.14895 mm at T = 0
+Function F_JNC_STOP_TABLE(1,2,1) extrapolated (out of range LOW) for X = 56.1158 mm at T = 0
+Function F_REB_STOP_TABLE(1,2,1) extrapolated (out of range HIGH) for X = 56.1158 mm at T = 0
+Function F_JNC_STOP_TABLE(1,2,2) extrapolated (out of range LOW) for X = 56.1158 mm at T = 0
+Function F_REB_STOP_TABLE(1,2,2) extrapolated (out of range HIGH) for X = 56.1158 mm at T = 0
+Function F_JNC_STOP_TABLE(2,1,1) extrapolated (out of range LOW) for X = 20.4305 mm at T = 0
+Function F_REB_STOP_TABLE(2,1,1) extrapolated (out of range HIGH) for X = 20.4305 mm at T = 0
+Function F_JNC_STOP_TABLE(2,1,2) extrapolated (out of range LOW) for X = 20.4305 mm at T = 0
+Function F_REB_STOP_TABLE(2,1,2) extrapolated (out of range HIGH) for X = 20.4305 mm at T = 0
+
+Run started: ERD output file = Results\Run_ee0fded7-92b7-45c4-b54f-6a767405da5b\LastRun.bin
+Function M_BOOST_G_CARPET extrapolated (out of range LOW) for XCOL = -6.04921e-06 km/h at T = 0.0005
+Function MX_AUX_CARPET(2,1) extrapolated (out of range LOW) for X = -1.05612e-17 deg at T = 0.001
+Function FY_TIRE_CARPET(1,2,2) extrapolated (out of range HIGH) for X = 26.1097 deg at T = 0.5865
+Function MZ_TIRE_CARPET(1,2,2) extrapolated (out of range HIGH) for X = 26.1097 deg at T = 0.5865
+
+Event encountered at t = 10.848: VX > 80 km/h
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_f0085771-0c61-4aad-be3a-1843ce02cd1f.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Throttle\Throttle_768d3744-c109-4ff7-a65b-3b0bea560117.par"
+Used Dataset: Control: Throttle (Open Loop); { Constant } Constant: 0
+Used Dataset: Events; { Go to Constant Speed } B. Let Speed Settle
+
+Event encountered at t = 13.848: T_EVENT > 3 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_5377f4e6-2fc4-40eb-bdc6-095e7c1efd79.par"
+Used Dataset: Events; { Go to Constant Speed } C. Speed Initialization is Done
+
+Event encountered at t = 13.849: INIT_DONE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_491832b9-0178-41d1-9090-683cf90e1c82.par"
+Used Dataset: Events; { Slowly Increasing Steer Test } B. Slowly Increasing Steer to Ay = 0.3 g
+
+Event encountered at t = 16.793: AY >= 0.3 g
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_d366896b-3b28-42cf-b222-ec2cfa87ba74.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_d02d6236-3489-4162-b8b9-953cdc586f4c.par"
+Used Dataset: Control: Steering (Open Loop); Constant: Zero Degrees
+Used Dataset: Events; { Slowly Increasing Steer Test } C. Set Reference Steering Wheel Angle
+
+Event encountered at t = 19.794: T_EVENT > 3 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_1574a9da-70d2-4a3a-b0e6-816d7f7d1d59.par"
+Used Dataset: Events; { Slowly Increasing Steer Test } D. Slowly Decreasing Steer to Ay = -0.3g
+
+Event encountered at t = 22.675: AY <= -0.3 g
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_2c9d3292-4fbe-401b-8cfa-520aeb21a109.par"
+Used Dataset: Events; { Slowly Increasing Steer Test } E. Revise Reference Steering Wheel Angle
+
+Event encountered at t = 22.676: SLOW_STEER_DONE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_709edbcc-6812-4629-9d36-16dedb024adc.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_d02d6236-3489-4162-b8b9-953cdc586f4c.par"
+Used Dataset: Control: Steering (Open Loop); Constant: Zero Degrees
+Used Dataset: Events; { Fishhook with Roll Rate Feedback } B. Let Vehicle Settle for Next Fishhook
+
+Event encountered at t = 23.397: VX > 51 mi/h
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_4c2975e8-96ce-4252-b376-a55c45f010e0.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Throttle\Throttle_768d3744-c109-4ff7-a65b-3b0bea560117.par"
+Used Dataset: Control: Throttle (Open Loop); { Constant } Constant: 0
+Used Dataset: Events; { Fishhook with Roll Rate Feedback } C. Coast Down Before Fishhook
+
+Event encountered at t = 27.016: VX < 50 mi/h
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_d76c6a16-ede1-4b13-838a-eab991578e07.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_2d0da4df-76c7-4152-888c-22d8fbe26c9c.par"
+Used Dataset: Control: Steering (Open Loop); { Ramp } Fishhook Steer Ramp: 720 deg/s
+Used Dataset: Events; { Fishhook with Roll Rate Feedback } D. Initial Steer Ramp
+
+Event encountered at t = 27.098: ROLL_RATE_CHECK < 1.51099 deg/s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_21396413-48ab-48f1-81cb-8cefec1cc1b2.par"
+Used Dataset: Events; { Fishhook with Roll Rate Feedback } E. Watch for Peak Roll
+Function KGAMMA_TABLE(1,2,2) extrapolated (out of range HIGH) for X = 15697 N at T = 27.258
+
+Event encountered at t = 27.422: ROLL_RATE_CHECK > 1.45868 deg/s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_07572f0d-b5b7-4fe6-b03a-44c880c25973.par"
+Used Dataset: Events; { Fishhook with Roll Rate Feedback } F. Reverse Steer
+Function KGAMMA_TABLE(1,2,1) extrapolated (out of range HIGH) for X = 15697.5 N at T = 28.5195
+Function MZ_TIRE_CARPET(1,2,1) extrapolated (out of range HIGH) for XCOL = 15697.5 N at T = 28.5195
+Function FY_TIRE_CARPET(1,1,2) extrapolated (out of range HIGH) for X = 26.0274 deg at T = 28.863
+Function MZ_TIRE_CARPET(1,1,2) extrapolated (out of range HIGH) for X = 26.0274 deg at T = 28.863
+Function FY_TIRE_CARPET(1,1,1) extrapolated (out of range HIGH) for X = 26.0203 deg at T = 28.91
+Function MZ_TIRE_CARPET(1,1,1) extrapolated (out of range HIGH) for X = 26.0203 deg at T = 28.91
+Function FY_TIRE_CARPET(1,2,1) extrapolated (out of range HIGH) for X = 26.0107 deg at T = 28.9515
+Function FY_TIRE_CARPET(2,1,1) extrapolated (out of range HIGH) for X = 25.5015 deg at T = 29.526
+Function MZ_TIRE_CARPET(2,1,1) extrapolated (out of range HIGH) for X = 25.5015 deg at T = 29.526
+Function FY_TIRE_CARPET(2,1,2) extrapolated (out of range HIGH) for X = 29.9446 deg at T = 29.5905
+Function MZ_TIRE_CARPET(2,1,2) extrapolated (out of range HIGH) for X = 29.9446 deg at T = 29.5905
+
+Event encountered at t = 31.132: T_STAMP > 31.1319 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_b73f53f2-3ede-4689-acea-c3c269721e6c.par"
+Used Dataset: Events; { Fishhook with Roll Rate Feedback } G. Check for Reversing Steer Direction
+
+Event encountered at t = 31.133: SWA_SIGN > 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_c10dd0d8-5c0e-4d0d-bbe5-84c458eaa65a.par"
+Used Dataset: Events; { Fishhook with Roll Rate Feedback } I. Finished First Set (Left-Hand Starts)
+
+Event encountered at t = 31.134: T_STAMP > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_709edbcc-6812-4629-9d36-16dedb024adc.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_d02d6236-3489-4162-b8b9-953cdc586f4c.par"
+Used Dataset: Control: Steering (Open Loop); Constant: Zero Degrees
+Used Dataset: Events; { Fishhook with Roll Rate Feedback } B. Let Vehicle Settle for Next Fishhook
+Function MZ_HITCH_TABLE extrapolated (out of range LOW) for X = -71.011 deg at T = 32.928
+
+Event encountered at t = 43.487: VX > 51 mi/h
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_4c2975e8-96ce-4252-b376-a55c45f010e0.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Throttle\Throttle_768d3744-c109-4ff7-a65b-3b0bea560117.par"
+Used Dataset: Control: Throttle (Open Loop); { Constant } Constant: 0
+Used Dataset: Events; { Fishhook with Roll Rate Feedback } C. Coast Down Before Fishhook
+
+Event encountered at t = 47.875: VX < 50 mi/h
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_d76c6a16-ede1-4b13-838a-eab991578e07.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_2d0da4df-76c7-4152-888c-22d8fbe26c9c.par"
+Used Dataset: Control: Steering (Open Loop); { Ramp } Fishhook Steer Ramp: 720 deg/s
+Used Dataset: Events; { Fishhook with Roll Rate Feedback } D. Initial Steer Ramp
+
+Event encountered at t = 47.957: ROLL_RATE_CHECK < 1.50975 deg/s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_21396413-48ab-48f1-81cb-8cefec1cc1b2.par"
+Used Dataset: Events; { Fishhook with Roll Rate Feedback } E. Watch for Peak Roll
+
+Event encountered at t = 48.293: ROLL_RATE_CHECK > 1.49314 deg/s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_07572f0d-b5b7-4fe6-b03a-44c880c25973.par"
+Used Dataset: Events; { Fishhook with Roll Rate Feedback } F. Reverse Steer
+
+Event encountered at t = 52.003: T_STAMP > 52.0029 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_b73f53f2-3ede-4689-acea-c3c269721e6c.par"
+Used Dataset: Events; { Fishhook with Roll Rate Feedback } G. Check for Reversing Steer Direction
+
+Event encountered at t = 52.004: SWA_SIGN < 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_5c4a06ba-3bae-4ebf-8c08-508560468d0b.par"
+Used Dataset: Events; { Fishhook with Roll Rate Feedback } J. Finished Second Set (Right-Hand Starts)
+
+Event encountered at t = 52.005: T_STAMP > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_b5af09b5-d8ad-4e81-ae24-eebce691780e.par"
+
+Run stopped at t = 52.005. VS Command STOP_RUN_NOW End event triggered
+Used Dataset: Events; End Events
+
+Computational efficiency: RTIME = 0.136814 sec/sim. sec
+

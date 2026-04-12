@@ -1,0 +1,25 @@
+PARSFILE
+#FullDataName Batch Runs`Mcity`* 2017: New Examples
+#CheckBox1 0    
+
+#MiscYellow1
+#<* CS 2017 - Mcity> Mcity Proving Grounds
+#<* CS 2017 - Mcity> Mcity Proving Grounds: Outside Loop
+#<* CS 2017 - Mcity> Mcity: ADAS - Cross Traffic (Baseline)
+#<* CS 2017 - Mcity> Mcity: ADAS - Cross Traffic w/ AEB
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains the datasets which illustrate examples run on the Mcity Proving Grounds in Ann Arbor, MI
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; { * 2017: New Examples } Mcity
+#Library : Batch Runs
+#DataSet : Mcity
+#Category: * 2017: New Examples
+#FileID  : BatRun_47b5e924-3cc2-4e93-b959-23e114b69a1c
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

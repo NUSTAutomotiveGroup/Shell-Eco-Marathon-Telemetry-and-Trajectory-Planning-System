@@ -1,0 +1,274 @@
+CarSim 9 Alpha
+Vehicle-suspension arrangement: i_i
+
+DATASET_TITLE Baseline
+CATEGORY * * Quick Start Guide Example
+TITLE Baseline <* * Quick Start Guide Example>
+This file was generated 10:36 on September 09, 2014.
+
+For this run, the CarSim 9 Alpha math model has 113 ordinary differential equations
+(ODEs) and an additional 136 state variables, for a total of 249 state variables.
+
+SV_2ND_CL_DIFF_LOCKED_1 (-) Lock state of 2nd diff. 1 clutch
+SV_2ND_CL_DIFF_LOCKED_2 (-) Lock state of 2nd diff. 2 clutch
+SV_2ND_CL_DIFF_LOCKED_3 (-) Lock state of 2nd diff. 3 clutch
+SV_2ND_CL_DIFF_SLIP_REF_1 (deg) Ref. angle for 2nd diff. 1 clutch
+SV_2ND_CL_DIFF_SLIP_REF_2 (deg) Ref. angle for 2nd diff. 2 clutch
+SV_2ND_CL_DIFF_SLIP_REF_3 (deg) Ref. angle for 2nd diff. 3 clutch
+SV_2ND_CL_DIFF_SPIN_OLD_1 (rpm) Rel. spin of 2nd diff. 1 clutch at prev. time step
+SV_2ND_CL_DIFF_SPIN_OLD_2 (rpm) Rel. spin of 2nd diff. 2 clutch at prev. time step
+SV_2ND_CL_DIFF_SPIN_OLD_3 (rpm) Rel. spin of 2nd diff. 3 clutch at prev. time step
+SV_AGEAR_OUT_1 (deg) ODE #10: Angle of steering gear output for axle 1
+SV_AGEAR_OUT_2 (deg) ODE #12: Angle of steering gear output for axle 2
+SV_AT_LOCKED_STATE (-) Lock state of automatical transmission
+SV_AVX (deg/s) ODE #95: Body-X roll rate of vehicle sprung-mass
+SV_AVY (deg/s) ODE #94: Body-Y pitch rate of vehicle sprung-mass
+SV_AVY_L1 (rpm) ODE #99: Spin of axle 1, L wheel
+SV_AVY_L2 (rpm) ODE #103: Spin of axle 2, L wheel
+SV_AVY_OLD_L1 (rpm) Wheel L1 spin (previous time step)
+SV_AVY_OLD_L2 (rpm) Wheel L2 spin (previous time step)
+SV_AVY_OLD_R1 (rpm) Wheel R1 spin (previous time step)
+SV_AVY_OLD_R2 (rpm) Wheel R2 spin (previous time step)
+SV_AVY_R1 (rpm) ODE #101: Spin of axle 1, R wheel
+SV_AVY_R2 (rpm) ODE #105: Spin of axle 2, R wheel
+SV_AVZ (deg/s) ODE #93: Body-Z yaw rate of vehicle sprung-mass
+SV_AV_ENG (rpm) ODE #106: Engine crankshaft spin
+SV_AV_GEAR_IN (deg/s) ODE #96: Angular rate of steering gear input
+SV_AV_SHAFT_L1 (rpm) ODE #109: Left-front driveshaft speed
+SV_AV_SHAFT_L2 (rpm) ODE #111: Left-rear driveshaft speed
+SV_AV_SHAFT_R1 (rpm) ODE #110: Right-front driveshaft speed
+SV_AV_SHAFT_R2 (rpm) ODE #112: Right-rear driveshaft speed
+SV_AV_STR_SW_T (deg/s) ODE #97: Steering wheel angular rate when torque is input
+SV_AV_TC (rpm) ODE #107: Torque coupling output shaft spin
+SV_AV_TR_OUT (rpm) ODE #108: Transmission output shaft spin
+SV_A_GEAR_IN (deg) ODE #8: Angle of steering gear input
+SV_BETA_OLD (deg) Sideslip (ISO) at previous time step
+SV_BETA_RD_OLD (deg) Sideslip (road) at previous time step
+SV_BRAKE_STATE_OLD (-) Old state of braking, used for clutch control
+SV_CL_ACCEL_SHIFT (-) Is clutch in auto control for low-speed accel?
+SV_CL_AUTO_SHIFT (-) Is clutch in auto control for a gear change?
+SV_CL_DIFF_LOCKED_1 (-) Lock state of differential 1 clutch
+SV_CL_DIFF_LOCKED_2 (-) Lock state of differential 2 clutch
+SV_CL_DIFF_LOCKED_3 (-) Lock state of differential 3 clutch
+SV_CL_DIFF_SLIP_REF_1 (deg) Ref. angle for diff. 1 clutch
+SV_CL_DIFF_SLIP_REF_2 (deg) Ref. angle for diff. 2 clutch
+SV_CL_DIFF_SLIP_REF_3 (deg) Ref. angle for diff. 3 clutch
+SV_CL_DIFF_SPIN_OLD_1 (rpm) Rel. spin of diff. 1 clutch at previous time step
+SV_CL_DIFF_SPIN_OLD_2 (rpm) Rel. spin of diff. 2 clutch at previous time step
+SV_CL_DIFF_SPIN_OLD_3 (rpm) Rel. spin of diff. 3 clutch at previous time step
+SV_CL_TWIN_LF_LOCKED_STATE (-) Lock state of LF twin clutch
+SV_CL_TWIN_LF_SLIP_REF (deg) Ref. angle for LF twin clutch
+SV_CL_TWIN_LF_SPIN_OLD (rpm) Rel. spin of LF twin clutch at prev. time step
+SV_CL_TWIN_LR_LOCKED_STATE (-) Lock state of LR twin clutch
+SV_CL_TWIN_LR_SLIP_REF (deg) Ref. angle for LR twin clutch
+SV_CL_TWIN_LR_SPIN_OLD (rpm) Rel. spin of LR twin clutch at prev. time step
+SV_CL_TWIN_RF_LOCKED_STATE (-) Lock state of RF twin clutch
+SV_CL_TWIN_RF_SLIP_REF (deg) Ref. angle for RF twin clutch
+SV_CL_TWIN_RF_SPIN_OLD (rpm) Rel. spin of RF twin clutch at prev. time step
+SV_CL_TWIN_RR_LOCKED_STATE (-) Lock state of RR twin clutch
+SV_CL_TWIN_RR_SLIP_REF (deg) Ref. angle for RR twin clutch
+SV_CL_TWIN_RR_SPIN_OLD (rpm) Rel. spin of RR twin clutch at prev. time step
+SV_CMP_S_L1 (mm) Compression of L1 suspension spring
+SV_CMP_S_L2 (mm) Compression of L2 suspension spring
+SV_CMP_S_R1 (mm) Compression of R1 suspension spring
+SV_CMP_S_R2 (mm) Compression of R2 suspension spring
+SV_DAV_CL_OLD (rpm) Clutch relative spin (previous time step)
+SV_DROT_CL_LK (rev) Clutch relative rotation in 'locked' mode
+SV_DZDX_GND_OLD (-) dZ/dX of ground, sprung mass (prev. time step)
+SV_DZDX_L1 (-) Ground dzdx for tire L1
+SV_DZDX_L2 (-) Ground dzdx for tire L2
+SV_DZDX_R1 (-) Ground dzdx for tire R1
+SV_DZDX_R2 (-) Ground dzdx for tire R2
+SV_DZDY_GND_OLD (-) dZ/dY of ground, sprung mass (prev. time step)
+SV_DZDY_L1 (-) Ground dzdy for tire L1
+SV_DZDY_L2 (-) Ground dzdy for tire L2
+SV_DZDY_R1 (-) Ground dzdy for tire R1
+SV_DZDY_R2 (-) Ground dzdy for tire R2
+SV_ENGINE_STATUS (-) Engine running status, 1: running, 0: stall
+SV_FBK (N) ODE #53: Brake pedal force
+SV_FS_L1 (N) Force from L1 suspension spring
+SV_FS_L2 (N) Force from L2 suspension spring
+SV_FS_R1 (N) Force from R1 suspension spring
+SV_FS_R2 (N) Force from R2 suspension spring
+SV_FUEL (kg) ODE #43: Mass of fuel consumed
+SV_FX_SM_L1 (N) Tire force in sprung-mass X for wheel L1
+SV_FX_SM_L2 (N) Tire force in sprung-mass X for wheel L2
+SV_FX_SM_R1 (N) Tire force in sprung-mass X for wheel R1
+SV_FX_SM_R2 (N) Tire force in sprung-mass X for wheel R2
+SV_FY_SM_L1 (N) Tire force in sprung-mass Y for wheel L1
+SV_FY_SM_L2 (N) Tire force in sprung-mass Y for wheel L2
+SV_FY_SM_R1 (N) Tire force in sprung-mass Y for wheel R1
+SV_FY_SM_R2 (N) Tire force in sprung-mass Y for wheel R2
+SV_GEAR_IN_A_OLD (deg) Steering gear input angle (manual steer) at previous time
+    step
+SV_GEAR_MEM (-) Gear saved in memory, used for transision
+SV_GEAR_OLD (-) Gear selected at previous time step
+SV_GEAR_OUT_A_OLD_1 (deg) Steering gear output angle at previous time step
+SV_GEAR_OUT_A_OLD_2 (deg) Steering gear output angle at previous time step
+SV_IVERR (m) ODE #113: Speed controller state: integral of [target speed] - [actual
+    speed]
+SV_I_GEAR_SHIFT (kg-m2) Transmission gear inertia modulated by gear shift
+SV_I_GEAR_SHIFT_START (kg-m2) Gear spin inertia in when automatic gear shift
+    started with T.C.
+SV_JNCR_L1 (m/s) ODE #98: Jounce rate at axle 1, L wheel
+SV_JNCR_L2 (m/s) ODE #102: Jounce rate at axle 2, L wheel
+SV_JNCR_R1 (m/s) ODE #100: Jounce rate at axle 1, R wheel
+SV_JNCR_R2 (m/s) ODE #104: Jounce rate at axle 2, R wheel
+SV_JNC_L1 (m) ODE #14: Jounce movement at axle 1, L wheel
+SV_JNC_L2 (m) ODE #28: Jounce movement at axle 2, L wheel
+SV_JNC_R1 (m) ODE #21: Jounce movement at axle 1, R wheel
+SV_JNC_R2 (m) ODE #35: Jounce movement at axle 2, R wheel
+SV_LK_CLUTCH (-) Clutch lockup state
+SV_LK_WHL_L1 (-) Wheel L1 lockup state
+SV_LK_WHL_L2 (-) Wheel L2 lockup state
+SV_LK_WHL_R1 (-) Wheel R1 lockup state
+SV_LK_WHL_R2 (-) Wheel R2 lockup state
+SV_LOCKED_CLUTCH_NEUTRAL_OLD (-) Was clutch locked while in neutral?
+SV_MY_BRK_L1 (N-m) Spin moment for wheel L1
+SV_MY_BRK_L2 (N-m) Spin moment for wheel L2
+SV_MY_BRK_R1 (N-m) Spin moment for wheel R1
+SV_MY_BRK_R2 (N-m) Spin moment for wheel R2
+SV_MZ_WHEEL_L1 (N-m) Tire MZ for wheel L1
+SV_MZ_WHEEL_L2 (N-m) Tire MZ for wheel L2
+SV_MZ_WHEEL_R1 (N-m) Tire MZ for wheel R1
+SV_MZ_WHEEL_R2 (N-m) Tire MZ for wheel R2
+SV_M_CL2_CAP_FD_DYN (N-m) ODE #79: 1st drive-axle differential second clutch
+    capacity (dynamic)
+SV_M_CL2_CAP_RD_DYN (N-m) ODE #81: 2nd drive-axle differential second clutch
+    capacity (dynamic)
+SV_M_CL2_CAP_XC_DYN (N-m) ODE #83: transfer case second clutch capacity (dynamic)
+SV_M_CLUTCH_DEL (N-m) ODE #77: Time delayed clutch torque capacity
+SV_M_CL_CAP_FD_DYN (N-m) ODE #78: 1st drive-axle differential clutch capacity
+    (dynamic)
+SV_M_CL_CAP_RD_DYN (N-m) ODE #80: 2nd drive-axle differential clutch capacity
+    (dynamic)
+SV_M_CL_CAP_XC_DYN (N-m) ODE #82: transfer case clutch capacity (dynamic)
+SV_M_CL_LF_CAP_DYN (N-m) ODE #84: 1st drive axle, left twin clutch capacity
+    (dynamic)
+SV_M_CL_LR_CAP_DYN (N-m) ODE #86: 2nd drive axle left twin clutch capacity
+    (dynamic)
+SV_M_CL_RF_CAP_DYN (N-m) ODE #85: 1st drive axle, right twin clutch capacity
+    (dynamic)
+SV_M_CL_RR_CAP_DYN (N-m) ODE #87: 2nd drive axle, right twin clutch capacity
+    (dynamic)
+SV_M_KP_L1 (N-m) Kingpin moment for wheel L1
+SV_M_KP_L2 (N-m) Kingpin moment for wheel L2
+SV_M_KP_R1 (N-m) Kingpin moment for wheel R1
+SV_M_KP_R2 (N-m) Kingpin moment for wheel R2
+SV_M_KP_SUM_1 (N-m) Kingpin moment sum for axle 1
+SV_M_KP_SUM_2 (N-m) Kingpin moment sum for axle 2
+SV_M_PARK_OLD_L1 (N-m) Kingpin steer park torque axle 1, L wheel
+SV_M_PARK_OLD_L2 (N-m) Kingpin steer park torque axle 2, L wheel
+SV_M_PARK_OLD_R1 (N-m) Kingpin steer park torque axle 1, R wheel
+SV_M_PARK_OLD_R2 (N-m) Kingpin steer park torque axle 2, R wheel
+SV_N_START_CROSS (-) Count of start-crossings on driver path; used only when the
+    path is looped.
+SV_PBK_L1 (MPa) ODE #59: L1 brake actuator pressure
+SV_PBK_L2 (MPa) ODE #63: L2 brake actuator pressure
+SV_PBK_R1 (MPa) ODE #61: R1 brake actuator pressure
+SV_PBK_R2 (MPa) ODE #65: R2 brake actuator pressure
+SV_PITCH (deg) ODE #5: Pitch of sprung mass of vehicle
+SV_RACK_OUT_A_OLD_1 (mm) Steering rack output disp at previous time step
+SV_RACK_OUT_A_OLD_2 (mm) Steering rack output disp at previous time step
+SV_RGEAR_CVT (-) ODE #75: Delayed CVT gear ratio
+SV_ROLL (deg) ODE #6: Roll (Euler) of sprung mass of vehicle
+SV_ROTX_KC_L1 (deg) ODE #17: X kinematic and compl. rotation  of wheel L1
+SV_ROTX_KC_L2 (deg) ODE #31: X kinematic and compl. rotation  of wheel L2
+SV_ROTX_KC_R1 (deg) ODE #24: X kinematic and compl. rotation  of wheel R1
+SV_ROTX_KC_R2 (deg) ODE #38: X kinematic and compl. rotation  of wheel R2
+SV_ROTY_KC_L1 (deg) ODE #18: Y kinematic and compl. rotation of wheel L1
+SV_ROTY_KC_L2 (deg) ODE #32: Y kinematic and compl. rotation of wheel L2
+SV_ROTY_KC_R1 (deg) ODE #25: Y kinematic and compl. rotation of wheel R1
+SV_ROTY_KC_R2 (deg) ODE #39: Y kinematic and compl. rotation of wheel R2
+SV_ROT_ENG (rev) ODE #42: Engine crankshaft rotation
+SV_ROT_L1 (rev) ODE #20: Rotation of axle 1, L wheel
+SV_ROT_L2 (rev) ODE #34: Rotation of axle 2, L wheel
+SV_ROT_LK_L1 (rev) Wheel L1 rotation in 'locked' mode
+SV_ROT_LK_L2 (rev) Wheel L2 rotation in 'locked' mode
+SV_ROT_LK_R1 (rev) Wheel R1 rotation in 'locked' mode
+SV_ROT_LK_R2 (rev) Wheel R2 rotation in 'locked' mode
+SV_ROT_R1 (rev) ODE #27: Rotation of axle 1, R wheel
+SV_ROT_R2 (rev) ODE #41: Rotation of axle 2, R wheel
+SV_ROT_SHAFT_1 (rev) ODE #68: Front drive shaft rotation
+SV_ROT_SHAFT_2 (rev) ODE #69: Rear drive shaft rotation
+SV_ROT_SHAFT_3 (rev) ODE #70: Rotation of input shaft to transfer case
+SV_ROT_SHAFT_L1 (rev) ODE #71: Left-front driveshaft rotation
+SV_ROT_SHAFT_L2 (rev) ODE #73: Left-rear driveshaft rotation
+SV_ROT_SHAFT_R1 (rev) ODE #72: Right-front driveshaft rotation
+SV_ROT_SHAFT_R2 (rev) ODE #74: Right-rear driveshaft rotation
+SV_ROT_TC (rev) ODE #66: Torque coupling output shaft rotation
+SV_ROT_TR_OUT (rev) ODE #67: Transmission output shaft rotation
+SV_R_GEAR (-) Transmission gear ratio
+SV_R_GEAR_SHIFT (-) Transmission gear ratio modulated by gear shift
+SV_R_GEAR_SHIFT_START (-) Gear ratio in when automatic gear shift started with T.C.
+SV_R_L1 (m) Deflected radius for tire L1
+SV_R_L2 (m) Deflected radius for tire L2
+SV_R_R1 (m) Deflected radius for tire R1
+SV_R_R2 (m) Deflected radius for tire R2
+SV_SHIFT_DELAY (-) Is shifting delay in T.C. active?
+SV_SLIP_LAT_L1 (-) ODE #44: Lagged tangent of lateral slip for tire L1
+SV_SLIP_LAT_L2 (-) ODE #48: Lagged tangent of lateral slip for tire L2
+SV_SLIP_LAT_R1 (-) ODE #46: Lagged tangent of lateral slip for tire R1
+SV_SLIP_LAT_R2 (-) ODE #50: Lagged tangent of lateral slip for tire R2
+SV_SLIP_LONG_L1 (-) ODE #45: Lagged longitudinal slip for tire L1
+SV_SLIP_LONG_L2 (-) ODE #49: Lagged longitudinal slip for tire L2
+SV_SLIP_LONG_R1 (-) ODE #47: Lagged longitudinal slip for tire R1
+SV_SLIP_LONG_R2 (-) ODE #51: Lagged longitudinal slip for tire R2
+SV_SO_DIST (m) ODE #52: Distance travelled, used to apply "wandering profiles" to
+    tires
+SV_SPEED_PREVIEW_SSTART (m) Start station in path preview array
+SV_SPEED_PREVIEW_V_TARGET (km/h) Target speed at SV_SPEED_PREVIEW_SSTART
+SV_STATION (m) Station of vehicle on the current driver path
+SV_STA_ROAD (m) Station of vehicle on the current road reference path
+SV_STR_COL_OLD (deg) Steering column angle (power steer) at previous time step
+SV_STR_DM (deg) Road-wheel steer from the driver model
+SV_STR_DM_OLD (deg) Road-wheel steer from driver model at previous time step
+SV_STR_KP_L1 (deg) Kingpin steer angle axle 1, L wheel
+SV_STR_KP_L2 (deg) Kingpin steer angle axle 2, L wheel
+SV_STR_KP_R1 (deg) Kingpin steer angle axle 1, R wheel
+SV_STR_KP_R2 (deg) Kingpin steer angle axle 2, R wheel
+SV_STR_L1 (deg) ODE #19: Steer (total) of wheel L1
+SV_STR_L2 (deg) ODE #33: Steer (total) of wheel L2
+SV_STR_R1 (deg) ODE #26: Steer (total) of wheel R1
+SV_STR_R2 (deg) ODE #40: Steer (total) of wheel R2
+SV_STR_SUS_F (deg) Front steer due to suspension effects
+SV_STR_SUS_R (deg) Rear steer due to suspension effects
+SV_STR_SW_A (deg) ODE #7: Steering wheel angle when angle is input
+SV_STR_SW_DM (deg) Steering wheel angle from driver model
+SV_STR_SW_DM_OLD (deg) Steering wheel angle from DM at previous time step
+SV_STR_SW_OL_OLD (deg) Steering wheel angle from open loop control at previous time
+    step
+SV_STR_SW_T (deg) ODE #9: Steering wheel angle when torque is input
+SV_TBT_1 (N-m) ODE #88: Delayed t-bar torque for 1
+SV_TBT_2 (N-m) ODE #89: Delayed t-bar torque for 2
+SV_THR_DEL (-) ODE #76: Time delayed engine throttle
+SV_TH_AUTO_SHIFT (-) Is throttle in auto control for a gear change?
+SV_TROT_L1 (C) ODE #58: L1 brake rotor temperature
+SV_TROT_L2 (C) ODE #62: L2 brake rotor temperature
+SV_TROT_R1 (C) ODE #60: R1 brake rotor temperature
+SV_TROT_R2 (C) ODE #64: R2 brake rotor temperature
+SV_T_SHIFT_START (s) Time when automatic gear shift started
+SV_VBK_L1 (mm3) ODE #54: L1 brake caliper volume
+SV_VBK_L2 (mm3) ODE #56: L2 brake caliper volume
+SV_VBK_R1 (mm3) ODE #55: R1 brake caliper volume
+SV_VBK_R2 (mm3) ODE #57: R2 brake caliper volume
+SV_VXS (km/h) ODE #90: Body-X speed of laden vehicle sprung-mass CG
+SV_VYS (m/s) ODE #91: Body-Y speed of laden vehicle sprung-mass CG
+SV_VZS (m/s) ODE #92: Body-Z speed of laden vehicle sprung-mass CG
+SV_XO (m) ODE #1: Global X coord. of sprung-mass origin of vehicle
+SV_X_GND_OLD (m) X coord. of ground, sprung mass (prev. time step)
+SV_X_KC_L1 (m) ODE #15: Long. kinematic and compl. movement of wheel L1
+SV_X_KC_L2 (m) ODE #29: Long. kinematic and compl. movement of wheel L2
+SV_X_KC_R1 (m) ODE #22: Long. kinematic and compl. movement of wheel R1
+SV_X_KC_R2 (m) ODE #36: Long. kinematic and compl. movement of wheel R2
+SV_YAW (deg) ODE #4: Yaw of sprung mass of vehicle
+SV_YO (m) ODE #2: Global Y coord. of sprung-mass origin of vehicle
+SV_YRACK_1 (m) ODE #11: Y translation of steering rack for axle 1
+SV_YRACK_2 (m) ODE #13: Y translation of steering rack for axle 2
+SV_Y_GND_OLD (m) Y coord. of ground, sprung mass (prev. time step)
+SV_Y_KC_L1 (m) ODE #16: Lat. kinematic and compl. movement of wheel L1
+SV_Y_KC_L2 (m) ODE #30: Lat. kinematic and compl. movement of wheel L2
+SV_Y_KC_R1 (m) ODE #23: Lat. kinematic and compl. movement of wheel R1
+SV_Y_KC_R2 (m) ODE #37: Lat. kinematic and compl. movement of wheel R2
+SV_ZO (m) ODE #3: Global Z coord. of sprung-mass origin of vehicle
+SV_Z_GND_OLD (m) Z coord. of ground, sprung mass (prev. time step)

@@ -1,0 +1,68 @@
+PARSFILE
+#FullDataName CarSim Run Control`Double Lane Change, Short Prev., Low Mu`Handling and Stability Tests
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_2856146d-b1be-47b8-ac08-6ebab3ca95c3
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_8f7a3057-cb7d-444e-8cf2-c6f46989b6a4.par
+#BlueLink0 Animator: Camera Setup`Front View, Road Ref. (Rr. Facing)` Road Reference` , Animator camera`Camera_8f7a3057-cb7d-444e-8cf2-c6f46989b6a4
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_e7198cbd-2d8b-48a3-b221-f4b4f079c185.par
+#BlueLink2 Vehicle: Assembly`B-Class, Sports Car 2017` B-Class` , Vehicle Configuration`Vehicle_e7198cbd-2d8b-48a3-b221-f4b4f079c185
+
+PARSFILE Procedures\Proc_6d512924-f6a9-45e1-af10-e839d3980fe9.par
+#BlueLink28 Procedures`DLC @ 120 km/h (Low Mu Surface)` Handling Testing` , Procedure`Proc_6d512924-f6a9-45e1-af10-e839d3980fe9
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_4986d2bf-e6a5-4076-b5cc-94a288fa5a6d.png
+WRITE_SENSOR_DETECT
+Title Double Lane Change, Short Prev., Low Mu <Handling and Stability Tests>
+CATEGORY Handling and Stability Tests 
+DATASET_TITLE Double Lane Change, Short Prev., Low Mu
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#A B-Class Sports Car performs a high-speed double lane change maneuver on a low mu surface. The vehicle does not have an ESC controller and as a result, spins out and goes off course.
+#
+#Browse to the Procedure screen by clicking on the blue link "DLC @ 120 km/h (Low Mu Surface)" for more information on how this test was set up.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Handling and Stability Tests } Double Lane Change, Short Prev., Low Mu
+#Library : CarSim Run Control
+#DataSet : Double Lane Change, Short Prev., Low Mu
+#Category: Handling and Stability Tests
+#FileID  : Run_2856146d-b1be-47b8-ac08-6ebab3ca95c3
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

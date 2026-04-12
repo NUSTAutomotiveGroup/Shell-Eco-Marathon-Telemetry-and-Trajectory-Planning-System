@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Plot: Setup`Tangent of Slip Angle vs. Alpha`Tire Tester Derived Outputs
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS slip_l1, alpha_l1
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Tangent of Slip Angle vs. Alpha
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Tangent of Slip Angle vs. Alpha
+#Library : Plot: Setup
+#DataSet : Tangent of Slip Angle vs. Alpha
+#Category: Tire Tester Derived Outputs
+#FileID  : Plot_6fbd2be1-8ca2-4e4e-89d1-246a2e5a4478
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

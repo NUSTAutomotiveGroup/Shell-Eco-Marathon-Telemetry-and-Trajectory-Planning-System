@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Suspension: Shock Absorber`Small Car`
+#CheckBox0 0    
+
+#RingCtrl0 SPLINE
+#RadioCtrl0 0    
+
+#DiagramOne0
+FD_TABLE SPLINE
+-1410, -2644
+-720, -1814
+-390, -1227
+-210, -946
+-90, -532
+-20, -120
+20, 120
+90, 314
+200, 413
+390, 580
+760, 948
+1160, 1351
+ENDTABLE
+
+
+LOG_ENTRY Used Dataset: Suspension: Shock Absorber; Small Car
+#Library : Suspension: Shock Absorber
+#DataSet : Small Car
+#Category: 
+#FileID  : Shock_970f98e3-0678-4435-8f8f-ba0016bef9c5
+#Product : CarSim 2017.1
+#VehCode Shock Absorber
+
+END

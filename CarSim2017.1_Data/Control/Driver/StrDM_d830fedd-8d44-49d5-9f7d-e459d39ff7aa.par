@@ -1,0 +1,43 @@
+PARSFILE
+#FullDataName Control: Steering by the Closed-loop Driver Model`No Offset, 0.25-sec. Preview, 50 km/h Limit`Constant Position
+#CheckBox0 0    
+OPT_DRIVER_MODEL 1
+#CheckBox1 1    
+CREATE_PATH_OBJ on
+#CheckBox2 0    
+
+#RingCtrl0 0
+#RingCtrl1 CONSTANT
+LTARG_CONSTANT 0
+#RadioCtrl0 0    
+
+AV_SW_MAX_DM 1200
+TLAG_DM 0
+A_SW_MAX_DM 720
+*TPREV 0.25
+*GAIN 0
+*SCALAR 0
+VLOW_DRIVER 50
+SET_PATH_WIDTH 0.05
+SET_PATH_DASH_INTERVAL 1
+SET_PATH_VERTEX_INTERVAL 3
+SET_PATH_DZ 0.05
+SET_PATH_COLOR 0.4 0.4 1
+
+TPREV_CONSTANT 0.25
+
+#EMBEDDED_NOTES
+#A short preview time (0.5 sec) is used to maintain tight control following a circular path while the speed is slowly increased to provided increasing lateral acceleration.
+#
+#The low-speed limit of 20 km-h was found to be OK for the low-speed initialization part.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Control: Steering by the Closed-loop Driver Model; { Constant Position } No Offset, 0.25-sec. Preview, 50 km/h Limit
+#Library : Control: Steering by the Closed-loop Driver Model
+#DataSet : No Offset, 0.25-sec. Preview, 50 km/h Limit
+#Category: Constant Position
+#FileID  : StrDM_d830fedd-8d44-49d5-9f7d-e459d39ff7aa
+#Product : CarSim 2017.1
+#VehCode Driver Path Follower
+
+END

@@ -1,0 +1,29 @@
+PARSFILE
+#FullDataName Models: Simulink`Complex Throttle Regime`
+#RunMdlFile Complex_Throttle_Regime.mdl
+#RingCtrl1 2
+OPT_INT_METHOD 2
+#CheckBox0 0    
+*USE_ALT_DIR 0
+#CheckBox1 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox2 0    
+OPT_IO_UPDATE 0
+#CheckBox3 0    
+
+PARSFILE IO_Channels\I_Channels\Import_d5560ccf-ad04-4cdb-9a83-c213caaf847b.par
+#BlueLink0 I/O Channels: Import`Complex Throttle Regime` ` , Import`Import_d5560ccf-ad04-4cdb-9a83-c213caaf847b
+
+PARSFILE IO_Channels\O_Channels\Export_96663ee3-3d7c-4bb8-8b2c-e99664b51fe7.par
+#BlueLink1 I/O Channels: Export`Complex Throttle Regime` ` , Export`Export_96663ee3-3d7c-4bb8-8b2c-e99664b51fe7
+
+
+LOG_ENTRY Used Dataset: Models: Simulink; Complex Throttle Regime
+#Library : Models: Simulink
+#DataSet : Complex Throttle Regime
+#Category: 
+#FileID  : Simlink_b87e98cd-65c3-46dd-a9ff-98236b43376d
+#Product : CarSim 2017.1
+#VehCode 
+
+END

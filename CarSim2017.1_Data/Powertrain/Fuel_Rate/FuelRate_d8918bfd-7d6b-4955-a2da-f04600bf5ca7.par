@@ -1,0 +1,24 @@
+PARSFILE
+#FullDataName Powertrain: Fuel Consumption Rate`sem`
+#CheckBox0 0    
+
+#RingCtrl0 CONSTANT
+#RingCtrl1 CONSTANT
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+FUEL_RATE_CONSTANT 0.0074
+FUEL_RATE_THROTTLE_CONSTANT 17
+*SCALAR 0.0074
+*SCALAR2 17
+
+
+LOG_ENTRY Used Dataset: Powertrain: Fuel Consumption Rate; sem
+#Library : Powertrain: Fuel Consumption Rate
+#DataSet : sem
+#Category: 
+#FileID  : FuelRate_d8918bfd-7d6b-4955-a2da-f04600bf5ca7
+#Product : CarSim 2017.1
+#VehCode Fuel Rate
+
+END

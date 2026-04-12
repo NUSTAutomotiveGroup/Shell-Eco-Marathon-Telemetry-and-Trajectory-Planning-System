@@ -1,0 +1,80 @@
+PARSFILE
+#FullDataName CarSim Run Control`Brake Distance Test (Force Input w. ABS)`Brake Tests
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_9f4e27b2-b659-44bf-babb-72807ee34834
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Models\Simulink\Simlink_d891ba6b-8c8b-4af5-b9c8-0aaa125a984c.par
+#BlueLink12 Models: Simulink`New Simulink with No Connections` ` , Models`Simlink_d891ba6b-8c8b-4af5-b9c8-0aaa125a984c
+
+PARSFILE Animator\Cameras\Camera_78646c82-3c25-4eef-b153-d76a910f00fb.par
+#BlueLink0 Animator: Camera Setup`K & C View` ` , Animator camera`Camera_78646c82-3c25-4eef-b153-d76a910f00fb
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0 0.4 0.373
+SET_RUN_COLOR 0 0.4 0.373
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_e0c580b3-0a0a-4b74-a93b-bb1bd1ff7d8b.par
+#BlueLink2 Vehicle: Assembly`B-Class, Sports Car 2017 #1` B-Class` , Vehicle Configuration`Vehicle_e0c580b3-0a0a-4b74-a93b-bb1bd1ff7d8b
+
+PARSFILE Procedures\Proc_b8785199-c231-4745-aa89-8d974d06975b.par
+#BlueLink28 Procedures`Lusail Test #1` Driving` , Procedure`Proc_b8785199-c231-4745-aa89-8d974d06975b
+
+#BlueLink9 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+PARSFILE Animator\Sound\Sample\SndSmp_4a8d24e6-3399-47dc-9bb1-379ea633963a.par
+#BlueLink11 Animator: Sound Sample`4 Cyl. - Power On` Gas Engine` , Miscellaneous`SndSmp_4a8d24e6-3399-47dc-9bb1-379ea633963a
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_4986d2bf-e6a5-4076-b5cc-94a288fa5a6d.png
+WRITE_SENSOR_DETECT
+Title Brake Distance Test (Force Input w. ABS) <Brake Tests>
+CATEGORY Brake Tests 
+DATASET_TITLE Brake Distance Test (Force Input w. ABS)
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example shows a Braking Distance Test for an E-Class Sedan with pedal force input, power boost, and thermal effects.
+#
+#In this test procedure, the car is traveling at 102 km/h at the start of the simulation and coasts down to 100  km/h.  Using Events, the car is repositioned to the start of the road (0 m) and simultaneously begins to brake. Review the plot of Station vs. Time to measure the vehicle's braking distance.
+#
+#NOTE: This example was provided in older versions of CarSim to demonstrate an alternative brake library screen. In the newer versions (2017), the standard 4W brake system screen is used to set the options.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Brake Tests } Brake Distance Test (Force Input w. ABS)
+#Library : CarSim Run Control
+#DataSet : Brake Distance Test (Force Input w. ABS)
+#Category: Brake Tests
+#FileID  : Run_9f4e27b2-b659-44bf-babb-72807ee34834
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

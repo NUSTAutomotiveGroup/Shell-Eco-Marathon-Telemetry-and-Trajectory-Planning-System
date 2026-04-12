@@ -1,0 +1,29 @@
+PARSFILE
+#FullDataName Models: Simulink`Replace Entire System`External Steer
+#RunMdlFile Extensions\Simulink\ext_steer_all.mdl
+#RingCtrl1 2
+OPT_INT_METHOD 2
+#CheckBox0 0    
+*USE_ALT_DIR 0
+#CheckBox1 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox2 0    
+OPT_IO_UPDATE 0
+#CheckBox3 0    
+
+PARSFILE IO_Channels\I_Channels\Import_6993ad40-4291-472b-b0f1-1aa9961e66d6.par
+#BlueLink0 I/O Channels: Import`Replace Entire System` External Steer` , Import`Import_6993ad40-4291-472b-b0f1-1aa9961e66d6
+
+PARSFILE IO_Channels\O_Channels\Export_4b077d75-047f-46e4-8bd3-9dc3973402a4.par
+#BlueLink1 I/O Channels: Export`Replace Entire System` External Steer` , Export`Export_4b077d75-047f-46e4-8bd3-9dc3973402a4
+
+
+LOG_ENTRY Used Dataset: Models: Simulink; { External Steer } Replace Entire System
+#Library : Models: Simulink
+#DataSet : Replace Entire System
+#Category: External Steer
+#FileID  : Simlink_fea9fb3a-47de-4289-bc58-4c6b83f72fff
+#Product : CarSim 2017.1
+#VehCode 
+
+END

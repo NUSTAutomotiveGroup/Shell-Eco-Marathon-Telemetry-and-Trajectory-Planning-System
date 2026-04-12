@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Animator: Group`Exotic Brake Calipers`
+PARSFILE Animator\Frames\Frame_6dfd5b43-e6db-4e8e-b36e-4933875f8b1a.par
+#BlueLink0 Animator: Reference Frame`GT LF Brake Caliper` CS GT` , Miscellaneous`Frame_6dfd5b43-e6db-4e8e-b36e-4933875f8b1a
+
+PARSFILE Animator\STL\Shape_edb81b4e-2204-46b7-89c6-98cbdb208fc6.par
+#BlueLink1 Animator: Shape File Link`Exotic: LF Fixed Caliper` CS Exotic Car` , Miscellaneous`Shape_edb81b4e-2204-46b7-89c6-98cbdb208fc6
+
+PARSFILE Animator\Frames\Frame_abc9a182-bd13-41f4-86c4-3a6c7888cda9.par
+#BlueLink2 Animator: Reference Frame`GT RF Brake Caliper` CS GT` , Miscellaneous`Frame_abc9a182-bd13-41f4-86c4-3a6c7888cda9
+
+PARSFILE Animator\STL\Shape_8bdd86be-60f5-4987-ada8-417e1f1dc837.par
+#BlueLink3 Animator: Shape File Link`Exotic: RF Fixed Caliper` CS Exotic Car` , Miscellaneous`Shape_8bdd86be-60f5-4987-ada8-417e1f1dc837
+
+PARSFILE Animator\Frames\Frame_f907c350-3a54-48c4-bbd0-7c76d1bf79e1.par
+#BlueLink4 Animator: Reference Frame`GT LR Brake Caliper` CS GT` , Miscellaneous`Frame_f907c350-3a54-48c4-bbd0-7c76d1bf79e1
+
+PARSFILE Animator\STL\Shape_55468bfd-9623-4144-9560-0a12fcd068c1.par
+#BlueLink5 Animator: Shape File Link`Exotic: LR Fixed Caliper` CS Exotic Car` , Miscellaneous`Shape_55468bfd-9623-4144-9560-0a12fcd068c1
+
+PARSFILE Animator\Frames\Frame_a3f5b533-199b-4dfd-946f-1eafbaf39383.par
+#BlueLink6 Animator: Reference Frame`GT RR Brake Caliper` CS GT` , Miscellaneous`Frame_a3f5b533-199b-4dfd-946f-1eafbaf39383
+
+PARSFILE Animator\STL\Shape_390f9a9b-aec4-4620-a2e9-592288fc9111.par
+#BlueLink7 Animator: Shape File Link`Exotic: RR Fixed Caliper` CS Exotic Car` , Miscellaneous`Shape_390f9a9b-aec4-4620-a2e9-592288fc9111
+
+
+#CheckBox0 0    
+
+
+LOG_ENTRY Used Dataset: Animator: Group; Exotic Brake Calipers
+#Library : Animator: Group
+#DataSet : Exotic Brake Calipers
+#Category: 
+#FileID  : Group_28686184-e800-4d0c-9e44-abbda7857611
+#Product : CarSim 2017.1
+#VehCode Animator Group
+
+END

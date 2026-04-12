@@ -1,0 +1,255 @@
+Include PARSFILE "Results\Run_e405ac14-b865-4952-b808-9b2a80b834fb\Run_all.par"
+Used Dataset: Animator: Reference Frame; { Car Tracking } Car X-Y-Z-Yaw
+Used Dataset: Animator: Camera Setup; { Vehicle Reference } 90 deg. Azimuth, Veh. Ref.
+Used Dataset: Suspension: Longitudinal Movement; Solid Axle - Front
+Used Dataset: Suspension: Lateral Movement Due to Roll and Jounce; Solid Axle - Front
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Front Solid Drive Axle
+Used Dataset: Suspension: Solid Axle System Kinematics; { Pickup } Pickup, Full Size - Front
+Used Dataset: Suspension: Shock Absorber; Big SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +150 mm / -110 mm
+Used Dataset: Suspension: Shock Absorber; Big SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +150 mm / -110 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 510 N-m/deg
+Used Dataset: Suspension: Solid Axle Compliance, Springs, and Dampers; { Pickup } Pickup, Full Size - Front
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Tire
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Bolts
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Inflator Guard
+Used Dataset: Animator: Shape Assembly; { Tires } Off-Road Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Light Truck } 315/75 R 16
+Used Dataset: Tire: Lateral Force; 315/75 R16
+Used Dataset: Tire: Longitudinal Force; 315/75 R16
+Used Dataset: Tire: Camber Thrust Coefficient; 315/75 R 16
+Used Dataset: Tire; { Light Truck } 315/75 R 16
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Tire
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Bolts
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Inflator Guard
+Used Dataset: Animator: Shape Assembly; { Tires } Off-Road Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Light Truck } 315/75 R 16
+Used Dataset: Tire: Lateral Force; 315/75 R16
+Used Dataset: Tire: Longitudinal Force; 315/75 R16
+Used Dataset: Tire: Camber Thrust Coefficient; 315/75 R 16
+Used Dataset: Tire; { Light Truck } 315/75 R 16
+Used Dataset: Suspension: Longitudinal Movement; Hotchkiss - Rear
+Used Dataset: Suspension: Lateral Movement Due to Roll and Jounce; Hotchkiss - Rear
+Used Dataset: Suspension: Roll Steer (Solid Axle); Spline: 0.15 deg/deg
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Rear Solid Drive Axle
+Used Dataset: Suspension: Solid Axle System Kinematics; { Pickup } Pickup, Full Size - Rear
+Used Dataset: Suspension: Spring; { Pickup } Pickup - Rear (HD)
+Used Dataset: Suspension: Shock Absorber; Big SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +150 mm / -110 mm
+Used Dataset: Suspension: Spring; { Pickup } Pickup - Rear (HD)
+Used Dataset: Suspension: Shock Absorber; Big SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +150 mm / -110 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 510 N-m/deg
+Used Dataset: Suspension: Solid Axle Compliance, Springs, and Dampers; { Pickup } Pickup, Full Size - Rear
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Tire
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Bolts
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Inflator Guard
+Used Dataset: Animator: Shape Assembly; { Tires } Off-Road Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Light Truck } 315/75 R 16
+Used Dataset: Tire: Lateral Force; 315/75 R16
+Used Dataset: Tire: Longitudinal Force; 315/75 R16
+Used Dataset: Tire: Camber Thrust Coefficient; 315/75 R 16
+Used Dataset: Tire; { Light Truck } 315/75 R 16
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Tire
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Bolts
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Inflator Guard
+Used Dataset: Animator: Shape Assembly; { Tires } Off-Road Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Light Truck } 315/75 R 16
+Used Dataset: Tire: Lateral Force; 315/75 R16
+Used Dataset: Tire: Longitudinal Force; 315/75 R16
+Used Dataset: Tire: Camber Thrust Coefficient; 315/75 R 16
+Used Dataset: Tire; { Light Truck } 315/75 R 16
+Used Dataset: Vehicle: Sprung Mass; { Pickup, Full Size } Pickup, Full Size, Super Cab, 5.5 ft Bed: Lifted
+Used Dataset: Aerodynamics: Fx (Drag) Coef. vs. Aero Slip; 0.30 at 0 Degrees
+Used Dataset: Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip; 0.5 at 90 deg
+Used Dataset: Aerodynamics: Fz (Lift) Coef. vs. Aero Slip; 0.18 at 0 Degrees
+Used Dataset: Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip; 0.3 at 90 deg
+Used Dataset: Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip; -0.15 at 0 Degrees
+Used Dataset: Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip; 0.05 at 90 deg
+Used Dataset: Aerodynamics: Basic; { Pickup } Pickup, Full Size
+Used Dataset: Animator: Shape File Link; { CS Pickup, Full Size } Pickup, Full Size: Sup Cab
+Used Dataset: Animator: Shape File Link; { CS Pickup, Full Size } Pickup, Full Size: Sup Cab Details
+Used Dataset: Animator: Shape File Link; { CS Pickup, Full Size } Pickup, Full Size: 5 .5 Box Body
+Used Dataset: Animator: Shape File Link; { CS Pickup, Full Size } Pickup, Full Size: 5 .5 Box Details
+Used Dataset: Animator: Shape Assembly; { CS Pickup, Full Size } Sup Cab 5.5 Bed
+Used Dataset: Animator: Shape File Link; { CS Pickup, Full Size } Pickup. Full Size: Driver V9
+Used Dataset: Animator: Shape File Link; { CS Pickup, Full Size } Pickup, Full Size: Sup Cab Windows
+Used Dataset: Animator: Group; { CS Pickup, Full Size } Sup Cab, 5.5 Bed
+Used Dataset: Animator: Sound Modifier; { Wind } Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Wind } Frequency: Speed Effect
+Used Dataset: Animator: Sound Sample; Wind Noise
+Used Dataset: Animator: Sound Set; Wind Noise
+Used Dataset: Animator: Shape File Link; { CS Pickup, Full Size } Pickup, Full Size Sup Cab 5.5 Bed: Brake Lights
+Used Dataset: Animator: Vehicles and Sensor Targets; { Working Vehicles } Pickup, Full Size Sup Cab 5.5 Bed V9
+Used Dataset: Animator: Sound Modifier; { Diesel Engine } Power Off Loudness: Load Effect
+Used Dataset: Animator: Sound Modifier; { Diesel Engine } Power Off Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Diesel Engine } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Diesel Engine } Diesel 6 Cyl. - Power Off
+Used Dataset: Animator: Sound Modifier; { Diesel Engine } Power On Loudness: Load Effect
+Used Dataset: Animator: Sound Modifier; { Diesel Engine } Power On Loudness: Speed Effect
+WARNING: DEFINE_OUTPUT did not add a variable because the keyword "F_MOD" was already in use.
+Used Dataset: Animator: Sound Modifier; { Diesel Engine } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Diesel Engine } Diesel 6 Cyl. - Power On
+Used Dataset: Generic Data Group; { Audio Sound Sets } Diesel Engine (6 Cylinder)
+Used Dataset: Powertrain: Engine; 270 kW Diesel Engine
+Used Dataset: Powertrain: Torque Converter; Torque Converter for 270 kW Diesel Engine
+Used Dataset: Powertrain: Shift Schedule; { 6-speed, Diesel } 6-speed, 1-2 Shift (Diesel)
+Used Dataset: Powertrain: Shift Schedule; { 6-speed, Diesel } 6-speed, 2-3 Shift (Diesel)
+Used Dataset: Powertrain: Shift Schedule; { 6-speed, Diesel } 6-speed, 3-4 Shift (Diesel)
+Used Dataset: Powertrain: Shift Schedule; { 6-speed, Diesel } 6-speed, 4-5 Shift (Diesel)
+Used Dataset: Powertrain: Shift Schedule; { 6-speed, Diesel } 6-speed, 5-6 Shift (Diesel)
+Used Dataset: Powertrain: Transmission (18 Gears or CVT); 6-Speed for Diesel
+Used Dataset: Powertrain: Transfer Case; Full Time Viscous 50/50
+Used Dataset: Powertrain: Front Differential; { Viscous } Viscous: Gear Ratio 4.1
+Used Dataset: Powertrain: Rear Differential; { Viscous } Viscous: Gear Ratio 4.1
+Used Dataset: Powertrain: 4-Wheel Drive; 270 kW Diesel, 6-spd., 4.1 Ratio
+Used Dataset: Brakes: Proportioning / Limiting Valve; Unity until 2.0MPa then 30%
+Used Dataset: Brakes: Proportioning / Limiting Valve; Unity until 2.0MPa then 30%
+Used Dataset: Brakes: Four-Wheel System; { Pickup Trucks and SUVs } Pickup, Full Size w/ ABS
+Used Dataset: Steering System: Compliance; Constant: Zero
+Used Dataset: Steering System: Kinematics for 2 Wheels (Recirc. Ball); Pickup, Compact
+Used Dataset: Steering: Power Assist Torque; 300 N-m Maximum
+Used Dataset: Steering System: Compliance; { Constant } Constant: 0.002 deg/N-m
+Used Dataset: Steering: Parking Torque for 2 Wheels; Zero
+Used Dataset: Steering; { Pickup Trucks and SUVs } Pickup, Compact: Power, Recirc. Ball
+Used Dataset: Vehicle: Assembly; { Pickup, Full Size } Pickup, Full Size: Lifted (SA_SA)
+Used Dataset: Control: Steering by the Closed-loop Driver Model; { Constant Position } No Offset, 1 sec. Preview
+Used Dataset: Control: Braking MC Pressure (Open Loop); { Constant } Constant: 0 MPa
+Used Dataset: Control: Shifting (Closed Loop); AT All Gears
+Used Dataset: Control: Speed (Closed Loop) Using Target Speed; { Constant Speed } 18 km/h
+ Straight East <Straight>
+Used Dataset: Path: Segment Builder; { Straight } Straight East
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Bumps } Large Smooth Bump
+Used Dataset: Road: Friction Map, S-L Grid; { Constant } Constant: 0.85
+Used Dataset: Road: Animator Surface Shapes; { Ride Road Shapes } Large Smooth Bump
+Used Dataset: Animator: Reference Frame; Skybox (Vehicle Reference)
+Used Dataset: Animator: Shape File Link; { Skies } Partly Cloudy Sky
+Used Dataset: Animator: Shape File Link; { Terrain } Land Bowl for Light Grass
+Used Dataset: Animator: Group; { Skies } Sky for Light Grass
+Used Dataset: Road: 3D Surface (All Properties); { Ride Roads } Large Smooth Bump
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for X (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Side View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fx 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for X (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Side View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fx 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for X (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Side View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fx 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for X (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Side View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fx 3D Arrow (Tail Origin)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Force Arrows (2 Axles) } 2A - Fx Tire Force Arrows
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Y (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fy 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Y (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fy 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Y (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fy 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Y (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fy 3D Arrow (Tail Origin)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Force Arrows (2 Axles) } 2A - Fy Tire Force Arrows
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Z (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Side View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fz 3D, Offset (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Z (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Side View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fz 3D, Offset (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Z (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Side View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fz 3D, Offset (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Z (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Side View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fz 3D, Offset (Tail Origin)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Force Arrows (2 Axles) } 2A - Fz Tire Force Arrows
+Used Dataset: Generic Data Group; { Tire Force Arrows } 2 Axle - Fx, Fy, Fz
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Suspension Motion } Jounce - Front
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Suspension Motion } Jounce - Rear
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Suspension Motion } Camber vs. Jounce - Rear
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Suspension Motion } Jounce Stop Compression
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Suspension Forces and Moments } Jounce Stop Force
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Suspension Motion } Rebound Stop Compression
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Suspension Forces and Moments } Rebound Stop Force
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Suspension Forces and Moments } Spring: Force vs. Compression
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Suspension Motion } Springs Compression
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Forces } Vertical Forces
+Used Dataset: Procedures; { Ride Tests } Large Smooth Bump
+ Lifted Suspension (SA_SA) <Suspension and Ride Tests>
+Used Dataset: CarSim Run Control; { Suspension and Ride Tests } Lifted Suspension (SA_SA)
+
+Time to read input = 0.053
+Function F_JNC_STOP_TABLE(1,1) extrapolated (out of range LOW) for X = 1.17277e-15 mm at T = 0
+Function F_REB_STOP_TABLE(1,1) extrapolated (out of range HIGH) for X = 1.17277e-15 mm at T = 0
+Function F_JNC_STOP_TABLE(1,2) extrapolated (out of range LOW) for X = 2.34554e-15 mm at T = 0
+Function F_REB_STOP_TABLE(1,2) extrapolated (out of range HIGH) for X = 2.34554e-15 mm at T = 0
+Function F_JNC_STOP_TABLE(2,1) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(2,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(2,2) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(2,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+
+Run started: ERD output file = Results\Run_e405ac14-b865-4952-b808-9b2a80b834fb\LastRun.bin
+Function L_RELAX_X_FZ_TABLE(1,1) extrapolated (out of range HIGH) for X = 1.00098 N at T = 3.171
+Function L_RELAX_X_FZ_TABLE(1,2) extrapolated (out of range HIGH) for X = 1.00059 N at T = 3.171
+Function L_RELAX_Y_FZ_TABLE(1,1) extrapolated (out of range HIGH) for X = 2.0046 N at T = 3.259
+Function L_RELAX_Y_FZ_TABLE(1,2) extrapolated (out of range HIGH) for X = 2.00446 N at T = 3.259
+Function FY_TIRE_CARPET(1,2) extrapolated (out of range HIGH) for X = 27.3311 deg at T = 3.789
+Function MZ_TIRE_CARPET(1,2) extrapolated (out of range HIGH) for X = 27.3311 deg at T = 3.789
+Function FY_TIRE_CARPET(1,1) extrapolated (out of range HIGH) for X = 27.4235 deg at T = 3.7905
+Function MZ_TIRE_CARPET(1,1) extrapolated (out of range HIGH) for X = 27.4235 deg at T = 3.7905
+Function L_RELAX_X_FZ_TABLE(2,1) extrapolated (out of range HIGH) for X = 1.00568 N at T = 4.0205
+Function L_RELAX_X_FZ_TABLE(2,2) extrapolated (out of range HIGH) for X = 1.0046 N at T = 4.0205
+Function M_DIFF_VISC_TABLE(3) extrapolated (out of range HIGH) for X = 1200.96 rpm at T = 4.079
+Function FY_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for X = 25.5841 deg at T = 4.2635
+Function MZ_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for X = 25.5841 deg at T = 4.2635
+Function FY_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for X = 25.6536 deg at T = 4.264
+Function MZ_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for X = 25.6536 deg at T = 4.264
+Function M_BOOST_G_CARPET extrapolated (out of range HIGH) for X = 16.3231 N-m at T = 4.428
+Function FD_TABLE(1,1) extrapolated (out of range HIGH) for X = 1164.16 mm/s at T = 4.4315
+
+Run stopped at t = 8.862. Station limit reached: driver station = 50.0013
+
+Computational efficiency: RTIME = 0.0952381 sec/sim. sec
+

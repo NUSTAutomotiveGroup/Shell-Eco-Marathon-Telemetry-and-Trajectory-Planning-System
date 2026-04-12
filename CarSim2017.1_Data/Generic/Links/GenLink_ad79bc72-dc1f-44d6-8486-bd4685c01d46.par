@@ -1,0 +1,25 @@
+PARSFILE
+#FullDataName Generic Group of Links`Sedan Stopped on DLC`
+#VehCode Generic Links
+PARSFILE Animator\Frames\Frame_9d45decf-4327-4770-81f9-d841d16268c9.par
+#BlueLink0 Animator: Reference Frame`DLC Stopped Car Location` bdp` , Miscellaneous`Frame_9d45decf-4327-4770-81f9-d841d16268c9
+
+PARSFILE Animator\STL_Groups\ShpGrp_16b2b93f-b183-4c9f-98b6-2217474d2660.par
+#BlueLink1 Animator: Shape Assembly`D-Class, Sedan` CS D-Class` , Miscellaneous`ShpGrp_16b2b93f-b183-4c9f-98b6-2217474d2660
+
+#MiscYellow0
+X_LENGTH
+Y_LENGTH
+Z_LENGTH
+#ENDMYellow
+
+
+LOG_ENTRY Used Dataset: Generic Group of Links; Sedan Stopped on DLC
+#Library : Generic Group of Links
+#DataSet : Sedan Stopped on DLC
+#Category: 
+#FileID  : GenLink_ad79bc72-dc1f-44d6-8486-bd4685c01d46
+#Product : CarSim 2017.1
+#VehCode Generic Links
+
+END

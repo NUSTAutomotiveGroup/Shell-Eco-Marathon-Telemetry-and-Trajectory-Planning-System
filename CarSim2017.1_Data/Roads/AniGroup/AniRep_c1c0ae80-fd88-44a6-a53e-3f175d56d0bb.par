@@ -1,0 +1,25 @@
+PARSFILE
+#FullDataName Road: Animator Repeated Object`Railroad Crossing`
+#RingCtrl0 2
+#RingCtrl1 0
+#DiagramOne0
+*POINTS_TABLE 
+-15, -5
+10, 5
+ENDTABLE
+#RadioCtrl0 0    
+
+
+SPECIAL_PARSFILE Animator\STL\Shape_03172a77-944a-4a4b-80b9-ffb9211c4f3c.par
+#BlueLink0 Animator: Shape File Link`Railroad Crossing` Signs` , 3D Object`Shape_03172a77-944a-4a4b-80b9-ffb9211c4f3c
+
+
+LOG_ENTRY Used Dataset: Road: Animator Repeated Object; Railroad Crossing
+#Library : Road: Animator Repeated Object
+#DataSet : Railroad Crossing
+#Category: 
+#FileID  : AniRep_c1c0ae80-fd88-44a6-a53e-3f175d56d0bb
+#Product : CarSim 2017.1
+#VehCode Repeated Object
+
+END

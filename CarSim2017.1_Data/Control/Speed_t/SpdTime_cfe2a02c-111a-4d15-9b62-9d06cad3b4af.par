@@ -1,0 +1,31 @@
+PARSFILE
+#FullDataName Control: Speed (Closed Loop) Using Target Speed`Roundabout Traffic, 2nd Exit (Through)`Speed vs Station
+#CheckBox2 0    
+#CheckBox3 0    
+*SCALAR 0
+*SCALAR2 0
+#RingCtrl0 CONSTANT
+#RingCtrl1 LINEAR_FLAT
+#RingCtrl2 ADD
+SPEED_TARGET_COMBINE ADD
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+SPEED_TARGET_CONSTANT 0
+#DiagramOne1
+SPEED_TARGET_S_TABLE LINEAR_FLAT
+25, 80
+70, 22
+105, 22
+150, 80
+ENDTABLE
+
+LOG_ENTRY Used Dataset: Control: Speed (Closed Loop) Using Target Speed; { Speed vs Station } Roundabout Traffic, 2nd Exit (Through)
+#Library : Control: Speed (Closed Loop) Using Target Speed
+#DataSet : Roundabout Traffic, 2nd Exit (Through)
+#Category: Speed vs Station
+#FileID  : SpdTime_cfe2a02c-111a-4d15-9b62-9d06cad3b4af
+#Product : CarSim 2017.1
+#VehCode Target Speed
+
+END

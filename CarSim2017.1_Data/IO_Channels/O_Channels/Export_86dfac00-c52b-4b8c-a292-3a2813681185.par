@@ -1,0 +1,29 @@
+PARSFILE
+#FullDataName I/O Channels: Export`Steering Control`
+#RingCtrl0 0
+#RingCtrl1 1
+*README_FILE Results\Run_2ee55ea9-6ac2-49f9-9238-118622166f2c\Run_out_tab.txt
+
+
+EXPORT XCG_TM
+EXPORT YCG_TM
+EXPORT Yaw
+#MiscYellow0
+#Number of Selected Channels: 3
+#CHN_NAME: XCG_TM
+#CHN_NAME: YCG_TM
+#CHN_NAME: Yaw
+#ENDMYellow
+
+#BlueLink0 CarSim Run Control`Steer Controller with Python` Extended Models` , example run`Run_2ee55ea9-6ac2-49f9-9238-118622166f2c
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Export; Steering Control
+#Library : I/O Channels: Export
+#DataSet : Steering Control
+#Category: 
+#FileID  : Export_86dfac00-c52b-4b8c-a292-3a2813681185
+#Product : CarSim 2017.1
+#VehCode Export Channels
+
+END

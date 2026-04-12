@@ -1,0 +1,47 @@
+PARSFILE
+#FullDataName Plot: Setup`Lateral Distance to Design Path`Driver Sensor
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS L_DRV_1, time
+PLOTCHANNELS L_DRV_2, time
+PLOTCHANNELS L_DRV_3, time
+PLOTCHANNELS L_DRV_4, time
+PLOTCHANNELS L_DRV_5, time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Lateral Distance to Design Path
+
+END_ENTITY Plot
+
+
+#EMBEDDED_NOTES
+#Special sensors are provided for creating advanced diver models, at user-specified distances ahead or behind the car.
+#
+#One of the outputs produced by each sensor is the lateral (perpendicular to the target path) distance from the target path to the sensor.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Driver Sensor } Lateral Distance to Design Path
+#Library : Plot: Setup
+#DataSet : Lateral Distance to Design Path
+#Category: Driver Sensor
+#FileID  : Plot_dd7900f8-87e4-44ee-bc1d-1e15598972cb
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

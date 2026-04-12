@@ -1,0 +1,34 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Pickup, Compact: Short Box Body`CS Pickup, Compact
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\vehicles\pickup_truck\box_short\body.obj
+#ENDMYellow
+
+SET_COLOR 1 0.4 0
+*SPECULAR 0.8
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 1    
+USE_RUN_COLOR
+#CheckBox4 1    
+
+SET_SPECULAR 0.8 0.8 0.8
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_d36dcd0b-3460-4221-b5a7-e13ff3b4cba2.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS Pickup, Compact } Pickup, Compact: Short Box Body
+#Library : Animator: Shape File Link
+#DataSet : Pickup, Compact: Short Box Body
+#Category: CS Pickup, Compact
+#FileID  : Shape_d36dcd0b-3460-4221-b5a7-e13ff3b4cba2
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

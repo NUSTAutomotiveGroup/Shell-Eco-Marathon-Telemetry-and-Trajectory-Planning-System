@@ -1,0 +1,24 @@
+PARSFILE
+#FullDataName Control: Throttle (Open Loop)`Ramp to 0.13 in 2 sec.`Ramp
+#CheckBox0 0    
+
+#RingCtrl0 LINEAR_FLAT
+#RadioCtrl0 0    
+
+#DiagramOne0
+THROTTLE_ENGINE_TABLE LINEAR_FLAT
+0, 0
+2, 0.13
+2.1, 0.13
+ENDTABLE
+
+
+LOG_ENTRY Used Dataset: Control: Throttle (Open Loop); { Ramp } Ramp to 0.13 in 2 sec.
+#Library : Control: Throttle (Open Loop)
+#DataSet : Ramp to 0.13 in 2 sec.
+#Category: Ramp
+#FileID  : Throttle_1f1b93bd-164b-48b5-9b11-5e6ffb44478d
+#Product : CarSim 2017.1
+#VehCode Open-loop Throttle
+
+END

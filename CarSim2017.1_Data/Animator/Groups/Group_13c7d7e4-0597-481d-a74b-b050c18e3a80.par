@@ -1,0 +1,43 @@
+PARSFILE
+#FullDataName Animator: Group`Lower Control Arms (Front)`CS Pickup, Baja
+PARSFILE Animator\Frames\Frame_950e5f11-01f4-4799-be93-f191fc27ffca.par
+#BlueLink9 Animator: Reference Frame`LF LCA - Off-Road` Control Arms` , Miscellaneous`Frame_950e5f11-01f4-4799-be93-f191fc27ffca
+
+PARSFILE Animator\STL\Shape_a3d2568c-a751-4468-a238-a698ade5b49b.par
+#BlueLink10 Animator: Shape File Link`Pickup, Baja: Lower Control Arm (Front)` CS Pickup, Baja` , Miscellaneous`Shape_a3d2568c-a751-4468-a238-a698ade5b49b
+
+#MiscYellow0
+set_angle_x  -25
+#ENDMYellow
+
+PARSFILE Animator\Frames\Frame_7c80c380-8ece-4cda-8c82-406a876cdcef.par
+#BlueLink11 Animator: Reference Frame`RF LCA - Off-Road` Control Arms` , Miscellaneous`Frame_7c80c380-8ece-4cda-8c82-406a876cdcef
+
+PARSFILE Animator\STL\Shape_a3d2568c-a751-4468-a238-a698ade5b49b.par
+#BlueLink12 Animator: Shape File Link`Pickup, Baja: Lower Control Arm (Front)` CS Pickup, Baja` , Miscellaneous`Shape_a3d2568c-a751-4468-a238-a698ade5b49b
+
+#MiscYellow2
+set_angle_x  -25
+set_angle_z 180
+#ENDMYellow
+
+*X_REF_LENGTH 2575
+*Y_REF_LENGTH 1380
+*Z_REF_LENGTH 1215
+
+#CheckBox0 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_f2e9fdc6-8eb7-4c80-a895-b3a3c8b4ed69.par
+#BlueLink20 Animator: Camera Setup`Shape Preview (Side) Static` Shape Preview` , Video Camera`Camera_f2e9fdc6-8eb7-4c80-a895-b3a3c8b4ed69
+
+
+LOG_ENTRY Used Dataset: Animator: Group; { CS Pickup, Baja } Lower Control Arms (Front)
+#Library : Animator: Group
+#DataSet : Lower Control Arms (Front)
+#Category: CS Pickup, Baja
+#FileID  : Group_13c7d7e4-0597-481d-a74b-b050c18e3a80
+#Product : CarSim 2017.1
+#VehCode Animator Group
+
+END

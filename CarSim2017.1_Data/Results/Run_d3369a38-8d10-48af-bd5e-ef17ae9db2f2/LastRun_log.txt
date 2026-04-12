@@ -1,0 +1,292 @@
+Include PARSFILE "Results\Run_d3369a38-8d10-48af-bd5e-ef17ae9db2f2\Run_all.par"
+Used Dataset: Animator: Reference Frame; { Car Tracking } Car X-Y-Z-Yaw
+Used Dataset: Animator: Camera Setup; { Vehicle Reference } 150 deg. Azimuth, Veh. Ref.
+Used Dataset: Suspension: Dive Angle (Caster Change); SLA - Front
+Used Dataset: Suspension: Longitudinal Movement; SLA - Front
+Used Dataset: Suspension: Camber Angle; SLA - Front
+Used Dataset: Suspension: Lateral Movement Due to Jounce; SLA - Front
+Used Dataset: Suspension: Toe Angle; SLA - Front
+Used Dataset: Suspension: Dive Angle (Caster Change); SLA - Front
+Used Dataset: Suspension: Longitudinal Movement; SLA - Front
+Used Dataset: Suspension: Camber Angle; SLA - Front
+Used Dataset: Suspension: Lateral Movement Due to Jounce; SLA - Front
+Used Dataset: Suspension: Toe Angle; SLA - Front
+Used Dataset: Suspension: Independent System Kinematics; { Pickup } Pickup, Compact - Front
+Used Dataset: Suspension: Shock Absorber; Big SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +150 mm / -110 mm
+Used Dataset: Suspension: Shock Absorber; Big SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +150 mm / -110 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 510 N-m/deg
+Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { Pickup } Pickup, Compact - Front
+Used Dataset: Animator: Shape File Link; { Tires } Small SUV Tire
+Used Dataset: Animator: Shape File Link; { Tires } Small SUV Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Small SUV Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Small SUV Rotor
+Used Dataset: Animator: Shape Assembly; { Tires } Small SUV
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 215/70 R15
+Used Dataset: Tire: Lateral Force; { Touring Tires } 215/70 R15
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 215/70 R15
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 215/70 R15
+Used Dataset: Tire; { Touring Tires } 215/70 R15
+Used Dataset: Animator: Shape File Link; { Tires } Small SUV Tire
+Used Dataset: Animator: Shape File Link; { Tires } Small SUV Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Small SUV Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Small SUV Rotor
+Used Dataset: Animator: Shape Assembly; { Tires } Small SUV
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 215/70 R15
+Used Dataset: Tire: Lateral Force; { Touring Tires } 215/70 R15
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 215/70 R15
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 215/70 R15
+Used Dataset: Tire; { Touring Tires } 215/70 R15
+Used Dataset: Suspension: Longitudinal Movement; Hotchkiss - Rear
+Used Dataset: Suspension: Lateral Movement Due to Roll and Jounce; Hotchkiss - Rear
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Rear Solid Drive Axle
+Used Dataset: Suspension: Solid Axle System Kinematics; { Pickup } Pickup, Compact - Rear
+Used Dataset: Suspension: Spring; { Pickup } Pickup - Rear
+Used Dataset: Suspension: Shock Absorber; Big SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +150 mm / -110 mm
+Used Dataset: Suspension: Spring; { Pickup } Pickup - Rear
+Used Dataset: Suspension: Shock Absorber; Big SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +150 mm / -110 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; Constant: Zero
+Used Dataset: Suspension: Solid Axle Compliance, Springs, and Dampers; { Pickup } Pickup, Compact - Rear
+Used Dataset: Animator: Shape File Link; { Tires } Small SUV Tire
+Used Dataset: Animator: Shape File Link; { Tires } Small SUV Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Small SUV Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Small SUV Rotor
+Used Dataset: Animator: Shape Assembly; { Tires } Small SUV
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 215/70 R15
+Used Dataset: Tire: Lateral Force; { Touring Tires } 215/70 R15
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 215/70 R15
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 215/70 R15
+Used Dataset: Tire; { Touring Tires } 215/70 R15
+Used Dataset: Animator: Shape File Link; { Tires } Small SUV Tire
+Used Dataset: Animator: Shape File Link; { Tires } Small SUV Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Small SUV Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Small SUV Rotor
+Used Dataset: Animator: Shape Assembly; { Tires } Small SUV
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 215/70 R15
+Used Dataset: Tire: Lateral Force; { Touring Tires } 215/70 R15
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 215/70 R15
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 215/70 R15
+Used Dataset: Tire; { Touring Tires } 215/70 R15
+Used Dataset: Vehicle: Sprung Mass; { Pickup, Compact } Pickup, Compact
+Used Dataset: Aerodynamics: Fx (Drag) Coef. vs. Aero Slip; 0.30 at 0 Degrees
+Used Dataset: Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip; 0.5 at 90 deg
+Used Dataset: Aerodynamics: Fz (Lift) Coef. vs. Aero Slip; 0.18 at 0 Degrees
+Used Dataset: Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip; 0.3 at 90 deg
+Used Dataset: Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip; -0.15 at 0 Degrees
+Used Dataset: Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip; 0.05 at 90 deg
+Used Dataset: Aerodynamics: Basic; { Pickup } Pickup, Compact
+Used Dataset: Animator: Shape File Link; { CS Pickup, Compact } Pickup, Compact: Cab
+Used Dataset: Animator: Shape File Link; { CS Pickup, Compact } Pickup, Compact: Reg. Cab Details
+Used Dataset: Animator: Shape File Link; { CS Pickup, Compact } Pickup, Compact: Interior
+Used Dataset: Animator: Shape File Link; { CS Pickup, Compact } Pickup, Compact: Interior Trim
+Used Dataset: Animator: Shape File Link; { CS Pickup, Compact } Pickup, Compact: Windows
+Used Dataset: Animator: Shape File Link; { CS Pickup, Compact } Pickup, Compact: Steering Wheel
+Used Dataset: Animator: Shape File Link; { CS Pickup, Compact } Pickup, Compact: Driver
+Used Dataset: Animator: Shape Assembly; { CS Pickup, Compact } Reg. Cab, Not-Body
+Used Dataset: Animator: Shape File Link; { CS Pickup, Compact } Pickup, Compact: Short Box Body
+Used Dataset: Animator: Shape File Link; { CS Pickup, Compact } Pickup, Compact: Short Box Details
+Used Dataset: Animator: Shape File Link; { CS Pickup, Compact } License
+Used Dataset: Animator: Shape Assembly; { CS Pickup, Compact } Short for Reg. Cab
+Used Dataset: Animator: Group; Pickup, Compact: Reg. Cab, Box Short
+Used Dataset: Animator: Sound Modifier; { Wind } Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Wind } Frequency: Speed Effect
+Used Dataset: Animator: Sound Sample; Wind Noise
+Used Dataset: Animator: Sound Set; Wind Noise
+Used Dataset: Animator: Shape File Link; { CS Pickup, Compact } Pickup, Compact: Brake Lights
+Used Dataset: Animator: Vehicles and Sensor Targets; { Working Vehicles } Pickup, Compact
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power Off Loudness: Load Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power Off Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Gas Engine } 4 Cyl. - Power Off
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power On Loudness: Load Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power On Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Gas Engine } 4 Cyl. - Power On
+Used Dataset: Generic Data Group; { Audio Sound Sets } Gasoline Engine (4 Cylinder)
+Used Dataset: Powertrain: Engine; 200 kW  Engine
+Used Dataset: Powertrain: Torque Converter; Torque Converter for 200 kW Engine
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 1-2 Shift
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 2-3 Shift
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 3-4 Shift
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 4-5 Shift
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 5-6 Shift
+Used Dataset: Powertrain: Transmission (18 Gears or CVT); 6-Speed
+Used Dataset: Powertrain: Rear Differential; Open: Gear Ratio 4.1
+Used Dataset: Powertrain: Rear Differential; Open: Gear Ratio 4.1
+Used Dataset: Powertrain: Rear-Wheel Drive; 200 kW, 6-spd., 4.1 Ratio
+Used Dataset: Brakes: Four-Wheel System; { Pickup Trucks and SUVs } Pickup, Compact w/ ABS
+Used Dataset: Steering System: Compliance; Constant: Zero
+Used Dataset: Steering System: Kinematics for 2 Wheels (Recirc. Ball); Pickup, Compact
+Used Dataset: Steering: Power Assist Torque; 300 N-m Maximum
+Used Dataset: Steering System: Compliance; { Constant } Constant: 0.002 deg/N-m
+Used Dataset: Steering: Parking Torque for 2 Wheels; Zero
+Used Dataset: Steering; { Pickup Trucks and SUVs } Pickup, Compact: Power, Recirc. Ball
+Used Dataset: Vehicle: Assembly; { Pickup, Compact } Pickup, Compact: RWD
+Used Dataset: Control: Steering by the Closed-loop Driver Model; { Constant Position } No Offset, 1.5 sec. Preview
+Used Dataset: Control: Braking MC Pressure (Open Loop); { Constant } Constant: 0 MPa
+Used Dataset: Control: Throttle (Open Loop); { Constant } Constant: 0.2
+Used Dataset: Control: Clutch (Open Loop); Fast Engagement
+Used Dataset: Control: Shifting (Open Loop); Constant: 1st Gear Only w/ Clutch
+Used Dataset: Control: Shifting (Closed Loop); MT 1st Mode
+ Straight East <Straight>
+Used Dataset: Path: Segment Builder; { Straight } Straight East
+Used Dataset: Road: Reference Line Elevation; Slope 20 deg. @ 5 m
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Off-Road Terrain } Off-Road Terrain, 75 m long, 10 m wide
+Used Dataset: Road: Friction Map, S-L Grid; { Constant } Constant: 0.75
+Used Dataset: Road: Animator Surface Shapes; { Ride Road Shapes } Off-Road
+Used Dataset: Animator: Reference Frame; Skybox (Vehicle Reference)
+Used Dataset: Animator: Shape File Link; { Skies } Partly Cloudy Sky
+Used Dataset: Animator: Shape File Link; { Terrain } Land Bowl for Light Grass
+Used Dataset: Animator: Group; { Skies } Sky for Light Grass
+Used Dataset: Road: 3D Surface (All Properties); { Off-Road } Off-Road 20 deg.
+Used Dataset: Events; { Shift 2WD to 4WD } A. Get Stuck
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Powertrain } Spin Rates in Powertrain
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Powertrain } Torques in Powertrain
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Powertrain } Wheel Drive Torques - Front
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Powertrain } Wheel Drive Torques - Rear
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Controls: Driver } Trans. Control: Gear Selected
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Braking } Wheel Speeds
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Event Control } Event Count
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Longitudinal Accel. of CG's
+Used Dataset: Procedures; { Event Triggered Tests } 2WD to 4WD
+Used Dataset: Generic VS Commands; { HUD Gauges } 4x4 Indicator
+ Events: Shift 2WD to 4WD <Powertrain Tests>
+Used Dataset: CarSim Run Control; { Powertrain Tests } Events: Shift 2WD to 4WD
+
+Time to read input = 0.058
+Function ROAD_ZS_TABLE(1) extrapolated (out of range LOW) for X = -5 m at T = 0
+Function F_REB_STOP_TABLE(1,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(1,1) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(1,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(1,2) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(2,1) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(2,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(2,2) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(2,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+
+Run started: ERD output file = Results\Run_d3369a38-8d10-48af-bd5e-ef17ae9db2f2\LastRun.bin
+Function L_RELAX_X_FZ_TABLE(1,1) extrapolated (out of range HIGH) for X = 1.00474 N at T = 2.1375
+Function SUSP_X_TABLE(1,1) extrapolated (out of range HIGH) for X = 70.1488 mm at T = 2.242
+Function SUSP_LAT_TABLE(1,1) extrapolated (out of range HIGH) for X = 70.1488 mm at T = 2.242
+Function CAMBER_TABLE(1,1) extrapolated (out of range HIGH) for X = 70.1488 mm at T = 2.242
+Function SUSP_DIVE_TABLE(1,1) extrapolated (out of range HIGH) for X = 70.1488 mm at T = 2.242
+Function TOE_TABLE(1,1) extrapolated (out of range HIGH) for X = 70.1488 mm at T = 2.242
+Function L_RELAX_X_FZ_TABLE(1,2) extrapolated (out of range HIGH) for X = 1.00091 N at T = 2.329
+Function SUSP_X_TABLE(1,2) extrapolated (out of range HIGH) for X = 70.0101 mm at T = 2.437
+Function SUSP_LAT_TABLE(1,2) extrapolated (out of range HIGH) for X = 70.0101 mm at T = 2.437
+Function CAMBER_TABLE(1,2) extrapolated (out of range HIGH) for X = 70.0101 mm at T = 2.437
+Function SUSP_DIVE_TABLE(1,2) extrapolated (out of range HIGH) for X = 70.0101 mm at T = 2.437
+Function TOE_TABLE(1,2) extrapolated (out of range HIGH) for X = 70.0101 mm at T = 2.437
+Function L_RELAX_X_FZ_TABLE(2,1) extrapolated (out of range HIGH) for X = 1.01943 N at T = 2.5205
+Function FY_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for X = 26.2117 deg at T = 2.5225
+Function MZ_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for X = 26.2117 deg at T = 2.5225
+Function L_RELAX_X_FZ_TABLE(2,2) extrapolated (out of range HIGH) for X = 1.03538 N at T = 2.53
+Function KGAMMA_TABLE(2,1) extrapolated (out of range HIGH) for X = 15890.4 N at T = 2.535
+Function FY_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for XCOL = 15890.4 N at T = 2.535
+Function FX_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for XCOL = 15890.4 N at T = 2.535
+Function MZ_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for XCOL = 15890.4 N at T = 2.535
+Function L_RELAX_Y_FZ_TABLE(2,1) extrapolated (out of range HIGH) for X = 2.01965 N at T = 2.5355
+Function FD_TABLE(2,2) extrapolated (out of range HIGH) for X = 1221.09 mm/s at T = 2.536
+Function FD_TABLE(2,1) extrapolated (out of range HIGH) for X = 1188.75 mm/s at T = 2.5505
+Function KGAMMA_TABLE(2,2) extrapolated (out of range HIGH) for X = 15922.9 N at T = 2.6825
+Function FX_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for XCOL = 15922.9 N at T = 2.6825
+Function L_RELAX_Y_FZ_TABLE(2,2) extrapolated (out of range HIGH) for X = 2.02318 N at T = 2.683
+Function MZ_TIRE_CARPET(1,2) extrapolated (out of range HIGH) for X = 25.004 deg at T = 5.8935
+Function FY_TIRE_CARPET(1,2) extrapolated (out of range HIGH) for X = 26.0064 deg at T = 5.902
+Function M_BOOST_G_CARPET extrapolated (out of range LOW) for XCOL = -0.0737907 km/h at T = 8.2745
+
+Event encountered at t = 8.581: VX < -1 km/h
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_029a1558-e259-4a7b-9d51-eee98a1227f8.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Throttle\Throttle_768d3744-c109-4ff7-a65b-3b0bea560117.par"
+Used Dataset: Control: Throttle (Open Loop); { Constant } Constant: 0
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Braking\PbkCon_99583725-3fab-4a15-a40c-665c2c8bd2f5.par"
+Used Dataset: Control: Braking MC Pressure (Open Loop); { Constant } Constant: 3 MPa
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Gear_at\GearCL_395374af-90fa-4fef-80e1-a8df607bfbef.par"
+Used Dataset: Control: Shifting (Closed Loop); Neutral
+Used Dataset: Events; { Shift 2WD to 4WD } B. Stop - Shift to Neutral
+
+Event encountered at t = 10.081: T_EVENT > 1.5 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_b455bff9-0b27-4055-8553-96c4700269d9.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Throttle\Throttle_d255ae31-e406-444e-8cfa-b0ee0e0923c1.par"
+Used Dataset: Control: Throttle (Open Loop); { Constant } Constant: 0.2
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Braking\PbkCon_bf4961f4-c4cf-4b18-a8f7-5f65e31ecd3f.par"
+Used Dataset: Control: Braking MC Pressure (Open Loop); { Constant } Constant: 0 MPa
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Powertrain\4wd\4WD_025bb397-7fa7-4377-bf23-d037c2bfa9cd.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Powertrain\Engine\Engine_d49c24d0-f8ba-4bd6-83a5-d57395bb87ce.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Generic\Group\GenGrp_efabcbad-be3a-48c3-a446-5dff753de8d2.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Animator\Sound\Sample\SndSmp_4d7e778c-2125-4ad5-be45-0168bdc47528.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Animator\Sound\Modifier\SndMod_1f0cf8cc-9139-44f8-8580-b7c8cf5cc3c1.par"
+WARNING: DEFINE_PARAMETER was used for the keyword "MAX_BRAKE_TORQUE", which was already installed.
+WARNING: DEFINE_OUTPUT did not add a variable because the keyword "V_MOD2" was already in use.
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power Off Loudness: Load Effect
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Animator\Sound\Modifier\SndMod_720c63f3-e191-4b32-9aaa-ef6e7d057a59.par"
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power Off Loudness: Speed Effect
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Animator\Sound\Modifier\SndMod_83ec05bc-29ab-428d-a5ae-1e1a7ffa16f2.par"
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Gas Engine } 4 Cyl. - Power Off
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Animator\Sound\Sample\SndSmp_4a8d24e6-3399-47dc-9bb1-379ea633963a.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Animator\Sound\Modifier\SndMod_82007129-3b66-4c50-babb-2325954a277f.par"
+WARNING: DEFINE_PARAMETER was used for the keyword "MAX_TORQUE", which was already installed.
+WARNING: DEFINE_OUTPUT did not add a variable because the keyword "V_MOD1" was already in use.
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power On Loudness: Load Effect
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Animator\Sound\Modifier\SndMod_c37319df-b7d3-49ac-a826-559afe89c56b.par"
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power On Loudness: Speed Effect
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Animator\Sound\Modifier\SndMod_83ec05bc-29ab-428d-a5ae-1e1a7ffa16f2.par"
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Gas Engine } 4 Cyl. - Power On
+Used Dataset: Generic Data Group; { Audio Sound Sets } Gasoline Engine (4 Cylinder)
+Used Dataset: Powertrain: Engine; 200 kW  Engine
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Powertrain\TConv\TC_0b62e224-7cf4-49f3-bf3f-c13c33e92f16.par"
+Used Dataset: Powertrain: Torque Converter; Torque Converter for 200 kW Engine
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Powertrain\TransExt\Trans18_55b3d8ee-e987-4803-8615-8a5b5c910733.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Powertrain\Shift\Shift_28d508f4-a9e5-4d5f-93e0-da2839bd20ad.par"
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 1-2 Shift
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Powertrain\Shift\Shift_458185ed-acb4-414f-bccd-d9bffa8cb1d0.par"
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 2-3 Shift
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Powertrain\Shift\Shift_227434b7-0668-495c-a01a-0881f536f932.par"
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 3-4 Shift
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Powertrain\Shift\Shift_4c7e0778-d050-4bc4-ae32-5ddb69fa99e5.par"
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 4-5 Shift
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Powertrain\Shift\Shift_1ca55221-d7d9-4a14-a7cc-e661498a08ca.par"
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 5-6 Shift
+Used Dataset: Powertrain: Transmission (18 Gears or CVT); 6-Speed
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Powertrain\Centerdiff\XC_ae6b31f5-26e6-438c-83da-cf1d58fb3cda.par"
+Used Dataset: Powertrain: Transfer Case; Full Time 50/50 Locked (2:1)
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Powertrain\Frontdiff\DiffF_0e6d0a7d-5a3d-4cf9-b4d6-7adbda9605b1.par"
+Used Dataset: Powertrain: Front Differential; Open: Gear Ratio 4.1
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Powertrain\Reardiff\DiffR_14eeb77f-6816-40cf-8e35-7b770f740673.par"
+Used Dataset: Powertrain: Rear Differential; Locked: Gear Ratio 4.1
+Used Dataset: Powertrain: 4-Wheel Drive; { 200 kW Powertrains } 200 kW, 6-spd., 4.1 Rat., Open Frt., Locked Rr.
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Gear_at\GearCL_c9d9bfad-9d47-4974-82bf-69ae78daa70e.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Gear_mt\GearOL_dee9d4f0-1186-4f83-8295-da88c783383e.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Clutch\ClCon_a4f8f716-c514-479e-b1cf-bfefe1ee7250.par"
+Used Dataset: Control: Clutch (Open Loop); Fast Engagement
+Used Dataset: Control: Shifting (Open Loop); Constant: 1st Gear Only w/ Clutch
+Used Dataset: Control: Shifting (Closed Loop); MT 1st Mode
+Used Dataset: Events; { Shift 2WD to 4WD } C. Shift to 4WD
+Function MZ_TIRE_CARPET(1,1) extrapolated (out of range HIGH) for X = 25.071 deg at T = 10.217
+Function FY_TIRE_CARPET(1,1) extrapolated (out of range HIGH) for X = 26.0095 deg at T = 10.221
+
+Run stopped at t = 22. Stop time reached.
+
+Computational efficiency: RTIME = 0.0977727 sec/sim. sec
+

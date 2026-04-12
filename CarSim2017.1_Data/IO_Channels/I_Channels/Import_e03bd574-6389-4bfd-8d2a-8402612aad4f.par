@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName I/O Channels: Import`Driver`
+#RingCtrl0 0
+#RingCtrl1 1
+*README_FILE Results\Run_820a09ff-c5fb-44c1-b40f-3dd999e32b55\Run_imp_tab.txt
+
+#MiscYellow0
+IMP_STEER_SW Replace 0.0 ! 1
+IMP_X_PREV Add 0.0 ! 0
+IMP_Y_PREV Add 0.0 ! 0
+IMP_THROTTLE_ENGINE Replace 0.0 ! 1
+#ENDMYellow
+
+#MiscYellow1
+define_import IMP_X_PREV
+define_import IMP_Y_PREV
+
+define_output Xpreview = IMP_X_PREV
+define_output Ypreview = IMP_Y_PREV
+#ENDMYellow
+
+#BlueLink0 CarSim Run Control`Steer Controller with VB` Extended Models` , example run`Run_820a09ff-c5fb-44c1-b40f-3dd999e32b55
+
+
+#EMBEDDED_NOTES
+#This dataset uses VS Commands to add two import and output variables for X and Y coordinates of a preview point used in the steering controller example described in the tech memo  "Example: Extending a Model with VS Commands and the API."
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: I/O Channels: Import; Driver
+#Library : I/O Channels: Import
+#DataSet : Driver
+#Category: 
+#FileID  : Import_e03bd574-6389-4bfd-8d2a-8402612aad4f
+#Product : CarSim 2017.1
+#VehCode Import Channels
+
+END

@@ -1,0 +1,42 @@
+PARSFILE
+#FullDataName Models: Transfer to Local Windows Directory`Simple Steer Control with MATLAB (32-bit)`Running from MATLAB
+*USE_ALT_DIR 1
+#ALTPATH Extensions\Custom_M
+#CheckBox0 1    
+OPT_IO_UPDATE 1
+#CheckBox1 0    
+#CheckBox2 0    
+*USE_DIFF_SOLVERS 0
+
+#RingCtrl0 2
+OPT_INT_METHOD 2
+#RingCtrl1 0
+*X64SOLVER 0
+#BlueLink0 ` , Misc. Link` , Misc. Link` , Misc. Link`
+
+#BlueLink1 ` , Misc. Link` , Misc. Link` , Misc. Link`
+
+#BlueLink2 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#MiscYellow1
+simfile steer_control.sim ! steer_control.m is looking for this simfile
+
+*cpar_include Extensions\Custom_M\Steer_control.m
+*cpar_include Extensions\Custom_M\vs_api_def_m.h
+*cpar_include Extensions\Custom_M\vs_dll_path.m
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#Generates a simfile in the Extensions\Custom_M database folder that is used by the steer_control.m MATLAB script. That script uses the MATLAB loadlibrary function to load a CarSim solver DLL.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: Transfer to Local Windows Directory; { Running from MATLAB } Simple Steer Control with MATLAB (32-bit)
+#Library : Models: Transfer to Local Windows Directory
+#DataSet : Simple Steer Control with MATLAB (32-bit)
+#Category: Running from MATLAB
+#FileID  : Local_8757f6cc-62cd-481e-8257-746057b601d5
+#Product : CarSim 2017.1
+#VehCode 
+
+END

@@ -1,0 +1,43 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`V-Engine Body (FF)`Engine Mount
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\engines\vdesign\vdesign_engine.obj
+#ENDMYellow
+
+SET_COLOR 1 1 1
+SET_OFFSET_X 0
+SET_OFFSET_Y -0.07
+SET_OFFSET_Z -0.275
+*SPECULAR 1
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+SET_SPECULAR 1 1 1
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_a950d52f-1ae4-4b4f-bf7e-869467881259.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Top) No Offset` Shape Preview` , Video Camera`Camera_a950d52f-1ae4-4b4f-bf7e-869467881259
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_16359aee-e62f-42a4-9abb-238999f6d8f5.png
+
+#EMBEDDED_NOTES
+#This dataset was made to show a fake vehicle making a sharp turn. With rear wheels that are not steered, the rear axle should follow the target path and should not move laterally at all relative to the path. (On the other hand, the front axle can move laterally due to presumed steering.)
+#
+#The X coordinates of the shape are offset by the X length (2.690 m). Instead of X=0 being at the front axle (for most shadows), it is at the rear axle.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Engine Mount } V-Engine Body (FF)
+#Library : Animator: Shape File Link
+#DataSet : V-Engine Body (FF)
+#Category: Engine Mount
+#FileID  : Shape_16359aee-e62f-42a4-9abb-238999f6d8f5
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

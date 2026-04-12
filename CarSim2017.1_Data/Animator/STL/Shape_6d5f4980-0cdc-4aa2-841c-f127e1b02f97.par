@@ -1,0 +1,36 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Partly Cloudy Sky`Skies
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\scenery\Slightly_Cloudy_Sky\sky_road_course.obj
+#ENDMYellow
+
+SET_COLOR 1 1 1
+SET_SCALE_X 15
+SET_SCALE_Y 15
+SET_SCALE_Z 5
+SET_OFFSET_X 0
+SET_OFFSET_Y 0
+SET_OFFSET_Z 0
+#CheckBox0 1    
+set_lighting off
+#CheckBox1 1    
+set_fogging off
+#CheckBox3 0    
+#CheckBox4 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_6d5f4980-0cdc-4aa2-841c-f127e1b02f97.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Skies } Partly Cloudy Sky
+#Library : Animator: Shape File Link
+#DataSet : Partly Cloudy Sky
+#Category: Skies
+#FileID  : Shape_6d5f4980-0cdc-4aa2-841c-f127e1b02f97
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

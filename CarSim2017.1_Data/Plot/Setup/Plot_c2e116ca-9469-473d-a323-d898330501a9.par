@@ -1,0 +1,49 @@
+PARSFILE
+#FullDataName Plot: Setup`Y from Sensor on One Side`ADAS
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d.par
+#BlueLink0 Plot: Format`Lines without Symbols` ` , Plot format`PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d
+
+#CheckBox0 1    
+
+
+#MiscYellow0
+PLOTCHANNELS Y_S<<s>>_1, Time
+
+#ENDMYellow
+
+YAXISLABEL <<side>> Y coordinate of target - m
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Y from Sensor on One Side
+
+END_ENTITY Plot
+
+
+#EMBEDDED_NOTES
+#This dataset can be used multiple times to generate plots for blind spot sensors.
+#
+#Use Symbol Stack <<s>> to get the detection 1 (closest) for the current sensor.
+#
+#Need to check the box to not truncate allow the length of <<s>>.
+#
+#Use <<side>> for Y axis label.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Plot: Setup; { ADAS } Y from Sensor on One Side
+#Library : Plot: Setup
+#DataSet : Y from Sensor on One Side
+#Category: ADAS
+#FileID  : Plot_c2e116ca-9469-473d-a323-d898330501a9
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

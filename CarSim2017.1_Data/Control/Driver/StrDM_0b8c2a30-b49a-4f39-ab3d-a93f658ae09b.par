@@ -1,0 +1,35 @@
+PARSFILE
+#FullDataName Control: Steering by the Closed-loop Driver Model`1 m Left, 1. sec. Preview`Constant Position
+#CheckBox0 0    
+OPT_DRIVER_MODEL 1
+#CheckBox1 0    
+CREATE_PATH_OBJ off
+#CheckBox2 0    
+
+#RingCtrl0 0
+#RingCtrl1 CONSTANT
+LTARG_CONSTANT 1
+#RadioCtrl0 0    
+
+AV_SW_MAX_DM 1200
+TLAG_DM 0
+A_SW_MAX_DM 720
+*TPREV 1.0
+*SCALAR 1
+VLOW_DRIVER 20
+
+TPREV_CONSTANT 1.0
+
+#EMBEDDED_NOTES
+#This defines a target 1 meter to the left(1.0). It can be rescaled for other positions using the target gain LTARG_GAIN or constant LTARG_CONSTANT (e.g., from the Procedure screen or Run screen).
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Control: Steering by the Closed-loop Driver Model; { Constant Position } 1 m Left, 1. sec. Preview
+#Library : Control: Steering by the Closed-loop Driver Model
+#DataSet : 1 m Left, 1. sec. Preview
+#Category: Constant Position
+#FileID  : StrDM_0b8c2a30-b49a-4f39-ab3d-a93f658ae09b
+#Product : CarSim 2017.1
+#VehCode Driver Path Follower
+
+END

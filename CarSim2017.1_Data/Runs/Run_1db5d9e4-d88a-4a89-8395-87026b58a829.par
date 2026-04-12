@@ -1,0 +1,87 @@
+PARSFILE
+#FullDataName CarSim Run Control`Parametric ESC Model, DLC (Tight)`Handling and Stability Tests
+#VEHICLECODE Ind_SA
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_1db5d9e4-d88a-4a89-8395-87026b58a829
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_358f7aeb-0e81-446e-a19f-f2c18b21801b.par
+#BlueLink0 Animator: Camera Setup`13 deg. Azimuth, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_358f7aeb-0e81-446e-a19f-f2c18b21801b
+
+#CheckBox0 1    
+#CheckBox1 1    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 2
+#RingCtrl7 -1
+*RUN_COLOR 0 0 0.996
+SET_RUN_COLOR 0 0 0.996
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_2d03bc8d-d725-4343-9338-aaa879166bf7.par
+#BlueLink2 Vehicle: Assembly`D-Class, SUV V9 2017` D-Class` , Vehicle Configuration`Vehicle_2d03bc8d-d725-4343-9338-aaa879166bf7
+
+PARSFILE Procedures\Proc_59aac561-fc66-42a0-b3c0-08074697f758.par
+#BlueLink28 Procedures`Double Lane Change, Tight` Handling Testing` , Procedure`Proc_59aac561-fc66-42a0-b3c0-08074697f758
+
+PARSFILE Generic\VS_commands\GenVS_8fccd3e5-0e17-47fd-b5b1-06da3e3adce9.par
+#BlueLink9 Generic VS Commands`ESC: Parametric Electronic Stability Control` ADAS Support` , Miscellaneous`GenVS_8fccd3e5-0e17-47fd-b5b1-06da3e3adce9
+
+PARSFILE Plot\Setup\Plot_6f0c0125-1c0c-4b0a-a06b-529aada16a53.par
+#BlueLink15 Plot: Setup`Brake Torque` Braking` , Plot`Plot_6f0c0125-1c0c-4b0a-a06b-529aada16a53
+
+PARSFILE Plot\Setup\Plot_f5d0f978-49a4-4e36-9c25-7d47b1c2be3e.par
+#BlueLink16 Plot: Setup`Wheel Cylinder Pressures` Braking` , Plot`Plot_f5d0f978-49a4-4e36-9c25-7d47b1c2be3e
+
+
+SPECIAL_PARSFILE Runs\Run_f2815315-e6ec-4981-b91c-d3e88f1ab68c.par
+#BlueLink23 CarSim Run Control`Double Lane Change, Tight w/o ESC` Handling and Stability Tests` , Overlay run or ERD file`Run_f2815315-e6ec-4981-b91c-d3e88f1ab68c
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_2d03bc8d-d725-4343-9338-aaa879166bf7.png
+WRITE_SENSOR_DETECT
+Title Parametric ESC Model, DLC (Tight) <Handling and Stability Tests>
+CATEGORY Handling and Stability Tests 
+DATASET_TITLE Parametric ESC Model, DLC (Tight)
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example demonstrates a parametric Stability Control system and its influence on a D-Class SUV performing a Consumers Union-type Double Lane Change.
+#
+#The Stability Control logic is written in VS Commands. To see the code and understand how it works, click on the blue link "Electronic Stability Control - Parametric Model".
+#
+#For comparison, this simulation is overlaid with another example, "Double Lane Change, Tight w/o ESC". That example has the same D-Class SUV as this example, but no ESC code is linked to it.
+#
+#Review the plots and animation to see the difference an ESC system can have on a vehicle performing a tight double lane change.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Handling and Stability Tests } Parametric ESC Model, DLC (Tight)
+#Library : CarSim Run Control
+#DataSet : Parametric ESC Model, DLC (Tight)
+#Category: Handling and Stability Tests
+#FileID  : Run_1db5d9e4-d88a-4a89-8395-87026b58a829
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

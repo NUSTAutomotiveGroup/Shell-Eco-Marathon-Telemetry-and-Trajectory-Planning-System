@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Sensor Detection Vector (Box)`Sensors
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\primitives\cube_1m_wide.obj
+#ENDMYellow
+
+SET_COLOR 1 0 0
+SET_SCALE_X 1
+SET_SCALE_Y 0.05
+SET_SCALE_Z 0.05
+SET_OFFSET_X 0.5
+X_REF_LENGTH 1
+Y_REF_LENGTH 1
+Z_REF_LENGTH 1
+#CheckBox0 1    
+set_lighting off
+#CheckBox1 1    
+set_fogging off
+#CheckBox3 0    
+#CheckBox4 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_79e403bf-c597-42c5-83f6-ad98b66136c0.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Sensors } Sensor Detection Vector (Box)
+#Library : Animator: Shape File Link
+#DataSet : Sensor Detection Vector (Box)
+#Category: Sensors
+#FileID  : Shape_79e403bf-c597-42c5-83f6-ad98b66136c0
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

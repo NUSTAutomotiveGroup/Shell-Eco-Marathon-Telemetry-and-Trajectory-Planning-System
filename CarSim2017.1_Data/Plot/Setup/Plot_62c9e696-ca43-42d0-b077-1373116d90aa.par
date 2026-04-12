@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Plot: Setup`Understeer Gradient vs. Lat Accel`Steering
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Kug_Gnd, Ay
+PLOTCHANNELS Kug_StrR, Ay
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Understeer Gradient vs. Lat Accel
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Steering } Understeer Gradient vs. Lat Accel
+#Library : Plot: Setup
+#DataSet : Understeer Gradient vs. Lat Accel
+#Category: Steering
+#FileID  : Plot_62c9e696-ca43-42d0-b077-1373116d90aa
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

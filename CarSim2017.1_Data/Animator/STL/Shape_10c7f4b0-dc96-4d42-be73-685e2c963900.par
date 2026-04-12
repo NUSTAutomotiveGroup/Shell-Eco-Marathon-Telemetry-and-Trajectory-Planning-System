@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`275_65R18 rim`Tires
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\tires\275_65R18\Rim.obj
+#ENDMYellow
+
+SET_COLOR 0.69 0.69 0.69
+*SPECULAR 0.3
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+SET_SPECULAR 0.3 0.3 0.3
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_52079630-c01a-43a9-bc0c-30080f01066f.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Top)` Shape Preview` , Video Camera`Camera_52079630-c01a-43a9-bc0c-30080f01066f
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_10c7f4b0-dc96-4d42-be73-685e2c963900.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } 275_65R18 rim
+#Library : Animator: Shape File Link
+#DataSet : 275_65R18 rim
+#Category: Tires
+#FileID  : Shape_10c7f4b0-dc96-4d42-be73-685e2c963900
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

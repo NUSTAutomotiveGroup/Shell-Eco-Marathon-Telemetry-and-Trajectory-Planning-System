@@ -1,0 +1,31 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`City Off-Road Shadow Objects`Off-Road/City Loop
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\scenery\City_Offroad\CityOffroad_Shadows.OSG
+#ENDMYellow
+
+SET_COLOR 1 1 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 1    
+set_fogging off
+#CheckBox3 0    
+#CheckBox4 1    
+
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_c3fbfb6e-8b0b-47fd-b89d-55400503cf55.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Off-Road/City Loop } City Off-Road Shadow Objects
+#Library : Animator: Shape File Link
+#DataSet : City Off-Road Shadow Objects
+#Category: Off-Road/City Loop
+#FileID  : Shape_c3fbfb6e-8b0b-47fd-b89d-55400503cf55
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

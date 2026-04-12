@@ -1,0 +1,95 @@
+PARSFILE
+#FullDataName Road: Animator Surface Shapes`Short GPS Road`Scenic Road Shapes
+NLANES 6
+OPTTHRESHOLD 1
+#MiscYellow0
+# 1 1 1, Road (Medium), 0.2, 40, 1, -5, m, 5, m, 5, , -100, 2500, 5, , , Road
+# 1 1 1, Road Transition (Light), 0.1, 30, 1, 5, m, 7.1, m, 1, , -100, 2500, 5, , , Foliage
+# 1 1 1, Grass (Light), 0.1, 30, 5, -7.1, m, -75, m, , , -100, 2500, 5, , , Foliage
+# 1 1 1, Grass (Light), 0.1, 30, 5, 7.1, m, 75, m, , , -100, 2500, 5, , , Foliage
+# 1 1 1, Road Transition (Light), 0.1, 30, -1, -5, m, -7.1, m, 1, , -100, 2500, 5, , , Foliage
+#ENDMYellow
+
+#CheckBox0 0    
+MIRROR 0
+
+COLOR(1) 1 1 1
+MATERIAL(1) Road (Medium)
+SPECULAR(1) 0.2
+SCALE(1) 40
+LTILES(1) 1
+LIN(1) -5
+LINUNITS(1) m
+LOUT(1) 5
+LOUTUNITS(1) m
+LDIV(1) 5
+SSTART(1) -100
+SSTOP(1) 2500
+SINT(1) 5
+AUTODETAIL(1) Road
+COLOR(2) 1 1 1
+MATERIAL(2) Road Transition (Light)
+SPECULAR(2) 0.1
+SCALE(2) 30
+LTILES(2) 1
+LIN(2) 5
+LINUNITS(2) m
+LOUT(2) 7.1
+LOUTUNITS(2) m
+LDIV(2) 1
+SSTART(2) -100
+SSTOP(2) 2500
+SINT(2) 5
+AUTODETAIL(2) Foliage
+COLOR(3) 1 1 1
+MATERIAL(3) Grass (Light)
+SPECULAR(3) 0.1
+SCALE(3) 30
+LTILES(3) 5
+LIN(3) -7.1
+LINUNITS(3) m
+LOUT(3) -75
+LOUTUNITS(3) m
+SSTART(3) -100
+SSTOP(3) 2500
+SINT(3) 5
+AUTODETAIL(3) Foliage
+COLOR(4) 1 1 1
+MATERIAL(4) Grass (Light)
+SPECULAR(4) 0.1
+SCALE(4) 30
+LTILES(4) 5
+LIN(4) 7.1
+LINUNITS(4) m
+LOUT(4) 75
+LOUTUNITS(4) m
+SSTART(4) -100
+SSTOP(4) 2500
+SINT(4) 5
+AUTODETAIL(4) Foliage
+COLOR(5) 1 1 1
+MATERIAL(5) Road Transition (Light)
+SPECULAR(5) 0.1
+SCALE(5) 30
+LTILES(5) -1
+LIN(5) -5
+LINUNITS(5) m
+LOUT(5) -7.1
+LOUTUNITS(5) m
+LDIV(5) 1
+SSTART(5) -100
+SSTOP(5) 2500
+SINT(5) 5
+AUTODETAIL(5) Foliage
+MTL_FILE Roads\materials\road.mtl
+
+
+LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Scenic Road Shapes } Short GPS Road
+#Library : Road: Animator Surface Shapes
+#DataSet : Short GPS Road
+#Category: Scenic Road Shapes
+#FileID  : RdShape_85807ba3-f1e8-4740-944e-03169a5c52f8
+#Product : CarSim 2017.1
+#VehCode Road Shapes
+
+END

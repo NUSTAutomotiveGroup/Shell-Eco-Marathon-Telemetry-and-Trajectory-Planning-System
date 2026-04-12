@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Models: Transfer to Local Windows Directory`Steer Control with VS Commands in MATLAB`
+*USE_ALT_DIR 1
+#ALTPATH Extensions\Custom_M
+#CheckBox0 0    
+OPT_IO_UPDATE 0
+#CheckBox1 0    
+#CheckBox2 0    
+*USE_DIFF_SOLVERS 0
+
+#RingCtrl0 2
+OPT_INT_METHOD 2
+#RingCtrl1 0
+*X64SOLVER 0
+#BlueLink0 ` , Misc. Link` , Misc. Link` , Misc. Link`
+
+#BlueLink1 ` , Misc. Link` , Misc. Link` , Misc. Link`
+
+#BlueLink2 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#MiscYellow1
+simfile steer_control_vs_cmd.sim ! steer_control.m is looking for this simfile
+#ENDMYellow
+
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+#EMBEDDED_NOTES
+#Generate a simfile in the Extensions\Custom_M database folder for use by the M file "Steer_control_vs_cmd.m".
+#
+#NOTE:  If you are using a 64-bit version of MATLAB, you must select "Use 64-bit Solver" to run the example. You must also have a compatible C compiler installed on your machine to use the MATLAB loadlibrary function.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: Transfer to Local Windows Directory; Steer Control with VS Commands in MATLAB
+#Library : Models: Transfer to Local Windows Directory
+#DataSet : Steer Control with VS Commands in MATLAB
+#Category: 
+#FileID  : Local_87be290c-67b6-4318-a660-a0d0452ff790
+#Product : CarSim 2017.1
+#VehCode 
+
+END

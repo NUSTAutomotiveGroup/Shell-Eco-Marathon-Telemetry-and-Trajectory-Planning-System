@@ -1,0 +1,25 @@
+PARSFILE
+#FullDataName I/O Channels: Export`Vehicle Speed`Braking Exports
+#RingCtrl0 0
+#RingCtrl1 1
+*README_FILE Results\Run_fbd41070-5599-4e06-bf8b-adc78a27d460\Run_out_tab.txt
+
+
+EXPORT Vx
+#MiscYellow0
+#Number of Selected Channels: 1
+#CHN_NAME: Vx
+#ENDMYellow
+
+#BlueLink0 CarSim Run Control`Ext. ABS: Split Mu - Multi-Port` Simulink and LabVIEW Models` , example run`Run_fbd41070-5599-4e06-bf8b-adc78a27d460
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Export; { Braking Exports } Vehicle Speed
+#Library : I/O Channels: Export
+#DataSet : Vehicle Speed
+#Category: Braking Exports
+#FileID  : Export_56caa9fe-7bb4-45c0-86ab-f1dc297927e0
+#Product : CarSim 2017.1
+#VehCode Export Channels
+
+END

@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Animator: Camera Setup`Side View (Veh Ref)`Vehicle Reference
+#RingCtrl1 0
+
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+
+SET_CAMERA_Reference_Frame Car Tracking Car XYZ Yaw
+PARSFILE Animator\Frames\Frame_65b8b18b-97e1-4f26-903d-9efd8deec83e.par
+#BlueLink0 Animator: Reference Frame`Car XYZ Yaw` Car Tracking` , Reference frame for outside camera`Frame_65b8b18b-97e1-4f26-903d-9efd8deec83e
+
+SET_LOOKPOINT_Reference_Frame Car Tracking Car XYZ Yaw
+SET_LOOKPOINT_X -2
+SET_LOOKPOINT_Y 0
+SET_LOOKPOINT_Z 0
+SET_AZIMUTH 90
+SET_ELEVATION 5
+SET_DISTANCE 25
+SET_CAMERAMAN_NAME External camera
+*SET_LOOKPOINT_X -2
+*SET_LOOKPOINT_Y 0
+*SET_LOOKPOINT_Z 0
+*SET_AZIMUTH 90
+*SET_ELEVATION 5
+*SET_DISTANCE 25
+FOG_SCALE 0.2
+
+LOG_ENTRY Used Dataset: Animator: Camera Setup; { Vehicle Reference } Side View (Veh Ref)
+#Library : Animator: Camera Setup
+#DataSet : Side View (Veh Ref)
+#Category: Vehicle Reference
+#FileID  : Camera_24141884-2712-4588-ae8c-b65b98637ddd
+#Product : CarSim 2017.1
+#VehCode Camera
+
+END

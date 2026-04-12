@@ -1,0 +1,7 @@
+INFO - 
+ MF-Tyre/MF-Swift 
+ Copyright TASS International 
+ version : 7.1.0 - 2656+ (4f7a34ef7455+) 
+ adapter : CarSim 
+ status  : Release 
+

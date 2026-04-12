@@ -1,0 +1,75 @@
+PARSFILE
+#FullDataName CarSim Run Control`Ext. Driver Model`Simulink and LabVIEW Models
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_838743c8-f603-41f5-9b64-8e4c2dd16463
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Models\Simulink\Simlink_269e358c-77c3-4364-99fb-8baf8b94de3b.par
+#BlueLink12 Models: Simulink`Driver Model` Steering and Steering Controls` , Models`Simlink_269e358c-77c3-4364-99fb-8baf8b94de3b
+
+PARSFILE Animator\Cameras\Camera_8eb08baf-478b-4574-8772-fb6308e8fbd6.par
+#BlueLink0 Animator: Camera Setup`35 deg. Azimuth, 42 deg. FOV, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_8eb08baf-478b-4574-8772-fb6308e8fbd6
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 8
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0.2 0.4 0.6
+SET_RUN_COLOR 0.2 0.4 0.6
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_7bfb9854-3571-4181-8be6-4b32c19fe3de.par
+#BlueLink2 Vehicle with Loads, Sensors, Trailer, etc.`E-Class, Sedan 2017: w/ 5 Driver Sensors` E-Class` , Vehicle Configuration`VehLoad_7bfb9854-3571-4181-8be6-4b32c19fe3de
+
+PARSFILE Procedures\Proc_b0ac9acf-bdb1-4afe-bafb-be6dc62da5ae.par
+#BlueLink28 Procedures`Constant Speed for Ext. Driver Control` Driving` , Procedure`Proc_b0ac9acf-bdb1-4afe-bafb-be6dc62da5ae
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_56213a52-605a-4200-ab95-2aae09c11489.png
+WRITE_SENSOR_DETECT
+Title Ext. Driver Model <Simulink and LabVIEW Models>
+CATEGORY Simulink and LabVIEW Models 
+DATASET_TITLE Ext. Driver Model
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example demonstrates a Simulink-based driver model. (Libraries > Models > Models: Simulink)
+#
+#Click on the blue link "Driver Model" to see how the Simulink model is connected to CarSim, and how to define the import and export variables that allow CarSim and Simulink to communicate.
+#
+#You can choose whether to Add, Replace, or Mulitply the Simulink imported variables to their corresponding variables in CarSim.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Simulink and LabVIEW Models } Ext. Driver Model
+#Library : CarSim Run Control
+#DataSet : Ext. Driver Model
+#Category: Simulink and LabVIEW Models
+#FileID  : Run_838743c8-f603-41f5-9b64-8e4c2dd16463
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

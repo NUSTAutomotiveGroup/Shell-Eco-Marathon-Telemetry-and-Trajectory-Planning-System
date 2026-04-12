@@ -1,0 +1,72 @@
+PARSFILE
+#FullDataName CarSim Run Control`Payload: Driver and Fuel Loads`Alternate Vehicle Data Measurement
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_864888d7-0358-44d9-9302-8a24ab1ba044
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_045f9b8a-2e8a-4608-8066-fecace521157.par
+#BlueLink0 Animator: Camera Setup`RL View, Road Ref. (Frt. Facing)` Road Reference` , Animator camera`Camera_045f9b8a-2e8a-4608-8066-fecace521157
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0 0.2 1
+SET_RUN_COLOR 0 0.2 1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_aa47b945-1e61-4f87-ad9a-2ed301c1b205.par
+#BlueLink2 Vehicle with Loads, Sensors, Trailer, etc.`B-Class, Sports Car 2017: w/ Driver and Fuel` ` , Vehicle Configuration`VehLoad_aa47b945-1e61-4f87-ad9a-2ed301c1b205
+
+PARSFILE Procedures\Proc_59aac561-fc66-42a0-b3c0-08074697f758.par
+#BlueLink28 Procedures`Double Lane Change, Tight` Handling Testing` , Procedure`Proc_59aac561-fc66-42a0-b3c0-08074697f758
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_4986d2bf-e6a5-4076-b5cc-94a288fa5a6d.png
+WRITE_SENSOR_DETECT
+Title Payload: Driver and Fuel Loads <Alternate Vehicle Data Measurement>
+CATEGORY Alternate Vehicle Data Measurement 
+DATASET_TITLE Payload: Driver and Fuel Loads
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#In most instances the vehicle sprung mass is measured at design load, meaning that driver, passenger, and fuel are not included in the measurements. If that is not the case, or if a different passenger or fuel loading condition needs to be tested, here is an example demonstrating how to set this up.
+#
+#In this example, a vehicle has payloads added for both a driver and a half tank of fuel.  Click on the Vehicle: Loaded Condition dataset called "B-Class, Sports Car w/ Driver and Fuel" to see how this was set up.
+#
+#Payloads are added to vehicles on the Vehicle: Loaded Condition screen. Use the gray Library drop-down arrow above the vehicle blue link to select this option. You may also browse to the Vehicle: Loaded Condition library directly using the Libraries drop-down menu at the top of this screen and selecting Vehicles => Vehicle: Loaded Condition.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Alternate Vehicle Data Measurement } Payload: Driver and Fuel Loads
+#Library : CarSim Run Control
+#DataSet : Payload: Driver and Fuel Loads
+#Category: Alternate Vehicle Data Measurement
+#FileID  : Run_864888d7-0358-44d9-9302-8a24ab1ba044
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Railroad Crossing`Signs
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\road_signs\railroad_crossing\railroad_crossing.obj
+#ENDMYellow
+
+SET_COLOR 1 1 1
+SET_ANGLE_Z 180
+*SPECULAR 0.2
+*TRANSPARENCY 0
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+set_transparency 0
+SET_SPECULAR 0.2 0.2 0.2
+vsv_enable_shadows_recursive
+#MiscYellow0
+tranclucent_fix on
+#ENDMYellow
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_03172a77-944a-4a4b-80b9-ffb9211c4f3c.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Signs } Railroad Crossing
+#Library : Animator: Shape File Link
+#DataSet : Railroad Crossing
+#Category: Signs
+#FileID  : Shape_03172a77-944a-4a4b-80b9-ffb9211c4f3c
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

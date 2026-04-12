@@ -1,0 +1,351 @@
+PARSFILE
+
+! EXPANDED_PARSFILE for Math models and animator
+
+! This is an expansion of the Parsfile: "Animator\Vehicles\AniVeh_e5bd67ac-57d0-48c6-b145-12a25772cb42.par"
+! It contains the contents of that file plus the contents of any files linked
+! with the "PARSFILE" keyword.
+
+! File created: 13:36 on September 09, 2016 by CarSim 2017 Beta
+
+PRODUCT_NAME CarSim
+
+ENTER_PARSFILE Animator\Vehicles\AniVeh_e5bd67ac-57d0-48c6-b145-12a25772cb42.par`09-09-2016`13:34:15
+#FullDataName Animator: Vehicles and Sensor Targets`Pickup, Full Size Reg Cab w Duals 2017`Working Vehicles 2017
+OBJ_X_LENGTH 3200
+OBJ_Y_LENGTH 2011
+OBJ_Z_LENGTH 1948
+DZ_OBJECT 0
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+ADD_REFERENCE_FRAME object_-1h
+SET_EULER_ANGLES YAW_PITCH_ROLL
+SET_OFFSET_VAR_Z 0
+ENTER_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par`08-02-2016`11:28:20
+#FullDataName Animator: Shape File Link`Blurred Tire`Tires
+add_obj Animator\3D_shape_files_CS\tires\blurred_tire\blurred_tire.obj
+SET_COLOR 1 1 1
+set_lighting on
+set_fogging on
+SET_SPECULAR 0.3 0.3 0.3
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+EXIT_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+
+SET_SCALE_X 1.5
+SET_SCALE_Y 1.5
+SET_SCALE_Z 1.5
+SET_OFFSET_X 0
+SET_OFFSET_Y 1
+SET_OFFSET_Z 0.35625
+ENTER_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par`08-02-2016`11:28:20
+#FullDataName Animator: Shape File Link`Blurred Tire`Tires
+add_obj Animator\3D_shape_files_CS\tires\blurred_tire\blurred_tire.obj
+SET_COLOR 1 1 1
+set_lighting on
+set_fogging on
+SET_SPECULAR 0.3 0.3 0.3
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+EXIT_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+
+SET_SCALE_X 1.5
+SET_SCALE_Y 1.5
+SET_SCALE_Z 1.5
+SET_ANGLE_X 180
+SET_OFFSET_X 0
+SET_OFFSET_Y -1
+SET_OFFSET_Z 0.35625
+ENTER_PARSFILE Animator\STL\Shape_708dfc9b-e788-48e0-975f-5ad98aa9420e.par`09-09-2016`13:34:15
+#FullDataName Animator: Shape File Link`Blurred Dual Tire`Tires
+add_obj Animator\3D_shape_files_CS\tires\blurred_tire\blurred_dual_tire_CS.obj
+SET_COLOR 1 1 1
+set_lighting on
+set_fogging on
+SET_SPECULAR 0.2 0.2 0.2
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Blurred Dual Tire
+EXIT_PARSFILE Animator\STL\Shape_708dfc9b-e788-48e0-975f-5ad98aa9420e.par
+
+SET_SCALE_X 1.5
+SET_SCALE_Y 1.5
+SET_SCALE_Z 1.5
+SET_OFFSET_X -3.2
+SET_OFFSET_Y 1.15
+SET_OFFSET_Z 0.35625
+ENTER_PARSFILE Animator\STL\Shape_708dfc9b-e788-48e0-975f-5ad98aa9420e.par`09-09-2016`13:34:15
+#FullDataName Animator: Shape File Link`Blurred Dual Tire`Tires
+add_obj Animator\3D_shape_files_CS\tires\blurred_tire\blurred_dual_tire_CS.obj
+SET_COLOR 1 1 1
+set_lighting on
+set_fogging on
+SET_SPECULAR 0.2 0.2 0.2
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Blurred Dual Tire
+EXIT_PARSFILE Animator\STL\Shape_708dfc9b-e788-48e0-975f-5ad98aa9420e.par
+
+SET_SCALE_X 1.5
+SET_SCALE_Y 1.5
+SET_SCALE_Z 1.5
+SET_ANGLE_X 180
+SET_OFFSET_X -3.2
+SET_OFFSET_Y -1.15
+SET_OFFSET_Z 0.35625
+WRITE_ADD_REFERENCE_FRAME_SHADOW
+ADD_REFERENCE_FRAME object_-1i
+SET_EULER_ANGLES YAW_PITCH_ROLL
+WRITE_REFERENCE_FRAME_SIZE
+X_LENGTH 3200
+Y_LENGTH 2011
+Z_LENGTH 1948
+DZ_OBJECT 0
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+ADD_REFERENCE_FRAME object_-1j
+SET_EULER_ANGLES YAW_PITCH_ROLL
+SET_OFFSET_VAR_Z 0
+ENTER_PARSFILE Animator\Groups\Group_62c2e272-a20e-47b2-a2dd-82be8c017825.par`08-30-2016`11:06:29
+#FullDataName Animator: Group`Reg Cab, Duals`CS Pickup, Full Size 2017
+ENTER_PARSFILE Animator\STL\Shape_fb6974aa-5be2-4343-8a02-9843896021f5.par`08-02-2016`11:28:16
+#FullDataName Animator: Shape File Link`Pickup, Full Size: RegCab`CS Pickup, Full Size
+add_obj Animator\3D_shape_files_CS\vehicles\pickup_truck_V9\Reg_Cab\Reg_Cab.obj
+SET_COLOR .251 .314 .243
+SET_OFFSET_X 0
+SET_OFFSET_Y 0
+SET_OFFSET_Z 0.375
+set_lighting on
+set_fogging on
+USE_RUN_COLOR
+SET_SPECULAR 1 1 1
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS Pickup, Full Size } Pickup, Full Size: RegCab
+EXIT_PARSFILE Animator\STL\Shape_fb6974aa-5be2-4343-8a02-9843896021f5.par
+
+ENTER_PARSFILE Animator\STL\Shape_46c2640f-f42d-4f97-b23c-bd3a3b335405.par`08-02-2016`11:28:15
+#FullDataName Animator: Shape File Link`Pickup, Full Size: Reg Cab Details`CS Pickup, Full Size
+add_obj Animator\3D_shape_files_CS\vehicles\pickup_truck_V9\Reg_Cab\Reg_Cab_Details.obj
+SET_COLOR 1 1 1
+SET_OFFSET_X 0
+SET_OFFSET_Y 0
+SET_OFFSET_Z 0.375
+set_lighting on
+set_fogging on
+SET_SPECULAR 1 1 1
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS Pickup, Full Size } Pickup, Full Size: Reg Cab Details
+EXIT_PARSFILE Animator\STL\Shape_46c2640f-f42d-4f97-b23c-bd3a3b335405.par
+
+ENTER_PARSFILE Animator\STL_Groups\ShpGrp_3240e0df-c3d6-4c04-b373-156c961daa81.par`08-30-2016`11:06:29
+#FullDataName Animator: Shape Assembly`Reg Cab w Bed for Duals`CS Pickup, Full Size
+ENTER_PARSFILE Animator\STL\Shape_c43fb886-5c93-4892-9d15-9ca10409ec31.par`08-02-2016`11:28:15
+#FullDataName Animator: Shape File Link`Pickup, Full Size Reg Cab: 6.5 Box Body`CS Pickup, Full Size
+add_obj Animator\3D_shape_files_CS\vehicles\pickup_truck_V9\6.5_Bed\6_5_Bed.obj
+SET_COLOR .251 .314 .243
+set_lighting on
+set_fogging on
+USE_RUN_COLOR
+SET_SPECULAR 1 1 1
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS Pickup, Full Size } Pickup, Full Size Reg Cab: 6.5 Box Body
+EXIT_PARSFILE Animator\STL\Shape_c43fb886-5c93-4892-9d15-9ca10409ec31.par
+
+set_offset_x -2.06
+set_offset_y 0
+set_offset_z 0.375
+ENTER_PARSFILE Animator\STL\Shape_bfa1d640-8e39-4047-a748-14fe6d360235.par`08-02-2016`11:28:15
+#FullDataName Animator: Shape File Link`Pickup, Full Size Reg Cab: 6.5 Box Details`CS Pickup, Full Size
+add_obj Animator\3D_shape_files_CS\vehicles\pickup_truck_V9\6.5_Bed\6_5_Bed_details.obj
+SET_COLOR 1 1 1
+set_lighting on
+set_fogging on
+SET_SPECULAR 1 1 1
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS Pickup, Full Size } Pickup, Full Size Reg Cab: 6.5 Box Details
+EXIT_PARSFILE Animator\STL\Shape_bfa1d640-8e39-4047-a748-14fe6d360235.par
+
+set_offset_x -2.06
+set_offset_y 0
+set_offset_z 0.375
+ENTER_PARSFILE Animator\STL\Shape_22359e2f-e652-4118-9dc4-4fb9731bd601.par`09-01-2016`16:29:12
+#FullDataName Animator: Shape File Link`Pickup, Dually: Fender Flares 6.5 ft.`Pickup, Dually 2017
+add_obj Animator\3D_shape_files_CS\vehicles\pickup_truck_V9\Dually_Fenders\Dually_Fender.obj
+SET_COLOR .251 .314 .243
+SET_OFFSET_X -1.15
+set_lighting on
+set_fogging on
+USE_RUN_COLOR
+SET_SPECULAR 0.5 0.5 0.5
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Pickup, Dually 2017 } Pickup, Dually: Fender Flares 6.5 ft.
+EXIT_PARSFILE Animator\STL\Shape_22359e2f-e652-4118-9dc4-4fb9731bd601.par
+
+set_offset_x -2.06
+set_offset_y 0
+set_offset_z 0.375
+ENTER_PARSFILE Animator\STL\Shape_ea04de5f-69a0-4f05-993a-1617494069b0.par`09-01-2016`16:29:16
+#FullDataName Animator: Shape File Link`Pickup, Dually: Fender Flare Details 6.5 ft.`Pickup, Dually 2017
+add_obj Animator\3D_shape_files_CS\vehicles\pickup_truck_V9\Dually_Fenders\Dually_Fender_Details.obj
+SET_OFFSET_X -1.15
+set_lighting on
+set_fogging on
+SET_SPECULAR 0.5 0.5 0.5
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Pickup, Dually 2017 } Pickup, Dually: Fender Flare Details 6.5 ft.
+EXIT_PARSFILE Animator\STL\Shape_ea04de5f-69a0-4f05-993a-1617494069b0.par
+
+set_offset_x -2.06
+set_offset_y 0
+set_offset_z 0.375
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { CS Pickup, Full Size } Reg Cab w Bed for Duals
+EXIT_PARSFILE Animator\STL_Groups\ShpGrp_3240e0df-c3d6-4c04-b373-156c961daa81.par
+
+ENTER_PARSFILE Animator\STL\Shape_1ba60cb8-b8aa-4e7d-87b0-f061a58dfada.par`08-02-2016`11:28:16
+#FullDataName Animator: Shape File Link`Pickup. Full Size: Driver V9`CS Pickup, Full Size
+add_obj Animator\3D_shape_files_CS\vehicles\pickup_truck_V9\Driver\driver.obj
+SET_COLOR 1 1 1
+SET_OFFSET_X 0
+SET_OFFSET_Y 0
+SET_OFFSET_Z 0.375
+set_lighting on
+set_fogging on
+SET_SPECULAR 0 0 0
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS Pickup, Full Size } Pickup. Full Size: Driver V9
+EXIT_PARSFILE Animator\STL\Shape_1ba60cb8-b8aa-4e7d-87b0-f061a58dfada.par
+
+ENTER_PARSFILE Animator\STL\Shape_06597add-5a36-43c6-aacd-08f5085b8dfd.par`08-02-2016`11:28:15
+#FullDataName Animator: Shape File Link`Pickup, Full Size: Reg Cab Windows`CS Pickup, Full Size
+add_obj Animator\3D_shape_files_CS\vehicles\pickup_truck_V9\Reg_Cab\RegCab_Windows.obj
+SET_COLOR .251 .314 .243
+SET_OFFSET_X 0
+SET_OFFSET_Y 0
+SET_OFFSET_Z 0.375
+set_lighting on
+set_fogging on
+SET_SPECULAR 1 1 1
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS Pickup, Full Size } Pickup, Full Size: Reg Cab Windows
+EXIT_PARSFILE Animator\STL\Shape_06597add-5a36-43c6-aacd-08f5085b8dfd.par
+
+x_ref_length 3200
+y_ref_length 1700
+z_ref_length 1935
+LOG_ENTRY Used Dataset: Animator: Group; { CS Pickup, Full Size 2017 } Reg Cab, Duals
+EXIT_PARSFILE Animator\Groups\Group_62c2e272-a20e-47b2-a2dd-82be8c017825.par
+
+ENTER_PARSFILE Animator\Sound\Set\SndSet_7a16a539-6395-4fa5-9971-033e89fa67b0.par`08-02-2016`11:28:09
+#FullDataName Animator: Sound Set`Wind Noise`Wind Noise
+ENTER_PARSFILE Animator\Sound\Sample\SndSmp_10e59797-9993-4228-b401-95c72f722186.par`08-02-2016`11:28:09
+#FullDataName Animator: Sound Sample`Wind Noise`Wind Noise
+ADD_3D_SOUND Animator\Audio\Environment\Wind_1_Mono.WAV
+LOOP_SOUND on
+SOUND_AUTO_START Default
+SOUND_VOL_MULT 0.3
+SOUND_VOL_MIN 0.01
+SOUND_VOL_MAX 9.0
+SOUND_FREQ_MULT 1.0
+SOUND_FREQ_MIN 0.01
+SOUND_FREQ_MAX 9.0
+ENTER_PARSFILE Animator\Sound\Modifier\SndMod_59e0531b-dd39-45ad-ba0e-7a1d650b1244.par`08-02-2016`11:28:09
+#FullDataName Animator: Sound Modifier`Loudness: Speed Effect`Wind Sound Modifiers
+define_parameter air_speed_ref 50; km/h; Reference speed for wind audio
+define_output v_mod3 = pow(vAir/air_speed_ref, 3.0); ; Audio control, wind speed, vol
+ADD_SOUND_MODIFIER VOLUME
+SOUNDMOD_OPERATION mult
+SOUNDMOD_INPUT_NAME v_mod3
+SOUNDMOD_INPUT_MIN 0.0
+SOUNDMOD_INPUT_LOW 1.0
+SOUNDMOD_INPUT_HIGH 2.0
+SOUNDMOD_INPUT_MAX 3.0
+SOUNDMOD_OUTPUT_MIN 0.0
+SOUNDMOD_OUTPUT_LOW 1.0
+SOUNDMOD_OUTPUT_HIGH 2.0
+SOUNDMOD_OUTPUT_MAX 3.0
+WRT_v_mod3
+ANI_v_mod3
+LOG_ENTRY Used Dataset: Animator: Sound Modifier; { Wind Sound Modifiers } Loudness: Speed Effect
+EXIT_PARSFILE Animator\Sound\Modifier\SndMod_59e0531b-dd39-45ad-ba0e-7a1d650b1244.par
+
+ENTER_PARSFILE Animator\Sound\Modifier\SndMod_6c2f9d3c-2cd8-4a47-8c30-a4cac11ee2de.par`08-02-2016`11:28:09
+#FullDataName Animator: Sound Modifier`Frequency: Speed Effect`Wind Sound Modifiers
+define_output v_mod4 = pow(vAir/air_speed_ref, 0.5); ; Audio control, wind speed, freq
+ADD_SOUND_MODIFIER FREQUENCY
+SOUNDMOD_OPERATION mult
+SOUNDMOD_INPUT_NAME v_mod4
+SOUNDMOD_INPUT_MIN 0.0
+SOUNDMOD_INPUT_LOW 1.0
+SOUNDMOD_INPUT_HIGH 2.0
+SOUNDMOD_INPUT_MAX 3.0
+SOUNDMOD_OUTPUT_MIN 0.0
+SOUNDMOD_OUTPUT_LOW 0.5
+SOUNDMOD_OUTPUT_HIGH 1.0
+SOUNDMOD_OUTPUT_MAX 1.5
+WRT_v_mod4
+ANI_v_mod4
+LOG_ENTRY Used Dataset: Animator: Sound Modifier; { Wind Sound Modifiers } Frequency: Speed Effect
+EXIT_PARSFILE Animator\Sound\Modifier\SndMod_6c2f9d3c-2cd8-4a47-8c30-a4cac11ee2de.par
+
+LOG_ENTRY Used Dataset: Animator: Sound Sample; { Wind Noise } Wind Noise
+EXIT_PARSFILE Animator\Sound\Sample\SndSmp_10e59797-9993-4228-b401-95c72f722186.par
+
+LOG_ENTRY Used Dataset: Animator: Sound Set; { Wind Noise } Wind Noise
+EXIT_PARSFILE Animator\Sound\Set\SndSet_7a16a539-6395-4fa5-9971-033e89fa67b0.par
+
+WRITE_REFERENCE_FRAME_SIZE
+X_LENGTH 3200
+Y_LENGTH 2011
+Z_LENGTH 1948
+WRITE_ADD_REFERENCE_FRAME_BRAKES
+ADD_REFERENCE_FRAME object_-1a
+SET_EULER_ANGLES YAW_PITCH_ROLL
+SET_FRAME_VISIBLE_NAME 0.0
+WRT_0.0
+ANI_0.0
+ENTER_PARSFILE Animator\STL\Shape_2fd3bdc8-1944-4faf-af15-a19e982f5081.par`08-02-2016`11:28:15
+#FullDataName Animator: Shape File Link`Pickup, Full Size Reg Cab 6.5 Bed: Brake Lights`CS Pickup, Full Size
+add_obj Animator\3D_shape_files_CS\vehicles\pickup_truck_V9\6.5_Bed\Brakes_ON.obj
+SET_COLOR 1 1 1
+SET_OFFSET_X -2.06
+SET_OFFSET_Y 0
+SET_OFFSET_Z 0.375
+set_lighting on
+set_fogging on
+SET_SPECULAR 1 1 1
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS Pickup, Full Size } Pickup, Full Size Reg Cab 6.5 Bed: Brake Lights
+EXIT_PARSFILE Animator\STL\Shape_2fd3bdc8-1944-4faf-af15-a19e982f5081.par
+
+WRITE_REFERENCE_FRAME_SIZE
+X_LENGTH 3200
+Y_LENGTH 2011
+Z_LENGTH 1948
+ENTER_PARSFILE Animator\Cameras\Camera_aad9f5dd-7a61-4319-88b3-b90a1214f577.par`08-02-2016`11:28:26
+#FullDataName Animator: Camera Setup`Vehicle Pictures`Shape Preview
+SET_CAMERA_Reference_Frame Shape Preview Yaw for Shape Preview
+ENTER_PARSFILE Animator\Frames\Frame_02b47476-96e6-474b-919e-07d03b43f1ec.par`08-02-2016`11:28:23
+#FullDataName Animator: Reference Frame`Yaw for Shape Preview`Shape Preview
+ADD_REFERENCE_FRAME Shape Preview Yaw for Shape Preview
+SET_EULER_ANGLES yaw_pitch_roll
+SET_YAW_NAME Yaw
+WRT_Yaw
+ANI_Yaw
+LOG_ENTRY Used Dataset: Animator: Reference Frame; { Shape Preview } Yaw for Shape Preview
+EXIT_PARSFILE Animator\Frames\Frame_02b47476-96e6-474b-919e-07d03b43f1ec.par
+
+SET_LOOKPOINT_Reference_Frame Shape Preview Yaw for Shape Preview
+SET_LOOKPOINT_X 1
+SET_LOOKPOINT_Y 0
+SET_LOOKPOINT_Z 0.5
+SET_AZIMUTH 230
+SET_ELEVATION 6
+SET_DISTANCE 12
+SET_CAMERAMAN_NAME External camera
+FOG_SCALE 0
+SET_FIELD_OF_VIEW 21.1
+SUN_POSITION 10 10 100
+LOG_ENTRY Used Dataset: Animator: Camera Setup; { Shape Preview } Vehicle Pictures
+EXIT_PARSFILE Animator\Cameras\Camera_aad9f5dd-7a61-4319-88b3-b90a1214f577.par
+
+LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { Working Vehicles 2017 } Pickup, Full Size Reg Cab w Duals 2017
+EXIT_PARSFILE Animator\Vehicles\AniVeh_e5bd67ac-57d0-48c6-b145-12a25772cb42.par
+
+
+
+END

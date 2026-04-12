@@ -1,0 +1,20 @@
+PARSFILE
+#FullDataName Tire: Camber Thrust Coefficient`Constant: Zero`
+#CheckBox0 0    
+
+#RingCtrl0 CONSTANT
+#RadioCtrl0 0    
+
+KGAMMA_CONSTANT 0
+*SCALAR 0
+
+
+LOG_ENTRY Used Dataset: Tire: Camber Thrust Coefficient; Constant: Zero
+#Library : Tire: Camber Thrust Coefficient
+#DataSet : Constant: Zero
+#Category: 
+#FileID  : CamStiff_ae5bbf35-c72e-4bb9-bfea-9c3822fb279e
+#Product : CarSim 2017.1
+#VehCode Camber Thrust
+
+END

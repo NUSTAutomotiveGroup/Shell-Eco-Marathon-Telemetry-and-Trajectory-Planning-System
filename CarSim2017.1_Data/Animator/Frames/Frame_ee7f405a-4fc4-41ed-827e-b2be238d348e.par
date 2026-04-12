@@ -1,0 +1,42 @@
+PARSFILE
+#FullDataName Animator: Reference Frame`Aero Mz`Aero Moments
+ADD_REFERENCE_FRAME Aero Moments Aero Mz
+#RingCtrl0 yaw_pitch_roll
+SET_EULER_ANGLES yaw_pitch_roll
+SET_X_NAME XCG_SM
+SET_Y_NAME YCG_SM
+SET_Z_NAME ZCG_SM
+SET_ROLL_NAME Roll_E
+SET_PITCH_NAME Pitch
+SET_YAW_NAME Yaw
+SET_FRAME_SCALE_Z_NAME MZ_SCALE
+
+#MiscYellow0
+define_output MZ_SCALE 0;m; Mz_Air x 10 for VSV
+eq_out MZ_SCALE = MZ_AIR * 10
+#ENDMYellow
+
+WRT_XCG_SM
+ANI_XCG_SM
+WRT_YCG_SM
+ANI_YCG_SM
+WRT_ZCG_SM
+ANI_ZCG_SM
+WRT_Roll_E
+ANI_Roll_E
+WRT_Pitch
+ANI_Pitch
+WRT_Yaw
+ANI_Yaw
+WRT_MZ_SCALE
+ANI_MZ_SCALE
+
+LOG_ENTRY Used Dataset: Animator: Reference Frame; { Aero Moments } Aero Mz
+#Library : Animator: Reference Frame
+#DataSet : Aero Mz
+#Category: Aero Moments
+#FileID  : Frame_ee7f405a-4fc4-41ed-827e-b2be238d348e
+#Product : CarSim 2017.1
+#VehCode Reference Frame
+
+END

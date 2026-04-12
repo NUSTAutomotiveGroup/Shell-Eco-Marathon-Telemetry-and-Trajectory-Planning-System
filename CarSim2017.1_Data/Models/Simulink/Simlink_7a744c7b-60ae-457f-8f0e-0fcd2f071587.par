@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Models: Simulink`External Engine and Torque Coupler`External Powertrain
+#RunMdlFile Extensions\Simulink\pt_engine_tc\Pt_Engine_TC_CS9.mdl
+#RingCtrl1 2
+OPT_INT_METHOD 2
+#CheckBox0 0    
+*USE_ALT_DIR 0
+#CheckBox1 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox2 1    
+OPT_IO_UPDATE 1
+#CheckBox3 0    
+
+*ALTERNATE_PATH Programs\Simulink_MDL
+PARSFILE IO_Channels\I_Channels\Import_8128d499-1ce8-46ce-b9ff-68ad9edfecfc.par
+#BlueLink0 I/O Channels: Import`Engine and Torque Coupler` Powertrain Imports` , Import`Import_8128d499-1ce8-46ce-b9ff-68ad9edfecfc
+
+PARSFILE IO_Channels\O_Channels\Export_d39577c2-67cd-4fa5-a4db-39e4f132132d.par
+#BlueLink1 I/O Channels: Export`Engine and Torque Coupler` Powertrain Exports` , Export`Export_d39577c2-67cd-4fa5-a4db-39e4f132132d
+
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+#EMBEDDED_NOTES
+#This dataset specifies a Simulink model that is used to replace the engine and torque coupler in a CarSim vehicle.
+#
+#The CarSim powertrain model involves some detailed interactions between variables, so the option to Add, Replace, or Multiply the Simulink imported variables with their corresponding variables in CarSim is not available for most powertrain variables.
+#
+#Instead, Add is the only import mode available for most powertrain import variables, and it is necessary to specify that certain components are handled with an external model on the powertrain library screen.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: Simulink; { External Powertrain } External Engine and Torque Coupler
+#Library : Models: Simulink
+#DataSet : External Engine and Torque Coupler
+#Category: External Powertrain
+#FileID  : Simlink_7a744c7b-60ae-457f-8f0e-0fcd2f071587
+#Product : CarSim 2017.1
+#VehCode 
+
+END

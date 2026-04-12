@@ -1,0 +1,25 @@
+PARSFILE
+#FullDataName Hitch: Pitch Moment`90-90 Deg. Lash`
+#CheckBox0 0    
+
+#RingCtrl0 LINEAR
+#RadioCtrl0 0    
+
+#DiagramOne0
+MY_HITCH_TABLE LINEAR
+-90, -100000
+-89, 0
+89, 0
+90, 100000
+ENDTABLE
+
+
+LOG_ENTRY Used Dataset: Hitch: Pitch Moment; 90-90 Deg. Lash
+#Library : Hitch: Pitch Moment
+#DataSet : 90-90 Deg. Lash
+#Category: 
+#FileID  : HchMy_993f741e-2394-46db-ac19-aa5bdb03e0af
+#Product : CarSim 2017.1
+#VehCode Hitch My
+
+END

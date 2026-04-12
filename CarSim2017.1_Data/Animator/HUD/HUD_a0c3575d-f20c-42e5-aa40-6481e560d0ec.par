@@ -1,0 +1,104 @@
+PARSFILE
+#FullDataName Animator: HUD`ACC Icon for Long Lead`ACC - Adaptive Cruise Control
+#CheckBox1 1    
+#CheckBox3 0    
+
+#RingCtrl0 1
+#RingCtrl1 1
+#RingCtrl2 1
+#RingCtrl3 2
+#RingCtrl4 1
+*VAR_NAME_1 MagS1_1
+
+
+#Selection 1 for Icon 0
+#Selection_1 1 for Icon
+#Selection_2 Title:  AlX 1 AlY 2
+#Selection_3 Scale 1.000000 locX 0 locY 0
+#Selection_4 Fixed: 1 VarName: MagS1_1  ColorStr: 0 0 0
+#Selection_5 ImgName: 
+! ACC Long Lead
+ADD_ENTITY hud_image ACC_LONG_base
+location 0 0 128 128
+align_x center
+align_y bottom
+size_mode absolute
+place_mode absolute
+image_file Resources\Animator\3D_shape_files_CS\dashboard\Icons\ACC\Base.png
+END_ENTITY hud_image ACC_LONG_base
+ADD_ENTITY hud_image ACC_LONG_Car_Front
+location 0 0 128 128
+align_x center
+align_y bottom
+size_mode absolute
+place_mode absolute
+opacity MagS<<s>>_1
+image_file Resources\Animator\3D_shape_files_CS\dashboard\Icons\ACC\Car_Detected.png
+END_ENTITY hud_image ACC_LONG_Car_Front
+ADD_ENTITY hud_image ACC_LONG_Brakes
+location 0 0 128 128
+align_x center
+align_y bottom
+size_mode absolute
+place_mode absolute
+opacity Bk_Stat
+image_file Resources\Animator\3D_shape_files_CS\dashboard\Icons\ACC\Brakes_ON.png
+END_ENTITY hud_image ACC_LONG_Brakes
+ADD_ENTITY hud_image ACC_LONG_Distance_1
+location 0 0 128 128
+align_x center
+align_y bottom
+size_mode absolute
+place_mode absolute
+opacity MagS<<s>>_1
+image_file Resources\Animator\3D_shape_files_CS\dashboard\Icons\ACC\Distance_01.png
+END_ENTITY hud_image ACC_LONG_Distance_1
+ADD_ENTITY hud_image ACC_LONG_Distance_2
+location 0 0 128 128
+align_x center
+align_y bottom
+size_mode absolute
+place_mode absolute
+opacity MagS<<s>>_1
+image_file Resources\Animator\3D_shape_files_CS\dashboard\Icons\ACC\Distance_02.png
+END_ENTITY hud_image ACC_LONG_Distance_2
+ADD_ENTITY hud_image ACC_LONG_Distance_3
+location 0 0 128 128
+align_x center
+align_y bottom
+size_mode absolute
+place_mode absolute
+opacity MagS<<s>>_1
+image_file Resources\Animator\3D_shape_files_CS\dashboard\Icons\ACC\Distance_03.png
+END_ENTITY hud_image ACC_LONG_Distance_3
+ADD_ENTITY hud_image ACC_LONG_Distance_4
+location 0 0 128 128
+align_x center
+align_y bottom
+size_mode absolute
+place_mode absolute
+opacity MagS<<s>>_1
+image_file Resources\Animator\3D_shape_files_CS\dashboard\Icons\ACC\Distance_04.png
+END_ENTITY hud_image ACC_LONG_Distance_4
+ADD_ENTITY hud_image ACC_LONG_On
+location -80 64 64 64
+align_x center
+align_y bottom
+size_mode absolute
+place_mode absolute
+image_file Resources\Animator\3D_shape_files_CS\dashboard\Icons\Active_Cruise_Control.png
+END_ENTITY hud_image ACC_LONG_On
+
+#EMBEDDED_NOTES
+#Target will appear with two bars indicating longer following distance.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: HUD; { ACC - Adaptive Cruise Control } ACC Icon for Long Lead
+#Library : Animator: HUD
+#DataSet : ACC Icon for Long Lead
+#Category: ACC - Adaptive Cruise Control
+#FileID  : HUD_a0c3575d-f20c-42e5-aa40-6481e560d0ec
+#Product : CarSim 2017.1
+#VehCode HUD
+
+END

@@ -1,0 +1,55 @@
+PARSFILE
+#FullDataName Vehicle: Sprung Mass`Three-wheeled Vehicle`
+#VehCode Rigid sprung mass
+#RingCtrl0 0
+X_LENGTH 2025
+Y_LENGTH 1500
+iaxle 2
+iside 1
+LX_H 2775
+H_H 400
+H_CG_SU 540
+LX_AXLE 2025
+LX_CG_SU 1103
+M_SU 747
+IXX_SU 288
+IYY_SU 1111
+IZZ_SU 1111
+IXZ_SU 0
+*RX 0.621
+*RY 1.220
+*RZ 1.220
+Y_CG_SU 0
+Y_H 0
+IXY_SU 0
+IYZ_SU 0
+Z_LENGTH 1170
+Y_LENGTH 1220
+*HWC_LF 243
+*HWC_RF 243
+*HWC_LR 270
+*HWC_RR 270
+
+symbol_set <<hitch_x>> -2.775
+symbol_set <<hitch_y>> 0
+symbol_set <<hitch_z>> 0.4
+H_WC 270
+iside 2
+H_WC 270
+iaxle 1
+iside 1
+H_WC 243
+iside 2
+H_WC 243
+iaxle 2
+iside 1
+
+LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; Three-wheeled Vehicle
+#Library : Vehicle: Sprung Mass
+#DataSet : Three-wheeled Vehicle
+#Category: 
+#FileID  : SprMass_a1b83ad7-61f8-4fae-b2ff-46d44fd5edc0
+#Product : CarSim 2017.1
+#VehCode Rigid sprung mass
+
+END

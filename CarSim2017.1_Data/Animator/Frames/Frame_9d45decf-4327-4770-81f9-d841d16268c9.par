@@ -1,0 +1,17 @@
+PARSFILE
+#FullDataName Animator: Reference Frame`DLC Stopped Car Location`bdp
+ADD_REFERENCE_FRAME bdp DLC Stopped Car Location
+#RingCtrl0 yaw_pitch_roll
+SET_EULER_ANGLES yaw_pitch_roll
+SET_OFFSET_VAR_X 110
+
+
+LOG_ENTRY Used Dataset: Animator: Reference Frame; { bdp } DLC Stopped Car Location
+#Library : Animator: Reference Frame
+#DataSet : DLC Stopped Car Location
+#Category: bdp
+#FileID  : Frame_9d45decf-4327-4770-81f9-d841d16268c9
+#Product : CarSim 2017.1
+#VehCode Reference Frame
+
+END

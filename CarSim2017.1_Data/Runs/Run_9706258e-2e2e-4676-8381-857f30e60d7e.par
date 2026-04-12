@@ -1,0 +1,70 @@
+PARSFILE
+#FullDataName CarSim Run Control`Sprung Mass from Whole Vehicle: s_s`Alternate Vehicle Data Measurement
+#VEHICLECODE SA_SA
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_9706258e-2e2e-4676-8381-857f30e60d7e
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_d988c2d4-cc54-46a0-bd8a-31056567ae48.par
+#BlueLink0 Animator: Camera Setup`150 deg. Azimuth, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_d988c2d4-cc54-46a0-bd8a-31056567ae48
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0.2 0.4 0.6
+SET_RUN_COLOR 0.2 0.4 0.6
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_75c9c567-f013-4273-9047-5998a372f736.par
+#BlueLink2 Vehicle: Assembly`Pickup, Full Size (SA_SA): Spr. Mass - Total` Pickup, Full Size` , Vehicle Configuration`Vehicle_75c9c567-f013-4273-9047-5998a372f736
+
+PARSFILE Procedures\Proc_cd7fd4e1-58f5-4013-8142-b81fd633e040.par
+#BlueLink28 Procedures`Chassis Twist Road` Ride Tests` , Procedure`Proc_cd7fd4e1-58f5-4013-8142-b81fd633e040
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_62b985da-b641-46fe-badb-39dcbd5a6dbb.png
+WRITE_SENSOR_DETECT
+Title Sprung Mass from Whole Vehicle: s_s <Alternate Vehicle Data Measurement>
+CATEGORY Alternate Vehicle Data Measurement 
+DATASET_TITLE Sprung Mass from Whole Vehicle: s_s
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example demonstrates an alternative method of specifying sprung mass properties using measurements of the vehicle total mass and inertia with the "Vehicle: Sprung Mass (from Whole Vehicle)" screen.
+#
+#On the Vehicle: Assembly screen, click on the Sprung Mass blue link "Pickup, Full Size (SA_SA): Total Veh. Mass" to study this screen and understand what user-input data it requires.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Alternate Vehicle Data Measurement } Sprung Mass from Whole Vehicle: s_s
+#Library : CarSim Run Control
+#DataSet : Sprung Mass from Whole Vehicle: s_s
+#Category: Alternate Vehicle Data Measurement
+#FileID  : Run_9706258e-2e2e-4676-8381-857f30e60d7e
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

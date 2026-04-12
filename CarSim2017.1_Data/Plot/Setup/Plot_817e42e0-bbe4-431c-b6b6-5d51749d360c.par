@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Plot: Setup`Mz due to Fx vs. Kappa`Tire Tester Derived Outputs
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS mz_fx_l1, kappa_l1
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Mz due to Fx vs. Kappa
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Mz due to Fx vs. Kappa
+#Library : Plot: Setup
+#DataSet : Mz due to Fx vs. Kappa
+#Category: Tire Tester Derived Outputs
+#FileID  : Plot_817e42e0-bbe4-431c-b6b6-5d51749d360c
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

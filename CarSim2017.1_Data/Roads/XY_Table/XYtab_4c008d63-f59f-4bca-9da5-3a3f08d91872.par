@@ -1,0 +1,31 @@
+PARSFILE
+#FullDataName Path: X-Y Coordinates for Segment`Clothoid Segment w/ Negative Curvature`
+#RingCtrl0 1
+DEFINE_XY_TABLES 1
+ITAB_XY = NTAB_XY
+XY_TABLE_ID = ITAB_XY
+SET_DESCRIPTION XY_TABLE_ID Clothoid Segment w/ Negative Curvature
+XY_SEGMENT_ID = XY_TABLE_ID
+
+
+#RadioCtrl0 0    
+
+#DiagramOne0
+SEGMENT_XY_TABLE
+0, 0, 0.000
+-6.37222e+06, 868671, 6431156.742
+ENDTABLE
+
+#EMBEDDED_NOTES
+#Clothoid Segment w/ Negative Curvature
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Path: X-Y Coordinates for Segment; Clothoid Segment w/ Negative Curvature
+#Library : Path: X-Y Coordinates for Segment
+#DataSet : Clothoid Segment w/ Negative Curvature
+#Category: 
+#FileID  : XYtab_4c008d63-f59f-4bca-9da5-3a3f08d91872
+#Product : CarSim 2017.1
+#VehCode X-Y Coordinates of Segment
+
+END

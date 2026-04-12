@@ -1,0 +1,58 @@
+PARSFILE
+#FullDataName Procedures`Blind Spot Detection, Reversing`ADAS Examples
+#CheckBox3 0    
+
+#RingCtrl0 4
+#RingCtrl1 1
+OPT_STOP 1
+TSTART 0
+SSTART 0
+TSTART_WRITE = TSTART;
+TSTOP 15
+SSTOP 500
+OPT_DIRECTION 0
+*SPEED 65
+*TSTOP 15
+*TSTART 0
+*SSTART 0
+*SSTOP 500
+
+PARSFILE Generic\Links\GenLink_46d1a49f-2b52-4334-8011-157673857d6c.par
+#BlueLink0 Generic Group of Links`Parking Lot Road and Path` Roads and Paths` , Miscellaneous`GenLink_46d1a49f-2b52-4334-8011-157673857d6c
+
+PARSFILE Generic\Group\GenGrp_b5372c8e-4db6-4e6c-919e-744179ddf149.par
+#BlueLink1 Generic Data Group`Parking Lot Vehicles` Traffic Vehicles` , Miscellaneous`GenGrp_b5372c8e-4db6-4e6c-919e-744179ddf149
+
+PARSFILE Sensors_Traffic\Radar\Radar_4ad3490d-9fae-45ca-bbc5-eba69edc87e6.par
+#BlueLink2 ADAS Sensors for Range and Tracking`Right Blind-Spot, Reverse Vx` Blind-Spot Sensors` , Miscellaneous`Radar_4ad3490d-9fae-45ca-bbc5-eba69edc87e6
+
+PARSFILE Sensors_Traffic\Radar\Radar_6de73f43-ef06-4e62-8ac4-99fb5e44133c.par
+#BlueLink3 ADAS Sensors for Range and Tracking`Left Blind-Spot, Reverse Vx` Blind-Spot Sensors` , Miscellaneous`Radar_6de73f43-ef06-4e62-8ac4-99fb5e44133c
+
+PARSFILE Events\Events_d5eb9f38-4ffd-45ef-93fa-ad6d876b5130.par
+#BlueLink4 Events`1. Sit in Parking Space for 2 s` Blind Spot Reversing` , Miscellaneous`Events_d5eb9f38-4ffd-45ef-93fa-ad6d876b5130
+
+#BlueLink5 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#MiscYellow1
+PATH_ID_DM = 1
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This collection of links defines a scenario in which a vehicle slowly backs out from between two parked vehicles, with blind-spot sensors that detect a crossing vehicle.
+#
+#Each sensor dataset includes a link to VS Commands and VS Visualizer HUD information, to show a blind-spot alert and set a braking command when an approaching moving vehicle is detected.
+#
+#VS Events are used to brake the vehicle when a command is non-zero.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Procedures; { ADAS Examples } Blind Spot Detection, Reversing
+#Library : Procedures
+#DataSet : Blind Spot Detection, Reversing
+#Category: ADAS Examples
+#FileID  : Proc_cece277b-04b8-473c-aa64-268341ac3e73
+#Product : CarSim 2017.1
+#VehCode Procedure
+
+END

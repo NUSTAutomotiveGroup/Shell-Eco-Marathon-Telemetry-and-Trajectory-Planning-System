@@ -1,0 +1,256 @@
+Include PARSFILE "Results\Run_d3f92fbe-bde3-4daa-97d0-31c213524f74\Run_all.par"
+Used Dataset: Animator: Reference Frame; { Car Tracking } Car X-Y-Z
+Used Dataset: Animator: Camera Setup; { Vehicle Reference } 13 deg. Azimuth, Veh. Ref.
+Used Dataset: Suspension: Dive Angle (Caster Change); SLA - Front
+Used Dataset: Suspension: Longitudinal Movement; SLA - Front
+Used Dataset: Suspension: Camber Angle; SLA - Front
+Used Dataset: Suspension: Lateral Movement Due to Jounce; SLA - Front
+Used Dataset: Suspension: Toe Angle; SLA - Front
+Used Dataset: Suspension: Dive Angle (Caster Change); SLA - Front
+Used Dataset: Suspension: Longitudinal Movement; SLA - Front
+Used Dataset: Suspension: Camber Angle; SLA - Front
+Used Dataset: Suspension: Lateral Movement Due to Jounce; SLA - Front
+Used Dataset: Suspension: Toe Angle; SLA - Front
+Used Dataset: Suspension: Independent System Kinematics; { Pickup } Pickup, Baja - Off-Road Front
+Used Dataset: Suspension: Shock Absorber; Off-Road Truck - Front
+Used Dataset: Suspension: Jounce and Rebound Stops; +200 mm / -210 mm
+Used Dataset: Suspension: Shock Absorber; Off-Road Truck - Front
+Used Dataset: Suspension: Jounce and Rebound Stops; +200 mm / -210 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; Constant: Zero
+Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { Pickup } Pickup, Baja - Front
+Used Dataset: Animator: Reference Frame; { Control Arms } LF LCA - Off-Road
+Used Dataset: Animator: Shape File Link; { CS Pickup, Baja } Pickup, Baja: Lower Control Arm (Front)
+Used Dataset: Animator: Reference Frame; { Control Arms } RF LCA - Off-Road
+Used Dataset: Animator: Shape File Link; { CS Pickup, Baja } Pickup, Baja: Lower Control Arm (Front)
+Used Dataset: Animator: Group; { CS Pickup, Baja } Lower Control Arms (Front)
+Used Dataset: Positions, Velocities, and Accelerations; { Off-Road Truck Control Arms } Lower Control Arms
+Used Dataset: Animator: Reference Frame; { Control Arms } LF UCA - Off-Road
+Used Dataset: Animator: Shape File Link; { CS Pickup, Baja } Pickup, Baja: Upper Control Arm (Front)
+Used Dataset: Animator: Reference Frame; { Control Arms } RF UCA - Off-Road
+Used Dataset: Animator: Shape File Link; { CS Pickup, Baja } Pickup, Baja: Upper Control Arm (Front)
+Used Dataset: Animator: Group; { CS Pickup, Baja } Upper Control Arms (Front)
+Used Dataset: Positions, Velocities, and Accelerations; { Off-Road Truck Control Arms } Upper Control Arms
+Used Dataset: Generic Data Group; { Control Arms } Off-Road: Control Arms (Front Upper & Lower)
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Tire
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Bolts
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Inflator Guard
+Used Dataset: Animator: Shape Assembly; { Tires } Off-Road Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Contact Patch Dimensions } Tire Contact Patch Length vs. Compression
+Used Dataset: Generic Table; { Tire Contact Patch Dimensions } Tire Contact Patch Width vs. Compression
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Lateral Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 265/75 R16
+Used Dataset: Tire; { Touring Tires } 265/75 R16 Off-Road
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Tire
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Bolts
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Inflator Guard
+Used Dataset: Animator: Shape Assembly; { Tires } Off-Road Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Contact Patch Dimensions } Tire Contact Patch Length vs. Compression
+Used Dataset: Generic Table; { Tire Contact Patch Dimensions } Tire Contact Patch Width vs. Compression
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Lateral Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 265/75 R16
+Used Dataset: Tire; { Touring Tires } 265/75 R16 Off-Road
+Used Dataset: Suspension: Longitudinal Movement; Hotchkiss - Rear
+Used Dataset: Suspension: Lateral Movement Due to Roll and Jounce; Hotchkiss - Rear
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Rear Solid Drive Axle
+Used Dataset: Suspension: Solid Axle System Kinematics; { Pickup } Pickup, Baja - Rear (Off Road)
+Used Dataset: Suspension: Shock Absorber; Off-Road Truck - Rear
+Used Dataset: Suspension: Jounce and Rebound Stops; +300 mm / -210 mm
+Used Dataset: Suspension: Shock Absorber; Off-Road Truck - Rear
+Used Dataset: Suspension: Jounce and Rebound Stops; +300 mm / -210 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; Constant: Zero
+Used Dataset: Suspension: Solid Axle Compliance, Springs, and Dampers; { Pickup } Pickup, Baja -  Rear
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Tire
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Bolts
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Inflator Guard
+Used Dataset: Animator: Shape Assembly; { Tires } Off-Road Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Contact Patch Dimensions } Tire Contact Patch Length vs. Compression
+Used Dataset: Generic Table; { Tire Contact Patch Dimensions } Tire Contact Patch Width vs. Compression
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Lateral Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 265/75 R16
+Used Dataset: Tire; { Touring Tires } 265/75 R16 Off-Road
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Tire
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Bolts
+Used Dataset: Animator: Shape File Link; { Tires } Off-Road Inflator Guard
+Used Dataset: Animator: Shape Assembly; { Tires } Off-Road Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Contact Patch Dimensions } Tire Contact Patch Length vs. Compression
+Used Dataset: Generic Table; { Tire Contact Patch Dimensions } Tire Contact Patch Width vs. Compression
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Lateral Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 265/75 R16
+Used Dataset: Tire; { Touring Tires } 265/75 R16 Off-Road
+Used Dataset: Vehicle: Sprung Mass; Pickup, Baja
+Used Dataset: Aerodynamics: Fx (Drag) Coef. vs. Aero Slip; 0.30 at 0 Degrees
+Used Dataset: Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip; 0.5 at 90 deg
+Used Dataset: Aerodynamics: Fz (Lift) Coef. vs. Aero Slip; 0.18 at 0 Degrees
+Used Dataset: Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip; 0.3 at 90 deg
+Used Dataset: Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip; -0.15 at 0 Degrees
+Used Dataset: Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip; 0.05 at 90 deg
+Used Dataset: Aerodynamics: Basic; { Pickup } Pickup, Compact
+Used Dataset: Animator: Shape File Link; { CS Pickup, Baja } Pickup, Baja: Cab
+Used Dataset: Animator: Shape File Link; { CS Pickup, Baja } Pickup, Baja: Box Body
+Used Dataset: Animator: Shape Assembly; Short for Reg. Cab Baja
+Used Dataset: Animator: Group; { CS Pickup, Baja } Pickup, Baja Truck
+Used Dataset: Animator: Sound Modifier; { Wind } Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Wind } Frequency: Speed Effect
+Used Dataset: Animator: Sound Sample; Wind Noise
+Used Dataset: Animator: Sound Set; Wind Noise
+Used Dataset: Animator: Shape File Link; { CS Pickup, Baja } Pickup, Baja: Brake Lights
+Used Dataset: Animator: Vehicles and Sensor Targets; { Sports Vehicles } Pickup, Baja
+Used Dataset: Powertrain: Fuel Consumption Rate; 300 kW Gasoline Engine
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power Off Loudness: Load Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power Off Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Gas Engine } 4 Cyl. - Power Off
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power On Loudness: Load Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power On Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Gas Engine } 4 Cyl. - Power On
+Used Dataset: Generic Data Group; { Audio Sound Sets } Gasoline Engine (4 Cylinder)
+Used Dataset: Powertrain: Engine; 300 kW  Engine
+Used Dataset: Powertrain: Torque Converter; Torque Converter for 300 kW Engine
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 1-2 Shift
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 2-3 Shift
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 3-4 Shift
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 4-5 Shift
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 5-6 Shift
+Used Dataset: Powertrain: Transmission (18 Gears or CVT); 6-Speed
+Used Dataset: Powertrain: Transfer Case; Full Time Viscous 50/50
+Used Dataset: Powertrain: Front Differential; { Viscous } Viscous: Gear Ratio 4.1
+Used Dataset: Powertrain: Rear Differential; Locked: Gear Ratio 4.1
+Used Dataset: Powertrain: 4-Wheel Drive; { 300 kW Powertrains } 300 kW, 6-spd., 4.1 Ratio
+Used Dataset: Brakes: Four-Wheel System; { Pickup Trucks and SUVs } Pickup, Compact w/ ABS
+Used Dataset: Steering System: Compliance; Constant: Zero
+Used Dataset: Steering System: Kinematics for 2 Wheels (Recirc. Ball); Pickup, Compact
+Used Dataset: Steering: Power Assist Torque; 300 N-m Maximum
+Used Dataset: Steering System: Compliance; { Constant } Constant: 0.002 deg/N-m
+Used Dataset: Steering: Parking Torque for 2 Wheels; Zero
+Used Dataset: Steering; { Pickup Trucks and SUVs } Pickup, Compact: Power, Recirc. Ball
+Used Dataset: Vehicle: Assembly; Off-Road Pickup: Ind_SA
+Used Dataset: Control: Steering by the Closed-loop Driver Model; { Constant Position } No Offset, 1 sec. Preview
+Used Dataset: Control: Shifting (Closed Loop); AT All Gears
+Used Dataset: Control: Speed (Closed Loop) vs. Station (Legacy); Baja Speed Limits
+Used Dataset: Control: Speed (Closed Loop) Using Path Preview; { Aggressive Driving } Baja Driving
+Used Dataset: Path/Road: Segment Builder (Legacy); City and Off-Road 3D
+Used Dataset: Road: Friction Map, S-L Grid; { Constant } Constant: 0.9
+Used Dataset: Road: Animator Surface Shapes; No Machine-Generated Shapes
+Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Off-Road Terrain } Small Hills for DS Loop - Long, S 175 to 860
+Used Dataset: Road: Boundaries; { Road Boundary Stop Conditions } Off-Road/City Loop
+Used Dataset: Animator: Reference Frame; { Car Tracking } Car X-Y-Z
+Used Dataset: Animator: Shape File Link; { Off-Road/City Loop } Clear Sky
+Used Dataset: Animator: Shape File Link; { Off-Road/City Loop } Land Bowl for Desert
+Used Dataset: Animator: Group; { Off-Road/City Loop } Sky for Dark Grass
+Used Dataset: Animator: Shape File Link; { Off-Road/City Loop } Roads and Terrain
+Used Dataset: Animator: Shape File Link; { Off-Road/City Loop } PalmTrees
+Used Dataset: Animator: Shape File Link; { Off-Road/City Loop } Buildings and Walls
+Used Dataset: Animator: Shape File Link; { Off-Road/City Loop } City Off-Road Shadow Objects
+Used Dataset: Animator: Shape File Link; { Off-Road/City Loop } Poles and Barriers
+Used Dataset: Animator: Shape File Link; { Off-Road/City Loop } Barrels
+Used Dataset: Animator: Group; { Off-Road/City Loop } Environment City and Offroad
+Used Dataset: Road: 3D Surface (All Properties); { Off-Road } Off-Road/City Loop
+Used Dataset: Surface: Roughness Profiles; Example Road Roughness
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Suspension Motion } Jounce - Front
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Suspension Motion } Jounce - Rear
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Suspension Motion } Camber vs. Jounce - Front
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Suspension Forces and Moments } Jounce Stop Force
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Suspension Forces and Moments } Rebound Stop Force
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Forces } Lateral Forces
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Forces } Longitudinal Forces
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Controls: Driver } Brake Control: Master Cyl. Pressure
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Vehicle Motion } Longitudinal Speed
+Used Dataset: Procedures; { Driver Controls } Off-Road/City Loop (OSG), Aggressive Driving
+Used Dataset: Animator: HUD; { Vehicle Status Indicators } Throttle, Brake, G-G, Speedo, and Tach
+ Baja Driving <Driver Model>
+Used Dataset: CarSim Run Control; { Driver Model } Baja Driving
+
+Time to read input = 0.032
+Function F_REB_STOP_TABLE(1,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(1,1) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(1,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(1,2) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(2,1) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(2,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(2,2) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(2,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+
+Run started: ERD output file = Results\Run_d3f92fbe-bde3-4daa-97d0-31c213524f74\LastRun.bin
+Function SUSP_X_TABLE(1,1) extrapolated (out of range LOW) for X = -70.0659 mm at T = 2.1365
+Function SUSP_LAT_TABLE(1,1) extrapolated (out of range LOW) for X = -70.0659 mm at T = 2.1365
+Function CAMBER_TABLE(1,1) extrapolated (out of range LOW) for X = -70.0659 mm at T = 2.1365
+Function SUSP_DIVE_TABLE(1,1) extrapolated (out of range LOW) for X = -70.0659 mm at T = 2.1365
+Function TOE_TABLE(1,1) extrapolated (out of range LOW) for X = -70.0659 mm at T = 2.1365
+Function FUEL_RATE_CARPET extrapolated (out of range HIGH) for X = 5800.67 rpm at T = 2.2405
+Function M_DIFF_VISC_TABLE(3) extrapolated (out of range HIGH) for X = 1204.38 rpm at T = 2.5185
+Function SUSP_X_TABLE(1,2) extrapolated (out of range LOW) for X = -70.0642 mm at T = 2.9695
+Function SUSP_LAT_TABLE(1,2) extrapolated (out of range LOW) for X = -70.0642 mm at T = 2.9695
+Function CAMBER_TABLE(1,2) extrapolated (out of range LOW) for X = -70.0642 mm at T = 2.9695
+Function SUSP_DIVE_TABLE(1,2) extrapolated (out of range LOW) for X = -70.0642 mm at T = 2.9695
+Function TOE_TABLE(1,2) extrapolated (out of range LOW) for X = -70.0642 mm at T = 2.9695
+Function L_RELAX_X_FZ_TABLE(1,2) extrapolated (out of range HIGH) for X = 1.02397 N at T = 3.1145
+Function KGAMMA_TABLE(1,2) extrapolated (out of range HIGH) for X = 15807.1 N at T = 3.1195
+Function MZ_TIRE_CARPET(1,2) extrapolated (out of range HIGH) for XCOL = 15807.1 N at T = 3.1195
+Function FD_TABLE(1,2) extrapolated (out of range HIGH) for X = 1180.94 mm/s at T = 3.1285
+Function M_BOOST_G_CARPET extrapolated (out of range LOW) for X = -16.5396 N-m at T = 3.237
+Function L_RELAX_X_FZ_TABLE(1,1) extrapolated (out of range HIGH) for X = 1.01228 N at T = 3.242
+Function FD_TABLE(1,1) extrapolated (out of range HIGH) for X = 1165.74 mm/s at T = 3.2485
+Function L_RELAX_X_FZ_TABLE(2,2) extrapolated (out of range HIGH) for X = 1.00744 N at T = 3.355
+Function KGAMMA_TABLE(2,2) extrapolated (out of range HIGH) for X = 15822.5 N at T = 3.3595
+Function MZ_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for XCOL = 15822.5 N at T = 3.3595
+Function FD_TABLE(2,2) extrapolated (out of range HIGH) for X = 1163.87 mm/s at T = 3.365
+Function SUSP_Y_AXLE_ROLL_TABLE(2) extrapolated (out of range HIGH) for X = 10.0753 deg at T = 3.4725
+Function L_RELAX_X_FZ_TABLE(2,1) extrapolated (out of range HIGH) for X = 1.00312 N at T = 3.485
+Function FD_TABLE(2,1) extrapolated (out of range HIGH) for X = 1200.72 mm/s at T = 3.4865
+Function FY_TIRE_CARPET(1,1) extrapolated (out of range HIGH) for X = 36.6905 deg at T = 4.072
+Function MZ_TIRE_CARPET(1,1) extrapolated (out of range HIGH) for X = 36.6905 deg at T = 4.072
+Function KGAMMA_TABLE(1,1) extrapolated (out of range HIGH) for X = 16102.4 N at T = 4.076
+Function FY_TIRE_CARPET(1,2) extrapolated (out of range HIGH) for X = 90 deg at T = 4.118
+Function FY_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for X = 53.6219 deg at T = 4.5825
+Function MZ_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for X = 53.6219 deg at T = 4.5825
+Function KGAMMA_TABLE(2,1) extrapolated (out of range HIGH) for X = 15753.9 N at T = 4.5905
+Function L_RELAX_Y_FZ_TABLE(2,1) extrapolated (out of range HIGH) for X = 2.00888 N at T = 4.6565
+Function FX_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for XCOL = 23102.2 N at T = 4.6565
+Function FY_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for X = 34.0996 deg at T = 4.7645
+Function SUSP_X_AXLE_TABLE(2) extrapolated (out of range HIGH) for X = 150.223 mm at T = 6.2505
+Function M_DIFF_VISC_TABLE(1) extrapolated (out of range HIGH) for X = 1202.7 rpm at T = 7.344
+Function FX_TIRE_CARPET(1,1) extrapolated (out of range HIGH) for XCOL = 22591.3 N at T = 13.519
+Function L_RELAX_Y_FZ_TABLE(1,1) extrapolated (out of range HIGH) for X = 2.04048 N at T = 13.5195
+Function L_RELAX_Y_FZ_TABLE(1,2) extrapolated (out of range HIGH) for X = 2.01359 N at T = 13.5635
+Function FX_TIRE_CARPET(1,2) extrapolated (out of range HIGH) for XCOL = 23156.3 N at T = 13.5635
+Function L_RELAX_Y_FZ_TABLE(2,2) extrapolated (out of range HIGH) for X = 2.02182 N at T = 13.662
+Function FX_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for XCOL = 23250.9 N at T = 13.662
+
+Run stopped at t = 47.4545. Station limit reached: driver station = 840.003
+
+Computational efficiency: RTIME = 0.0992098 sec/sim. sec
+

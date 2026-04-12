@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Plot: Setup`Hitch Forces`Hitch
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Fx_H, Time
+PLOTCHANNELS Fy_H, Time
+PLOTCHANNELS Fz_H, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Hitch Forces
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Hitch } Hitch Forces
+#Library : Plot: Setup
+#DataSet : Hitch Forces
+#Category: Hitch
+#FileID  : Plot_e63c50d7-929d-4614-87b0-e3aa73ef250a
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

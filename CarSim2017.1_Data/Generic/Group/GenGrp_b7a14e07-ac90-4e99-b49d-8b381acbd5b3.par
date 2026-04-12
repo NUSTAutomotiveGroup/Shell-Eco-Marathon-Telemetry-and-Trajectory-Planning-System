@@ -1,0 +1,91 @@
+PARSFILE
+#FullDataName Generic Data Group`ACC, Blind-Spot, 2 Lanes Fwd, 1 Lane Opp.`Traffic and Blind-Spot Sensors
+#VehCode Generic Group
+#MiscYellow0
+N_LTARG = N_LTARG + 1
+ILTARG = N_LTARG
+ltarg_constant = 2
+#ENDMYellow
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_3c8cc2b2-32b5-4815-b8dc-f94b39c99810.par
+#BlueLink0 Multiple Moving Objects`2 Vehicles, Variable Speed for AAC` Traffic Vehicles (Forward)` , Link 1`TMotion_3c8cc2b2-32b5-4815-b8dc-f94b39c99810
+
+
+#MiscYellow1
+N_LTARG = N_LTARG + 1
+ILTARG = N_LTARG
+ltarg_constant = -2
+#ENDMYellow
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_3805172f-e635-4e01-82a7-bdcce765b335.par
+#BlueLink1 Multiple Moving Objects`6 Vehicles, Speed = Vx * 0.95, ILTARG` Traffic Vehicles (Forward)` , Link 2`TMotion_3805172f-e635-4e01-82a7-bdcce765b335
+
+
+#MiscYellow2
+N_LTARG = N_LTARG + 1
+ILTARG = N_LTARG
+ltarg_constant = 6
+define_parameter vx_ref = speed_target(0,0,1); ...
+  km/h; Reference speed
+#ENDMYellow
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_5f00dd00-22dc-4641-b79f-1ab7982d1d12.par
+#BlueLink2 Multiple Moving Objects`6 Vehicles, ILTARG, Speed = -Vx_Ref` Traffic Vehicles (Oncoming)` , Link 3`TMotion_5f00dd00-22dc-4641-b79f-1ab7982d1d12
+
+
+#MiscYellow3
+ISPEED = 2
+N_SPEED_TARGET = 2
+#ENDMYellow
+
+PARSFILE Control\Speed_t\SpdTime_26c077aa-689c-4a04-9d1f-8d53a9c20b10.par
+#BlueLink3 Control: Speed (Closed Loop) Using Target Speed`Traffic Speed for ACC` Speed vs Time` , Link 4`SpdTime_26c077aa-689c-4a04-9d1f-8d53a9c20b10
+
+
+PARSFILE Sensors_Traffic\Radar\Radar_3d836f6b-9c7d-48cb-bfa5-31d2275154db.par
+#BlueLink4 ADAS Sensors for Range and Tracking`FCW and ACC, X = -1250, Z = 1450` Forward Facing Sensors` , Link 5`Radar_3d836f6b-9c7d-48cb-bfa5-31d2275154db
+
+
+PARSFILE Generic\VS_commands\GenVS_5bda99aa-7aed-41c8-91b2-5dd1b15d8322.par
+#BlueLink5 Generic VS Commands`ACC Equations` ADAS Support` , Link 6`GenVS_5bda99aa-7aed-41c8-91b2-5dd1b15d8322
+
+
+PARSFILE Animator\HUD\HUD_ad1afa52-45fe-4905-a31d-fceb4deed885.par
+#BlueLink6 Animator: HUD`ACC Icon for Medium Lead` ACC - Adaptive Cruise Control` , Link 7`HUD_ad1afa52-45fe-4905-a31d-fceb4deed885
+
+
+#MiscYellow7
+LTARG_OFFSET(1) =  2 ! Put the driver at L = 2
+ACC_DISTANCE = 8
+#ENDMYellow
+
+
+PARSFILE Generic\Links\GenLink_f197e7b1-4953-4b69-b758-1950f96574d0.par
+#BlueLink8 Generic Group of Links`Two Blind-Spot Sensors` ADAS Combinations` , Link 9`GenLink_f197e7b1-4953-4b69-b758-1950f96574d0
+
+
+
+#EMBEDDED_NOTES
+#This dataset assembles some traffic vehicles with an ACC Sensor and two blind-spot sensors. The equations used to show the ACC icon and modify the target speed used internally by the CarSim speed controller involve the detection of the closest vehicle.
+#
+#The equation that modifies the internal target speed uses detection variables such as SpdS<<s>>_1 and MagS<<s>>_1, where <<s>> is the number of the ACC Sensor. These detection variables are created when there is at least one sensor and at least one moving object.
+#
+#The linked datasets are made to ensure that moving objects (the traffic vehicles) and the ACC Sensor are defined before the link to the ACC Equations.
+#
+#The moving objects from link 1 follow a target speed defined in link 3. The vehicles from link 3 use a speed assigned to a custom parameter VX_REF.
+#
+#The lateral positions of the moving objects are set using the LTARG function, with datasets specified with ILTARG.
+#
+#N_LTARG is the number of LTARG datasets that will be shown in the Echo file. The
+#default value is 1; it can be set to any positive number up to 100. In this example it is being used to increment the number of target paths being used and shown in the echo files.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Data Group; { Traffic and Blind-Spot Sensors } ACC, Blind-Spot, 2 Lanes Fwd, 1 Lane Opp.
+#Library : Generic Data Group
+#DataSet : ACC, Blind-Spot, 2 Lanes Fwd, 1 Lane Opp.
+#Category: Traffic and Blind-Spot Sensors
+#FileID  : GenGrp_b7a14e07-ac90-4e99-b49d-8b381acbd5b3
+#Product : CarSim 2017.1
+#VehCode Generic Group
+
+END

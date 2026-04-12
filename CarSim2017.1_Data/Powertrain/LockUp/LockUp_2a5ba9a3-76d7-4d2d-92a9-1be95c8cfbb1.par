@@ -1,0 +1,19 @@
+PARSFILE
+#FullDataName Powertrain: Lockup Schedule`No Data`Empty (You should edit or delete this)
+IGEAR 1
+IGEAR 2
+IGEAR 3
+IGEAR 4
+IGEAR 5
+IGEAR 6
+
+
+LOG_ENTRY Used Dataset: Powertrain: Lockup Schedule; { Empty (You should edit or delete this) } No Data
+#Library : Powertrain: Lockup Schedule
+#DataSet : No Data
+#Category: Empty (You should edit or delete this)
+#FileID  : LockUp_2a5ba9a3-76d7-4d2d-92a9-1be95c8cfbb1
+#Product : CarSim 2017.1
+#VehCode Lockup Schedule
+
+END

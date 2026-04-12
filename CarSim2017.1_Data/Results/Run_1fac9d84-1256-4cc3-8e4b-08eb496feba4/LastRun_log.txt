@@ -1,0 +1,216 @@
+Include PARSFILE "Results\Run_1fac9d84-1256-4cc3-8e4b-08eb496feba4\Run_all.par"
+Used Dataset: Animator: Reference Frame; { Car Tracking } Car X-Y-Z
+Used Dataset: Animator: Camera Setup; { Vehicle Reference } 13 deg. Azimuth, Veh. Ref.
+Used Dataset: Suspension: Dive Angle (Caster Change); SLA - Front
+Used Dataset: Suspension: Longitudinal Movement; SLA - Front
+Used Dataset: Suspension: Camber Angle; SLA - Front
+Used Dataset: Suspension: Lateral Movement Due to Jounce; SLA - Front
+Used Dataset: Suspension: Toe Angle; SLA - Front
+Used Dataset: Suspension: Dive Angle (Caster Change); SLA - Front
+Used Dataset: Suspension: Longitudinal Movement; SLA - Front
+Used Dataset: Suspension: Camber Angle; SLA - Front
+Used Dataset: Suspension: Lateral Movement Due to Jounce; SLA - Front
+Used Dataset: Suspension: Toe Angle; SLA - Front
+Used Dataset: Suspension: Independent System Kinematics; Utility Truck - Front
+Used Dataset: Suspension: Shock Absorber; Small SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +60 mm / -40 mm
+Used Dataset: Suspension: Shock Absorber; Small SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +60 mm / -40 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; Constant: Zero
+Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; Utility Truck - Front
+Used Dataset: Animator: Shape File Link; { Tires } Big Car Tire
+Used Dataset: Animator: Shape File Link; { Tires } Big Car Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Big Car Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Big Car
+Used Dataset: Tire: Pacejka 5.2 Parameters; 175/70 R13 (Symmetric)
+Used Dataset: Tire; Pacejka 5.2 (Symmetric)
+Used Dataset: Animator: Shape File Link; { Tires } Big Car Tire
+Used Dataset: Animator: Shape File Link; { Tires } Big Car Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Big Car Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Big Car
+Used Dataset: Tire: Pacejka 5.2 Parameters; 175/70 R13 (Symmetric)
+Used Dataset: Tire; Pacejka 5.2 (Symmetric)
+Used Dataset: Suspension: Longitudinal Movement; Hotchkiss - Rear
+Used Dataset: Suspension: Lateral Movement Due to Roll and Jounce; Hotchkiss - Rear
+Used Dataset: Suspension: Roll Steer (Solid Axle); Spline: 0.15 deg/deg
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Rear Solid Drive Axle
+Used Dataset: Suspension: Solid Axle System Kinematics; Utility Truck - Rear
+Used Dataset: Suspension: Spring; { Pickup } Pickup - Rear
+Used Dataset: Suspension: Shock Absorber; Small SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +120 mm / -60 mm
+Used Dataset: Suspension: Spring; { Pickup } Pickup - Rear
+Used Dataset: Suspension: Shock Absorber; Small SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +120 mm / -60 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; Constant: Zero
+Used Dataset: Suspension: Solid Axle Compliance, Springs, and Dampers; Utility Truck - Rear
+Used Dataset: Animator: Shape File Link; { Tires } Big Car Tire
+Used Dataset: Animator: Shape File Link; { Tires } Big Car Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Big Car Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Big Car
+Used Dataset: Tire: Pacejka 5.2 Parameters; 175/70 R13 (Symmetric)
+Used Dataset: Tire; Pacejka 5.2 (Symmetric)
+Used Dataset: Animator: Shape File Link; { Tires } Big Car Tire
+Used Dataset: Animator: Shape File Link; { Tires } Big Car Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Big Car Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Big Car
+Used Dataset: Tire: Pacejka 5.2 Parameters; 175/70 R13 (Symmetric)
+Used Dataset: Tire; Pacejka 5.2 (Symmetric)
+Used Dataset: Vehicle: Sprung Mass; Utility Truck
+Used Dataset: Aerodynamics: Basic; No Aerodynamics
+Used Dataset: Animator: Shape File Link; { CS Utility Truck } Utility Truck: Cab
+Used Dataset: Animator: Shape File Link; { CS Utility Truck } Utility Truck: Cab Details
+Used Dataset: Animator: Shape File Link; { CS Utility Truck } Utility Truck: Steering Wheel
+Used Dataset: Animator: Shape File Link; { CS Utility Truck } Utility Truck: Windows
+Used Dataset: Animator: Shape File Link; { CS Utility Truck } Utility Truck: Bed
+Used Dataset: Animator: Shape File Link; { CS Utility Truck } Utility Truck: Bed Details
+Used Dataset: Animator: Shape File Link; { CS Utility Truck } Utility Truck: Driver
+Used Dataset: Animator: Shape Assembly; { CS Utility Truck } Utility Truck
+Used Dataset: Animator: Shape File Link; { CS Utility Truck } Utility Truck: Brake Lights
+Used Dataset: Animator: Vehicles and Sensor Targets; { Working Vehicles } Utility Truck
+Used Dataset: Brakes: Proportioning / Limiting Valve; Unity until 2.0MPa then 30%
+Used Dataset: Brakes: Proportioning / Limiting Valve; Unity until 2.0MPa then 30%
+Used Dataset: Brakes: Four-Wheel System; { A-Class } A-Class w/o ABS
+Used Dataset: Steering System: Compliance; Constant: Zero
+Used Dataset: Steering System: Kinematics for 2 Wheels (Recirc. Ball); Pickup, Compact
+Used Dataset: Steering: Power Assist Torque; 300 N-m Maximum
+Used Dataset: Steering System: Compliance; { Constant } Constant: 0.002 deg/N-m
+Used Dataset: Steering: Parking Torque for 2 Wheels; Zero
+Used Dataset: Steering; { Pickup Trucks and SUVs } Pickup, Compact: Power, Recirc. Ball
+Used Dataset: Vehicle: Assembly; { Utility Vehicles } Utility Truck
+Used Dataset: Animator: Shape File Link; { Payloads } Barrel
+Used Dataset: Payload: Custom; Large Barrel (Back, Utility Truck)
+Used Dataset: Animator: Shape File Link; { Payloads } Barrel
+Used Dataset: Payload: Custom; Large Barrel (FL, Utility Truck)
+Used Dataset: Animator: Shape File Link; { Payloads } Barrel
+Used Dataset: Payload: Custom; Large Barrel (FR, Utility Truck)
+Used Dataset: Vehicle with Loads, Sensors, Trailer, etc.; Utility Truck w/ Barrels
+Used Dataset: Control: Steering by the Closed-loop Driver Model; { Double Lane Change } Double Lane Change - Tight
+Used Dataset: Control: Braking MC Pressure (Open Loop); { Constant } Constant: 0 MPa
+Used Dataset: Control: Shifting (Closed Loop); AT All Gears
+ Straight East <Straight>
+Used Dataset: Path: Segment Builder; { Straight } Straight East
+Used Dataset: Road: Friction Map, S-L Grid; { Constant } Constant: 0.85
+Used Dataset: Road: Animator Surface Shapes; { Roads } DLC Road
+Used Dataset: Animator: Reference Frame; Skybox (Vehicle Reference)
+Used Dataset: Animator: Shape File Link; { Skies } Partly Cloudy Sky
+Used Dataset: Animator: Shape File Link; { Terrain } Land Bowl for Dark Grass
+Used Dataset: Animator: Group; { Skies } Sky for Dark Grass
+Used Dataset: Road: Animator Repeated Object; { Cones } Consumers Union Short Course Right
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Road: 3D Surface (All Properties); { Flat Test Pads } Double Lane Change, Tight (CU), Mu = 0.85
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for X (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Side View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fx 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for X (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Side View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fx 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for X (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Side View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fx 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for X (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Side View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fx 3D Arrow (Tail Origin)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Force Arrows (2 Axles) } 2A - Fx Tire Force Arrows
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Y (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fy 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Y (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fy 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Y (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fy 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Y (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fy 3D Arrow (Tail Origin)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Force Arrows (2 Axles) } 2A - Fy Tire Force Arrows
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Z (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Side View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fz 3D, Offset (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Z (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Side View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fz 3D, Offset (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Z (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Side View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fz 3D, Offset (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Z (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Side View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fz 3D, Offset (Tail Origin)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Force Arrows (2 Axles) } 2A - Fz Tire Force Arrows
+Used Dataset: Generic Data Group; { Tire Force Arrows } 2 Axle - Fx, Fy, Fz
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tracking } Lateral Tracking vs. Station
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Controls: Driver } Steering: Handwheel Angle
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Steering } Road Wheel Steer Angle - Front
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Kinematics } Slip Angles: Instant
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Lateral Accel. of CG's
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Roll Angle of Sprung Masses
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Yaw Rate of Sprung Masses
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Forces } Vertical Forces
+Used Dataset: Procedures; { Handling Testing } Double Lane Change, Tight
+ Pacejka 5.2: DLC, Consumers Union <Tire Models>
+Used Dataset: CarSim Run Control; { Tire Models } Pacejka 5.2: DLC, Consumers Union
+
+Time to read input = 0.071
+Function MENGINE_CARPET extrapolated (out of range LOW) for X = 0 rpm at T = 0
+Function F_REB_STOP_TABLE(1,1) extrapolated (out of range HIGH) for X = 14.5268 mm at T = 0
+Function F_JNC_STOP_TABLE(1,1) extrapolated (out of range LOW) for X = 14.5268 mm at T = 0
+Function F_REB_STOP_TABLE(1,2) extrapolated (out of range HIGH) for X = 14.5268 mm at T = 0
+Function F_JNC_STOP_TABLE(1,2) extrapolated (out of range LOW) for X = 14.5268 mm at T = 0
+Function F_JNC_STOP_TABLE(2,1) extrapolated (out of range LOW) for X = 16.6316 mm at T = 0
+Function F_REB_STOP_TABLE(2,1) extrapolated (out of range HIGH) for X = 16.6316 mm at T = 0
+Function F_JNC_STOP_TABLE(2,2) extrapolated (out of range LOW) for X = 16.6316 mm at T = 0
+Function F_REB_STOP_TABLE(2,2) extrapolated (out of range HIGH) for X = 16.6316 mm at T = 0
+
+Run started: ERD output file = Results\Run_1fac9d84-1256-4cc3-8e4b-08eb496feba4\LastRun.bin
+
+Run stopped at t = 8. Stop time reached.
+
+Computational efficiency: RTIME = 0.09375 sec/sim. sec
+

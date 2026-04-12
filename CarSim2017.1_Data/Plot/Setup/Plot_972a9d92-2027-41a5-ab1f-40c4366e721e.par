@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName Plot: Setup`Tire Contact Patch Widths`Tire Characteristics
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS lt_y_l1, time
+PLOTCHANNELS lt_y_r1, time
+PLOTCHANNELS lt_y_l2, time
+PLOTCHANNELS lt_y_r2, time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Tire Contact Patch Widths
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Tire Characteristics } Tire Contact Patch Widths
+#Library : Plot: Setup
+#DataSet : Tire Contact Patch Widths
+#Category: Tire Characteristics
+#FileID  : Plot_972a9d92-2027-41a5-ab1f-40c4366e721e
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

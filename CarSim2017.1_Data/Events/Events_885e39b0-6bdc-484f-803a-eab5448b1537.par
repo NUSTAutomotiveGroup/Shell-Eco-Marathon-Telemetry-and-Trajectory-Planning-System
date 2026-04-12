@@ -1,0 +1,27 @@
+PARSFILE
+#FullDataName Events`Write to File (OPT_WRITE = 1)`
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl10 0
+#RingCtrl11 4
+
+#MiscYellow0
+OPT_WRITE 1
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#Turn on writing to file.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; Write to File (OPT_WRITE = 1)
+#Library : Events
+#DataSet : Write to File (OPT_WRITE = 1)
+#Category: 
+#FileID  : Events_885e39b0-6bdc-484f-803a-eab5448b1537
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

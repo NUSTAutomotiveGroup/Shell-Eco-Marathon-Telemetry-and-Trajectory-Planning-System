@@ -1,0 +1,55 @@
+PARSFILE
+#FullDataName Vehicle: Sprung Mass`D-Class, SUV`D-Class
+#VehCode Rigid sprung mass
+#RingCtrl0 0
+X_LENGTH 2660
+Y_LENGTH 1500
+iaxle 2
+iside 1
+LX_H 3725
+H_H 375
+H_CG_SU 650
+LX_AXLE 2660
+LX_CG_SU 1050
+M_SU 1430
+IXX_SU 700.7
+IYY_SU 2059.2
+IZZ_SU 2059.2
+IXZ_SU 0
+*RX 0.700
+*RY 1.200
+*RZ 1.200
+Y_CG_SU 0
+Y_H 0
+IXY_SU 0
+IYZ_SU 0
+Z_LENGTH 1705
+Y_LENGTH 1845
+*HWC_LF 355
+*HWC_RF 355
+*HWC_LR 355
+*HWC_RR 355
+
+symbol_set <<hitch_x>> -3.725
+symbol_set <<hitch_y>> 0
+symbol_set <<hitch_z>> 0.375
+H_WC 355
+iside 2
+H_WC 355
+iaxle 1
+iside 1
+H_WC 355
+iside 2
+H_WC 355
+iaxle 2
+iside 1
+
+LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; { D-Class } D-Class, SUV
+#Library : Vehicle: Sprung Mass
+#DataSet : D-Class, SUV
+#Category: D-Class
+#FileID  : SprMass_0b04926a-dd8e-4f6e-b0ec-7ba3db3898fa
+#Product : CarSim 2017.1
+#VehCode Rigid sprung mass
+
+END

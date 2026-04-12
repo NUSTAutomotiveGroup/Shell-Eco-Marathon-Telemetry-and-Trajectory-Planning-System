@@ -1,0 +1,27 @@
+PARSFILE
+#FullDataName I/O Channels: Export`Sanity Speed`
+#RingCtrl0 1
+#RingCtrl1 1
+*README_FILE Results\Run_84980fe9-aeb3-4eb2-9960-95fb758e901a\Run_out_tab.txt
+
+
+EXPORT Vx
+EXPORT Mfuel
+#MiscYellow0
+#Number of Selected Channels: 2
+#CHN_NAME: Vx
+#CHN_NAME: Mfuel
+#ENDMYellow
+
+#BlueLink0 CarSim Run Control`8-Speed Transmission` Powertrain Tests` , example run`Run_84980fe9-aeb3-4eb2-9960-95fb758e901a
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Export; Sanity Speed
+#Library : I/O Channels: Export
+#DataSet : Sanity Speed
+#Category: 
+#FileID  : Export_113afa26-b547-41aa-b844-4f523c28e3b9
+#Product : CarSim 2017.1
+#VehCode Export Channels
+
+END

@@ -1,0 +1,22 @@
+PARSFILE
+#FullDataName Suspension: Lateral Movement Due to Jounce`Constant: Zero`
+#CheckBox0 0    
+
+#RingCtrl0 CONSTANT
+SUSP_LAT_CONSTANT 0
+SUSP_Y_AXLE_ROLL_COMBINE ADD ! in case this is for a solid axle
+SUSP_LAT_AXLE_JOUNCE_CONSTANT 0
+#RadioCtrl0 0    
+
+*SCALAR 0
+
+
+LOG_ENTRY Used Dataset: Suspension: Lateral Movement Due to Jounce; Constant: Zero
+#Library : Suspension: Lateral Movement Due to Jounce
+#DataSet : Constant: Zero
+#Category: 
+#FileID  : LatJnc_38402a2a-f04a-4870-9636-e4fdff0416d2
+#Product : CarSim 2017.1
+#VehCode Lateral Movement
+
+END

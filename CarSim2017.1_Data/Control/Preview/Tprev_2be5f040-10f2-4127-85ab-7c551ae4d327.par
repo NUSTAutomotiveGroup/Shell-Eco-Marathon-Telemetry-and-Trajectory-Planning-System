@@ -1,0 +1,18 @@
+PARSFILE
+#FullDataName Control: Steering Preview Time for the Driver Model`No Data`Empty (You should edit or delete this)
+#CheckBox0 0    
+
+#RingCtrl0 LINEAR_FLAT
+#RadioCtrl0 0    
+
+
+
+LOG_ENTRY Used Dataset: Control: Steering Preview Time for the Driver Model; { Empty (You should edit or delete this) } No Data
+#Library : Control: Steering Preview Time for the Driver Model
+#DataSet : No Data
+#Category: Empty (You should edit or delete this)
+#FileID  : Tprev_2be5f040-10f2-4127-85ab-7c551ae4d327
+#Product : CarSim 2017.1
+#VehCode Preview Time vs. Speed
+
+END

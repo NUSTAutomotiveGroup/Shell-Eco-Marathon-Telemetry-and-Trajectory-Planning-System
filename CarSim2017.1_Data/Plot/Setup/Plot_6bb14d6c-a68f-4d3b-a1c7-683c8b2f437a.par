@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName Plot: Setup`Steering Wheel Angular Rate`Steering
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#BlueLink0 Plot: Format`Default` ` , Plot format`PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5
+
+#BlueLink1 ` , Discontinued` , Discontinued` , Discontinued`
+
+#CheckBox0 1    
+
+
+#MiscYellow0
+PLOTCHANNELS StrAV_SW, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Steering Wheel Angular Rate
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Steering } Steering Wheel Angular Rate
+#Library : Plot: Setup
+#DataSet : Steering Wheel Angular Rate
+#Category: Steering
+#FileID  : Plot_6bb14d6c-a68f-4d3b-a1c7-683c8b2f437a
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

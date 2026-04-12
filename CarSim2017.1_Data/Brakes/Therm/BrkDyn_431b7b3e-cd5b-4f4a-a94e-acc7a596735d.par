@@ -1,0 +1,68 @@
+PARSFILE
+#FullDataName Brakes: Four-Wheel System with Boost and Thermal Effects (Legacy)`E-Class, Sedan w/ Temp. and Boost (Legacy)`
+OPT_BK_PEDAL 2
+#CheckBox0 1    
+
+R_BK_PEDAL 4.1
+D_MC 25
+TC_BK_APP 0.16
+TC_BK_REL 0.07
+SV_TROT_L1 85
+SV_TROT_R1 85
+SV_TROT_L2 85
+SV_TROT_R2 85
+T_AIR 20
+
+PARSFILE Brakes\BOOST\BrkBst_c0983ab9-7c09-475b-b1de-6f08ddcd576c.par
+#BlueLink8 Brakes: Booster Force`Piecewise Linear, 5.56 Gain` ` , Master Boost`BrkBst_c0983ab9-7c09-475b-b1de-6f08ddcd576c
+
+
+iaxle 1
+iside 1
+PARSFILE Brakes\Caliper\BrkCal_87fcd774-286d-4d19-ab89-ae230c9ec1b0.par
+#BlueLink0 Brakes: Caliper and Rotor Properties`E-Class, Sedan: Front w/ Caliper` ` , Left Front`BrkCal_87fcd774-286d-4d19-ab89-ae230c9ec1b0
+
+PARSFILE Brakes\Proportioning\BrkProp_bf8dfcd9-ca75-4a84-8f87-c64f0434448c.par
+#BlueLink4 Brakes: Proportioning / Limiting Valve`Unity Gain` ` , Left Front`BrkProp_bf8dfcd9-ca75-4a84-8f87-c64f0434448c
+
+
+iside 2
+PARSFILE Brakes\Caliper\BrkCal_87fcd774-286d-4d19-ab89-ae230c9ec1b0.par
+#BlueLink1 Brakes: Caliper and Rotor Properties`E-Class, Sedan: Front w/ Caliper` ` , Right Front`BrkCal_87fcd774-286d-4d19-ab89-ae230c9ec1b0
+
+PARSFILE Brakes\Proportioning\BrkProp_bf8dfcd9-ca75-4a84-8f87-c64f0434448c.par
+#BlueLink5 Brakes: Proportioning / Limiting Valve`Unity Gain` ` , Right Front`BrkProp_bf8dfcd9-ca75-4a84-8f87-c64f0434448c
+
+
+iaxle 2
+iside 1
+PARSFILE Brakes\Caliper\BrkCal_1b91d0bf-f81f-4bdf-b13f-306bf898a110.par
+#BlueLink2 Brakes: Caliper and Rotor Properties`E-Class, Sedan: Rear w/ Caliper` ` , Left Rear`BrkCal_1b91d0bf-f81f-4bdf-b13f-306bf898a110
+
+PARSFILE Brakes\Proportioning\BrkProp_bf8dfcd9-ca75-4a84-8f87-c64f0434448c.par
+#BlueLink6 Brakes: Proportioning / Limiting Valve`Unity Gain` ` , Left Rear`BrkProp_bf8dfcd9-ca75-4a84-8f87-c64f0434448c
+
+
+iside 2
+PARSFILE Brakes\Caliper\BrkCal_1b91d0bf-f81f-4bdf-b13f-306bf898a110.par
+#BlueLink3 Brakes: Caliper and Rotor Properties`E-Class, Sedan: Rear w/ Caliper` ` , Right Rear`BrkCal_1b91d0bf-f81f-4bdf-b13f-306bf898a110
+
+PARSFILE Brakes\Proportioning\BrkProp_bf8dfcd9-ca75-4a84-8f87-c64f0434448c.par
+#BlueLink7 Brakes: Proportioning / Limiting Valve`Unity Gain` ` , Right Rear`BrkProp_bf8dfcd9-ca75-4a84-8f87-c64f0434448c
+
+
+#EMBEDDED_NOTES
+#This example brake system dataset includes caliper and rotor properties as well as temperature sensitivity. The same options are available in different combinations in the main 4-wheel brake screen.
+#
+#In the older version of this screen, the type of external ABS controller had to be specified. This is no longer required; this legacy dataset is now identical to the Type A legacy dataset and the legacy Type B dataset, except for the title and these notes.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Brakes: Four-Wheel System with Boost and Thermal Effects (Legacy); E-Class, Sedan w/ Temp. and Boost (Legacy)
+#Library : Brakes: Four-Wheel System with Boost and Thermal Effects (Legacy)
+#DataSet : E-Class, Sedan w/ Temp. and Boost (Legacy)
+#Category: 
+#FileID  : BrkDyn_431b7b3e-cd5b-4f4a-a94e-acc7a596735d
+#Product : CarSim 2017.1
+#VehCode Boost and Thermal
+
+END

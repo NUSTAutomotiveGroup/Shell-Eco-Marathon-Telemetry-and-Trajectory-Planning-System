@@ -1,0 +1,94 @@
+PARSFILE
+#FullDataName Road: Animator Surface Shapes`Straight w/ Curb`Intersections
+NLANES 5
+OPTTHRESHOLD 1
+#MiscYellow0
+# 1 1 1, Road (One Lane), 0.2, 20, 0.95, -4, m, 0, m, , , -500, 500, 1, , , Road
+# 1 1 1, Concrete (Worn), 0.3, 20, 0.1, -4.8, m, -4.5, m, 4, , -500, 500, 1, , , Wrapped
+# 1 1 1, Concrete (Worn), 0.3, 20, 0.1, -4.5, m, -4.3, m, , , -500, 500, 1, , , Wrapped
+# 1 1 1, Grass (Light), 0.2, 20, 0.25, -12, m, -4.8, m, , , -500, 500, 1, , 0.01, Foliage
+# 1 1 1, Road (One Lane), 0.2, 20, 0.04, -4.3, m, -4, m, , , -500, 500, 1, , , Road
+#ENDMYellow
+
+#CheckBox0 0    
+MIRROR 0
+
+COLOR(1) 1 1 1
+MATERIAL(1) Road (One Lane)
+SPECULAR(1) 0.2
+SCALE(1) 20
+LTILES(1) 0.95
+LIN(1) -4
+LINUNITS(1) m
+LOUT(1) 0
+LOUTUNITS(1) m
+SSTART(1) -500
+SSTOP(1) 500
+SINT(1) 1
+AUTODETAIL(1) Road
+COLOR(2) 1 1 1
+MATERIAL(2) Concrete (Worn)
+SPECULAR(2) 0.3
+SCALE(2) 20
+LTILES(2) 0.1
+LIN(2) -4.8
+LINUNITS(2) m
+LOUT(2) -4.5
+LOUTUNITS(2) m
+LDIV(2) 4
+SSTART(2) -500
+SSTOP(2) 500
+SINT(2) 1
+AUTODETAIL(2) Wrapped
+COLOR(3) 1 1 1
+MATERIAL(3) Concrete (Worn)
+SPECULAR(3) 0.3
+SCALE(3) 20
+LTILES(3) 0.1
+LIN(3) -4.5
+LINUNITS(3) m
+LOUT(3) -4.3
+LOUTUNITS(3) m
+SSTART(3) -500
+SSTOP(3) 500
+SINT(3) 1
+AUTODETAIL(3) Wrapped
+COLOR(4) 1 1 1
+MATERIAL(4) Grass (Light)
+SPECULAR(4) 0.2
+SCALE(4) 20
+LTILES(4) 0.25
+LIN(4) -12
+LINUNITS(4) m
+LOUT(4) -4.8
+LOUTUNITS(4) m
+SSTART(4) -500
+SSTOP(4) 500
+SINT(4) 1
+DZ(4) 0.01
+AUTODETAIL(4) Foliage
+COLOR(5) 1 1 1
+MATERIAL(5) Road (One Lane)
+SPECULAR(5) 0.2
+SCALE(5) 20
+LTILES(5) 0.04
+LIN(5) -4.3
+LINUNITS(5) m
+LOUT(5) -4
+LOUTUNITS(5) m
+SSTART(5) -500
+SSTOP(5) 500
+SINT(5) 1
+AUTODETAIL(5) Road
+MTL_FILE Roads/materials/road.mtl
+
+
+LOG_ENTRY Used Dataset: Road: Animator Surface Shapes; { Intersections } Straight w/ Curb
+#Library : Road: Animator Surface Shapes
+#DataSet : Straight w/ Curb
+#Category: Intersections
+#FileID  : RdShape_1a69490c-7d7b-47b5-b3be-781c85610c9c
+#Product : CarSim 2017.1
+#VehCode Road Shapes
+
+END

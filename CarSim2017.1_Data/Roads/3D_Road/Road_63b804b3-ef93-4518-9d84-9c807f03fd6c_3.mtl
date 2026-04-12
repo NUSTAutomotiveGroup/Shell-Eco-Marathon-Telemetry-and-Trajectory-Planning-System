@@ -1,0 +1,9 @@
+newmtl Road (Medium)
+  d 1
+  Ns 100.0
+  illum 2
+  Kd 1 1 1
+  Ks 1 1 1
+  Ka 1 1 1
+  map_Kd Roads/materials/roadsurface.tga
+  

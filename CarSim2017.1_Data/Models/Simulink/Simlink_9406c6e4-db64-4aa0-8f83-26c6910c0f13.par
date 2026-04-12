@@ -1,0 +1,35 @@
+PARSFILE
+#FullDataName Models: Simulink`Custom Steer S-Function`Steering and Steering Controls
+#RunMdlFile Extensions\Custom_C\S_Function\Steer_example.mdl
+#RingCtrl1 2
+OPT_INT_METHOD 2
+#CheckBox0 0    
+*USE_ALT_DIR 0
+#CheckBox1 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox2 0    
+OPT_IO_UPDATE 0
+#CheckBox3 0    
+
+#MiscYellow1
+IMP_STEER_SW REPLACE 0
+OPT_USE_EXT_STEER 1
+#ENDMYellow
+
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+#EMBEDDED_NOTES
+#Specifies a link to an external Simulink model that implements a steer controller with an S function created from a C module.
+#
+#Note that OPT_USE_EXT_STEER is set to 1 to enable the external steering model.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: Simulink; { Steering and Steering Controls } Custom Steer S-Function
+#Library : Models: Simulink
+#DataSet : Custom Steer S-Function
+#Category: Steering and Steering Controls
+#FileID  : Simlink_9406c6e4-db64-4aa0-8f83-26c6910c0f13
+#Product : CarSim 2017.1
+#VehCode 
+
+END

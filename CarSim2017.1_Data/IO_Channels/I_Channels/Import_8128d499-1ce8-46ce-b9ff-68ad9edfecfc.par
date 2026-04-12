@@ -1,0 +1,24 @@
+PARSFILE
+#FullDataName I/O Channels: Import`Engine and Torque Coupler`Powertrain Imports
+#RingCtrl0 1
+#RingCtrl1 1
+*README_FILE Results\Run_997a0e7e-6488-4674-a75c-4b0eb84ff737\Run_imp_tab.txt
+
+#MiscYellow0
+IMP_M_OUT_TC Add 0.0! 0
+IMP_AV_ENG Add 0.0! 0
+IMP_PWR_ENGINE_AV Replace 0.0! 1
+#ENDMYellow
+
+#BlueLink0 CarSim Run Control`Ext. Eng. and Torque Coupler` Simulink and LabVIEW Models` , example run`Run_997a0e7e-6488-4674-a75c-4b0eb84ff737
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Import; { Powertrain Imports } Engine and Torque Coupler
+#Library : I/O Channels: Import
+#DataSet : Engine and Torque Coupler
+#Category: Powertrain Imports
+#FileID  : Import_8128d499-1ce8-46ce-b9ff-68ad9edfecfc
+#Product : CarSim 2017.1
+#VehCode Import Channels
+
+END

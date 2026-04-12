@@ -1,0 +1,35 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Sub Compact: OSG 2012`CS Sub Compact
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\vehicles\ClassA_Hatchback\ClassA_Hatchback.OSG
+#ENDMYellow
+
+SET_COLOR 0.6 0.8 0.4
+*SPECULAR 0.6
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 1    
+USE_RUN_COLOR
+#CheckBox4 1    
+
+SET_SPECULAR 0.6 0.6 0.6
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_6abbbadd-808c-4781-91d3-be05225b2f8f.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS Sub Compact } Sub Compact: OSG 2012
+#Library : Animator: Shape File Link
+#DataSet : Sub Compact: OSG 2012
+#Category: CS Sub Compact
+#FileID  : Shape_6abbbadd-808c-4781-91d3-be05225b2f8f
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

@@ -1,0 +1,89 @@
+PARSFILE
+#FullDataName CarSim Run Control`Open Loop: Full Internal Model`* CS 2017 - External Steering Models
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_479ea568-2436-417b-a57b-052d58c340fd
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+#BlueLink12 ` , Models` , Models` , Models`
+
+PARSFILE Animator\Cameras\Camera_358f7aeb-0e81-446e-a19f-f2c18b21801b.par
+#BlueLink0 Animator: Camera Setup`13 deg. Azimuth, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_358f7aeb-0e81-446e-a19f-f2c18b21801b
+
+#CheckBox0 1    
+#CheckBox1 1    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 2
+#RingCtrl7 -1
+*RUN_COLOR 0.8 0 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_67fa347a-42d7-4c59-b0a6-9143e96d4531.par
+#BlueLink2 Vehicle: Assembly`A-Class, Hatchback OSG 2017` A-Class` , Vehicle Configuration`Vehicle_67fa347a-42d7-4c59-b0a6-9143e96d4531
+
+PARSFILE Procedures\Proc_41238189-18db-44af-b59a-0e9db1c4434d.par
+#BlueLink28 Procedures`Sine Sweep Steer Input` Driver Controls` , Procedure`Proc_41238189-18db-44af-b59a-0e9db1c4434d
+
+PARSFILE Plot\Setup\Plot_986ce074-9acb-4be0-8bd7-ac8e03eb16ab.par
+#BlueLink15 Plot: Setup`Steer Torque` Steering` , Plot`Plot_986ce074-9acb-4be0-8bd7-ac8e03eb16ab
+
+PARSFILE Plot\Setup\Plot_b19280a2-8346-4fce-9410-a014d7ef86ac.par
+#BlueLink16 Plot: Setup`Kingpin Torque - Front` Steering` , Plot`Plot_b19280a2-8346-4fce-9410-a014d7ef86ac
+
+
+SPECIAL_PARSFILE Runs\Run_823efcb9-9af8-4faf-bc1a-27567275cc5b.par
+#BlueLink23 CarSim Run Control`Open Loop: Replace Entire System` * CS 2017 - External Steering Models` , Overlay run or ERD file`Run_823efcb9-9af8-4faf-bc1a-27567275cc5b
+
+
+SPECIAL_PARSFILE Runs\Run_444f946e-82f1-436c-8906-c04713c430c2.par
+#BlueLink24 CarSim Run Control`Open Loop: Retain TieRod / Steer Arm Kinematics` * CS 2017 - External Steering Models` , Overlay run or ERD file`Run_444f946e-82f1-436c-8906-c04713c430c2
+
+
+SPECIAL_PARSFILE Runs\Run_5cff4d9e-3dd2-4d64-a3ea-86b372113bb9.par
+#BlueLink25 CarSim Run Control`Open Loop: Replace Rack and Pinion Only` * CS 2017 - External Steering Models` , Overlay run or ERD file`Run_5cff4d9e-3dd2-4d64-a3ea-86b372113bb9
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_67fa347a-42d7-4c59-b0a6-9143e96d4531.png
+WRITE_SENSOR_DETECT
+Title Open Loop: Full Internal Model <* CS 2017 - External Steering Models>
+CATEGORY * CS 2017 - External Steering Models 
+DATASET_TITLE Open Loop: Full Internal Model
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This is a baseline for a series of examples illustrating the replacement of elements of the steering system with external models. In these cases, the external models are implemented using VS Commands.
+#
+#This series uses open-loop steer control.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { * CS 2017 - External Steering Models } Open Loop: Full Internal Model
+#Library : CarSim Run Control
+#DataSet : Open Loop: Full Internal Model
+#Category: * CS 2017 - External Steering Models
+#FileID  : Run_479ea568-2436-417b-a57b-052d58c340fd
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

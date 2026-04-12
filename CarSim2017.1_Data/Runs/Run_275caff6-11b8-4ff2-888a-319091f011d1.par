@@ -1,0 +1,87 @@
+PARSFILE
+#FullDataName CarSim Run Control`ACC, 5-Lane Road, 3 Lanes Fwd Traffic`ADAS and Active Safety
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_275caff6-11b8-4ff2-888a-319091f011d1
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_dc48416e-5207-488c-ac1e-befb81183b3f.par
+#BlueLink0 Animator: Camera Setup`180 deg. Azimuth, 15 deg. El., Veh. Ref.` Vehicle Reference` , Animator camera`Camera_dc48416e-5207-488c-ac1e-befb81183b3f
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 1    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 2
+#RingCtrl7 -1
+*RUN_COLOR 0.8 0 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_a0aaeca0-2c47-4094-9562-cbd5e0d325b6.par
+#BlueLink2 Vehicle: Assembly`C-Class, Hatchback 2017` C-Class` , Vehicle Configuration`Vehicle_a0aaeca0-2c47-4094-9562-cbd5e0d325b6
+
+PARSFILE Procedures\Proc_d9f05c4b-f080-4978-87a3-1e368783e2ca.par
+#BlueLink28 Procedures`Speed = 110, 2 m Right` Driver Controls` , Procedure`Proc_d9f05c4b-f080-4978-87a3-1e368783e2ca
+
+PARSFILE Roads\3D_Road\Road_3ffd4401-007b-490b-b434-fd682b3d08ed.par
+#BlueLink9 Road: 3D Surface (All Properties)`5-Lane Section` Many Lanes` , Miscellaneous`Road_3ffd4401-007b-490b-b434-fd682b3d08ed
+
+PARSFILE Generic\Group\GenGrp_130b1bd5-c8b7-4d56-a2e2-8f6178d036ac.par
+#BlueLink10 Generic Data Group`ACC, Blind-Spot, 3 Lanes Fwd` Traffic and Blind-Spot Sensors` , Miscellaneous`GenGrp_130b1bd5-c8b7-4d56-a2e2-8f6178d036ac
+
+#BlueLink11 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+DELETE_PLOT_GROUP default
+PLOT_GROUP default
+PARSFILE Plot\Setup\Plot_4442302e-a863-4794-b309-f1b015bb4fa7.par
+#BlueLink15 Plot: Setup`Longitudinal Speed` Vehicle Motion` , Plot`Plot_4442302e-a863-4794-b309-f1b015bb4fa7
+
+PARSFILE Plot\Setup\Plot_79f3157d-d29b-4f16-ba4e-cc4b4a19b7ed.par
+#BlueLink16 Plot: Setup`Distances for Closest 2 Objects, Sensor 1` ADAS` , Plot`Plot_79f3157d-d29b-4f16-ba4e-cc4b4a19b7ed
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_a0aaeca0-2c47-4094-9562-cbd5e0d325b6.png
+WRITE_SENSOR_DETECT
+Title ACC, 5-Lane Road, 3 Lanes Fwd Traffic <ADAS and Active Safety>
+CATEGORY ADAS and Active Safety 
+DATASET_TITLE ACC, 5-Lane Road, 3 Lanes Fwd Traffic
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example shows the simulated vehicle with adaptive cruise control (ACC) and blind-spot detection, traveling on a road with forward traffic in three lanes.
+#
+#A CarSim Sensors license is required to run this simulation.  You may still view the animation and plots.
+#
+#The blind spot detection shows alerts for vehicles in the adjacent lanes, while the ACC controls the vehicle speed via throttle and brakes.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { ADAS and Active Safety } ACC, 5-Lane Road, 3 Lanes Fwd Traffic
+#Library : CarSim Run Control
+#DataSet : ACC, 5-Lane Road, 3 Lanes Fwd Traffic
+#Category: ADAS and Active Safety
+#FileID  : Run_275caff6-11b8-4ff2-888a-319091f011d1
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

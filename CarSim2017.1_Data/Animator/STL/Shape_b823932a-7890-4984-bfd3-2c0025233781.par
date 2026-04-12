@@ -1,0 +1,35 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`EVT Brake Lights`AEB Testing
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\AEB_Dummy_Vehicle\Brakes_ON.obj
+#ENDMYellow
+
+SET_SCALE_X 1
+SET_SCALE_Y 1.005
+SET_SCALE_Z 1
+SET_OFFSET_X 0.499
+SET_OFFSET_Y 0
+SET_OFFSET_Z 0
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_b823932a-7890-4984-bfd3-2c0025233781.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { AEB Testing } EVT Brake Lights
+#Library : Animator: Shape File Link
+#DataSet : EVT Brake Lights
+#Category: AEB Testing
+#FileID  : Shape_b823932a-7890-4984-bfd3-2c0025233781
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

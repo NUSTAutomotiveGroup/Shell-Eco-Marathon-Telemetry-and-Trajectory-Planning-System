@@ -1,0 +1,106 @@
+$======================================================================
+$ Applikation: Project Data
+$ Objekt:      Task Folder
+$ erstellt am: January 19, 2011 - Uhrzeit: 1:44:28 pm
+$-------------------------------------------------ZYKLUSFAHRT
+[ZYKLUSFAHRT]
+#BERM_ID                  = 
+#BERM_ENTW_DATUM          = "Aug 26, 2009 09:35:02 tt"
+IDX                       = 1
+BERECHNEN                 = 2
+ZYKF_ID                   = 
+ZYKF_ENTW_DATUM           = "Aug 26, 2009 09:35:02 tt"
+DATENSATZ_VERANTWORTLICHER = 'Support-Team'
+DB_USER                   = ''
+SEC_ID                    = 
+BEMERKUNG                 = 'UDC_aut'
+IDENTIF_ATTR1             = ''
+IDENTIF_ATTR2             = ''
+IDENTIF_ATTR3             = ''
+#ZYKF_ID                  = 
+#ZYKF_ENTW_DATUM          = "Aug 26, 2009 09:35:02 tt"
+NAME                      = 'NEDC_aut'
+TPL_AUSGABE               = 2
+PPD_AUSGABE               = 2
+MS_AUSGABE                = 1
+MS_AUSGABE_OPTION         = 1
+MS_AUSGABE_SCHRITTE       = 
+WARMSTARTAUSWAHL          = 3
+FAHRWIDERSTAND            = 1
+SOC_NEUTRAL               = 1
+SOC_DELTA_GRENZE <%>      = 0.1
+SOC_ITERATIONEN_MAX       = 10
+SOC_MODUS                 = 1
+SOC_SOLLENDWERT <%>       = 
+SOC_STOP_STARTWERT_SCHALTER = 2
+SOC_STOP_ITERATIONEN_MAX  = 10
+SOC_STOP_STARTWERT <%>    = 
+SOC_STOP_ENDWERT <%>      = 0.0
+OE_KALTSTARTKORREKTUR     = 1
+TEMPERATUR_ZYKLUSABH      = 1
+ZYKLUSZUORDNUNG           = ''
+SIM_QUAS                  = 2
+LOCATION                  = 2
+KURVENFAHRT               = 1
+RADSCHLUPF                = 1
+GANGWAHL_HOCHSCHALTEN     = 1
+GANGWAHL_HERUNTERSCHALTEN = 1
+TIPTRONIC                 = 1
+KICKDOWN                  = 1
+STEUER_PROG               = 1
+ANFAHRMODUS               = 2
+ANFANGSWERTSETZ_SCHALTER  = 1
+ANFANGSDREHZAHL <1/min>   = 
+KOMPONENTENNUMMER         = 
+PINNUMMER                 = 
+FAHRERNAME                = 'Standard'
+STRECKENNAME              = 'Standard'
+PROFIL_DEF                = 1
+PROFILMODELL_DEF          = 1
+PROFILNAME                = 'NEDC_aut'
+PROFILNAME_WEG            = ''
+MESS_START                = 1
+MESS_STARTZEIT <s>        = 0.0
+MESS_STARTDISTANZ <m>     = 0.0
+SCHWUNGMASSENAUSWAHL      = 2
+SCHWUNGMASSE <kg>         = 
+SMKNAME                   = ''
+BELADUNG_LEER             = 2
+ZUSATZBELADUNGSSCHALTER   = 1
+ZUSATZLADUNG <kg>         = 0.0
+BELADUNG_HALB             = 1
+ZUSATZLADUNG_REL <%>      = 0.0
+BELADUNG_VOLL             = 1
+KRAFTSTOFF_EINFLUSS       = 1
+KRAFTSTOFF_EINFLUSS_SCHWELLE <kg> = 1.0
+BELADUNG_ANHAENGER        = 1
+STR_ID                    = 
+STR_ENTW_DATUM            = "Jun 01, 2004 11:27:11 tt"
+PROFIL_ID                 = 
+PROFIL_ENTW_DATUM         = "Aug 26, 2009 09:35:02 tt"
+PROFIL_WEG_ID             = 
+PROFIL_WEG_ENTW_DATUM     = "Nov 18, 2005 11:20:10 tt"
+FAH_ID                    = 
+FAH_ENTW_DATUM            = "Jan 16, 2005 15:11:35 tt"
+SMK_ID                    = 
+SMK_ENTW_DATUM            = "Nov 18, 2005 11:20:10 tt"
+PG_ID                     = 
+PG_ENTW_DATUM             = "Aug 26, 2009 09:35:02 tt"
+WAY_FILE = 'ways\Standard.way'
+DRV_FILE = 'drivers\Standard.drv'
+SMK_FILE = 
+PROFIL_DEF                = 1
+PROFILMODELL_DEF          = 1
+PRO_FILE = 'profiles\NEDC_aut.pro'
+PRO_FILE_WAY = 
+$=====================================================Weighting Factors
+(PHASEN_GEWICHTE)
+#ZYKF_ID                  = 
+#ZYKF_ENTW_DATUM          = "Aug 26, 2009 09:35:02 tt"
+OE_SCHALTER               = 1
+GR_NAME_UNABH             = 55
+GR_EINH_UNABH             = 's'
+GR_NAME_ABH               = 36
+GR_EINH_ABH               = '-'
+TP_ID                     = 
+{ GR_WERT_UNABH GR_WERT_ABH }

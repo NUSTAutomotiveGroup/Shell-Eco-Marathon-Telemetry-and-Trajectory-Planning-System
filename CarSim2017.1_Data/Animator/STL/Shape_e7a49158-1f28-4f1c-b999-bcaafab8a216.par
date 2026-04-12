@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Billboard`Signs
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\scenery\signs\CarSim_billboard2\billboard.obj
+#ENDMYellow
+
+SET_COLOR 1 1 1
+SET_ANGLE_Z -10
+SET_ANGLE_Y 0
+SET_ANGLE_X 0
+SET_OFFSET_X 0
+SET_OFFSET_Y 0
+SET_OFFSET_Z -5
+#CheckBox0 1    
+set_lighting off
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_e7a49158-1f28-4f1c-b999-bcaafab8a216.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Signs } Billboard
+#Library : Animator: Shape File Link
+#DataSet : Billboard
+#Category: Signs
+#FileID  : Shape_e7a49158-1f28-4f1c-b999-bcaafab8a216
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

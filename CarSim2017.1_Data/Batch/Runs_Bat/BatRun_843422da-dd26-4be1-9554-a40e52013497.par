@@ -1,0 +1,27 @@
+PARSFILE
+#FullDataName Batch Runs`Extended Models`Built-In Solvers
+#CheckBox1 0    
+
+#MiscYellow1
+#<Extended Models> Crosswind and Tripped Rollover
+#<Extended Models> Handbrake Turn
+#<Extended Models> Ignition Switch and Transmission Park
+#<Extended Models> Non-linear Spring Deflection
+#<Extended Models> Outrigger for Roll Stability Testing
+#<Extended Models> Steer Controller with VS Commands
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains the datasets which are in the Extended Models category
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; { Built-In Solvers } Extended Models
+#Library : Batch Runs
+#DataSet : Extended Models
+#Category: Built-In Solvers
+#FileID  : BatRun_843422da-dd26-4be1-9554-a40e52013497
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

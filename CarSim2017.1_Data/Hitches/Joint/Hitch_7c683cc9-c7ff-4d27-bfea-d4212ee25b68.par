@@ -1,0 +1,34 @@
+PARSFILE
+#FullDataName Hitch: Joint Assembly`Ball`
+#CheckBox0 0    
+OPT_ROLL_HITCH 0
+#CheckBox1 0    
+
+PARSFILE Hitches\Mx\HchMx_d2b0acf3-3598-4f6f-8626-f6e6636f2bfd.par
+#BlueLink0 Hitch: Roll Moment`Constant: Zero` ` , Roll Stiffness`HchMx_d2b0acf3-3598-4f6f-8626-f6e6636f2bfd
+
+PARSFILE Hitches\My\HchMy_993f741e-2394-46db-ac19-aa5bdb03e0af.par
+#BlueLink1 Hitch: Pitch Moment`90-90 Deg. Lash` ` , Pitch Stiffness`HchMy_993f741e-2394-46db-ac19-aa5bdb03e0af
+
+PARSFILE Hitches\Mz\HchMz_db3c7550-5072-41fb-9e50-1efcb41c0227.par
+#BlueLink2 Hitch: Yaw Moment`140 Deg. Lash` ` , Yaw Stiffness`HchMz_db3c7550-5072-41fb-9e50-1efcb41c0227
+
+iunit 1
+WRITE_ADD_REFERENCE_FRAME_HITCH
+iunit 2
+PARSFILE Animator\STL\Shape_e3c02393-8f44-4874-8958-6b724fbef25a.par
+#BlueLink3 Animator: Shape File Link`Ball Hitch` Trailer Hitches` , Hitch Shape`Shape_e3c02393-8f44-4874-8958-6b724fbef25a
+
+SET_OFFSET_X <<hitch_x>>
+SET_OFFSET_Y <<hitch_y>>
+SET_OFFSET_Z <<hitch_z>>
+
+LOG_ENTRY Used Dataset: Hitch: Joint Assembly; Ball
+#Library : Hitch: Joint Assembly
+#DataSet : Ball
+#Category: 
+#FileID  : Hitch_7c683cc9-c7ff-4d27-bfea-d4212ee25b68
+#Product : CarSim 2017.1
+#VehCode Hitch
+
+END

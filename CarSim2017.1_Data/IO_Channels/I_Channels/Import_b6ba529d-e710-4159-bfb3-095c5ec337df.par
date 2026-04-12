@@ -1,0 +1,25 @@
+PARSFILE
+#FullDataName I/O Channels: Import`ABS`Braking Imports
+#RingCtrl0 2
+#RingCtrl1 1
+*README_FILE Results\Run_bfcd9b35-97b1-40a7-8b20-adc0e5ce25a5\Run_imp_tab.txt
+
+#MiscYellow0
+IMP_PBK_L1 Replace 0.0! 1
+IMP_PBK_R1 Replace 0.0! 1
+IMP_PBK_L2 Replace 0.0! 1
+IMP_PBK_R2 Replace 0.0! 1
+#ENDMYellow
+
+#BlueLink0 CarSim Run Control`LabVIEW Ext. ABS: Split Mu` Simulink and LabVIEW Models` , example run`Run_bfcd9b35-97b1-40a7-8b20-adc0e5ce25a5
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Import; { Braking Imports } ABS
+#Library : I/O Channels: Import
+#DataSet : ABS
+#Category: Braking Imports
+#FileID  : Import_b6ba529d-e710-4159-bfb3-095c5ec337df
+#Product : CarSim 2017.1
+#VehCode Import Channels
+
+END

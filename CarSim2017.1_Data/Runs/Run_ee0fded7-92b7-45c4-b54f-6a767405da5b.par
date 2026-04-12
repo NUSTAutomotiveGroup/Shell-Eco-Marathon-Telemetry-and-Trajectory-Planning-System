@@ -1,0 +1,78 @@
+PARSFILE
+#FullDataName CarSim Run Control`Fishhook Procedure: Van w/ Trailer`Trailers (Extra License Needed)
+#VEHICLECODE Ind_SA + SA
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_ee0fded7-92b7-45c4-b54f-6a767405da5b
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_de1f5f31-cdc6-45aa-8fad-27588467e961.par
+#BlueLink0 Animator: Camera Setup`350 deg. Azimuth, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_de1f5f31-cdc6-45aa-8fad-27588467e961
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0.2 0.4 0.6
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_f6fd21d7-00b3-4831-9f63-3c841a2b69fe.par
+#BlueLink2 Vehicle with Loads, Sensors, Trailer, etc.`Large European Van w/ Trailer` European Van` , Vehicle Configuration`VehLoad_f6fd21d7-00b3-4831-9f63-3c841a2b69fe
+
+PARSFILE Procedures\Proc_cf1a1fd9-1945-4bf6-9c74-1c4e519ffcf7.par
+#BlueLink28 Procedures`Fishhook Procedure` Stability Testing` , Procedure`Proc_cf1a1fd9-1945-4bf6-9c74-1c4e519ffcf7
+
+PARSFILE Animator\Arrows\Arrows_18420e1c-c5d6-497f-996a-a8576addf69b.par
+#BlueLink9 Animator: Wheel Arrows and Other Indicators`Tire Skid Marks (3 Axles)` ` , Miscellaneous`Arrows_18420e1c-c5d6-497f-996a-a8576addf69b
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_a8aec856-9536-4ef7-a407-8f78b29909e9.png
+WRITE_SENSOR_DETECT
+Title Fishhook Procedure: Van w/ Trailer <Trailers (Extra License Needed)>
+CATEGORY Trailers (Extra License Needed) 
+DATASET_TITLE Fishhook Procedure: Van w/ Trailer
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example simulates a Fishhook test series as described in NHTSA-2001-9663, Notice 3, "New Car Assessment Program: Rollover Resistance."
+#
+#The vehicle is run through a test called "slowly increasing steer" to find a reference steering wheel angle, and then that angle is used to scale steering inputs similar to those that might be applied by a driver acting in panic to return a vehicle to its lane after it had drifted off course.
+#
+#Vehicles with high centers of gravity are at risk of rollover in this maneuver at high speed. This procedure first tests the vehicle at 80 km/h (50 mi/h). If it lifts two tires off the ground, the test is repeated at lower speeds until it keeps the tires on the ground.
+#
+#The maximum speeds are written into the Echo file with final conditions with the keywords VLIMIT_L and VLIMIT_R. L and R indicate the maximum speeds used in left-hand and right-hand versions of the test.
+#
+#Details about this test are contained in the notes for the procedure.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Trailers (Extra License Needed) } Fishhook Procedure: Van w/ Trailer
+#Library : CarSim Run Control
+#DataSet : Fishhook Procedure: Van w/ Trailer
+#Category: Trailers (Extra License Needed)
+#FileID  : Run_ee0fded7-92b7-45c4-b54f-6a767405da5b
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

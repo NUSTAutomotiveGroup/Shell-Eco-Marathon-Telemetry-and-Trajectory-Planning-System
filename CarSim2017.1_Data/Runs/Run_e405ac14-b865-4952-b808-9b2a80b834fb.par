@@ -1,0 +1,71 @@
+PARSFILE
+#FullDataName CarSim Run Control`Lifted Suspension (SA_SA)`Suspension and Ride Tests
+#VEHICLECODE SA_SA
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_e405ac14-b865-4952-b808-9b2a80b834fb
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_3eaa41a1-4efa-4cad-9159-3ea5b86ad95a.par
+#BlueLink0 Animator: Camera Setup`90 deg. Azimuth, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_3eaa41a1-4efa-4cad-9159-3ea5b86ad95a
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 1 1 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_6747dc6c-7549-4cab-89ff-04e0228f3528.par
+#BlueLink2 Vehicle: Assembly`Pickup, Full Size: Lifted (SA_SA)` Pickup, Full Size` , Vehicle Configuration`Vehicle_6747dc6c-7549-4cab-89ff-04e0228f3528
+
+PARSFILE Procedures\Proc_d2506e36-2e85-4cee-b801-9dc4ba0c9194.par
+#BlueLink28 Procedures`Large Smooth Bump` Ride Tests` , Procedure`Proc_d2506e36-2e85-4cee-b801-9dc4ba0c9194
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_9eaaef41-90b6-4bab-988c-23d84c8adabf.png
+WRITE_SENSOR_DETECT
+Title Lifted Suspension (SA_SA) <Suspension and Ride Tests>
+CATEGORY Suspension and Ride Tests 
+DATASET_TITLE Lifted Suspension (SA_SA)
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example simulates a vehicle with a suspension lift kit. Most suspension lift kits work by lowering the wheel center height relative to the CG of the sprung mass.
+#
+#The sprung mass of the vehicle linked to this example, "Pickup, Full Size: Lifted (SA_SA)", is the same as the non-lifted full-size pickup truck, "Pickup, Full Size." The only difference is the wheel center heights on this truck are lower relative to the sprung mass coordinate system. Since the ground is defined as the bottom of the tires, this has the effect of lifting the sprung mass.
+#
+#This example also demonstrates how to create a road with a large smooth bump. Click on the Procedures blue link "Large Smooth Bump" for more information.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Suspension and Ride Tests } Lifted Suspension (SA_SA)
+#Library : CarSim Run Control
+#DataSet : Lifted Suspension (SA_SA)
+#Category: Suspension and Ride Tests
+#FileID  : Run_e405ac14-b865-4952-b808-9b2a80b834fb
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

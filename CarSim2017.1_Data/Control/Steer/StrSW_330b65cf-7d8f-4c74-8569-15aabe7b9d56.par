@@ -1,0 +1,26 @@
+PARSFILE
+#FullDataName Control: Steering (Open Loop)`Ramp: 0 to 720 deg in 0.5 sec.`Ramp
+OPT_DRIVER_MODEL 0
+OPT_STEER 0
+#CheckBox0 0    
+
+#RingCtrl0 LINEAR_FLAT
+#RadioCtrl0 0    
+
+#DiagramOne0
+STEER_SW_TABLE LINEAR_FLAT
+0, 0
+0.5, 720
+2, 720
+ENDTABLE
+
+
+LOG_ENTRY Used Dataset: Control: Steering (Open Loop); { Ramp } Ramp: 0 to 720 deg in 0.5 sec.
+#Library : Control: Steering (Open Loop)
+#DataSet : Ramp: 0 to 720 deg in 0.5 sec.
+#Category: Ramp
+#FileID  : StrSW_330b65cf-7d8f-4c74-8569-15aabe7b9d56
+#Product : CarSim 2017.1
+#VehCode Open-Loop Steering
+
+END

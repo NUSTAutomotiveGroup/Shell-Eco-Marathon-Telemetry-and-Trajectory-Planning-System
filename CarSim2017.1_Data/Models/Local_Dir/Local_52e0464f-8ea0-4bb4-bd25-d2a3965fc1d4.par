@@ -1,0 +1,31 @@
+PARSFILE
+#FullDataName Models: Transfer to Local Windows Directory`Simple Run from Python (32-bit)`
+*USE_ALT_DIR 1
+#ALTPATH Extensions\Custom_Py
+#CheckBox0 0    
+OPT_IO_UPDATE 0
+#CheckBox1 0    
+#CheckBox2 0    
+*USE_DIFF_SOLVERS 0
+
+#RingCtrl0 2
+OPT_INT_METHOD 2
+#RingCtrl1 0
+*X64SOLVER 0
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+#EMBEDDED_NOTES
+#This identifies the folder containing a Python file that will read the simfile "simfile.sim", load the VS solver DLL for the currently selected vehicle, and make the run.
+#
+#Use this with 32-bit Python.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: Transfer to Local Windows Directory; Simple Run from Python (32-bit)
+#Library : Models: Transfer to Local Windows Directory
+#DataSet : Simple Run from Python (32-bit)
+#Category: 
+#FileID  : Local_52e0464f-8ea0-4bb4-bd25-d2a3965fc1d4
+#Product : CarSim 2017.1
+#VehCode 
+
+END

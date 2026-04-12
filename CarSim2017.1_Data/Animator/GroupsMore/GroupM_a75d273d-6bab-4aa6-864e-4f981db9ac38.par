@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Animator: Group (More)`Aero Moment Arrows`
+PARSFILE Animator\Frames\Frame_75fb223b-9e55-4877-9355-f4d07b370dd8.par
+#BlueLink0 Animator: Reference Frame`Aero Mx` Aero Moments` , Miscellaneous`Frame_75fb223b-9e55-4877-9355-f4d07b370dd8
+
+PARSFILE Animator\STL_Groups\ShpGrp_02837370-2119-45d0-9783-181865e01c66.par
+#BlueLink1 Animator: Shape Assembly`Mx Double (Tail Origin)` Arrows` , Miscellaneous`ShpGrp_02837370-2119-45d0-9783-181865e01c66
+
+PARSFILE Animator\Frames\Frame_429f72ce-a6a3-4522-834c-dc039a8c93d5.par
+#BlueLink2 Animator: Reference Frame`Aero My` Aero Moments` , Miscellaneous`Frame_429f72ce-a6a3-4522-834c-dc039a8c93d5
+
+PARSFILE Animator\STL_Groups\ShpGrp_0bc85db3-ddf0-4dda-8f26-14df2285c751.par
+#BlueLink3 Animator: Shape Assembly`My Double: (Tail Origin)` Arrows` , Miscellaneous`ShpGrp_0bc85db3-ddf0-4dda-8f26-14df2285c751
+
+PARSFILE Animator\Frames\Frame_ee7f405a-4fc4-41ed-827e-b2be238d348e.par
+#BlueLink4 Animator: Reference Frame`Aero Mz` Aero Moments` , Miscellaneous`Frame_ee7f405a-4fc4-41ed-827e-b2be238d348e
+
+PARSFILE Animator\STL_Groups\ShpGrp_84b3fdcc-049b-4a4d-9654-d090ddc57df8.par
+#BlueLink5 Animator: Shape Assembly`Mz Double: (Tail Origin)` Arrows` , Miscellaneous`ShpGrp_84b3fdcc-049b-4a4d-9654-d090ddc57df8
+
+
+#CheckBox0 0    
+
+
+LOG_ENTRY Used Dataset: Animator: Group (More); Aero Moment Arrows
+#Library : Animator: Group (More)
+#DataSet : Aero Moment Arrows
+#Category: 
+#FileID  : GroupM_a75d273d-6bab-4aa6-864e-4f981db9ac38
+#Product : CarSim 2017.1
+#VehCode Group (More)
+
+END

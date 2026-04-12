@@ -1,0 +1,43 @@
+PARSFILE
+#FullDataName Animator: Vehicles and Sensor Targets`Sphere`
+
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox6 0    
+#CheckBox7 0    
+
+OBJ_X_LENGTH 200
+OBJ_Y_LENGTH 200
+OBJ_Z_LENGTH 200
+*LAT_WC 1900
+*LAT_WC_2 1900
+*HWC 400
+*WHEEL_RATIO 1.35
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\Vehicles\AniVeh_d1dd965f-45cd-4f06-9b37-a7828ba5c555.png
+DZ_OBJECT 0
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+PARSFILE Animator\STL\Shape_a7a2d448-3908-4c82-a47d-3f3bd6f4d384.par
+#BlueLink1 Animator: Shape File Link`Sphere` Primitives` , Vehicle Body`Shape_a7a2d448-3908-4c82-a47d-3f3bd6f4d384
+
+WRITE_REFERENCE_FRAME_SIZE
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_aad9f5dd-7a61-4319-88b3-b90a1214f577.par
+#BlueLink5 Animator: Camera Setup`Vehicle Pictures` Shape Preview` , Video Camera`Camera_aad9f5dd-7a61-4319-88b3-b90a1214f577
+
+
+#EMBEDDED_NOTES
+#The Animator: Vehicles and Sensor Targets screen is used to define animation shapes to be used with the animator.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; Sphere
+#Library : Animator: Vehicles and Sensor Targets
+#DataSet : Sphere
+#Category: 
+#FileID  : AniVeh_d1dd965f-45cd-4f06-9b37-a7828ba5c555
+#Product : CarSim 2017.1
+#VehCode Vehicle Shape
+
+END

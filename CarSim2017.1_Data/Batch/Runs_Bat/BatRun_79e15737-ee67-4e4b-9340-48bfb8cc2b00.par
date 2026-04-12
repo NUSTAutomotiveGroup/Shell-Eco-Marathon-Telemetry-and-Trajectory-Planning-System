@@ -1,0 +1,27 @@
+PARSFILE
+#FullDataName Batch Runs`Restore, Restart, Optimize`Built-In Solvers
+#CheckBox1 0    
+
+#MiscYellow1
+#<Restore, Restart, Optimize> A. QS DLC stop @ 3s
+#<Restore, Restart, Optimize> B. QS DLC continue
+#<Restore, Restart, Optimize> S-Turn with Optimized Speed
+#<Restore, Restart, Optimize> S-Turn, Too Fast
+#<Restore, Restart, Optimize> S-Turn, Too Slow
+#<Restore, Restart, Optimize> Sine with Dwell (ECE R13H) w/ ESC (Fast)
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains the datasets which are in the Optimization: Restoring to a Previous State category
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; { Built-In Solvers } Restore, Restart, Optimize
+#Library : Batch Runs
+#DataSet : Restore, Restart, Optimize
+#Category: Built-In Solvers
+#FileID  : BatRun_79e15737-ee67-4e4b-9340-48bfb8cc2b00
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

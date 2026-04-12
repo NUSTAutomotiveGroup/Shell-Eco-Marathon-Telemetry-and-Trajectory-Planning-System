@@ -1,0 +1,47 @@
+PARSFILE
+#FullDataName Animator: Group`Lower Control Arms (Rear)`Sub Compact Susp. Parts
+#BlueLink0 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink1 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink2 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink3 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+PARSFILE Animator\Frames\Frame_3f11d2af-c0a3-42be-8667-d068bb574521.par
+#BlueLink9 Animator: Reference Frame`LR LCA` Lower Control Arms` , Miscellaneous`Frame_3f11d2af-c0a3-42be-8667-d068bb574521
+
+PARSFILE Animator\STL\Shape_4d80370e-f984-4227-ab59-d34881a6b38e.par
+#BlueLink10 Animator: Shape File Link`Lower Control Arm` Misc. Parts` , Miscellaneous`Shape_4d80370e-f984-4227-ab59-d34881a6b38e
+
+#MiscYellow0
+set_angle_z 180
+#ENDMYellow
+
+PARSFILE Animator\Frames\Frame_e43bd150-4dde-459f-ab11-ec66d7b7eb27.par
+#BlueLink11 Animator: Reference Frame`RR LCA` Lower Control Arms` , Miscellaneous`Frame_e43bd150-4dde-459f-ab11-ec66d7b7eb27
+
+PARSFILE Animator\STL\Shape_4d80370e-f984-4227-ab59-d34881a6b38e.par
+#BlueLink12 Animator: Shape File Link`Lower Control Arm` Misc. Parts` , Miscellaneous`Shape_4d80370e-f984-4227-ab59-d34881a6b38e
+
+
+#CheckBox0 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink20 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+#EMBEDDED_NOTES
+#This dataset is used by VS Visualizer to show lower control arms for the rear of a vehcle.  Although CarSim does not include linkages in the suspension, the movements can be estimated from the wheel travel.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Group; { Sub Compact Susp. Parts } Lower Control Arms (Rear)
+#Library : Animator: Group
+#DataSet : Lower Control Arms (Rear)
+#Category: Sub Compact Susp. Parts
+#FileID  : Group_2d8bb9ac-04dc-4311-a388-3f8a91439901
+#Product : CarSim 2017.1
+#VehCode Animator Group
+
+END

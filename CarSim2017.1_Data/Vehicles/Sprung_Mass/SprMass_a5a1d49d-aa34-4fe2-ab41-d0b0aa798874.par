@@ -1,0 +1,55 @@
+PARSFILE
+#FullDataName Vehicle: Sprung Mass`C-Class, Hatchback 2012`
+#VehCode Rigid sprung mass
+#RingCtrl0 0
+X_LENGTH 2910
+Y_LENGTH 1500
+iaxle 2
+iside 1
+LX_H 3850
+H_H 315
+H_CG_SU 540
+LX_AXLE 2910
+LX_CG_SU 1015
+M_SU 1270
+IXX_SU 536.6
+IYY_SU 1536.7
+IZZ_SU 1536.7
+IXZ_SU 0
+*RX 0.650
+*RY 1.100
+*RZ 1.100
+Y_CG_SU 0
+Y_H 0
+IXY_SU 0
+IYZ_SU 0
+Z_LENGTH 1610
+Y_LENGTH 1916
+*HWC_LF 325
+*HWC_RF 325
+*HWC_LR 325
+*HWC_RR 325
+
+symbol_set <<hitch_x>> -3.85
+symbol_set <<hitch_y>> 0
+symbol_set <<hitch_z>> 0.315
+H_WC 325
+iside 2
+H_WC 325
+iaxle 1
+iside 1
+H_WC 325
+iside 2
+H_WC 325
+iaxle 2
+iside 1
+
+LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; C-Class, Hatchback 2012
+#Library : Vehicle: Sprung Mass
+#DataSet : C-Class, Hatchback 2012
+#Category: 
+#FileID  : SprMass_a5a1d49d-aa34-4fe2-ab41-d0b0aa798874
+#Product : CarSim 2017.1
+#VehCode Rigid sprung mass
+
+END

@@ -1,0 +1,50 @@
+PARSFILE
+#FullDataName Positions, Velocities, and Accelerations`Upper Control Arms`Off-Road Truck Control Arms
+#RingCtrl0 0
+#RingCtrl2 2
+#RingCtrl3 2
+#RingCtrl4 1
+#RingCtrl5 1
+#RingCtrl6 1
+#RingCtrl7 1
+*N_PREVIOUS 3
+*BODY_ID_1 1
+*X_S1 0
+*Y_S1 260
+*Z_S1 550
+*BODY_ID_2 1
+*X_S2 0
+*Y_S2 -260
+*Z_S2 550
+
+ISENSOR_M 3
+DEFINE_MOTION_SENSORS 2 + ISENSOR_M -1 -NSENSOR_M
+
+OPT_S_BODY_TYPE 1
+OPT_S_OUTPUT 1
+OPT_S_BODY_ID 1
+X_S 0
+Y_S 260
+Z_S 550
+SET_DESCRIPTION MOTION_SENSOR_NAME Sensor 1: Upper Control Arms
+
+ISENSOR_M = ISENSOR_M + 1
+OPT_S_BODY_TYPE 1
+OPT_S_OUTPUT 1
+OPT_S_BODY_ID 1
+X_S 0
+Y_S -260
+Z_S 550
+SET_DESCRIPTION MOTION_SENSOR_NAME Sensor 2: Upper Control Arms
+
+MAKE_MOTION_SENSOR_OUTPUTS
+
+LOG_ENTRY Used Dataset: Positions, Velocities, and Accelerations; { Off-Road Truck Control Arms } Upper Control Arms
+#Library : Positions, Velocities, and Accelerations
+#DataSet : Upper Control Arms
+#Category: Off-Road Truck Control Arms
+#FileID  : MoSen_5986ed1f-9825-4304-8aa2-34b74da2f12a
+#Product : CarSim 2017.1
+#VehCode Motion Sensors
+
+END

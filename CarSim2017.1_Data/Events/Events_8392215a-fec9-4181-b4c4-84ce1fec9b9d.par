@@ -1,0 +1,36 @@
+PARSFILE
+#FullDataName Events`C. Write M-File`Steady-State Speed Series
+#CheckBox1 1    
+RESET_EVENTS
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl0 >
+#RingCtrl10 1
+#RingCtrl11 4
+*NAME1 T
+*NAME2 AY_REF
+*VALUE1 0
+*VALUE2 abs(ay)
+
+#MiscYellow0
+LINEARIZE "Extensions\Linearization\"+"Linear_" + VX_TARG*3.6 + "kph.m"
+#ENDMYellow
+
+DEFINE_EVENT T > 0 ; Events\Events_b8f97145-61f7-4eab-844f-483b7c167d31.par
+#BlueLink0 Events`D. Go to Next Speed` Steady-State Speed Series` , Events`Events_b8f97145-61f7-4eab-844f-483b7c167d31
+
+
+#EMBEDDED_NOTES
+#Linearize the vehicle model and write the linear system matrices (A, B, C and D) in specified text file using MATLAB M-File format.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Steady-State Speed Series } C. Write M-File
+#Library : Events
+#DataSet : C. Write M-File
+#Category: Steady-State Speed Series
+#FileID  : Events_8392215a-fec9-4181-b4c4-84ce1fec9b9d
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

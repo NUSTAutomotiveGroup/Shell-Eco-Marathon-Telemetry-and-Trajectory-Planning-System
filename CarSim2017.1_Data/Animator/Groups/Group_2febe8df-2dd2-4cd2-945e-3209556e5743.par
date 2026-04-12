@@ -1,0 +1,64 @@
+PARSFILE
+#FullDataName Animator: Group`Outriggers`
+PARSFILE Animator\Frames\Frame_7ced5dd3-0c65-417e-b4cb-6d4dfb17e9fc.par
+#BlueLink0 Animator: Reference Frame`RP1` Rollover Ref. Frames` , Miscellaneous`Frame_7ced5dd3-0c65-417e-b4cb-6d4dfb17e9fc
+
+PARSFILE Animator\STL\Shape_e757e823-70b6-4128-ab71-09539c0d6b41.par
+#BlueLink1 Animator: Shape File Link`Left Outrigger` Rollover Outrigger` , Miscellaneous`Shape_e757e823-70b6-4128-ab71-09539c0d6b41
+
+PARSFILE Animator\STL\Shape_067034b6-1db1-4d26-b4ac-056d1bf427d1.par
+#BlueLink2 Animator: Shape File Link`Outrigger Wheel` Rollover Outrigger` , Miscellaneous`Shape_067034b6-1db1-4d26-b4ac-056d1bf427d1
+
+PARSFILE Animator\Frames\Frame_0bfa7b73-472e-4e96-9193-a3ff27aa86f7.par
+#BlueLink3 Animator: Reference Frame`RP2` Rollover Ref. Frames` , Miscellaneous`Frame_0bfa7b73-472e-4e96-9193-a3ff27aa86f7
+
+PARSFILE Animator\STL\Shape_efc3b48f-086e-40d1-afba-ef02e7a19e34.par
+#BlueLink4 Animator: Shape File Link`Right Outrigger` Rollover Outrigger` , Miscellaneous`Shape_efc3b48f-086e-40d1-afba-ef02e7a19e34
+
+PARSFILE Animator\STL\Shape_067034b6-1db1-4d26-b4ac-056d1bf427d1.par
+#BlueLink5 Animator: Shape File Link`Outrigger Wheel` Rollover Outrigger` , Miscellaneous`Shape_067034b6-1db1-4d26-b4ac-056d1bf427d1
+
+PARSFILE Animator\Frames\Frame_345b9cee-4966-486b-bba4-63f7f00576d3.par
+#BlueLink6 Animator: Reference Frame`RP3` Rollover Ref. Frames` , Miscellaneous`Frame_345b9cee-4966-486b-bba4-63f7f00576d3
+
+PARSFILE Animator\STL\Shape_e757e823-70b6-4128-ab71-09539c0d6b41.par
+#BlueLink7 Animator: Shape File Link`Left Outrigger` Rollover Outrigger` , Miscellaneous`Shape_e757e823-70b6-4128-ab71-09539c0d6b41
+
+PARSFILE Animator\STL\Shape_067034b6-1db1-4d26-b4ac-056d1bf427d1.par
+#BlueLink8 Animator: Shape File Link`Outrigger Wheel` Rollover Outrigger` , Miscellaneous`Shape_067034b6-1db1-4d26-b4ac-056d1bf427d1
+
+PARSFILE Animator\Frames\Frame_7c72e448-46f4-4321-9263-92380c455385.par
+#BlueLink9 Animator: Reference Frame`RP4` Rollover Ref. Frames` , Miscellaneous`Frame_7c72e448-46f4-4321-9263-92380c455385
+
+PARSFILE Animator\STL\Shape_efc3b48f-086e-40d1-afba-ef02e7a19e34.par
+#BlueLink10 Animator: Shape File Link`Right Outrigger` Rollover Outrigger` , Miscellaneous`Shape_efc3b48f-086e-40d1-afba-ef02e7a19e34
+
+PARSFILE Animator\STL\Shape_067034b6-1db1-4d26-b4ac-056d1bf427d1.par
+#BlueLink11 Animator: Shape File Link`Outrigger Wheel` Rollover Outrigger` , Miscellaneous`Shape_067034b6-1db1-4d26-b4ac-056d1bf427d1
+
+PARSFILE Animator\GroupsMore\GroupM_dfa0bd36-eabf-4eb9-99a3-4f195ff44ddd.par
+#BlueLink13 Animator: Group (More)`Outrigger Fz Arrows` ` , Miscellaneous`GroupM_dfa0bd36-eabf-4eb9-99a3-4f195ff44ddd
+
+
+#CheckBox0 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink20 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+#EMBEDDED_NOTES
+#This dataset is intended to show outriggers as used in rollover tests. The outriggers are located using X-Y-Z coordinates of custom reference points, with the yaw-pitch-roll angles of the vehicle sprung mass.
+#
+#Fz arrows are also shown, using the Fz variables to scale the arrows.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Group; Outriggers
+#Library : Animator: Group
+#DataSet : Outriggers
+#Category: 
+#FileID  : Group_2febe8df-2dd2-4cd2-945e-3209556e5743
+#Product : CarSim 2017.1
+#VehCode Animator Group
+
+END

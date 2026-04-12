@@ -1,0 +1,62 @@
+PARSFILE
+#FullDataName Generic Data Group`Traffic, Two Lanes, Forward, Blind-Spot`Traffic and Blind-Spot Sensors
+#VehCode Generic Group
+#MiscYellow0
+N_LTARG = N_LTARG + 1
+ILTARG = N_LTARG
+ltarg_constant = -2
+#ENDMYellow
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_ef29b88b-768d-462e-8de5-f87235358f1e.par
+#BlueLink0 Multiple Moving Objects`2 Vehicles, Relative S, ILTARG` Traffic Vehicles (Forward)` , Link 1`TMotion_ef29b88b-768d-462e-8de5-f87235358f1e
+
+
+#MiscYellow1
+N_LTARG = N_LTARG + 1
+ILTARG = N_LTARG
+ltarg_constant = 2
+#ENDMYellow
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_40a3fc32-1a09-44c5-a6a7-60714de56be0.par
+#BlueLink1 Multiple Moving Objects`6 Vehicles, Speed = Vx * 1.1, ILTARG` Traffic Vehicles (Forward)` , Link 2`TMotion_40a3fc32-1a09-44c5-a6a7-60714de56be0
+
+
+#BlueLink2 ` , Link 3` , Link 3` , Link 3`
+
+
+PARSFILE Generic\Links\GenLink_f197e7b1-4953-4b69-b758-1950f96574d0.par
+#BlueLink3 Generic Group of Links`Two Blind-Spot Sensors` ADAS Combinations` , Link 4`GenLink_f197e7b1-4953-4b69-b758-1950f96574d0
+
+
+#BlueLink4 ` , Link 5` , Link 5` , Link 5`
+
+
+#BlueLink5 ` , Link 6` , Link 6` , Link 6`
+
+
+
+
+
+
+#EMBEDDED_NOTES
+#This dataset assembles some traffic vehicles in two lanes, plus two blind-spot sensors.
+#
+#The moving objects from link 1 follow lead the ego vehicle. Their positions are based on the position of the vehicle station.
+#
+#The moving objects from link 2 have speed proportional to that of the vehicle: Vx.
+#
+#The lateral positions of the moving objects are set using the LTARG function, with datasets specified with ILTARG.
+#
+#N_LTARG is the number of LTARG datasets that will be shown in the Echo file. The
+#default value is 1; it can be set to any positive number up to 100. In this example it is being used to increment the number of target paths being used and shown in the echo files.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Data Group; { Traffic and Blind-Spot Sensors } Traffic, Two Lanes, Forward, Blind-Spot
+#Library : Generic Data Group
+#DataSet : Traffic, Two Lanes, Forward, Blind-Spot
+#Category: Traffic and Blind-Spot Sensors
+#FileID  : GenGrp_ffcd4f93-25b7-4ddb-8adb-154d6c91fb08
+#Product : CarSim 2017.1
+#VehCode Generic Group
+
+END

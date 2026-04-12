@@ -1,0 +1,91 @@
+Include PARSFILE "Results\Run_7fbed9c5-d394-416e-afa2-ea9d2c1804d6\Run_all.par"
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Tire
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Sports Car
+  Delft-Tyre: ============================================
+  Delft-Tyre: 
+==                                        ==
+  Delft-Tyre: 
+==      Copyright 1996-2013               ==
+  Delft-Tyre: 
+==      TNO                               ==
+  Delft-Tyre: 
+==      P.O. Box 756                      ==
+  Delft-Tyre: 
+==      5700 AT Helmond                   ==
+  Delft-Tyre: 
+==      The Netherlands                   ==
+  Delft-Tyre: 
+==      www.delft-tyre.nl                 ==
+  Delft-Tyre: 
+==                                        ==
+  Delft-Tyre: 
+============================================
+  Delft-Tyre: 
+DELFT-TYRE MF-Tyre/MF-Swift 6.2.0.2               
+  Delft-Tyre: 
+============================================
+  Delft-Tyre:  *prop.file   : CS_car225_60R18.tir
+  Delft-Tyre:  *tyre side   : left
+  Delft-Tyre:  *contact     : smooth road
+  Delft-Tyre:  *dynamics    : steady-state
+  Delft-Tyre:  *slip forces : combined
+  Delft-Tyre: For tyre    1 the following tyre mass should be part of the wheel body
+  Delft-Tyre: 
+ mass :  9.300      kg;
+  Delft-Tyre: 
+ Iyy  : 0.7360      kgm2;
+  Delft-Tyre: 
+ Ixx  : 0.3910      kgm2;
+  Delft-Tyre: 
+ Izz  : 0.3910      kgm2;
+  Delft-Tyre: Using MBS road definition
+Used Dataset: Tire (External); { MF-Tyre/MF-Swift } 225/60 R18 (MF-Tyre 6.2, Static)
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Normalized Lateral Force vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Normalized Longitudinal Force vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Tangent of Slip Angle vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Lateral Shift of CTC vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Mz due to Fx vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Mz due to Fy and Pneumatic Trail vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Pneumatic Trail vs. Alpha
+Used Dataset: Generic VS Commands; { Miscellaneous Custom Output Variables } Derived Outputs for Tire Tester
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester } Fy vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester } Mx vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester } Mz vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Normalized Lateral Force vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Normalized Longitudinal Force vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Tangent of Slip Angle vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Lateral Shift of CTC vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Mz due to Fx vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Mz due to Fy and Pneumatic Trail vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Pneumatic Trail vs. Alpha
+Used Dataset: Tire Tester; { Sweep Alpha +/- 10 deg } Sweep Alpha: Fz = 4000 N
+Used Dataset: I/O Channels: Write; All Outputs with Tire for Excel
+ MF-Tyre Sweep Alpha (Fz = 6000N) <Tire Tester>
+Used Dataset: CarSim Run Control; { Tire Tester } MF-Tyre Sweep Alpha (Fz = 6000N)
+
+Time to read input = 0.082
+
+Run started: ERD output file = Results\Run_7fbed9c5-d394-416e-afa2-ea9d2c1804d6\LastRun.bin
+
+Run stopped at t = 2. alpha = 10 deg
+Computational efficiency: RTIME = 0.032 sec/sim. sec
+

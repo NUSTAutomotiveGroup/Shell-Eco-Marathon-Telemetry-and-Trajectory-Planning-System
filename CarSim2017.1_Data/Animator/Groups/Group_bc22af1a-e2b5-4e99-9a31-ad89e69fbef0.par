@@ -1,0 +1,34 @@
+PARSFILE
+#FullDataName Animator: Group`Sunset Sky`Skies
+PARSFILE Animator\Frames\Frame_8761c9b6-c784-4d2d-b8bc-72683578e773.par
+#BlueLink0 Animator: Reference Frame`Skybox (Vehicle Reference)` ` , Miscellaneous`Frame_8761c9b6-c784-4d2d-b8bc-72683578e773
+
+PARSFILE Animator\STL\Shape_d232aa9a-0c90-4754-8336-6d2fe8f5b26a.par
+#BlueLink1 Animator: Shape File Link`Sunset Sky` Skies` , Miscellaneous`Shape_d232aa9a-0c90-4754-8336-6d2fe8f5b26a
+
+PARSFILE Animator\STL\Shape_fc09aa05-9655-4a81-803b-eeb40fa1a9da.par
+#BlueLink2 Animator: Shape File Link`Land Bowl` Terrain` , Miscellaneous`Shape_fc09aa05-9655-4a81-803b-eeb40fa1a9da
+
+PARSFILE Animator\STL\Shape_50478149-75f0-4359-abdf-2eca4bf8b9ce.par
+#BlueLink3 Animator: Shape File Link`Mountains: Rugged` Terrain` , Miscellaneous`Shape_50478149-75f0-4359-abdf-2eca4bf8b9ce
+
+*X_REF_LENGTH 1
+*Y_REF_LENGTH 1
+*Z_REF_LENGTH 1
+
+#CheckBox0 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink20 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+LOG_ENTRY Used Dataset: Animator: Group; { Skies } Sunset Sky
+#Library : Animator: Group
+#DataSet : Sunset Sky
+#Category: Skies
+#FileID  : Group_bc22af1a-e2b5-4e99-9a31-ad89e69fbef0
+#Product : CarSim 2017.1
+#VehCode Animator Group
+
+END

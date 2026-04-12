@@ -1,0 +1,61 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`Three-wheeled Vehicle`
+*COLOR .36 .117 .117
+*OFFSET_X 0
+*OFFSET_Y 0
+*OFFSET_Z 0.32
+*X_REF_LENGTH 2025
+*Y_REF_LENGTH 1220
+*Z_REF_LENGTH 1170
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 1    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_fb26f1c2-a86b-433d-bcdd-6c55ccd0ae98.png
+PARSFILE Animator\STL\Shape_abd5a27b-3e7e-49a4-8cc3-a5b51970c380.par
+#BlueLink0 Animator: Shape File Link`Three-wheeled Vehicle: Body` CS Three-wheeled Vehicle` , Shape File`Shape_abd5a27b-3e7e-49a4-8cc3-a5b51970c380
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.32
+PARSFILE Animator\STL\Shape_73f90efe-64a6-4647-93ba-997b34b59d84.par
+#BlueLink1 Animator: Shape File Link`Three-wheeled Vehicle: Details` CS Three-wheeled Vehicle` , Shape File`Shape_73f90efe-64a6-4647-93ba-997b34b59d84
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.32
+PARSFILE Animator\STL\Shape_b68a2218-1fc7-48ad-82ef-43b8c7362cb4.par
+#BlueLink2 Animator: Shape File Link`Three-wheeled Vehicle: Front Fork` CS Three-wheeled Vehicle` , Shape File`Shape_b68a2218-1fc7-48ad-82ef-43b8c7362cb4
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.32
+PARSFILE Animator\STL\Shape_13bd3d46-ffe8-4102-99ae-02517798b652.par
+#BlueLink3 Animator: Shape File Link`Three-wheeled Vehicle: Driver` CS Three-wheeled Vehicle` , Shape File`Shape_13bd3d46-ffe8-4102-99ae-02517798b652
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.32
+x_ref_length 2025
+y_ref_length 1220
+z_ref_length 1170
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; Three-wheeled Vehicle
+#Library : Animator: Shape Assembly
+#DataSet : Three-wheeled Vehicle
+#Category: 
+#FileID  : ShpGrp_fb26f1c2-a86b-433d-bcdd-6c55ccd0ae98
+#Product : CarSim 2017.1
+#VehCode Shape Assembly
+
+END

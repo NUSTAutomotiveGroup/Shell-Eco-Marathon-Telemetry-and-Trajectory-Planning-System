@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName Models: Simulink`Base Model`
+#RunMdlFile Extensions\Simulink\Base_Model.mdl
+#RingCtrl1 2
+OPT_INT_METHOD 2
+#CheckBox0 0    
+*USE_ALT_DIR 0
+#CheckBox1 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox2 0    
+OPT_IO_UPDATE 0
+#CheckBox3 0    
+
+#MiscYellow0
+LIVE_SERVER localhost
+#ENDMYellow
+
+#BlueLink0 ` , Import` , Import` , Import`
+
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+#EMBEDDED_NOTES
+#This dataset uses a Simulink model with the CarSim S-Function2v (instead of CarSim S-Function or CarSim S-Function2), to show how live video can be enabled.
+#
+#Besides using the video S-Function, it is also necessary to use the command "LIVE_SERVER localhost" to enable live communication between the VS Solver and VS Visualizer.
+#
+#This Simulink example does not add any features to the math model. It contains only two blocks: S-Function2v and Time.
+#
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: Simulink; Base Model
+#Library : Models: Simulink
+#DataSet : Base Model
+#Category: 
+#FileID  : Simlink_1e46ce7f-2ffc-4c88-99fe-13cb4f2886cc
+#Product : CarSim 2017.1
+#VehCode 
+
+END

@@ -1,0 +1,145 @@
+PARSFILE
+#FullDataName Road: 3D Surface (All Properties)`Lusail`
+*IMAGE_TYPE DEFAULT
+#RingCtrl0 1
+#CheckBox0 0    
+
+DEFINE_ROADS 1
+IROAD = NROAD
+ROAD_ID IROAD
+CURRENT_ROAD_ID = ROAD_ID
+set_description road_id Lusail
+PARSFILE Roads\Center_XY\PathXY_9c516fea-efdf-45e3-b862-8ae0dc19716a.par
+#BlueLink0 Path: X-Y Coordinates`Lusail` ` , Reference Path`PathXY_9c516fea-efdf-45e3-b862-8ae0dc19716a
+
+ROAD_PATH_ID = PATH_ID
+
+set_description road_path_id PATH_ID for: Lusail
+PARSFILE Roads\Center_Z\RdRefZ_598f8ea7-d2f1-4e0b-a828-7b8c7dfb136e.par
+#BlueLink1 Road: Reference Line Elevation`Flat` ` , Path Elevation`RdRefZ_598f8ea7-d2f1-4e0b-a828-7b8c7dfb136e
+
+add_reference_frame road_stuff_1
+reference_frame_ghosts off
+PARSFILE Animator\Groups\Group_b4b5cf16-26f4-4ec1-ad4c-85ca7f71ceea.par
+#BlueLink6 Animator: Group`Radar Beam Pyramid` ` , 3D Shapes`Group_b4b5cf16-26f4-4ec1-ad4c-85ca7f71ceea
+
+add_reference_frame road_stuff_2
+reference_frame_ghosts off
+PARSFILE Roads\AniGroup\AniRep_13e13ec7-cea3-4a96-a6ad-d28c56008d88.par
+#BlueLink7 Road: Animator Repeated Object`Handling Course Cones` ` , 3D Shapes`AniRep_13e13ec7-cea3-4a96-a6ad-d28c56008d88
+
+add_reference_frame road_stuff_3
+reference_frame_ghosts off
+add_reference_frame road_stuff_4
+reference_frame_ghosts off
+add_reference_frame road_stuff_5
+reference_frame_ghosts off
+add_reference_frame road_stuff_6
+reference_frame_ghosts off
+parsfile Roads\3D_Road\Road_0c7a7849-1c4e-4f37-95ad-5e7448edaa26.ani
+
+add_reference_frame road_stuff_1_2
+reference_frame_ghosts off
+set_offset_var_yaw 293.21854838
+set_offset_var_x -2.71107289247
+set_offset_var_y -1.16300635069
+set_offset_var_z 0
+parsfile Animator\STL\Shape_779f3bdc-916c-4cf1-af00-e21db3ccca79.par
+
+add_reference_frame road_stuff_2_2
+reference_frame_ghosts off
+set_offset_var_yaw 113.21854838
+set_offset_var_x 6.72713680435
+set_offset_var_y 2.88583270747
+set_offset_var_z 0
+parsfile Animator\STL\Shape_779f3bdc-916c-4cf1-af00-e21db3ccca79.par
+
+add_reference_frame road_stuff_3_2
+reference_frame_ghosts off
+set_offset_var_yaw 157.64638618
+set_offset_var_x 319.582127056
+set_offset_var_y 207.600889694
+set_offset_var_z 0
+parsfile Animator\STL\Shape_779f3bdc-916c-4cf1-af00-e21db3ccca79.par
+
+add_reference_frame road_stuff_4_2
+reference_frame_ghosts off
+set_offset_var_yaw 157.64638618
+set_offset_var_x 319.77228793
+set_offset_var_y 208.063316815
+set_offset_var_z 0
+parsfile Animator\STL\Shape_779f3bdc-916c-4cf1-af00-e21db3ccca79.par
+
+add_reference_frame road_stuff_5_2
+reference_frame_ghosts off
+set_offset_var_yaw 157.64638618
+set_offset_var_x 319.962448803
+set_offset_var_y 208.525743936
+set_offset_var_z 0
+parsfile Animator\STL\Shape_779f3bdc-916c-4cf1-af00-e21db3ccca79.par
+
+add_reference_frame road_stuff_6_2
+reference_frame_ghosts off
+set_offset_var_yaw 157.64638618
+set_offset_var_x 320.152609677
+set_offset_var_y 208.988171057
+set_offset_var_z 0
+parsfile Animator\STL\Shape_779f3bdc-916c-4cf1-af00-e21db3ccca79.par
+
+add_reference_frame road_stuff_7_2
+reference_frame_ghosts off
+set_offset_var_yaw 172.978688263
+set_offset_var_x 346.811029293
+set_offset_var_y 194.561802755
+set_offset_var_z 0
+parsfile Animator\STL\Shape_779f3bdc-916c-4cf1-af00-e21db3ccca79.par
+
+add_reference_frame road_stuff_8_2
+reference_frame_ghosts off
+set_offset_var_yaw 172.978688263
+set_offset_var_x 346.872148555
+set_offset_var_y 195.058053131
+set_offset_var_z 0
+parsfile Animator\STL\Shape_779f3bdc-916c-4cf1-af00-e21db3ccca79.par
+
+add_reference_frame road_stuff_9_2
+reference_frame_ghosts off
+set_offset_var_yaw 172.978688263
+set_offset_var_x 346.933267816
+set_offset_var_y 195.554303508
+set_offset_var_z 0
+parsfile Animator\STL\Shape_779f3bdc-916c-4cf1-af00-e21db3ccca79.par
+
+add_reference_frame road_stuff_10_2
+reference_frame_ghosts off
+set_offset_var_yaw 148.762266667
+set_offset_var_x 375.445486303
+set_offset_var_y 184.082118703
+set_offset_var_z 0
+parsfile Animator\STL\Shape_779f3bdc-916c-4cf1-af00-e21db3ccca79.par
+
+add_reference_frame road_stuff_11_2
+reference_frame_ghosts off
+set_offset_var_yaw 148.762266667
+set_offset_var_x 375.704781411
+set_offset_var_y 184.509630161
+set_offset_var_z 0
+parsfile Animator\STL\Shape_779f3bdc-916c-4cf1-af00-e21db3ccca79.par
+
+add_reference_frame road_stuff_12_2
+reference_frame_ghosts off
+set_offset_var_yaw 169.086843462
+set_offset_var_x 404.791625645
+set_offset_var_y 176.788269306
+set_offset_var_z 0
+parsfile Animator\STL\Shape_779f3bdc-916c-4cf1-af00-e21db3ccca79.par
+
+LOG_ENTRY Used Dataset: Road: 3D Surface (All Properties); Lusail
+#Library : Road: 3D Surface (All Properties)
+#DataSet : Lusail
+#Category: 
+#FileID  : Road_0c7a7849-1c4e-4f37-95ad-5e7448edaa26
+#Product : CarSim 2017.1
+#VehCode 3D Road
+
+END

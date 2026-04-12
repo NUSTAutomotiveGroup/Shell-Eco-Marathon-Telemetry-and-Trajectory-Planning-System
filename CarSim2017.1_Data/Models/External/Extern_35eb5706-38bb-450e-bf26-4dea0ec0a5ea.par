@@ -1,0 +1,47 @@
+PARSFILE
+#FullDataName Models: Self-Contained Solvers`Steer Controller for VS Commands in C`Simple Steer Controller
+#RingCtrl1 2
+OPT_INT_METHOD 2
+#CheckBox0 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox1 1    
+*USE_WRAPPER 1
+#CheckBox2 1    
+OPT_IO_UPDATE 1
+#CheckBox3 0    
+
+*WRAPPER Extensions\Custom_C\solver_steer_control_2\solver_vs_cmd.exe
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+#EMBEDDED_NOTES
+#Link to an EXE that uses the vs_command API function to install VS Commands to add the steer controller.
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: Self-Contained Solvers; { Simple Steer Controller } Steer Controller for VS Commands in C
+#Library : Models: Self-Contained Solvers
+#DataSet : Steer Controller for VS Commands in C
+#Category: Simple Steer Controller
+#FileID  : Extern_35eb5706-38bb-450e-bf26-4dea0ec0a5ea
+#Product : CarSim 2017.1
+#VehCode 
+
+END

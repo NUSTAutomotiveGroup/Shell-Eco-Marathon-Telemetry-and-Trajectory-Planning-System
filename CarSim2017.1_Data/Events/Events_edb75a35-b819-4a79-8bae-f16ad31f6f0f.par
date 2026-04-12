@@ -1,0 +1,43 @@
+PARSFILE
+#FullDataName Events`2. Change Lanes`Blind Spot
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl0 >
+#RingCtrl10 1
+#RingCtrl11 4
+*NAME1 MagS1_1
+*NAME2 station
+*VALUE1 0
+*VALUE2 sstart_ltarg + 2 * sscale_ltarg
+
+PARSFILE Control\Driver\StrDM_355acd11-4e08-4d55-9be3-a8c4cdd1ed53.par
+#BlueLink10 Control: Steering by the Closed-loop Driver Model`Go to Right 1m, dS = 2m` Lane Changes` , Miscellaneous`StrDM_355acd11-4e08-4d55-9be3-a8c4cdd1ed53
+
+#MiscYellow1
+sstart_ltarg station + tprev_constant * vx
+sscale_ltarg vx * 1.5
+#ENDMYellow
+
+DEFINE_EVENT MagS1_1 > 0 ; Events\Events_9397633f-3939-4591-bb03-91a795290267.par
+#BlueLink0 Events`3. Steer Back into Left Lane` Blind Spot` , Events`Events_9397633f-3939-4591-bb03-91a795290267
+
+
+#EMBEDDED_NOTES
+#When this event occurs, the vehicle begins a lane change to the right.
+#
+#The target for the path follower is set via the parameter sstart_ltarg to start now, and the distance is scaled to the current speed.  The waveform is supposed to take two seconds without scaling.
+#
+#When a vehicle is detected entering the blind spot (MagS1_1 > 0), the next event is selected causing the vehicle to steer back into the left lane.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Blind Spot } 2. Change Lanes
+#Library : Events
+#DataSet : 2. Change Lanes
+#Category: Blind Spot
+#FileID  : Events_edb75a35-b819-4a79-8bae-f16ad31f6f0f
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

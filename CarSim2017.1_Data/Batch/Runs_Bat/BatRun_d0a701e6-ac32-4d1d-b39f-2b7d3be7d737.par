@@ -1,0 +1,32 @@
+PARSFILE
+#FullDataName Batch Runs`Handling and Stability Tests`Built-In Solvers
+#CheckBox1 0    
+
+#MiscYellow1
+#<Handling and Stability Tests> Double Lane Change, Short Prev., Low Mu
+#<Handling and Stability Tests> Double Lane Change, Tight w/o ESC
+#<Handling and Stability Tests> Fishhook Procedure: E-Class SUV
+#<Handling and Stability Tests> Fishhook Procedure: E-Class SUV w/ Roof Load
+#<Handling and Stability Tests> Parametric ESC Model, DLC (Tight)
+#<Handling and Stability Tests> Roll Stability Testing w/ Parametric ESC
+#<Handling and Stability Tests> Rollover Steer Input: Stable
+#<Handling and Stability Tests> Rollover Steer Input: Unstable
+#<Handling and Stability Tests> Sine with Dwell (ECE R13H) w/ ESC
+#<Handling and Stability Tests> Sine with Dwell (ECE R13H) w/o ESC
+#<Handling and Stability Tests> Transient Response Times
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains the datasets which are in the Handling and Stability Tests category
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; { Built-In Solvers } Handling and Stability Tests
+#Library : Batch Runs
+#DataSet : Handling and Stability Tests
+#Category: Built-In Solvers
+#FileID  : BatRun_d0a701e6-ac32-4d1d-b39f-2b7d3be7d737
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

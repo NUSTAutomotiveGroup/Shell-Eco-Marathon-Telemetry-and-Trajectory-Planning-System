@@ -1,0 +1,80 @@
+PARSFILE
+#FullDataName CarSim Run Control`Steer Controller with MATLAB, Control Gain for SWA`* CS 2017 - Multiple Simulation
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_6c7d959c-7bfb-4942-b0df-a11818f1b5c2
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Models\Local_Dir\Local_8757f6cc-62cd-481e-8257-746057b601d5.par
+#BlueLink12 Models: Transfer to Local Windows Directory`Simple Steer Control with MATLAB (32-bit)` Running from MATLAB` , Models`Local_8757f6cc-62cd-481e-8257-746057b601d5
+
+PARSFILE Animator\Cameras\Camera_6ee7b251-3362-4e47-80d3-90ca59581138.par
+#BlueLink0 Animator: Camera Setup`180 deg. Azimuth, 3 deg. El., Veh. Ref.` Vehicle Reference` , Animator camera`Camera_6ee7b251-3362-4e47-80d3-90ca59581138
+
+#CheckBox0 1    
+#CheckBox1 1    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+PARSFILE Vehicles\Assembly\Vehicle_e7198cbd-2d8b-48a3-b221-f4b4f079c185.par
+#BlueLink2 Vehicle: Assembly`B-Class, Sports Car 2017` B-Class` , Vehicle Configuration`Vehicle_e7198cbd-2d8b-48a3-b221-f4b4f079c185
+
+PARSFILE Procedures\Proc_b51258ba-42c7-4b7e-b55d-077cd21c37c6.par
+#BlueLink28 Procedures`Extended Driver Model` ` , Procedure`Proc_b51258ba-42c7-4b7e-b55d-077cd21c37c6
+
+
+SPECIAL_PARSFILE Runs\Run_6c7d959c-7bfb-4942-b0df-a11818f1b5c2.par
+#BlueLink23 CarSim Run Control`File: 2017-05-01_19.00.30.erd` ` , Overlay run or ERD file`
+
+*ERD_FILE_1 Results\Run_6c7d959c-7bfb-4942-b0df-a11818f1b5c2\2017-05-01_19.00.30.erd
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_4986d2bf-e6a5-4076-b5cc-94a288fa5a6d.png
+WRITE_SENSOR_DETECT
+Title Steer Controller with MATLAB, Control Gain for SWA <* CS 2017 - Multiple Simulation>
+CATEGORY * CS 2017 - Multiple Simulation 
+DATASET_TITLE Steer Controller with MATLAB, Control Gain for SWA
+#RingCtrl8 5
+#RingCtrl9 2017-05-01_19.00.43
+
+#EMBEDDED_NOTES
+#This example demonstrates the capability of saving sets of simulation result.
+#
+#The selection to save sets of simulation results is made using the drop-down menu below the Animator: Camera dataset on the right side of the Run Control screen. For this example, the selection is "Keep 5".
+#
+#This example is the same as Extended Models > Steer Controller with MATLAB.
+#
+#In one run, the simulation runs with Extensions\Custom_M\Steer_control.m
+#
+#In another run, Steer_control.m is edited and ran with a different SWA control gain setting (GainStr = 20, instead of 10).
+#
+#The results are plotted against each other.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { * CS 2017 - Multiple Simulation } Steer Controller with MATLAB, Control Gain for SWA
+#Library : CarSim Run Control
+#DataSet : Steer Controller with MATLAB, Control Gain for SWA
+#Category: * CS 2017 - Multiple Simulation
+#FileID  : Run_6c7d959c-7bfb-4942-b0df-a11818f1b5c2
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

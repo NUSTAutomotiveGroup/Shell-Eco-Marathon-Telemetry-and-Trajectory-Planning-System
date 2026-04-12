@@ -1,0 +1,24 @@
+PARSFILE
+#FullDataName Road: Reference Line Elevation`Flat and up by 0.1 m`
+#CheckBox0 0    
+
+#RingCtrl0 LINEAR
+#RadioCtrl0 0    
+
+#DiagramOne0
+ROAD_ZS_TABLE LINEAR
+0, 0.1
+10, 1.1
+ENDTABLE
+*SCALAR 0.1
+
+
+LOG_ENTRY Used Dataset: Road: Reference Line Elevation; Flat and up by 0.1 m
+#Library : Road: Reference Line Elevation
+#DataSet : Flat and up by 0.1 m
+#Category: 
+#FileID  : RdRefZ_442e1bc0-055d-45a9-914b-75b6674e1f84
+#Product : CarSim 2017.1
+#VehCode Zs vs S
+
+END

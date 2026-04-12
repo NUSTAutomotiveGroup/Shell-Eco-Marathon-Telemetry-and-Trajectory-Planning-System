@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Plot: Setup`Vertical Forces (Rear) vs. t_stamp`Tire Forces
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Fz_L2, t_stamp
+PLOTCHANNELS Fz_R2, t_stamp
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Vertical Forces (Rear) vs. t_stamp
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Tire Forces } Vertical Forces (Rear) vs. t_stamp
+#Library : Plot: Setup
+#DataSet : Vertical Forces (Rear) vs. t_stamp
+#Category: Tire Forces
+#FileID  : Plot_e71af593-10d4-4c0a-bead-174141e6f7e9
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

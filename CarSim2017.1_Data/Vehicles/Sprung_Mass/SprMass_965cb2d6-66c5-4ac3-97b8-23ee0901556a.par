@@ -1,0 +1,55 @@
+PARSFILE
+#FullDataName Vehicle: Sprung Mass`European Van`European Van
+#VehCode Rigid sprung mass
+#RingCtrl0 0
+X_LENGTH 2580
+Y_LENGTH 1500
+iaxle 2
+iside 1
+LX_H 3600
+H_H 350
+H_CG_SU 710
+LX_AXLE 2580
+LX_CG_SU 1350
+M_SU 1100
+IXX_SU 539.0
+IYY_SU 1859.0
+IZZ_SU 1859.0
+IXZ_SU 0
+*RX 0.700
+*RY 1.300
+*RZ 1.300
+Y_CG_SU 0
+Y_H 0
+IXY_SU 0
+IYZ_SU 0
+Z_LENGTH 1800
+Y_LENGTH 1700
+*HWC_LF 355
+*HWC_RF 355
+*HWC_LR 355
+*HWC_RR 355
+
+symbol_set <<hitch_x>> -3.6
+symbol_set <<hitch_y>> 0
+symbol_set <<hitch_z>> 0.35
+H_WC 355
+iside 2
+H_WC 355
+iaxle 1
+iside 1
+H_WC 355
+iside 2
+H_WC 355
+iaxle 2
+iside 1
+
+LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; { European Van } European Van
+#Library : Vehicle: Sprung Mass
+#DataSet : European Van
+#Category: European Van
+#FileID  : SprMass_965cb2d6-66c5-4ac3-97b8-23ee0901556a
+#Product : CarSim 2017.1
+#VehCode Rigid sprung mass
+
+END

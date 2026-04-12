@@ -1,0 +1,308 @@
+PARSFILE
+
+! EXPANDED_PARSFILE for Math models and animator
+
+! This is an expansion of the Parsfile: "Animator\Vehicles\AniVeh_17c4d7eb-7fce-43e6-89a3-fcc7919367d5.par"
+! It contains the contents of that file plus the contents of any files linked
+! with the "PARSFILE" keyword.
+
+! File created: 10:19 on March 30, 2017 by CarSim 2017.1
+
+PRODUCT_NAME CarSim
+
+ENTER_PARSFILE Animator\Vehicles\AniVeh_17c4d7eb-7fce-43e6-89a3-fcc7919367d5.par`03-30-2017`10:16:10
+#FullDataName Animator: Vehicles and Sensor Targets`E-Class, Sedan Right-Hand Drive`E-Class Vehicles
+OBJ_X_LENGTH 3048
+OBJ_Y_LENGTH 1880
+OBJ_Z_LENGTH 1480
+DZ_OBJECT 0
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+ADD_REFERENCE_FRAME object_-1
+SET_EULER_ANGLES YAW_PITCH_ROLL
+SET_OFFSET_VAR_Z 0
+ENTER_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par`03-29-2017`11:41:43
+#FullDataName Animator: Shape File Link`Blurred Tire`Tires
+add_obj Animator\3D_shape_files_CS\tires\blurred_tire\blurred_tire.obj
+SET_COLOR 1 1 1
+set_lighting on
+set_fogging on
+SET_SPECULAR 0.3 0.3 0.3
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+EXIT_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+
+SET_SCALE_X 1.2
+SET_SCALE_Y 1.2
+SET_SCALE_Z 1.2
+SET_OFFSET_X 0
+SET_OFFSET_Y 0.8125
+SET_OFFSET_Z 0.3325
+ENTER_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par`03-29-2017`11:41:43
+#FullDataName Animator: Shape File Link`Blurred Tire`Tires
+add_obj Animator\3D_shape_files_CS\tires\blurred_tire\blurred_tire.obj
+SET_COLOR 1 1 1
+set_lighting on
+set_fogging on
+SET_SPECULAR 0.3 0.3 0.3
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+EXIT_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+
+SET_SCALE_X 1.2
+SET_SCALE_Y 1.2
+SET_SCALE_Z 1.2
+SET_ANGLE_X 180
+SET_OFFSET_X 0
+SET_OFFSET_Y -0.8125
+SET_OFFSET_Z 0.3325
+ENTER_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par`03-29-2017`11:41:43
+#FullDataName Animator: Shape File Link`Blurred Tire`Tires
+add_obj Animator\3D_shape_files_CS\tires\blurred_tire\blurred_tire.obj
+SET_COLOR 1 1 1
+set_lighting on
+set_fogging on
+SET_SPECULAR 0.3 0.3 0.3
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+EXIT_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+
+SET_SCALE_X 1.2
+SET_SCALE_Y 1.2
+SET_SCALE_Z 1.2
+SET_OFFSET_X -3.048
+SET_OFFSET_Y 0.8125
+SET_OFFSET_Z 0.3325
+ENTER_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par`03-29-2017`11:41:43
+#FullDataName Animator: Shape File Link`Blurred Tire`Tires
+add_obj Animator\3D_shape_files_CS\tires\blurred_tire\blurred_tire.obj
+SET_COLOR 1 1 1
+set_lighting on
+set_fogging on
+SET_SPECULAR 0.3 0.3 0.3
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Blurred Tire
+EXIT_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+
+SET_SCALE_X 1.2
+SET_SCALE_Y 1.2
+SET_SCALE_Z 1.2
+SET_ANGLE_X 180
+SET_OFFSET_X -3.048
+SET_OFFSET_Y -0.8125
+SET_OFFSET_Z 0.3325
+DZ_OBJECT 0
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+ADD_REFERENCE_FRAME object_-1a
+SET_EULER_ANGLES YAW_PITCH_ROLL
+SET_OFFSET_VAR_Z 0
+ENTER_PARSFILE Animator\STL_Groups\ShpGrp_b99279d9-b7c6-4c87-ab29-99d4bb1febdb.par`03-30-2017`10:08:26
+#FullDataName Animator: Shape Assembly`Right Side Driver`CS E-Class
+ENTER_PARSFILE Animator\STL\Shape_46bbd8c3-972b-491b-ada8-8b076bd1780a.par`03-29-2017`11:41:43
+#FullDataName Animator: Shape File Link`European Sedan: Body`CS European Sedan
+add_obj Animator\3D_shape_files_CS\vehicles\european_sedan\body.obj
+SET_COLOR 0 0 .6
+set_lighting on
+set_fogging on
+USE_RUN_COLOR
+SET_SPECULAR 1 1 1
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Body
+EXIT_PARSFILE Animator\STL\Shape_46bbd8c3-972b-491b-ada8-8b076bd1780a.par
+
+set_lighting on
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.25
+ENTER_PARSFILE Animator\STL\Shape_7737add9-6e7b-4fff-b17e-730c0de9eb11.par`03-30-2017`10:10:20
+#FullDataName Animator: Shape File Link`European Sedan: Details  Right Side`CS European Sedan
+add_obj Animator\3D_shape_files_CS\vehicles\european_sedan\details_Right.obj
+SET_COLOR 0.753 0.753 0.753
+set_lighting on
+set_fogging on
+SET_SPECULAR 1 1 1
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Details  Right Side
+EXIT_PARSFILE Animator\STL\Shape_7737add9-6e7b-4fff-b17e-730c0de9eb11.par
+
+set_lighting on
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.25
+ENTER_PARSFILE Animator\STL\Shape_a6fdcf39-2ef6-4cd9-b8e6-ca4fb16952b9.par`03-29-2017`11:41:43
+#FullDataName Animator: Shape File Link`European Sedan: Windows`CS European Sedan
+add_obj Animator\3D_shape_files_CS\vehicles\european_sedan\windows.obj
+SET_COLOR 0 0 0
+set_lighting on
+set_fogging on
+set_transparency 0.7
+SET_SPECULAR 1 1 1
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Windows
+EXIT_PARSFILE Animator\STL\Shape_a6fdcf39-2ef6-4cd9-b8e6-ca4fb16952b9.par
+
+set_lighting on
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.25
+ENTER_PARSFILE Animator\STL\Shape_f367744a-9ee1-4faf-82c0-150d06641bff.par`03-30-2017`10:10:46
+#FullDataName Animator: Shape File Link`European Sedan: Interior Trim  Right Side`CS European Sedan
+add_obj Animator\3D_shape_files_CS\vehicles\european_sedan\interior_trim_Right.obj
+SET_COLOR 0.314 0.314 0.314
+set_lighting on
+set_fogging on
+SET_SPECULAR 0.3 0.3 0.3
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Interior Trim  Right Side
+EXIT_PARSFILE Animator\STL\Shape_f367744a-9ee1-4faf-82c0-150d06641bff.par
+
+set_lighting on
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.25
+ENTER_PARSFILE Animator\STL\Shape_f387cb46-2cf5-497a-97e8-712f893debe7.par`03-30-2017`10:11:04
+#FullDataName Animator: Shape File Link`European Sedan: Steering Wheel  Right Side`CS European Sedan
+add_obj Animator\3D_shape_files_CS\vehicles\european_sedan\steering_wheel_Right.obj
+SET_COLOR 0.878 0.878 0.878
+set_lighting on
+set_fogging on
+SET_SPECULAR 0.3 0.3 0.3
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Steering Wheel  Right Side
+EXIT_PARSFILE Animator\STL\Shape_f387cb46-2cf5-497a-97e8-712f893debe7.par
+
+set_lighting on
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.25
+ENTER_PARSFILE Animator\STL\Shape_553b0025-1973-4c33-a914-46aeb25f6ef9.par`03-29-2017`11:41:43
+#FullDataName Animator: Shape File Link`European Sedan: Seats`CS European Sedan
+add_obj Animator\3D_shape_files_CS\vehicles\european_sedan\seats.obj
+SET_COLOR 0.878 0.878 0.878
+set_lighting on
+set_fogging on
+SET_SPECULAR 0.3 0.3 0.3
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Seats
+EXIT_PARSFILE Animator\STL\Shape_553b0025-1973-4c33-a914-46aeb25f6ef9.par
+
+set_lighting on
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.25
+ENTER_PARSFILE Animator\STL\Shape_b96704e2-ae94-4240-9931-5ca0d30607ce.par`03-30-2017`10:11:20
+#FullDataName Animator: Shape File Link`European Sedan: Driver  Right Side`CS European Sedan
+add_obj Animator\3D_shape_files_CS\vehicles\european_sedan\driver\driver_Right.obj
+SET_COLOR 1 1 1
+set_lighting on
+set_fogging on
+SET_SPECULAR 0 0 0
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Driver  Right Side
+EXIT_PARSFILE Animator\STL\Shape_b96704e2-ae94-4240-9931-5ca0d30607ce.par
+
+set_lighting on
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.25
+x_ref_length 2711
+y_ref_length 1725
+z_ref_length 1400
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { CS E-Class } Right Side Driver
+EXIT_PARSFILE Animator\STL_Groups\ShpGrp_b99279d9-b7c6-4c87-ab29-99d4bb1febdb.par
+
+ENTER_PARSFILE Animator\Sound\Set\SndSet_7a16a539-6395-4fa5-9971-033e89fa67b0.par`03-29-2017`11:41:24
+#FullDataName Animator: Sound Set`Wind Noise`
+ENTER_PARSFILE Animator\Sound\Sample\SndSmp_10e59797-9993-4228-b401-95c72f722186.par`03-29-2017`11:41:24
+#FullDataName Animator: Sound Sample`Wind Noise`
+ADD_3D_SOUND Animator\Audio\Environment\Wind_1_Mono.WAV
+LOOP_SOUND on
+SOUND_AUTO_START Default
+SOUND_VOL_MULT 0.3
+SOUND_VOL_MIN 0.01
+SOUND_VOL_MAX 9.0
+SOUND_FREQ_MULT 1.0
+SOUND_FREQ_MIN 0.01
+SOUND_FREQ_MAX 9.0
+ENTER_PARSFILE Animator\Sound\Modifier\SndMod_59e0531b-dd39-45ad-ba0e-7a1d650b1244.par`03-29-2017`11:41:24
+#FullDataName Animator: Sound Modifier`Loudness: Speed Effect`Wind
+define_parameter air_speed_ref 50; km/h; Reference speed for wind audio
+define_output v_mod3 = pow(vAir/air_speed_ref, 3.0); ; Audio control, wind speed, vol
+ADD_SOUND_MODIFIER VOLUME
+SOUNDMOD_OPERATION mult
+SOUNDMOD_INPUT_NAME v_mod3
+SOUNDMOD_INPUT_MIN 0.0
+SOUNDMOD_INPUT_LOW 1.0
+SOUNDMOD_INPUT_HIGH 2.0
+SOUNDMOD_INPUT_MAX 3.0
+SOUNDMOD_OUTPUT_MIN 0.0
+SOUNDMOD_OUTPUT_LOW 1.0
+SOUNDMOD_OUTPUT_HIGH 2.0
+SOUNDMOD_OUTPUT_MAX 3.0
+WRT_v_mod3
+ANI_v_mod3
+LOG_ENTRY Used Dataset: Animator: Sound Modifier; { Wind } Loudness: Speed Effect
+EXIT_PARSFILE Animator\Sound\Modifier\SndMod_59e0531b-dd39-45ad-ba0e-7a1d650b1244.par
+
+ENTER_PARSFILE Animator\Sound\Modifier\SndMod_6c2f9d3c-2cd8-4a47-8c30-a4cac11ee2de.par`03-29-2017`11:41:24
+#FullDataName Animator: Sound Modifier`Frequency: Speed Effect`Wind
+define_output v_mod4 = pow(vAir/air_speed_ref, 0.5); ; Audio control, wind speed, freq
+ADD_SOUND_MODIFIER FREQUENCY
+SOUNDMOD_OPERATION mult
+SOUNDMOD_INPUT_NAME v_mod4
+SOUNDMOD_INPUT_MIN 0.0
+SOUNDMOD_INPUT_LOW 1.0
+SOUNDMOD_INPUT_HIGH 2.0
+SOUNDMOD_INPUT_MAX 3.0
+SOUNDMOD_OUTPUT_MIN 0.0
+SOUNDMOD_OUTPUT_LOW 0.5
+SOUNDMOD_OUTPUT_HIGH 1.0
+SOUNDMOD_OUTPUT_MAX 1.5
+WRT_v_mod4
+ANI_v_mod4
+LOG_ENTRY Used Dataset: Animator: Sound Modifier; { Wind } Frequency: Speed Effect
+EXIT_PARSFILE Animator\Sound\Modifier\SndMod_6c2f9d3c-2cd8-4a47-8c30-a4cac11ee2de.par
+
+LOG_ENTRY Used Dataset: Animator: Sound Sample; Wind Noise
+EXIT_PARSFILE Animator\Sound\Sample\SndSmp_10e59797-9993-4228-b401-95c72f722186.par
+
+LOG_ENTRY Used Dataset: Animator: Sound Set; Wind Noise
+EXIT_PARSFILE Animator\Sound\Set\SndSet_7a16a539-6395-4fa5-9971-033e89fa67b0.par
+
+WRITE_REFERENCE_FRAME_SIZE
+X_LENGTH 3048
+Y_LENGTH 1880
+Z_LENGTH 1480
+WRITE_ADD_REFERENCE_FRAME_BRAKES
+ADD_REFERENCE_FRAME object_-1b
+SET_EULER_ANGLES YAW_PITCH_ROLL
+SET_FRAME_VISIBLE_NAME 0.0
+WRT_0.0
+ANI_0.0
+ENTER_PARSFILE Animator\STL\Shape_55bd7e56-b120-47d6-931d-cf10d2f25f89.par`03-29-2017`11:41:43
+#FullDataName Animator: Shape File Link`European Sedan: Brake Lights (E-Class)`CS European Sedan
+add_obj Animator\3D_shape_files_CS\vehicles\european_sedan\brakes_on.obj
+SET_COLOR 1 .8 .8
+SET_SCALE_X 1
+SET_SCALE_Y 1.005
+SET_SCALE_Z 1
+SET_OFFSET_X -0.02
+SET_OFFSET_Y 0
+SET_OFFSET_Z 0.25
+X_REF_LENGTH 2711
+Y_REF_LENGTH 1725
+Z_REF_LENGTH 1400
+set_lighting on
+set_fogging on
+SET_SPECULAR 1 1 1
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Brake Lights (E-Class)
+EXIT_PARSFILE Animator\STL\Shape_55bd7e56-b120-47d6-931d-cf10d2f25f89.par
+
+WRITE_REFERENCE_FRAME_SIZE
+X_LENGTH 3048
+Y_LENGTH 1880
+Z_LENGTH 1480
+LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { E-Class Vehicles } E-Class, Sedan Right-Hand Drive
+EXIT_PARSFILE Animator\Vehicles\AniVeh_17c4d7eb-7fce-43e6-89a3-fcc7919367d5.par
+
+
+
+END

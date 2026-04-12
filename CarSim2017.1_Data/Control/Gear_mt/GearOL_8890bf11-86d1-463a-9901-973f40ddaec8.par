@@ -1,0 +1,26 @@
+PARSFILE
+#FullDataName Control: Shifting (Open Loop)`Low-Speed Parking`
+
+MODE_TRANS_CONSTANT 1
+#CheckBox0 0    
+
+#RingCtrl0 STEP
+#DiagramOne0
+GEAR_TRANS_TABLE STEP
+0, 0
+4, -1
+20, -1
+ENDTABLE
+#RadioCtrl0 0    
+
+
+
+LOG_ENTRY Used Dataset: Control: Shifting (Open Loop); Low-Speed Parking
+#Library : Control: Shifting (Open Loop)
+#DataSet : Low-Speed Parking
+#Category: 
+#FileID  : GearOL_8890bf11-86d1-463a-9901-973f40ddaec8
+#Product : CarSim 2017.1
+#VehCode Open-Loop Shift Control
+
+END

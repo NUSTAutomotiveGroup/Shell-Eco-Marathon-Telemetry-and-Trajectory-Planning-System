@@ -1,0 +1,49 @@
+PARSFILE
+#FullDataName Animator: Vehicles and Sensor Targets`EVT`
+
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox6 0    
+#CheckBox7 0    
+
+OBJ_X_LENGTH 1000
+OBJ_Y_LENGTH 1600
+OBJ_Z_LENGTH 1350
+*DZ_V 0
+*LAT_WC 1250
+*LAT_WC_2 1250
+*HWC 200
+*WHEEL_RATIO 0.75
+*LAXLE_1 -1200
+*LAXLE_2 -200
+*IMAGE_FIT_MODE 1
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\Vehicles\AniVeh_0c49bee3-15ec-4eab-8a87-840a5d4ac707.png
+DZ_OBJECT 0
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+PARSFILE Animator\STL\Shape_ce3abe70-3bce-40ee-a8a1-ee77ba0941f9.par
+#BlueLink1 Animator: Shape File Link`EVT` AEB Testing` , Vehicle Body`Shape_ce3abe70-3bce-40ee-a8a1-ee77ba0941f9
+
+WRITE_REFERENCE_FRAME_SIZE
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink5 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+#EMBEDDED_NOTES
+#The Animator: Vehicles and Sensor Targets screen is used to define animation shapes to be used with the animator.
+#
+#This shape is uses *.OSG files and may only be viewed with the VS Visualizer.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; EVT
+#Library : Animator: Vehicles and Sensor Targets
+#DataSet : EVT
+#Category: 
+#FileID  : AniVeh_0c49bee3-15ec-4eab-8a87-840a5d4ac707
+#Product : CarSim 2017.1
+#VehCode Vehicle Shape
+
+END

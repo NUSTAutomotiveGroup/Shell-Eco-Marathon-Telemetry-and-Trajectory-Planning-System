@@ -1,0 +1,35 @@
+PARSFILE
+#FullDataName Control: Steering by the Closed-loop Driver Model`Driver Over-reacts`Driver Errors
+#CheckBox0 1    
+OPT_DRIVER_MODEL 2
+#CheckBox1 0    
+CREATE_PATH_OBJ off
+#CheckBox2 0    
+
+#RingCtrl0 0
+#RingCtrl1 CONSTANT
+LTARG_CONSTANT 2
+#RadioCtrl0 0    
+
+AV_SW_MAX_DM 1200
+TLAG_DM 0
+A_SW_MAX_DM 650
+*TPREV 0.1
+*SCALAR 2
+VLOW_DRIVER 10
+
+TPREV_CONSTANT 0.1
+
+#EMBEDDED_NOTES
+#The preview time is set here to 0.1 sec, defining a closed-loop steering that is probably too agressive for most scenarios, especially if the vehicle is not already following the target lateral offset of 2.0 m.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Control: Steering by the Closed-loop Driver Model; { Driver Errors } Driver Over-reacts
+#Library : Control: Steering by the Closed-loop Driver Model
+#DataSet : Driver Over-reacts
+#Category: Driver Errors
+#FileID  : StrDM_271a8b16-eb16-40c0-9466-d362ae61ef9e
+#Product : CarSim 2017.1
+#VehCode Driver Path Follower
+
+END

@@ -1,0 +1,30 @@
+PARSFILE
+#FullDataName Events`999: End`Restoring to a Previous State
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 1    
+#CheckBox7 0    
+
+#RingCtrl10 0
+#RingCtrl11 4
+
+OPT_INIT_CONFIG 0
+OPT_INIT_PATH 0
+OPT_INIT_SPEED 0
+#MiscYellow0
+stop_run_now Failed to find point
+#ENDMYellow
+
+
+LOG_ENTRY Used Dataset: Events; { Restoring to a Previous State } 999: End
+#Library : Events
+#DataSet : 999: End
+#Category: Restoring to a Previous State
+#FileID  : Events_cc050d0f-dde2-4587-b08b-2cffbcd6d8ea
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

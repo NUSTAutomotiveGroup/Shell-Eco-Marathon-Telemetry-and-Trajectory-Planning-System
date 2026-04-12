@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Batch Runs`External Steering Models (Requires Simulink)`* 2017: New Examples
+#CheckBox1 0    
+
+#MiscYellow1
+#<* CS 2017 - External Steering Models> * 2017 * Closed Loop: Replace Tie Rod / Steer Arm Kinematics (2D)
+#<* CS 2017 - External Steering Models> * 2017 * Closed Loop: Replace Tie Rod / Steer Arm Kinematics (Base)
+#<* CS 2017 - External Steering Models> Closed Loop: Full Internal Model
+#<* CS 2017 - External Steering Models> Closed Loop: Replace Entire System
+#<* CS 2017 - External Steering Models> Closed Loop: Replace Entire System (Simulink)
+#<* CS 2017 - External Steering Models> Closed Loop: Replace Rack and Pinion Only
+#<* CS 2017 - External Steering Models> Closed Loop: Replace Rack and Pinion Only (Simulink)
+#<* CS 2017 - External Steering Models> Closed Loop: Retain TieRod / Steer Arm Kinem. (Simulink)
+#<* CS 2017 - External Steering Models> Closed Loop: Retain TieRod / Steer Arm Kinematics
+#<* CS 2017 - External Steering Models> Open Loop: Full Internal Model
+#<* CS 2017 - External Steering Models> Open Loop: Replace Entire System
+#<* CS 2017 - External Steering Models> Open Loop: Replace Entire System (Simulink)
+#<* CS 2017 - External Steering Models> Open Loop: Replace Rack and Pinion Only
+#<* CS 2017 - External Steering Models> Open Loop: Retain TieRod / Steer Arm Kinem. (Simulink)
+#<* CS 2017 - External Steering Models> Open Loop: Retain TieRod / Steer Arm Kinematics
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains the datasets which illustrate the new modular steering system model by replacing parts (or all) of the steering system.
+#
+#NOTE: Some of the runs in this category require Simulink.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; { * 2017: New Examples } External Steering Models (Requires Simulink)
+#Library : Batch Runs
+#DataSet : External Steering Models (Requires Simulink)
+#Category: * 2017: New Examples
+#FileID  : BatRun_1abe33a4-9e08-4daa-b0fa-a5c863592838
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

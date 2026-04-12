@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName Events`1. Drive Straight`Blind Spot
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl0 >=
+#RingCtrl10 1
+#RingCtrl11 2
+*NAME1 T
+*VALUE1 1
+*SPEED 65
+
+INSTALL_DRIVER_SPEED_CONTROLLER 2014
+Opt_SC 2
+PARSFILE Control\Speed_t\SpdTime_2af476a0-e2e5-4dc6-a36f-26c086ff7712.par
+#BlueLink16 Control: Speed (Closed Loop) Using Target Speed`60 km/h` Constant Speed` , Speed vs. time`SpdTime_2af476a0-e2e5-4dc6-a36f-26c086ff7712
+
+PARSFILE Control\Driver\StrDM_0635dd7f-a0be-4ce1-9d82-ae6ba5f0680e.par
+#BlueLink10 Control: Steering by the Closed-loop Driver Model`1 m Left, 0.5 sec. Preview` Constant Position` , Miscellaneous`StrDM_0635dd7f-a0be-4ce1-9d82-ae6ba5f0680e
+
+DEFINE_EVENT T >= 1 ; Events\Events_edb75a35-b819-4a79-8bae-f16ad31f6f0f.par
+#BlueLink0 Events`2. Change Lanes` Blind Spot` , Events`Events_edb75a35-b819-4a79-8bae-f16ad31f6f0f
+
+
+#EMBEDDED_NOTES
+#This dataset defines the basic condition of driving in the left lane.
+#
+#Speed is set to 60 km/h and the target position is 1.0 m, scaled by the lane center location lane_ctr.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Blind Spot } 1. Drive Straight
+#Library : Events
+#DataSet : 1. Drive Straight
+#Category: Blind Spot
+#FileID  : Events_2be4da07-baeb-487f-9e42-93e4e0664cdd
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

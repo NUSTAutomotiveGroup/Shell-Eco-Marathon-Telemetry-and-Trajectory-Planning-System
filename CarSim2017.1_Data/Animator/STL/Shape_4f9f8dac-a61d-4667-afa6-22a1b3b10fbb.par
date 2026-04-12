@@ -1,0 +1,34 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Large European Van: Front Windows`CS European Van
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\vehicles\Large_Euro_van\EuropeanVan_FrontWindows.obj
+#ENDMYellow
+
+SET_COLOR 0 0 0
+*SPECULAR 1
+*TRANSPARENCY 0.5
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+set_transparency 0.5
+SET_SPECULAR 1 1 1
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_4f9f8dac-a61d-4667-afa6-22a1b3b10fbb.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS European Van } Large European Van: Front Windows
+#Library : Animator: Shape File Link
+#DataSet : Large European Van: Front Windows
+#Category: CS European Van
+#FileID  : Shape_4f9f8dac-a61d-4667-afa6-22a1b3b10fbb
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

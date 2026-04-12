@@ -1,0 +1,61 @@
+PARSFILE
+#FullDataName Vehicle: Sprung Mass`Pickup, Full Size, Super Cab, 5.5 ft Bed: Lifted`Pickup, Full Size
+#VehCode Rigid sprung mass
+#RingCtrl0 0
+X_LENGTH 3500
+Y_LENGTH 1500
+iaxle 2
+iside 1
+LX_H 4890
+H_H 350
+H_CG_SU 797
+LX_AXLE 3500
+LX_CG_SU 1400
+M_SU 1998
+IXX_SU 846.6
+IYY_SU 5757
+IZZ_SU 5757
+IXZ_SU 0
+*RX 0.651
+*RY 1.697
+*RZ 1.697
+Y_CG_SU 0
+Y_H 0
+IXY_SU 0
+IYZ_SU 0
+Z_LENGTH 1935
+Y_LENGTH 1700
+*HWC_LF 200
+*HWC_RF 200
+*HWC_LR 200
+*HWC_RR 200
+
+symbol_set <<hitch_x>> -4.89
+symbol_set <<hitch_y>> 0
+symbol_set <<hitch_z>> 0.35
+H_WC 200
+iside 2
+H_WC 200
+iaxle 1
+iside 1
+H_WC 200
+iside 2
+H_WC 200
+iaxle 2
+iside 1
+
+#EMBEDDED_NOTES
+#This sprung mass, Pickup, Full Size: Sprung Mass Lifted, is an example of a vehicle that has been raised by altering the wheel center location.
+#
+#The sprung mass properties are identical to the example Pickup, Full Size Sprung Mass.  The only difference is the wheel centers have been moved CLOSER to the sprung mass cordinate system.  The ground is defined by the contact patch of the tires.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; { Pickup, Full Size } Pickup, Full Size, Super Cab, 5.5 ft Bed: Lifted
+#Library : Vehicle: Sprung Mass
+#DataSet : Pickup, Full Size, Super Cab, 5.5 ft Bed: Lifted
+#Category: Pickup, Full Size
+#FileID  : SprMass_9a156b56-0776-4f89-a377-db33cee816f9
+#Product : CarSim 2017.1
+#VehCode Rigid sprung mass
+
+END

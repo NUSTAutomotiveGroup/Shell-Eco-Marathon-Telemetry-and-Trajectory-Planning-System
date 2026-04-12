@@ -1,0 +1,23 @@
+PARSFILE
+#FullDataName Batch Runs`Engine Torque Control`* 2017: New Examples
+#CheckBox1 0    
+
+#MiscYellow1
+#<* CS 2017 - Engine Torque Control> No Control: Low Mu Acceleration
+#<* CS 2017 - Engine Torque Control> TCS: Low Mu Acceleration
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains the datasets which illustrate the new engine torque control features.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; { * 2017: New Examples } Engine Torque Control
+#Library : Batch Runs
+#DataSet : Engine Torque Control
+#Category: * 2017: New Examples
+#FileID  : BatRun_b990196b-83ef-4cf5-852c-77bf62aa976a
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

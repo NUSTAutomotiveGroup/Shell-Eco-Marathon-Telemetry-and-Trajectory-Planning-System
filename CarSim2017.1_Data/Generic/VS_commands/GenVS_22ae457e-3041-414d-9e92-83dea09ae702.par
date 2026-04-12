@@ -1,0 +1,49 @@
+PARSFILE
+#FullDataName Generic VS Commands`Mcity: FCW Booleans and HUD Alert`ADAS Support
+#VehCode VS Commands, FCW
+*MODELCODE VS Commands, FCW
+
+#MiscYellow0
+! Units for acceleration are m/s2 to match Euro NCAP specifications
+DEFINE_PARAMETER Ax_Alert = 3 ;m/s2; Deceleration level to show FCW alert
+
+! Ax_Calc is needed for avoid collision, given relative speed and distance from sensor
+DEFINE_OUTPUT Ax_Calc = MagS<<s>>_1*SpdS<<s>>_1^2/(2*DisS<<s>>_1); m/s2 ; ...
+   Decel needed to avoid collision
+
+! Compare Ax_Calc and Ax_Alert
+DEFINE_OUTPUT Show_FCW = 0; - ;  Boolean: show FCW icon
+EQ_OUT Show_FCW = AND(MagS<<s>>_1,  AND(LT(SpdS<<s>>_1, 0), GT(Ax_Calc, Ax_Alert)))
+#ENDMYellow
+
+PARSFILE Animator\HUD\HUD_44a95a71-616c-4e45-af02-d45d04a038cf.par
+#BlueLink0 Animator: HUD`FCW Alert (small)` ADAS Alerts` , Miscellaneous`HUD_44a95a71-616c-4e45-af02-d45d04a038cf
+
+PARSFILE Generic\Links\GenLink_2faddf99-43fe-4dd4-b204-8afdc0dd4832.par
+#BlueLink1 Generic Group of Links`Mcity: EVT, Sensor, FCW and AEB Commands` ` , Miscellaneous`GenLink_2faddf99-43fe-4dd4-b204-8afdc0dd4832
+
+PARSFILE Plot\Setup\Plot_7dadda40-7138-4c4d-bc66-73caadcece25.par
+#BlueLink3 Plot: Setup`Euro NCAP: Ax_Calc for AEB` ADAS` , Plot`Plot_7dadda40-7138-4c4d-bc66-73caadcece25
+
+PARSFILE Plot\Setup\Plot_06150ef4-15e0-4019-ba8d-3cb46f38fa95.par
+#BlueLink4 Plot: Setup`Euro NCAP: AEB Booleans` ADAS` , Plot`Plot_06150ef4-15e0-4019-ba8d-3cb46f38fa95
+
+
+#EMBEDDED_NOTES
+#Logic to generate a forward collision warning (FCW) using the current sensor <<s>> and a parameter for the acceptable deceleration.
+#
+#The output Ax_Calc is an estimate of the deceleration needed to avoid a collision, based on sensor Distance and Speed detection signals.
+#
+#Ax_Calc is compared to the threshold parameter Ax_Alert to set a Boolean parameter Show_FCW, which is linked to an HUD icon.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { ADAS Support } Mcity: FCW Booleans and HUD Alert
+#Library : Generic VS Commands
+#DataSet : Mcity: FCW Booleans and HUD Alert
+#Category: ADAS Support
+#FileID  : GenVS_22ae457e-3041-414d-9e92-83dea09ae702
+#Product : CarSim 2017.1
+#VehCode VS Commands, FCW
+
+END

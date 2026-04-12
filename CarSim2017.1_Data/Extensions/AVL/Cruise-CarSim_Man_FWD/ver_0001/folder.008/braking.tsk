@@ -1,0 +1,96 @@
+$======================================================================
+$ Applikation: Project Data
+$ Objekt:      Task Folder
+$ erstellt am: May 2, 2011 - Uhrzeit: 3:17:13 pm
+$-----------------------------------------------------BREMSEN
+[BREMSEN]
+#BERM_ID                  = 
+#BERM_ENTW_DATUM          = "Jan 15, 2005 18:21:41 tt"
+IDX                       = 1
+BERECHNEN                 = 2
+BREMSEN_ID                = 
+BREMSEN_ENTW_DATUM        = "Jan 14, 2005 10:07:28 tt"
+DATENSATZ_VERANTWORTLICHER = 'Cruise Team'
+DB_USER                   = ''
+SEC_ID                    = 
+BEMERKUNG                 = 'Manual FWD'
+IDENTIF_ATTR1             = ''
+IDENTIF_ATTR2             = ''
+IDENTIF_ATTR3             = ''
+#BREMSEN_ID               = 
+#BREMSEN_ENTW_DATUM       = "Jan 14, 2005 10:07:28 tt"
+NAME                      = 'Brake 100-0 without Slip'
+TPL_AUSGABE               = 2
+PPD_AUSGABE               = 2
+MS_AUSGABE                = 1
+MS_AUSGABE_OPTION         = 1
+MS_AUSGABE_SCHRITTE       = 
+WARMSTARTAUSWAHL          = 2
+FAHRWIDERSTAND            = 1
+SIM_QUAS                  = 1
+KURVENFAHRT               = 1
+RADSCHLUPF                = 1
+GANGWAHL                  = 2
+STEUER_PROG               = 1
+STARTGESCHWINDIGKEIT <km/h> = 100.0
+BREMSPEDALKRAFT <N>       = 80.0
+RETARDERSTELLUNG          = 0
+GANG_MIT_OHNE             = 1
+STARTGANG                 = 4
+FAHRERNAME                = 'Standard'
+STRECKENNAME              = 'Standard'
+MESS_V_AKTIV              = 2
+MESS_S_AKTIV              = 2
+MESS_T_AKTIV              = 2
+BELADUNG_LEER             = 1
+ZUSATZBELADUNGSSCHALTER   = 1
+ZUSATZLADUNG <kg>         = 100.0
+BELADUNG_HALB             = 1
+ZUSATZLADUNG_REL <%>      = 0.0
+BELADUNG_VOLL             = 2
+BELADUNG_ANHAENGER        = 1
+STR_ID                    = 
+STR_ENTW_DATUM            = "Jan 14, 2005 10:07:30 tt"
+FAH_ID                    = 
+FAH_ENTW_DATUM            = "Jan 14, 2005 10:07:31 tt"
+WAY_FILE = 'ways\Standard_8.way'
+DRV_FILE = 'drivers\Standard_6.drv'
+$-----------------------------------Velocity Measuring Points
+(MESSPUNKTE_V_BREM)
+#BREMSEN_ID               = 
+#BREMSEN_ENTW_DATUM       = "Jan 14, 2005 10:07:28 tt"
+GR_NAME_UNABH1            = 67
+GR_EINH_UNABH1            = 'km/h'
+GR_NAME_UNABH2            = 30
+GR_EINH_UNABH2            = 'km/h'
+GR_NAME_UNABH3            = 63
+GR_EINH_UNABH3            = 'km/h'
+TP_ID                     = 
+{ GR_WERT_UNABH1 GR_WERT_UNABH2 GR_WERT_UNABH3 }
+  100.0          0.0            10.0           
+$-----------------------------------Distance Measuring Points
+(MESSPUNKTE_WEG_BREM)
+#BREMSEN_ID               = 
+#BREMSEN_ENTW_DATUM       = "Jan 14, 2005 10:07:28 tt"
+GR_NAME_UNABH1            = 67
+GR_EINH_UNABH1            = 'm'
+GR_NAME_UNABH2            = 30
+GR_EINH_UNABH2            = 'm'
+GR_NAME_UNABH3            = 63
+GR_EINH_UNABH3            = 'm'
+TP_ID                     = 
+{ GR_WERT_UNABH1 GR_WERT_UNABH2 GR_WERT_UNABH3 }
+  0.0            100.0          10.0           
+$---------------------------------------Time Measuring Points
+(MESSPUNKTE_ZEIT_BREM)
+#BREMSEN_ID               = 
+#BREMSEN_ENTW_DATUM       = "Jan 14, 2005 10:07:28 tt"
+GR_NAME_UNABH1            = 67
+GR_EINH_UNABH1            = 's'
+GR_NAME_UNABH2            = 30
+GR_EINH_UNABH2            = 's'
+GR_NAME_UNABH3            = 63
+GR_EINH_UNABH3            = 's'
+TP_ID                     = 
+{ GR_WERT_UNABH1 GR_WERT_UNABH2 GR_WERT_UNABH3 }
+  0.0            10.0           1.0            

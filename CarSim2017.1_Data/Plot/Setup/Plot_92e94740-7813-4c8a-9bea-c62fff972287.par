@@ -1,0 +1,51 @@
+PARSFILE
+#FullDataName Plot: Setup`Road ID for Tires`Tracking
+
+ADD_ENTITY Plot
+
+#BlueLink1 ` , Discontinued` , Discontinued` , Discontinued`
+
+#BlueLink2 CarSim Run Control`Roundabout (3D, 36 m), C-Class, Traffic` Road Networks: Intersections and Roundabouts` , example run`Run_bbc9ee7c-77d7-44f1-a3f6-8efd7e8cc99e
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+*README_FILE Results\Run_bbc9ee7c-77d7-44f1-a3f6-8efd7e8cc99e\Run_out_tab.txt
+
+#MiscYellow0
+PLOTCHANNELS RdID_L1, Time
+PLOTCHANNELS RdID_L2, Time
+PLOTCHANNELS RdID_R1, Time
+PLOTCHANNELS RdID_R2, Time
+PLOTCHANNELS RdID_L3, Time
+PLOTCHANNELS RdID_L3, Time
+PLOTCHANNELS RdID_R4, Time
+PLOTCHANNELS RdID_R4, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl4 0
+#RingCtrl6 1
+#RingCtrl8 1
+
+
+PTITLE Road ID for Tires
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Tracking } Road ID for Tires
+#Library : Plot: Setup
+#DataSet : Road ID for Tires
+#Category: Tracking
+#FileID  : Plot_92e94740-7813-4c8a-9bea-c62fff972287
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

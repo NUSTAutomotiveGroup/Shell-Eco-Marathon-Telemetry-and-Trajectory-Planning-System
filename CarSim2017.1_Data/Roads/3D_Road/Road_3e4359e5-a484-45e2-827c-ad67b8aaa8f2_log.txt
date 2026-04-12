@@ -1,0 +1,336 @@
+Include PARSFILE "Roads\3D_Road\Road_3e4359e5-a484-45e2-827c-ad67b8aaa8f2.par"
+Include PARSFILE "Roads\BuilderSegment\RoadSeg_299f5dd8-31b0-44f2-9251-eaaf215df33c.par"
+ Straight East <Straight>
+Used Dataset: Path: Segment Builder; { Straight } Straight East
+Include PARSFILE "Roads\Friction\RdMu_76157e0a-7f92-4d03-8249-7715bd43a5ba.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Constant } Constant: 0.9
+Include PARSFILE "Roads\Shapes\RdShape_8e6b6769-1ac6-4496-945d-5408acbbfa7e.par"
+Used Dataset: Road: Animator Surface Shapes; { Roads } 1200 m Road + 200 m Light Grass (One Lane)
+Include PARSFILE "Animator\Groups\Group_4ccae742-4649-427a-8871-7b3629a730a2.par"
+Include PARSFILE "Animator\Frames\Frame_8761c9b6-c784-4d2d-b8bc-72683578e773.par"
+Used Dataset: Animator: Reference Frame; Skybox (Vehicle Reference)
+Include PARSFILE "Animator\STL\Shape_6d5f4980-0cdc-4aa2-841c-f127e1b02f97.par"
+Used Dataset: Animator: Shape File Link; { Skies } Partly Cloudy Sky
+Include PARSFILE "Animator\STL\Shape_8747e07e-81f8-4899-bd41-ca6921d43beb.par"
+Used Dataset: Animator: Shape File Link; { Terrain } Complex Land Bowl for Light Grass
+Used Dataset: Animator: Group; { Skies } Partly Cloudy Sky
+Include PARSFILE "Roads\AniGroup\AniRep_9f183af5-f00f-4cf5-b63e-31f5c89e5c65.par"
+Used Dataset: Road: Animator Repeated Object; { Trees } Trees (0, 500)
+Include PARSFILE "Roads\3D_Road\Road_3e4359e5-a484-45e2-827c-ad67b8aaa8f2.ani"
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Include PARSFILE "Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par"
+Include PARSFILE "Animator\STL\Shape_c332e104-9569-468b-8def-bef049d6ca43.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree
+Include PARSFILE "Animator\STL\Shape_9b7debe4-4a8f-43b6-9bad-c0676520c423.par"
+Used Dataset: Animator: Shape File Link; { Trees } Tree, 90
+Include PARSFILE "Animator\STL\Shape_40bdff8c-9b9c-4e58-9b95-551ce4b5a927.par"
+Used Dataset: Animator: Shape File Link; { Trees } Mulch (Standard)
+Include PARSFILE "Animator\STL\Shape_3f97bf15-045d-44c9-8f68-d5206c38d5eb.par"
+Used Dataset: Animator: Shape File Link; { Shadows (Legacy) } Tree Shadow (Standard)
+Used Dataset: Animator: Shape Assembly; { Scenery } Tree
+Used Dataset: Road: 3D Surface (All Properties); { Straight } 1200 m, One Lane, Mu = 0.9
+
+Time to read input = 0.008
+
+Run stopped at t = 0. Stop time reached.
+
+Run started: ERD output file = Roads\3D_Road\Road_3e4359e5-a484-45e2-827c-ad67b8aaa8f2.bin

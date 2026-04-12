@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Control: Speed (Closed Loop) vs. Station (Legacy)`Entry and Exit Speeds`
+#CheckBox2 1    
+#CheckBox3 0    
+#MiscYellow0
+ispeed = 1
+n_speed_target 2
+SPEED_TARGET_COMBINE(2) ADD
+speed_target_s_constant(2) = 25 ; km/h
+#ENDMYellow
+
+#RingCtrl0 LINEAR_FLAT
+#RadioCtrl0 0    
+
+SPEED_TARGET_COMBINE ADD
+SPEED_TARGET_CONSTANT 0
+#DiagramOne0
+SPEED_TARGET_S_TABLE LINEAR_FLAT
+0, 80
+60, 30
+90, 30
+150, 80
+ENDTABLE
+
+#EMBEDDED_NOTES
+#This dataset defines two SPEED_TARGET datasets. ISPEED = 1 is this table, ISPEED = 2 is the constant.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Control: Speed (Closed Loop) vs. Station (Legacy); Entry and Exit Speeds
+#Library : Control: Speed (Closed Loop) vs. Station (Legacy)
+#DataSet : Entry and Exit Speeds
+#Category: 
+#FileID  : SpdSta_130bda30-29b8-4ec0-842c-4a8bda56281d
+#Product : CarSim 2017.1
+#VehCode Speed vs. Station
+
+END

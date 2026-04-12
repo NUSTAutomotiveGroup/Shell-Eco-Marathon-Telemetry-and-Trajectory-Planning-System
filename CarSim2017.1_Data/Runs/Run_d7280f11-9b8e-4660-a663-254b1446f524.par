@@ -1,0 +1,74 @@
+PARSFILE
+#FullDataName CarSim Run Control`Payload: SUV w/ 7 Passengers`Alternate Vehicle Data Measurement
+#VEHICLECODE Ind_SA
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_d7280f11-9b8e-4660-a663-254b1446f524
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_5feacfa5-2cee-4705-8aee-f5baa805e553.par
+#BlueLink0 Animator: Camera Setup`FL View, Road Ref. (Rr. Facing)` Road Reference` , Animator camera`Camera_5feacfa5-2cee-4705-8aee-f5baa805e553
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0 0.2 1
+SET_RUN_COLOR 0 0.2 1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_a702c92f-6b5d-4f85-9466-badc4fb02bdf.par
+#BlueLink2 Vehicle with Loads, Sensors, Trailer, etc.`SUV, Full Size w/ 7 Passengers` ` , Vehicle Configuration`VehLoad_a702c92f-6b5d-4f85-9466-badc4fb02bdf
+
+PARSFILE Procedures\Proc_5a89142f-1f49-4856-b138-d0b22d42c412.par
+#BlueLink28 Procedures`Bounce Sine Sweep Test` Ride Tests` , Procedure`Proc_5a89142f-1f49-4856-b138-d0b22d42c412
+
+*TSTOP 10
+*TSTART -3.6
+*SSTART -100
+*SSTOP 210
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_2f0a8c58-5dfb-4a19-801d-de2b07aa0ec3.png
+WRITE_SENSOR_DETECT
+Title Payload: SUV w/ 7 Passengers <Alternate Vehicle Data Measurement>
+CATEGORY Alternate Vehicle Data Measurement 
+DATASET_TITLE Payload: SUV w/ 7 Passengers
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#CarSim can support up to 99 payloads in a vehicle. Previous versions of CarSim only supported up to 4 payloads per vehicle unit sprung mass (i.e., 4 for the car, 4 for the trailer).
+#
+#This example demonstrates how to add 7 payloads attached to the vehicle sprung mass.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Alternate Vehicle Data Measurement } Payload: SUV w/ 7 Passengers
+#Library : CarSim Run Control
+#DataSet : Payload: SUV w/ 7 Passengers
+#Category: Alternate Vehicle Data Measurement
+#FileID  : Run_d7280f11-9b8e-4660-a663-254b1446f524
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

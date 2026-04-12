@@ -1,0 +1,30 @@
+PARSFILE
+#FullDataName Models: Simulink`New Simulink with No Connections`
+#RunMdlFile no_connections.mdl
+#RingCtrl1 2
+OPT_INT_METHOD 2
+#CheckBox0 0    
+*USE_ALT_DIR 0
+#CheckBox1 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox2 0    
+OPT_IO_UPDATE 0
+#CheckBox3 0    
+
+PARSFILE IO_Channels\I_Channels\Import_798db140-cf5b-404a-bd73-77fbcd88ca7a.par
+#BlueLink0 I/O Channels: Import`Throttle #1` ` , Import`Import_798db140-cf5b-404a-bd73-77fbcd88ca7a
+
+PARSFILE IO_Channels\O_Channels\Export_c20165cd-2792-4924-af8f-d627de0f000d.par
+#BlueLink1 I/O Channels: Export`speed` ` , Export`Export_c20165cd-2792-4924-af8f-d627de0f000d
+
+LIVE_SERVER_UPDATE_FREQ_MAX 30
+
+LOG_ENTRY Used Dataset: Models: Simulink; New Simulink with No Connections
+#Library : Models: Simulink
+#DataSet : New Simulink with No Connections
+#Category: 
+#FileID  : Simlink_d891ba6b-8c8b-4af5-b9c8-0aaa125a984c
+#Product : CarSim 2017.1
+#VehCode 
+
+END

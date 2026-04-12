@@ -1,0 +1,77 @@
+PARSFILE
+#FullDataName Powertrain: Transmission (18 Gears or CVT)`6-Speed Manual`
+#RingCtrl0 6
+NGEARS 6
+#RingCtrl1 1
+OPT_SHIFT_INTERNAL 1
+#RingCtrl2 1
+OPT_TR_GEAR_INTERNAL 1
+#CheckBox0 0    
+R_GEAR_TR_REVERSE -3.168
+R_GEAR_TR(1) 3.538
+R_GEAR_TR(2) 2.06
+R_GEAR_TR(3) 1.404
+R_GEAR_TR(4) 1.00
+R_GEAR_TR(5) 0.713
+R_GEAR_TR(6) 0.582
+ITR_REVERSE 0.034
+ITR_NEUTRAL 0.034
+ITR(1) 0.037
+ITR(2) 0.034
+ITR(3) 0.042
+ITR(4) 0.04
+ITR(5) 0.04
+ITR(6) 0.04
+R_EFF_TR_F_REVERSE 0.9
+R_EFF_TR_F(1) 0.92
+R_EFF_TR_F(2) 0.92
+R_EFF_TR_F(3) 0.95
+R_EFF_TR_F(4) 0.95
+R_EFF_TR_F(5) 0.98
+R_EFF_TR_F(6) 0.99
+R_EFF_TR_R_REVERSE 0.9
+R_EFF_TR_R(1) 0.92
+R_EFF_TR_R(2) 0.92
+R_EFF_TR_R(3) 0.95
+R_EFF_TR_R(4) 0.95
+R_EFF_TR_R(5) 0.98
+R_EFF_TR_R(6) 0.99
+T_SHIFT 0.15
+
+
+igear 1
+PARSFILE Powertrain\Shift\Shift_6ce3e509-c77c-4d49-9cb9-7f385acf3d2b.par
+#BlueLink0 Powertrain: Shift Schedule`6-speed, 1-2 Shift (MT)` 6-speed, MT` , Shift schedule`Shift_6ce3e509-c77c-4d49-9cb9-7f385acf3d2b
+
+
+igear 2
+PARSFILE Powertrain\Shift\Shift_7f2eaa58-cd4c-4dab-a740-0f1020ed7f72.par
+#BlueLink1 Powertrain: Shift Schedule`6-speed, 2-3 Shift (MT)` 6-speed, MT` , Shift schedule`Shift_7f2eaa58-cd4c-4dab-a740-0f1020ed7f72
+
+
+igear 3
+PARSFILE Powertrain\Shift\Shift_2776cab8-1919-408b-816a-cc91a387b3c8.par
+#BlueLink2 Powertrain: Shift Schedule`6-speed, 3-4 Shift (MT)` 6-speed, MT` , Shift schedule`Shift_2776cab8-1919-408b-816a-cc91a387b3c8
+
+
+igear 4
+PARSFILE Powertrain\Shift\Shift_14e83f35-f4f6-4e82-b3f3-57e2893dc1fb.par
+#BlueLink3 Powertrain: Shift Schedule`6-speed, 4-5 Shift (MT)` 6-speed, MT` , Shift schedule`Shift_14e83f35-f4f6-4e82-b3f3-57e2893dc1fb
+
+
+igear 5
+PARSFILE Powertrain\Shift\Shift_d199a5a5-20e9-488d-b593-2c2891b2ab3d.par
+#BlueLink4 Powertrain: Shift Schedule`6-speed, 5-6 Shift (MT)` 6-speed, MT` , Shift schedule`Shift_d199a5a5-20e9-488d-b593-2c2891b2ab3d
+
+
+igear 6
+
+LOG_ENTRY Used Dataset: Powertrain: Transmission (18 Gears or CVT); 6-Speed Manual
+#Library : Powertrain: Transmission (18 Gears or CVT)
+#DataSet : 6-Speed Manual
+#Category: 
+#FileID  : Trans18_b1c64b4f-66df-46e5-9d4e-a4f1e583c5fb
+#Product : CarSim 2017.1
+#VehCode Transmission
+
+END

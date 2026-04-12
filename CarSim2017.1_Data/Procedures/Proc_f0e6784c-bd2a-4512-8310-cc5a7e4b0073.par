@@ -1,0 +1,85 @@
+PARSFILE
+#FullDataName Procedures`Off-Road/City Loop (OSG), Aggressive Driving`Driver Controls
+#CheckBox3 0    
+
+#RingCtrl0 6
+#RingCtrl1 1
+OPT_STOP 1
+TSTART 0
+SSTART 185
+TSTART_WRITE = TSTART;
+TSTOP 60
+SSTOP 840
+OPT_DIRECTION 0
+*SPEED 130
+*TSTOP 60
+*TSTART 0
+*SSTART 185
+*SSTOP 840
+
+PARSFILE Control\Driver\StrDM_5e1b87df-4a9a-4a60-ac80-544adfa4667d.par
+#BlueLink27 Control: Steering by the Closed-loop Driver Model`No Offset, 1 sec. Preview` Constant Position` , Steering`StrDM_5e1b87df-4a9a-4a60-ac80-544adfa4667d
+
+PARSFILE Control\Gear_at\GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86.par
+#BlueLink30 Control: Shifting (Closed Loop)`AT All Gears` ` , Shifting Control`GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86
+
+PARSFILE Control\Speed_path\SpdPath_5a5c1f2d-4dee-45f1-9bee-68cf6c0a3b8a.par
+#BlueLink33 Control: Speed (Closed Loop) Using Path Preview`Baja Driving` Aggressive Driving` , Speed vs. station`SpdPath_5a5c1f2d-4dee-45f1-9bee-68cf6c0a3b8a
+
+PARSFILE Roads\3D_Road\Road_33a7ce6d-2235-4c78-a887-52944b8bd007.par
+#BlueLink0 Road: 3D Surface (All Properties)`Off-Road/City Loop` Off-Road` , Miscellaneous`Road_33a7ce6d-2235-4c78-a887-52944b8bd007
+
+PARSFILE Roads\Profiles\Profile_3bff0c88-84c1-408a-843d-956a1e2abe43.par
+#BlueLink1 Surface: Roughness Profiles`Example Road Roughness` ` , Miscellaneous`Profile_3bff0c88-84c1-408a-843d-956a1e2abe43
+
+#MiscYellow1
+z_profile_gain(1) = 2.5
+z_profile_gain(2) = z_profile_gain(1)
+#ENDMYellow
+
+PARSFILE Plot\Setup\Plot_cd3b5d36-ffa9-4760-83ee-3726d22d5a59.par
+#BlueLink8 Plot: Setup`Jounce - Front` Suspension Motion` , Plot`Plot_cd3b5d36-ffa9-4760-83ee-3726d22d5a59
+
+PARSFILE Plot\Setup\Plot_6e89fcc6-8e6b-4e4b-8f58-fef0a7f6d22d.par
+#BlueLink9 Plot: Setup`Jounce - Rear` Suspension Motion` , Plot`Plot_6e89fcc6-8e6b-4e4b-8f58-fef0a7f6d22d
+
+PARSFILE Plot\Setup\Plot_cf056469-49e9-4ac2-b00b-fd526c2aebfe.par
+#BlueLink10 Plot: Setup`Camber vs. Jounce - Front` Suspension Motion` , Plot`Plot_cf056469-49e9-4ac2-b00b-fd526c2aebfe
+
+PARSFILE Plot\Setup\Plot_9499cba9-dd80-4da9-a1bc-748b2466af2b.par
+#BlueLink11 Plot: Setup`Jounce Stop Force` Suspension Forces and Moments` , Plot`Plot_9499cba9-dd80-4da9-a1bc-748b2466af2b
+
+PARSFILE Plot\Setup\Plot_cfa040e5-a4d4-48f7-831c-8d712b9249f7.par
+#BlueLink12 Plot: Setup`Rebound Stop Force` Suspension Forces and Moments` , Plot`Plot_cfa040e5-a4d4-48f7-831c-8d712b9249f7
+
+PARSFILE Plot\Setup\Plot_0773e087-151d-42db-a308-f02b7b6ee48d.par
+#BlueLink13 Plot: Setup`Lateral Forces` Tire Forces` , Plot`Plot_0773e087-151d-42db-a308-f02b7b6ee48d
+
+PARSFILE Plot\Setup\Plot_c7306601-bee0-4edc-92fb-2c670cb34a1b.par
+#BlueLink14 Plot: Setup`Longitudinal Forces` Tire Forces` , Plot`Plot_c7306601-bee0-4edc-92fb-2c670cb34a1b
+
+PARSFILE Plot\Setup\Plot_dafae624-d48a-4548-93eb-fa73d080e21a.par
+#BlueLink15 Plot: Setup`Brake Control: Master Cyl. Pressure` Controls: Driver` , Plot`Plot_dafae624-d48a-4548-93eb-fa73d080e21a
+
+PARSFILE Plot\Setup\Plot_4442302e-a863-4794-b309-f1b015bb4fa7.par
+#BlueLink16 Plot: Setup`Longitudinal Speed` Vehicle Motion` , Plot`Plot_4442302e-a863-4794-b309-f1b015bb4fa7
+
+
+#EMBEDDED_NOTES
+#Target speed from path preview: the "Target speed from path preview" calculates a speed target over a preview distance to maintain the lateral and longitudinal acceleration with specified limits. Both the preview distance and acceleration limits are defined in the linked dataset.
+#
+#The road input includes roughness profiles that follow the tires. The linked profiles are amplified by settings gains for each to 2.5.
+#
+#Please note: This Procedure dataset uses animator shapes defined using the OSG file format and therefore will only animate using the CarSim VsVisualizer.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Procedures; { Driver Controls } Off-Road/City Loop (OSG), Aggressive Driving
+#Library : Procedures
+#DataSet : Off-Road/City Loop (OSG), Aggressive Driving
+#Category: Driver Controls
+#FileID  : Proc_f0e6784c-bd2a-4512-8310-cc5a7e4b0073
+#Product : CarSim 2017.1
+#VehCode Procedure
+
+END

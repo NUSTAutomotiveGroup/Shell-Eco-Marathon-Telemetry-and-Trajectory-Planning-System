@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName Models: Simulink`Type B ABS Controller`Braking Controls
+#RunMdlFile Extensions\Simulink\absmdl_TypeB_CS9.mdl
+#RingCtrl1 2
+OPT_INT_METHOD 2
+#CheckBox0 0    
+*USE_ALT_DIR 0
+#CheckBox1 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox2 0    
+OPT_IO_UPDATE 0
+#CheckBox3 0    
+
+PARSFILE IO_Channels\I_Channels\Import_7f646af6-c0d1-4f67-bf59-96fc8ab18201.par
+#BlueLink0 I/O Channels: Import`Type B ABS` Braking Imports` , Import`Import_7f646af6-c0d1-4f67-bf59-96fc8ab18201
+
+PARSFILE IO_Channels\O_Channels\Export_bf1e3d8c-3c46-4cb0-8d68-bdaafefc8ab7.par
+#BlueLink1 I/O Channels: Export`Type B ABS` Braking Exports` , Export`Export_bf1e3d8c-3c46-4cb0-8d68-bdaafefc8ab7
+
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+#EMBEDDED_NOTES
+#This example dataset has been included in past versions of CarSim as part of some examples using a legacy brake system screen that had custom controls to support a "Type A" and "Type B" external ABS controller.
+#
+#The "Type B" controller handles pressure after proportioning.
+#
+#All options for configuring the brake system within CarSim are now handled by the standard 4W brake screens, and legacy datasets work as intended for setting up the built-in options.
+#
+#However, the link to the external Simulink model has been modified for the 2017 version with repect to the Import variables. See the linked Import dataset for details of the change.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: Simulink; { Braking Controls } Type B ABS Controller
+#Library : Models: Simulink
+#DataSet : Type B ABS Controller
+#Category: Braking Controls
+#FileID  : Simlink_137a8262-ec4b-463c-b5f7-2caa838f6ec5
+#Product : CarSim 2017.1
+#VehCode 
+
+END

@@ -1,0 +1,69 @@
+PARSFILE
+#FullDataName Suspension: Longitudinal Movement`Tri-Link Strut - Rear`
+#CheckBox0 0    
+
+#RingCtrl0 SPLINE
+
+#DiagramOne0
+SUSP_X_TABLE SPLINE
+-150, 34.0109
+-135, 29.0492
+-120, 24.4735
+-105, 20.2638
+-90, 16.4039
+-75, 12.8801
+-60, 9.68167
+-45, 6.79994
+-30, 4.22844
+-15, 1.96266
+0, 0
+15, -1.66025
+30, -3.01692
+45, -4.06686
+60, -4.8048
+75, -5.22318
+90, -5.31173
+105, -5.05706
+120, -4.44179
+135, -3.4432
+150, -2.03055
+ENDTABLE
+#RadioCtrl0 0    
+
+SUSP_X_AXLE_TABLE SPLINE
+-150, 34.0109
+-135, 29.0492
+-120, 24.4735
+-105, 20.2638
+-90, 16.4039
+-75, 12.8801
+-60, 9.68167
+-45, 6.79994
+-30, 4.22844
+-15, 1.96266
+0, 0
+15, -1.66025
+30, -3.01692
+45, -4.06686
+60, -4.8048
+75, -5.22318
+90, -5.31173
+105, -5.05706
+120, -4.44179
+135, -3.4432
+150, -2.03055
+ENDTABLE
+
+#EMBEDDED_NOTES
+#Generic Rear Tri-Link strut suspension Longitudinal movement vs. Jounce.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Suspension: Longitudinal Movement; Tri-Link Strut - Rear
+#Library : Suspension: Longitudinal Movement
+#DataSet : Tri-Link Strut - Rear
+#Category: 
+#FileID  : SusX_dd301e65-3ebf-409d-85f2-eefd1a6795d9
+#Product : CarSim 2017.1
+#VehCode Longitudinal Movement
+
+END

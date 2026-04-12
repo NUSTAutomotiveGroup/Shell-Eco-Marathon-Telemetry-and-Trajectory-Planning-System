@@ -1,0 +1,46 @@
+PARSFILE
+#FullDataName Generic Data Group`Off-Road: Control Arms (Front Upper & Lower)`Control Arms
+#VehCode Generic Group
+PARSFILE Animator\Groups\Group_13c7d7e4-0597-481d-a74b-b050c18e3a80.par
+#BlueLink0 Animator: Group`Lower Control Arms (Front)` CS Pickup, Baja` , Link 1`Group_13c7d7e4-0597-481d-a74b-b050c18e3a80
+
+
+PARSFILE Output\Sensors\MoSen_97510f25-5104-49af-b103-b0365107939e.par
+#BlueLink1 Positions, Velocities, and Accelerations`Lower Control Arms` Off-Road Truck Control Arms` , Link 2`MoSen_97510f25-5104-49af-b103-b0365107939e
+
+
+
+PARSFILE Animator\Groups\Group_faf2db26-b664-4971-b65d-fc8471e310fc.par
+#BlueLink3 Animator: Group`Upper Control Arms (Front)` CS Pickup, Baja` , Link 4`Group_faf2db26-b664-4971-b65d-fc8471e310fc
+
+
+PARSFILE Output\Sensors\MoSen_5986ed1f-9825-4304-8aa2-34b74da2f12a.par
+#BlueLink4 Positions, Velocities, and Accelerations`Upper Control Arms` Off-Road Truck Control Arms` , Link 5`MoSen_5986ed1f-9825-4304-8aa2-34b74da2f12a
+
+
+
+#MiscYellow6
+iaxle 1
+iside 1
+L_LCA 508
+iside 2
+L_LCA 508
+#ENDMYellow
+
+
+
+
+
+#EMBEDDED_NOTES
+#This dataset is used by VS Visualizer to show lower control arms for an off-road vehcle.  Although CarSim does not include linkages in the suspension, the movements can be estimated from the wheel travel.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Data Group; { Control Arms } Off-Road: Control Arms (Front Upper & Lower)
+#Library : Generic Data Group
+#DataSet : Off-Road: Control Arms (Front Upper & Lower)
+#Category: Control Arms
+#FileID  : GenGrp_aa4a45b9-211a-4570-ae2d-366b7635c5a7
+#Product : CarSim 2017.1
+#VehCode Generic Group
+
+END

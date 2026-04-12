@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Models: Transfer to Local Windows Directory`Simple Run from VB Program`
+*USE_ALT_DIR 1
+#ALTPATH Extensions\Custom_VB\VS_Run
+#CheckBox0 0    
+OPT_IO_UPDATE 0
+#CheckBox1 0    
+#CheckBox2 0    
+*USE_DIFF_SOLVERS 0
+
+#RingCtrl0 2
+OPT_INT_METHOD 2
+#RingCtrl1 0
+*X64SOLVER 0
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+#EMBEDDED_NOTES
+#This dataset sets up a run that is made from a compiled Visual Basic program  "VS_Run.exe" that will read the file "SIMFILE", load the VS solver DLL, and make the run.
+#
+#The program VS_Run.exe is located in Extensions\Custom_VB\VS_Run.
+#
+#The program was built as a 32-bit EXE, therefore the option to use a 32-bit Solver is specified.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: Transfer to Local Windows Directory; Simple Run from VB Program
+#Library : Models: Transfer to Local Windows Directory
+#DataSet : Simple Run from VB Program
+#Category: 
+#FileID  : Local_020176cf-8d2f-494e-952d-a9f3eb93656a
+#Product : CarSim 2017.1
+#VehCode 
+
+END

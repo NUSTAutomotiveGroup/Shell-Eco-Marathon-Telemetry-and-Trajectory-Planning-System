@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Generic Group of Links`NCAP: EVT, Sensor, FCW and AEB Commands`ADAS Combinations
+#VehCode Generic Links
+PARSFILE Sensors_Traffic\Targets\Target_c96398d7-ce7f-4881-a3fb-46f5f23b9298.par
+#BlueLink0 Moving Object`AEB Target Vehicle` AEB Testing` , Miscellaneous`Target_c96398d7-ce7f-4881-a3fb-46f5f23b9298
+
+PARSFILE Sensors_Traffic\Targets\Target_6736143c-cac4-4b69-aecf-3293f9d13da1.par
+#BlueLink1 Moving Object`AEB EVT Tow Vehicle` AEB Testing` , Miscellaneous`Target_6736143c-cac4-4b69-aecf-3293f9d13da1
+
+#BlueLink2 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+PARSFILE Sensors_Traffic\Radar\Radar_d421ce7f-d0e2-438a-a2b2-efc39d937166.par
+#BlueLink3 ADAS Sensors for Range and Tracking`FCW and AEB, X = 750, Z = H_CG_SU` Forward Facing Sensors` , Miscellaneous`Radar_d421ce7f-d0e2-438a-a2b2-efc39d937166
+
+PARSFILE Generic\VS_commands\GenVS_2a807aaf-6495-4810-a89e-064605a3bd3d.par
+#BlueLink4 Generic VS Commands`Euro NCAP AEB: FCW Booleans and HUD Alert` ADAS Support` , Miscellaneous`GenVS_2a807aaf-6495-4810-a89e-064605a3bd3d
+
+PARSFILE Generic\VS_commands\GenVS_12890b1d-e551-4dba-8cc2-f0367f4d4b2d.par
+#BlueLink5 Generic VS Commands`Euro NCAP AEB: Sensor Booleans` ADAS Support` , Miscellaneous`GenVS_12890b1d-e551-4dba-8cc2-f0367f4d4b2d
+
+#BlueLink7 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink13 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink14 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink15 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+
+#EMBEDDED_NOTES
+#The AEB tests use a forward-facing sensor, two moving objects, and some VS Commands.
+#
+#The VS Commands for the alert and command to brake must both follow the definition of the sensor and target vehicle.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Group of Links; { ADAS Combinations } NCAP: EVT, Sensor, FCW and AEB Commands
+#Library : Generic Group of Links
+#DataSet : NCAP: EVT, Sensor, FCW and AEB Commands
+#Category: ADAS Combinations
+#FileID  : GenLink_d06e7e35-958b-447d-8422-7049e39892f1
+#Product : CarSim 2017.1
+#VehCode Generic Links
+
+END

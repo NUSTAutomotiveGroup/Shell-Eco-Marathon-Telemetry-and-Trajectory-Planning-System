@@ -1,0 +1,83 @@
+PARSFILE
+#FullDataName Tires: 2 Axles with Support for Duals`315/75 R16 for Duals`
+
+#CheckBox0 0    
+#CheckBox1 1    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox5 1    
+#CheckBox6 0    
+
+*LDUAL_2 360
+
+ADD_SIMFILE_ENTRY SET_DUALS 1
+symbol_add  <<axle>> 1
+
+iaxle 1
+iside 2
+itire 1
+symbol_push  <<whl>> R<<axle>>
+symbol_push  <<tire>> R<<axle>>i
+L_DUAL 0
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+STORE_WHEEL_OFFSET 0.000000
+PARSFILE Tires\Tire\Tire_65ae56b1-03ac-4a2c-aa1f-019cd5c56057.par
+#BlueLink1 Tire`315/75 R 16 for Duals` Light Truck` , Tires`Tire_65ae56b1-03ac-4a2c-aa1f-019cd5c56057
+
+
+iside 1
+itire 1
+symbol_push  <<whl>> L<<axle>>
+symbol_push  <<tire>> L<<axle>>i
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+STORE_WHEEL_OFFSET 0.000000
+PARSFILE Tires\Tire\Tire_65ae56b1-03ac-4a2c-aa1f-019cd5c56057.par
+#BlueLink999 Tire`315/75 R 16 for Duals` Light Truck` , Tires`Tire_65ae56b1-03ac-4a2c-aa1f-019cd5c56057
+
+symbol_add  <<axle>> 1
+
+iaxle 2
+iside 2
+itire 1
+symbol_push  <<whl>> R<<axle>>
+symbol_push  <<tire>> R<<axle>>i
+L_DUAL 360
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+STORE_WHEEL_OFFSET 0.180000
+PARSFILE Tires\Tire\Tire_65ae56b1-03ac-4a2c-aa1f-019cd5c56057.par
+#BlueLink5 Tire`315/75 R 16 for Duals` Light Truck` , Tires`Tire_65ae56b1-03ac-4a2c-aa1f-019cd5c56057
+
+itire 2
+symbol_push  <<tire>> R<<axle>>o
+STORE_WHEEL_OFFSET 0.180000
+WRITE_ADD_REFERENCE_FRAME_WHEEL_O
+PARSFILE Tires\Tire\Tire_65ae56b1-03ac-4a2c-aa1f-019cd5c56057.par
+#BlueLink999 Tire`315/75 R 16 for Duals` Light Truck` , Tires`Tire_65ae56b1-03ac-4a2c-aa1f-019cd5c56057
+
+
+iside 1
+itire 1
+symbol_push  <<whl>> L<<axle>>
+symbol_push  <<tire>> L<<axle>>i
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+STORE_WHEEL_OFFSET 0.180000
+PARSFILE Tires\Tire\Tire_65ae56b1-03ac-4a2c-aa1f-019cd5c56057.par
+#BlueLink999 Tire`315/75 R 16 for Duals` Light Truck` , Tires`Tire_65ae56b1-03ac-4a2c-aa1f-019cd5c56057
+
+itire 2
+symbol_push  <<tire>> L<<axle>>o
+WRITE_ADD_REFERENCE_FRAME_WHEEL_O
+STORE_WHEEL_OFFSET 0.180000
+PARSFILE Tires\Tire\Tire_65ae56b1-03ac-4a2c-aa1f-019cd5c56057.par
+#BlueLink999 Tire`315/75 R 16 for Duals` Light Truck` , Tires`Tire_65ae56b1-03ac-4a2c-aa1f-019cd5c56057
+
+
+LOG_ENTRY Used Dataset: Tires: 2 Axles with Support for Duals; 315/75 R16 for Duals
+#Library : Tires: 2 Axles with Support for Duals
+#DataSet : 315/75 R16 for Duals
+#Category: 
+#FileID  : Tire2a_c88ef31d-1fcf-4e80-8442-63c543367606
+#Product : CarSim 2017.1
+#VehCode 2a Tire Group
+
+END

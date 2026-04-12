@@ -1,0 +1,32 @@
+PARSFILE
+#FullDataName Models: Self-Contained Solvers`Simple VB Wrapper Program`Run with Custom Wrapper Program
+#RingCtrl1 2
+OPT_INT_METHOD 2
+#CheckBox0 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox1 1    
+*USE_WRAPPER 1
+#CheckBox2 0    
+OPT_IO_UPDATE 0
+#CheckBox3 0    
+
+*WRAPPER Extensions\Custom_VB\VS_Run\VS_Run.exe
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+#EMBEDDED_NOTES
+#This run uses a compiled Visual Basic wrapper program  "VS_Run.exe" that will read the file "simfile.sim", load the VS solver, and make the run. CarSim will pick the solver to match the vehicle type selected on the Run Control screen.
+#
+#The 32/64-bit selection is made automatically for this example; the setting on this screen is ignored.
+#
+#The VB program is described in a tech memo accessed from Help > Technical Memos > Example: Automating Runs with the VS API.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: Self-Contained Solvers; { Run with Custom Wrapper Program } Simple VB Wrapper Program
+#Library : Models: Self-Contained Solvers
+#DataSet : Simple VB Wrapper Program
+#Category: Run with Custom Wrapper Program
+#FileID  : Extern_df62bb02-bd13-4afe-b97d-34aaef65da29
+#Product : CarSim 2017.1
+#VehCode 
+
+END

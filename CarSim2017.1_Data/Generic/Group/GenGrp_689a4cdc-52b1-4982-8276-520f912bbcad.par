@@ -1,0 +1,32 @@
+PARSFILE
+#FullDataName Generic Data Group`Crosswind: 100 km/h Bursts L/R`
+#VehCode Generic Group
+PARSFILE Wind\Speed\Wind_6b787635-c1cb-4f71-b6a7-36440312c211.par
+#BlueLink0 Wind Amplitude`100 km/h Bursts` ` , Link 1`Wind_6b787635-c1cb-4f71-b6a7-36440312c211
+
+
+PARSFILE Wind\Heading\WindDir_00d792b9-c449-4be8-80eb-3282122ed26a.par
+#BlueLink1 Wind Heading`Wind to Left (90 deg) then Right (-90 deg)` ` , Link 2`WindDir_00d792b9-c449-4be8-80eb-3282122ed26a
+
+
+#BlueLink2 ` , Link 3` , Link 3` , Link 3`
+
+
+#BlueLink3 ` , Link 4` , Link 4` , Link 4`
+
+
+
+
+
+
+
+
+LOG_ENTRY Used Dataset: Generic Data Group; Crosswind: 100 km/h Bursts L/R
+#Library : Generic Data Group
+#DataSet : Crosswind: 100 km/h Bursts L/R
+#Category: 
+#FileID  : GenGrp_689a4cdc-52b1-4982-8276-520f912bbcad
+#Product : CarSim 2017.1
+#VehCode Generic Group
+
+END

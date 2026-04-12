@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName Generic Data Group`sem_engine`Audio Sound Sets
+#VehCode Generic Group
+#MiscYellow0
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+#ENDMYellow
+
+PARSFILE Animator\Sound\Sample\SndSmp_4d7e778c-2125-4ad5-be45-0168bdc47528.par
+#BlueLink0 Animator: Sound Sample`4 Cyl. - Power Off` Gas Engine` , Link 1`SndSmp_4d7e778c-2125-4ad5-be45-0168bdc47528
+
+
+PARSFILE Animator\Sound\Sample\SndSmp_4a8d24e6-3399-47dc-9bb1-379ea633963a.par
+#BlueLink1 Animator: Sound Sample`4 Cyl. - Power On` Gas Engine` , Link 2`SndSmp_4a8d24e6-3399-47dc-9bb1-379ea633963a
+
+
+#BlueLink2 ` , Link 3` , Link 3` , Link 3`
+
+
+#BlueLink3 ` , Link 4` , Link 4` , Link 4`
+
+
+#BlueLink4 ` , Link 5` , Link 5` , Link 5`
+
+
+#BlueLink5 ` , Link 6` , Link 6` , Link 6`
+
+
+
+
+
+
+LOG_ENTRY Used Dataset: Generic Data Group; { Audio Sound Sets } sem_engine
+#Library : Generic Data Group
+#DataSet : sem_engine
+#Category: Audio Sound Sets
+#FileID  : GenGrp_ee0757cb-3754-43e5-8706-44ee6e082a16
+#Product : CarSim 2017.1
+#VehCode Generic Group
+
+END

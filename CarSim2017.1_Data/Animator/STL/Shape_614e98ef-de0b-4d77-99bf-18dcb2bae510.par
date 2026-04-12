@@ -1,0 +1,31 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Roads`Mcity
+#MiscYellow3
+add_obj Animator\3D_Shape_Files_User\Mcity\Roads_01.OSGB
+#ENDMYellow
+
+SET_COLOR 1 1 1
+*IMAGE_FIT_MODE 3
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 1    
+set_fogging off
+#CheckBox3 0    
+#CheckBox4 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_52079630-c01a-43a9-bc0c-30080f01066f.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Top)` Shape Preview` , Video Camera`Camera_52079630-c01a-43a9-bc0c-30080f01066f
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_614e98ef-de0b-4d77-99bf-18dcb2bae510.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Mcity } Roads
+#Library : Animator: Shape File Link
+#DataSet : Roads
+#Category: Mcity
+#FileID  : Shape_614e98ef-de0b-4d77-99bf-18dcb2bae510
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

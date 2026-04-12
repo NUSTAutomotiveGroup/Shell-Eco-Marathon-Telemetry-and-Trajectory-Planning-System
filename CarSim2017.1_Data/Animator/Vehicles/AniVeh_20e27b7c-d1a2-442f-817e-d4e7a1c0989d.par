@@ -1,0 +1,84 @@
+PARSFILE
+#FullDataName Animator: Vehicles and Sensor Targets`Three-wheeled Vehicle`Working Vehicles
+
+#CheckBox0 1    
+#CheckBox1 1    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl0 2
+OBJ_X_LENGTH 2025
+OBJ_Y_LENGTH 1220
+OBJ_Z_LENGTH 1170
+*DZ_V 0
+*LAT_WC 0.001
+*LAT_WC_2 1000
+*HWC 210
+*WHEEL_RATIO 1
+*LAXLE_1 0
+*LAXLE_2 2012
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\Vehicles\AniVeh_20e27b7c-d1a2-442f-817e-d4e7a1c0989d.png
+DZ_OBJECT 0
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+TIRE_ANI_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+SET_SCALE_X 1
+SET_SCALE_Y 1
+SET_SCALE_Z 1
+SET_OFFSET_X 0
+SET_OFFSET_Y 5e-07
+SET_OFFSET_Z 0.1995
+TIRE_ANI_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+SET_SCALE_X 1
+SET_SCALE_Y 1
+SET_SCALE_Z 1
+SET_ANGLE_X 180
+SET_OFFSET_X 0
+SET_OFFSET_Y -5e-07
+SET_OFFSET_Z 0.1995
+TIRE_ANI_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+SET_SCALE_X 1
+SET_SCALE_Y 1
+SET_SCALE_Z 1
+SET_OFFSET_X -2.012
+SET_OFFSET_Y 0.5
+SET_OFFSET_Z 0.1995
+TIRE_ANI_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+SET_SCALE_X 1
+SET_SCALE_Y 1
+SET_SCALE_Z 1
+SET_ANGLE_X 180
+SET_OFFSET_X -2.012
+SET_OFFSET_Y -0.5
+SET_OFFSET_Z 0.1995
+DZ_OBJECT 0
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+PARSFILE Animator\STL_Groups\ShpGrp_fb26f1c2-a86b-433d-bcdd-6c55ccd0ae98.par
+#BlueLink1 Animator: Shape Assembly`Three-wheeled Vehicle` ` , Vehicle Body`ShpGrp_fb26f1c2-a86b-433d-bcdd-6c55ccd0ae98
+
+WRITE_REFERENCE_FRAME_SIZE
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_aad9f5dd-7a61-4319-88b3-b90a1214f577.par
+#BlueLink5 Animator: Camera Setup`Vehicle Pictures` Shape Preview` , Video Camera`Camera_aad9f5dd-7a61-4319-88b3-b90a1214f577
+
+EXPORT_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+#BlueLink2 Animator: Shape File Link`Blurred Tire` Tires` , Tire for traffic vehicle`Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4
+
+
+#EMBEDDED_NOTES
+#Example three-wheeled vehicle shape. This type of vehicle is found commonly around the world.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { Working Vehicles } Three-wheeled Vehicle
+#Library : Animator: Vehicles and Sensor Targets
+#DataSet : Three-wheeled Vehicle
+#Category: Working Vehicles
+#FileID  : AniVeh_20e27b7c-d1a2-442f-817e-d4e7a1c0989d
+#Product : CarSim 2017.1
+#VehCode Vehicle Shape
+
+END

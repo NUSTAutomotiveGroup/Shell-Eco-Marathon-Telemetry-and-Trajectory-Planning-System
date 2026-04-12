@@ -1,0 +1,64 @@
+PARSFILE
+#FullDataName Generic Group of Links`Traffic for 3-Way Intersection`
+#VehCode Generic Links
+#BlueLink0 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink1 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink2 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink3 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink4 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink5 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink6 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#MiscYellow0
+ispeed = 2
+speed_target_constant(2) = 80
+#ENDMYellow
+
+#BlueLink11 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#MiscYellow1
+symbol_push <<L>> -2
+#ENDMYellow
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_1a38ee83-a363-4bff-9f28-6deb6139c47d.par
+#BlueLink12 Multiple Moving Objects`Traffic at Intersection - 4 Vehicles` Traffic Vehicles (Old Example)` , Miscellaneous`TMotion_1a38ee83-a363-4bff-9f28-6deb6139c47d
+
+#MiscYellow2
+set_ipath_for_id 1003
+set_iroad_for_id 1003
+#ENDMYellow
+
+#BlueLink13 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#MiscYellow3
+ispeed = 3
+N_SPEED_TARGET = 3
+#ENDMYellow
+
+PARSFILE Control\Speed_t\SpdTime_8273b709-e099-4c0a-ad67-3b083a0d55b6.par
+#BlueLink18 Control: Speed (Closed Loop) Using Target Speed`Intersection (S = 0), Turn` Speed vs Station` , Miscellaneous`SpdTime_8273b709-e099-4c0a-ad67-3b083a0d55b6
+
+#MiscYellow4
+set_ipath_for_id 1002
+set_iroad_for_id 1002
+#ENDMYellow
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_83489463-e6b0-4344-960c-fc199afc07ac.par
+#BlueLink19 Multiple Moving Objects`3 Vehicles, Blue, PATH_ID and ROAD_ID` Traffic Vehicles (Low Speed, Reusable)` , Miscellaneous`TMotion_83489463-e6b0-4344-960c-fc199afc07ac
+
+
+LOG_ENTRY Used Dataset: Generic Group of Links; Traffic for 3-Way Intersection
+#Library : Generic Group of Links
+#DataSet : Traffic for 3-Way Intersection
+#Category: 
+#FileID  : GenLink_82680207-6c61-472e-a0da-b672a0a4e4e3
+#Product : CarSim 2017.1
+#VehCode Generic Links
+
+END

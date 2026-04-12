@@ -1,0 +1,25 @@
+PARSFILE
+#FullDataName Road: Animator Repeated Object`Speed Limit 70 (5.5 m)`
+#RingCtrl0 0
+#RingCtrl1 0
+#DiagramOne0
+*POINTS_TABLE 
+400, -5.5
+1000, -5.5
+ENDTABLE
+#RadioCtrl0 0    
+
+
+SPECIAL_PARSFILE Animator\STL\Shape_677bd791-be09-4d98-9812-312c42a2e4d7.par
+#BlueLink0 Animator: Shape File Link`Speed Limit 70` Signs` , 3D Object`Shape_677bd791-be09-4d98-9812-312c42a2e4d7
+
+
+LOG_ENTRY Used Dataset: Road: Animator Repeated Object; Speed Limit 70 (5.5 m)
+#Library : Road: Animator Repeated Object
+#DataSet : Speed Limit 70 (5.5 m)
+#Category: 
+#FileID  : AniRep_6fd70953-1b94-4300-8433-0ada2d781e0a
+#Product : CarSim 2017.1
+#VehCode Repeated Object
+
+END

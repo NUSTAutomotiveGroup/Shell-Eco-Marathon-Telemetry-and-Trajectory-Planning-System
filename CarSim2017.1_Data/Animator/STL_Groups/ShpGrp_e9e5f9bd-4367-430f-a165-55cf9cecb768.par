@@ -1,0 +1,66 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`Crew Cab Not-Body`CS Pickup, Full Size
+*OFFSET_X 0
+*OFFSET_Y 0
+*OFFSET_Z 0.49
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_e9e5f9bd-4367-430f-a165-55cf9cecb768.png
+PARSFILE Animator\STL\Shape_686e127c-0964-4c8d-9ad0-8595d20577fe.par
+#BlueLink1 Animator: Shape File Link`Pickup, Full Size: Cab Details` CS Pickup, Full Size` , Shape File`Shape_686e127c-0964-4c8d-9ad0-8595d20577fe
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.49
+PARSFILE Animator\STL\Shape_802f10ad-7c28-4d02-a5de-67c92322290f.par
+#BlueLink2 Animator: Shape File Link`Pickup, Full Size: Interior` CS Pickup, Full Size` , Shape File`Shape_802f10ad-7c28-4d02-a5de-67c92322290f
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.49
+PARSFILE Animator\STL\Shape_f5c6f73f-43e5-421d-bbfa-7327b17a3e2c.par
+#BlueLink3 Animator: Shape File Link`Pickup, Full Size: Interior Trim` CS Pickup, Full Size` , Shape File`Shape_f5c6f73f-43e5-421d-bbfa-7327b17a3e2c
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.49
+PARSFILE Animator\STL\Shape_b2c66ffb-e459-4451-96f3-c1042a24ce26.par
+#BlueLink4 Animator: Shape File Link`Pickup, Full Size: Windows` CS Pickup, Full Size` , Shape File`Shape_b2c66ffb-e459-4451-96f3-c1042a24ce26
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.49
+PARSFILE Animator\STL\Shape_19bf4f77-e6fd-4234-bdab-905a6eda1e9f.par
+#BlueLink5 Animator: Shape File Link`Pickup, Full Size: Steering Wheel` CS Pickup, Full Size` , Shape File`Shape_19bf4f77-e6fd-4234-bdab-905a6eda1e9f
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.49
+PARSFILE Animator\STL\Shape_121c4ba1-b090-4adc-8f2e-91d244bcf99f.par
+#BlueLink13 Animator: Shape File Link`Pickup, Full Size: Driver` CS Pickup, Full Size` , Shape File`Shape_121c4ba1-b090-4adc-8f2e-91d244bcf99f
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.49
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { CS Pickup, Full Size } Crew Cab Not-Body
+#Library : Animator: Shape Assembly
+#DataSet : Crew Cab Not-Body
+#Category: CS Pickup, Full Size
+#FileID  : ShpGrp_e9e5f9bd-4367-430f-a165-55cf9cecb768
+#Product : CarSim 2017.1
+#VehCode Shape Assembly
+
+END

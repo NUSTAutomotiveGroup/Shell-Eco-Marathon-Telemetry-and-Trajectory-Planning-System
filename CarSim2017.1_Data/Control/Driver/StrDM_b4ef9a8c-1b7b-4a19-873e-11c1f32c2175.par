@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName Control: Steering by the Closed-loop Driver Model`Accident Avoidance Path`
+#CheckBox0 0    
+OPT_DRIVER_MODEL 1
+#CheckBox1 0    
+CREATE_PATH_OBJ off
+#CheckBox2 0    
+
+#RingCtrl0 0
+#RingCtrl1 LINEAR
+#DiagramOne0
+LTARG_TABLE LINEAR
+0, 2
+100, 2
+140, 12
+155, 4
+300, 4
+340, 2
+400, 2
+ENDTABLE
+#RadioCtrl0 0    
+
+AV_SW_MAX_DM 1200
+TLAG_DM 0
+A_SW_MAX_DM 720
+*TPREV 0.75
+*SCALAR 3
+VLOW_DRIVER 10
+
+TPREV_CONSTANT 0.75
+
+LOG_ENTRY Used Dataset: Control: Steering by the Closed-loop Driver Model; Accident Avoidance Path
+#Library : Control: Steering by the Closed-loop Driver Model
+#DataSet : Accident Avoidance Path
+#Category: 
+#FileID  : StrDM_b4ef9a8c-1b7b-4a19-873e-11c1f32c2175
+#Product : CarSim 2017.1
+#VehCode Driver Path Follower
+
+END

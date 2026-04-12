@@ -1,0 +1,62 @@
+PARSFILE
+#FullDataName Road: Animator Repeated Object`Trees (0, 2320)`Trees
+#RingCtrl0 2
+#RingCtrl1 0
+#DiagramOne0
+*POINTS_TABLE 
+0, -10
+60, 10
+180, -10
+240, 10
+300, -10
+360, 10
+420, -10
+480, 10
+540, -10
+600, 10
+660, -10
+720, 10
+780, -10
+840, 10
+900, -10
+960, 10
+1020, -10
+1080, 10
+1140, -10
+1200, 10
+1260, -10
+1320, 10
+1380, -10
+1440, 10
+1500, -10
+1560, 10
+1620, -10
+1680, 10
+1740, -10
+1800, 10
+1860, -10
+1920, 10
+1980, -10
+2040, 10
+2100, -10
+2160, 10
+2200, -10
+2260, 10
+2320, -10
+ENDTABLE
+#RadioCtrl0 0    
+
+
+SPECIAL_PARSFILE Animator\STL_Groups\ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f.par
+#BlueLink0 Animator: Shape Assembly`Tree` Scenery` , 3D Object`ShpGrp_0f8e36ed-ede7-41c5-ab6d-c87906eb010f
+
+
+LOG_ENTRY Used Dataset: Road: Animator Repeated Object; { Trees } Trees (0, 2320)
+#Library : Road: Animator Repeated Object
+#DataSet : Trees (0, 2320)
+#Category: Trees
+#FileID  : AniRep_e13b564e-ba49-4a03-b66e-dd41c5fdb71f
+#Product : CarSim 2017.1
+#VehCode Repeated Object
+
+END

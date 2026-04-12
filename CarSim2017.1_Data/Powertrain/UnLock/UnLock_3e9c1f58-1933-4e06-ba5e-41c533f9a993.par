@@ -1,0 +1,19 @@
+PARSFILE
+#FullDataName Powertrain: Unlock Schedule`No Data`Empty (You should edit or delete this)
+IGEAR 1
+IGEAR 2
+IGEAR 3
+IGEAR 4
+IGEAR 5
+IGEAR 6
+
+
+LOG_ENTRY Used Dataset: Powertrain: Unlock Schedule; { Empty (You should edit or delete this) } No Data
+#Library : Powertrain: Unlock Schedule
+#DataSet : No Data
+#Category: Empty (You should edit or delete this)
+#FileID  : UnLock_3e9c1f58-1933-4e06-ba5e-41c533f9a993
+#Product : CarSim 2017.1
+#VehCode Unlock Schedule
+
+END

@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Plot: Setup`Euro NCAP: Longitudinal Speeds (AEB)`ADAS
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Vx, Time
+PLOTCHANNELS VxTarget, Time
+PLOTCHANNELS Vx_EVT, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Euro NCAP: Longitudinal Speeds (AEB)
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { ADAS } Euro NCAP: Longitudinal Speeds (AEB)
+#Library : Plot: Setup
+#DataSet : Euro NCAP: Longitudinal Speeds (AEB)
+#Category: ADAS
+#FileID  : Plot_7e3ea4e2-d549-4687-b106-3f1bacbc7a48
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

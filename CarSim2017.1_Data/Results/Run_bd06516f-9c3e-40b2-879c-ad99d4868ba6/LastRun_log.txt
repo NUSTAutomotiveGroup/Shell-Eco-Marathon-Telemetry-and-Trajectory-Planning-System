@@ -1,0 +1,69 @@
+Include PARSFILE "Results\Run_bd06516f-9c3e-40b2-879c-ad99d4868ba6\Run_all.par"
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Tire
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Sports Car Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Sports Car
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { MF-Tyre Example } MF-Tyre Example
+Used Dataset: Tire: Lateral Force; { MF-Tyre Example } MF-Tyre Example
+Used Dataset: Tire: Longitudinal Force; { MF-Tyre Example } MF-Tyre Example
+Used Dataset: Tire: Lateral Force vs. Inclination; { MF-Tyre Example } MF-Tyre Example
+Used Dataset: Tire: Aligning Moment vs. Inclination; { MF-Tyre Example } MF-Tyre Example
+Used Dataset: Tire: Overturning Moment; { MF-Tyre Example } MF-Tyre Example
+Used Dataset: Tire: Overturning Moment vs. Inclination; { MF-Tyre Example } MF-Tyre Example
+Used Dataset: Tire; { Extended Tire Model } 225/60 R18 (Camber Ext.: Symmetric)
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Normalized Lateral Force vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Normalized Longitudinal Force vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Tangent of Slip Angle vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Lateral Shift of CTC vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Mz due to Fx vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Mz due to Fy and Pneumatic Trail vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Pneumatic Trail vs. Alpha
+Used Dataset: Generic VS Commands; { Miscellaneous Custom Output Variables } Derived Outputs for Tire Tester
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester } Fy vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester } Mx vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester } Mz vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Normalized Lateral Force vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Normalized Longitudinal Force vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Tangent of Slip Angle vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Lateral Shift of CTC vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Mz due to Fx vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Mz due to Fy and Pneumatic Trail vs. Alpha
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Tester Derived Outputs } Pneumatic Trail vs. Alpha
+Used Dataset: Tire Tester; { Sweep Alpha +/- 10 deg } Sweep Alpha: Fz = 4000 N
+Used Dataset: I/O Channels: Write; All Outputs with Tire for Excel
+ Load Sensitivity at 6000 N <Tire Tester>
+Used Dataset: CarSim Run Control; { Tire Tester } Load Sensitivity at 6000 N
+
+Time to read input = 0.01
+Function FYG_TIRE_CARPET extrapolated (out of range HIGH) for XCOL = 6000 N at T = 0
+Function FY_TIRE_CARPET extrapolated (out of range HIGH) for XCOL = 6000 N at T = 0
+Function FX_TIRE_CARPET extrapolated (out of range HIGH) for XCOL = 6000 N at T = 0
+Function MZ_TIRE_CARPET extrapolated (out of range HIGH) for XCOL = 6000 N at T = 0
+Function MZG_TIRE_CARPET extrapolated (out of range HIGH) for XCOL = 6000 N at T = 0
+Function MX_TIRE_CARPET extrapolated (out of range HIGH) for XCOL = 6000 N at T = 0
+Function MXG_TIRE_CARPET extrapolated (out of range HIGH) for XCOL = 6000 N at T = 0
+
+Run started: ERD output file = Results\Run_bd06516f-9c3e-40b2-879c-ad99d4868ba6\LastRun.bin
+
+Run stopped at t = 2. alpha = 10 deg
+Computational efficiency: RTIME = 0.025 sec/sim. sec
+

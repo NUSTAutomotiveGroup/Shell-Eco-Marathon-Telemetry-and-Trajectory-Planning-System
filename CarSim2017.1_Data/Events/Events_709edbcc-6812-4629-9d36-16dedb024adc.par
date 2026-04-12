@@ -1,0 +1,51 @@
+PARSFILE
+#FullDataName Events`B. Let Vehicle Settle for Next Fishhook`Fishhook with Roll Rate Feedback
+#CheckBox1 1    
+RESET_EVENTS
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+
+#RingCtrl0 >
+#RingCtrl10 1
+#RingCtrl11 1
+*NAME1 Vx
+*NAME2 OPT_WRITE
+*VALUE1 1.02*VTEST
+*VALUE2 0
+*SPEED 1.03*VTEST
+
+INSTALL_DRIVER_SPEED_CONTROLLER 2014
+Opt_SC 3
+OPT_SC 3
+SPEED_TARGET_COMBINE ADD
+SPEED_TARGET_CONSTANT 0
+SPEED_TARGET_S_CONSTANT 1.03*VTEST
+OPT_SC_ENGINE_BRAKING 0
+#MiscYellow0
+OPT_WRITE WRITE_ALL
+STEER_SW_OFFSET = 0
+#ENDMYellow
+
+PARSFILE Control\Steer\StrSW_d02d6236-3489-4162-b8b9-953cdc586f4c.par
+#BlueLink11 Control: Steering (Open Loop)`Constant: Zero Degrees` ` , Miscellaneous`StrSW_d02d6236-3489-4162-b8b9-953cdc586f4c
+
+DEFINE_EVENT Vx > 1.02*VTEST ; Events\Events_4c2975e8-96ce-4252-b376-a55c45f010e0.par
+#BlueLink0 Events`C. Coast Down Before Fishhook` Fishhook with Roll Rate Feedback` , Events`Events_4c2975e8-96ce-4252-b376-a55c45f010e0
+
+
+#EMBEDDED_NOTES
+#To prepare for the next test, the target speed for the speed controller is set to 1.03*VTEST, with steering set to zero. When the vehicle reaches 1.02*VTEST (2% over the speed to be tested), dataset C is loaded.
+#
+#During this speed adjustment, writing to the ERD file is disabled unless WRITE_ALL is given a non-zero value.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Fishhook with Roll Rate Feedback } B. Let Vehicle Settle for Next Fishhook
+#Library : Events
+#DataSet : B. Let Vehicle Settle for Next Fishhook
+#Category: Fishhook with Roll Rate Feedback
+#FileID  : Events_709edbcc-6812-4629-9d36-16dedb024adc
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

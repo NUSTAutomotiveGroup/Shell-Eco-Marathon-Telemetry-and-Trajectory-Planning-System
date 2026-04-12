@@ -1,0 +1,111 @@
+PARSFILE
+#FullDataName Vehicle: Assembly`B-Class, Hatchback 2017 OSG (No ABS)`B-Class
+#VehCode Ind_Ind
+#CheckBox0 0    
+#CheckBox1 0    
+
+#RingCtrl0 1
+OPT_PT 1
+#RingCtrl1 1
+#RingCtrl2 1
+#RingCtrl3 0
+
+* Front components
+iaxle 1
+symbol_push  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_622bdc06-e56e-429e-b3b7-acfa3c69d044.par
+#BlueLink19 Suspension: Independent System Kinematics`B-Class, Hatchback - Front` B-Class` , Kinematics`KinInd_622bdc06-e56e-429e-b3b7-acfa3c69d044
+
+PARSFILE Suspensions\Compliance\CmpInd_75f33e4d-a05c-47e1-a809-10c0d59b38de.par
+#BlueLink16 Suspension: Independent Compliance, Springs, and Dampers`B-Class, Hatchback - Front` B-Class` , Compliance`CmpInd_75f33e4d-a05c-47e1-a809-10c0d59b38de
+
+
+OPT_ALL_FOUR_TIRES_ALIKE 1
+
+* LF tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_baf9abc7-ed63-4052-889a-d674d1ccfeb9.par
+#BlueLink999 Tire`185/65 R15` Touring Tires` , Tire`Tire_baf9abc7-ed63-4052-889a-d674d1ccfeb9
+
+
+* RF tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_baf9abc7-ed63-4052-889a-d674d1ccfeb9.par
+#BlueLink10 Tire`185/65 R15` Touring Tires` , Tire`Tire_baf9abc7-ed63-4052-889a-d674d1ccfeb9
+
+* Rear components
+iaxle 2
+symbol_add  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_11393a0d-ecd4-435e-9e04-5b4214d0ae21.par
+#BlueLink20 Suspension: Independent System Kinematics`B-Class, Hatchback - Rear` B-Class` , Kinematics`KinInd_11393a0d-ecd4-435e-9e04-5b4214d0ae21
+
+PARSFILE Suspensions\Compliance\CmpInd_de979640-7f0d-460e-8a33-c60537f41e3d.par
+#BlueLink17 Suspension: Independent Compliance, Springs, and Dampers`B-Class, Hatchback - Rear` B-Class` , Compliance`CmpInd_de979640-7f0d-460e-8a33-c60537f41e3d
+
+
+* LR tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_baf9abc7-ed63-4052-889a-d674d1ccfeb9.par
+#BlueLink999 Tire`185/65 R15` Touring Tires` , Tire`Tire_baf9abc7-ed63-4052-889a-d674d1ccfeb9
+
+
+* RR tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_baf9abc7-ed63-4052-889a-d674d1ccfeb9.par
+#BlueLink999 Tire`185/65 R15` Touring Tires` , Tire`Tire_baf9abc7-ed63-4052-889a-d674d1ccfeb9
+
+symbol_set <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Vehicles\Sprung_Mass\SprMass_157164b3-b535-4195-a7f6-e96c2f566c82.par
+#BlueLink0 Vehicle: Sprung Mass`B-Class, Hatchback 2012` B-Class` , Sprung Mass`SprMass_157164b3-b535-4195-a7f6-e96c2f566c82
+
+PARSFILE Aerodynamics\Aero_Main\Aero_db988a1d-4f04-40ca-b2eb-75902adea4ca.par
+#BlueLink1 Aerodynamics: Basic`B-Class, Hatchback` Hatchbacks` , Aerodynamics`Aero_db988a1d-4f04-40ca-b2eb-75902adea4ca
+
+PARSFILE Animator\Vehicles\AniVeh_b8164321-8317-46e5-8a07-f064a7124337.par
+#BlueLink2 Animator: Vehicles and Sensor Targets`B-Class, Hatchback 2012 OSG` B-Class Vehicles` , Vehicle 3D Shape`AniVeh_b8164321-8317-46e5-8a07-f064a7124337
+
+PARSFILE Powertrain\Fwd\FWD_520431f3-083c-4d94-ae2c-a5ab8d79f8f6.par
+#BlueLink3 Powertrain: Front-Wheel Drive`125 kW, 6-spd., 4.1 Ratio` 125 kW Powertrains` , Powertrain`FWD_520431f3-083c-4d94-ae2c-a5ab8d79f8f6
+
+PARSFILE Brakes\4W_System\Brk4W_0d8877ef-e9e3-42dc-b7ea-b77647ee7835.par
+#BlueLink6 Brakes: Four-Wheel System`B-Class, Hatchback w/o ABS` B-Class` , Brake System`Brk4W_0d8877ef-e9e3-42dc-b7ea-b77647ee7835
+
+PARSFILE Steering\System2\StrSys2_25d9c47e-6437-40ab-9054-2134f14f0d2d.par
+#BlueLink7 Steering`B-Class, Hatchback: Power, R&P 2017` CS B-Class` , Steering System`StrSys2_25d9c47e-6437-40ab-9054-2134f14f0d2d
+
+*IMAGE_FIT_MODE 1
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Vehicles\Assembly\Vehicle_8ad75b1b-e962-4142-8850-cf1bd884b819.png
+
+#EMBEDDED_NOTES
+#Generic B-Class (Compact) hatchback with Strut front and 5-Link rear suspension.
+#
+#B-Class vehicles include the Citroen C3, Ford Fiesta, Opal Corsa, and Volkswagen Polo.
+#
+#Note that this vehicle uses animator shapes in the OSG format and therefore will only work with VsVisualizer.
+#
+#Compared to some of the other B-Class vehicle examples, this one doesn't have the CarSim ABS selected on the Brakes data screen. Click on the brake system blue link for more information.
+#
+#Updated for CarSim 2017:  Revised the steering system parameters.  Tested for: On-Center, Static Steer, and Free Response Stability.
+#
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Assembly; { B-Class } B-Class, Hatchback 2017 OSG (No ABS)
+#Library : Vehicle: Assembly
+#DataSet : B-Class, Hatchback 2017 OSG (No ABS)
+#Category: B-Class
+#FileID  : Vehicle_8ad75b1b-e962-4142-8850-cf1bd884b819
+#Product : CarSim 2017.1
+#VehCode Ind_Ind
+
+END

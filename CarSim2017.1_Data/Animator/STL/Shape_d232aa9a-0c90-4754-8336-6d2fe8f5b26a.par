@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Sunset Sky`Skies
+#MiscYellow3
+add_obj Animator\3D_Shape_Files_CS\scenery\Sunset Sky\sky_orange.obj
+#ENDMYellow
+
+SET_COLOR 1 1 1
+SET_SCALE_X 15
+SET_SCALE_Y 15
+SET_SCALE_Z 15
+#CheckBox0 1    
+set_lighting off
+#CheckBox1 1    
+set_fogging off
+#CheckBox3 0    
+#CheckBox4 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_d232aa9a-0c90-4754-8336-6d2fe8f5b26a.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Skies } Sunset Sky
+#Library : Animator: Shape File Link
+#DataSet : Sunset Sky
+#Category: Skies
+#FileID  : Shape_d232aa9a-0c90-4754-8336-6d2fe8f5b26a
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

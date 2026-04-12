@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName Powertrain: Transmission (7 Gears)`No Data`Empty (You should edit or delete this)
+NGEARS 7
+#RingCtrl0 1
+OPT_SHIFT_INTERNAL 1
+#RingCtrl1 1
+OPT_TR_GEAR_INTERNAL 1
+#CheckBox0 1    
+OPT_CLUTCH 2
+
+#CheckBox1 0    
+OPT_CLUTCH_DELAY 0
+
+
+#EMBEDDED_NOTES
+#This transmission definition screen is only used for backward compatibility.  Please use the newer screen:
+#Powertrain: Transmission (18 Gears or CVT) for new datasets.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Powertrain: Transmission (7 Gears); { Empty (You should edit or delete this) } No Data
+#Library : Powertrain: Transmission (7 Gears)
+#DataSet : No Data
+#Category: Empty (You should edit or delete this)
+#FileID  : Trans7_4e79c2fa-0478-4948-80b3-815b303a98fb
+#Product : CarSim 2017.1
+#VehCode Transmission (7 Gears)
+
+END

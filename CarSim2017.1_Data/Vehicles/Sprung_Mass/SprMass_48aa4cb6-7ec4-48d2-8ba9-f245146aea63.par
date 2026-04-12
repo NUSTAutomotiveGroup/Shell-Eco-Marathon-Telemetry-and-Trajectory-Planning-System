@@ -1,0 +1,55 @@
+PARSFILE
+#FullDataName Vehicle: Sprung Mass`Utility Truck`
+#VehCode Rigid sprung mass
+#RingCtrl0 0
+X_LENGTH 1923
+Y_LENGTH 1500
+iaxle 2
+iside 1
+LX_H 2750
+H_H 500
+H_CG_SU 700
+LX_AXLE 1923
+LX_CG_SU 550
+M_SU 600
+IXX_SU 384
+IYY_SU 624
+IZZ_SU 686
+IXZ_SU 0
+*RX 0.800
+*RY 1.020
+*RZ 1.069
+Y_CG_SU 0
+Y_H 0
+IXY_SU 0
+IYZ_SU 0
+Z_LENGTH 1711
+Y_LENGTH 1260
+*HWC_LF 263
+*HWC_RF 263
+*HWC_LR 263
+*HWC_RR 263
+
+symbol_set <<hitch_x>> -2.75
+symbol_set <<hitch_y>> 0
+symbol_set <<hitch_z>> 0.5
+H_WC 263
+iside 2
+H_WC 263
+iaxle 1
+iside 1
+H_WC 263
+iside 2
+H_WC 263
+iaxle 2
+iside 1
+
+LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; Utility Truck
+#Library : Vehicle: Sprung Mass
+#DataSet : Utility Truck
+#Category: 
+#FileID  : SprMass_48aa4cb6-7ec4-48d2-8ba9-f245146aea63
+#Product : CarSim 2017.1
+#VehCode Rigid sprung mass
+
+END

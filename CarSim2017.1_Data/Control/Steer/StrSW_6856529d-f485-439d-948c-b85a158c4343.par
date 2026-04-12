@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName Control: Steering (Open Loop)`Spin`Ramp
+OPT_DRIVER_MODEL 0
+OPT_STEER 0
+#CheckBox0 0    
+
+#RingCtrl0 LINEAR_FLAT
+#RadioCtrl0 0    
+
+#DiagramOne0
+STEER_SW_TABLE LINEAR_FLAT
+0, 0
+0.625, 450
+1.25, 0
+2.6, 0
+5, 0
+ENDTABLE
+
+
+LOG_ENTRY Used Dataset: Control: Steering (Open Loop); { Ramp } Spin
+#Library : Control: Steering (Open Loop)
+#DataSet : Spin
+#Category: Ramp
+#FileID  : StrSW_6856529d-f485-439d-948c-b85a158c4343
+#Product : CarSim 2017.1
+#VehCode Open-Loop Steering
+
+END

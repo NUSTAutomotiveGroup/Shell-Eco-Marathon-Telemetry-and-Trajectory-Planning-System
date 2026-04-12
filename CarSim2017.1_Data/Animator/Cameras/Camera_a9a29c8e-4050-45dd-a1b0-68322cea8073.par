@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Animator: Camera Setup`AEB`Vehicle Reference
+#RingCtrl1 0
+
+#CheckBox1 1    
+#CheckBox2 0    
+#CheckBox3 0    
+
+SET_CAMERA_Reference_Frame Car Tracking Car X-Y-Z-Yaw
+PARSFILE Animator\Frames\Frame_4784094f-08e1-404b-b742-340ae23fcffa.par
+#BlueLink0 Animator: Reference Frame`Car X-Y-Z-Yaw` Car Tracking` , Reference frame for outside camera`Frame_4784094f-08e1-404b-b742-340ae23fcffa
+
+SET_LOOKPOINT_Reference_Frame Car Tracking Car X-Y-Z-Yaw
+SET_LOOKPOINT_X -1
+SET_LOOKPOINT_Y 0.5
+SET_LOOKPOINT_Z 1.35
+SET_AZIMUTH 150
+SET_ELEVATION 10.15
+SET_DISTANCE 6.25
+SET_CAMERAMAN_NAME External camera
+*SET_LOOKPOINT_X -1
+*SET_LOOKPOINT_Y 0.5
+*SET_LOOKPOINT_Z 1.35
+*SET_AZIMUTH 150
+*SET_ELEVATION 10.15
+*SET_DISTANCE 6.25
+FOG_SCALE 0
+SET_FIELD_OF_VIEW 85
+SUN_POSITION 500 500 1000
+
+LOG_ENTRY Used Dataset: Animator: Camera Setup; { Vehicle Reference } AEB
+#Library : Animator: Camera Setup
+#DataSet : AEB
+#Category: Vehicle Reference
+#FileID  : Camera_a9a29c8e-4050-45dd-a1b0-68322cea8073
+#Product : CarSim 2017.1
+#VehCode Camera
+
+END

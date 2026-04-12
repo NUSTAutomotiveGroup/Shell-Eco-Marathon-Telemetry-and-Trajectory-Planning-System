@@ -1,0 +1,106 @@
+PARSFILE
+#FullDataName CarSim Run Control`Speed Control from Driver Path`* CS 2017 - Live Video
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_62d27305-154b-4abe-9b42-03e4b48a67eb
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Models\Simulink\Simlink_1e46ce7f-2ffc-4c88-99fe-13cb4f2886cc.par
+#BlueLink12 Models: Simulink`Base Model` ` , Models`Simlink_1e46ce7f-2ffc-4c88-99fe-13cb4f2886cc
+
+PARSFILE Animator\Cameras\Camera_7fd93935-5e80-4d39-bf60-d7ff5dbaa0af.par
+#BlueLink0 Animator: Camera Setup`180 deg. Azimuth, 10 deg. El., Veh. Ref.` Vehicle Reference` , Animator camera`Camera_7fd93935-5e80-4d39-bf60-d7ff5dbaa0af
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 4
+#RingCtrl7 -1
+*RUN_COLOR 0.8 0 0
+OPT_BUFFER_WRITE 1
+AUTOSIZE OFF
+BLOCKING_RT_READ ON
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 1
+LIVE_SERVER_MAX_CONNECTIONS 1
+PARSFILE Vehicles\Assembly\Vehicle_e7198cbd-2d8b-48a3-b221-f4b4f079c185.par
+#BlueLink2 Vehicle: Assembly`B-Class, Sports Car 2017` B-Class` , Vehicle Configuration`Vehicle_e7198cbd-2d8b-48a3-b221-f4b4f079c185
+
+PARSFILE Procedures\Proc_48b5ccd6-052d-4e08-a2ac-8e748ee21269.par
+#BlueLink28 Procedures`Handling Course with Aggressive Driving` Driver Controls` , Procedure`Proc_48b5ccd6-052d-4e08-a2ac-8e748ee21269
+
+PARSFILE Generic\Group\GenGrp_c11e4bbe-5e3a-4498-91a5-6c42d1db378a.par
+#BlueLink9 Generic Data Group`2 Axle - Fx, Fy, Fz` Tire Force Arrows` , Miscellaneous`GenGrp_c11e4bbe-5e3a-4498-91a5-6c42d1db378a
+
+PARSFILE Animator\Arrows\Arrows_0707108a-af33-4db9-b1d3-bdbd23eea887.par
+#BlueLink10 Animator: Wheel Arrows and Other Indicators`Tire Skid Marks (2 Axles)` Tire Paths (2 Axle)` , Miscellaneous`Arrows_0707108a-af33-4db9-b1d3-bdbd23eea887
+
+PARSFILE Animator\HUD\HUD_28cddbb9-94c6-4e76-a06f-7737ba30c08f.par
+#BlueLink11 Animator: HUD`Throttle and Speed` Vehicle Status Indicators` , Miscellaneous`HUD_28cddbb9-94c6-4e76-a06f-7737ba30c08f
+
+PARSFILE Plot\Setup\Plot_f30c8f6e-f4c5-457d-9587-3baaad0f98b1.par
+#BlueLink15 Plot: Setup`Longitudinal vs. Lateral Accel.` Vehicle Motion` , Plot`Plot_f30c8f6e-f4c5-457d-9587-3baaad0f98b1
+
+PARSFILE Plot\Setup\Plot_621ad7e4-8562-4fbe-b3a4-90e054940030.par
+#BlueLink16 Plot: Setup`Longitudinal Speed vs. Station` Vehicle Motion` , Plot`Plot_621ad7e4-8562-4fbe-b3a4-90e054940030
+
+PARSFILE Plot\Setup\Plot_84cf249c-520a-44d4-965b-f2a898a45ad5.par
+#BlueLink17 Plot: Setup`Trans. Control: Gear Selected` Controls: Driver` , Plot`Plot_84cf249c-520a-44d4-965b-f2a898a45ad5
+
+PARSFILE Plot\Setup\Plot_a36e548a-8671-4d4e-9e37-36a10f06b90f.par
+#BlueLink18 Plot: Setup`Y vs. X -- Trajectory` Tracking` , Plot`Plot_a36e548a-8671-4d4e-9e37-36a10f06b90f
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_4986d2bf-e6a5-4076-b5cc-94a288fa5a6d.png
+WRITE_SENSOR_DETECT
+Title Speed Control from Driver Path <* CS 2017 - Live Video>
+CATEGORY * CS 2017 - Live Video 
+DATASET_TITLE Speed Control from Driver Path
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example illustrates how to add Live Video when running in Simulink. This example was copied from a lengthy run, {Driver Speed from Path Preview} > Speed Control from Driver Path.
+#
+#To view the live video:
+#(1) click "Send to Simulink". VS Visualizer will start, but the vehicle parts will not be located correctly.
+#
+#(2) click the Play button in Simulink to run the simulation.  Once the run starts, the video will show the status.
+#
+#If you do not see a button in this screen "Start Live Video", please check Tools > License Settings and make sure the "CarSim Extra Live Animator" option is checked.
+#
+#To use Live Video for another run:
+#(1) Select "Models: Simulink" and link to a Simulink model. For this example, the blue link is {Live Video} > Base Model. Go to this dataset for notes on enabling live animation.
+#
+#(2) When the link is made to a Simulink model, three controls appear involving live video. The number of live cameras should be set to 1.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { * CS 2017 - Live Video } Speed Control from Driver Path
+#Library : CarSim Run Control
+#DataSet : Speed Control from Driver Path
+#Category: * CS 2017 - Live Video
+#FileID  : Run_62d27305-154b-4abe-9b42-03e4b48a67eb
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

@@ -1,0 +1,27 @@
+PARSFILE
+#FullDataName Batch Runs`Alternate Vehicle Data Measurement`Built-In Solvers
+#CheckBox1 0    
+
+#MiscYellow1
+#<Alternate Vehicle Data Measurement> Measured Ride Rates
+#<Alternate Vehicle Data Measurement> Payload: DLC, Loaded 2000 kg
+#<Alternate Vehicle Data Measurement> Payload: Driver and Fuel Loads
+#<Alternate Vehicle Data Measurement> Payload: SUV w/ 7 Passengers
+#<Alternate Vehicle Data Measurement> Sprung Mass from Whole Vehicle: i_i
+#<Alternate Vehicle Data Measurement> Sprung Mass from Whole Vehicle: s_s
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains the datasets which are in the Alternate Vehicle Data Measurement category
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; { Built-In Solvers } Alternate Vehicle Data Measurement
+#Library : Batch Runs
+#DataSet : Alternate Vehicle Data Measurement
+#Category: Built-In Solvers
+#FileID  : BatRun_25a18b8a-4d1e-4017-ada4-8650171b79b9
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

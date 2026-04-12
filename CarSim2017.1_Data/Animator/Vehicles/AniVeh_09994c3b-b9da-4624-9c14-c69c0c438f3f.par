@@ -1,0 +1,88 @@
+PARSFILE
+#FullDataName Animator: Vehicles and Sensor Targets`Pickup, Compact`Working Vehicles
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox6 0    
+#CheckBox7 1    
+
+OBJ_X_LENGTH 2777
+OBJ_Y_LENGTH 1665
+OBJ_Z_LENGTH 1840
+*DZ_V 0
+*LAT_WC 1500
+*LAT_WC_2 1500
+*HWC 340
+*WHEEL_RATIO 1.25
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\Vehicles\AniVeh_09994c3b-b9da-4624-9c14-c69c0c438f3f.png
+DZ_OBJECT 0
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+TIRE_ANI_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+SET_SCALE_X 1.25
+SET_SCALE_Y 1.25
+SET_SCALE_Z 1.25
+SET_OFFSET_X 0
+SET_OFFSET_Y 0.75
+SET_OFFSET_Z 0.323
+TIRE_ANI_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+SET_SCALE_X 1.25
+SET_SCALE_Y 1.25
+SET_SCALE_Z 1.25
+SET_ANGLE_X 180
+SET_OFFSET_X 0
+SET_OFFSET_Y -0.75
+SET_OFFSET_Z 0.323
+TIRE_ANI_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+SET_SCALE_X 1.25
+SET_SCALE_Y 1.25
+SET_SCALE_Z 1.25
+SET_OFFSET_X -2.777
+SET_OFFSET_Y 0.75
+SET_OFFSET_Z 0.323
+TIRE_ANI_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+SET_SCALE_X 1.25
+SET_SCALE_Y 1.25
+SET_SCALE_Z 1.25
+SET_ANGLE_X 180
+SET_OFFSET_X -2.777
+SET_OFFSET_Y -0.75
+SET_OFFSET_Z 0.323
+DZ_OBJECT 0
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+PARSFILE Animator\Groups\Group_f7f5b1a9-6398-42b5-b0b1-35cf18efd02f.par
+#BlueLink1 Animator: Group`Pickup, Compact: Reg. Cab, Box Short` ` , Vehicle Body`Group_f7f5b1a9-6398-42b5-b0b1-35cf18efd02f
+
+PARSFILE Animator\Sound\Set\SndSet_7a16a539-6395-4fa5-9971-033e89fa67b0.par
+#BlueLink6 Animator: Sound Set`Wind Noise` ` , Sound Set`SndSet_7a16a539-6395-4fa5-9971-033e89fa67b0
+
+WRITE_REFERENCE_FRAME_SIZE
+WRITE_ADD_REFERENCE_FRAME_BRAKES
+PARSFILE Animator\STL\Shape_26094553-f0ac-4867-a71e-972c60361f8e.par
+#BlueLink3 Animator: Shape File Link`Pickup, Compact: Brake Lights` CS Pickup, Compact` , Brake Lights`Shape_26094553-f0ac-4867-a71e-972c60361f8e
+
+WRITE_REFERENCE_FRAME_SIZE
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_aad9f5dd-7a61-4319-88b3-b90a1214f577.par
+#BlueLink5 Animator: Camera Setup`Vehicle Pictures` Shape Preview` , Video Camera`Camera_aad9f5dd-7a61-4319-88b3-b90a1214f577
+
+EXPORT_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+#BlueLink2 Animator: Shape File Link`Blurred Tire` Tires` , Tire for traffic vehicle`Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4
+
+
+#EMBEDDED_NOTES
+#The Animator: Vehicles and Sensor Targets screen is used to define animation shapes to be used with the animator.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { Working Vehicles } Pickup, Compact
+#Library : Animator: Vehicles and Sensor Targets
+#DataSet : Pickup, Compact
+#Category: Working Vehicles
+#FileID  : AniVeh_09994c3b-b9da-4624-9c14-c69c0c438f3f
+#Product : CarSim 2017.1
+#VehCode Vehicle Shape
+
+END

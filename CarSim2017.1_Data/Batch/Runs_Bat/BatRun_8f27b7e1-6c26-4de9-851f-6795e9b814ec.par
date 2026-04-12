@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName Batch Runs`Powertrain Tests`Built-In Solvers
+#CheckBox1 0    
+
+#MiscYellow1
+#<Powertrain Tests> 8-Speed Transmission
+#<Powertrain Tests> Events: Shift 2WD to 4WD
+#<Powertrain Tests> Half Throttle Acceleration: CVT
+#<Powertrain Tests> Lockup Torque Converter
+#<Powertrain Tests> MT Open-loop Shift and Clutch, Accel. - 0.5 Throt.
+#<Powertrain Tests> MT w/ Closed-loop Shift and Clutch,  Accel. - Full Throt.
+#<Powertrain Tests> Rear In-Wheel Motors: E-Class, Sedan w/ Hybrid Battery Payload
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains the datasets which are in the Powertrain Tests category
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; { Built-In Solvers } Powertrain Tests
+#Library : Batch Runs
+#DataSet : Powertrain Tests
+#Category: Built-In Solvers
+#FileID  : BatRun_8f27b7e1-6c26-4de9-851f-6795e9b814ec
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

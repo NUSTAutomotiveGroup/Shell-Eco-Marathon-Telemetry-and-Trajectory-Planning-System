@@ -1,0 +1,32 @@
+PARSFILE
+#FullDataName Models: Simulink`Replace Rack and Pinion Only`External Steer
+#RunMdlFile Extensions\Simulink\ext_steer_gear.mdl
+#RingCtrl1 2
+OPT_INT_METHOD 2
+#CheckBox0 0    
+*USE_ALT_DIR 0
+#CheckBox1 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox2 0    
+OPT_IO_UPDATE 0
+#CheckBox3 0    
+
+PARSFILE IO_Channels\I_Channels\Import_89d51cf1-cc1e-4b7a-afb8-2f6bfac77fbf.par
+#BlueLink0 I/O Channels: Import`Replace Rack and Pinion` External Steer` , Import`Import_89d51cf1-cc1e-4b7a-afb8-2f6bfac77fbf
+
+PARSFILE Generic\VS_commands\GenVS_ecd479f9-f502-4431-979d-3ffe5d4a7009.par
+#BlueLink1 Generic VS Commands`Calculate Deriv. of Kinematic Tables` External Steer` , Export`GenVS_ecd479f9-f502-4431-979d-3ffe5d4a7009
+
+PARSFILE IO_Channels\O_Channels\Export_52265ca7-19ea-4e67-8d39-6de18302b3db.par
+#BlueLink2 I/O Channels: Export`Retain Only TieRod / Steer Arm Kinematics` External Steer` , Miscellaneous`Export_52265ca7-19ea-4e67-8d39-6de18302b3db
+
+
+LOG_ENTRY Used Dataset: Models: Simulink; { External Steer } Replace Rack and Pinion Only
+#Library : Models: Simulink
+#DataSet : Replace Rack and Pinion Only
+#Category: External Steer
+#FileID  : Simlink_c7bf82c7-9790-4d54-907a-f683033d4799
+#Product : CarSim 2017.1
+#VehCode 
+
+END

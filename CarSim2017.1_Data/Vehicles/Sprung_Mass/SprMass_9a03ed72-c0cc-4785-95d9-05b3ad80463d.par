@@ -1,0 +1,55 @@
+PARSFILE
+#FullDataName Vehicle: Sprung Mass`A-Class, Hatchback`
+#VehCode Rigid sprung mass
+#RingCtrl0 0
+X_LENGTH 2500
+Y_LENGTH 1500
+iaxle 2
+iside 1
+LX_H 3000
+H_H 228
+H_CG_SU 540
+LX_AXLE 2500
+LX_CG_SU 762
+M_SU 220
+IXX_SU 80
+IYY_SU 100
+IZZ_SU 100
+IXZ_SU 0
+*RX 0.603
+*RY 0.674
+*RZ 0.674
+Y_CG_SU 0
+Y_H 0
+IXY_SU 0
+IYZ_SU 0
+Z_LENGTH 1219
+Y_LENGTH 1780
+*HWC_LF 228
+*HWC_RF 228
+*HWC_LR 228
+*HWC_RR 228
+
+symbol_set <<hitch_x>> -3
+symbol_set <<hitch_y>> 0
+symbol_set <<hitch_z>> 0.228
+H_WC 228
+iside 2
+H_WC 228
+iaxle 1
+iside 1
+H_WC 228
+iside 2
+H_WC 228
+iaxle 2
+iside 1
+
+LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; A-Class, Hatchback
+#Library : Vehicle: Sprung Mass
+#DataSet : A-Class, Hatchback
+#Category: 
+#FileID  : SprMass_9a03ed72-c0cc-4785-95d9-05b3ad80463d
+#Product : CarSim 2017.1
+#VehCode Rigid sprung mass
+
+END

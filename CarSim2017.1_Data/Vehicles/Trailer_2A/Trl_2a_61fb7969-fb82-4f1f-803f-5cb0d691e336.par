@@ -1,0 +1,148 @@
+PARSFILE
+#FullDataName Vehicle: Trailer with 2 Axles`Trailer, Gooseneck w/ 2 axles`
+#CheckBox2 0    
+#CheckBox3 0    
+#RingCtrl0 3
+#RingCtrl1 3
+#RingCtrl2 0
+
+* Trailer front suspension
+iaxle 1
+OPT_STEER_EXT 1
+ADD_REFERENCE_FRAME Axle 3
+SET_EULER_ANGLES yaw_roll_pitch
+SET_X_NAME X_A3
+WRT_X_A3
+ANI_X_A3
+SET_Y_NAME Y_A3
+WRT_Y_A3
+ANI_Y_A3
+SET_Z_NAME Z_A3
+WRT_Z_A3
+ANI_Z_A3
+SET_YAW_NAME Yaw_2
+WRT_Yaw_2
+ANI_Yaw_2
+SET_PITCH_NAME Pitch_A3
+WRT_Pitch_A3
+ANI_Pitch_A3
+SET_ROLL_NAME Roll_A3
+WRT_Roll_A3
+ANI_Roll_A3
+X_REF_LENGTH 1
+Y_REF_LENGTH 1
+Z_REF_LENGTH 1
+X_LENGTH 1
+Y_LENGTH 1
+Z_LENGTH 1
+PARSFILE Suspensions\Compliance_SA\CmpSA_49530fd2-f868-43cb-80ea-8295e5433d61.par
+#BlueLink10 Suspension: Solid Axle Compliance, Springs, and Dampers`Gooseneck Trailer` Trailers` , Compliance`CmpSA_49530fd2-f868-43cb-80ea-8295e5433d61
+
+PARSFILE Suspensions\Kin_Solid\KinSA_48ba4a26-e793-4845-a49b-0edb582eb126.par
+#BlueLink15 Suspension: Solid Axle System Kinematics`Gooseneck Trailer` Trailers` , Kinematics`KinSA_48ba4a26-e793-4845-a49b-0edb582eb126
+
+
+* Trailer rear suspension
+iaxle 2
+OPT_STEER_EXT 1
+ADD_REFERENCE_FRAME Axle 4
+SET_EULER_ANGLES yaw_roll_pitch
+SET_X_NAME X_A4
+WRT_X_A4
+ANI_X_A4
+SET_Y_NAME Y_A4
+WRT_Y_A4
+ANI_Y_A4
+SET_Z_NAME Z_A4
+WRT_Z_A4
+ANI_Z_A4
+SET_YAW_NAME Yaw_2
+WRT_Yaw_2
+ANI_Yaw_2
+SET_PITCH_NAME Pitch_A4
+WRT_Pitch_A4
+ANI_Pitch_A4
+SET_ROLL_NAME Roll_A4
+WRT_Roll_A4
+ANI_Roll_A4
+X_REF_LENGTH 1
+Y_REF_LENGTH 1
+Z_REF_LENGTH 1
+X_LENGTH 1
+Y_LENGTH 1
+Z_LENGTH 1
+PARSFILE Suspensions\Compliance_SA\CmpSA_49530fd2-f868-43cb-80ea-8295e5433d61.par
+#BlueLink14 Suspension: Solid Axle Compliance, Springs, and Dampers`Gooseneck Trailer` Trailers` , Compliance`CmpSA_49530fd2-f868-43cb-80ea-8295e5433d61
+
+PARSFILE Suspensions\Kin_Solid\KinSA_48ba4a26-e793-4845-a49b-0edb582eb126.par
+#BlueLink16 Suspension: Solid Axle System Kinematics`Gooseneck Trailer` Trailers` , Kinematics`KinSA_48ba4a26-e793-4845-a49b-0edb582eb126
+
+symbol_push  <<axle>> 3
+
+* LF tire
+iaxle 1
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_efdb68bc-ccf5-41e8-a6af-b957f4351f8d.par
+#BlueLink9 Tire`Trailer - 235/80 R16` ` , Tire`Tire_efdb68bc-ccf5-41e8-a6af-b957f4351f8d
+
+
+* RF tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_efdb68bc-ccf5-41e8-a6af-b957f4351f8d.par
+#BlueLink9 Tire`Trailer - 235/80 R16` ` , Tire`Tire_efdb68bc-ccf5-41e8-a6af-b957f4351f8d
+
+symbol_add  <<axle>> 1
+
+* LR tire
+iaxle 2
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_efdb68bc-ccf5-41e8-a6af-b957f4351f8d.par
+#BlueLink9 Tire`Trailer - 235/80 R16` ` , Tire`Tire_efdb68bc-ccf5-41e8-a6af-b957f4351f8d
+
+
+* RR tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_efdb68bc-ccf5-41e8-a6af-b957f4351f8d.par
+#BlueLink9 Tire`Trailer - 235/80 R16` ` , Tire`Tire_efdb68bc-ccf5-41e8-a6af-b957f4351f8d
+
+
+* sprung mass data
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Vehicles\Trl_Sprung_Mass\TrlSprM_c41c8f2a-0e1d-4c29-b22d-136dc035011b.par
+#BlueLink0 Vehicle: Trailer Sprung Mass`Trailer, Gooseneck: 2A` ` , Sprung mass`TrlSprM_c41c8f2a-0e1d-4c29-b22d-136dc035011b
+
+PARSFILE Aerodynamics\Aero_Main\Aero_202c73e7-c8ce-4206-a2f9-7934106b8c43.par
+#BlueLink1 Aerodynamics: Basic`No Aerodynamics` ` , Aerodynamics`Aero_202c73e7-c8ce-4206-a2f9-7934106b8c43
+
+PARSFILE Animator\Vehicles\AniVeh_60c109ee-5c8d-45dd-bfaa-dfba617c42c7.par
+#BlueLink2 Animator: Vehicles and Sensor Targets`2A Gooseneck` ` , Trailer 3D Shape`AniVeh_60c109ee-5c8d-45dd-bfaa-dfba617c42c7
+
+PARSFILE Hitches\Parameters\HchPar_828f0a72-c288-4f90-a946-de314a8caab1.par
+#BlueLink3 Hitch: Parameters`Gooseneck` ` , Hitch`HchPar_828f0a72-c288-4f90-a946-de314a8caab1
+
+PARSFILE Brakes\4W_System\Brk4W_eed6147d-3340-4846-b7a5-e1b637c17333.par
+#BlueLink4 Brakes: Four-Wheel System`2 Axle Trailer, No ABS` ` , Brakes`Brk4W_eed6147d-3340-4846-b7a5-e1b637c17333
+
+R_TANDEM 0.5
+CFZ_MY_TAND 0
+R_TAND_TRAIL_STATIC 0.5
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_60c109ee-5c8d-45dd-bfaa-dfba617c42c7.png
+
+LOG_ENTRY Used Dataset: Vehicle: Trailer with 2 Axles; Trailer, Gooseneck w/ 2 axles
+#Library : Vehicle: Trailer with 2 Axles
+#DataSet : Trailer, Gooseneck w/ 2 axles
+#Category: 
+#FileID  : Trl_2a_61fb7969-fb82-4f1f-803f-5cb0d691e336
+#Product : CarSim 2017.1
+#VehCode SA_SA
+
+END

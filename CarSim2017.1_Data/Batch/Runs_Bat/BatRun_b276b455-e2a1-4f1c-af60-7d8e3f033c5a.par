@@ -1,0 +1,34 @@
+PARSFILE
+#FullDataName Batch Runs`Suspension and Ride Tests`Built-In Solvers
+#CheckBox1 0    
+
+#MiscYellow1
+#<Suspension and Ride Tests> Bounce Sine Sweep
+#<Suspension and Ride Tests> Chassis Flex: Rigid Chassis Overlay
+#<Suspension and Ride Tests> K & C: Bounce Test
+#<Suspension and Ride Tests> K & C: Roll Stiffness Test
+#<Suspension and Ride Tests> Lifted Suspension (SA_SA)
+#<Suspension and Ride Tests> Lowered Suspension
+#<Suspension and Ride Tests> Non-Linear Suspension Compliance
+#<Suspension and Ride Tests> Roll Sine Sweep
+#<Suspension and Ride Tests> Suspension Bump Stops
+#<Suspension and Ride Tests> Twist Beam - DLC
+#<Suspension and Ride Tests> Twist Beam Legacy - DLC
+#<Suspension and Ride Tests> Twist Beam Suspension Legacy
+#<Suspension and Ride Tests> Twist Beam Suspension Legacy - DLC
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains the datasets which are in the Suspension and Ride Tests category
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; { Built-In Solvers } Suspension and Ride Tests
+#Library : Batch Runs
+#DataSet : Suspension and Ride Tests
+#Category: Built-In Solvers
+#FileID  : BatRun_b276b455-e2a1-4f1c-af60-7d8e3f033c5a
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

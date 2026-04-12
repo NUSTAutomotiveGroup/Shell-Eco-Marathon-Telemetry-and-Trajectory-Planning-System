@@ -1,0 +1,71 @@
+PARSFILE
+#FullDataName CarSim Run Control`Crosswind w/ Steering`Aero Effects
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_446b1399-fe9f-49ed-89ae-b5a6082162c3
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_f03d9875-14be-49f8-b43b-b9eee65b0fba.par
+#BlueLink0 Animator: Camera Setup`Top View (Veh. Ref.)` Vehicle Reference` , Animator camera`Camera_f03d9875-14be-49f8-b43b-b9eee65b0fba
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0.502 0.502 0.502
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_e548552e-ef22-4aa3-9760-041cc142ee33.par
+#BlueLink2 Vehicle with Loads, Sensors, Trailer, etc.`D-Class, Sedan 2017: w/ Aero Forces` D-Class` , Vehicle Configuration`VehLoad_e548552e-ef22-4aa3-9760-041cc142ee33
+
+PARSFILE Procedures\Proc_469d1b08-84b3-4525-9ecf-d708012040f5.par
+#BlueLink28 Procedures`Crosswind Test w/ Steering` Stability Testing` , Procedure`Proc_469d1b08-84b3-4525-9ecf-d708012040f5
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_f2dbf3b6-68ed-4f69-9064-eaa72ebcf53c.png
+WRITE_SENSOR_DETECT
+Title Crosswind w/ Steering <Aero Effects>
+CATEGORY Aero Effects 
+DATASET_TITLE Crosswind w/ Steering
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example demonstrates vehicle responses to a 40 km/h crosswind encountered 2 seconds into the simulation. The Closed Loop Driver Model is set to follow a straight path, so it calculates a steering wheel angle necessary to generate a countering yaw moment to the crosswind in order to maintain the designated path.
+#
+#Animation shapes representing the aerodynamic forces and moments on the vehicle have been linked on the Procedure screen to make it easier to visualize the vehicle's reactions to the crosswind.
+#
+#To see how this test was set up, including the wind speed and heading, click on the Procedure blue link "Crosswind Test w/ Steering" for more information.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Aero Effects } Crosswind w/ Steering
+#Library : CarSim Run Control
+#DataSet : Crosswind w/ Steering
+#Category: Aero Effects
+#FileID  : Run_446b1399-fe9f-49ed-89ae-b5a6082162c3
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

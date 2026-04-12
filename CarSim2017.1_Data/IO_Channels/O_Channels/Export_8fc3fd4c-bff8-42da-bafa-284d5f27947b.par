@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName I/O Channels: Export`Four Wheel Steer`Steering and Susp. Exports
+#RingCtrl0 0
+#RingCtrl1 1
+*README_FILE Results\Run_686fa856-8477-4317-885b-7367022e53a9\Run_out_tab.txt
+
+
+EXPORT Steer_L1
+EXPORT Steer_R1
+EXPORT Steer_L2
+EXPORT Steer_R2
+EXPORT Beta
+EXPORT AVz
+EXPORT Vx
+#MiscYellow0
+#Number of Selected Channels: 7
+#CHN_NAME: Steer_L1
+#CHN_NAME: Steer_R1
+#CHN_NAME: Steer_L2
+#CHN_NAME: Steer_R2
+#CHN_NAME: Beta
+#CHN_NAME: AVz
+#CHN_NAME: Vx
+#ENDMYellow
+
+#BlueLink0 CarSim Run Control`External 4WS, DLC` Simulink and LabVIEW Models` , example run`Run_686fa856-8477-4317-885b-7367022e53a9
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Export; { Steering and Susp. Exports } Four Wheel Steer
+#Library : I/O Channels: Export
+#DataSet : Four Wheel Steer
+#Category: Steering and Susp. Exports
+#FileID  : Export_8fc3fd4c-bff8-42da-bafa-284d5f27947b
+#Product : CarSim 2017.1
+#VehCode Export Channels
+
+END

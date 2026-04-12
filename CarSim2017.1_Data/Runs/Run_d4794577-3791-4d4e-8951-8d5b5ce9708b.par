@@ -1,0 +1,84 @@
+PARSFILE
+#FullDataName CarSim Run Control`Speed Variable Steer Test w/ 4WS`Steering Tests
+#VEHICLECODE Ind_SA
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_d4794577-3791-4d4e-8951-8d5b5ce9708b
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_b29555d1-4e9c-41b5-b8fc-d8367ca7db37.par
+#BlueLink0 Animator: Camera Setup`LR Fender View` Vehicle Fixed Camera` , Animator camera`Camera_b29555d1-4e9c-41b5-b8fc-d8367ca7db37
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 1    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 2
+#RingCtrl7 -1
+*RUN_COLOR 0.878 0.878 0.878
+SET_RUN_COLOR 0.878 0.878 0.878
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_49087f5f-7ee5-47b4-a19d-8cdb1310edaf.par
+#BlueLink2 Vehicle: Assembly`Pickup, Full Size Crew Cab 6.5 Bed: 4WS` Pickup, Full Size` , Vehicle Configuration`Vehicle_49087f5f-7ee5-47b4-a19d-8cdb1310edaf
+
+PARSFILE Procedures\Proc_24acd8a4-9315-4dee-a1f1-22d57929ad1d.par
+#BlueLink28 Procedures`Speed Variable Steer Test` Driver Controls` , Procedure`Proc_24acd8a4-9315-4dee-a1f1-22d57929ad1d
+
+*TSTEP 0.001
+*FREQ_MODEL 1000
+*TSTEP_OUT 0.01
+*FREQ_OUT 100
+tstep 0.001
+iprint 10
+PARSFILE Plot\Setup\Plot_4442302e-a863-4794-b309-f1b015bb4fa7.par
+#BlueLink15 Plot: Setup`Longitudinal Speed` Vehicle Motion` , Plot`Plot_4442302e-a863-4794-b309-f1b015bb4fa7
+
+PARSFILE Plot\Setup\Plot_6480bda8-8a2c-47e4-af8c-16140f47b086.par
+#BlueLink16 Plot: Setup`Road Wheel Steer Angle` Steering` , Plot`Plot_6480bda8-8a2c-47e4-af8c-16140f47b086
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_49087f5f-7ee5-47b4-a19d-8cdb1310edaf.png
+WRITE_SENSOR_DETECT
+Title Speed Variable Steer Test w/ 4WS <Steering Tests>
+CATEGORY Steering Tests 
+DATASET_TITLE Speed Variable Steer Test w/ 4WS
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example performs an open-loop steering test such as a constant amplitude and frequency sine sweep test.  It also demonstrates 4 wheel steering capabilities.
+#
+#The test is set up to have the vehicle accelerate from 0 - 120 km/h in 120 seconds and can be used for any vehicle in CarSim.
+#
+#Use the plots to analyze the steering wheel torque required to perform this steering input while the vehicle is accelerating.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Steering Tests } Speed Variable Steer Test w/ 4WS
+#Library : CarSim Run Control
+#DataSet : Speed Variable Steer Test w/ 4WS
+#Category: Steering Tests
+#FileID  : Run_d4794577-3791-4d4e-8951-8d5b5ce9708b
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

@@ -1,0 +1,1184 @@
+PARSFILE
+! VS Road Calculator
+! Utility to calculate road and path coordinates for visualization
+! Revision 33770, April 28, 2017
+
+TITLE Off-Road/City Loop <Off-Road>
+
+! Echo: Roads\3D_Road\Road_33a7ce6d-2235-4c78-a887-52944b8bd007_echo.par
+! This run was made 11:42 on May 01, 2017.
+
+!------------------------------------------------------------------------------------
+! SYSTEM PARAMETERS (SIMULATION AND MODEL OPTIONS)
+!------------------------------------------------------------------------------------
+! [D] (default) indicates that a parameter was not set by reading from a Parsfile.
+! [I] indicates that changing the parameter via an Event triggers an initialization.
+
+ID_EVENT            0 ; - ! [D] ID number that can be assigned to the current event
+ID_RUN              0 ; - ! [D] ID number that can be assigned to a simulation run
+NDIGITS_ECHO       10 ! [D] Max. no. of digits for printing floating-point numbers
+! NIMPORT           0 ! CALC -- Number of variables activated for import
+! NOUT_ANI_LIVE     0 ! CALC -- Number of variables sent live to animators
+! NOUT_EXPORT       0 ! CALC -- Number of output variables activated for export
+! NOUT_WRITE        0 ! CALC -- Number of output variables written to file
+OPT_ABORTIVE_SOCKET_CLOSE 0 ! [D] Use abortive close for license socket connections:
+                            ! 0 -> Normal, 1 -> Abortive
+OPT_ALL_WRITE       0 ! Write all outputs to file? 1 -> all, 0 -> only activated
+                      ! outputs
+OPT_BUFFER_WRITE    0 ! [D] Use buffer for outputs written to file? 0 -> no, write
+                      ! during run, 1 -> yes, write after run finishes
+OPT_ECHO_ALL_PARS   0 ! [D] Echo all parameters in this VS Solver? 0 -> no, 1 -> yes
+OPT_ECHO_ALL_UNITS  0 ! [D] Echo list of units and scale factors? 0 -> no, 1 -> yes
+OPT_ECHO_ICS        0 ! [D] Echo initial conditions? 0 -> no, 1 -> yes
+OPT_ERROR_DIALOG    0 ! [D] Show pop-up dialog box if fatal error occurs: 1 -> yes
+                      ! (normal use), 0 -> no (for batch runs)
+OPT_ERROR_DUP_DEF   0 ! [D] Handle case where DEFINE_IMPORT, DEFINE_OUTPUT,
+                      ! DEFINE_PARAMETER, or DEFINE_VARIABLE attempts to define a
+                      ! variable that already exists. 0 -> write warning in log
+                      ! file, 1 -> generate error and stop the run
+OPT_ERROR_SHOW_ALL  0 ! [D] Show pop-up boxes for all errors: 0 -> only show the
+                      ! first, 1 -> also show subsequent errors
+OPT_LINEARIZATION   0 ! [D] Numerical linearization applied for: 0 -> all ODEs of
+                      ! the model, 1 -> only selected derivatives [I]
+OPT_LOG_DEBUG       0 ! [D] Log file writing: 0 -> normal, 1 -> crash expected
+OPT_LOG_VERBOSE     2 ! [D] Log file verbosity: 2 -> errors + most events + parsfile
+                      ! names, 0 -> errors only, 1 -> errors + events, 3 ->
+                      ! advanced diagnostics
+OPT_LOG_WARNINGS    1 ! [D] Write warnings into log file? 1 -> yes, 0 -> no
+OPT_PAUSE           0 ! [D] Pause at end of run with window open? 0 -> no, 1 -> yes
+OPT_STOP            0 ! [D] Option for stopping the run: 0 -> stop when T reaches
+                      ! TSTOP; 1 -> stop when T reaches TSTOP or station reaches
+                      ! SSTOP; -1 -> run until stopped using VS Commands or
+                      ! external control
+OPT_VS_FILETYPE     3 ! [D] Type of output file: 3 -> 32-bit ERD, 1-> 64-bit VS, 2->
+                      ! 32-bit VS, 4 -> text CSV (no binary), 0 -> no output file
+OPT_WRITE           0 ; - ! [D] Write outputs when T > TSTART_WRITE? 1 -> write, 0
+                      ! -> don't write; change this using VS Commands or Events
+TSTART           0.04 ; s ! [D] Starting time for the simulation clock
+TSTART_T_EVENT      0 ; s ! [D] Event clock reset time: T_EVENT = T - TSTART_T_EVENT
+TSTART_WRITE        0 ; s ! [D] Start writing outputs when this time is reached
+TSTEP            0.04 ; s ! [D] Time step for numerical integration
+TSTOP              10 ; s ! [D] Stop when this time is reached
+! T_DT           0.02 ; s ! CALC -- Time increment between calculations
+
+!------------------------------------------------------------------------------------
+! REFERENCE PATHS
+!------------------------------------------------------------------------------------
+! Reference Paths provide station-based coordinate systems used to define 3D road
+! surfaces, targets for the driver model, and positions of moving objects. In
+! addition to the parameters shown in this section, the paths may include spline
+! X-Y tables (keyword = SEGMENT_XY_TABLE). The Configurable Function LTARG is often
+! used to define lateral positions relative to a path.
+
+! NPATH             1 ! CALC -- Number of installed paths available for roads,
+                      ! driver model, and moving objects
+DEFINE_PATHS        1 ! VS Command to install reference paths
+N_LTARG             1 ! [D] Up to 100 LTARG datasets are available for use by the
+                      ! driver model, moving objects, and VS Commands. Datasets
+                      ! used by the driver model and moving objects are always
+                      ! shown in the Echo file; use this parameter to ensure that
+                      ! datasets needed for Events and other VS Commands are shown:
+                      ! 0 - 100.
+
+PATH_ID_DM          1 ! PATH_ID number of reference path for the driver [I]
+LTARG_DM            1 ! [D] LTARG dataset used by the driver model (0 -> no LTARG)
+OPT_DIRECTION       1 ! [D] Travel direction along path PATH_ID_DM: 0 -> set to 1 or
+                      ! -1 using SSTART and SSTOP values (legacy); 1 -> increasing
+                      ! station, -1 -> decreasing station [I]
+OPT_INIT_PATH       1 ! [D] Initialize vehicle yaw, Xo, and Yo, to match path
+                      ! PATH_ID_DM at station SSTART? 1 -> yes, 0 -> no [I]
+SSTART              0 ; m ! [D] Start the vehicle at this station on the driver path
+                      ! specified by PATH_ID_DM. The current station on this path
+                      ! is the state variable SV_STATION, also available as the
+                      ! output variable "Station." If the driver path is different
+                      ! from the road surface path ROAD_PATH_ID for the road
+                      ! surface ID CURRENT_ROAD_ID, then it might be a good idea to
+                      ! specify an initial value for the state variable SV_STA_ROAD
+                      ! (station along the road reference path). [I]
+
+PATH_ID(1)          1 ! ID number for this Reference Path
+SPATH_START(1)      0 ; m ! Station at the start of this path
+OPT_PATH_START(1)   0 ! Specify an initial heading and start position for the path?
+                      ! 0 -> no, 1 -> yes
+OPT_PATH_LOOP(1)    0 ! Is this path looped? 0 -> no, 1 -> yes
+
+NSEGMENTS(1)       20 ! Number of segments in this path
+SEGMENT_TYPE(1,1)   0 ! 0 -> straight, 1 -> spline table, 2 -> rho, 3 -> radius, 4
+                      ! -> clothoid
+SEGMENT_LENGTH(1,1) 150 ; m ! Segment length
+! S_SEGMENT_END(1,1) 150 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,1) 150 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,1) 0 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,1)  0 ; deg ! CALC -- Heading at end of segment
+
+SEGMENT_TYPE(1,2)   3 ! 0 -> straight, 1 -> spline table, 2 -> rho, 3 -> radius, 4
+                      ! -> clothoid
+SEGMENT_RADIUS(1,2) -10 ; m ! Radius of arc; + -> left turn
+SEGMENT_ARC(1,2)   90 ; deg ! Central angle of arc
+! S_SEGMENT_END(1,2) 165.7079633 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,2) 160 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,2) -10 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,2) -90 ; deg ! CALC -- Heading at end of segment
+
+SEGMENT_TYPE(1,3)   0 ! 0 -> straight, 1 -> spline table, 2 -> rho, 3 -> radius, 4
+                      ! -> clothoid
+SEGMENT_LENGTH(1,3) 10 ; m ! Segment length
+! S_SEGMENT_END(1,3) 175.7079633 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,3) 160 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,3) -20 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,3) -90 ; deg ! CALC -- Heading at end of segment
+
+SEGMENT_TYPE(1,4)   0 ! 0 -> straight, 1 -> spline table, 2 -> rho, 3 -> radius, 4
+                      ! -> clothoid
+SEGMENT_LENGTH(1,4) 25 ; m ! Segment length
+! S_SEGMENT_END(1,4) 200.7079633 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,4) 160 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,4) -45 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,4) -90 ; deg ! CALC -- Heading at end of segment
+
+SEGMENT_TYPE(1,5)   3 ! 0 -> straight, 1 -> spline table, 2 -> rho, 3 -> radius, 4
+                      ! -> clothoid
+SEGMENT_RADIUS(1,5) 25 ; m ! Radius of arc; + -> left turn
+SEGMENT_ARC(1,5)   45 ; deg ! Central angle of arc
+! S_SEGMENT_END(1,5) 220.3429174 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,5) 167.3223305 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,5) -62.67766953 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,5) -45 ; deg ! CALC -- Heading at end of segment
+
+SEGMENT_TYPE(1,6)   0 ! 0 -> straight, 1 -> spline table, 2 -> rho, 3 -> radius, 4
+                      ! -> clothoid
+SEGMENT_LENGTH(1,6) 10 ; m ! Segment length
+! S_SEGMENT_END(1,6) 230.3429174 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,6) 174.3933983 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,6) -69.74873734 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,6) -45 ; deg ! CALC -- Heading at end of segment
+
+SEGMENT_TYPE(1,7)   3 ! 0 -> straight, 1 -> spline table, 2 -> rho, 3 -> radius, 4
+                      ! -> clothoid
+SEGMENT_RADIUS(1,7) -25 ; m ! Radius of arc; + -> left turn
+SEGMENT_ARC(1,7)   45 ; deg ! Central angle of arc
+! S_SEGMENT_END(1,7) 249.9778714 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,7) 181.7157288 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,7) -87.42640687 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,7) -90 ; deg ! CALC -- Heading at end of segment
+
+SEGMENT_TYPE(1,8)   3 ! 0 -> straight, 1 -> spline table, 2 -> rho, 3 -> radius, 4
+                      ! -> clothoid
+SEGMENT_RADIUS(1,8) -50 ; m ! Radius of arc; + -> left turn
+SEGMENT_ARC(1,8)   90 ; deg ! Central angle of arc
+! S_SEGMENT_END(1,8) 328.5176878 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,8) 131.7157288 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,8) -137.4264069 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,8) 180 ; deg ! CALC -- Heading at end of segment
+
+SEGMENT_TYPE(1,9)   0 ! 0 -> straight, 1 -> spline table, 2 -> rho, 3 -> radius, 4
+                      ! -> clothoid
+SEGMENT_LENGTH(1,9) 75 ; m ! Segment length
+! S_SEGMENT_END(1,9) 403.5176878 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,9) 56.71572875 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,9) -137.4264069 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,9) -180 ; deg ! CALC -- Heading at end of segment
+
+SEGMENT_TYPE(1,10)  3 ! 0 -> straight, 1 -> spline table, 2 -> rho, 3 -> radius, 4
+                      ! -> clothoid
+SEGMENT_RADIUS(1,10) -40 ; m ! Radius of arc; + -> left turn
+SEGMENT_ARC(1,10)  60 ; deg ! Central angle of arc
+! S_SEGMENT_END(1,10) 445.4055898 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,10) 22.0747126 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,10) -117.4264069 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,10) 120 ; deg ! CALC -- Heading at end of segment
+
+SEGMENT_TYPE(1,11)  0 ! 0 -> straight, 1 -> spline table, 2 -> rho, 3 -> radius, 4
+                      ! -> clothoid
+SEGMENT_LENGTH(1,11) 25 ; m ! Segment length
+! S_SEGMENT_END(1,11) 470.4055898 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,11) 9.574712601 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,11) -95.77577178 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,11) 120 ; deg ! CALC -- Heading at end of segment
+
+SEGMENT_TYPE(1,12)  3 ! 0 -> straight, 1 -> spline table, 2 -> rho, 3 -> radius, 4
+                      ! -> clothoid
+SEGMENT_RADIUS(1,12) 40 ; m ! Radius of arc; + -> left turn
+SEGMENT_ARC(1,12)  60 ; deg ! Central angle of arc
+! S_SEGMENT_END(1,12) 512.2934919 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,12) -25.06630355 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,12) -75.77577178 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,12) 180 ; deg ! CALC -- Heading at end of segment
+
+SEGMENT_TYPE(1,13)  0 ! 0 -> straight, 1 -> spline table, 2 -> rho, 3 -> radius, 4
+                      ! -> clothoid
+SEGMENT_LENGTH(1,13) 100 ; m ! Segment length
+! S_SEGMENT_END(1,13) 612.2934919 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,13) -125.0663036 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,13) -75.77577178 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,13) -180 ; deg ! CALC -- Heading at end of segment
+
+SEGMENT_TYPE(1,14)  3 ! 0 -> straight, 1 -> spline table, 2 -> rho, 3 -> radius, 4
+                      ! -> clothoid
+SEGMENT_RADIUS(1,14) 25 ; m ! Radius of arc; + -> left turn
+SEGMENT_ARC(1,14)  75 ; deg ! Central angle of arc
+! S_SEGMENT_END(1,14) 645.0184153 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,14) -149.2144492 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,14) -94.30529565 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,14) -105 ; deg ! CALC -- Heading at end of segment
+
+SEGMENT_TYPE(1,15)  3 ! 0 -> straight, 1 -> spline table, 2 -> rho, 3 -> radius, 4
+                      ! -> clothoid
+SEGMENT_RADIUS(1,15) -40 ; m ! Radius of arc; + -> left turn
+SEGMENT_ARC(1,15)  75 ; deg ! Central angle of arc
+! S_SEGMENT_END(1,15) 697.3782929 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,15) -187.8514823 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,15) -123.9525338 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,15) 180 ; deg ! CALC -- Heading at end of segment
+
+SEGMENT_TYPE(1,16)  0 ! 0 -> straight, 1 -> spline table, 2 -> rho, 3 -> radius, 4
+                      ! -> clothoid
+SEGMENT_LENGTH(1,16) 25 ; m ! Segment length
+! S_SEGMENT_END(1,16) 722.3782929 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,16) -212.8514823 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,16) -123.9525338 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,16) -180 ; deg ! CALC -- Heading at end of segment
+
+SEGMENT_TYPE(1,17)  3 ! 0 -> straight, 1 -> spline table, 2 -> rho, 3 -> radius, 4
+                      ! -> clothoid
+SEGMENT_RADIUS(1,17) -50 ; m ! Radius of arc; + -> left turn
+SEGMENT_ARC(1,17)  90 ; deg ! Central angle of arc
+! S_SEGMENT_END(1,17) 800.9181092 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,17) -262.8514823 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,17) -73.95253384 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,17) 90 ; deg ! CALC -- Heading at end of segment
+
+SEGMENT_TYPE(1,18)  0 ! 0 -> straight, 1 -> spline table, 2 -> rho, 3 -> radius, 4
+                      ! -> clothoid
+SEGMENT_LENGTH(1,18) 50 ; m ! Segment length
+! S_SEGMENT_END(1,18) 850.9181092 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,18) -262.8514823 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,18) -23.95253384 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,18) 90 ; deg ! CALC -- Heading at end of segment
+
+SEGMENT_TYPE(1,19)  3 ! 0 -> straight, 1 -> spline table, 2 -> rho, 3 -> radius, 4
+                      ! -> clothoid
+SEGMENT_RADIUS(1,19) -23.96 ; m ! Radius of arc; + -> left turn
+SEGMENT_ARC(1,19)  90 ; deg ! Central angle of arc
+! S_SEGMENT_END(1,19) 888.5543892 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,19) -238.8914823 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,19) 0.007466155082 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,19) -1.272221873e-14 ; deg ! CALC -- Heading at end of segment
+
+SEGMENT_TYPE(1,20)  0 ! 0 -> straight, 1 -> spline table, 2 -> rho, 3 -> radius, 4
+                      ! -> clothoid
+SEGMENT_LENGTH(1,20) 238.8 ; m ! Segment length
+! S_SEGMENT_END(1,20) 1127.354389 ; m ! CALC -- Station at end of this segment
+! X_SEGMENT_END(1,20) -0.09148225901 ; m ! CALC -- X coordinate at end of segment
+! Y_SEGMENT_END(1,20) 0.007466155082 ; m ! CALC -- Y coordinate at end of segment
+! HEADING_END(1,20) 2.544443745e-14 ; deg ! CALC -- Heading at end of segment
+
+!------------------------------------------------------------------------------------
+! ROAD SURFACES
+!------------------------------------------------------------------------------------
+! Road surfaces define elevation Z and friction MU as functions of global X and Y
+! coordinates, using a station-based coordinate system defined with a Reference
+! Path. The Z and MU values for a road surface are calculated using Configurable
+! Functions MU_ROAD, ROAD_DZ, and ROAD_ZS. Boundaries that control automatic
+! switching from one road surface to another make use of the Configurable Functions
+! ROAD_L_BOUNDARY, ROAD_NEW_ID, and ROAD_NEW_S.
+
+! NROAD             1 ! CALC -- Number of installed road surfaces
+! NROAD_DZ          2 ! CALC -- Number of installed ROAD_DZ datasets
+DEFINE_ROADS        1 ! VS Command to define road surfaces
+DEFINE_DZ_TABLES    2 ! VS Command to define ROAD_DZ datasets
+CURRENT_ROAD_ID     1 ! [D] ROAD_ID for the vehicle during initialization [I]
+
+ROAD_ID(1)          1 ! [D] ID number for this road
+ROAD_PATH_ID(1)     1 ! PATH_ID of reference path used for this road [I]
+ROAD_SMAX_NEW_ID(1) 0 ! 0 -> No SMAX boundary, -1 -> stop if S > ROAD_SMAX, > 0 ->
+                      ! switch to road with this ID if S > ROAD_SMAX
+ROAD_SMIN_NEW_ID(1) 0 ! 0 -> No SMIN boundary, -1 -> stop if S < ROAD_SMIN, > 0 ->
+                      ! switch to road with this ID if S < ROAD_SMIN
+RR_SURF(1)        1.5 ; - ! Tire rolling resistance surface-effect coefficient
+ROAD_N_DZ(1)        2 ! Number of ROAD_DZ layers added to the surface
+RD_DZ_ID(1,1)       1 ! ROAD_DZ_ID for a ROAD_DZ layer added to this surface
+RD_DZ_ID(1,2)       2 ! ROAD_DZ_ID for a ROAD_DZ layer added to this surface
+
+!------------------------------------------------------------------------------------
+! CONFIGURABLE FUNCTIONS
+!------------------------------------------------------------------------------------
+
+! LTARG: Target lateral offset (+ -> left, - -> right). This offset is combined with
+! a reference path to produce a modified path for steering control, moving objects,
+! lane definition, etc.. Lateral offset is a function of station (CONSTANT,
+! COEFFICIENT, or TABLE). Lateral offset from the calculation can be adjusted with
+! LTARG_GAIN and LTARG_OFFSET. Station used in the calculation can be adjusted with
+! SSCALE_LTARG and SSTART_LTARG. The derivative of this function is used internally.
+! This configurable function supports 100 datasets; if indices shown below are not
+! used, e.g., (2), the current value of the index ILTARG is used to identify the
+! dataset when reading data.
+
+LTARG_CONSTANT(1)   0 ; m ! [D] Constant lateral offset
+LTARG_OFFSET(1)     0 ; m ! Offset added (after gain) to get lateral offset
+
+! MU_ROAD: Tire/road friction coefficient (MU) for a road surface. Use MU = -1 for
+! original tire data (no scaling). MU can be a nonlinear CARPET function of lateral
+! position and station or a function of station (CONSTANT, COEFFICIENT, or TABLE)
+! combined with a function MU_ROAD_L of lateral position (CONSTANT, COEFFICIENT, or
+! TABLE). Alternatively, a custom equation can be defined at runtime. MU from the
+! calculation can be adjusted with MU_ROAD_GAIN and MU_ROAD_OFFSET. Station used in
+! the calculation can be adjusted with SSCALE_MU_ROAD and SSTART_MU_ROAD. Lateral
+! position used in the calculation can be adjusted with L_SCALE_MU_ROAD and
+! L_START_MU_ROAD. This configurable function supports 100 datasets; if indices shown
+! below are not used, e.g., (2), the current value of the index IROAD is used to
+! identify the dataset when reading data.
+
+MU_ROAD_CONSTANT(1) 0.9 ; - ! Constant MU component due to station
+MU_ROAD_GAIN(1)     1 ! Gain multiplied with calculated value to get MU
+MU_ROAD_OFFSET(1)   0 ; - ! Offset added (after gain) to get MU
+MU_ROAD_COMBINE(1) MULTIPLY ! How to combine the two components
+MU_ROAD_L_CONSTANT(1) 1 ; - ! Constant MU component due to lateral position
+
+! ROAD_DZ: Incremental elevation added to a road surface. DZ can be a nonlinear
+! CARPET function of lateral position and station or a function of station (CONSTANT,
+! COEFFICIENT, or TABLE) combined with a function ROAD_DZ_L of lateral position
+! (CONSTANT, COEFFICIENT, or TABLE). DZ from the calculation can be adjusted with
+! ROAD_DZ_GAIN and ROAD_DZ_OFFSET. Station used in the calculation can be adjusted
+! with SSCALE_ROAD_DZ and SSTART_ROAD_DZ. Lateral position used in the calculation
+! can be adjusted with L_SCALE_ROAD_DZ and L_START_ROAD_DZ. The derivative of this
+! function is used internally. This configurable function supports 100 datasets; if
+! indices shown below are not used, e.g., (2), the current value of the index
+! IROAD_DZ is used to identify the dataset when reading data.
+
+ROAD_DZ_ID(1)       1  ! User-defined ID number for this dataset
+
+! 2D table: row 1 has "0" (place holder) followed by 4 values of lateral position
+! (m). Other rows have station (m) followed by 4 values of dZ (m).
+ROAD_DZ_CARPET(1) 2D_LINEAR
+ 0, -5, -4, 4, 5
+ 1, 0, 0, 0, 0
+ 149, 0, 0, 0, 0
+ 151, 0, 0, 0, 0
+ 164.707764, 0, 0, 0, 0
+ 166.707764, 0, 0, 0, 0
+ 174.707764, 0, 0, 0, 0
+ 176.707764, 0, 0, 0, 0
+ 195.707764, 0, 0, 0, 0
+ 205.707764, 0.2, 0.2, -0.2, -0.2
+ 216.342469, 0.2, 0.2, -0.2, -0.2
+ 224.342469, 0, 0, 0, 0
+ 225.342469, 0, 0, 0, 0
+ 235.342469, 0, 0, 0, 0
+ 244.977174, 0, 0, 0, 0
+ 254.977174, -0.6, -0.6, 0.6, 0.6
+ 318.515993, -0.6, -0.6, 0.6, 0.6
+ 338.515993, 0, 0, 0, 0
+ 393.515993, 0, 0, 0, 0
+ 413.515993, -0.08, -0.08, 0.08, 0.08
+ 440.403364, -0.08, -0.08, 0.08, 0.08
+ 450.403364, 0, 0, 0, 0
+ 465.403364, 0, 0, 0, 0
+ 475.403364, 0, 0, 0, 0
+ 511.290734, 0, 0, 0, 0
+ 513.290734, 0, 0, 0, 0
+ 611.290734, 0, 0, 0, 0
+ 613.290734, 0.12, 0.12, -0.12, -0.12
+ 640.015242, 0.12, 0.12, -0.12, -0.12
+ 650.015242, 0, 0, 0, 0
+ 696.374455, 0, 0, 0, 0
+ 698.374455, 0, 0, 0, 0
+ 712.374455, 0, 0, 0, 0
+ 732.374455, -0.4, -0.4, 0.4, 0.4
+ 780.913275, -0.4, -0.4, 0.4, 0.4
+ 820.913275, 0, 0, 0, 0
+ 840.913275, 0, 0, 0, 0
+ 860.913275, 0, 0, 0, 0
+ 887.549077, 0, 0, 0, 0
+ 889.549077, 0, 0, 0, 0
+ 1126.354389, 0, 0, 0, 0
+ENDTABLE
+ROAD_DZ_GAIN(1)     1 ! Gain multiplied with calculated value to get dZ
+ROAD_DZ_OFFSET(1)   0 ; m ! Offset added (after gain) to get dZ
+SSTART_ROAD_DZ(1)   0 ; m ! Offset subtracted from station
+SSCALE_ROAD_DZ(1)   1 ! Scale factor divided into (station - SSTART_ROAD_DZ)
+L_START_ROAD_DZ(1)  0 ; m ! Offset subtracted from lateral position
+L_SCALE_ROAD_DZ(1)  1 ! Scale factor divided into (lateral position -
+                      ! L_START_ROAD_DZ)
+
+ROAD_DZ_ID(2)       2  ! User-defined ID number for this dataset
+
+! 2D table: row 1 has "0" (place holder) followed by 13 values of lateral position
+! (m). Other rows have station (m) followed by 13 values of dZ (m).
+ROAD_DZ_CARPET(2) 2D_SPLINE
+ 0, -15, -10, -5, -1.5, -0.9, -0.4, 0, 0.4, 0.9, 1.5, 5, 10, 15
+ 175, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+ 185, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+ 205, 0, 0, 0.368, 0.029, -0.0085, 0.029, 0.0165, 0.029, -0.0085, 0.029, 0.16025, 0, 0
+ 210, 0, 0, -0.15775, -0.038, -0.0755, -0.038, -0.0005, 0.012, -0.0255, 0.012, 0.242, 0, 0
+ 215, 0, 0, 0.373, -0.04975, -0.08725, -0.04975, -0.18725, -0.17475, -0.21225, -0.17475, 0.044, 0, 0
+ 220, 0, 0, 0.01625, -0.093, -0.1305, -0.093, -0.0555, -0.043, -0.0805, -0.043, 0.093, 0, 0
+ 225, 0, 0, -0.2985, -0.455, -0.4925, -0.455, -0.4675, -0.455, -0.4925, -0.455, 0.12075, 0, 0
+ 230, 0, 0, -0.487, -0.2295, -0.267, -0.2295, -0.242, -0.2295, -0.267, -0.2295, 0.39075, 0, 0
+ 235, 0, 0, -0.24775, -0.437, -0.4745, -0.437, -0.3995, -0.387, -0.4245, -0.387, 0.2865, 0, 0
+ 240, 0, 0, -0.3405, -0.21025, -0.24775, -0.21025, -0.34775, -0.33525, -0.37275, -0.33525, 0.3905, 0, 0
+ 245, 0, 0, -0.3175, -0.112, -0.1495, -0.112, -0.0745, -0.062, -0.0995, -0.062, -0.001, 0, 0
+ 250, 0, 0, -0.264, -0.32025, -0.35775, -0.32025, -0.45775, -0.44525, -0.48275, -0.44525, -0.76075, 0, 0
+ 255, 0, 0, 0.018, -0.58025, -0.61775, -0.58025, -0.54275, -0.53025, -0.56775, -0.53025, -0.601, 0, 0
+ 260, 0, 0, 0.007, 0.67125, 0.63375, 0.67125, 0.53375, 0.54625, 0.50875, 0.54625, -0.12025, 0, 0
+ 265, 0, 0, -0.10725, 0.50675, 0.46925, 0.50675, 0.54425, 0.55675, 0.51925, 0.55675, 0.2445, 0, 0
+ 270, 0, 0, -0.32625, 0.4285, 0.391, 0.4285, 0.291, 0.3035, 0.266, 0.3035, 0.5675, 0, 0
+ 275, 0, 0, -0.18925, 0.19375, 0.15625, 0.19375, 0.18125, 0.19375, 0.15625, 0.19375, 0.77575, 0, 0
+ 280, 0, 0, -0.03975, 0.55175, 0.51425, 0.55175, 0.41425, 0.42675, 0.38925, 0.42675, 0.4705, 0, 0
+ 285, 0, 0, 0.2615, 0.4725, 0.435, 0.4725, 0.46, 0.4725, 0.435, 0.4725, 0.4895, 0, 0
+ 290, 0, 0, 0.25375, 0.647, 0.6095, 0.647, 0.5095, 0.522, 0.4845, 0.522, 0.4255, 0, 0
+ 295, 0, 0, -0.1455, 0.19575, 0.15825, 0.19575, 0.18325, 0.19575, 0.15825, 0.19575, 0.34925, 0, 0
+ 300, 0, 0, -0.175, -0.27375, -0.31125, -0.27375, -0.28625, -0.27375, -0.31125, -0.27375, -0.10625, 0, 0
+ 305, 0, 0, -0.319, -0.11325, -0.15075, -0.11325, -0.07575, -0.06325, -0.10075, -0.06325, 0.098, 0, 0
+ 310, 0, 0, -0.319, -0.11325, -0.15075, -0.11325, -0.07575, -0.06325, -0.10075, -0.06325, 0.098, 0, 0
+ 315, 0, 0, -0.175, -0.27375, -0.31125, -0.27375, -0.28625, -0.27375, -0.31125, -0.27375, -0.10625, 0, 0
+ 320, 0, 0, -0.1455, 0.19575, 0.15825, 0.19575, 0.18325, 0.19575, 0.15825, 0.19575, 0.34925, 0, 0
+ 325, 0, 0, 0.25375, 0.647, 0.6095, 0.647, 0.5095, 0.522, 0.4845, 0.522, 0.4255, 0, 0
+ 330, 0, 0, 0.2615, 0.4725, 0.435, 0.4725, 0.46, 0.4725, 0.435, 0.4725, 0.4895, 0, 0
+ 335, 0, 0, -0.03975, 0.55175, 0.51425, 0.55175, 0.41425, 0.42675, 0.38925, 0.42675, 0.4705, 0, 0
+ 340, 0, 0, -0.18925, 0.19375, 0.15625, 0.19375, 0.18125, 0.19375, 0.15625, 0.19375, 0.77575, 0, 0
+ 345, 0, 0, -0.32625, 0.4285, 0.391, 0.4285, 0.291, 0.3035, 0.266, 0.3035, 0.5675, 0, 0
+ 350, 0, 0, -0.10725, 0.50675, 0.46925, 0.50675, 0.54425, 0.55675, 0.51925, 0.55675, 0.2445, 0, 0
+ 355, 0, 0, 0.007, 0.67125, 0.63375, 0.67125, 0.53375, 0.54625, 0.50875, 0.54625, -0.12025, 0, 0
+ 360, 0, 0, 0.018, -0.58025, -0.61775, -0.58025, -0.54275, -0.53025, -0.56775, -0.53025, -0.601, 0, 0
+ 365, 0, 0, -0.264, -0.32025, -0.35775, -0.32025, -0.45775, -0.44525, -0.48275, -0.44525, -0.76075, 0, 0
+ 370, 0, 0, -0.3175, -0.112, -0.1495, -0.112, -0.0745, -0.062, -0.0995, -0.062, -0.001, 0, 0
+ 375, 0, 0, -0.3405, -0.21025, -0.24775, -0.21025, -0.34775, -0.33525, -0.37275, -0.33525, 0.3905, 0, 0
+ 380, 0, 0, -0.24775, -0.437, -0.4745, -0.437, -0.3995, -0.387, -0.4245, -0.387, 0.2865, 0, 0
+ 385, 0, 0, -0.487, -0.2295, -0.267, -0.2295, -0.242, -0.2295, -0.267, -0.2295, 0.39075, 0, 0
+ 390, 0, 0, -0.2985, -0.455, -0.4925, -0.455, -0.4675, -0.455, -0.4925, -0.455, 0.12075, 0, 0
+ 395, 0, 0, 0.01625, -0.093, -0.1305, -0.093, -0.0555, -0.043, -0.0805, -0.043, 0.093, 0, 0
+ 400, 0, 0, 0.373, -0.04975, -0.08725, -0.04975, -0.18725, -0.17475, -0.21225, -0.17475, 0.044, 0, 0
+ 405, 0, 0, -0.15775, -0.038, -0.0755, -0.038, -0.0005, 0.012, -0.0255, 0.012, 0.242, 0, 0
+ 410, 0, 0, 0.368, 0.029, -0.0085, 0.029, 0.0165, 0.029, -0.0085, 0.029, 0.16025, 0, 0
+ 415, 0, 0, 0.368, 0.029, -0.0085, 0.029, 0.0165, 0.029, -0.0085, 0.029, 0.16025, 0, 0
+ 420, 0, 0, -0.15775, -0.038, -0.0755, -0.038, -0.0005, 0.012, -0.0255, 0.012, 0.242, 0, 0
+ 425, 0, 0, 0.373, -0.04975, -0.08725, -0.04975, -0.18725, -0.17475, -0.21225, -0.17475, 0.044, 0, 0
+ 430, 0, 0, 0.01625, -0.093, -0.1305, -0.093, -0.0555, -0.043, -0.0805, -0.043, 0.093, 0, 0
+ 435, 0, 0, -0.2985, -0.455, -0.4925, -0.455, -0.4675, -0.455, -0.4925, -0.455, 0.12075, 0, 0
+ 440, 0, 0, -0.487, -0.2295, -0.267, -0.2295, -0.242, -0.2295, -0.267, -0.2295, 0.39075, 0, 0
+ 445, 0, 0, -0.24775, -0.437, -0.4745, -0.437, -0.3995, -0.387, -0.4245, -0.387, 0.2865, 0, 0
+ 450, 0, 0, -0.3405, -0.21025, -0.24775, -0.21025, -0.34775, -0.33525, -0.37275, -0.33525, 0.3905, 0, 0
+ 455, 0, 0, -0.3175, -0.112, -0.1495, -0.112, -0.0745, -0.062, -0.0995, -0.062, -0.001, 0, 0
+ 460, 0, 0, -0.264, -0.32025, -0.35775, -0.32025, -0.45775, -0.44525, -0.48275, -0.44525, -0.76075, 0, 0
+ 465, 0, 0, 0.018, -0.58025, -0.61775, -0.58025, -0.54275, -0.53025, -0.56775, -0.53025, -0.601, 0, 0
+ 470, 0, 0, 0.007, 0.67125, 0.63375, 0.67125, 0.53375, 0.54625, 0.50875, 0.54625, -0.12025, 0, 0
+ 475, 0, 0, -0.10725, 0.50675, 0.46925, 0.50675, 0.54425, 0.55675, 0.51925, 0.55675, 0.2445, 0, 0
+ 480, 0, 0, -0.32625, 0.4285, 0.391, 0.4285, 0.291, 0.3035, 0.266, 0.3035, 0.5675, 0, 0
+ 485, 0, 0, -0.18925, 0.19375, 0.15625, 0.19375, 0.18125, 0.19375, 0.15625, 0.19375, 0.77575, 0, 0
+ 490, 0, 0, -0.03975, 0.55175, 0.51425, 0.55175, 0.41425, 0.42675, 0.38925, 0.42675, 0.4705, 0, 0
+ 495, 0, 0, 0.2615, 0.4725, 0.435, 0.4725, 0.46, 0.4725, 0.435, 0.4725, 0.4895, 0, 0
+ 500, 0, 0, 0.25375, 0.647, 0.6095, 0.647, 0.5095, 0.522, 0.4845, 0.522, 0.4255, 0, 0
+ 505, 0, 0, -0.1455, 0.19575, 0.15825, 0.19575, 0.18325, 0.19575, 0.15825, 0.19575, 0.34925, 0, 0
+ 510, 0, 0, -0.175, -0.27375, -0.31125, -0.27375, -0.28625, -0.27375, -0.31125, -0.27375, -0.10625, 0, 0
+ 515, 0, 0, -0.319, -0.11325, -0.15075, -0.11325, -0.07575, -0.06325, -0.10075, -0.06325, 0.098, 0, 0
+ 520, 0, 0, -0.319, -0.11325, -0.15075, -0.11325, -0.07575, -0.06325, -0.10075, -0.06325, 0.098, 0, 0
+ 525, 0, 0, -0.175, -0.27375, -0.31125, -0.27375, -0.28625, -0.27375, -0.31125, -0.27375, -0.10625, 0, 0
+ 530, 0, 0, -0.1455, 0.19575, 0.15825, 0.19575, 0.18325, 0.19575, 0.15825, 0.19575, 0.34925, 0, 0
+ 535, 0, 0, 0.25375, 0.647, 0.6095, 0.647, 0.5095, 0.522, 0.4845, 0.522, 0.4255, 0, 0
+ 540, 0, 0, 0.2615, 0.4725, 0.435, 0.4725, 0.46, 0.4725, 0.435, 0.4725, 0.4895, 0, 0
+ 545, 0, 0, -0.03975, 0.55175, 0.51425, 0.55175, 0.41425, 0.42675, 0.38925, 0.42675, 0.4705, 0, 0
+ 550, 0, 0, -0.18925, 0.19375, 0.15625, 0.19375, 0.18125, 0.19375, 0.15625, 0.19375, 0.77575, 0, 0
+ 555, 0, 0, -0.32625, 0.4285, 0.391, 0.4285, 0.291, 0.3035, 0.266, 0.3035, 0.5675, 0, 0
+ 560, 0, 0, -0.10725, 0.50675, 0.46925, 0.50675, 0.54425, 0.55675, 0.51925, 0.55675, 0.2445, 0, 0
+ 565, 0, 0, 0.007, 0.67125, 0.63375, 0.67125, 0.53375, 0.54625, 0.50875, 0.54625, -0.12025, 0, 0
+ 570, 0, 0, 0.018, -0.58025, -0.61775, -0.58025, -0.54275, -0.53025, -0.56775, -0.53025, -0.601, 0, 0
+ 575, 0, 0, -0.264, -0.32025, -0.35775, -0.32025, -0.45775, -0.44525, -0.48275, -0.44525, -0.76075, 0, 0
+ 580, 0, 0, -0.3175, -0.112, -0.1495, -0.112, -0.0745, -0.062, -0.0995, -0.062, -0.001, 0, 0
+ 585, 0, 0, -0.3405, -0.21025, -0.24775, -0.21025, -0.34775, -0.33525, -0.37275, -0.33525, 0.3905, 0, 0
+ 590, 0, 0, -0.24775, -0.437, -0.4745, -0.437, -0.3995, -0.387, -0.4245, -0.387, 0.2865, 0, 0
+ 595, 0, 0, -0.487, -0.2295, -0.267, -0.2295, -0.242, -0.2295, -0.267, -0.2295, 0.39075, 0, 0
+ 600, 0, 0, -0.2985, -0.455, -0.4925, -0.455, -0.4675, -0.455, -0.4925, -0.455, 0.12075, 0, 0
+ 605, 0, 0, 0.01625, -0.093, -0.1305, -0.093, -0.0555, -0.043, -0.0805, -0.043, 0.093, 0, 0
+ 610, 0, 0, 0.373, -0.04975, -0.08725, -0.04975, -0.18725, -0.17475, -0.21225, -0.17475, 0.044, 0, 0
+ 615, 0, 0, -0.15775, -0.038, -0.0755, -0.038, -0.0005, 0.012, -0.0255, 0.012, 0.242, 0, 0
+ 620, 0, 0, 0.368, 0.029, -0.0085, 0.029, 0.0165, 0.029, -0.0085, 0.029, 0.16025, 0, 0
+ 625, 0, 0, 0.368, 0.029, -0.0085, 0.029, 0.0165, 0.029, -0.0085, 0.029, 0.16025, 0, 0
+ 630, 0, 0, -0.15775, -0.038, -0.0755, -0.038, -0.0005, 0.012, -0.0255, 0.012, 0.242, 0, 0
+ 635, 0, 0, 0.373, -0.04975, -0.08725, -0.04975, -0.18725, -0.17475, -0.21225, -0.17475, 0.044, 0, 0
+ 640, 0, 0, 0.01625, -0.093, -0.1305, -0.093, -0.0555, -0.043, -0.0805, -0.043, 0.093, 0, 0
+ 645, 0, 0, -0.2985, -0.455, -0.4925, -0.455, -0.4675, -0.455, -0.4925, -0.455, 0.12075, 0, 0
+ 650, 0, 0, -0.487, -0.2295, -0.267, -0.2295, -0.242, -0.2295, -0.267, -0.2295, 0.39075, 0, 0
+ 655, 0, 0, -0.24775, -0.437, -0.4745, -0.437, -0.3995, -0.387, -0.4245, -0.387, 0.2865, 0, 0
+ 660, 0, 0, -0.3405, -0.21025, -0.24775, -0.21025, -0.34775, -0.33525, -0.37275, -0.33525, 0.3905, 0, 0
+ 665, 0, 0, -0.3175, -0.112, -0.1495, -0.112, -0.0745, -0.062, -0.0995, -0.062, -0.001, 0, 0
+ 670, 0, 0, -0.264, -0.32025, -0.35775, -0.32025, -0.45775, -0.44525, -0.48275, -0.44525, -0.76075, 0, 0
+ 675, 0, 0, 0.018, -0.58025, -0.61775, -0.58025, -0.54275, -0.53025, -0.56775, -0.53025, -0.601, 0, 0
+ 680, 0, 0, 0.007, 0.67125, 0.63375, 0.67125, 0.53375, 0.54625, 0.50875, 0.54625, -0.12025, 0, 0
+ 685, 0, 0, -0.10725, 0.50675, 0.46925, 0.50675, 0.54425, 0.55675, 0.51925, 0.55675, 0.2445, 0, 0
+ 690, 0, 0, -0.32625, 0.4285, 0.391, 0.4285, 0.291, 0.3035, 0.266, 0.3035, 0.5675, 0, 0
+ 695, 0, 0, -0.18925, 0.19375, 0.15625, 0.19375, 0.18125, 0.19375, 0.15625, 0.19375, 0.77575, 0, 0
+ 700, 0, 0, -0.03975, 0.55175, 0.51425, 0.55175, 0.41425, 0.42675, 0.38925, 0.42675, 0.4705, 0, 0
+ 705, 0, 0, 0.2615, 0.4725, 0.435, 0.4725, 0.46, 0.4725, 0.435, 0.4725, 0.4895, 0, 0
+ 710, 0, 0, 0.25375, 0.647, 0.6095, 0.647, 0.5095, 0.522, 0.4845, 0.522, 0.4255, 0, 0
+ 715, 0, 0, -0.1455, 0.19575, 0.15825, 0.19575, 0.18325, 0.19575, 0.15825, 0.19575, 0.34925, 0, 0
+ 720, 0, 0, -0.175, -0.27375, -0.31125, -0.27375, -0.28625, -0.27375, -0.31125, -0.27375, -0.10625, 0, 0
+ 725, 0, 0, -0.319, -0.11325, -0.15075, -0.11325, -0.07575, -0.06325, -0.10075, -0.06325, 0.098, 0, 0
+ 730, 0, 0, -0.319, -0.11325, -0.15075, -0.11325, -0.07575, -0.06325, -0.10075, -0.06325, 0.098, 0, 0
+ 735, 0, 0, -0.175, -0.27375, -0.31125, -0.27375, -0.28625, -0.27375, -0.31125, -0.27375, -0.10625, 0, 0
+ 740, 0, 0, -0.1455, 0.19575, 0.15825, 0.19575, 0.18325, 0.19575, 0.15825, 0.19575, 0.34925, 0, 0
+ 745, 0, 0, 0.25375, 0.647, 0.6095, 0.647, 0.5095, 0.522, 0.4845, 0.522, 0.4255, 0, 0
+ 750, 0, 0, 0.2615, 0.4725, 0.435, 0.4725, 0.46, 0.4725, 0.435, 0.4725, 0.4895, 0, 0
+ 755, 0, 0, -0.03975, 0.55175, 0.51425, 0.55175, 0.41425, 0.42675, 0.38925, 0.42675, 0.4705, 0, 0
+ 760, 0, 0, -0.18925, 0.19375, 0.15625, 0.19375, 0.18125, 0.19375, 0.15625, 0.19375, 0.77575, 0, 0
+ 765, 0, 0, -0.32625, 0.4285, 0.391, 0.4285, 0.291, 0.3035, 0.266, 0.3035, 0.5675, 0, 0
+ 770, 0, 0, -0.10725, 0.50675, 0.46925, 0.50675, 0.54425, 0.55675, 0.51925, 0.55675, 0.2445, 0, 0
+ 775, 0, 0, 0.007, 0.67125, 0.63375, 0.67125, 0.53375, 0.54625, 0.50875, 0.54625, -0.12025, 0, 0
+ 780, 0, 0, 0.018, -0.58025, -0.61775, -0.58025, -0.54275, -0.53025, -0.56775, -0.53025, -0.601, 0, 0
+ 785, 0, 0, -0.264, -0.32025, -0.35775, -0.32025, -0.45775, -0.44525, -0.48275, -0.44525, -0.76075, 0, 0
+ 790, 0, 0, -0.3175, -0.112, -0.1495, -0.112, -0.0745, -0.062, -0.0995, -0.062, -0.001, 0, 0
+ 795, 0, 0, -0.3405, -0.21025, -0.24775, -0.21025, -0.34775, -0.33525, -0.37275, -0.33525, 0.3905, 0, 0
+ 800, 0, 0, -0.24775, -0.437, -0.4745, -0.437, -0.3995, -0.387, -0.4245, -0.387, 0.2865, 0, 0
+ 805, 0, 0, -0.487, -0.2295, -0.267, -0.2295, -0.242, -0.2295, -0.267, -0.2295, 0.39075, 0, 0
+ 810, 0, 0, -0.2985, -0.455, -0.4925, -0.455, -0.4675, -0.455, -0.4925, -0.455, 0.12075, 0, 0
+ 815, 0, 0, 0.01625, -0.093, -0.1305, -0.093, -0.0555, -0.043, -0.0805, -0.043, 0.093, 0, 0
+ 820, 0, 0, 0.373, -0.04975, -0.08725, -0.04975, -0.18725, -0.17475, -0.21225, -0.17475, 0.044, 0, 0
+ 825, 0, 0, -0.15775, -0.038, -0.0755, -0.038, -0.0005, 0.012, -0.0255, 0.012, 0.242, 0, 0
+ 830, 0, 0, 0.368, 0.029, -0.0085, 0.029, 0.0165, 0.029, -0.0085, 0.029, 0.16025, 0, 0
+ 835, 0, 0, 0.368, 0.029, -0.0085, 0.029, 0.0165, 0.029, -0.0085, 0.029, 0.16025, 0, 0
+ 840, 0, 0, -0.15775, -0.038, -0.0755, -0.038, -0.0005, 0.012, -0.0255, 0.012, 0.242, 0, 0
+ 845, 0, 0, 0.373, -0.04975, -0.08725, -0.04975, -0.18725, -0.17475, -0.21225, -0.17475, 0.044, 0, 0
+ 850, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+ 860, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+ENDTABLE
+ROAD_DZ_GAIN(2)     1 ! Gain multiplied with calculated value to get dZ
+ROAD_DZ_OFFSET(2)   0 ; m ! Offset added (after gain) to get dZ
+SSTART_ROAD_DZ(2)   0 ; m ! Offset subtracted from station
+SSCALE_ROAD_DZ(2)   1 ! Scale factor divided into (station - SSTART_ROAD_DZ)
+L_START_ROAD_DZ(2)  0 ; m ! Offset subtracted from lateral position
+L_SCALE_ROAD_DZ(2)  1 ! Scale factor divided into (lateral position -
+                      ! L_START_ROAD_DZ)
+
+! ROAD_L_BOUNDARY: Road left/right boundary limit L. L is a function of station
+! (CONSTANT, COEFFICIENT, or TABLE). Alternatively, a custom equation can be defined
+! at runtime. L from the calculation can be adjusted with ROAD_L_BOUNDARY_GAIN and
+! ROAD_L_BOUNDARY_OFFSET. Station used in the calculation can be adjusted with
+! SSCALE_ROAD_L_BOUNDARY and SSTART_ROAD_L_BOUNDARY. This configurable function
+! supports 200 datasets; if indices shown below are not used, e.g., (1,2), the
+! current values of the indices IROAD and ISIDE are used to identify the dataset when
+! reading data.
+
+ROAD_L_BOUNDARY_CONSTANT(1,1) 4 ; m ! Constant L, Road 1, left side boundary
+ROAD_L_BOUNDARY_GAIN(1,1) 1 ! Gain multiplied with calculated value to get L
+ROAD_L_BOUNDARY_OFFSET(1,1) 0 ; m ! Offset added (after gain) to get L
+
+ROAD_L_BOUNDARY_CONSTANT(1,2) -4 ; m ! Constant L, Road 1, right side boundary
+ROAD_L_BOUNDARY_GAIN(1,2) 1 ! Gain multiplied with calculated value to get L
+ROAD_L_BOUNDARY_OFFSET(1,2) 0 ; m ! Offset added (after gain) to get L
+
+! ROAD_NEW_ID: Left/right boundary: 0 -> no boundary, -1 stop when L reaches
+! boundary, > 0 ID of adjacent road. ID is a function of S (CONSTANT, COEFFICIENT, or
+! TABLE). Alternatively, a custom equation can be defined at runtime. ID from the
+! calculation can be adjusted with ROAD_NEW_ID_GAIN and ROAD_NEW_ID_OFFSET. S used in
+! the calculation can be adjusted with SSCALE_ROAD_NEW_ID and SSTART_ROAD_NEW_ID.
+! This configurable function supports 200 datasets; if indices shown below are not
+! used, e.g., (1,2), the current values of the indices IROAD and ISIDE are used to
+! identify the dataset when reading data.
+
+ROAD_NEW_ID_CONSTANT(1,1) -1 ; - ! Constant ID, Road 1, left side boundary
+ROAD_NEW_ID_GAIN(1,1) 1 ! Gain multiplied with calculated value to get ID
+ROAD_NEW_ID_OFFSET(1,1) 0 ; - ! Offset added (after gain) to get ID
+
+ROAD_NEW_ID_CONSTANT(1,2) -1 ; - ! Constant ID, Road 1, right side boundary
+ROAD_NEW_ID_GAIN(1,2) 1 ! Gain multiplied with calculated value to get ID
+ROAD_NEW_ID_OFFSET(1,2) 0 ; - ! Offset added (after gain) to get ID
+
+! ROAD_ZS: Road elevation component related only to road station S. Elevation is a
+! function of station (CONSTANT, COEFFICIENT, or TABLE). Elevation from the
+! calculation can be adjusted with ROAD_ZS_GAIN and ROAD_ZS_OFFSET. Station used in
+! the calculation can be adjusted with SSCALE_ROAD_ZS and SSTART_ROAD_ZS. The
+! derivative of this function is used internally. This configurable function supports
+! 100 datasets; if indices shown below are not used, e.g., (2), the current value of
+! the index IROAD is used to identify the dataset when reading data.
+
+! 1D table: col 1 = station (m), col 2 = elevation (m)
+ROAD_ZS_TABLE(1) SPLINE ! spline interpolation and extrapolation
+ 0, 0
+ 14.995, 0
+ 29.99, 0
+ 44.985, 0
+ 59.98, 0
+ 74.975, 0
+ 89.97, 0
+ 104.965, 0
+ 119.96, 0
+ 134.955, 0
+ 149.95, 0
+ 149.955, 0
+ 149.96, 0
+ 149.965, 0
+ 149.97, 0
+ 149.975, 0
+ 149.98, 0
+ 149.985, 0
+ 149.99, 0
+ 149.995, 0
+ 150, 0
+ 150.005, 0
+ 150.01, 0
+ 150.015, 0
+ 150.02, 0
+ 150.025, 0
+ 150.03, 0
+ 150.035, 0
+ 150.04, 0
+ 150.045, 0
+ 150.05, 0
+ 151.6107764, 0
+ 153.1715528, 0
+ 154.7323292, 0
+ 156.2931056, 0
+ 157.8538819, 0
+ 159.4146583, 0
+ 160.9754347, 0
+ 162.5362111, 0
+ 164.0969875, 0
+ 165.6577639, 0
+ 165.6627639, 0
+ 165.6677639, 0
+ 165.6727639, 0
+ 165.6777639, 0
+ 165.6827639, 0
+ 165.6877639, 0
+ 165.6927639, 0
+ 165.6977639, 0
+ 165.7027639, 0
+ 165.7077639, 0
+ 165.7127639, 0
+ 165.7177639, 0
+ 165.7227639, 0
+ 165.7277639, 0
+ 165.7327639, 0
+ 165.7377639, 0
+ 165.7427639, 0
+ 165.7477639, 0
+ 165.7527639, 0
+ 165.7577639, 0
+ 166.7477639, 0
+ 167.7377639, 0
+ 168.7277639, 0
+ 169.7177639, 0
+ 170.7077639, 0
+ 171.6977639, 0
+ 172.6877639, 0
+ 173.6777639, 0
+ 174.6677639, 0
+ 175.6577639, 0
+ 175.6627639, 4.556936358e-06
+ 175.6677639, 0
+ 175.6727639, -1.367540972e-05
+ 175.6777639, 2.418502248e-16
+ 175.6827639, 5.014470251e-05
+ 175.6877639, -8.983083067e-16
+ 175.6927639, -0.0002811095847
+ 175.6977639, -0.000753649475
+ 175.7027639, -0.001335532581
+ 175.7077639, -0.001944671812
+ 175.7127639, -0.002498980079
+ 175.7177639, -0.002916370292
+ 175.7227639, -0.00311475536
+ 175.7277639, -0.003012048193
+ 175.7327639, -0.002580289618
+ 175.7377639, -0.002008032129
+ 175.7427639, -0.001486865387
+ 175.7477639, -0.001004016064
+ 175.7527639, -0.0005083934141
+ 175.7577639, 0
+ 178.2477639, 0.25
+ 180.7377639, 0.5
+ 183.2277639, 0.75
+ 185.7177639, 1
+ 188.2077639, 1.25
+ 190.6977639, 1.5
+ 193.1877639, 1.75
+ 195.6777639, 2
+ 198.1677639, 2.25
+ 200.6577639, 2.5
+ 200.6627639, 2.500513279
+ 200.6677639, 2.501004016
+ 200.6727639, 2.501472207
+ 200.6777639, 2.502008032
+ 200.6827639, 2.502634037
+ 200.6877639, 2.503012048
+ 200.6927639, 2.502813448
+ 200.6977639, 2.502108572
+ 200.7027639, 2.501067491
+ 200.7077639, 2.499860277
+ 200.7127639, 2.498657003
+ 200.7177639, 2.49762774
+ 200.7227639, 2.496942562
+ 200.7277639, 2.496771539
+ 200.7327639, 2.497184174
+ 200.7377639, 2.497847692
+ 200.7427639, 2.49841998
+ 200.7477639, 2.498923846
+ 200.7527639, 2.499450522
+ 200.7577639, 2.5
+ 202.6162344, 2.7
+ 204.4747049, 2.9
+ 206.3331754, 3.1
+ 208.1916458, 3.3
+ 210.0501163, 3.5
+ 211.9085868, 3.7
+ 213.7670573, 3.9
+ 215.6255278, 4.1
+ 217.4839983, 4.3
+ 219.3424688, 4.5
+ 219.4424688, 4.51017388
+ 219.5424688, 4.518299636
+ 219.6424688, 4.524469902
+ 219.7424688, 4.528859982
+ 219.8424688, 4.531645178
+ 219.9424688, 4.533000792
+ 220.0424688, 4.533102125
+ 220.1424688, 4.532124481
+ 220.2424688, 4.530243161
+ 220.3424688, 4.527633468
+ 220.4424688, 4.524470703
+ 220.5424688, 4.52093017
+ 220.6424688, 4.517187169
+ 220.7424688, 4.513417004
+ 220.8424688, 4.509794976
+ 220.9424688, 4.506496388
+ 221.0424688, 4.503696542
+ 221.1424688, 4.50157074
+ 221.2424688, 4.500294284
+ 221.3424688, 4.5
+ 222.1424688, 4.5
+ 222.9424688, 4.5
+ 223.7424688, 4.5
+ 224.5424688, 4.5
+ 225.3424688, 4.5
+ 226.1424688, 4.5
+ 226.9424688, 4.5
+ 227.7424688, 4.5
+ 228.5424688, 4.5
+ 229.3424688, 4.5
+ 229.4424688, 4.500601683
+ 229.5424688, 4.503211482
+ 229.6424688, 4.507557825
+ 229.7424688, 4.513282296
+ 229.8424688, 4.520026478
+ 229.9424688, 4.527431954
+ 230.0424688, 4.535140306
+ 230.1424688, 4.542793118
+ 230.2424688, 4.550031974
+ 230.3424688, 4.556498456
+ 230.4424688, 4.561834146
+ 230.5424688, 4.565680629
+ 230.6424688, 4.567679488
+ 230.7424688, 4.567472305
+ 230.8424688, 4.564700663
+ 230.9424688, 4.559006146
+ 231.0424688, 4.550030336
+ 231.1424688, 4.537414817
+ 231.2424688, 4.520801172
+ 231.3424688, 4.5
+ 232.7059393, 4.2
+ 234.0694097, 3.9
+ 235.4328802, 3.6
+ 236.7963507, 3.3
+ 238.1598212, 3
+ 239.5232917, 2.7
+ 240.8867622, 2.4
+ 242.2502327, 2.1
+ 243.6137032, 1.8
+ 244.9771736, 1.5
+ 245.4771736, 1.398215387
+ 245.9771736, 1.314072333
+ 246.4771736, 1.246439476
+ 246.9771736, 1.194158148
+ 247.4771736, 1.156069685
+ 247.9771736, 1.131015421
+ 248.4771736, 1.11783669
+ 248.9771736, 1.115374826
+ 249.4771736, 1.122471164
+ 249.9771736, 1.137967036
+ 250.4771736, 1.160703779
+ 250.9771736, 1.189522726
+ 251.4771736, 1.22326521
+ 251.9771736, 1.260772568
+ 252.4771736, 1.300886131
+ 252.9771736, 1.342447235
+ 253.4771736, 1.384297215
+ 253.9771736, 1.425277403
+ 254.4771736, 1.464229134
+ 254.9771736, 1.5
+ 262.3260556, 2
+ 269.6749375, 2.5
+ 277.0238195, 3
+ 284.3727014, 3.5
+ 291.7215834, 4
+ 299.0704653, 4.5
+ 306.4193473, 5
+ 313.7682292, 5.5
+ 321.1171112, 6
+ 328.4659931, 6.5
+ 328.4709931, 6.500352395
+ 328.4759931, 6.500680376
+ 328.4809931, 6.500983939
+ 328.4859931, 6.501360751
+ 328.4909931, 6.501835229
+ 328.4959931, 6.502041127
+ 328.5009931, 6.501624771
+ 328.5059931, 6.500673452
+ 328.5109931, 6.499384702
+ 328.5159931, 6.497956051
+ 328.5209931, 6.49658503
+ 328.5259931, 6.49546917
+ 328.5309931, 6.494806002
+ 328.5359931, 6.494793057
+ 328.5409931, 6.49550546
+ 328.5459931, 6.496528705
+ 328.5509931, 6.497438916
+ 328.5559931, 6.498264352
+ 328.5609931, 6.499118048
+ 328.5659931, 6.5
+ 336.0559931, 7.8
+ 343.5459931, 9.1
+ 351.0359931, 10.4
+ 358.5259931, 11.7
+ 366.0159931, 13
+ 373.5059931, 14.3
+ 380.9959931, 15.6
+ 388.4859931, 16.9
+ 395.9759931, 18.2
+ 403.4659931, 19.5
+ 403.4709931, 19.50087886
+ 403.4759931, 19.50173565
+ 403.4809931, 19.50257035
+ 403.4859931, 19.5034713
+ 403.4909931, 19.50446056
+ 403.4959931, 19.50520694
+ 403.5009931, 19.50538449
+ 403.5059931, 19.50504154
+ 403.5109931, 19.50432
+ 403.5159931, 19.50336176
+ 403.5209931, 19.50230874
+ 403.5259931, 19.50130284
+ 403.5309931, 19.50048596
+ 403.5359931, 19.5
+ 403.5409931, 19.49991331
+ 403.5459931, 19.5
+ 403.5509931, 19.50002364
+ 403.5559931, 19.5
+ 403.5609931, 19.49999212
+ 403.5659931, 19.5
+ 407.7447302, 19.5
+ 411.9234672, 19.5
+ 416.1022042, 19.5
+ 420.2809413, 19.5
+ 424.4596783, 19.5
+ 428.6384154, 19.5
+ 432.8171524, 19.5
+ 436.9958894, 19.5
+ 441.1746265, 19.5
+ 445.3533635, 19.5
+ 445.3583635, 19.49999088
+ 445.3633635, 19.5
+ 445.3683635, 19.50002735
+ 445.3733635, 19.5
+ 445.3783635, 19.49989971
+ 445.3833635, 19.5
+ 445.3883635, 19.50056222
+ 445.3933635, 19.5015073
+ 445.3983635, 19.50267107
+ 445.4033635, 19.50388934
+ 445.4083635, 19.50499796
+ 445.4133635, 19.50583274
+ 445.4183635, 19.50622951
+ 445.4233635, 19.5060241
+ 445.4283635, 19.50516058
+ 445.4333635, 19.50401606
+ 445.4383635, 19.50297373
+ 445.4433635, 19.50200803
+ 445.4483635, 19.50101679
+ 445.4533635, 19.5
+ 447.9433635, 19
+ 450.4333635, 18.5
+ 452.9233635, 18
+ 455.4133635, 17.5
+ 457.9033635, 17
+ 460.3933635, 16.5
+ 462.8833635, 16
+ 465.3733635, 15.5
+ 467.8633635, 15
+ 470.3533635, 14.5
+ 470.3583635, 14.49897778
+ 470.3633635, 14.49799197
+ 470.3683635, 14.49704257
+ 470.3733635, 14.49598394
+ 470.3783635, 14.49477966
+ 470.3833635, 14.4939759
+ 470.3883635, 14.4941055
+ 470.3933635, 14.49506542
+ 470.3983635, 14.49659366
+ 470.4033635, 14.49842821
+ 470.4083635, 14.50030709
+ 470.4133635, 14.50196828
+ 470.4183635, 14.50314978
+ 470.4233635, 14.5035896
+ 470.4283635, 14.50317534
+ 470.4333635, 14.50239307
+ 470.4383635, 14.50174462
+ 470.4433635, 14.50119653
+ 470.4483635, 14.50061499
+ 470.4533635, 14.5
+ 474.6321006, 14
+ 478.8108376, 13.5
+ 482.9895746, 13
+ 487.1683117, 12.5
+ 491.3470487, 12
+ 495.5257858, 11.5
+ 499.7045228, 11
+ 503.8832598, 10.5
+ 508.0619969, 10
+ 512.2407339, 9.5
+ 512.2457339, 9.499388779
+ 512.2507339, 9.498803466
+ 512.2557339, 9.498244066
+ 512.2607339, 9.497606932
+ 512.2657339, 9.496866153
+ 512.2707339, 9.496410399
+ 512.2757339, 9.496617586
+ 512.2807339, 9.497408042
+ 512.2857339, 9.498587697
+ 512.2907339, 9.499962481
+ 512.2957339, 9.501338322
+ 512.3007339, 9.502521151
+ 512.3057339, 9.503316897
+ 512.3107339, 9.503531489
+ 512.3157339, 9.503085032
+ 512.3207339, 9.502354326
+ 512.3257339, 9.501726984
+ 512.3307339, 9.501177163
+ 512.3357339, 9.500601501
+ 512.3407339, 9.5
+ 520.8357339, 8.5
+ 529.3307339, 7.5
+ 537.8257339, 6.5
+ 546.3207339, 5.5
+ 554.8157339, 4.5
+ 563.3107339, 3.5
+ 571.8057339, 2.5
+ 580.3007339, 1.5
+ 588.7957339, 0.5
+ 597.2907339, -0.5
+ 598.7907339, -0.6599158112
+ 600.2907339, -0.7870253618
+ 601.7907339, -0.8839859588
+ 603.2907339, -0.953460633
+ 604.7907339, -0.9981124149
+ 606.2907339, -1.020604335
+ 607.7907339, -1.023599424
+ 609.2907339, -1.009760712
+ 610.7907339, -0.981751231
+ 612.2907339, -0.9422340101
+ 613.7907339, -0.8938720805
+ 615.2907339, -0.8393284727
+ 616.7907339, -0.7812662174
+ 618.2907339, -0.722348345
+ 619.7907339, -0.6652378862
+ 621.2907339, -0.6125978716
+ 622.7907339, -0.5670913318
+ 624.2907339, -0.5313812974
+ 625.7907339, -0.5081307989
+ 627.2907339, -0.5
+ 628.0631847, -0.5
+ 628.8356355, -0.5
+ 629.6080863, -0.5
+ 630.3805372, -0.5
+ 631.152988, -0.5
+ 631.9254388, -0.5
+ 632.6978896, -0.5
+ 633.4703404, -0.5
+ 634.2427912, -0.5
+ 635.015242, -0.5
+ 636.015242, -0.5021426245
+ 637.015242, -0.5083473175
+ 638.015242, -0.5179009463
+ 639.015242, -0.5300886471
+ 640.015242, -0.5441955557
+ 641.015242, -0.559506808
+ 642.015242, -0.5753075399
+ 643.015242, -0.5908828875
+ 644.015242, -0.6055179865
+ 645.015242, -0.6184979729
+ 646.015242, -0.6291079826
+ 647.015242, -0.6366331515
+ 648.015242, -0.6403586157
+ 649.015242, -0.6395695108
+ 650.015242, -0.633550973
+ 651.015242, -0.6215881382
+ 652.015242, -0.6029661421
+ 653.015242, -0.5769701208
+ 654.015242, -0.5428852102
+ 655.015242, -0.5
+ 659.2461633, -0.3
+ 663.4770846, -0.1
+ 667.7080059, 0.1
+ 671.9389272, 0.3
+ 676.1698485, 0.5
+ 680.4007698, 0.7
+ 684.6316911, 0.9
+ 688.8626124, 1.1
+ 693.0935337, 1.3
+ 697.324455, 1.5
+ 697.329455, 1.500244832
+ 697.334455, 1.50047271
+ 697.339455, 1.500683634
+ 697.344455, 1.500945421
+ 697.349455, 1.501275024
+ 697.354455, 1.501418131
+ 697.359455, 1.501129156
+ 697.364455, 1.500468704
+ 697.369455, 1.499573929
+ 697.374455, 1.498581983
+ 697.379455, 1.497630019
+ 697.384455, 1.496855188
+ 697.389455, 1.496394645
+ 697.394455, 1.496385542
+ 697.399455, 1.496880043
+ 697.404455, 1.497590361
+ 697.409455, 1.4982222
+ 697.414455, 1.498795181
+ 697.419455, 1.499387782
+ 697.424455, 1.5
+ 699.914455, 1.8
+ 702.404455, 2.1
+ 704.894455, 2.4
+ 707.384455, 2.7
+ 709.874455, 3
+ 712.364455, 3.3
+ 714.854455, 3.6
+ 717.344455, 3.9
+ 719.834455, 4.2
+ 722.324455, 4.5
+ 722.329455, 4.500610072
+ 722.334455, 4.501204819
+ 722.339455, 4.501784238
+ 722.344455, 4.502409639
+ 722.349455, 4.503096348
+ 722.354455, 4.503614458
+ 722.359455, 4.503737706
+ 722.364455, 4.503499644
+ 722.369455, 4.502998776
+ 722.374455, 4.502333606
+ 722.379455, 4.501602639
+ 722.384455, 4.50090438
+ 722.389455, 4.500337332
+ 722.394455, 4.5
+ 722.399455, 4.499939826
+ 722.404455, 4.5
+ 722.409455, 4.500016411
+ 722.414455, 4.5
+ 722.419455, 4.49999453
+ 722.424455, 4.5
+ 730.268337, 4.5
+ 738.1122189, 4.5
+ 745.9561009, 4.5
+ 753.7999828, 4.5
+ 761.6438648, 4.5
+ 769.4877467, 4.5
+ 777.3316287, 4.5
+ 785.1755106, 4.5
+ 793.0193926, 4.5
+ 800.8632745, 4.5
+ 800.8682745, 4.499995906
+ 800.8732745, 4.5
+ 800.8782745, 4.500012284
+ 800.8832745, 4.5
+ 800.8882745, 4.49995496
+ 800.8932745, 4.5
+ 800.8982745, 4.500252492
+ 800.9032745, 4.500676925
+ 800.9082745, 4.501199571
+ 800.9132745, 4.501746697
+ 800.9182745, 4.502244575
+ 800.9232745, 4.502619473
+ 800.9282745, 4.502797662
+ 800.9332745, 4.502705411
+ 800.9382745, 4.502317607
+ 800.9432745, 4.501803607
+ 800.9482745, 4.501335497
+ 800.9532745, 4.500901804
+ 800.9582745, 4.500456638
+ 800.9632745, 4.5
+ 805.9532745, 4.05
+ 810.9432745, 3.6
+ 815.9332745, 3.15
+ 820.9232745, 2.7
+ 825.9132745, 2.25
+ 830.9032745, 1.8
+ 835.8932745, 1.35
+ 840.8832745, 0.9
+ 845.8732745, 0.45
+ 850.8632745, 0
+ 850.8682745, -0.000456637553
+ 850.8732745, -0.0009018036072
+ 850.8782745, -0.001335497013
+ 850.8832745, -0.001803607214
+ 850.8882745, -0.002317606858
+ 850.8932745, -0.002705410822
+ 850.8982745, -0.002797662018
+ 850.9032745, -0.002619473282
+ 850.9082745, -0.002244574931
+ 850.9132745, -0.00174669728
+ 850.9182745, -0.001199570646
+ 850.9232745, -0.0006769253437
+ 850.9282745, -0.0002524916897
+ 850.9332745, 0
+ 850.9382745, 4.503988168e-05
+ 850.9432745, 0
+ 850.9482745, -1.228350495e-05
+ 850.9532745, 0
+ 850.9582745, 4.094138122e-06
+ 850.9632745, 0
+ 854.7168547, 0
+ 858.470435, 0
+ 862.2240152, 0
+ 865.9775954, 0
+ 869.7311757, 0
+ 873.4847559, 0
+ 877.2383361, 0
+ 880.9919163, 0
+ 884.7454966, 0
+ 888.4990768, 0
+ 888.5040768, 0
+ 888.5090768, 0
+ 888.5140768, 0
+ 888.5190768, 0
+ 888.5240768, 0
+ 888.5290768, 0
+ 888.5340768, 0
+ 888.5390768, 0
+ 888.5440768, 0
+ 888.5490768, 0
+ 888.5540768, 0
+ 888.5590768, 0
+ 888.5640768, 0
+ 888.5690768, 0
+ 888.5740768, 0
+ 888.5790768, 0
+ 888.5840768, 0
+ 888.5890768, 0
+ 888.5940768, 0
+ 888.5990768, 0
+ 912.474608, 0
+ 936.3501393, 0
+ 960.2256705, 0
+ 984.1012018, 0
+ 1007.976733, 0
+ 1031.852264, 0
+ 1055.727796, 0
+ 1079.603327, 0
+ 1103.478858, 0
+ 1127.354389, 0
+ENDTABLE
+ROAD_ZS_GAIN(1)     1 ! Gain multiplied with calculated value to get elevation
+ROAD_ZS_OFFSET(1)   0 ; m ! Offset added (after gain) to get elevation
+SSTART_ROAD_ZS(1)   0 ; m ! Offset subtracted from station
+SSCALE_ROAD_ZS(1)   1 ! Scale factor divided into (station - SSTART_ROAD_ZS)
+
+
+END

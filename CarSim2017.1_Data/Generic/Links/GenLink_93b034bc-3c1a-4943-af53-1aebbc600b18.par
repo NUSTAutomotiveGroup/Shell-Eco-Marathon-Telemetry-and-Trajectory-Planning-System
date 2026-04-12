@@ -1,0 +1,31 @@
+PARSFILE
+#FullDataName Generic Group of Links`ACC Commands`ADAS Combinations
+#VehCode Generic Links
+#BlueLink0 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink1 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink2 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+PARSFILE Generic\VS_commands\GenVS_2a807aaf-6495-4810-a89e-064605a3bd3d.par
+#BlueLink4 Generic VS Commands`Euro NCAP AEB: FCW Booleans and HUD Alert` ADAS Support` , Miscellaneous`GenVS_2a807aaf-6495-4810-a89e-064605a3bd3d
+
+PARSFILE Generic\VS_commands\GenVS_12890b1d-e551-4dba-8cc2-f0367f4d4b2d.par
+#BlueLink5 Generic VS Commands`Euro NCAP AEB: Sensor Booleans` ADAS Support` , Miscellaneous`GenVS_12890b1d-e551-4dba-8cc2-f0367f4d4b2d
+
+#BlueLink13 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink14 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink15 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+
+LOG_ENTRY Used Dataset: Generic Group of Links; { ADAS Combinations } ACC Commands
+#Library : Generic Group of Links
+#DataSet : ACC Commands
+#Category: ADAS Combinations
+#FileID  : GenLink_93b034bc-3c1a-4943-af53-1aebbc600b18
+#Product : CarSim 2017.1
+#VehCode Generic Links
+
+END

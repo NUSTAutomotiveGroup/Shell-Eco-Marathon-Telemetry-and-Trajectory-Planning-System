@@ -1,0 +1,104 @@
+PARSFILE
+#FullDataName Vehicle: Assembly`Utility Truck`Utility Vehicles
+#VehCode Ind_SA
+#CheckBox0 0    
+#CheckBox1 0    
+
+#RingCtrl0 0
+OPT_PT 0
+#RingCtrl1 1
+#RingCtrl2 3
+#RingCtrl3 0
+
+* Front components
+iaxle 1
+symbol_push  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_e548bf39-8cf9-4ac9-87da-be31de48761a.par
+#BlueLink19 Suspension: Independent System Kinematics`Utility Truck - Front` ` , Kinematics`KinInd_e548bf39-8cf9-4ac9-87da-be31de48761a
+
+PARSFILE Suspensions\Compliance\CmpInd_20f124fb-1078-42c5-8027-6c6a4379d786.par
+#BlueLink16 Suspension: Independent Compliance, Springs, and Dampers`Utility Truck - Front` ` , Compliance`CmpInd_20f124fb-1078-42c5-8027-6c6a4379d786
+
+
+OPT_ALL_FOUR_TIRES_ALIKE 1
+
+* LF tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_47113735-159f-4abe-9da9-054e0c04e549.par
+#BlueLink999 Tire`Pacejka 5.2 (Symmetric)` ` , Tire`Tire_47113735-159f-4abe-9da9-054e0c04e549
+
+
+* RF tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_47113735-159f-4abe-9da9-054e0c04e549.par
+#BlueLink10 Tire`Pacejka 5.2 (Symmetric)` ` , Tire`Tire_47113735-159f-4abe-9da9-054e0c04e549
+
+* Rear components
+iaxle 2
+symbol_add  <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_AXLE
+PARSFILE Suspensions\Kin_Solid\KinSA_4a9dca5a-f0cb-45c5-97de-1475b519ec64.par
+#BlueLink23 Suspension: Solid Axle System Kinematics`Utility Truck - Rear` ` , Kinematics`KinSA_4a9dca5a-f0cb-45c5-97de-1475b519ec64
+
+PARSFILE Suspensions\Compliance_SA\CmpSA_0964123e-d1d8-4800-8d40-20e743b65898.par
+#BlueLink22 Suspension: Solid Axle Compliance, Springs, and Dampers`Utility Truck - Rear` ` , Compliance`CmpSA_0964123e-d1d8-4800-8d40-20e743b65898
+
+
+* LR tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_47113735-159f-4abe-9da9-054e0c04e549.par
+#BlueLink999 Tire`Pacejka 5.2 (Symmetric)` ` , Tire`Tire_47113735-159f-4abe-9da9-054e0c04e549
+
+
+* RR tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_47113735-159f-4abe-9da9-054e0c04e549.par
+#BlueLink999 Tire`Pacejka 5.2 (Symmetric)` ` , Tire`Tire_47113735-159f-4abe-9da9-054e0c04e549
+
+symbol_set <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Vehicles\Sprung_Mass\SprMass_48aa4cb6-7ec4-48d2-8ba9-f245146aea63.par
+#BlueLink0 Vehicle: Sprung Mass`Utility Truck` ` , Sprung Mass`SprMass_48aa4cb6-7ec4-48d2-8ba9-f245146aea63
+
+PARSFILE Aerodynamics\Aero_Main\Aero_202c73e7-c8ce-4206-a2f9-7934106b8c43.par
+#BlueLink1 Aerodynamics: Basic`No Aerodynamics` ` , Aerodynamics`Aero_202c73e7-c8ce-4206-a2f9-7934106b8c43
+
+PARSFILE Animator\Vehicles\AniVeh_eb6ed7de-9512-49f3-81cc-37823cfd4a3b.par
+#BlueLink2 Animator: Vehicles and Sensor Targets`Utility Truck` Working Vehicles` , Vehicle 3D Shape`AniVeh_eb6ed7de-9512-49f3-81cc-37823cfd4a3b
+
+R_REAR_DRIVE_SC 1.0
+PMAX_SC 40
+PARSFILE Brakes\4W_System\Brk4W_fe782403-49f0-41fe-9d31-b3b1cb8e31da.par
+#BlueLink6 Brakes: Four-Wheel System`A-Class w/o ABS` A-Class` , Brake System`Brk4W_fe782403-49f0-41fe-9d31-b3b1cb8e31da
+
+PARSFILE Steering\System2\StrSys2_53515216-2d4d-4852-aacd-4c6ae0bc8dbd.par
+#BlueLink7 Steering`Pickup, Compact: Power, Recirc. Ball` Pickup Trucks and SUVs` , Steering System`StrSys2_53515216-2d4d-4852-aacd-4c6ae0bc8dbd
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_eb6ed7de-9512-49f3-81cc-37823cfd4a3b.png
+
+#EMBEDDED_NOTES
+#This example demonstrates a generic small utility truck with an independent front and solid axle rear suspension.
+#
+#This vehicle uses the Minimum Powertrain option. Note that this option will only work with the Closed Loop Speed Controller. Direct throttle and shift controls have no effect without the more detailed powertrain options.
+#
+#Note that PAC52 screen is used to represent the tire data. This tire representation means the vehicle cannot be in used in a simulation that specifies an initial vehicle speed of 0 kph. However, small non-zero values (i.e., 0.001 kph) may be used.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Assembly; { Utility Vehicles } Utility Truck
+#Library : Vehicle: Assembly
+#DataSet : Utility Truck
+#Category: Utility Vehicles
+#FileID  : Vehicle_14b429fb-d8ff-4328-9aff-291d1c0f6b30
+#Product : CarSim 2017.1
+#VehCode Ind_SA
+
+END

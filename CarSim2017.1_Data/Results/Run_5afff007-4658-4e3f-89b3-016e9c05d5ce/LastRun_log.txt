@@ -1,0 +1,315 @@
+Include PARSFILE "Results\Run_5afff007-4658-4e3f-89b3-016e9c05d5ce\Run_all.par"
+Used Dataset: Animator: Reference Frame; { Car Tracking } Car X-Y-Z-Yaw
+Used Dataset: Animator: Camera Setup; { Vehicle Reference } 150 deg. Azimuth, Veh. Ref.
+Used Dataset: Suspension: Dive Angle (Caster Change); Front Strut - Front Dive Angle
+Used Dataset: Suspension: Longitudinal Movement; Strut -  Front
+Used Dataset: Suspension: Camber Angle; Strut - Front
+Used Dataset: Suspension: Lateral Movement Due to Jounce; Strut - Front
+Used Dataset: Suspension: Toe Angle; Strut - Front
+Used Dataset: Suspension: Dive Angle (Caster Change); Front Strut - Front Dive Angle
+Used Dataset: Suspension: Longitudinal Movement; Strut -  Front
+Used Dataset: Suspension: Camber Angle; Strut - Front
+Used Dataset: Suspension: Lateral Movement Due to Jounce; Strut - Front
+Used Dataset: Suspension: Toe Angle; Strut - Front
+Used Dataset: Suspension: Independent System Kinematics; { D-Class } D-Class, Sedan - Front
+Used Dataset: Suspension: Shock Absorber; Big Car
+Used Dataset: Suspension: Jounce and Rebound Stops; +60 mm / -40 mm
+Used Dataset: Suspension: Shock Absorber; Big Car
+Used Dataset: Suspension: Jounce and Rebound Stops; +60 mm / -40 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 384 N-m/deg
+Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { D-Class } D-Class, Sedan - Front
+Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Tire
+Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Euro Sedan Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 215/55 R17 (2016)
+Used Dataset: Tire: Lateral Force; { Touring Tires } 215/55 R17
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 215/55 R17
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 215/55 R17
+Used Dataset: Tire; { Touring Tires } 215/55 R17
+Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Tire
+Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Euro Sedan Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 215/55 R17 (2016)
+Used Dataset: Tire: Lateral Force; { Touring Tires } 215/55 R17
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 215/55 R17
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 215/55 R17
+Used Dataset: Tire; { Touring Tires } 215/55 R17
+Used Dataset: Suspension: Longitudinal Movement; Tri-Link Strut - Rear
+Used Dataset: Suspension: Camber Angle; Tri-Link Strut - Rear
+Used Dataset: Suspension: Lateral Movement Due to Jounce; Tri-Link Strut - Rear
+Used Dataset: Suspension: Toe Angle; Tri-Link Strut - Rear
+Used Dataset: Suspension: Longitudinal Movement; Tri-Link Strut - Rear
+Used Dataset: Suspension: Camber Angle; Tri-Link Strut - Rear
+Used Dataset: Suspension: Lateral Movement Due to Jounce; Tri-Link Strut - Rear
+Used Dataset: Suspension: Toe Angle; Tri-Link Strut - Rear
+Used Dataset: Suspension: Independent System Kinematics; { D-Class } D-Class, Sedan - Rear
+Used Dataset: Suspension: Shock Absorber; Big Car
+Used Dataset: Suspension: Jounce and Rebound Stops; +70 mm / -50 mm
+Used Dataset: Suspension: Shock Absorber; Big Car
+Used Dataset: Suspension: Jounce and Rebound Stops; +70 mm / -50 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 344 N-m/deg
+Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { D-Class } D-Class, Sedan - Rear
+Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Tire
+Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Euro Sedan Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 215/55 R17 (2016)
+Used Dataset: Tire: Lateral Force; { Touring Tires } 215/55 R17
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 215/55 R17
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 215/55 R17
+Used Dataset: Tire; { Touring Tires } 215/55 R17
+Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Tire
+Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Euro Sedan Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 215/55 R17 (2016)
+Used Dataset: Tire: Lateral Force; { Touring Tires } 215/55 R17
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 215/55 R17
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 215/55 R17
+Used Dataset: Tire; { Touring Tires } 215/55 R17
+Used Dataset: Vehicle: Sprung Mass; { D-Class } D-Class, Sedan
+Used Dataset: Aerodynamics: Fx (Drag) Coef. vs. Aero Slip; 0.30 at 0 Degrees
+Used Dataset: Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip; 0.5 at 90 deg
+Used Dataset: Aerodynamics: Fz (Lift) Coef. vs. Aero Slip; 0.18 at 0 Degrees
+Used Dataset: Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip; 0.3 at 90 deg
+Used Dataset: Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip; -0.15 at 0 Degrees
+Used Dataset: Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip; 0.05 at 90 deg
+Used Dataset: Aerodynamics: Basic; Scaleable Aero Properties
+Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Body
+Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Details
+Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Windows
+Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Interior Trim
+Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Steering Wheel
+Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Seats
+Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Driver
+Used Dataset: Animator: Shape Assembly; { CS D-Class } D-Class, Sedan
+Used Dataset: Animator: Sound Modifier; { Wind } Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Wind } Frequency: Speed Effect
+Used Dataset: Animator: Sound Sample; Wind Noise
+Used Dataset: Animator: Sound Set; Wind Noise
+Used Dataset: Animator: Shape File Link; { CS European Sedan } European Sedan: Brake Lights (D-Class)
+Used Dataset: Animator: Vehicles and Sensor Targets; { D-Class Vehicles } D-Class, Sedan
+Used Dataset: Powertrain: Fuel Consumption Rate; 150 kW Gasoline Engine
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power Off Loudness: Load Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power Off Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Gas Engine } 4 Cyl. - Power Off
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power On Loudness: Load Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power On Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Gas Engine } 4 Cyl. - Power On
+Used Dataset: Generic Data Group; { Audio Sound Sets } Gasoline Engine (4 Cylinder)
+Used Dataset: Powertrain: Engine; 150 kW  Engine
+Used Dataset: Powertrain: Torque Converter; Torque Converter for 150 kW Engine
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 1-2 Shift
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 2-3 Shift
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 3-4 Shift
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 4-5 Shift
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 5-6 Shift
+Used Dataset: Powertrain: Transmission (18 Gears or CVT); 6-Speed
+Used Dataset: Powertrain: Front Differential; Open: Gear Ratio 4.1
+Used Dataset: Powertrain: Front Differential; Open: Gear Ratio 4.1
+Used Dataset: Powertrain: Front-Wheel Drive; { 150 kW Powertrains } 150 kW, 6-spd., 4.1 Ratio
+Used Dataset: Brakes: Four-Wheel System; { D-Class } D-Class, Sedan w/ ABS
+Used Dataset: Steering System: Compliance; Constant: Zero
+Used Dataset: Steering System: Kinematics for 2 Wheels (Rack & Pinion); { D-Class } D-Class, Sedan 2017
+Used Dataset: Steering: Power Assist Force; { D-Class } D-Class Sedan 2017, Not Spd Sens
+Used Dataset: Steering System: Compliance; { Constant } Constant: 0.001 deg/N-m
+Used Dataset: Steering: Parking Torque for 2 Wheels; D-Class Sedan 2017
+Used Dataset: Steering; { CS D-Class } D-Class, Sedan 2017: Power, R&P w/ Parking Tq.
+Used Dataset: Generic VS Commands; { Miscellaneous Vehicle Model Extensions } Ignition Switch and Transmission Park (Auto)
+Used Dataset: Vehicle: Assembly; { D-Class } D-Class, Sedan 2017 (Ign. & Park)
+Used Dataset: Control: Steering by the Closed-loop Driver Model; { Constant Position } 1.65 m to the Right
+Used Dataset: Control: Braking MC Pressure (Open Loop); { Constant } Constant: 0.3 MPa
+Used Dataset: Control: Throttle (Open Loop); { Constant } Constant: 0
+Used Dataset: Control: Shifting (Closed Loop); AT All Gears
+ Straight East <Straight>
+Used Dataset: Path: Segment Builder; { Straight } Straight East
+Used Dataset: Road: Friction Map, S-L Grid; { Constant } Constant: 0.85
+Used Dataset: Road: Animator Surface Shapes; { Roads } 1200 m Road + 200 m Light Grass
+Used Dataset: Animator: Reference Frame; Skybox (Vehicle Reference)
+Used Dataset: Animator: Shape File Link; { Skies } Slightly Cloudy Sky
+Used Dataset: Animator: Shape File Link; { Terrain } Complex Land Bowl for Light Grass
+Used Dataset: Animator: Group; { Skies } Slightly Cloudy Sky
+Used Dataset: Road: 3D Surface (All Properties); { Straight } 1200 m, Two Lanes
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for X (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Side View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fx 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for X (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Side View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fx 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for X (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Side View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fx 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for X (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Side View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fx 3D Arrow (Tail Origin)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Force Arrows (2 Axles) } 2A - Fx Tire Force Arrows
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Y (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fy 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Y (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fy 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Y (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fy 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Y (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fy 3D Arrow (Tail Origin)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Force Arrows (2 Axles) } 2A - Fy Tire Force Arrows
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Z (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Side View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fz 3D, Offset (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Z (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Side View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fz 3D, Offset (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Z (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Side View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fz 3D, Offset (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Z (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Side View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fz 3D, Offset (Tail Origin)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Force Arrows (2 Axles) } 2A - Fz Tire Force Arrows
+Used Dataset: Generic Data Group; { Tire Force Arrows } 2 Axle - Fx, Fy, Fz
+Used Dataset: Control: Braking MC Pressure (Open Loop); { Constant } Constant: 0 MPa
+Used Dataset: Events; { Ignition Switch and Transmission Park } A. Start Engine, Drive Off, Stop, Park, Turn Off
+Used Dataset: Powertrain: Engine; 150 kW  Engine Off Motoring Torque
+Used Dataset: Events; { Ignition Switch and Transmission Park } Engine OFF
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Longitudinal Accel. of CG's
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Vehicle Motion } Longitudinal Speed
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Steering } Road Wheel Steer Angle - Front
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Controls: Driver } Trans. Control: Gear Selected
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Controls: Driver } Trans. Control: Mode
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Controls: Driver } Throttle: Closed Loop Speed Control
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { User-Defined Variables } Ignition Switch Information
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Powertrain } Engine Torque
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Powertrain } Engine RPM
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Event Control } Event Count
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Controls: Driver } Brake Control: Master Cyl. Pressure
+Used Dataset: Procedures; Start Engine, Drive Off, Stop, Park, Turn Off
+ Ignition Switch and Transmission Park <Extended Models>
+Used Dataset: CarSim Run Control; { Extended Models } Ignition Switch and Transmission Park
+
+Time to read input = 0.046
+Function FUEL_RATE_CARPET extrapolated (out of range LOW) for X = 0 rpm at T = 0
+Function F_REB_STOP_TABLE(1,1) extrapolated (out of range HIGH) for X = -6.93889e-15 mm at T = 0
+Function F_JNC_STOP_TABLE(1,1) extrapolated (out of range LOW) for X = -6.93889e-15 mm at T = 0
+Function F_REB_STOP_TABLE(1,2) extrapolated (out of range HIGH) for X = -6.93889e-15 mm at T = 0
+Function F_JNC_STOP_TABLE(1,2) extrapolated (out of range LOW) for X = -6.93889e-15 mm at T = 0
+Function F_REB_STOP_TABLE(2,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(2,1) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(2,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(2,2) extrapolated (out of range LOW) for X = 0 mm at T = 0
+
+Run started: ERD output file = Results\Run_5afff007-4658-4e3f-89b3-016e9c05d5ce\LastRun.bin
+
+Event encountered at t = 1.001: T_EVENT > 1 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_edcaf923-c66d-4556-9247-79919f1e609f.par"
+Used Dataset: Events; { Ignition Switch and Transmission Park } B. Start Engine,  Wait 1/2 Second
+
+Event encountered at t = 1.002: IGN_ONOFF == 1 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_22f4592e-90f4-4e5e-b441-a952dc7b5c3b.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Powertrain\Engine\Engine_5fd8cccf-3f87-4967-bf2c-05672393be86.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Powertrain\Fuel_Rate\FuelRate_a32b7233-c00b-43fa-b605-4c55b974550c.par"
+Used Dataset: Powertrain: Fuel Consumption Rate; 150 kW Gasoline Engine
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Generic\Group\GenGrp_efabcbad-be3a-48c3-a446-5dff753de8d2.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Animator\Sound\Sample\SndSmp_4d7e778c-2125-4ad5-be45-0168bdc47528.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Animator\Sound\Modifier\SndMod_1f0cf8cc-9139-44f8-8580-b7c8cf5cc3c1.par"
+WARNING: DEFINE_PARAMETER was used for the keyword "MAX_BRAKE_TORQUE", which was already installed.
+WARNING: DEFINE_OUTPUT did not add a variable because the keyword "V_MOD2" was already in use.
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power Off Loudness: Load Effect
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Animator\Sound\Modifier\SndMod_720c63f3-e191-4b32-9aaa-ef6e7d057a59.par"
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power Off Loudness: Speed Effect
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Animator\Sound\Modifier\SndMod_83ec05bc-29ab-428d-a5ae-1e1a7ffa16f2.par"
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Gas Engine } 4 Cyl. - Power Off
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Animator\Sound\Sample\SndSmp_4a8d24e6-3399-47dc-9bb1-379ea633963a.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Animator\Sound\Modifier\SndMod_82007129-3b66-4c50-babb-2325954a277f.par"
+WARNING: DEFINE_PARAMETER was used for the keyword "MAX_TORQUE", which was already installed.
+WARNING: DEFINE_OUTPUT did not add a variable because the keyword "V_MOD1" was already in use.
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power On Loudness: Load Effect
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Animator\Sound\Modifier\SndMod_c37319df-b7d3-49ac-a826-559afe89c56b.par"
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power On Loudness: Speed Effect
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Animator\Sound\Modifier\SndMod_83ec05bc-29ab-428d-a5ae-1e1a7ffa16f2.par"
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Gas Engine } 4 Cyl. - Power On
+Used Dataset: Generic Data Group; { Audio Sound Sets } Gasoline Engine (4 Cylinder)
+Used Dataset: Powertrain: Engine; 150 kW  Engine
+Used Dataset: Events; { Ignition Switch and Transmission Park } Engine ON
+
+Event encountered at t = 1.502: T_EVENT > 0.5 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_45b903a9-d5a3-48cb-887c-238c18ce4452.par"
+Used Dataset: Events; { Ignition Switch and Transmission Park } C. Engine ON, Wait 2 Seconds
+
+Event encountered at t = 3.502: T_EVENT > 2 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_a79953ab-ae11-4460-a9a5-800b4e708890.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Speed_path\SpdPath_b525f579-b67b-4db2-8cca-9d4215c6901d.par"
+Used Dataset: Control: Speed (Closed Loop) Using Path Preview; { Highway Driving } 0.2/0.2 G Max Ax/Ay Limits, 100 km/h max
+Used Dataset: Events; { Ignition Switch and Transmission Park } D. Shift to DRIVE, Accel. at 0.2 G to 100
+
+Event encountered at t = 19.28: VX > 100 km/h
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_242a62b5-c83c-47f0-b7ce-091b7ea6192c.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Throttle\Throttle_768d3744-c109-4ff7-a65b-3b0bea560117.par"
+Used Dataset: Control: Throttle (Open Loop); { Constant } Constant: 0
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Braking\PbkCon_99583725-3fab-4a15-a40c-665c2c8bd2f5.par"
+Used Dataset: Control: Braking MC Pressure (Open Loop); { Constant } Constant: 3 MPa
+Used Dataset: Events; { Ignition Switch and Transmission Park } E. Brake to a Stop
+
+Event encountered at t = 25.944: VX < 0.1 km/h
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_8558b32d-6e65-4eb3-9e59-3a2ef8b65f27.par"
+Used Dataset: Events; { Ignition Switch and Transmission Park } F. Shift to Park
+
+Event encountered at t = 26.945: T_EVENT > 1 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_d3f64fca-9929-4bf4-a7e9-f7b7e5fe5b32.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Braking\PbkCon_bf4961f4-c4cf-4b18-a8f7-5f65e31ecd3f.par"
+Used Dataset: Control: Braking MC Pressure (Open Loop); { Constant } Constant: 0 MPa
+Used Dataset: Events; { Ignition Switch and Transmission Park } G. Switch Engine Off
+
+Event encountered at t = 26.946: IGN_ONOFF == 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_48dea5d2-52c8-475a-b1cc-5340a12e210b.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Powertrain\Engine\Engine_1b115f1d-8517-4937-bf7b-483db773f974.par"
+Used Dataset: Powertrain: Engine; 150 kW  Engine Off Motoring Torque
+Used Dataset: Events; { Ignition Switch and Transmission Park } Engine OFF
+
+Event encountered at t = 28.946: T_EVENT > 2 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_b5af09b5-d8ad-4e81-ae24-eebce691780e.par"
+
+Run stopped at t = 28.946. VS Command STOP_RUN_NOW End event triggered
+Used Dataset: Events; End Events
+
+Computational efficiency: RTIME = 0.100601 sec/sim. sec
+

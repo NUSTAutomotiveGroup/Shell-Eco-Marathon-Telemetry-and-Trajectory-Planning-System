@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Plot: Setup`Engine CG Height`Engine Mount
+
+ADD_ENTITY Plot
+
+PARSFILE Plot\Format\PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d.par
+#BlueLink0 Plot: Format`Lines without Symbols` ` , Plot format`PlotFmt_9c0da54c-ef5e-4a28-a4f7-2b9b79dcd98d
+
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS ZCG_Eng, time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Engine CG Height
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Engine Mount } Engine CG Height
+#Library : Plot: Setup
+#DataSet : Engine CG Height
+#Category: Engine Mount
+#FileID  : Plot_98286a1e-cd2f-48e1-b47a-cb06213427c3
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

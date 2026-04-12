@@ -1,0 +1,26 @@
+PARSFILE
+#FullDataName Events`C. Closed-loop Shifting`MT Acceleration
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl10 0
+#RingCtrl11 4
+
+#MiscYellow0
+OPT_CLUTCH_MODE 1
+#ENDMYellow
+
+PARSFILE Control\Gear_at\GearCL_3d656f9b-b010-469b-b86b-d4e11ee52bef.par
+#BlueLink10 Control: Shifting (Closed Loop)`Closed-loop Shift and Clutch (All Gears, Fast)` ` , Miscellaneous`GearCL_3d656f9b-b010-469b-b86b-d4e11ee52bef
+
+
+LOG_ENTRY Used Dataset: Events; { MT Acceleration } C. Closed-loop Shifting
+#Library : Events
+#DataSet : C. Closed-loop Shifting
+#Category: MT Acceleration
+#FileID  : Events_d556bb69-da08-4168-9f16-7f7ef6cc4afa
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

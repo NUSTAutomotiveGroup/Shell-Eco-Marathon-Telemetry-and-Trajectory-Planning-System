@@ -1,0 +1,68 @@
+PARSFILE
+#FullDataName Suspension: Twist Beam Compliances - Longitudinal`B-Class, Hatchback - Rear`
+define_variable CLONX_FX1 = 0.0; mm/N; var. long. deflection due to par. Fx(L)
+define_variable CLONX_FY1 = 0.0; mm/N; var. long. deflection due to par. Fy(L)
+define_variable CLONX_MY1 = 0.0; mm/N-m; var. long. deflection due to par. My(L)
+define_variable CLONX_MZ1 = 0.0; mm/N-m; var. long. deflection due to par. Mz(L)
+define_variable CLONY_FX1 = 0.0; mm/N; var. long. deflection due to opp. Fx(L)
+define_variable CLONY_FY1 = 0.0; mm/N; var. long. deflection due to opp. Fy(L)
+define_variable CLONY_MY1 = 0.0; mm/N-m; var. long. deflection due to opp. My(L)
+define_variable CLONY_MZ1 = 0.0; mm/N-m; var. long. deflection due to opp. Mz(L)
+define_variable CLONX_FX2 = 0.0; mm/N; var. long. deflection due to par. Fx(R)
+define_variable CLONX_FY2 = 0.0; mm/N; var. long. deflection due to par. Fy(R)
+define_variable CLONX_MY2 = 0.0; mm/N-m; var. long. deflection due to par. My(R)
+define_variable CLONX_MZ2 = 0.0; mm/N-m; var. long. deflection due to par. Mz(R)
+define_variable CLONY_FX2 = 0.0; mm/N; var. long. deflection due to opp. Fx(R)
+define_variable CLONY_FY2 = 0.0; mm/N; var. long. deflection due to opp. Fy(R)
+define_variable CLONY_MY2 = 0.0; mm/N-m; var. long. deflection due to opp. My(R)
+define_variable CLONY_MZ2 = 0.0; mm/N-m; var. long. deflection due to opp. Mz(R)
+#CheckBox0 0    
+#CheckBox1 0    
+
+*CLONX_FX_L 0.00365
+*CLONX_FX_R 0.0
+*CLONX_FY_L 0.0
+*CLONX_FY_R 0.0
+*CLONX_MY_L 0.0
+*CLONX_MY_R 0.0
+*CLONX_MZ_L 0.0
+*CLONX_MZ_R 0.0
+*CLONY_FX_L 0.00365
+*CLONY_FX_R 0.0
+*CLONY_FY_L 0.0
+*CLONY_FY_R 0.0
+*CLONY_MY_L 0.0
+*CLONY_MY_R 0.0
+*CLONY_MZ_L 0.0
+*CLONY_MZ_R 0.0
+
+CLONX_FX1 0.00365
+CLONX_FX2 0.00365
+CLONX_FY1 0.0
+CLONX_FY2 0.0
+CLONX_MY1 0.0
+CLONX_MY2 0.0
+CLONX_MZ1 0.0
+CLONX_MZ2 0.0*(-1)
+CLONY_FX1 0.00365
+CLONY_FX2 0.00365
+CLONY_FY1 0.0
+CLONY_FY2 0.0
+CLONY_MY1 0.0
+CLONY_MY2 0.0
+CLONY_MZ1 0.0
+CLONY_MZ2 0.0*(-1)
+
+#EMBEDDED_NOTES
+#This screen automatically defines new variables with VS Commands using values specified in the GUI.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Suspension: Twist Beam Compliances - Longitudinal; B-Class, Hatchback - Rear
+#Library : Suspension: Twist Beam Compliances - Longitudinal
+#DataSet : B-Class, Hatchback - Rear
+#Category: 
+#FileID  : TBLong_62ee9259-21d1-4261-b2b4-120fe21a68ef
+#Product : CarSim 2017.1
+#VehCode Twist Beam (Long.)
+
+END

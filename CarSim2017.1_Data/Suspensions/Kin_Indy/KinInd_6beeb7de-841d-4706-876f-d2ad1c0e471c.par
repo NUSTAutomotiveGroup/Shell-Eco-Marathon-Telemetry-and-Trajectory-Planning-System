@@ -1,0 +1,76 @@
+PARSFILE
+#FullDataName Suspension: Independent System Kinematics`Exotic - Rear`Exotic
+iside 1
+#RingCtrl0 1
+OPT_JNC_DESIGN 1
+#RingCtrl1 1
+#RingCtrl2 2
+#RingCtrl3 2
+#RingCtrl4 2
+#RingCtrl5 2
+#CheckBox0 0    
+#CheckBox1 0    
+#CheckBox2 0    
+
+R_US_STR 0.1
+*DIVE_L 0
+L_TRACK 800
+Y_CL_SUSP 0
+M_US 120
+*IW_L 0.9
+*JNC_DESIGN_L 0
+*IW_R 0.9
+*TOE_L 0
+*CAMBER_L 0
+
+SUSP_DIVE_COEFFICIENT 0
+PARSFILE Suspensions\Longitudinal\SusX_6958dbec-506e-48cd-92b2-7245c3a0ce38.par
+#BlueLink1 Suspension: Longitudinal Movement`Constant: Zero` ` , Left wheel X`SusX_6958dbec-506e-48cd-92b2-7245c3a0ce38
+
+PARSFILE Suspensions\Camber\Camber_5cee59cc-2426-4df4-a920-9b8b69a16f36.par
+#BlueLink2 Suspension: Camber Angle`Constant: Zero` ` , Left wheel camber`Camber_5cee59cc-2426-4df4-a920-9b8b69a16f36
+
+PARSFILE Suspensions\Lateral\LatJnc_38402a2a-f04a-4870-9636-e4fdff0416d2.par
+#BlueLink3 Suspension: Lateral Movement Due to Jounce`Constant: Zero` ` , Left wheel lateral (-Y)`LatJnc_38402a2a-f04a-4870-9636-e4fdff0416d2
+
+PARSFILE Suspensions\Toe\Toe_10bb799e-6235-469c-b05f-c6092dd8ac66.par
+#BlueLink4 Suspension: Toe Angle`Constant: Zero` ` , Left wheel toe`Toe_10bb799e-6235-469c-b05f-c6092dd8ac66
+
+IW 0.9
+JNC_DESIGN 0
+A_TOE 0
+A_CAMBER 0
+
+iside 2
+SUSP_DIVE_COEFFICIENT 0
+PARSFILE Suspensions\Longitudinal\SusX_6958dbec-506e-48cd-92b2-7245c3a0ce38.par
+#BlueLink1 Suspension: Longitudinal Movement`Constant: Zero` ` , Left wheel X`SusX_6958dbec-506e-48cd-92b2-7245c3a0ce38
+
+PARSFILE Suspensions\Camber\Camber_5cee59cc-2426-4df4-a920-9b8b69a16f36.par
+#BlueLink2 Suspension: Camber Angle`Constant: Zero` ` , Left wheel camber`Camber_5cee59cc-2426-4df4-a920-9b8b69a16f36
+
+PARSFILE Suspensions\Lateral\LatJnc_38402a2a-f04a-4870-9636-e4fdff0416d2.par
+#BlueLink3 Suspension: Lateral Movement Due to Jounce`Constant: Zero` ` , Left wheel lateral (-Y)`LatJnc_38402a2a-f04a-4870-9636-e4fdff0416d2
+
+PARSFILE Suspensions\Toe\Toe_10bb799e-6235-469c-b05f-c6092dd8ac66.par
+#BlueLink4 Suspension: Toe Angle`Constant: Zero` ` , Left wheel toe`Toe_10bb799e-6235-469c-b05f-c6092dd8ac66
+
+IW 0.9
+JNC_DESIGN 0
+A_TOE 0
+A_CAMBER 0
+
+#EMBEDDED_NOTES
+#Generic rear semi-trailing arm suspension geometry
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Suspension: Independent System Kinematics; { Exotic } Exotic - Rear
+#Library : Suspension: Independent System Kinematics
+#DataSet : Exotic - Rear
+#Category: Exotic
+#FileID  : KinInd_6beeb7de-841d-4706-876f-d2ad1c0e471c
+#Product : CarSim 2017.1
+#VehCode Independent
+
+END

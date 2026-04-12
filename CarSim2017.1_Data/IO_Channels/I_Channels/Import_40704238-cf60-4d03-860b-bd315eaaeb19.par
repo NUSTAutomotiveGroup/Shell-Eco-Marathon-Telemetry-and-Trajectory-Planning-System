@@ -1,0 +1,22 @@
+PARSFILE
+#FullDataName I/O Channels: Import`Clutch`
+#RingCtrl0 0
+#RingCtrl1 1
+*README_FILE Results\Run_d7aa441d-c44d-4f8e-a938-5eb7375154f7\Run_imp_tab.txt
+
+#MiscYellow0
+IMP_CLUTCH Replace 1 ! 1
+#ENDMYellow
+
+#BlueLink0 CarSim Run Control`MT Open-loop Shift and Clutch, Accel. - 0.5 Throt.` Powertrain Tests` , example run`Run_d7aa441d-c44d-4f8e-a938-5eb7375154f7
+
+
+LOG_ENTRY Used Dataset: I/O Channels: Import; Clutch
+#Library : I/O Channels: Import
+#DataSet : Clutch
+#Category: 
+#FileID  : Import_40704238-cf60-4d03-860b-bd315eaaeb19
+#Product : CarSim 2017.1
+#VehCode Import Channels
+
+END

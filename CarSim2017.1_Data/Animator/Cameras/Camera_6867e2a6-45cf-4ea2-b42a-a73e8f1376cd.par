@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Animator: Camera Setup`5.5 deg. Azimuth, 1 deg. El., Veh. Ref.`Vehicle Reference
+#RingCtrl1 0
+
+#CheckBox1 1    
+#CheckBox2 0    
+#CheckBox3 0    
+
+SET_CAMERA_Reference_Frame Car Tracking Car X-Y-Z-Yaw
+PARSFILE Animator\Frames\Frame_4784094f-08e1-404b-b742-340ae23fcffa.par
+#BlueLink0 Animator: Reference Frame`Car X-Y-Z-Yaw` Car Tracking` , Reference frame for outside camera`Frame_4784094f-08e1-404b-b742-340ae23fcffa
+
+SET_LOOKPOINT_Reference_Frame Car Tracking Car X-Y-Z-Yaw
+SET_LOOKPOINT_X 0.05
+SET_LOOKPOINT_Y 0.15
+SET_LOOKPOINT_Z 0.3
+SET_AZIMUTH 5.5
+SET_ELEVATION 1
+SET_DISTANCE 14.5
+SET_CAMERAMAN_NAME External camera
+*SET_LOOKPOINT_X 0.05
+*SET_LOOKPOINT_Y 0.15
+*SET_LOOKPOINT_Z 0.3
+*SET_AZIMUTH 5.5
+*SET_ELEVATION 1
+*SET_DISTANCE 14.5
+FOG_SCALE 0
+SET_FIELD_OF_VIEW 18.6
+SUN_POSITION 500 500 1000
+
+LOG_ENTRY Used Dataset: Animator: Camera Setup; { Vehicle Reference } 5.5 deg. Azimuth, 1 deg. El., Veh. Ref.
+#Library : Animator: Camera Setup
+#DataSet : 5.5 deg. Azimuth, 1 deg. El., Veh. Ref.
+#Category: Vehicle Reference
+#FileID  : Camera_6867e2a6-45cf-4ea2-b42a-a73e8f1376cd
+#Product : CarSim 2017.1
+#VehCode Camera
+
+END

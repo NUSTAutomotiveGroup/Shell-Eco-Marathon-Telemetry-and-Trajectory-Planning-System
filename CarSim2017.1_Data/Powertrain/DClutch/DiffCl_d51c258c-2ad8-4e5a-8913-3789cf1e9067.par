@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName Powertrain: Differential Clutch`No Data`Empty (You should edit or delete this)
+#CheckBox0 0    
+
+#RingCtrl0 LINEAR_FLAT
+#RingCtrl1 LINEAR_FLAT
+#DiagramOne0
+CLUTCH_TORQUE_DIFF_TABLE LINEAR_FLAT
+0, 0
+ENDTABLE
+#DiagramOne1
+CLUTCH_CONTROL_DIFF_TABLE LINEAR_FLAT
+0, 0
+ENDTABLE
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+
+
+LOG_ENTRY Used Dataset: Powertrain: Differential Clutch; { Empty (You should edit or delete this) } No Data
+#Library : Powertrain: Differential Clutch
+#DataSet : No Data
+#Category: Empty (You should edit or delete this)
+#FileID  : DiffCl_d51c258c-2ad8-4e5a-8913-3789cf1e9067
+#Product : CarSim 2017.1
+#VehCode Differential Clutch
+
+END

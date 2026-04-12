@@ -1,0 +1,35 @@
+PARSFILE
+#FullDataName Events`Stop Condition: Speed Error`Stop Conditions
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl0 <
+#RingCtrl10 1
+#RingCtrl11 4
+*NAME1 Vx_Tolerance
+*NAME2 Lat_Veh
+*VALUE1 abs(Vx_Err)
+*VALUE2 -0.5
+
+#MiscYellow0
+Define_Parameter Vx_Tolerance 5 ; km/h;
+#ENDMYellow
+
+DEFINE_EVENT Vx_Tolerance < abs(Vx_Err) ; Events\Events_85f2c3fd-6078-452c-8a32-9dd84d69102b.par
+#BlueLink0 Events`Stop Due to Speed Error` Stop Run Now` , Events`Events_85f2c3fd-6078-452c-8a32-9dd84d69102b
+
+
+#EMBEDDED_NOTES
+#Stop if the speed controller can't follow the target speed. The tolerance is set with a new parameter with a default value of 5 km/h. As a parameter, it can be given a different value from another screen after this dataset is read.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Stop Conditions } Stop Condition: Speed Error
+#Library : Events
+#DataSet : Stop Condition: Speed Error
+#Category: Stop Conditions
+#FileID  : Events_6264128f-aff9-4534-93d9-b756ef2767db
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

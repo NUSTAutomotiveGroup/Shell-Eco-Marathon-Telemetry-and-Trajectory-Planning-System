@@ -1,0 +1,20 @@
+PARSFILE
+#FullDataName Generic VS Commands`Support Settings - Replace All`External Steer
+#VehCode VS Commands
+
+#MiscYellow0
+! This parameter indicates that, for the front axle, the entire steering system is to be replaced.
+
+opt_steer_ext(1) 4
+#ENDMYellow
+
+
+LOG_ENTRY Used Dataset: Generic VS Commands; { External Steer } Support Settings - Replace All
+#Library : Generic VS Commands
+#DataSet : Support Settings - Replace All
+#Category: External Steer
+#FileID  : GenVS_30c1424f-7911-4806-96f0-8068b99fac37
+#Product : CarSim 2017.1
+#VehCode VS Commands
+
+END

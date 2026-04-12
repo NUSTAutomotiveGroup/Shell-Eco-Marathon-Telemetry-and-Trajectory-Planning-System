@@ -1,0 +1,67 @@
+PARSFILE
+#FullDataName Events`C. Turn Right`Roads and Highway - Turn Right
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 1    
+#CheckBox6 1    
+#CheckBox7 0    
+
+#RingCtrl0 >
+#RingCtrl10 1
+#RingCtrl11 5
+*NAME1 station
+*VALUE1 50
+
+
+! Reset all open-loop control clocks by setting parameters to current time
+TSTART_T_EVENT = T ; ! 2014
+T_EVENT_START = T ; ! legacy
+TSTART_BRAKES = T ;
+TSTART_STEER_TQ = T ;
+TSTART_F_BRAKE_PEDAL = T ;
+TSTART_PBK_CON = T ;
+TSTART_CLUTCH = T ;
+TSTART_GEAR = T ;
+TSTART_SPEED_CTRL = T ;
+TSTART_STEER = T ;
+TSTART_THROTTLE = T ;
+TSTART_TRANS = T ;
+TSTART_WIND = T ;
+OPT_INIT_CONFIG 0
+OPT_INIT_PATH 0
+OPT_INIT_SPEED 0
+Opt_SC 0
+PARSFILE Control\Throttle\Throttle_8155671e-6ea5-4566-b6a0-31c42901bd53.par
+#BlueLink18 Control: Throttle (Open Loop)`Ramp to 0.3 in 5 sec.` Ramp` , Throttle`Throttle_8155671e-6ea5-4566-b6a0-31c42901bd53
+
+#MiscYellow0
+path_id_dm = 2
+OPT_DIRECTION = -1
+#ENDMYellow
+
+PARSFILE Control\Driver\StrDM_42e829e4-dfc4-4565-8c4a-1caab0f24d4c.par
+#BlueLink10 Control: Steering by the Closed-loop Driver Model`2 m Left, 1.5 sec. Preview` Constant Position` , Miscellaneous`StrDM_42e829e4-dfc4-4565-8c4a-1caab0f24d4c
+
+#BlueLink11 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink14 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+DEFINE_EVENT station > 50 ; Events\Events_b5af09b5-d8ad-4e81-ae24-eebce691780e.par
+#BlueLink0 Events`End Events` ` , Events`Events_b5af09b5-d8ad-4e81-ae24-eebce691780e
+
+
+#EMBEDDED_NOTES
+#The road the math model is using changes and a new throttle control is implemented.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Roads and Highway - Turn Right } C. Turn Right
+#Library : Events
+#DataSet : C. Turn Right
+#Category: Roads and Highway - Turn Right
+#FileID  : Events_aa579c40-ef14-4c16-abfc-0019df59b620
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

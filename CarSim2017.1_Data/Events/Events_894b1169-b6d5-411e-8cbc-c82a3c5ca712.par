@@ -1,0 +1,50 @@
+PARSFILE
+#FullDataName Events`D. Release Handbrake, Unwind Wheel, Throttle 2017`Handbrake Turn
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl0 <
+#RingCtrl10 1
+#RingCtrl11 5
+*NAME1 steer_sw
+*VALUE1 40
+
+Opt_SC 0
+PARSFILE Control\Throttle\Throttle_a707549f-09ea-4f2d-86ee-5ccb52597176.par
+#BlueLink18 Control: Throttle (Open Loop)`Ramp To Full Throttle in 0.1 sec.` Ramp` , Throttle`Throttle_a707549f-09ea-4f2d-86ee-5ccb52597176
+
+#MiscYellow0
+tstart_steer t
+define_parameter tstart_hand_brakes
+tstart_hand_brakes t
+eq_in  hb_on = hbk_rel(0,t - tstart_hand_brakes,1)
+#ENDMYellow
+
+PARSFILE Control\Steer\StrSW_d57b1299-3ff2-4e6c-aba4-1d318180ad86.par
+#BlueLink10 Control: Steering (Open Loop)`Return: 720 deg. to Zero` Return to Zero` , Miscellaneous`StrSW_d57b1299-3ff2-4e6c-aba4-1d318180ad86
+
+PARSFILE Generic\tables\GenTab_c19a8e0a-2ed1-405e-893f-352871352520.par
+#BlueLink11 Generic Table`Handbrake Release 2017` ` , Miscellaneous`GenTab_c19a8e0a-2ed1-405e-893f-352871352520
+
+DEFINE_EVENT steer_sw < 40 ; Events\Events_d9de7cd2-3245-4abf-b48e-d6e8db78bfdc.par
+#BlueLink0 Events`E. Enable Driver 2017` Handbrake Turn` , Events`Events_d9de7cd2-3245-4abf-b48e-d6e8db78bfdc
+
+
+#EMBEDDED_NOTES
+#The variable hb_on was defined on a VS command page linked on the first event in this series.
+#
+#Setting hb_on to 0 releases the handbrake.
+#
+#A user defined table is used here to modulate that handbrake release
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Handbrake Turn } D. Release Handbrake, Unwind Wheel, Throttle 2017
+#Library : Events
+#DataSet : D. Release Handbrake, Unwind Wheel, Throttle 2017
+#Category: Handbrake Turn
+#FileID  : Events_894b1169-b6d5-411e-8cbc-c82a3c5ca712
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

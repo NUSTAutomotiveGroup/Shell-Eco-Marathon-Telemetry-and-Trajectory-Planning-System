@@ -1,0 +1,75 @@
+PARSFILE
+#FullDataName Tire`Open Wheel Club Level - Road Course Rear`Racing Tires
+FZ_REF 4000
+Y_LENGTH 230
+#CheckBox2 1    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+
+#RingCtrl0 1
+#RingCtrl5 2
+#RingCtrl6 2
+#RingCtrl7 1
+#RingCtrl8 1
+#RingCtrl9 2
+OPT_TIRE_LAG_KAPPA 2
+#RingCtrl10 1
+OPT_TIRE_LAG_ALPHA 1
+OPT_TIRE_MODEL 1
+
+PARSFILE Animator\STL_Groups\ShpGrp_80728e16-24f6-4835-be4b-11695be507a3.par
+#BlueLink4 Animator: Shape Assembly`GT Race Tire` Tires` , Animator`ShpGrp_80728e16-24f6-4835-be4b-11695be507a3
+
+WRITE_WHEEL_OFFSET
+*SET_THICKNESS 230
+#BlueLink13 ` , Animator` , Animator` , Animator`
+
+PARSFILE Tires\Fz\TireFz_45471532-b6d4-4f1c-ba81-3cb8b4097f70.par
+#BlueLink12 Tire: Vertical Load vs. Deflection`Open Wheel Club Level - Road Course Rear` ` , Vertical force`TireFz_45471532-b6d4-4f1c-ba81-3cb8b4097f70
+
+IT 0
+PARSFILE Generic\tables\GenTab_6200ca2d-9af8-4768-9d04-87ea0bd47068.par
+#BlueLink14 Generic Table`Lx Variable, Scaled to Tire` Tire Relaxation Length` , Longitudinal relaxation length`GenTab_6200ca2d-9af8-4768-9d04-87ea0bd47068
+
+PARSFILE Generic\tables\GenTab_edb0dc74-f107-43df-b9cc-c9fa4d21267d.par
+#BlueLink15 Generic Table`Ly Variable, Scaled to Tire` Tire Relaxation Length` , Longitudinal relaxation length`GenTab_edb0dc74-f107-43df-b9cc-c9fa4d21267d
+
+VLOW_KAPPA 2
+VLOW_ALPHA 2
+RR_C 0.006
+RR_V 0.000025
+L_CONTACT_X_CONSTANT 80
+L_CONTACT_Y_CONSTANT 230
+RR_FX 1
+OPT_TIRE_COMB 0
+PARSFILE Tires\Mz\TireMz_31e5a6c8-4431-4a16-8198-b5f20fcf4ac1.par
+#BlueLink0 Tire: Aligning Moment`Open Wheel Club Level - Road Course Rear` Racing Tires` , Aligning Moment`TireMz_31e5a6c8-4431-4a16-8198-b5f20fcf4ac1
+
+PARSFILE Tires\Fy\TireFy_16b14a43-5b1e-4bbd-9719-1337b0a81020.par
+#BlueLink1 Tire: Lateral Force`Open Wheel Club Level - Road Course Rear` Racing Tires` , Lateral Force`TireFy_16b14a43-5b1e-4bbd-9719-1337b0a81020
+
+PARSFILE Tires\Fx\TireFx_f79c1973-ada3-4f2e-b26e-ae437aa58f42.par
+#BlueLink2 Tire: Longitudinal Force`Open Wheel Club Level - Road Course Rear` Racing Tires` , Longitudinal Force`TireFx_f79c1973-ada3-4f2e-b26e-ae437aa58f42
+
+PARSFILE Tires\Camber_Thrust\CamStiff_6387521f-f11d-4619-a2de-183bae1596d9.par
+#BlueLink3 Tire: Camber Thrust Coefficient`Open Wheel Club Level - Road Course Rear` Racing Tires` , Camber Thrust`CamStiff_6387521f-f11d-4619-a2de-183bae1596d9
+
+
+
+#EMBEDDED_NOTES
+#This tire is for the front axle of a club level open-wheel car with curb mass approximately 500 kg, and limited aerodynamic downforce.
+#
+#Size: 22.5/9.0 R13
+#Rated Load 140 kg
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Tire; { Racing Tires } Open Wheel Club Level - Road Course Rear
+#Library : Tire
+#DataSet : Open Wheel Club Level - Road Course Rear
+#Category: Racing Tires
+#FileID  : Tire_df8b8f9e-c451-488f-881d-ceb2b2a5f212
+#Product : CarSim 2017.1
+#VehCode Tire
+
+END

@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Pickup, Dually: Fender Flare Details 6.5 ft.`Pickup, Dually 2017
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\vehicles\pickup_truck_V9\Dually_Fenders\Dually_Fender_Details.obj
+#ENDMYellow
+
+SET_OFFSET_X -1.15
+*SPECULAR 0.5
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 1    
+
+SET_SPECULAR 0.5 0.5 0.5
+vsv_enable_shadows_recursive
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_ea04de5f-69a0-4f05-993a-1617494069b0.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Pickup, Dually 2017 } Pickup, Dually: Fender Flare Details 6.5 ft.
+#Library : Animator: Shape File Link
+#DataSet : Pickup, Dually: Fender Flare Details 6.5 ft.
+#Category: Pickup, Dually 2017
+#FileID  : Shape_ea04de5f-69a0-4f05-993a-1617494069b0
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

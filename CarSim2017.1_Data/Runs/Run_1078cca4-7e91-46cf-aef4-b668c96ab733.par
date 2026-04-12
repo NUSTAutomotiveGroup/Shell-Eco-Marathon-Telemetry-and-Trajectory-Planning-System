@@ -1,0 +1,100 @@
+PARSFILE
+#FullDataName CarSim Run Control`Baseline, Sprung Mass`* CS 2017 - Multiple Simulation
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_1078cca4-7e91-46cf-aef4-b668c96ab733
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_358f7aeb-0e81-446e-a19f-f2c18b21801b.par
+#BlueLink0 Animator: Camera Setup`13 deg. Azimuth, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_358f7aeb-0e81-446e-a19f-f2c18b21801b
+
+#CheckBox0 1    
+#CheckBox1 1    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0.8 0 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_a0aaeca0-2c47-4094-9562-cbd5e0d325b6.par
+#BlueLink2 Vehicle: Assembly`C-Class, Hatchback 2017` C-Class` , Vehicle Configuration`Vehicle_a0aaeca0-2c47-4094-9562-cbd5e0d325b6
+
+PARSFILE Procedures\Proc_3ae0353d-bd7c-43a3-9da4-150b6952a10e.par
+#BlueLink28 Procedures`DLC @ 120 km/h (Quick Start)` Handling Testing` , Procedure`Proc_3ae0353d-bd7c-43a3-9da4-150b6952a10e
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_5a4dbf21-c784-41c5-89f7-b11a4981cad1.par
+#BlueLink9 Multiple Moving Objects`10 Driver Preview Points, Set by DM` Points of Interest` , Miscellaneous`TMotion_5a4dbf21-c784-41c5-89f7-b11a4981cad1
+
+
+SPECIAL_PARSFILE Runs\Run_1078cca4-7e91-46cf-aef4-b668c96ab733.par
+#BlueLink23 CarSim Run Control`File: 2017-05-01_18.45.55.erd` ` , Overlay run or ERD file`
+
+
+SPECIAL_PARSFILE Runs\Run_1078cca4-7e91-46cf-aef4-b668c96ab733.par
+#BlueLink24 CarSim Run Control`File: 2017-05-01_18.45.48.erd` ` , Overlay run or ERD file`
+
+
+SPECIAL_PARSFILE Runs\Run_1078cca4-7e91-46cf-aef4-b668c96ab733.par
+#BlueLink25 CarSim Run Control`File: 2017-05-01_18.45.42.erd` ` , Overlay run or ERD file`
+
+
+SPECIAL_PARSFILE Runs\Run_1078cca4-7e91-46cf-aef4-b668c96ab733.par
+#BlueLink26 CarSim Run Control`File: 2017-05-01_18.45.35.erd` ` , Overlay run or ERD file`
+
+*ERD_FILE_1 Results\Run_1078cca4-7e91-46cf-aef4-b668c96ab733\2017-05-01_18.45.55.erd
+*ERD_FILE_2 Results\Run_1078cca4-7e91-46cf-aef4-b668c96ab733\2017-05-01_18.45.48.erd
+*ERD_FILE_3 Results\Run_1078cca4-7e91-46cf-aef4-b668c96ab733\2017-05-01_18.45.42.erd
+*ERD_FILE_4 Results\Run_1078cca4-7e91-46cf-aef4-b668c96ab733\2017-05-01_18.45.35.erd
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_a0aaeca0-2c47-4094-9562-cbd5e0d325b6.png
+WRITE_SENSOR_DETECT
+Title Baseline, Sprung Mass <* CS 2017 - Multiple Simulation>
+CATEGORY * CS 2017 - Multiple Simulation 
+DATASET_TITLE Baseline, Sprung Mass
+#MiscYellow0
+M_SU 3000
+#ENDMYellow
+
+#RingCtrl8 5
+#RingCtrl9 2017-05-01_18.46.02
+
+#EMBEDDED_NOTES
+#This example demonstrates the capability of saving sets of simulation results based on a single Run Control dataset.
+#
+#The selection to save sets of simulation results is made using the drop-down menu below the Animator: Camera dataset on the right side of the Run Control screen. For this example, the selection is "Keep 5".
+#
+#The Sprung Mass value is overwritten in the Run Control screen's Miscellaneous Yellow Field for each of the four additional runs using the keyword M_SU. The results from each of these tests are overlaid.
+#
+#M_SU 1270, 1500, 2000, 2500, 3000
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { * CS 2017 - Multiple Simulation } Baseline, Sprung Mass
+#Library : CarSim Run Control
+#DataSet : Baseline, Sprung Mass
+#Category: * CS 2017 - Multiple Simulation
+#FileID  : Run_1078cca4-7e91-46cf-aef4-b668c96ab733
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

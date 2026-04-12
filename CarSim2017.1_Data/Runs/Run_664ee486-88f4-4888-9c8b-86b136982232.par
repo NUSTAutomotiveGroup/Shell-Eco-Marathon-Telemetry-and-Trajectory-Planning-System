@@ -1,0 +1,96 @@
+PARSFILE
+#FullDataName CarSim Run Control`Payload: DLC, Loaded 2000 kg`Alternate Vehicle Data Measurement
+#VEHICLECODE Ind_SA
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_664ee486-88f4-4888-9c8b-86b136982232
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_045f9b8a-2e8a-4608-8066-fecace521157.par
+#BlueLink0 Animator: Camera Setup`RL View, Road Ref. (Frt. Facing)` Road Reference` , Animator camera`Camera_045f9b8a-2e8a-4608-8066-fecace521157
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 1    
+#CheckBox3 1    
+#CheckBox4 1    
+#CheckBox5 1    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 1
+#RingCtrl1 8
+#RingCtrl2 1
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0 0.2 1
+SET_RUN_COLOR 0 0.2 1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_67162934-d66f-45d7-9ce8-e11bbc90a803.par
+#BlueLink2 Vehicle with Loads, Sensors, Trailer, etc.`Pickup, Full Size w/ 2000 kg Payload` Pickup, Full Size` , Vehicle Configuration`VehLoad_67162934-d66f-45d7-9ce8-e11bbc90a803
+
+PARSFILE Procedures\Proc_3ae0353d-bd7c-43a3-9da4-150b6952a10e.par
+#BlueLink28 Procedures`DLC @ 120 km/h (Quick Start)` Handling Testing` , Procedure`Proc_3ae0353d-bd7c-43a3-9da4-150b6952a10e
+
+INSTALL_DRIVER_SPEED_CONTROLLER CarSim9
+Opt_SC 3
+OPT_SC 3
+SPEED_TARGET_COMBINE ADD
+SPEED_TARGET_CONSTANT 0
+SPEED_TARGET_S_CONSTANT 80
+OPT_SC_ENGINE_BRAKING 0
+OPT_STOP 1
+TSTART -3.6
+SSTART -100
+TSTART_WRITE = TSTART;
+TSTOP 10
+SSTOP 210
+OPT_DIRECTION 0
+*SPEED 80
+*TSTOP 10
+*TSTART -3.6
+*SSTART -100
+*SSTOP 210
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Loaded\VehLoad_67162934-d66f-45d7-9ce8-e11bbc90a803.png
+WRITE_SENSOR_DETECT
+Title Payload: DLC, Loaded 2000 kg <Alternate Vehicle Data Measurement>
+CATEGORY Alternate Vehicle Data Measurement 
+DATASET_TITLE Payload: DLC, Loaded 2000 kg
+#MiscYellow0
+tstart_write 0
+#ENDMYellow
+
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example demonstrates how to add a payload to a vehicle for a handling test. The payload can be varied in mass and location for purposes of testing its influence on directional response.
+#
+#Note the use of overriding the time and distance settings, as well as the use of the keyword tstart_write in the Misc. yellow field here on the Run Control screen. This example starts at negative time and distance to allow the payload and vehicle to come to equilibrium. The keyword tstart_write is set to 0 so the initialization of the vehicle is not written to the output files.
+#
+#Payloads are added to vehicles on the Vehicle: Loaded Condition screen. Use the gray Library drop-down arrow above the vehicle blue link to select this option. You may also browse to the Vehicle: Loaded Condition library directly using the Libraries drop-down menu at the top of this screen and selecting Vehicles => Vehicle: Loaded Condition.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Alternate Vehicle Data Measurement } Payload: DLC, Loaded 2000 kg
+#Library : CarSim Run Control
+#DataSet : Payload: DLC, Loaded 2000 kg
+#Category: Alternate Vehicle Data Measurement
+#FileID  : Run_664ee486-88f4-4888-9c8b-86b136982232
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

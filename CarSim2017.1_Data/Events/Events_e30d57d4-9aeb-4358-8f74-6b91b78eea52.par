@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Events`B. Turn-in`Handbrake Turn
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl0 >
+#RingCtrl10 1
+#RingCtrl11 4
+*NAME1 AVz
+*VALUE1 rate
+
+#MiscYellow0
+tstart_steer t
+#ENDMYellow
+
+PARSFILE Control\Steer\StrSW_330b65cf-7d8f-4c74-8569-15aabe7b9d56.par
+#BlueLink10 Control: Steering (Open Loop)`Ramp: 0 to 720 deg in 0.5 sec.` Ramp` , Miscellaneous`StrSW_330b65cf-7d8f-4c74-8569-15aabe7b9d56
+
+DEFINE_EVENT AVz > rate ; Events\Events_e616820b-4181-4f16-b6fa-cfc6df9d184f.par
+#BlueLink0 Events`C. Apply Handbrake, No Throttle 2017` Handbrake Turn` , Events`Events_e616820b-4181-4f16-b6fa-cfc6df9d184f
+
+
+#EMBEDDED_NOTES
+#A sharp steer manuever is begun. As the vehicle begins to yaw, the handbrake is applied
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Handbrake Turn } B. Turn-in
+#Library : Events
+#DataSet : B. Turn-in
+#Category: Handbrake Turn
+#FileID  : Events_e30d57d4-9aeb-4358-8f74-6b91b78eea52
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

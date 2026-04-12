@@ -1,0 +1,111 @@
+PARSFILE
+#FullDataName Generic Data Lists`ACC Icons for Long Lead`HUD Indicators
+#VehCode Generic Lists
+#MiscYellow0
+ADD_ENTITY hud_image ACC_base
+  align_x center
+  align_y bottom
+  size_mode absolute
+  place_mode absolute
+  location 0 0 128 128
+  image_file Animator\3D_shape_files_CS\dashboard\Icons\ACC\Base.png
+END_ENTITY hud_image ACC_base
+
+ADD_ENTITY hud_image ACC_Car_Front
+  align_x center
+  align_y bottom
+  size_mode absolute
+  place_mode absolute
+  location 0 0 128 128
+  opacity MagS<<s>>_1
+  image_file Animator\3D_shape_files_CS\dashboard\Icons\ACC\Car_Detected.png
+END_ENTITY hud_image ACC_Car_Front
+
+ADD_ENTITY hud_image ACC_Brakes
+  align_x center
+  align_y bottom
+  size_mode absolute
+  place_mode absolute
+  location 0 0 128 128
+  opacity Bk_Stat
+  image_file Animator\3D_shape_files_CS\dashboard\Icons\ACC\Brakes_ON.png
+END_ENTITY hud_image ACC_Brakes
+#ENDMYellow
+
+
+#MiscYellow1
+ADD_ENTITY hud_image ACC_Distance_1
+  align_x center
+  align_y bottom
+  size_mode absolute
+  place_mode absolute
+  location 0 0 128 128
+  opacity MagS<<s>>_1
+  image_file Animator\3D_shape_files_CS\dashboard\Icons\ACC\Distance_01.png
+END_ENTITY hud_image ACC_Distance_1
+
+ADD_ENTITY hud_image ACC_Distance_2
+  align_x center
+  align_y bottom
+  size_mode absolute
+  place_mode absolute
+  location 0 0 128 128
+  opacity MagS<<s>>_1
+  image_file Animator\3D_shape_files_CS\dashboard\Icons\ACC\Distance_02.png
+END_ENTITY hud_image ACC_Distance_2
+
+ADD_ENTITY hud_image ACC_Distance_3
+  align_x center
+  align_y bottom
+  size_mode absolute
+  place_mode absolute
+  location 0 0 128 128
+  opacity MagS<<s>>_1
+  image_file Animator\3D_shape_files_CS\dashboard\Icons\ACC\Distance_03.png
+END_ENTITY hud_image ACC_Distance_3
+#ENDMYellow
+
+
+#MiscYellow2
+ADD_ENTITY hud_image ACC_Distance_4
+  align_x center
+  align_y bottom
+  size_mode absolute
+  place_mode absolute
+  location 0 0 128 128
+  opacity MagS<<s>>_1
+  image_file Animator\3D_shape_files_CS\dashboard\Icons\ACC\Distance_04.png
+END_ENTITY hud_image ACC_Distance_4
+
+ADD_ENTITY hud_image ACC_On
+  align_x center
+  align_y bottom
+  size_mode absolute
+  place_mode absolute
+  location -80 64 64 64
+  image_file Animator\3D_shape_files_CS\dashboard\Icons\Active_Cruise_Control.png
+END_ENTITY hud_image ACC_On
+#ENDMYellow
+
+
+
+#EMBEDDED_NOTES
+#This dataset defines HUD settings for VS Visualizer. It causes up to 8 images to be shown. Two of these, ACC_Base(see the top of the first field) and ACC_On (see the third field) are always visible.
+#
+#The other four images are shown only when a named output variable is nonzero. One of these is the variable Bk_Stat, which indicates whether the brakes are being applied. The other three are based on the Sensor detection variable MagS<<s>>_1, where <<s>> is the current sensor number.
+#
+#Rather than naming the detection variable for sensor 1 (e.g.,
+#MagS1>_1, the name is written with a symbol stack variable <<s>>. This allows the dataset to be used with a sensor that might not be the first one defined.
+#
+#The three images shown when a detection (MagS<<s>>_1) is nonzero are the car in front and two distance indicators
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Data Lists; { HUD Indicators } ACC Icons for Long Lead
+#Library : Generic Data Lists
+#DataSet : ACC Icons for Long Lead
+#Category: HUD Indicators
+#FileID  : GenList_af45f634-67ff-4e52-a385-b723b57e679f
+#Product : CarSim 2017.1
+#VehCode Generic Lists
+
+END

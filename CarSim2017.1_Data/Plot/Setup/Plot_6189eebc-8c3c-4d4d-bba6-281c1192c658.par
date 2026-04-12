@@ -1,0 +1,49 @@
+PARSFILE
+#FullDataName Plot: Setup`Slip Angles: Lagged (dual tires - inner)`Tire Kinematics
+
+ADD_ENTITY Plot
+
+#BlueLink2 CarSim Run Control`Pickup, Full Size, Dual Tires` * CS 2017 - Dual Tires` , example run`Run_9d9f1a0d-0e61-4934-bbf6-1a04656cb58a
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+*README_FILE Results\Run_9d9f1a0d-0e61-4934-bbf6-1a04656cb58a\Run_out_tab.txt
+
+#MiscYellow0
+PLOTCHANNELS AlphLL1i, Time
+PLOTCHANNELS AlphLR1i, Time
+PLOTCHANNELS AlphLL2i, Time
+PLOTCHANNELS AlphLR2i, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl4 0
+#RingCtrl6 0
+#RingCtrl8 1
+
+
+PTITLE Slip Angles: Lagged (dual tires - inner)
+
+END_ENTITY Plot
+
+
+#EMBEDDED_NOTES
+#Slip values after applying relaxation length
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Tire Kinematics } Slip Angles: Lagged (dual tires - inner)
+#Library : Plot: Setup
+#DataSet : Slip Angles: Lagged (dual tires - inner)
+#Category: Tire Kinematics
+#FileID  : Plot_6189eebc-8c3c-4d4d-bba6-281c1192c658
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

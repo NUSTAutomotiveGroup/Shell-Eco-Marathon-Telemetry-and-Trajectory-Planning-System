@@ -1,0 +1,198 @@
+Include PARSFILE "Results\Run_903a3051-19ed-49a4-b7f6-ff2825749938\Run_all.par"
+Used Dataset: Animator: Reference Frame; { Car Tracking } Car X-Y-Z-Yaw
+Used Dataset: Animator: Camera Setup; { Vehicle Reference } 180 deg. Azimuth, 15 deg. El., Veh. Ref.
+Used Dataset: Suspension: Dive Angle (Caster Change); Front Strut - Front Dive Angle
+Used Dataset: Suspension: Longitudinal Movement; Strut -  Front
+Used Dataset: Suspension: Camber Angle; Strut - Front
+Used Dataset: Suspension: Lateral Movement Due to Jounce; Strut - Front
+Used Dataset: Suspension: Toe Angle; Strut - Front
+Used Dataset: Suspension: Dive Angle (Caster Change); Front Strut - Front Dive Angle
+Used Dataset: Suspension: Longitudinal Movement; Strut -  Front
+Used Dataset: Suspension: Camber Angle; Strut - Front
+Used Dataset: Suspension: Lateral Movement Due to Jounce; Strut - Front
+Used Dataset: Suspension: Toe Angle; Strut - Front
+Used Dataset: Suspension: Independent System Kinematics; { C-Class } C-Class, Hatchback - Front
+Used Dataset: Suspension: Shock Absorber; Big Car
+Used Dataset: Suspension: Jounce and Rebound Stops; +60 mm / -40 mm
+Used Dataset: Suspension: Shock Absorber; Big Car
+Used Dataset: Suspension: Jounce and Rebound Stops; +60 mm / -40 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 384 N-m/deg
+Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { C-Class } C-Class, Hatchback - Front
+Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Tire
+Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Euro Sedan Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 215/55 R17 (2016)
+Used Dataset: Tire: Lateral Force; { Touring Tires } 215/55 R17
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 215/55 R17
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 215/55 R17
+Used Dataset: Tire; { Touring Tires } 215/55 R17
+Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Tire
+Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Euro Sedan Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 215/55 R17 (2016)
+Used Dataset: Tire: Lateral Force; { Touring Tires } 215/55 R17
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 215/55 R17
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 215/55 R17
+Used Dataset: Tire; { Touring Tires } 215/55 R17
+Used Dataset: Suspension: Longitudinal Movement; 5-Link - Rear
+Used Dataset: Suspension: Camber Angle; 5-Link - Rear
+Used Dataset: Suspension: Lateral Movement Due to Jounce; 5-Link - Rear
+Used Dataset: Suspension: Toe Angle; 5-Link - Rear
+Used Dataset: Suspension: Longitudinal Movement; 5-Link - Rear
+Used Dataset: Suspension: Camber Angle; 5-Link - Rear
+Used Dataset: Suspension: Lateral Movement Due to Jounce; 5-Link - Rear
+Used Dataset: Suspension: Toe Angle; 5-Link - Rear
+Used Dataset: Suspension: Independent System Kinematics; { C-Class } C-Class, Hatchback - Rear
+Used Dataset: Suspension: Spring; 30 N/mm
+Used Dataset: Suspension: Shock Absorber; Big Car
+Used Dataset: Suspension: Jounce and Rebound Stops; +60 mm / -40 mm
+Used Dataset: Suspension: Spring; 30 N/mm
+Used Dataset: Suspension: Shock Absorber; Big Car
+Used Dataset: Suspension: Jounce and Rebound Stops; +60 mm / -40 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; Non-linear: 344 N-m/deg
+Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { C-Class } C-Class, Hatchback - Rear
+Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Tire
+Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Euro Sedan Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 215/55 R17 (2016)
+Used Dataset: Tire: Lateral Force; { Touring Tires } 215/55 R17
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 215/55 R17
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 215/55 R17
+Used Dataset: Tire; { Touring Tires } 215/55 R17
+Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Tire
+Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Euro. Sedan Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Euro Sedan Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 215/55 R17 (2016)
+Used Dataset: Tire: Lateral Force; { Touring Tires } 215/55 R17
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 215/55 R17
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 215/55 R17
+Used Dataset: Tire; { Touring Tires } 215/55 R17
+Used Dataset: Vehicle: Sprung Mass; C-Class, Hatchback 2012
+Used Dataset: Aerodynamics: Fx (Drag) Coef. vs. Aero Slip; 0.30 at 0 Degrees
+Used Dataset: Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip; 0.5 at 90 deg
+Used Dataset: Aerodynamics: Fz (Lift) Coef. vs. Aero Slip; 0.18 at 0 Degrees
+Used Dataset: Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip; 0.3 at 90 deg
+Used Dataset: Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip; -0.15 at 0 Degrees
+Used Dataset: Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip; 0.05 at 90 deg
+Used Dataset: Aerodynamics: Basic; { Hatchbacks } C-Class, Hatchback
+Used Dataset: Generic Data Lists; Rear View Mirror (C -Class Example)
+Used Dataset: Animator: Shape File Link; { CS Hatchback } C Class Hatchback 2012: Body
+Used Dataset: Animator: Shape File Link; { CS Hatchback } C Class Hatchback 2012: Details
+Used Dataset: Animator: Shape File Link; { CS Hatchback } C Class, Hatchback: Driver 2012
+Used Dataset: Animator: Shape Assembly; { CS C-Class } C-Class, Hatchback 2012
+Used Dataset: Animator: Sound Modifier; { Wind } Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Wind } Frequency: Speed Effect
+Used Dataset: Animator: Sound Sample; Wind Noise
+Used Dataset: Animator: Sound Set; Wind Noise
+Used Dataset: Animator: Shape File Link; { CS Hatchback } C-Class, Hatchback: Brake Lights 2012
+Used Dataset: Animator: Vehicles and Sensor Targets; { C-Class Vehicles } C-Class, Hatchback 2012
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power Off Loudness: Load Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power Off Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Gas Engine } 4 Cyl. - Power Off
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power On Loudness: Load Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power On Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Gas Engine } 4 Cyl. - Power On
+Used Dataset: Generic Data Group; { Audio Sound Sets } Gasoline Engine (4 Cylinder)
+Used Dataset: Powertrain: Engine; 125 kW  Engine
+Used Dataset: Powertrain: Torque Converter; Torque Converter for 125 kW Engine
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 1-2 Shift
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 2-3 Shift
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 3-4 Shift
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 4-5 Shift
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 5-6 Shift
+Used Dataset: Powertrain: Transmission (18 Gears or CVT); 6-Speed
+Used Dataset: Powertrain: Front Differential; { Viscous } Viscous: Gear Ratio 4.1
+Used Dataset: Powertrain: Front Differential; { Viscous } Viscous: Gear Ratio 4.1
+Used Dataset: Powertrain: Front-Wheel Drive; { 125 kW Powertrains } 125 kW, 6-spd., 4.1 Ratio w/ Visc. Diff.
+Used Dataset: Brakes: Proportioning / Limiting Valve; Unity until 1.5MPa then 30%
+Used Dataset: Brakes: Proportioning / Limiting Valve; Unity until 1.5MPa then 30%
+Used Dataset: Brakes: Four-Wheel System; { C-Class } C-Class, Hatchback w/o ABS
+Used Dataset: Steering System: Compliance; Constant: Zero
+Used Dataset: Steering System: Kinematics for 2 Wheels (Rack & Pinion); C-Class, Hatchback 2017
+Used Dataset: Steering: Power Assist Force; C-Class Hatchback 2017, Not Spd Sens
+Used Dataset: Steering System: Compliance; { Constant } Constant: 0.001 deg/N-m
+Used Dataset: Steering: Parking Torque for 2 Wheels; C-Class Hatchback 2017
+Used Dataset: Steering; C-Class, Hatchback: Power, R&P 2017
+Used Dataset: Vehicle: Assembly; { C-Class } C-Class, Hatchback 2017
+Used Dataset: Control: Steering by the Closed-loop Driver Model; { Constant Position } 2 m Right, 1.0 sec. Preview
+Used Dataset: Control: Braking MC Pressure (Open Loop); { Constant } Constant: 0 MPa
+Used Dataset: Control: Shifting (Closed Loop); AT All Gears
+Used Dataset: Control: Speed (Closed Loop) Using Target Speed; { Constant Speed } 110 km/h
+Used Dataset: Sensor Range and Bearing Sensitivity; 25.1 m X Limit
+Used Dataset: Sensor Elevation Sensitivity; Only Down
+Used Dataset: ADAS Sensors for Range and Tracking; { Forward Facing Sensors } Lane-Detection, X = -1200, Z = 1450
+Used Dataset: Animator: Shape File Link; { Primitives } Sphere
+Used Dataset: Animator: Vehicles and Sensor Targets; Sphere
+Used Dataset: Animator: Shape File Link; { Primitives } Sphere
+Used Dataset: Animator: Vehicles and Sensor Targets; Sphere
+Used Dataset: Animator: Shape File Link; { Primitives } Sphere
+Used Dataset: Animator: Vehicles and Sensor Targets; Sphere
+Used Dataset: Animator: Shape File Link; { Primitives } Sphere
+Used Dataset: Animator: Vehicles and Sensor Targets; Sphere
+Used Dataset: Animator: Shape File Link; { Primitives } Sphere
+Used Dataset: Animator: Vehicles and Sensor Targets; Sphere
+Used Dataset: Multiple Moving Objects; { Points of Interest } 5 Lane Edge Markers Based On [[Edge]]
+Used Dataset: Animator: Shape File Link; { Primitives } Sphere
+Used Dataset: Animator: Vehicles and Sensor Targets; Sphere
+Used Dataset: Animator: Shape File Link; { Primitives } Sphere
+Used Dataset: Animator: Vehicles and Sensor Targets; Sphere
+Used Dataset: Animator: Shape File Link; { Primitives } Sphere
+Used Dataset: Animator: Vehicles and Sensor Targets; Sphere
+Used Dataset: Animator: Shape File Link; { Primitives } Sphere
+Used Dataset: Animator: Vehicles and Sensor Targets; Sphere
+Used Dataset: Animator: Shape File Link; { Primitives } Sphere
+Used Dataset: Animator: Vehicles and Sensor Targets; Sphere
+Used Dataset: Multiple Moving Objects; { Points of Interest } 5 Lane Edge Markers Based On [[Edge]]
+Used Dataset: Animator: HUD; { ADAS Alerts } Lane Departures
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { ADAS } Alerts: Lane Detection
+Used Dataset: Generic VS Commands; { ADAS Support } Lane Departure Warning and HUD
+Used Dataset: Generic Data Group; { ADAS Sensors and Controls } Lane Detection, 2 Edges, Based On Lat_Veh
+Used Dataset: Procedures; { ADAS Examples } Lane Departure, Lane Edges from Lat_Veh
+ Single Curve, R = 1000 m <Curves>
+Used Dataset: Path: Segment Builder; { Curves } Single Curve, R = 1000 m
+Used Dataset: Road: Reference Line Elevation; 1.5 km with Hills
+Used Dataset: Road: Friction Map, S-L Grid; { Constant } Constant: 0.85
+Used Dataset: Road: Animator Surface Shapes; { Lane-Keeping Assist Roads } Four Lanes
+Used Dataset: Animator: Reference Frame; Skybox (Vehicle Reference)
+Used Dataset: Animator: Shape File Link; { Skies } Partly Cloudy Sky
+Used Dataset: Animator: Shape File Link; { Terrain } Land Bowl for Light Grass
+Used Dataset: Animator: Group; { Skies } Sky for Light Grass
+Used Dataset: Road: 3D Surface (All Properties); { Many Lanes } 4-Lane Section (Divided)
+Used Dataset: Control: Steering by the Closed-loop Driver Model; { Double Lane Change } Double Lane Change (Quick Start)
+Used Dataset: Animator: Shape File Link; { Sensors } Sensor Detection Vector (Box)
+Used Dataset: Animator: Shape File Link; { Sensors } Sensor Detection Vector (Box)
+Used Dataset: Animator: Shape File Link; { Sensors } Sensor Detection Vector (Box)
+Used Dataset: Animator: Shape File Link; { Sensors } Sensor Detection Vector (Box)
+Used Dataset: Animator: Shape File Link; { Sensors } Sensor Detection Vector (Box)
+Used Dataset: Animator: Shape File Link; { Sensors } Sensor Detection Vector (Box)
+Used Dataset: Animator: Shape File Link; { Sensors } Sensor Detection Vector (Box)
+Used Dataset: Animator: Shape File Link; { Sensors } Sensor Detection Vector (Box)
+Used Dataset: Animator: Shape File Link; { Sensors } Sensor Detection Vector (Box)
+Used Dataset: Animator: Shape File Link; { Sensors } Sensor Detection Vector (Box)
+ Lane Departure in Double Lane Change <ADAS and Active Safety>
+Used Dataset: CarSim Run Control; { ADAS and Active Safety } Lane Departure in Double Lane Change
+
+Time to read input = 0.007
+
+The run stopped at T = 0 because 
+You need a running copy of CarSim Browser or CSLM.exe
+and a CarSim 2017.1 license to use this math model.
+Please contact your sales agent or Mechanical Simulation
+at www.carsim.com.
+
+

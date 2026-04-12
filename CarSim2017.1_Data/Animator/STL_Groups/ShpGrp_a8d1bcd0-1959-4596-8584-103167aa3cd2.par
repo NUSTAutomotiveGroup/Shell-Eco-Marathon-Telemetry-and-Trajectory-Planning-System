@@ -1,0 +1,62 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`D-Class, Sedan (Transparent, No Interior)`CS D-Class
+*COLOR .36 .117 .117
+*OFFSET_X 0
+*OFFSET_Y 0
+*OFFSET_Z 0.25
+*X_REF_LENGTH 2711
+*Y_REF_LENGTH 1753
+*Z_REF_LENGTH 1433
+*TRANSPARENCY 0.4
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 1    
+
+#RingCtrl1 0
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_a8d1bcd0-1959-4596-8584-103167aa3cd2.png
+PARSFILE Animator\STL\Shape_46bbd8c3-972b-491b-ada8-8b076bd1780a.par
+#BlueLink0 Animator: Shape File Link`European Sedan: Body` CS European Sedan` , Shape File`Shape_46bbd8c3-972b-491b-ada8-8b076bd1780a
+
+set_transparency 0.4
+set_lighting on
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.25
+PARSFILE Animator\STL\Shape_51efed0b-495d-497a-b06e-54b3bdbe64f5.par
+#BlueLink1 Animator: Shape File Link`European Sedan: Details` CS European Sedan` , Shape File`Shape_51efed0b-495d-497a-b06e-54b3bdbe64f5
+
+set_transparency 0.4
+set_lighting on
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.25
+PARSFILE Animator\STL\Shape_a6fdcf39-2ef6-4cd9-b8e6-ca4fb16952b9.par
+#BlueLink2 Animator: Shape File Link`European Sedan: Windows` CS European Sedan` , Shape File`Shape_a6fdcf39-2ef6-4cd9-b8e6-ca4fb16952b9
+
+set_transparency 0.4
+set_lighting on
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.25
+x_ref_length 2711
+y_ref_length 1753
+z_ref_length 1433
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { CS D-Class } D-Class, Sedan (Transparent, No Interior)
+#Library : Animator: Shape Assembly
+#DataSet : D-Class, Sedan (Transparent, No Interior)
+#Category: CS D-Class
+#FileID  : ShpGrp_a8d1bcd0-1959-4596-8584-103167aa3cd2
+#Product : CarSim 2017.1
+#VehCode Shape Assembly
+
+END

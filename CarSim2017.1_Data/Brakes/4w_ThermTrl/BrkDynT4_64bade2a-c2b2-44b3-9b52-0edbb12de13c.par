@@ -1,0 +1,23 @@
+PARSFILE
+#FullDataName Brakes: Trailer Four-Wheel System with Thermal Effects (Legacy)`No Data`Empty (You should edit or delete this)
+
+
+iaxle 1
+iside 1
+
+iside 2
+
+iaxle 2
+iside 1
+
+iside 2
+
+LOG_ENTRY Used Dataset: Brakes: Trailer Four-Wheel System with Thermal Effects (Legacy); { Empty (You should edit or delete this) } No Data
+#Library : Brakes: Trailer Four-Wheel System with Thermal Effects (Legacy)
+#DataSet : No Data
+#Category: Empty (You should edit or delete this)
+#FileID  : BrkDynT4_64bade2a-c2b2-44b3-9b52-0edbb12de13c
+#Product : CarSim 2017.1
+#VehCode Boost and Thermal
+
+END

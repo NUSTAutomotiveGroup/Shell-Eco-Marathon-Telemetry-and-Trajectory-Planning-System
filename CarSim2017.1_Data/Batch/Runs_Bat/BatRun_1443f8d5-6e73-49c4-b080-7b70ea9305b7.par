@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Batch Runs`Extended Models (Generate Files Only)`Extended Models
+#CheckBox1 0    
+
+#MiscYellow1
+#<* CS 2017 - External Powertrain Model> GT-Suite: Accel. and Brake on Circle
+#<Extended Models> Steer Controller with MATLAB
+#<External Control: COM, FMU, MATLAB, Python, VB> Baseline FMI 1.0
+#<External Control: COM, FMU, MATLAB, Python, VB> Baseline FMI 2.0
+#<External Control: COM, FMU, MATLAB, Python, VB> Ext. ABS: Split Mu (Flat Ports)
+#<External Control: COM, FMU, MATLAB, Python, VB> Ext. ABS: Split Mu (Structured Ports)
+#<External Control: COM, FMU, MATLAB, Python, VB> Fishhook Procedure: E-Class SUV  FMI 2.0 Self-Contained
+#<External Control: COM, FMU, MATLAB, Python, VB> Simple Run from MATLAB
+#<External Control: COM, FMU, MATLAB, Python, VB> Simple Run from Python
+#<External Control: COM, FMU, MATLAB, Python, VB> Simple Run from VB Program
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains the datasets which have been extended with additional software which requires the run to be executed outside of CarSim.
+#
+#Some of these runs use software which could require an additional license.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; { Extended Models } Extended Models (Generate Files Only)
+#Library : Batch Runs
+#DataSet : Extended Models (Generate Files Only)
+#Category: Extended Models
+#FileID  : BatRun_1443f8d5-6e73-49c4-b080-7b70ea9305b7
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

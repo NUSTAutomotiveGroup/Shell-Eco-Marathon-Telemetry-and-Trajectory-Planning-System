@@ -1,0 +1,36 @@
+PARSFILE
+#FullDataName Events`E. Enable Driver 2017`Handbrake Turn
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl10 0
+#RingCtrl11 4
+
+#MiscYellow0
+opt_direction -1
+#ENDMYellow
+
+PARSFILE Control\Driver\StrDM_ef938a74-a8af-40b8-945e-8f04ceecdc0f.par
+#BlueLink10 Control: Steering by the Closed-loop Driver Model`3 m Left, 1.5 sec. Preview` Constant Position` , Miscellaneous`StrDM_ef938a74-a8af-40b8-945e-8f04ceecdc0f
+
+#MiscYellow1
+; use a long preview so the driver returns
+; smoothly to the path
+TPREV_CONSTANT 3
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Handbrake Turn } E. Enable Driver 2017
+#Library : Events
+#DataSet : E. Enable Driver 2017
+#Category: Handbrake Turn
+#FileID  : Events_d9de7cd2-3245-4abf-b48e-d6e8db78bfdc
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

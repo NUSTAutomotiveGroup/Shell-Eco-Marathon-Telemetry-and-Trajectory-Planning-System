@@ -1,0 +1,77 @@
+PARSFILE
+#FullDataName CarSim Run Control`GT-Suite: Accel. and Brake on Circle`* CS 2017 - External Powertrain Model
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_dd3e1f8a-00a1-47fa-9de5-c323714e33fb
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Models\FMU\Fmu_d3853c64-bb81-4663-a3b7-767ca4e57464.par
+#BlueLink12 Models: Export FMU/FMI`CarSim/GT-Suite: RWD` ` , Models`Fmu_d3853c64-bb81-4663-a3b7-767ca4e57464
+
+PARSFILE Animator\Cameras\Camera_5feacfa5-2cee-4705-8aee-f5baa805e553.par
+#BlueLink0 Animator: Camera Setup`FL View, Road Ref. (Rr. Facing)` Road Reference` , Animator camera`Camera_5feacfa5-2cee-4705-8aee-f5baa805e553
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 1
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 1 0 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_9677a5c5-3691-42ad-8a0f-b95e6c9a9dd1.par
+#BlueLink2 Vehicle: Assembly`D-Class, Sedan 2017: Ext. All Powertrain` D-Class` , Vehicle Configuration`Vehicle_9677a5c5-3691-42ad-8a0f-b95e6c9a9dd1
+
+PARSFILE Procedures\Proc_2a2cc6a0-7f4f-458c-9eff-e51be8ffa1e4.par
+#BlueLink28 Procedures`Accel. then Brake (0-100-0 km/h, 8 Spd. AT)` Accel. and Brake Testing` , Procedure`Proc_2a2cc6a0-7f4f-458c-9eff-e51be8ffa1e4
+
+PARSFILE Roads\3D_Road\Road_e8572ed8-f752-4691-aef8-defbe1fd35dd.par
+#BlueLink9 Road: 3D Surface (All Properties)`500-ft Radius Circle, Mu = 0.85` Circular Roads` , Miscellaneous`Road_e8572ed8-f752-4691-aef8-defbe1fd35dd
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_4c0e86ee-c21f-408d-8b23-6643df4bf3f4.png
+WRITE_SENSOR_DETECT
+Title GT-Suite: Accel. and Brake on Circle <* CS 2017 - External Powertrain Model>
+CATEGORY * CS 2017 - External Powertrain Model 
+DATASET_TITLE GT-Suite: Accel. and Brake on Circle
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example dataset uses the GT-Suite powertrain model connected through FMI.
+#
+#This example only generates the FMU file.  To execute, GT-suite software and the separate license are required.
+#
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { * CS 2017 - External Powertrain Model } GT-Suite: Accel. and Brake on Circle
+#Library : CarSim Run Control
+#DataSet : GT-Suite: Accel. and Brake on Circle
+#Category: * CS 2017 - External Powertrain Model
+#FileID  : Run_dd3e1f8a-00a1-47fa-9de5-c323714e33fb
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

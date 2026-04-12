@@ -1,0 +1,38 @@
+PARSFILE
+#FullDataName Plot: Setup`Central Clutch Control Input`Controls: Chassis and Powertrain
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS ClutchD3, Time
+PLOTCHANNELS Clt_D3_2, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Central Clutch Control Input
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Controls: Chassis and Powertrain } Central Clutch Control Input
+#Library : Plot: Setup
+#DataSet : Central Clutch Control Input
+#Category: Controls: Chassis and Powertrain
+#FileID  : Plot_0f00646f-8d3e-405d-816d-663799a16fbc
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

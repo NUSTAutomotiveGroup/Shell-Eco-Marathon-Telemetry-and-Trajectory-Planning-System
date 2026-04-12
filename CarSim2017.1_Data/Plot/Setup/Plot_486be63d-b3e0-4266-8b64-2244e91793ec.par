@@ -1,0 +1,50 @@
+PARSFILE
+#FullDataName Plot: Setup`ESC Variables`User-Defined Variables
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow1
+define_output yr_rad = avz
+#ENDMYellow
+
+#MiscYellow0
+PLOTCHANNELS yr_rad, Time, Vehicle yaw rate
+PLOTCHANNELS esc_yrp, time
+PLOTCHANNELS esc_yrp1, time
+PLOTCHANNELS esc_yrp2, time
+PLOTCHANNELS esc_err, time
+
+#ENDMYellow
+
+YAXISLABEL Yaw rate components - rad/s
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE ESC Variables
+
+END_ENTITY Plot
+
+
+#EMBEDDED_NOTES
+#This dataset is linked to a VS Command dataset that adds an ESC via VS Commands. The variables listed here are defined with some of those VS Commands.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Plot: Setup; { User-Defined Variables } ESC Variables
+#Library : Plot: Setup
+#DataSet : ESC Variables
+#Category: User-Defined Variables
+#FileID  : Plot_486be63d-b3e0-4266-8b64-2244e91793ec
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

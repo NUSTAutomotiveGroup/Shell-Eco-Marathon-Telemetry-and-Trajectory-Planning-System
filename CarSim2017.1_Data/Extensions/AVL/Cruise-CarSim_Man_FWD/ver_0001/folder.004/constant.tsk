@@ -1,0 +1,131 @@
+$======================================================================
+$ Applikation: Project Data
+$ Objekt:      Task Folder
+$ erstellt am: May 2, 2011 - Uhrzeit: 3:17:13 pm
+$-----------------------------------------------KONSTANTFAHRT
+[KONSTANTFAHRT]
+#BERM_ID                  = 
+#BERM_ENTW_DATUM          = "Jan 15, 2005 18:21:41 tt"
+IDX                       = 1
+BERECHNEN                 = 2
+KONSTF_ID                 = 
+KONSTF_ENTW_DATUM         = "Jan 14, 2005 10:07:14 tt"
+DATENSATZ_VERANTWORTLICHER = 'CST CV'
+DB_USER                   = ''
+SEC_ID                    = 
+BEMERKUNG                 = 'Manual FWD'
+IDENTIF_ATTR1             = ''
+IDENTIF_ATTR2             = ''
+IDENTIF_ATTR3             = ''
+#KONSTF_ID                = 
+#KONSTF_ENTW_DATUM        = "Jan 14, 2005 10:07:14 tt"
+NAME                      = 'Run in all Gears'
+TPL_AUSGABE               = 2
+PPD_AUSGABE               = 2
+MS_AUSGABE                = 1
+MS_AUSGABE_OPTION         = 1
+MS_AUSGABE_SCHRITTE       = 
+TEILAUFGABE               = 1
+WARMSTARTAUSWAHL          = 3
+FAHRWIDERSTAND            = 1
+SIM_QUAS                  = 0
+KURVENFAHRT               = 1
+RADSCHLUPF                = 1
+MESS_V_AKTIV              = 2
+MESS_V_AKTIV_RUNTER       = 1
+GANGWAHL                  = 2
+TIPTRONIC                 = 1
+STEUER_PROG               = 1
+FAHRERNAME                = 'Standard'
+STRECKENNAME              = 'Standard'
+BELADUNG_LEER             = 1
+ZUSATZBELADUNGSSCHALTER   = 1
+ZUSATZLADUNG <kg>         = 0.0
+BELADUNG_HALB             = 2
+ZUSATZLADUNG_REL <%>      = 0.0
+BELADUNG_VOLL             = 1
+BELADUNG_ANHAENGER        = 1
+STR_ID                    = 
+STR_ENTW_DATUM            = "Jan 14, 2005 10:07:14 tt"
+FAH_ID                    = 
+FAH_ENTW_DATUM            = "Jan 14, 2005 10:07:15 tt"
+SMK_ID                    = 
+SMK_ENTW_DATUM            = "Apr 22, 1998 17:48:22 tt"
+WAY_FILE = 'ways\Standard_2.way'
+DRV_FILE = 'drivers\Standard_2.drv'
+$-----------------------------------Velocity Measuring Points
+(MESSPUNKTE_GESCHW)
+#KONSTF_ID                = 
+#KONSTF_ENTW_DATUM        = "Jan 14, 2005 10:07:14 tt"
+GR_NAME_UNABH1            = 67
+GR_EINH_UNABH1            = 'km/h'
+GR_NAME_UNABH2            = 30
+GR_EINH_UNABH2            = 'km/h'
+GR_NAME_UNABH3            = 63
+GR_EINH_UNABH3            = 'km/h'
+TP_ID                     = 
+{ GR_WERT_UNABH1 GR_WERT_UNABH2 GR_WERT_UNABH3 }
+  20.0           280.0          20.0           
+$-----------------------------------------------KONSTANTFAHRT
+[KONSTANTFAHRT]
+#BERM_ID                  = 
+#BERM_ENTW_DATUM          = "Jan 15, 2005 18:21:41 tt"
+IDX                       = 2
+BERECHNEN                 = 2
+KONSTF_ID                 = 
+KONSTF_ENTW_DATUM         = "Jan 14, 2005 10:07:14 tt"
+DATENSATZ_VERANTWORTLICHER = 'CST CV'
+DB_USER                   = ''
+SEC_ID                    = 
+BEMERKUNG                 = 'Manual FWD'
+IDENTIF_ATTR1             = ''
+IDENTIF_ATTR2             = ''
+IDENTIF_ATTR3             = ''
+#KONSTF_ID                = 
+#KONSTF_ENTW_DATUM        = "Jan 14, 2005 10:07:14 tt"
+NAME                      = 'Maximum Velocity without Slip'
+TPL_AUSGABE               = 2
+PPD_AUSGABE               = 2
+MS_AUSGABE                = 1
+MS_AUSGABE_OPTION         = 1
+MS_AUSGABE_SCHRITTE       = 
+TEILAUFGABE               = 2
+WARMSTARTAUSWAHL          = 3
+FAHRWIDERSTAND            = 1
+SIM_QUAS                  = 0
+KURVENFAHRT               = 1
+RADSCHLUPF                = 1
+MESS_V_AKTIV              = 1
+MESS_V_AKTIV_RUNTER       = 1
+GANGWAHL                  = 2
+TIPTRONIC                 = 1
+STEUER_PROG               = 1
+FAHRERNAME                = 'Standard'
+STRECKENNAME              = 'Standard'
+BELADUNG_LEER             = 1
+ZUSATZBELADUNGSSCHALTER   = 1
+ZUSATZLADUNG <kg>         = 0.0
+BELADUNG_HALB             = 2
+ZUSATZLADUNG_REL <%>      = 0.0
+BELADUNG_VOLL             = 1
+BELADUNG_ANHAENGER        = 1
+STR_ID                    = 
+STR_ENTW_DATUM            = "Jan 14, 2005 10:07:14 tt"
+FAH_ID                    = 
+FAH_ENTW_DATUM            = "Jan 14, 2005 10:07:16 tt"
+SMK_ID                    = 
+SMK_ENTW_DATUM            = "Apr 22, 1998 17:48:22 tt"
+WAY_FILE = 'ways\Standard_2.way'
+DRV_FILE = 'drivers\Standard_3.drv'
+$-----------------------------------Velocity Measuring Points
+(MESSPUNKTE_GESCHW)
+#KONSTF_ID                = 
+#KONSTF_ENTW_DATUM        = "Jan 14, 2005 10:07:14 tt"
+GR_NAME_UNABH1            = 67
+GR_EINH_UNABH1            = 'km/h'
+GR_NAME_UNABH2            = 30
+GR_EINH_UNABH2            = 'km/h'
+GR_NAME_UNABH3            = 63
+GR_EINH_UNABH3            = 'km/h'
+TP_ID                     = 
+{ GR_WERT_UNABH1 GR_WERT_UNABH2 GR_WERT_UNABH3 }

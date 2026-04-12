@@ -1,0 +1,78 @@
+PARSFILE
+#FullDataName CarSim Run Control`sem 1`
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_1255e55b-9af3-438e-ae5e-d47f6fc15382
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Models\Simulink\Simlink_d891ba6b-8c8b-4af5-b9c8-0aaa125a984c.par
+#BlueLink12 Models: Simulink`New Simulink with No Connections` ` , Models`Simlink_d891ba6b-8c8b-4af5-b9c8-0aaa125a984c
+
+PARSFILE Animator\Cameras\Camera_78646c82-3c25-4eef-b153-d76a910f00fb.par
+#BlueLink0 Animator: Camera Setup`K & C View` ` , Animator camera`Camera_78646c82-3c25-4eef-b153-d76a910f00fb
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 1
+#RingCtrl7 -1
+*RUN_COLOR 0 0 0
+SET_RUN_COLOR 0 0 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_b2ec6626-0d65-4b27-8408-a64db53baadf.par
+#BlueLink2 Vehicle: Assembly`SEM1` ` , Vehicle Configuration`Vehicle_b2ec6626-0d65-4b27-8408-a64db53baadf
+
+PARSFILE Procedures\Proc_b8785199-c231-4745-aa89-8d974d06975b.par
+#BlueLink28 Procedures`Lusail Test #1` Driving` , Procedure`Proc_b8785199-c231-4745-aa89-8d974d06975b
+
+#BlueLink9 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink23 CarSim Run Control`sem 1` ` , Overlay run or ERD file`Run_1255e55b-9af3-438e-ae5e-d47f6fc15382
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_60c109ee-5c8d-45dd-bfaa-dfba617c42c7.png
+WRITE_SENSOR_DETECT
+Title sem 1
+DATASET_TITLE sem 1
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example shows a Braking Distance Test for an E-Class Sedan with pedal force input, power boost, and thermal effects.
+#
+#In this test procedure, the car is traveling at 102 km/h at the start of the simulation and coasts down to 100  km/h.  Using Events, the car is repositioned to the start of the road (0 m) and simultaneously begins to brake. Review the plot of Station vs. Time to measure the vehicle's braking distance.
+#
+#NOTE: This example was provided in older versions of CarSim to demonstrate an alternative brake library screen. In the newer versions (2017), the standard 4W brake system screen is used to set the options.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; sem 1
+#Library : CarSim Run Control
+#DataSet : sem 1
+#Category: 
+#FileID  : Run_1255e55b-9af3-438e-ae5e-d47f6fc15382
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

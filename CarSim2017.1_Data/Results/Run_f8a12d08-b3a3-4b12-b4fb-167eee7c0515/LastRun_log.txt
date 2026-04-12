@@ -1,0 +1,23 @@
+Include PARSFILE "Results\Run_f8a12d08-b3a3-4b12-b4fb-167eee7c0515\Run_all.par"
+Used Dataset: Animator: Reference Frame; { Car Tracking } Car X-Y-Z
+Used Dataset: Animator: Camera Setup; { Vehicle Reference } 13 deg. Azimuth, Veh. Ref.
+ A. QS DLC stop @ 3s <Restore, Restart, Optimize>
+ B. QS DLC continue <Restore, Restart, Optimize>
+Used Dataset: CarSim Run Control; { Restore, Restart, Optimize } B. QS DLC continue
+
+Time to read input = 0.016
+Function F_REB_STOP_TABLE(1,1) extrapolated (out of range HIGH) for X = 5.29927 mm at T = 3
+Function F_JNC_STOP_TABLE(1,1) extrapolated (out of range LOW) for X = 5.29927 mm at T = 3
+Function F_REB_STOP_TABLE(1,2) extrapolated (out of range HIGH) for X = -14.8188 mm at T = 3
+Function F_JNC_STOP_TABLE(1,2) extrapolated (out of range LOW) for X = -14.8188 mm at T = 3
+Function F_REB_STOP_TABLE(2,1) extrapolated (out of range HIGH) for X = 11.112 mm at T = 3
+Function F_JNC_STOP_TABLE(2,1) extrapolated (out of range LOW) for X = 11.112 mm at T = 3
+Function F_REB_STOP_TABLE(2,2) extrapolated (out of range HIGH) for X = -6.52989 mm at T = 3
+Function F_JNC_STOP_TABLE(2,2) extrapolated (out of range LOW) for X = -6.52989 mm at T = 3
+
+Run started: ERD output file = Results\Run_f8a12d08-b3a3-4b12-b4fb-167eee7c0515\LastRun.bin
+
+Run stopped at t = 10. Stop time reached.
+
+Computational efficiency: RTIME = 0.0877143 sec/sim. sec
+

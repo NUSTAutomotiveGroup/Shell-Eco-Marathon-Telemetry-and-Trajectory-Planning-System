@@ -1,0 +1,9 @@
+$======================================================================
+$ Applikation: CRUISE - Driving Performance, Fuel Consumption and Emissions Calculation
+$ Modelldateien: .lay, .dbf, .stc
+$ erstellt am: May 2, 2011 - Uhrzeit: 3:17:13 pm
+$======================================================================
+[Files]
+LAYOUT_FILE       = 'Man_FWD.lay'
+DATEN_FILE        = 'Man_FWD.dbf'
+STRUCT_FILE       = 'Man_FWD.stc'

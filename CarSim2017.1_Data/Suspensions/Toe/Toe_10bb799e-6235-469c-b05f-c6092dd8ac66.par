@@ -1,0 +1,20 @@
+PARSFILE
+#FullDataName Suspension: Toe Angle`Constant: Zero`
+#CheckBox0 0    
+
+#RingCtrl0 CONSTANT
+#RadioCtrl0 0    
+
+TOE_CONSTANT 0
+*SCALAR 0
+
+
+LOG_ENTRY Used Dataset: Suspension: Toe Angle; Constant: Zero
+#Library : Suspension: Toe Angle
+#DataSet : Constant: Zero
+#Category: 
+#FileID  : Toe_10bb799e-6235-469c-b05f-c6092dd8ac66
+#Product : CarSim 2017.1
+#VehCode Toe
+
+END

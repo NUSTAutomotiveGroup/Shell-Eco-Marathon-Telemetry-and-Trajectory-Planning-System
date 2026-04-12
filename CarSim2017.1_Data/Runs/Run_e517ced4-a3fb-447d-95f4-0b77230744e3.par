@@ -1,0 +1,76 @@
+PARSFILE
+#FullDataName CarSim Run Control`Static Steer Test - Brakes On`Steering Tests
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_e517ced4-a3fb-447d-95f4-0b77230744e3
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_be745cb7-ac68-4a4b-ba26-8a584119b7f0.par
+#BlueLink0 Animator: Camera Setup`Front View Low, Road Ref. (Rr. Facing)` Road Reference` , Animator camera`Camera_be745cb7-ac68-4a4b-ba26-8a584119b7f0
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 1    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0.878 0.878 0.878
+SET_RUN_COLOR 0.878 0.878 0.878
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_30c22a64-baf6-443f-93a1-3f2a95df26b9.par
+#BlueLink2 Vehicle: Assembly`D-Class, Sedan 2017` D-Class` , Vehicle Configuration`Vehicle_30c22a64-baf6-443f-93a1-3f2a95df26b9
+
+PARSFILE Procedures\Proc_f5268ab9-f5eb-4419-bca2-e756048f7cd8.par
+#BlueLink28 Procedures`Static Steer Test - Brakes On` Driver Controls` , Procedure`Proc_f5268ab9-f5eb-4419-bca2-e756048f7cd8
+
+*TSTEP 0.001
+*FREQ_MODEL 1000
+*TSTEP_OUT 0.005
+*FREQ_OUT 200
+tstep 0.001
+iprint 5
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_4c0e86ee-c21f-408d-8b23-6643df4bf3f4.png
+WRITE_SENSOR_DETECT
+Title Static Steer Test - Brakes On <Steering Tests>
+CATEGORY Steering Tests 
+DATASET_TITLE Static Steer Test - Brakes On
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example performs an open-loop steering test such as a constant amplitude and frequency sine sweep test while the vehicle is sitting still.
+#
+#Using the plots set on the Procedure screen, you can analyze the test results to determine the steering wheel torque felt by the driver, the tire lateral forces, and the steering moments about the kingpin, just to name a few.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Steering Tests } Static Steer Test - Brakes On
+#Library : CarSim Run Control
+#DataSet : Static Steer Test - Brakes On
+#Category: Steering Tests
+#FileID  : Run_e517ced4-a3fb-447d-95f4-0b77230744e3
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

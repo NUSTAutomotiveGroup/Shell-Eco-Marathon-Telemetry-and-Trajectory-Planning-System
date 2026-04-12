@@ -1,0 +1,72 @@
+PARSFILE
+#FullDataName CarSim Run Control`Tractor w/ Center Pivot Front Axle`Unconventional Vehicles
+#VEHICLECODE SA_SA
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_da22db24-bcc1-4322-a472-b6ba34cb350f
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_8eb08baf-478b-4574-8772-fb6308e8fbd6.par
+#BlueLink0 Animator: Camera Setup`35 deg. Azimuth, 42 deg. FOV, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_8eb08baf-478b-4574-8772-fb6308e8fbd6
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 1
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_890aa324-62e2-4b39-9730-b660f60ec2b3.par
+#BlueLink2 Vehicle: Assembly`Tractor 2017` Utility Vehicles` , Vehicle Configuration`Vehicle_890aa324-62e2-4b39-9730-b660f60ec2b3
+
+PARSFILE Procedures\Proc_cd7fd4e1-58f5-4013-8142-b81fd633e040.par
+#BlueLink28 Procedures`Chassis Twist Road` Ride Tests` , Procedure`Proc_cd7fd4e1-58f5-4013-8142-b81fd633e040
+
+INSTALL_DRIVER_SPEED_CONTROLLER CarSim9
+*SPEED 10
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_890aa324-62e2-4b39-9730-b660f60ec2b3.png
+WRITE_SENSOR_DETECT
+Title Tractor w/ Center Pivot Front Axle <Unconventional Vehicles>
+CATEGORY Unconventional Vehicles 
+DATASET_TITLE Tractor w/ Center Pivot Front Axle
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example shows a tractor that has a centrally pivoted front suspension. The springs and dampers have been applied extremely close to each other so that no roll stiffness is contributed by either.
+#
+#The rear axle, while it does have a suspension, is substantially stiffer in roll than the front axle.  This will provide a reasonable simulation of the way a tractor drives, but it is not perfect.
+#
+#This example is here to show you that other vehicle types are possible with CarSim by using a little creativity.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Unconventional Vehicles } Tractor w/ Center Pivot Front Axle
+#Library : CarSim Run Control
+#DataSet : Tractor w/ Center Pivot Front Axle
+#Category: Unconventional Vehicles
+#FileID  : Run_da22db24-bcc1-4322-a472-b6ba34cb350f
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

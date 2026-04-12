@@ -1,0 +1,70 @@
+PARSFILE
+#FullDataName CarSim Run Control`GPS Long Road Import`Road Networks: 3D Geometry and Terrain
+#VEHICLECODE Ind_SA
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_c8119c96-442f-4513-880e-93bd5ab28fdc
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_6ee7b251-3362-4e47-80d3-90ca59581138.par
+#BlueLink0 Animator: Camera Setup`180 deg. Azimuth, 3 deg. El., Veh. Ref.` Vehicle Reference` , Animator camera`Camera_6ee7b251-3362-4e47-80d3-90ca59581138
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 1
+*RUN_COLOR 0.8 0 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_2f0a8c58-5dfb-4a19-801d-de2b07aa0ec3.par
+#BlueLink2 Vehicle: Assembly`SUV, Full Size` ` , Vehicle Configuration`Vehicle_2f0a8c58-5dfb-4a19-801d-de2b07aa0ec3
+
+PARSFILE Procedures\Proc_8c93b528-3938-4510-b6b9-1ee7fc0cfd4e.par
+#BlueLink28 Procedures`Follow Long GPS Path` Driving` , Procedure`Proc_8c93b528-3938-4510-b6b9-1ee7fc0cfd4e
+
+OPT_VS_FILETYPE 1
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_2f0a8c58-5dfb-4a19-801d-de2b07aa0ec3.png
+WRITE_SENSOR_DETECT
+Title GPS Long Road Import <Road Networks: 3D Geometry and Terrain>
+CATEGORY Road Networks: 3D Geometry and Terrain 
+DATASET_TITLE GPS Long Road Import
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This dataset shows a completed import of GPS data using the "Import GPS" button on road building screens. Because GPS angles are produced as outputs, the 64-bit output file format is used.
+#
+#There are two Procedures that use the GPS imported road data. One is an example of city driving and is named "Follow Short GPS Path" (see GPS Short Road Import example).  The second Procedure dataset is "Follow Long GPS Path" (used in this example) which is an import of a section of highway.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Road Networks: 3D Geometry and Terrain } GPS Long Road Import
+#Library : CarSim Run Control
+#DataSet : GPS Long Road Import
+#Category: Road Networks: 3D Geometry and Terrain
+#FileID  : Run_c8119c96-442f-4513-880e-93bd5ab28fdc
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

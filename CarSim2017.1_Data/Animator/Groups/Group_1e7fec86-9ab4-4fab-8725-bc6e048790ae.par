@@ -1,0 +1,29 @@
+PARSFILE
+#FullDataName Animator: Group`Handling Course Extra Shapes OSG`Handling Course
+PARSFILE Animator\STL\Shape_9f31fba3-29c8-4ad0-b4dc-048ff6466e5a.par
+#BlueLink0 Animator: Shape File Link`Handling Course Details With Shadows` Handling Course` , Miscellaneous`Shape_9f31fba3-29c8-4ad0-b4dc-048ff6466e5a
+
+PARSFILE Animator\STL\Shape_e3cb9f93-d7c2-4c4f-8776-fb3f74e96c38.par
+#BlueLink1 Animator: Shape File Link`Handling Course Trees OSG` Handling Course` , Miscellaneous`Shape_e3cb9f93-d7c2-4c4f-8776-fb3f74e96c38
+
+
+#CheckBox0 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_614e20f4-a550-401b-86b4-f904a05376d4.par
+#BlueLink20 Animator: Camera Setup`Shape Preview (No Grid)` Shape Preview` , Video Camera`Camera_614e20f4-a550-401b-86b4-f904a05376d4
+
+
+#EMBEDDED_NOTES
+#These images will only animate using the VsVisualizer.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Group; { Handling Course } Handling Course Extra Shapes OSG
+#Library : Animator: Group
+#DataSet : Handling Course Extra Shapes OSG
+#Category: Handling Course
+#FileID  : Group_1e7fec86-9ab4-4fab-8725-bc6e048790ae
+#Product : CarSim 2017.1
+#VehCode Animator Group
+
+END

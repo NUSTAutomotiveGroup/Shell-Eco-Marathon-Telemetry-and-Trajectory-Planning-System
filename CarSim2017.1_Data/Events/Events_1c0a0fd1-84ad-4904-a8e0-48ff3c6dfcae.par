@@ -1,0 +1,30 @@
+PARSFILE
+#FullDataName Events`A. Driver Drifts to Right`Wind-tripped Rollover
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl0 >
+#RingCtrl10 1
+#RingCtrl11 4
+*NAME1 station
+*VALUE1 260
+
+DEFINE_EVENT station > 260 ; Events\Events_2e004245-0364-4842-ae4c-5b96dbeaeb33.par
+#BlueLink0 Events`B. Wind Gust` Wind-tripped Rollover` , Events`Events_2e004245-0364-4842-ae4c-5b96dbeaeb33
+
+
+#EMBEDDED_NOTES
+#Vehicle drives down the road at 120 km/h.  When it is 260 m down the road, the next event is triggered.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Wind-tripped Rollover } A. Driver Drifts to Right
+#Library : Events
+#DataSet : A. Driver Drifts to Right
+#Category: Wind-tripped Rollover
+#FileID  : Events_1c0a0fd1-84ad-4904-a8e0-48ff3c6dfcae
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

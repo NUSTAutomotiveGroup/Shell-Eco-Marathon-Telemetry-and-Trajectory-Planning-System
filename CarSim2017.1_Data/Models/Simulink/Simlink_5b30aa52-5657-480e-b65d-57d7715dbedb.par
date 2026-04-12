@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Models: Simulink`External Center Differential`External Powertrain
+#RunMdlFile Extensions\Simulink\pt_center_diff\Pt_Center_Diff_CS9.mdl
+#RingCtrl1 2
+OPT_INT_METHOD 2
+#CheckBox0 0    
+*USE_ALT_DIR 0
+#CheckBox1 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox2 1    
+OPT_IO_UPDATE 1
+#CheckBox3 0    
+
+*ALTERNATE_PATH Programs\Simulink_MDL
+PARSFILE IO_Channels\I_Channels\Import_a6c65bce-cedd-4359-83fc-4b1ff32e09dc.par
+#BlueLink0 I/O Channels: Import`Transfer Case` Powertrain Imports` , Import`Import_a6c65bce-cedd-4359-83fc-4b1ff32e09dc
+
+PARSFILE IO_Channels\O_Channels\Export_eeb3c5e7-602b-4985-8f04-dbbbf8f91fd3.par
+#BlueLink1 I/O Channels: Export`Transfer Case` Powertrain Exports` , Export`Export_eeb3c5e7-602b-4985-8f04-dbbbf8f91fd3
+
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+#EMBEDDED_NOTES
+#This dataset specifies a Simulink model that is used to replace the center differential in a 4WD CarSim vehicle.
+#
+#The CarSim powertrain model involves some detailed interactions between variables, so the option to Add, Replace, or Multiply the Simulink imported variables with their corresponding variables in CarSim is not available for most powertrain variables.
+#
+#Instead, Add is the only import mode available for most powertrain import variables, and it is necessary to specify that certain components are handled with an external model on the powertrain library screen.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: Simulink; { External Powertrain } External Center Differential
+#Library : Models: Simulink
+#DataSet : External Center Differential
+#Category: External Powertrain
+#FileID  : Simlink_5b30aa52-5657-480e-b65d-57d7715dbedb
+#Product : CarSim 2017.1
+#VehCode 
+
+END

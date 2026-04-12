@@ -1,0 +1,93 @@
+PARSFILE
+#FullDataName Animator: Vehicles and Sensor Targets`C-Class, Hatchback 2012 OSG`C-Class Vehicles
+
+PARSFILE Generic\Lists\GenList_f1eca2af-262f-452b-a53f-07c6b1476b11.par
+#BlueLink9 Generic Data Lists`Rear View Mirror (C -Class Example)` ` , Misc`GenList_f1eca2af-262f-452b-a53f-07c6b1476b11
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox6 0    
+#CheckBox7 1    
+
+OBJ_X_LENGTH 2893
+OBJ_Y_LENGTH 1916
+OBJ_Z_LENGTH 1610
+*DZ_V 0
+*LAT_WC 1600
+*LAT_WC_2 1600
+*HWC 350
+*WHEEL_RATIO 1.2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\Vehicles\AniVeh_339055ba-da70-41ce-ae0c-6ee903dfe65f.png
+DZ_OBJECT 0
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+TIRE_ANI_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+SET_SCALE_X 1.2
+SET_SCALE_Y 1.2
+SET_SCALE_Z 1.2
+SET_OFFSET_X 0
+SET_OFFSET_Y 0.8
+SET_OFFSET_Z 0.3325
+TIRE_ANI_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+SET_SCALE_X 1.2
+SET_SCALE_Y 1.2
+SET_SCALE_Z 1.2
+SET_ANGLE_X 180
+SET_OFFSET_X 0
+SET_OFFSET_Y -0.8
+SET_OFFSET_Z 0.3325
+TIRE_ANI_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+SET_SCALE_X 1.2
+SET_SCALE_Y 1.2
+SET_SCALE_Z 1.2
+SET_OFFSET_X -2.893
+SET_OFFSET_Y 0.8
+SET_OFFSET_Z 0.3325
+TIRE_ANI_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+SET_SCALE_X 1.2
+SET_SCALE_Y 1.2
+SET_SCALE_Z 1.2
+SET_ANGLE_X 180
+SET_OFFSET_X -2.893
+SET_OFFSET_Y -0.8
+SET_OFFSET_Z 0.3325
+DZ_OBJECT 0
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+PARSFILE Animator\STL_Groups\ShpGrp_ef00e184-5515-4e79-914f-936acb67167c.par
+#BlueLink1 Animator: Shape Assembly`C-Class, Hatchback 2012 OSG` CS C-Class` , Vehicle Body`ShpGrp_ef00e184-5515-4e79-914f-936acb67167c
+
+PARSFILE Animator\Sound\Set\SndSet_7a16a539-6395-4fa5-9971-033e89fa67b0.par
+#BlueLink6 Animator: Sound Set`Wind Noise` ` , Sound Set`SndSet_7a16a539-6395-4fa5-9971-033e89fa67b0
+
+WRITE_REFERENCE_FRAME_SIZE
+WRITE_ADD_REFERENCE_FRAME_BRAKES
+PARSFILE Animator\STL\Shape_7b5102a0-ed08-41fd-b6e0-2069fb830d0d.par
+#BlueLink3 Animator: Shape File Link`C-Class, Hatchback: Brake Lights 2012` CS Hatchback` , Brake Lights`Shape_7b5102a0-ed08-41fd-b6e0-2069fb830d0d
+
+WRITE_REFERENCE_FRAME_SIZE
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_aad9f5dd-7a61-4319-88b3-b90a1214f577.par
+#BlueLink5 Animator: Camera Setup`Vehicle Pictures` Shape Preview` , Video Camera`Camera_aad9f5dd-7a61-4319-88b3-b90a1214f577
+
+EXPORT_PARSFILE Animator\STL\Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4.par
+#BlueLink2 Animator: Shape File Link`Blurred Tire` Tires` , Tire for traffic vehicle`Shape_a42c3474-8a83-4edf-b890-a781be4fbdd4
+
+
+#EMBEDDED_NOTES
+#The Animator: Vehicles and Sensor Targets screen is used to define animation shapes to be used with the animator.
+#
+#This shape is uses *.OSG files and may only be viewed with the VS Visualizer.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { C-Class Vehicles } C-Class, Hatchback 2012 OSG
+#Library : Animator: Vehicles and Sensor Targets
+#DataSet : C-Class, Hatchback 2012 OSG
+#Category: C-Class Vehicles
+#FileID  : AniVeh_339055ba-da70-41ce-ae0c-6ee903dfe65f
+#Product : CarSim 2017.1
+#VehCode Vehicle Shape
+
+END

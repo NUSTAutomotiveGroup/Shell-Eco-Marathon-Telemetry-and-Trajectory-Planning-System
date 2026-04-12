@@ -1,0 +1,26 @@
+PARSFILE
+#FullDataName Aerodynamics: Fy (Side Force) Coef. vs. Bounce and Pitch`No Effect`
+#CheckBox0 0    
+
+#RingCtrl0 CONSTANT
+#RingCtrl1 CONSTANT
+#RingCtrl2 MULTIPLY
+FY_AERO_SHAPING_2_COMBINE MULTIPLY
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+FY_AERO_SHAPING_2_CONSTANT 1
+FY_AERO_SHAPING_Z_CONSTANT 1
+*SCALAR 1
+*SCALAR2 1
+
+
+LOG_ENTRY Used Dataset: Aerodynamics: Fy (Side Force) Coef. vs. Bounce and Pitch; No Effect
+#Library : Aerodynamics: Fy (Side Force) Coef. vs. Bounce and Pitch
+#DataSet : No Effect
+#Category: 
+#FileID  : AirCFy2_031132e3-bbb6-4770-a3cc-c4a74f404b4f
+#Product : CarSim 2017.1
+#VehCode Fy vs. Bounce and Pitch
+
+END

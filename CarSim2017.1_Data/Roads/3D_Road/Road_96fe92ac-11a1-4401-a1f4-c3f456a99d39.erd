@@ -1,0 +1,15 @@
+ERDFILEV2.00
+24, -1, -1, 96, 1, 0.040000
+TITLE   Road w/ Median <Variable Width Roads>
+SHORTNAMEvent   FullStepID_EventID_Run  Rho_RoadStation Sta_RoadT_Event T_RecordT_Stamp Xo      X_CamF  X_CamR  X_DesignYaw     Yaw_CamFYaw_CamRYo      Y_CamF  Y_CamR  Y_DesignZo      Z_CamF  Z_CamR  
+UNITSNAM-       -       -       -       1/m     m       m       s       s       s       m       m       m       m       deg     deg     deg     m       m       m       m       m       m       m       
+LONGNAMERunning count of events         Integrator full-step status     ID number of event              ID number of run                Curvature of road X-Y ref. path Station (path) at vehicle originStation (road) at vehicle originTime since event clock reset    Recording time in output file   Simulation time stamp           Xo                              X_CamF                          X_CamR                          X coordinate of reference path  Yaw                             Yaw_CamF                        Yaw_CamR                        Yo                              Y_CamF                          Y_CamR                          Y coordinate of reference path  Zo                              Z_CamF                          Z_CamR                          
+GENNAME Count                           Boolean                         ID number                       ID number                       Curvature                       Longitudinal distance           Longitudinal distance           Time                            Time                            Time                            Translation                     Translation                     Translation                     Global X coordinate             Angle                           Angle                           Angle                           Translation                     Translation                     Translation                     Global Y coordinate             Translation                     Translation                     Translation                     
+RIGIBODYEvent                           Integrator full-step status     ID of event                     ID of run                       Driver reference path           Path station at vehicle origin  Road station at vehicle origin  Event                           Recording time in file          Simulation time stamp           ?                               ?                               ?                               Driver reference path           ?                               ?                               ?                               ?                               ?                               ?                               Driver reference path           ?                               ?                               ?                               
+HISTORY VS Road Calculator: Utility to calculate road and path coordinates for visualization
+HISTORY Input parameter file was Roads\3D_Road\Road_96fe92ac-11a1-4401-a1f4-c3f456a99d39.par
+XLABEL  Time
+XUNITS  s
+XSTART  0.000000
+HISTORY Run made at 17:51 on February 07, 2026.
+END

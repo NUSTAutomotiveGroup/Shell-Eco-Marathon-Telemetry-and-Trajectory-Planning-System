@@ -1,0 +1,23 @@
+PARSFILE
+#FullDataName Preview Points for External Driver Control`5 Driver Sensor Points`
+
+INSTALL_DRIVER_PREVIEW_SENSORS 5
+OPT_SENSOR 1
+#RingCtrl0 0
+#RingCtrl1 5
+LX_DRVSEN(1) 5
+LX_DRVSEN(2) 10
+LX_DRVSEN(3) 15
+LX_DRVSEN(4) -10
+LX_DRVSEN(5) -20
+
+
+LOG_ENTRY Used Dataset: Preview Points for External Driver Control; 5 Driver Sensor Points
+#Library : Preview Points for External Driver Control
+#DataSet : 5 Driver Sensor Points
+#Category: 
+#FileID  : DrvSen_e1249794-1c3d-4451-be79-047cb07d05fd
+#Product : CarSim 2017.1
+#VehCode Driver Preview Points
+
+END

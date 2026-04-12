@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName Plot: Setup`Fx vs. Slip`Tire Characteristics
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Fx_L1, KappL_L1
+PLOTCHANNELS Fx_R1, KappL_R1
+PLOTCHANNELS Fx_L2, KappL_L2
+PLOTCHANNELS Fx_R2, KappL_R2
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Fx vs. Slip
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Tire Characteristics } Fx vs. Slip
+#Library : Plot: Setup
+#DataSet : Fx vs. Slip
+#Category: Tire Characteristics
+#FileID  : Plot_c6f23fbc-2707-41af-a3cd-715e42a84da4
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

@@ -1,0 +1,49 @@
+PARSFILE
+#FullDataName Positions, Velocities, and Accelerations`Lower Control Arms`Off-Road Truck Control Arms
+#RingCtrl0 0
+#RingCtrl2 2
+#RingCtrl3 1
+#RingCtrl4 1
+#RingCtrl5 1
+#RingCtrl6 1
+#RingCtrl7 1
+*BODY_ID_1 1
+*X_S1 0
+*Y_S1 230
+*Z_S1 460
+*BODY_ID_2 1
+*X_S2 0
+*Y_S2 -230
+*Z_S2 460
+
+ISENSOR_M = 1
+DEFINE_MOTION_SENSORS 2 + ISENSOR_M -1 -NSENSOR_M
+
+OPT_S_BODY_TYPE 1
+OPT_S_OUTPUT 1
+OPT_S_BODY_ID 1
+X_S 0
+Y_S 230
+Z_S 460
+SET_DESCRIPTION MOTION_SENSOR_NAME Sensor 1: Lower Control Arms
+
+ISENSOR_M = ISENSOR_M + 1
+OPT_S_BODY_TYPE 1
+OPT_S_OUTPUT 1
+OPT_S_BODY_ID 1
+X_S 0
+Y_S -230
+Z_S 460
+SET_DESCRIPTION MOTION_SENSOR_NAME Sensor 2: Lower Control Arms
+
+MAKE_MOTION_SENSOR_OUTPUTS
+
+LOG_ENTRY Used Dataset: Positions, Velocities, and Accelerations; { Off-Road Truck Control Arms } Lower Control Arms
+#Library : Positions, Velocities, and Accelerations
+#DataSet : Lower Control Arms
+#Category: Off-Road Truck Control Arms
+#FileID  : MoSen_97510f25-5104-49af-b103-b0365107939e
+#Product : CarSim 2017.1
+#VehCode Motion Sensors
+
+END

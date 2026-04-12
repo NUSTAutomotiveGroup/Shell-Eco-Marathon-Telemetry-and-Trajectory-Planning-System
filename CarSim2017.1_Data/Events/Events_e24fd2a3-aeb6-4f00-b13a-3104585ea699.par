@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Events`A. Approach Intersection`Roads and Highway - Turn Right
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl0 >
+#RingCtrl10 1
+#RingCtrl11 2
+*NAME1 station
+*VALUE1 -80
+
+INSTALL_DRIVER_SPEED_CONTROLLER 2014
+Opt_SC 2
+PARSFILE Control\Speed_t\SpdTime_0b4fb427-f82a-4121-84e9-cd87f89cadeb.par
+#BlueLink16 Control: Speed (Closed Loop) Using Target Speed`80 km/h` Constant Speed` , Speed vs. time`SpdTime_0b4fb427-f82a-4121-84e9-cd87f89cadeb
+
+PARSFILE Control\Driver\StrDM_0191adf6-6777-43b9-8357-a06bc1a86e34.par
+#BlueLink10 Control: Steering by the Closed-loop Driver Model`2 m Right, 1.5 sec. Preview` Constant Position` , Miscellaneous`StrDM_0191adf6-6777-43b9-8357-a06bc1a86e34
+
+DEFINE_EVENT station > -80 ; Events\Events_d314f2ba-357d-45dc-8fbe-f8b6d23b076f.par
+#BlueLink0 Events`B. Slow to 10 km/h` Roads and Highway - Turn Right` , Events`Events_d314f2ba-357d-45dc-8fbe-f8b6d23b076f
+
+
+#EMBEDDED_NOTES
+#The vehicle approaches the intersection.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Roads and Highway - Turn Right } A. Approach Intersection
+#Library : Events
+#DataSet : A. Approach Intersection
+#Category: Roads and Highway - Turn Right
+#FileID  : Events_e24fd2a3-aeb6-4f00-b13a-3104585ea699
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

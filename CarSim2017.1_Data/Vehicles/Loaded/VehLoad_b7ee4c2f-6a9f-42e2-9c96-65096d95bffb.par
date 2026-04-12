@@ -1,0 +1,54 @@
+PARSFILE
+#FullDataName Vehicle with Loads, Sensors, Trailer, etc.`D-Class, Sedan 2017: w/ 5 Sensors`D-Class
+#VehCode Ind_Ind
+#CheckBox0 0    
+#CheckBox1 0    
+
+symbol_push <<hitch_x>> 0
+symbol_push <<hitch_y>> 0
+symbol_push <<hitch_z>> 0
+iunit 1
+PARSFILE Vehicles\Assembly\Vehicle_30c22a64-baf6-443f-93a1-3f2a95df26b9.par
+#BlueLink0 Vehicle: Assembly`D-Class, Sedan 2017` D-Class` , Lead Unit`Vehicle_30c22a64-baf6-443f-93a1-3f2a95df26b9
+
+ADD_REFERENCE_FRAME LeadUnitPayloads
+SET_EULER_ANGLES YAW_PITCH_ROLL
+SET_X_NAME Xo
+WRT_Xo
+ANI_Xo
+SET_Y_NAME Yo
+WRT_Yo
+ANI_Yo
+SET_Z_NAME Zo
+WRT_Zo
+ANI_Zo
+SET_YAW_NAME Yaw
+WRT_Yaw
+ANI_Yaw
+SET_PITCH_NAME Pitch
+WRT_Pitch
+ANI_Pitch
+SET_ROLL_NAME Roll_E
+WRT_Roll_E
+ANI_Roll_E
+PARSFILE Output\Sensors\MoSen_934770e5-cb1c-4e98-a975-b347bcd2b2ae.par
+#BlueLink5 Positions, Velocities, and Accelerations`Accelerometers at SM and USM CGs` SM and USM CGs` , Miscellaneous`MoSen_934770e5-cb1c-4e98-a975-b347bcd2b2ae
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_4c0e86ee-c21f-408d-8b23-6643df4bf3f4.png
+
+#EMBEDDED_NOTES
+#This example shows a D-Class sedan with five acceleration and rate sensors. The acceleration and rate sensors simulate the accelerometers and rate sensors you would instrument a test vehicle with.
+#
+#The locations of the Acceleration and Rate Sensors are added on the Custom Forces and Sensors -> Positions, Velocities, and Accelerations dataset, linked below.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle with Loads, Sensors, Trailer, etc.; { D-Class } D-Class, Sedan 2017: w/ 5 Sensors
+#Library : Vehicle with Loads, Sensors, Trailer, etc.
+#DataSet : D-Class, Sedan 2017: w/ 5 Sensors
+#Category: D-Class
+#FileID  : VehLoad_b7ee4c2f-6a9f-42e2-9c96-65096d95bffb
+#Product : CarSim 2017.1
+#VehCode Ind_Ind
+
+END

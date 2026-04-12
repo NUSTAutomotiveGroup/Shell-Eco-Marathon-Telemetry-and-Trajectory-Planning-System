@@ -1,0 +1,35 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Flat Dbl. Arrow for Z (Tail Origin, Side View)`Arrows
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\Arrows\double_arrow_flat.obj
+#ENDMYellow
+
+SET_COLOR 0.8 0 0
+SET_ANGLE_Z 0
+SET_ANGLE_Y 0
+SET_ANGLE_X 90
+Z_REF_LENGTH 2000
+#CheckBox0 1    
+set_lighting off
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 1    
+USE_RUN_COLOR
+#CheckBox4 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_a0b140a1-c0eb-4bb1-be11-c45c7ab27298.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Arrows } Flat Dbl. Arrow for Z (Tail Origin, Side View)
+#Library : Animator: Shape File Link
+#DataSet : Flat Dbl. Arrow for Z (Tail Origin, Side View)
+#Category: Arrows
+#FileID  : Shape_a0b140a1-c0eb-4bb1-be11-c45c7ab27298
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

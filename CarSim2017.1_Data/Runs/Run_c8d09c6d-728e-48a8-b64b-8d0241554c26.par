@@ -1,0 +1,86 @@
+PARSFILE
+#FullDataName CarSim Run Control`Rear In-Wheel Motors: E-Class, Sedan w/ Hybrid Battery Payload`Powertrain Tests
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_c8d09c6d-728e-48a8-b64b-8d0241554c26
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_9420feda-471d-4218-a289-2df6fb091649.par
+#BlueLink0 Animator: Camera Setup`325 deg. Azimuth, 33.5 deg. FOV, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_9420feda-471d-4218-a289-2df6fb091649
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 8
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 2
+#RingCtrl7 -1
+*RUN_COLOR 0.8 1 1
+SET_RUN_COLOR 0.8 1 1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_f473c07a-dfd4-4665-a311-1d169b9889cd.par
+#BlueLink2 Vehicle with Loads, Sensors, Trailer, etc.`E-Class, Sedan 2017: w/ Hybrid Batteries` E-Class` , Vehicle Configuration`VehLoad_f473c07a-dfd4-4665-a311-1d169b9889cd
+
+PARSFILE Procedures\Proc_fa43ada2-6709-46dc-945f-fab14879675c.par
+#BlueLink28 Procedures`Full Throttle Acceleration` Accel. and Brake Testing` , Procedure`Proc_fa43ada2-6709-46dc-945f-fab14879675c
+
+PARSFILE Roads\3D_Road\Road_3e4359e5-a484-45e2-827c-ad67b8aaa8f2.par
+#BlueLink9 Road: 3D Surface (All Properties)`1200 m, One Lane, Mu = 0.9` Straight` , Miscellaneous`Road_3e4359e5-a484-45e2-827c-ad67b8aaa8f2
+
+PARSFILE Generic\VS_commands\GenVS_395192d9-a1b2-43aa-b715-856e2b29f59e.par
+#BlueLink10 Generic VS Commands`Rear-in-Wheel Motors` Miscellaneous Vehicle Model Extensions` , Miscellaneous`GenVS_395192d9-a1b2-43aa-b715-856e2b29f59e
+
+PARSFILE Plot\Setup\Plot_6a5e8523-9ee4-49b9-ad46-c244f0ce9dba.par
+#BlueLink15 Plot: Setup`User Defined Drive/Brake Moments` User-Defined Variables` , Plot`Plot_6a5e8523-9ee4-49b9-ad46-c244f0ce9dba
+
+PARSFILE Plot\Setup\Plot_38ae3726-e456-4b9f-a1a0-5ff08d5a2d08.par
+#BlueLink16 Plot: Setup`User Defined Drive/Brake Moments / Whl. RPM` User-Defined Variables` , Plot`Plot_38ae3726-e456-4b9f-a1a0-5ff08d5a2d08
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_56213a52-605a-4200-ab95-2aae09c11489.png
+WRITE_SENSOR_DETECT
+Title Rear In-Wheel Motors: E-Class, Sedan w/ Hybrid Battery Payload <Powertrain Tests>
+CATEGORY Powertrain Tests 
+DATASET_TITLE Rear In-Wheel Motors: E-Class, Sedan w/ Hybrid Battery Payload
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#Advanced users can define torques applied to the wheels and reacted at the unsprung mass to simulate in-wheel motors such as those used in some hybrid powertrains.
+#
+#The simple logic used here to define the drive torques can be replaced with more detailed descriptions of hybrid components and controllers using VS Commands, Simulink, LabVIEW, or other modeling packages linked to CarSim through the API.
+#
+#Other import variables are available for drive torques and brake torques. Drive torques are applied to the wheels with reactions at the unsprung mass for independent suspensions and the sprung mass for solid axles. Brake torques are applied to the wheels with reactions at the unsprung mass and always oppose the direction of wheel rotation.
+#
+#For a complete list of import variables, please see the drop-down menu in the lower-right corner of the Run Control screen. Select "Imports into math model" (text or Excel), then click the "View" button next to that drop-down list to view the file.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Powertrain Tests } Rear In-Wheel Motors: E-Class, Sedan w/ Hybrid Battery Payload
+#Library : CarSim Run Control
+#DataSet : Rear In-Wheel Motors: E-Class, Sedan w/ Hybrid Battery Payload
+#Category: Powertrain Tests
+#FileID  : Run_c8d09c6d-728e-48a8-b64b-8d0241554c26
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

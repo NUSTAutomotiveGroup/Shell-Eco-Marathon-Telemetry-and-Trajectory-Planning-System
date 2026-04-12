@@ -1,0 +1,78 @@
+PARSFILE
+#FullDataName Procedures`Lusail Test #1`Driving
+#CheckBox3 0    
+#CheckBox4 0    
+
+#RingCtrl0 1
+#RingCtrl1 0
+#RingCtrl2 0
+OPT_STOP 0
+TSTART 0
+SSTART 0
+TSTART_WRITE = TSTART;
+TSTOP 525
+SSTOP =  SSTART + 1 ;
+OPT_DIRECTION 1
+*SPEED 33
+*TSTOP 525
+*TSTART 0
+*SSTART 0
+*SSTOP 2235
+
+INSTALL_DRIVER_SPEED_CONTROLLER CarSim9
+OPT_SC 3
+SPEED_TARGET_COMBINE ADD
+SPEED_TARGET_CONSTANT 0
+SPEED_TARGET_S_CONSTANT 33
+OPT_SC_ENGINE_BRAKING 0
+PARSFILE Control\Driver\StrDM_5e1b87df-4a9a-4a60-ac80-544adfa4667d.par
+#BlueLink27 Control: Steering by the Closed-loop Driver Model`No Offset, 1 sec. Preview` Constant Position` , Steering`StrDM_5e1b87df-4a9a-4a60-ac80-544adfa4667d
+
+#BlueLink28 Control: Braking Pedal Force (Open Loop)`Constant: 0 MPa` Constant` , Braking`
+
+PARSFILE Control\Gear_at\GearCL_3d656f9b-b010-469b-b86b-d4e11ee52bef.par
+#BlueLink30 Control: Shifting (Closed Loop)`Closed-loop Shift and Clutch (All Gears, Fast)` ` , Shifting Control`GearCL_3d656f9b-b010-469b-b86b-d4e11ee52bef
+
+PARSFILE Roads\Center_XY\PathXY_9c516fea-efdf-45e3-b862-8ae0dc19716a.par
+#BlueLink0 Path: X-Y Coordinates`Lusail` ` , Miscellaneous`PathXY_9c516fea-efdf-45e3-b862-8ae0dc19716a
+
+PARSFILE Plot\Setup\Plot_b3ef8646-beef-4024-9925-3f874e91a76b.par
+#BlueLink8 Plot: Setup`Wheel Speeds` Braking` , Plot`Plot_b3ef8646-beef-4024-9925-3f874e91a76b
+
+PARSFILE Plot\Setup\Plot_757f72ed-4f5c-43eb-8e7e-7788378ee0bf.par
+#BlueLink9 Plot: Setup`Fuel Consumed` Powertrain` , Plot`Plot_757f72ed-4f5c-43eb-8e7e-7788378ee0bf
+
+PARSFILE Plot\Setup\Plot_6480bda8-8a2c-47e4-af8c-16140f47b086.par
+#BlueLink10 Plot: Setup`Road Wheel Steer Angle` Steering` , Plot`Plot_6480bda8-8a2c-47e4-af8c-16140f47b086
+
+PARSFILE Plot\Setup\Plot_60c40b33-9b7a-4d9f-868c-fdfcd6c5ea90.par
+#BlueLink11 Plot: Setup`Clutch: Control Input` Controls: Driver` , Plot`Plot_60c40b33-9b7a-4d9f-868c-fdfcd6c5ea90
+
+PARSFILE Plot\Setup\Plot_4e56afb6-6de8-41b6-aaf4-1c1f35754a0f.par
+#BlueLink12 Plot: Setup`Station vs. Time` Tracking` , Plot`Plot_4e56afb6-6de8-41b6-aaf4-1c1f35754a0f
+
+PARSFILE Plot\Setup\Plot_772f39e1-e3b2-49d7-b5dd-9cab3049e936.par
+#BlueLink13 Plot: Setup`Gear Ratio` Powertrain` , Plot`Plot_772f39e1-e3b2-49d7-b5dd-9cab3049e936
+
+
+#EMBEDDED_NOTES
+#This Procedure is designed to be used with the Accident Avoidance example in which the two vehicles appear to steer to avoid one another.
+#
+#Note that the two vehicles steer independently of one another; there is no interaction between the two vehicles.
+#
+#To simulate this, the driver path follower has the vehicle drifting off into the opposite lane of traffic. Once the driver realizes this, he overcorrects, jumps the median, and spins out of control.
+#
+#Additional driver controls specify a closed-loop speed control with a constant target speed of 105 kph, spike braking of 5 MPa is applied at 10 seconds into the simulation, and automatic gear selection using all available gears.
+#
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Procedures; { Driving } Lusail Test #1
+#Library : Procedures
+#DataSet : Lusail Test #1
+#Category: Driving
+#FileID  : Proc_b8785199-c231-4745-aa89-8d974d06975b
+#Product : CarSim 2017.1
+#VehCode Procedure
+
+END

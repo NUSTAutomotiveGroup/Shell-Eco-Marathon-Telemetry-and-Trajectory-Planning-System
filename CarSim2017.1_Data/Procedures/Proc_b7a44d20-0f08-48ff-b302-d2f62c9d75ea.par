@@ -1,0 +1,109 @@
+PARSFILE
+#FullDataName Procedures`Handbrake Turn Initialization 2017`Driver Controls
+#CheckBox3 0    
+
+#RingCtrl0 0
+#RingCtrl1 0
+#RingCtrl2 0
+OPT_STOP 0
+TSTART 0
+SSTART 0
+TSTART_WRITE = TSTART;
+TSTOP 15
+SSTOP =  SSTART + 1 ;
+OPT_DIRECTION 1
+*SPEED 0
+*TSTOP 15
+*TSTART 0
+*SSTART 0
+*SSTOP 210
+
+OPT_SC 0
+SPEED 0
+SV_VXS 0
+PARSFILE Control\Steer\StrSW_d02d6236-3489-4162-b8b9-953cdc586f4c.par
+#BlueLink27 Control: Steering (Open Loop)`Constant: Zero Degrees` ` , Steering`StrSW_d02d6236-3489-4162-b8b9-953cdc586f4c
+
+PARSFILE Control\Braking\PbkCon_bf4961f4-c4cf-4b18-a8f7-5f65e31ecd3f.par
+#BlueLink28 Control: Braking MC Pressure (Open Loop)`Constant: 0 MPa` Constant` , Braking`PbkCon_bf4961f4-c4cf-4b18-a8f7-5f65e31ecd3f
+
+PARSFILE Control\Throttle\Throttle_a707549f-09ea-4f2d-86ee-5ccb52597176.par
+#BlueLink29 Control: Throttle (Open Loop)`Ramp To Full Throttle in 0.1 sec.` Ramp` , Throttle`Throttle_a707549f-09ea-4f2d-86ee-5ccb52597176
+
+PARSFILE Control\Gear_at\GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86.par
+#BlueLink30 Control: Shifting (Closed Loop)`AT All Gears` ` , Shifting Control`GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86
+
+#MiscYellow0
+opt_init_path 0
+sv_yo -5
+#ENDMYellow
+
+PARSFILE Roads\3D_Road\Road_0f36c643-e495-42e5-834e-0a9e7d6fae78.par
+#BlueLink0 Road: 3D Surface (All Properties)`30 m Wide Pad, 5 m Grid, Mu = 0.85` Flat Test Pads` , Miscellaneous`Road_0f36c643-e495-42e5-834e-0a9e7d6fae78
+
+PARSFILE Generic\VS_commands\GenVS_983df623-7bec-4ec2-bdb0-186139c9f18a.par
+#BlueLink1 Generic VS Commands`Handbrake Turn Variable Definitions 2017` Miscellaneous Custom Controls` , Miscellaneous`GenVS_983df623-7bec-4ec2-bdb0-186139c9f18a
+
+PARSFILE Roads\Friction\RdMu_cb7d3ec0-64aa-48a0-9e57-7294b870a920.par
+#BlueLink2 Road: Friction Map, S-L Grid`Constant: 0.75` Constant` , Miscellaneous`RdMu_cb7d3ec0-64aa-48a0-9e57-7294b870a920
+
+PARSFILE Events\Events_9b00e2c3-7314-4983-b5f7-ad0d68a9fb84.par
+#BlueLink6 Events`A. Accelerate to Speed` Handbrake Turn` , Miscellaneous`Events_9b00e2c3-7314-4983-b5f7-ad0d68a9fb84
+
+PARSFILE Plot\Setup\Plot_6f0c0125-1c0c-4b0a-a06b-529aada16a53.par
+#BlueLink8 Plot: Setup`Brake Torque` Braking` , Plot`Plot_6f0c0125-1c0c-4b0a-a06b-529aada16a53
+
+PARSFILE Plot\Setup\Plot_dafae624-d48a-4548-93eb-fa73d080e21a.par
+#BlueLink9 Plot: Setup`Brake Control: Master Cyl. Pressure` Controls: Driver` , Plot`Plot_dafae624-d48a-4548-93eb-fa73d080e21a
+
+PARSFILE Plot\Setup\Plot_7251a722-18c9-43db-a324-bd380d275618.par
+#BlueLink10 Plot: Setup`Throttle: Control Input` Controls: Driver` , Plot`Plot_7251a722-18c9-43db-a324-bd380d275618
+
+PARSFILE Plot\Setup\Plot_076736e1-2cdd-49d5-8a36-d55940b011f0.par
+#BlueLink11 Plot: Setup`Steering: Handwheel Angle` Controls: Driver` , Plot`Plot_076736e1-2cdd-49d5-8a36-d55940b011f0
+
+PARSFILE Plot\Setup\Plot_f5d0f978-49a4-4e36-9c25-7d47b1c2be3e.par
+#BlueLink12 Plot: Setup`Wheel Cylinder Pressures` Braking` , Plot`Plot_f5d0f978-49a4-4e36-9c25-7d47b1c2be3e
+
+PARSFILE Plot\Setup\Plot_59f74859-7f34-4878-a9b5-3ba45cf252ae.par
+#BlueLink13 Plot: Setup`Event Count` Event Control` , Plot`Plot_59f74859-7f34-4878-a9b5-3ba45cf252ae
+
+PARSFILE Plot\Setup\Plot_865ec648-7e13-4974-803c-86946399ea5b.par
+#BlueLink14 Plot: Setup`Event Elapsed Time` Event Control` , Plot`Plot_865ec648-7e13-4974-803c-86946399ea5b
+
+PARSFILE Plot\Setup\Plot_b3ef8646-beef-4024-9925-3f874e91a76b.par
+#BlueLink15 Plot: Setup`Wheel Speeds` Braking` , Plot`Plot_b3ef8646-beef-4024-9925-3f874e91a76b
+
+PARSFILE Plot\Setup\Plot_621ad7e4-8562-4fbe-b3a4-90e054940030.par
+#BlueLink16 Plot: Setup`Longitudinal Speed vs. Station` Vehicle Motion` , Plot`Plot_621ad7e4-8562-4fbe-b3a4-90e054940030
+
+PARSFILE Plot\Setup\Plot_4e56afb6-6de8-41b6-aaf4-1c1f35754a0f.par
+#BlueLink17 Plot: Setup`Station vs. Time` Tracking` , Plot`Plot_4e56afb6-6de8-41b6-aaf4-1c1f35754a0f
+
+PARSFILE Plot\Setup\Plot_a36e548a-8671-4d4e-9e37-36a10f06b90f.par
+#BlueLink18 Plot: Setup`Y vs. X -- Trajectory` Tracking` , Plot`Plot_a36e548a-8671-4d4e-9e37-36a10f06b90f
+
+PARSFILE Plot\Setup\Plot_986ce074-9acb-4be0-8bd7-ac8e03eb16ab.par
+#BlueLink19 Plot: Setup`Steer Torque` Steering` , Plot`Plot_986ce074-9acb-4be0-8bd7-ac8e03eb16ab
+
+
+#EMBEDDED_NOTES
+#This Procedure demonstrates an Event-driven test meant to simulate the application of a handbrake combined with a reverse spin maneuver. Full throttle is maintained throughout the simulation.
+#
+#VS Commands are used to set up the run and control the brakes, including brake system dynamics. The handbrake is applied to the rear wheels only, and its operation does not cause the brake lights to illuminate.
+#
+#Click on the blue link "Handbrake Turn Variable Definitions" for more information on the VS Commands.
+#
+#Click on the Events dataset "A. Accelerate to Speed" to learn how this example was put together.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Procedures; { Driver Controls } Handbrake Turn Initialization 2017
+#Library : Procedures
+#DataSet : Handbrake Turn Initialization 2017
+#Category: Driver Controls
+#FileID  : Proc_b7a44d20-0f08-48ff-b302-d2f62c9d75ea
+#Product : CarSim 2017.1
+#VehCode Procedure
+
+END

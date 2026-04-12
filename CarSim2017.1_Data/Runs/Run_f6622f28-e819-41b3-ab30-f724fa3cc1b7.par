@@ -1,0 +1,76 @@
+PARSFILE
+#FullDataName CarSim Run Control`Rescaled Tire Data (E-Class Sedan)`Tire Models
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_f6622f28-e819-41b3-ab30-f724fa3cc1b7
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_173075a0-4016-49eb-8ce2-c8488776e092.par
+#BlueLink0 Animator: Camera Setup`3 deg. Azimuth, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_173075a0-4016-49eb-8ce2-c8488776e092
+
+#CheckBox0 0    
+#CheckBox1 1    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 1
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0.6 0 0
+SET_RUN_COLOR 0.6 0 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_cffd3c41-5c43-4958-af88-902c66df51b5.par
+#BlueLink2 Vehicle: Assembly`E-Class, Sedan 2017: Rescaled Tire Data` E-Class` , Vehicle Configuration`Vehicle_cffd3c41-5c43-4958-af88-902c66df51b5
+
+PARSFILE Procedures\Proc_3ae0353d-bd7c-43a3-9da4-150b6952a10e.par
+#BlueLink28 Procedures`DLC @ 120 km/h (Quick Start)` Handling Testing` , Procedure`Proc_3ae0353d-bd7c-43a3-9da4-150b6952a10e
+
+
+SPECIAL_PARSFILE Runs\Run_6a056983-5f35-4790-af76-8838aec5209f.par
+#BlueLink23 CarSim Run Control`Output to Excel Format (From ERD to CSV/MAT)` Output Options` , Overlay run or ERD file`Run_6a056983-5f35-4790-af76-8838aec5209f
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_56213a52-605a-4200-ab95-2aae09c11489.png
+WRITE_SENSOR_DETECT
+Title Rescaled Tire Data (E-Class Sedan) <Tire Models>
+CATEGORY Tire Models 
+DATASET_TITLE Rescaled Tire Data (E-Class Sedan)
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#VS Commands linked on the tire data screen are used to rescale the internal CarSim table-based tire model.
+#
+#The rescaled tires linked to this vehicle, "E-Class, Sedan, Rescaled Tire Data", use normalized data that is then rescaled using the tire load rating.
+#
+#This simulation is overlaid with the E-Class sedan using tire data as measured, with units of N for forces, N-m for moments, etc. The overlay is also set up to export simulation results to an Excel .CSV file.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Tire Models } Rescaled Tire Data (E-Class Sedan)
+#Library : CarSim Run Control
+#DataSet : Rescaled Tire Data (E-Class Sedan)
+#Category: Tire Models
+#FileID  : Run_f6622f28-e819-41b3-ab30-f724fa3cc1b7
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

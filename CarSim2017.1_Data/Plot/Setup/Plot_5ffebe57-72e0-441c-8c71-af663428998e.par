@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName Plot: Setup`Brake Torque vs. Event Elapsed Time`Braking
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS My_Bk_L1, T_Event
+PLOTCHANNELS My_Bk_R1, T_Event
+PLOTCHANNELS My_Bk_L2, T_Event
+PLOTCHANNELS My_Bk_R2, T_Event
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Brake Torque vs. Event Elapsed Time
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Braking } Brake Torque vs. Event Elapsed Time
+#Library : Plot: Setup
+#DataSet : Brake Torque vs. Event Elapsed Time
+#Category: Braking
+#FileID  : Plot_5ffebe57-72e0-441c-8c71-af663428998e
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

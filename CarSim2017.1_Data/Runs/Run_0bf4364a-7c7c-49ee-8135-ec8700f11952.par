@@ -1,0 +1,73 @@
+PARSFILE
+#FullDataName CarSim Run Control`Configurable Heads Up Display (HUD) - Rearview Mirror`VS Visualizer Examples
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_0bf4364a-7c7c-49ee-8135-ec8700f11952
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_71c3f463-4670-49fd-b760-1f1a2b0359e2.par
+#BlueLink0 Animator: Camera Setup`Driver View: C-Class Hatchback` Driver View` , Animator camera`Camera_71c3f463-4670-49fd-b760-1f1a2b0359e2
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 1
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0.8 0 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_a0aaeca0-2c47-4094-9562-cbd5e0d325b6.par
+#BlueLink2 Vehicle: Assembly`C-Class, Hatchback 2017` C-Class` , Vehicle Configuration`Vehicle_a0aaeca0-2c47-4094-9562-cbd5e0d325b6
+
+PARSFILE Procedures\Proc_ae6dc196-76c7-4ca0-a63a-9325db153874.par
+#BlueLink28 Procedures`Curvy Road Driving with Traffic` Driving` , Procedure`Proc_ae6dc196-76c7-4ca0-a63a-9325db153874
+
+PARSFILE Animator\HUD\HUD_be2da55f-e0d2-4547-9074-dfbb79adcf74.par
+#BlueLink9 Animator: HUD`Rearview Mirror` ` , Miscellaneous`HUD_be2da55f-e0d2-4547-9074-dfbb79adcf74
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_a0aaeca0-2c47-4094-9562-cbd5e0d325b6.png
+WRITE_SENSOR_DETECT
+Title Configurable Heads Up Display (HUD) - Rearview Mirror <VS Visualizer Examples>
+CATEGORY VS Visualizer Examples 
+DATASET_TITLE Configurable Heads Up Display (HUD) - Rearview Mirror
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example demonstrates a rearview mirror and Heads-Up-Display (HUD) elements for use with the VS Visualizer. The vehicle is driving on a curvy road with traffic.
+#
+#The VS Visualizer HUD elements are defined in an Animator: HUD dataset linked to the Run Control screen. To see how this was set up, click on the blue link "HUD Rearview Mirror."
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { VS Visualizer Examples } Configurable Heads Up Display (HUD) - Rearview Mirror
+#Library : CarSim Run Control
+#DataSet : Configurable Heads Up Display (HUD) - Rearview Mirror
+#Category: VS Visualizer Examples
+#FileID  : Run_0bf4364a-7c7c-49ee-8135-ec8700f11952
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

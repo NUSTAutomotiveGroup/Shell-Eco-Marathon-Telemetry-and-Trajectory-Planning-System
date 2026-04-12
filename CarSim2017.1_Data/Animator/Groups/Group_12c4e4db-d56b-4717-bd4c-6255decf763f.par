@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName Animator: Group`Slightly Cloudy Sky`Skies
+PARSFILE Animator\Frames\Frame_8761c9b6-c784-4d2d-b8bc-72683578e773.par
+#BlueLink0 Animator: Reference Frame`Skybox (Vehicle Reference)` ` , Miscellaneous`Frame_8761c9b6-c784-4d2d-b8bc-72683578e773
+
+PARSFILE Animator\STL\Shape_4c8a9e13-37c0-4baf-ab3a-846f71286370.par
+#BlueLink1 Animator: Shape File Link`Slightly Cloudy Sky` Skies` , Miscellaneous`Shape_4c8a9e13-37c0-4baf-ab3a-846f71286370
+
+PARSFILE Animator\STL\Shape_8747e07e-81f8-4899-bd41-ca6921d43beb.par
+#BlueLink2 Animator: Shape File Link`Complex Land Bowl for Light Grass` Terrain` , Miscellaneous`Shape_8747e07e-81f8-4899-bd41-ca6921d43beb
+
+
+#CheckBox0 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink20 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+LOG_ENTRY Used Dataset: Animator: Group; { Skies } Slightly Cloudy Sky
+#Library : Animator: Group
+#DataSet : Slightly Cloudy Sky
+#Category: Skies
+#FileID  : Group_12c4e4db-d56b-4717-bd4c-6255decf763f
+#Product : CarSim 2017.1
+#VehCode Animator Group
+
+END

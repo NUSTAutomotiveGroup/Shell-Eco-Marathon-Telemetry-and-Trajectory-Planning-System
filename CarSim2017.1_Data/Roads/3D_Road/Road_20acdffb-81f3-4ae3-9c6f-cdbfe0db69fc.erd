@@ -1,0 +1,15 @@
+ERDFILEV2.00
+3, -1, -1, 12, 1, 0.040000
+TITLE   Straight East <Straight>
+SHORTNAMXo      Yo      Zo      
+UNITSNAMm       m       m       
+LONGNAMEXo                              Yo                              Zo                              
+GENNAME Translation                     Translation                     Translation                     
+RIGIBODY?                               ?                               ?                               
+HISTORY VS Road Calculator: Utility to calculate road and path coordinates for visualization
+HISTORY Input parameter file was Roads\3D_Road\Road_20acdffb-81f3-4ae3-9c6f-cdbfe0db69fc.par
+XLABEL  Time
+XUNITS  s
+XSTART  0.000000
+HISTORY Run made at 19:25 on February 05, 2026.
+END

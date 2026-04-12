@@ -1,0 +1,56 @@
+PARSFILE
+#FullDataName Moving Object`Mcity: SUV Crossing Main Street`
+
+DEFINE_MOVING_OBJECTS 1
+IOBJECT_INCREMENT
+symbol_add <<o>> 1
+SET_DESCRIPTION OBJECT_NAME Mcity: SUV Crossing Main Street
+#CheckBox0 0    
+#CheckBox1 0    
+OPT_RECYCLE_OBJ 0
+#CheckBox2 0    
+#CheckBox3 1    
+#CheckBox4 1    
+OPT_RECT_OBJ 1
+#CheckBox5 1    
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl0 1
+H_OBJ 1
+*REFLECT .8
+*COLOR 1 0.8 0.2
+*S_INIT 197
+*L_INIT 40
+MATERIAL_TYPE_OBJ 0
+REFLECT_OBJ .8
+*SPEED 5.3
+*SIZE 5.5
+WIDTH_OBJ 2
+LX_FRONT_OBJ 1
+LENGTH_OBJ 5.5
+HeadO_<<o>> 90/DR
+SET_RUN_COLOR 1 0.8 0.2
+PARSFILE Animator\Vehicles\AniVeh_7a56a6bb-4fde-4cd3-a684-948ffdfa288a.par
+#BlueLink0 Animator: Vehicles and Sensor Targets`SUV, Full Size V9` ` , Animator shape(s)`AniVeh_7a56a6bb-4fde-4cd3-a684-948ffdfa288a
+
+EQ_INIT S_Obj_<<o>> 197
+EQ_INIT LatO_<<o>> 40
+DEFINE_VARIABLE HeadV_O_<<o>> 90/DR;deg; Heading vector for ODEs
+DEFINE_VARIABLE SPEED_O_<<o>> = 5.3;km/h; Speed magnitude for ODEs
+EQ_INIT SPEED_O_<<o>> = 5.3;
+EQ_DIFFERENTIAL LatO_<<o>> = SPEED_O_<<o>>
+
+#EMBEDDED_NOTES
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Moving Object; Mcity: SUV Crossing Main Street
+#Library : Moving Object
+#DataSet : Mcity: SUV Crossing Main Street
+#Category: 
+#FileID  : Target_d0c5397b-192d-4602-accf-c25dfd39cfa9
+#Product : CarSim 2017.1
+#VehCode Moving Object
+
+END

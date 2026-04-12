@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName Plot: Setup`Aligning Moments`Tire Moments
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS Mz_L1, Time
+PLOTCHANNELS Mz_R1, Time
+PLOTCHANNELS Mz_L2, Time
+PLOTCHANNELS Mz_R2, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Aligning Moments
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Tire Moments } Aligning Moments
+#Library : Plot: Setup
+#DataSet : Aligning Moments
+#Category: Tire Moments
+#FileID  : Plot_a5884b30-2228-44f6-afe5-eb3fd414c1c3
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

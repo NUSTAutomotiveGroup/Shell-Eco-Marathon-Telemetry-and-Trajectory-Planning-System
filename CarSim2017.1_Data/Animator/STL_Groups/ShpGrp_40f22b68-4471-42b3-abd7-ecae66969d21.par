@@ -1,0 +1,67 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`Sub Compact 2012`CS A-Class
+*COLOR .36 .117 .117
+*OFFSET_X 0.02
+*OFFSET_Y 0
+*OFFSET_Z 0.268
+*X_REF_LENGTH 2430
+*Y_REF_LENGTH 1780
+*Z_REF_LENGTH 1191
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 1    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_40f22b68-4471-42b3-abd7-ecae66969d21.png
+PARSFILE Animator\STL\Shape_46bbd8c3-972b-491b-ada8-8b076bd1780a.par
+#BlueLink0 Animator: Shape File Link`European Sedan: Body` CS European Sedan` , Shape File`Shape_46bbd8c3-972b-491b-ada8-8b076bd1780a
+
+set_offset_x 0.02
+set_offset_y 0
+set_offset_z 0.268
+PARSFILE Animator\STL\Shape_4250ebb0-9e56-4f9f-a058-c568dd085a60.par
+#BlueLink1 Animator: Shape File Link`European Sedan: Brake Lights (D-Class)` CS European Sedan` , Shape File`Shape_4250ebb0-9e56-4f9f-a058-c568dd085a60
+
+set_offset_x 0.02
+set_offset_y 0
+set_offset_z 0.268
+PARSFILE Animator\STL\Shape_51efed0b-495d-497a-b06e-54b3bdbe64f5.par
+#BlueLink2 Animator: Shape File Link`European Sedan: Details` CS European Sedan` , Shape File`Shape_51efed0b-495d-497a-b06e-54b3bdbe64f5
+
+set_offset_x 0.02
+set_offset_y 0
+set_offset_z 0.268
+PARSFILE Animator\STL\Shape_587aa98f-459e-4d62-9de9-550a9a2ed6ea.par
+#BlueLink3 Animator: Shape File Link`European Sedan: Driver` CS European Sedan` , Shape File`Shape_587aa98f-459e-4d62-9de9-550a9a2ed6ea
+
+set_offset_x 0.02
+set_offset_y 0
+set_offset_z 0.268
+PARSFILE Animator\STL\Shape_3613d8d2-a563-4c3b-94f0-6056cfacf762.par
+#BlueLink13 Animator: Shape File Link`Sub-Compact: Driver 2012` CS Sub Compact` , Shape File`Shape_3613d8d2-a563-4c3b-94f0-6056cfacf762
+
+set_offset_x 0.02
+set_offset_y 0
+set_offset_z 0.268
+x_ref_length 2430
+y_ref_length 1780
+z_ref_length 1191
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { CS A-Class } Sub Compact 2012
+#Library : Animator: Shape Assembly
+#DataSet : Sub Compact 2012
+#Category: CS A-Class
+#FileID  : ShpGrp_40f22b68-4471-42b3-abd7-ecae66969d21
+#Product : CarSim 2017.1
+#VehCode Shape Assembly
+
+END

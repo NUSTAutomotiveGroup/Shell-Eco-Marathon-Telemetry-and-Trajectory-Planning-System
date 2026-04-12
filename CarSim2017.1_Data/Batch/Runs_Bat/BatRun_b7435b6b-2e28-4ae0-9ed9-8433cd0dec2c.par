@@ -1,0 +1,24 @@
+PARSFILE
+#FullDataName Batch Runs`Aero Effects`Built-In Solvers
+#CheckBox1 0    
+
+#MiscYellow1
+#<Aero Effects> Crosswind w/ Steering
+#<Aero Effects> Crosswind w/o Steering
+#<Aero Effects> Crosswind, Low Mu
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains the datasets which are in the Aero Effects category
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; { Built-In Solvers } Aero Effects
+#Library : Batch Runs
+#DataSet : Aero Effects
+#Category: Built-In Solvers
+#FileID  : BatRun_b7435b6b-2e28-4ae0-9ed9-8433cd0dec2c
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

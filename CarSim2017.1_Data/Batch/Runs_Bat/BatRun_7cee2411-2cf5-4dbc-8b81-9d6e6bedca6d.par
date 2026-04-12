@@ -1,0 +1,24 @@
+PARSFILE
+#FullDataName Batch Runs`Linearization`Built-In Solvers
+#CheckBox1 0    
+
+#MiscYellow1
+#<Linearization> Bode Analysis (Steer Angle to Yaw Rate and Ay)
+#<Linearization> Bode Analysis (Steer Torque to Yaw Rate and Ay)
+#<Linearization> Root Locus (Speed Series)
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains the datasets which are in the Linearization category
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; { Built-In Solvers } Linearization
+#Library : Batch Runs
+#DataSet : Linearization
+#Category: Built-In Solvers
+#FileID  : BatRun_7cee2411-2cf5-4dbc-8b81-9d6e6bedca6d
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

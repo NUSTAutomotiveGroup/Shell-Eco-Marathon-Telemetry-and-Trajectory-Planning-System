@@ -1,0 +1,71 @@
+PARSFILE
+#FullDataName Generic Group of Links`Intersection, 4-Way with Curbs`Roads and Paths
+#VehCode Generic Links
+PARSFILE Roads\3D_Road\Road_daa6b87c-babd-4704-96be-60d4b7864540.par
+#BlueLink0 Road: 3D Surface (All Properties)`Grass and Intersection, 4-Way` Intersection, 3D Roads with Curbs` , Miscellaneous`Road_daa6b87c-babd-4704-96be-60d4b7864540
+
+PARSFILE Roads\3D_Road\Road_d2269a9e-f323-4672-aa15-b65f2d6356af.par
+#BlueLink1 Road: 3D Surface (All Properties)`Enter South, Exit East, 1001` Intersection, 3D Roads with Curbs` , Miscellaneous`Road_d2269a9e-f323-4672-aa15-b65f2d6356af
+
+PARSFILE Roads\3D_Road\Road_fbddf438-4dc1-4b72-b56d-8812d571c817.par
+#BlueLink2 Road: 3D Surface (All Properties)`Enter East, Exit North, 1002` Intersection, 3D Roads with Curbs` , Miscellaneous`Road_fbddf438-4dc1-4b72-b56d-8812d571c817
+
+PARSFILE Roads\3D_Road\Road_17edda5a-f87a-4b56-88cf-ac31cc61675c.par
+#BlueLink3 Road: 3D Surface (All Properties)`Enter North, Exit West, 1003` Intersection, 3D Roads with Curbs` , Miscellaneous`Road_17edda5a-f87a-4b56-88cf-ac31cc61675c
+
+PARSFILE Roads\3D_Road\Road_fbddc823-afed-4442-ba7a-54b5e7cd5ef9.par
+#BlueLink4 Road: 3D Surface (All Properties)`Enter West, Exit South, 1004` Intersection, 3D Roads with Curbs` , Miscellaneous`Road_fbddc823-afed-4442-ba7a-54b5e7cd5ef9
+
+#BlueLink5 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink6 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink7 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink8 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+PARSFILE Roads\Boundaries\RdBnd_f1f0c5d9-fc47-4621-b727-a84b9b5245bf.par
+#BlueLink9 Road: Boundaries`South and East Entrances` Crossing with Curbs` , Miscellaneous`RdBnd_f1f0c5d9-fc47-4621-b727-a84b9b5245bf
+
+PARSFILE Roads\Boundaries\RdBnd_e1126840-af78-43b5-bb23-8ea81b73d1a3.par
+#BlueLink10 Road: Boundaries`North and West Entrances` Crossing with Curbs` , Miscellaneous`RdBnd_e1126840-af78-43b5-bb23-8ea81b73d1a3
+
+#BlueLink11 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#MiscYellow1
+path_id_dm = 1001
+current_road_id = 1001
+#ENDMYellow
+
+#BlueLink12 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink13 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink14 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink15 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink16 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink17 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink18 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+#BlueLink19 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+
+#EMBEDDED_NOTES
+#This example has two-lane roads intersecting, with both passing through the ntersection.
+#
+#The network is built from four road datasets. Each represents a single lane (including the adjacent curb). The reference paths are on the left edge of the paths, which is the road centerline.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Group of Links; { Roads and Paths } Intersection, 4-Way with Curbs
+#Library : Generic Group of Links
+#DataSet : Intersection, 4-Way with Curbs
+#Category: Roads and Paths
+#FileID  : GenLink_b2a29b34-c64e-46b5-a69e-44e04c33d075
+#Product : CarSim 2017.1
+#VehCode Generic Links
+
+END

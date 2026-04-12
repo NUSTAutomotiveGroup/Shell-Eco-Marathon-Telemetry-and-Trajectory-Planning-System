@@ -1,0 +1,25 @@
+PARSFILE
+#FullDataName Control: Speed (Closed Loop) vs. Station (Legacy)`Baja Speed Limits`
+#CheckBox2 0    
+#CheckBox3 0    
+#RingCtrl0 STEP
+#RadioCtrl0 0    
+
+SPEED_TARGET_COMBINE ADD
+SPEED_TARGET_CONSTANT 0
+#DiagramOne0
+SPEED_TARGET_S_TABLE STEP
+300, 100
+330, 70
+371, 125
+ENDTABLE
+
+LOG_ENTRY Used Dataset: Control: Speed (Closed Loop) vs. Station (Legacy); Baja Speed Limits
+#Library : Control: Speed (Closed Loop) vs. Station (Legacy)
+#DataSet : Baja Speed Limits
+#Category: 
+#FileID  : SpdSta_0543f737-486b-4be1-97b4-64c585a9530e
+#Product : CarSim 2017.1
+#VehCode Speed vs. Station
+
+END

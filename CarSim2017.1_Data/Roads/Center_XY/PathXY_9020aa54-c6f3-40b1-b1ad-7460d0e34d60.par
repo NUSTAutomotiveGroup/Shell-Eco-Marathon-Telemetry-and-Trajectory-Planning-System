@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Path: X-Y Coordinates`Mcity Straight Path State Street`Mcity
+#RingCtrl0 1
+DEFINE_PATHS 1
+IPATH = NPATH
+PATH_ID IPATH
+DEFINE_XY_TABLES 1
+ITAB_XY = NTAB_XY
+XY_TABLE_ID = ITAB_XY
+SET_DESCRIPTION PATH_ID Mcity Straight Path State Street
+SET_DESCRIPTION XY_TABLE_ID Mcity Straight Path State Street
+IPATHSEG = 1
+PATH_ID_DM = PATH_ID
+SEGMENT_TYPE = 1
+XY_SEGMENT_ID = XY_TABLE_ID
+
+#CheckBox0 0    
+OPT_PATH_LOOP 0
+
+#RadioCtrl0 0    
+
+SPATH_START 0
+#DiagramOne0
+SEGMENT_XY_TABLE
+-81.0000, -80.0000, 0.000
+-81.0000, 40.0000, 120.000
+ENDTABLE
+
+LOG_ENTRY Used Dataset: Path: X-Y Coordinates; { Mcity } Mcity Straight Path State Street
+#Library : Path: X-Y Coordinates
+#DataSet : Mcity Straight Path State Street
+#Category: Mcity
+#FileID  : PathXY_9020aa54-c6f3-40b1-b1ad-7460d0e34d60
+#Product : CarSim 2017.1
+#VehCode X-Y Coordinates of Path
+
+END

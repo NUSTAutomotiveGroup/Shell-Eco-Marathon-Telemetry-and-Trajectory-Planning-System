@@ -1,0 +1,1102 @@
+Include PARSFILE "Results\Run_aae1962d-c9e2-436c-aed5-25acb8d1209e\Run_all.par"
+Used Dataset: Animator: Reference Frame; { Car Tracking } Car X-Y-Z-Yaw
+Used Dataset: Animator: Camera Setup; { Vehicle Reference } 210 deg. Azimuth, Veh. Ref. w/ Yaw
+Used Dataset: Suspension: Dive Angle (Caster Change); SLA - Front
+Used Dataset: Suspension: Longitudinal Movement; SLA - Front
+Used Dataset: Suspension: Camber Angle; SLA - Front
+Used Dataset: Suspension: Lateral Movement Due to Jounce; SLA - Front
+Used Dataset: Suspension: Toe Angle; SLA - Front
+Used Dataset: Suspension: Dive Angle (Caster Change); SLA - Front
+Used Dataset: Suspension: Longitudinal Movement; SLA - Front
+Used Dataset: Suspension: Camber Angle; SLA - Front
+Used Dataset: Suspension: Lateral Movement Due to Jounce; SLA - Front
+Used Dataset: Suspension: Toe Angle; SLA - Front
+Used Dataset: Suspension: Independent System Kinematics; { E-Class } E-Class, SUV - Front
+Used Dataset: Suspension: Shock Absorber; Big SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +70 mm / -50 mm
+Used Dataset: Suspension: Shock Absorber; Big SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +70 mm / -50 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 384 N-m/deg
+Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { E-Class } E-Class, SUV - Front
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Tire
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Rotor
+Used Dataset: Animator: Shape Assembly; { Tires } Big SUV
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Lateral Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 265/75 R16
+Used Dataset: Tire; { Touring Tires } 265/75 R16 (2017)
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Tire
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Rotor
+Used Dataset: Animator: Shape Assembly; { Tires } Big SUV
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Lateral Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 265/75 R16
+Used Dataset: Tire; { Touring Tires } 265/75 R16 (2017)
+Used Dataset: Suspension: Longitudinal Movement; Hotchkiss - Rear
+Used Dataset: Suspension: Lateral Movement Due to Roll and Jounce; Hotchkiss - Rear
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Rear Solid Drive Axle
+Used Dataset: Suspension: Solid Axle System Kinematics; { E-Class } E-Class, SUV - Rear (2017)
+Used Dataset: Suspension: Shock Absorber; Big SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +120 mm / -60 mm
+Used Dataset: Suspension: Shock Absorber; Big SUV
+Used Dataset: Suspension: Jounce and Rebound Stops; +120 mm / -60 mm
+Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 510 N-m/deg
+Used Dataset: Suspension: Solid Axle Compliance, Springs, and Dampers; { E-Class } E-Class, SUV - Rear (2017)
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Tire
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Rotor
+Used Dataset: Animator: Shape Assembly; { Tires } Big SUV
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Lateral Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 265/75 R16
+Used Dataset: Tire; { Touring Tires } 265/75 R16 (2017)
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Tire
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Stripe
+Used Dataset: Animator: Shape File Link; { Tires } Big SUV Rotor
+Used Dataset: Animator: Shape Assembly; { Tires } Big SUV
+Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
+Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
+Used Dataset: Tire: Aligning Moment; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Lateral Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Longitudinal Force; { Touring Tires } 265/75 R16
+Used Dataset: Tire: Camber Thrust Coefficient; { Touring Tires } 265/75 R16
+Used Dataset: Tire; { Touring Tires } 265/75 R16 (2017)
+Used Dataset: Vehicle: Sprung Mass; { E-Class } E-Class, SUV
+Used Dataset: Aerodynamics: Fx (Drag) Coef. vs. Aero Slip; 0.30 at 0 Degrees
+Used Dataset: Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip; 0.5 at 90 deg
+Used Dataset: Aerodynamics: Fz (Lift) Coef. vs. Aero Slip; 0.18 at 0 Degrees
+Used Dataset: Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip; 0.3 at 90 deg
+Used Dataset: Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip; -0.15 at 0 Degrees
+Used Dataset: Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip; 0.05 at 90 deg
+Used Dataset: Aerodynamics: Basic; { SUVs } E-Class, SUV
+Used Dataset: Animator: Shape File Link; { CS SUV } SUV: Body
+Used Dataset: Animator: Shape File Link; { CS SUV } SUV: Details
+Used Dataset: Animator: Shape File Link; { CS SUV } SUV: Interior
+Used Dataset: Animator: Shape File Link; { CS SUV } SUV: Windows
+Used Dataset: Animator: Shape File Link; { CS SUV } SUV: Interior
+Used Dataset: Animator: Shape File Link; { CS SUV } SUV: Body Trim (Gray)
+Used Dataset: Animator: Shape File Link; { CS SUV } SUV: Seats
+Used Dataset: Animator: Shape File Link; { CS SUV } SUV: Steering Wheel
+Used Dataset: Animator: Shape File Link; { CS SUV } SUV: Driver
+Used Dataset: Animator: Shape Assembly; { CS E-Class } E-Class, SUV
+Used Dataset: Animator: Sound Modifier; { Wind } Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Wind } Frequency: Speed Effect
+Used Dataset: Animator: Sound Sample; Wind Noise
+Used Dataset: Animator: Sound Set; Wind Noise
+Used Dataset: Animator: Shape File Link; { CS SUV } SUV: Brake Lights (E-Class)
+Used Dataset: Animator: Vehicles and Sensor Targets; { E-Class Vehicles } E-Class, SUV
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power Off Loudness: Load Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power Off Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Gas Engine } 4 Cyl. - Power Off
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power On Loudness: Load Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Power On Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Gas Engine } Frequency with RPM
+Used Dataset: Animator: Sound Sample; { Gas Engine } 4 Cyl. - Power On
+Used Dataset: Generic Data Group; { Audio Sound Sets } Gasoline Engine (4 Cylinder)
+Used Dataset: Powertrain: Engine; 200 kW  Engine
+Used Dataset: Powertrain: Torque Converter; Torque Converter for 200 kW Engine
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 1-2 Shift
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 2-3 Shift
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 3-4 Shift
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 4-5 Shift
+Used Dataset: Powertrain: Shift Schedule; { 6-speed } 6-speed, 5-6 Shift
+Used Dataset: Powertrain: Transmission (18 Gears or CVT); 6-Speed
+Used Dataset: Powertrain: Transfer Case; Full Time Viscous 50/50
+Used Dataset: Powertrain: Front Differential; { Viscous } Viscous: Gear Ratio 4.1
+Used Dataset: Powertrain: Rear Differential; { Viscous } Viscous: Gear Ratio 4.1
+Used Dataset: Powertrain: 4-Wheel Drive; { 200 kW Powertrains } 200 kW, 6-spd., 4.1 Ratio
+Used Dataset: Brakes: Four-Wheel System; { E-Class } E-Class, SUV w/ ABS
+Used Dataset: Steering System: Compliance; Constant: Zero
+Used Dataset: Steering System: Kinematics for 2 Wheels (Rack & Pinion); { E-Class } E-Class, SUV 2017
+Used Dataset: Steering: Power Assist Force; { E-Class } E-Class SUV 2017: Not Speed Sensitive
+Used Dataset: Steering System: Compliance; { Constant } Constant: 0.002 deg/N-m
+Used Dataset: Steering: Parking Torque for 2 Wheels; E-Class SUV 2017
+Used Dataset: Steering; { CS E-Class } E-Class, SUV 2017: Power, R&P
+Used Dataset: Vehicle: Assembly; { E-Class } E-Class, SUV 2017
+Used Dataset: Control: Steering (Open Loop); Constant: Zero Degrees
+Used Dataset: Control: Braking MC Pressure (Open Loop); { Constant } Constant: 0 MPa
+Used Dataset: Control: Shifting (Closed Loop); AT All Gears
+ Straight East <Straight>
+Used Dataset: Path: Segment Builder; { Straight } Straight East
+Used Dataset: Road: Friction Map, S-L Grid; { Constant } Constant: 0.9
+Used Dataset: Road: Animator Surface Shapes; { Roads } 1 km Square w/ Line
+Used Dataset: Animator: Reference Frame; Skybox (Vehicle Reference)
+Used Dataset: Animator: Shape File Link; { Skies } Partly Cloudy Sky
+Used Dataset: Animator: Shape File Link; { Terrain } Complex Land Bowl for Light Grass
+Used Dataset: Animator: Group; { Skies } Partly Cloudy Sky
+Used Dataset: Road: Animator Repeated Object; { Cones } 2 Cones at S=3
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Animator: Shape File Link; { Misc. Parts } Traffic Cone
+Used Dataset: Road: 3D Surface (All Properties); { Flat Test Pads } 1 km Square w/ Cones, Mu = 0.9
+Used Dataset: Road: Friction Map, S-L Grid; { Constant } Constant: 0.9
+Used Dataset: Events; { Slowly Increasing Steer Test } A. Wait to Start Slowly Increasing Steer
+Used Dataset: Generic VS Commands; { Sine with Dwell } Define Sine with Dwell Variables
+Used Dataset: Events; { Sine with Dwell } A. Wait to Start Sine with Dwell
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Sine with Dwell } Steer Angle vs. Event Elapsed Time
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Sine with Dwell } Yaw Rate vs. Event Elapsed Time
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Yaw Angle of Sprung Masses
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Sine with Dwell } Peak Yaw Rate
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Controls: Driver } Steering: Handwheel Angle
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Braking } Brake Torque vs. Event Elapsed Time
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Forces } Lateral Forces
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Sine with Dwell } Y vs.Time
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Braking } Wheel Speeds
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Controls: Driver } Trans. Control: Gear Selected
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Event Control } Event Time and Time Stamp vs. File Time
+Used Dataset: Procedures; { Stability Testing } Sine with Dwell (Save/Restore Option)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for X (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Side View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fx 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for X (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Side View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fx 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for X (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Side View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fx 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for X (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Side View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for X (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fx 3D Arrow (Tail Origin)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Force Arrows (2 Axles) } 2A - Fx Tire Force Arrows
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Y (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fy 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Y (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fy 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Y (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fy 3D Arrow (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Y (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Y (Tail Origin, Top View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fy 3D Arrow (Tail Origin)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Force Arrows (2 Axles) } 2A - Fy Tire Force Arrows
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Z (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Side View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fz 3D, Offset (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Z (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Side View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fz 3D, Offset (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Z (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Side View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fz 3D, Offset (Tail Origin)
+Used Dataset: Animator: Shape File Link; { Arrows } 3D Arrow for Z (Tail Origin) - OSG
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Front View)
+Used Dataset: Animator: Shape File Link; { Arrows } Flat Arrow for Z (Tail Origin, Side View)
+Used Dataset: Animator: Shape Assembly; { Arrows } Fz 3D, Offset (Tail Origin)
+Used Dataset: Animator: Wheel Arrows and Other Indicators; { Tire Force Arrows (2 Axles) } 2A - Fz Tire Force Arrows
+Used Dataset: Generic Data Group; { Tire Force Arrows } 2 Axle - Fx, Fy, Fz
+Used Dataset: Generic Data Lists; { HUD Indicators } ESC Alert
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Vehicle Motion } Longitudinal Speed
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Braking } Wheel Cylinder Pressures
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Vehicle Sideslip Angle
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Vehicle Sideslip Angle Rate
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { User-Defined Variables } ESC Variables
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { User-Defined Variables } Oversteer Indicator
+Used Dataset: Generic VS Commands; { ADAS Support } ESC: Parametric Electronic Stability Control
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Sine with Dwell } Yaw Rate vs. Event Elapsed Time
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Sine with Dwell } Y vs.Time
+ Sine with Dwell (ECE R13H) w/ ESC (Fast) <Restore, Restart, Optimize>
+Used Dataset: CarSim Run Control; { Restore, Restart, Optimize } Sine with Dwell (ECE R13H) w/ ESC (Fast)
+
+Time to read input = 0.02
+Function MZ_PARKING_STEER_TABLE(1,1) extrapolated (out of range HIGH) for X = 80 km/h at T = 0
+Function MZ_PARKING_STEER_TABLE(1,2) extrapolated (out of range HIGH) for X = 80 km/h at T = 0
+Function F_REB_STOP_TABLE(1,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(1,1) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(1,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(1,2) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(2,1) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(2,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+Function F_JNC_STOP_TABLE(2,2) extrapolated (out of range LOW) for X = 0 mm at T = 0
+Function F_REB_STOP_TABLE(2,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0
+
+Run started: ERD output file = Results\Run_aae1962d-c9e2-436c-aed5-25acb8d1209e\LastRun.bin
+
+Event encountered at t = 0.001: INIT_DONE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_491832b9-0178-41d1-9090-683cf90e1c82.par"
+Used Dataset: Events; { Slowly Increasing Steer Test } B. Slowly Increasing Steer to Ay = 0.3 g
+
+Event encountered at t = 3.114: AY >= 0.3 g
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_d366896b-3b28-42cf-b222-ec2cfa87ba74.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_d02d6236-3489-4162-b8b9-953cdc586f4c.par"
+Used Dataset: Control: Steering (Open Loop); Constant: Zero Degrees
+Used Dataset: Events; { Slowly Increasing Steer Test } C. Set Reference Steering Wheel Angle
+Function F_BOOST_R_TABLE extrapolated (out of range LOW) for X = -80.7246 N-m at T = 3.1145
+
+Event encountered at t = 6.115: T_EVENT > 3 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_1574a9da-70d2-4a3a-b0e6-816d7f7d1d59.par"
+Used Dataset: Events; { Slowly Increasing Steer Test } D. Slowly Decreasing Steer to Ay = -0.3g
+
+Event encountered at t = 9.225: AY <= -0.3 g
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_2c9d3292-4fbe-401b-8cfa-520aeb21a109.par"
+Used Dataset: Events; { Slowly Increasing Steer Test } E. Revise Reference Steering Wheel Angle
+
+Event encountered at t = 9.226: SLOW_STEER_DONE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_de04f2bc-6ad2-41e7-a2df-bf7c640b3fdb.par"
+Used Dataset: Events; { Sine with Dwell } B. Bring Vehicle Speed to 82 km/h
+
+Event encountered at t = 9.777: VX > 82 km/h
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_5ecb3119-0377-4728-84f8-d16c3f1466a0.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Throttle\Throttle_768d3744-c109-4ff7-a65b-3b0bea560117.par"
+Used Dataset: Control: Throttle (Open Loop); { Constant } Constant: 0
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Driver\StrDM_5e1b87df-4a9a-4a60-ac80-544adfa4667d.par"
+Used Dataset: Control: Steering by the Closed-loop Driver Model; { Constant Position } No Offset, 1 sec. Preview
+Used Dataset: Events; { Sine with Dwell } C. Coast Down to 80 km/h
+
+Event encountered at t = 11.747: VX <= 80 km/h
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_fec269b6-91c8-4ad9-a8b9-9c30e29f2c44.par"
+Used Dataset: Events; { Sine with Dwell } D. Have Coasted to 80 km/h
+
+Event encountered at t = 11.748: OPT_SWD_RESTORE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_d0b4e58c-6c70-42aa-8909-4472dd7099d1.par"
+Used Dataset: Events; { Sine with Dwell } D1. Save State at 80 km/h
+The math model state was saved at t = 11.749.
+
+Event encountered at t = 11.749: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_66d82aca-f992-425f-bb09-d018030df90c.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_ff9a8fb4-4a22-4d48-b040-df47ab9efb73.par"
+Used Dataset: Control: Steering (Open Loop); Sine with Dwell Waveform
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Generic\VS_commands\GenVS_afc5a996-25a3-4795-ab5a-eb6c47fe2f91.par"
+Used Dataset: Generic VS Commands; { Sine with Dwell } Increment Sine with Dwell Amplitude
+Used Dataset: Events; { Sine with Dwell } E. Start Sine with Dwell
+
+Event encountered at t = 12.464: T_EVENT >= 0.714 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_7f4b45e9-e64c-45a3-9fa6-746c489098c3.par"
+Used Dataset: Events; { Sine with Dwell } F. Reset Peak Yaw Rate at 0.714 s
+
+Event encountered at t = 12.82: T_EVENT >= 1.07 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_27f9fdb2-99ab-42ab-af45-f95bf00ad9bd.par"
+Used Dataset: Events; { Sine with Dwell } G. Check SWA Amplitude at 1.07 s
+
+Event encountered at t = 12.821: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_1e59de02-0ba4-4532-b024-30c0f37484cc.par"
+Used Dataset: Events; { Sine with Dwell } I. Clear Events and Continue to 2.929 s
+
+Event encountered at t = 14.679: T_EVENT >= 2.929 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_3b72ae41-9f55-4b4e-8705-080d7b845d76.par"
+Used Dataset: Events; { Sine with Dwell } J. Check Yaw Rate at 2.929 s (1.0 s after COS)
+
+Event encountered at t = 15.429: T_EVENT >= 3.679 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_dab7d06b-69d0-498a-8be4-135ed5df7cee.par"
+Used Dataset: Events; { Sine with Dwell } K. Check Yaw Rate at 3.679 s (1.75 s COS)
+
+Event encountered at t = 15.43: OPT_SWD_RESTORE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_4041b90b-f7b0-4816-934b-2aa90d270564.par"
+Used Dataset: Events; { Sine with Dwell } D2. Restore State for 80 km/h
+
+Saved state was restored at t = 15.43; the clock was reset to t = 11.749.
+
+Event encountered at t = 11.75: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_66d82aca-f992-425f-bb09-d018030df90c.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_ff9a8fb4-4a22-4d48-b040-df47ab9efb73.par"
+Used Dataset: Control: Steering (Open Loop); Sine with Dwell Waveform
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Generic\VS_commands\GenVS_afc5a996-25a3-4795-ab5a-eb6c47fe2f91.par"
+Used Dataset: Generic VS Commands; { Sine with Dwell } Increment Sine with Dwell Amplitude
+Used Dataset: Events; { Sine with Dwell } E. Start Sine with Dwell
+
+Event encountered at t = 12.464: T_EVENT >= 0.714 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_7f4b45e9-e64c-45a3-9fa6-746c489098c3.par"
+Used Dataset: Events; { Sine with Dwell } F. Reset Peak Yaw Rate at 0.714 s
+
+Event encountered at t = 12.82: T_EVENT >= 1.07 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_27f9fdb2-99ab-42ab-af45-f95bf00ad9bd.par"
+Used Dataset: Events; { Sine with Dwell } G. Check SWA Amplitude at 1.07 s
+
+Event encountered at t = 12.821: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_1e59de02-0ba4-4532-b024-30c0f37484cc.par"
+Used Dataset: Events; { Sine with Dwell } I. Clear Events and Continue to 2.929 s
+
+Event encountered at t = 14.679: T_EVENT >= 2.929 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_3b72ae41-9f55-4b4e-8705-080d7b845d76.par"
+Used Dataset: Events; { Sine with Dwell } J. Check Yaw Rate at 2.929 s (1.0 s after COS)
+
+Event encountered at t = 15.429: T_EVENT >= 3.679 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_dab7d06b-69d0-498a-8be4-135ed5df7cee.par"
+Used Dataset: Events; { Sine with Dwell } K. Check Yaw Rate at 3.679 s (1.75 s COS)
+
+Event encountered at t = 15.43: OPT_SWD_RESTORE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_4041b90b-f7b0-4816-934b-2aa90d270564.par"
+Used Dataset: Events; { Sine with Dwell } D2. Restore State for 80 km/h
+
+Saved state was restored at t = 15.43; the clock was reset to t = 11.749.
+
+Event encountered at t = 11.75: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_66d82aca-f992-425f-bb09-d018030df90c.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_ff9a8fb4-4a22-4d48-b040-df47ab9efb73.par"
+Used Dataset: Control: Steering (Open Loop); Sine with Dwell Waveform
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Generic\VS_commands\GenVS_afc5a996-25a3-4795-ab5a-eb6c47fe2f91.par"
+Used Dataset: Generic VS Commands; { Sine with Dwell } Increment Sine with Dwell Amplitude
+Used Dataset: Events; { Sine with Dwell } E. Start Sine with Dwell
+
+Event encountered at t = 12.464: T_EVENT >= 0.714 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_7f4b45e9-e64c-45a3-9fa6-746c489098c3.par"
+Used Dataset: Events; { Sine with Dwell } F. Reset Peak Yaw Rate at 0.714 s
+
+Event encountered at t = 12.82: T_EVENT >= 1.07 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_27f9fdb2-99ab-42ab-af45-f95bf00ad9bd.par"
+Used Dataset: Events; { Sine with Dwell } G. Check SWA Amplitude at 1.07 s
+
+Event encountered at t = 12.821: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_1e59de02-0ba4-4532-b024-30c0f37484cc.par"
+Used Dataset: Events; { Sine with Dwell } I. Clear Events and Continue to 2.929 s
+
+Event encountered at t = 14.679: T_EVENT >= 2.929 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_3b72ae41-9f55-4b4e-8705-080d7b845d76.par"
+Used Dataset: Events; { Sine with Dwell } J. Check Yaw Rate at 2.929 s (1.0 s after COS)
+
+Event encountered at t = 15.429: T_EVENT >= 3.679 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_dab7d06b-69d0-498a-8be4-135ed5df7cee.par"
+Used Dataset: Events; { Sine with Dwell } K. Check Yaw Rate at 3.679 s (1.75 s COS)
+
+Event encountered at t = 15.43: OPT_SWD_RESTORE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_4041b90b-f7b0-4816-934b-2aa90d270564.par"
+Used Dataset: Events; { Sine with Dwell } D2. Restore State for 80 km/h
+
+Saved state was restored at t = 15.43; the clock was reset to t = 11.749.
+
+Event encountered at t = 11.75: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_66d82aca-f992-425f-bb09-d018030df90c.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_ff9a8fb4-4a22-4d48-b040-df47ab9efb73.par"
+Used Dataset: Control: Steering (Open Loop); Sine with Dwell Waveform
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Generic\VS_commands\GenVS_afc5a996-25a3-4795-ab5a-eb6c47fe2f91.par"
+Used Dataset: Generic VS Commands; { Sine with Dwell } Increment Sine with Dwell Amplitude
+Used Dataset: Events; { Sine with Dwell } E. Start Sine with Dwell
+
+Event encountered at t = 12.464: T_EVENT >= 0.714 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_7f4b45e9-e64c-45a3-9fa6-746c489098c3.par"
+Used Dataset: Events; { Sine with Dwell } F. Reset Peak Yaw Rate at 0.714 s
+
+Event encountered at t = 12.82: T_EVENT >= 1.07 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_27f9fdb2-99ab-42ab-af45-f95bf00ad9bd.par"
+Used Dataset: Events; { Sine with Dwell } G. Check SWA Amplitude at 1.07 s
+
+Event encountered at t = 12.821: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_1e59de02-0ba4-4532-b024-30c0f37484cc.par"
+Used Dataset: Events; { Sine with Dwell } I. Clear Events and Continue to 2.929 s
+
+Event encountered at t = 14.679: T_EVENT >= 2.929 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_3b72ae41-9f55-4b4e-8705-080d7b845d76.par"
+Used Dataset: Events; { Sine with Dwell } J. Check Yaw Rate at 2.929 s (1.0 s after COS)
+
+Event encountered at t = 15.429: T_EVENT >= 3.679 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_dab7d06b-69d0-498a-8be4-135ed5df7cee.par"
+Used Dataset: Events; { Sine with Dwell } K. Check Yaw Rate at 3.679 s (1.75 s COS)
+
+Event encountered at t = 15.43: OPT_SWD_RESTORE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_4041b90b-f7b0-4816-934b-2aa90d270564.par"
+Used Dataset: Events; { Sine with Dwell } D2. Restore State for 80 km/h
+
+Saved state was restored at t = 15.43; the clock was reset to t = 11.749.
+
+Event encountered at t = 11.75: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_66d82aca-f992-425f-bb09-d018030df90c.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_ff9a8fb4-4a22-4d48-b040-df47ab9efb73.par"
+Used Dataset: Control: Steering (Open Loop); Sine with Dwell Waveform
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Generic\VS_commands\GenVS_afc5a996-25a3-4795-ab5a-eb6c47fe2f91.par"
+Used Dataset: Generic VS Commands; { Sine with Dwell } Increment Sine with Dwell Amplitude
+Used Dataset: Events; { Sine with Dwell } E. Start Sine with Dwell
+
+Event encountered at t = 12.464: T_EVENT >= 0.714 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_7f4b45e9-e64c-45a3-9fa6-746c489098c3.par"
+Used Dataset: Events; { Sine with Dwell } F. Reset Peak Yaw Rate at 0.714 s
+
+Event encountered at t = 12.82: T_EVENT >= 1.07 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_27f9fdb2-99ab-42ab-af45-f95bf00ad9bd.par"
+Used Dataset: Events; { Sine with Dwell } G. Check SWA Amplitude at 1.07 s
+
+Event encountered at t = 12.821: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_1e59de02-0ba4-4532-b024-30c0f37484cc.par"
+Used Dataset: Events; { Sine with Dwell } I. Clear Events and Continue to 2.929 s
+Function FY_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for X = 26.0205 deg at T = 12.9365
+Function MZ_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for X = 26.0205 deg at T = 12.9365
+
+Event encountered at t = 14.679: T_EVENT >= 2.929 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_3b72ae41-9f55-4b4e-8705-080d7b845d76.par"
+Used Dataset: Events; { Sine with Dwell } J. Check Yaw Rate at 2.929 s (1.0 s after COS)
+
+Event encountered at t = 15.429: T_EVENT >= 3.679 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_dab7d06b-69d0-498a-8be4-135ed5df7cee.par"
+Used Dataset: Events; { Sine with Dwell } K. Check Yaw Rate at 3.679 s (1.75 s COS)
+
+Event encountered at t = 15.43: OPT_SWD_RESTORE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_4041b90b-f7b0-4816-934b-2aa90d270564.par"
+Used Dataset: Events; { Sine with Dwell } D2. Restore State for 80 km/h
+
+Saved state was restored at t = 15.43; the clock was reset to t = 11.749.
+
+Event encountered at t = 11.75: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_66d82aca-f992-425f-bb09-d018030df90c.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_ff9a8fb4-4a22-4d48-b040-df47ab9efb73.par"
+Used Dataset: Control: Steering (Open Loop); Sine with Dwell Waveform
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Generic\VS_commands\GenVS_afc5a996-25a3-4795-ab5a-eb6c47fe2f91.par"
+Used Dataset: Generic VS Commands; { Sine with Dwell } Increment Sine with Dwell Amplitude
+Used Dataset: Events; { Sine with Dwell } E. Start Sine with Dwell
+
+Event encountered at t = 12.464: T_EVENT >= 0.714 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_7f4b45e9-e64c-45a3-9fa6-746c489098c3.par"
+Used Dataset: Events; { Sine with Dwell } F. Reset Peak Yaw Rate at 0.714 s
+
+Event encountered at t = 12.82: T_EVENT >= 1.07 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_27f9fdb2-99ab-42ab-af45-f95bf00ad9bd.par"
+Used Dataset: Events; { Sine with Dwell } G. Check SWA Amplitude at 1.07 s
+
+Event encountered at t = 12.821: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_1e59de02-0ba4-4532-b024-30c0f37484cc.par"
+Used Dataset: Events; { Sine with Dwell } I. Clear Events and Continue to 2.929 s
+
+Event encountered at t = 14.679: T_EVENT >= 2.929 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_3b72ae41-9f55-4b4e-8705-080d7b845d76.par"
+Used Dataset: Events; { Sine with Dwell } J. Check Yaw Rate at 2.929 s (1.0 s after COS)
+
+Event encountered at t = 15.429: T_EVENT >= 3.679 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_dab7d06b-69d0-498a-8be4-135ed5df7cee.par"
+Used Dataset: Events; { Sine with Dwell } K. Check Yaw Rate at 3.679 s (1.75 s COS)
+
+Event encountered at t = 15.43: OPT_SWD_RESTORE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_4041b90b-f7b0-4816-934b-2aa90d270564.par"
+Used Dataset: Events; { Sine with Dwell } D2. Restore State for 80 km/h
+
+Saved state was restored at t = 15.43; the clock was reset to t = 11.749.
+
+Event encountered at t = 11.75: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_66d82aca-f992-425f-bb09-d018030df90c.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_ff9a8fb4-4a22-4d48-b040-df47ab9efb73.par"
+Used Dataset: Control: Steering (Open Loop); Sine with Dwell Waveform
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Generic\VS_commands\GenVS_afc5a996-25a3-4795-ab5a-eb6c47fe2f91.par"
+Used Dataset: Generic VS Commands; { Sine with Dwell } Increment Sine with Dwell Amplitude
+Used Dataset: Events; { Sine with Dwell } E. Start Sine with Dwell
+Function FY_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for X = 26.0079 deg at T = 12.365
+Function MZ_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for X = 26.0079 deg at T = 12.365
+
+Event encountered at t = 12.464: T_EVENT >= 0.714 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_7f4b45e9-e64c-45a3-9fa6-746c489098c3.par"
+Used Dataset: Events; { Sine with Dwell } F. Reset Peak Yaw Rate at 0.714 s
+
+Event encountered at t = 12.82: T_EVENT >= 1.07 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_27f9fdb2-99ab-42ab-af45-f95bf00ad9bd.par"
+Used Dataset: Events; { Sine with Dwell } G. Check SWA Amplitude at 1.07 s
+
+Event encountered at t = 12.821: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_1e59de02-0ba4-4532-b024-30c0f37484cc.par"
+Used Dataset: Events; { Sine with Dwell } I. Clear Events and Continue to 2.929 s
+
+Event encountered at t = 14.679: T_EVENT >= 2.929 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_3b72ae41-9f55-4b4e-8705-080d7b845d76.par"
+Used Dataset: Events; { Sine with Dwell } J. Check Yaw Rate at 2.929 s (1.0 s after COS)
+
+Event encountered at t = 15.429: T_EVENT >= 3.679 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_dab7d06b-69d0-498a-8be4-135ed5df7cee.par"
+Used Dataset: Events; { Sine with Dwell } K. Check Yaw Rate at 3.679 s (1.75 s COS)
+
+Event encountered at t = 15.43: OPT_SWD_RESTORE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_4041b90b-f7b0-4816-934b-2aa90d270564.par"
+Used Dataset: Events; { Sine with Dwell } D2. Restore State for 80 km/h
+
+Saved state was restored at t = 15.43; the clock was reset to t = 11.749.
+
+Event encountered at t = 11.75: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_66d82aca-f992-425f-bb09-d018030df90c.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_ff9a8fb4-4a22-4d48-b040-df47ab9efb73.par"
+Used Dataset: Control: Steering (Open Loop); Sine with Dwell Waveform
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Generic\VS_commands\GenVS_afc5a996-25a3-4795-ab5a-eb6c47fe2f91.par"
+Used Dataset: Generic VS Commands; { Sine with Dwell } Increment Sine with Dwell Amplitude
+Used Dataset: Events; { Sine with Dwell } E. Start Sine with Dwell
+
+Event encountered at t = 12.464: T_EVENT >= 0.714 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_7f4b45e9-e64c-45a3-9fa6-746c489098c3.par"
+Used Dataset: Events; { Sine with Dwell } F. Reset Peak Yaw Rate at 0.714 s
+
+Event encountered at t = 12.82: T_EVENT >= 1.07 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_27f9fdb2-99ab-42ab-af45-f95bf00ad9bd.par"
+Used Dataset: Events; { Sine with Dwell } G. Check SWA Amplitude at 1.07 s
+
+Event encountered at t = 12.821: SWA_MULT >= 5 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_16cc7cb7-86a4-4c31-af4b-1c7a2f1ea4eb.par"
+Used Dataset: Events; { Sine with Dwell } H. Check Lateral Displacement
+
+Event encountered at t = 12.822: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_1e59de02-0ba4-4532-b024-30c0f37484cc.par"
+Used Dataset: Events; { Sine with Dwell } I. Clear Events and Continue to 2.929 s
+Function FY_TIRE_CARPET(1,1) extrapolated (out of range HIGH) for X = 26.006 deg at T = 13.2825
+Function MZ_TIRE_CARPET(1,1) extrapolated (out of range HIGH) for X = 26.006 deg at T = 13.2825
+
+Event encountered at t = 14.679: T_EVENT >= 2.929 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_3b72ae41-9f55-4b4e-8705-080d7b845d76.par"
+Used Dataset: Events; { Sine with Dwell } J. Check Yaw Rate at 2.929 s (1.0 s after COS)
+
+Event encountered at t = 15.429: T_EVENT >= 3.679 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_dab7d06b-69d0-498a-8be4-135ed5df7cee.par"
+Used Dataset: Events; { Sine with Dwell } K. Check Yaw Rate at 3.679 s (1.75 s COS)
+
+Event encountered at t = 15.43: OPT_SWD_RESTORE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_4041b90b-f7b0-4816-934b-2aa90d270564.par"
+Used Dataset: Events; { Sine with Dwell } D2. Restore State for 80 km/h
+
+Saved state was restored at t = 15.43; the clock was reset to t = 11.749.
+
+Event encountered at t = 11.75: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_66d82aca-f992-425f-bb09-d018030df90c.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_ff9a8fb4-4a22-4d48-b040-df47ab9efb73.par"
+Used Dataset: Control: Steering (Open Loop); Sine with Dwell Waveform
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Generic\VS_commands\GenVS_afc5a996-25a3-4795-ab5a-eb6c47fe2f91.par"
+Used Dataset: Generic VS Commands; { Sine with Dwell } Increment Sine with Dwell Amplitude
+Used Dataset: Events; { Sine with Dwell } E. Start Sine with Dwell
+
+Event encountered at t = 12.464: T_EVENT >= 0.714 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_7f4b45e9-e64c-45a3-9fa6-746c489098c3.par"
+Used Dataset: Events; { Sine with Dwell } F. Reset Peak Yaw Rate at 0.714 s
+
+Event encountered at t = 12.82: T_EVENT >= 1.07 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_27f9fdb2-99ab-42ab-af45-f95bf00ad9bd.par"
+Used Dataset: Events; { Sine with Dwell } G. Check SWA Amplitude at 1.07 s
+
+Event encountered at t = 12.821: SWA_MULT >= 5 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_16cc7cb7-86a4-4c31-af4b-1c7a2f1ea4eb.par"
+Used Dataset: Events; { Sine with Dwell } H. Check Lateral Displacement
+
+Event encountered at t = 12.822: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_1e59de02-0ba4-4532-b024-30c0f37484cc.par"
+Used Dataset: Events; { Sine with Dwell } I. Clear Events and Continue to 2.929 s
+
+Event encountered at t = 14.679: T_EVENT >= 2.929 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_3b72ae41-9f55-4b4e-8705-080d7b845d76.par"
+Used Dataset: Events; { Sine with Dwell } J. Check Yaw Rate at 2.929 s (1.0 s after COS)
+
+Event encountered at t = 15.429: T_EVENT >= 3.679 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_dab7d06b-69d0-498a-8be4-135ed5df7cee.par"
+Used Dataset: Events; { Sine with Dwell } K. Check Yaw Rate at 3.679 s (1.75 s COS)
+
+Event encountered at t = 15.43: OPT_SWD_RESTORE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_4041b90b-f7b0-4816-934b-2aa90d270564.par"
+Used Dataset: Events; { Sine with Dwell } D2. Restore State for 80 km/h
+
+Saved state was restored at t = 15.43; the clock was reset to t = 11.749.
+
+Event encountered at t = 11.75: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_66d82aca-f992-425f-bb09-d018030df90c.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_ff9a8fb4-4a22-4d48-b040-df47ab9efb73.par"
+Used Dataset: Control: Steering (Open Loop); Sine with Dwell Waveform
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Generic\VS_commands\GenVS_afc5a996-25a3-4795-ab5a-eb6c47fe2f91.par"
+Used Dataset: Generic VS Commands; { Sine with Dwell } Increment Sine with Dwell Amplitude
+Used Dataset: Events; { Sine with Dwell } E. Start Sine with Dwell
+
+Event encountered at t = 12.464: T_EVENT >= 0.714 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_7f4b45e9-e64c-45a3-9fa6-746c489098c3.par"
+Used Dataset: Events; { Sine with Dwell } F. Reset Peak Yaw Rate at 0.714 s
+Function FY_TIRE_CARPET(1,2) extrapolated (out of range HIGH) for X = 26.0041 deg at T = 12.4825
+Function MZ_TIRE_CARPET(1,2) extrapolated (out of range HIGH) for X = 26.0041 deg at T = 12.4825
+
+Event encountered at t = 12.82: T_EVENT >= 1.07 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_27f9fdb2-99ab-42ab-af45-f95bf00ad9bd.par"
+Used Dataset: Events; { Sine with Dwell } G. Check SWA Amplitude at 1.07 s
+
+Event encountered at t = 12.821: SWA_MULT >= 5 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_16cc7cb7-86a4-4c31-af4b-1c7a2f1ea4eb.par"
+Used Dataset: Events; { Sine with Dwell } H. Check Lateral Displacement
+
+Event encountered at t = 12.822: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_1e59de02-0ba4-4532-b024-30c0f37484cc.par"
+Used Dataset: Events; { Sine with Dwell } I. Clear Events and Continue to 2.929 s
+
+Event encountered at t = 14.679: T_EVENT >= 2.929 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_3b72ae41-9f55-4b4e-8705-080d7b845d76.par"
+Used Dataset: Events; { Sine with Dwell } J. Check Yaw Rate at 2.929 s (1.0 s after COS)
+
+Event encountered at t = 15.429: T_EVENT >= 3.679 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_dab7d06b-69d0-498a-8be4-135ed5df7cee.par"
+Used Dataset: Events; { Sine with Dwell } K. Check Yaw Rate at 3.679 s (1.75 s COS)
+
+Event encountered at t = 15.43: OPT_SWD_RESTORE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_4041b90b-f7b0-4816-934b-2aa90d270564.par"
+Used Dataset: Events; { Sine with Dwell } D2. Restore State for 80 km/h
+
+Saved state was restored at t = 15.43; the clock was reset to t = 11.749.
+
+Event encountered at t = 11.75: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_66d82aca-f992-425f-bb09-d018030df90c.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_ff9a8fb4-4a22-4d48-b040-df47ab9efb73.par"
+Used Dataset: Control: Steering (Open Loop); Sine with Dwell Waveform
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Generic\VS_commands\GenVS_afc5a996-25a3-4795-ab5a-eb6c47fe2f91.par"
+Used Dataset: Generic VS Commands; { Sine with Dwell } Increment Sine with Dwell Amplitude
+Used Dataset: Events; { Sine with Dwell } E. Start Sine with Dwell
+
+Event encountered at t = 12.464: T_EVENT >= 0.714 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_7f4b45e9-e64c-45a3-9fa6-746c489098c3.par"
+Used Dataset: Events; { Sine with Dwell } F. Reset Peak Yaw Rate at 0.714 s
+
+Event encountered at t = 12.82: T_EVENT >= 1.07 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_27f9fdb2-99ab-42ab-af45-f95bf00ad9bd.par"
+Used Dataset: Events; { Sine with Dwell } G. Check SWA Amplitude at 1.07 s
+
+Event encountered at t = 12.821: SWA_MULT >= 5 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_16cc7cb7-86a4-4c31-af4b-1c7a2f1ea4eb.par"
+Used Dataset: Events; { Sine with Dwell } H. Check Lateral Displacement
+
+Event encountered at t = 12.822: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_1e59de02-0ba4-4532-b024-30c0f37484cc.par"
+Used Dataset: Events; { Sine with Dwell } I. Clear Events and Continue to 2.929 s
+
+Event encountered at t = 14.679: T_EVENT >= 2.929 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_3b72ae41-9f55-4b4e-8705-080d7b845d76.par"
+Used Dataset: Events; { Sine with Dwell } J. Check Yaw Rate at 2.929 s (1.0 s after COS)
+
+Event encountered at t = 15.429: T_EVENT >= 3.679 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_dab7d06b-69d0-498a-8be4-135ed5df7cee.par"
+Used Dataset: Events; { Sine with Dwell } K. Check Yaw Rate at 3.679 s (1.75 s COS)
+
+Event encountered at t = 15.43: STEER_SW_GAIN >= 270 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_99e74071-5045-4c3a-9707-bc85e948b256.par"
+Used Dataset: Events; { Sine with Dwell } L. Prepare Second Set of Tests
+
+Event encountered at t = 15.431: OPT_SWD_RESTORE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_4041b90b-f7b0-4816-934b-2aa90d270564.par"
+Used Dataset: Events; { Sine with Dwell } D2. Restore State for 80 km/h
+
+Saved state was restored at t = 15.431; the clock was reset to t = 11.749.
+
+Event encountered at t = 11.75: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_66d82aca-f992-425f-bb09-d018030df90c.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_ff9a8fb4-4a22-4d48-b040-df47ab9efb73.par"
+Used Dataset: Control: Steering (Open Loop); Sine with Dwell Waveform
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Generic\VS_commands\GenVS_afc5a996-25a3-4795-ab5a-eb6c47fe2f91.par"
+Used Dataset: Generic VS Commands; { Sine with Dwell } Increment Sine with Dwell Amplitude
+Used Dataset: Events; { Sine with Dwell } E. Start Sine with Dwell
+
+Event encountered at t = 12.464: T_EVENT >= 0.714 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_7f4b45e9-e64c-45a3-9fa6-746c489098c3.par"
+Used Dataset: Events; { Sine with Dwell } F. Reset Peak Yaw Rate at 0.714 s
+
+Event encountered at t = 12.82: T_EVENT >= 1.07 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_27f9fdb2-99ab-42ab-af45-f95bf00ad9bd.par"
+Used Dataset: Events; { Sine with Dwell } G. Check SWA Amplitude at 1.07 s
+
+Event encountered at t = 12.821: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_1e59de02-0ba4-4532-b024-30c0f37484cc.par"
+Used Dataset: Events; { Sine with Dwell } I. Clear Events and Continue to 2.929 s
+
+Event encountered at t = 14.679: T_EVENT >= 2.929 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_3b72ae41-9f55-4b4e-8705-080d7b845d76.par"
+Used Dataset: Events; { Sine with Dwell } J. Check Yaw Rate at 2.929 s (1.0 s after COS)
+
+Event encountered at t = 15.429: T_EVENT >= 3.679 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_dab7d06b-69d0-498a-8be4-135ed5df7cee.par"
+Used Dataset: Events; { Sine with Dwell } K. Check Yaw Rate at 3.679 s (1.75 s COS)
+
+Event encountered at t = 15.43: OPT_SWD_RESTORE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_4041b90b-f7b0-4816-934b-2aa90d270564.par"
+Used Dataset: Events; { Sine with Dwell } D2. Restore State for 80 km/h
+
+Saved state was restored at t = 15.43; the clock was reset to t = 11.749.
+
+Event encountered at t = 11.75: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_66d82aca-f992-425f-bb09-d018030df90c.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_ff9a8fb4-4a22-4d48-b040-df47ab9efb73.par"
+Used Dataset: Control: Steering (Open Loop); Sine with Dwell Waveform
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Generic\VS_commands\GenVS_afc5a996-25a3-4795-ab5a-eb6c47fe2f91.par"
+Used Dataset: Generic VS Commands; { Sine with Dwell } Increment Sine with Dwell Amplitude
+Used Dataset: Events; { Sine with Dwell } E. Start Sine with Dwell
+
+Event encountered at t = 12.464: T_EVENT >= 0.714 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_7f4b45e9-e64c-45a3-9fa6-746c489098c3.par"
+Used Dataset: Events; { Sine with Dwell } F. Reset Peak Yaw Rate at 0.714 s
+
+Event encountered at t = 12.82: T_EVENT >= 1.07 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_27f9fdb2-99ab-42ab-af45-f95bf00ad9bd.par"
+Used Dataset: Events; { Sine with Dwell } G. Check SWA Amplitude at 1.07 s
+
+Event encountered at t = 12.821: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_1e59de02-0ba4-4532-b024-30c0f37484cc.par"
+Used Dataset: Events; { Sine with Dwell } I. Clear Events and Continue to 2.929 s
+
+Event encountered at t = 14.679: T_EVENT >= 2.929 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_3b72ae41-9f55-4b4e-8705-080d7b845d76.par"
+Used Dataset: Events; { Sine with Dwell } J. Check Yaw Rate at 2.929 s (1.0 s after COS)
+
+Event encountered at t = 15.429: T_EVENT >= 3.679 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_dab7d06b-69d0-498a-8be4-135ed5df7cee.par"
+Used Dataset: Events; { Sine with Dwell } K. Check Yaw Rate at 3.679 s (1.75 s COS)
+
+Event encountered at t = 15.43: OPT_SWD_RESTORE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_4041b90b-f7b0-4816-934b-2aa90d270564.par"
+Used Dataset: Events; { Sine with Dwell } D2. Restore State for 80 km/h
+
+Saved state was restored at t = 15.43; the clock was reset to t = 11.749.
+
+Event encountered at t = 11.75: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_66d82aca-f992-425f-bb09-d018030df90c.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_ff9a8fb4-4a22-4d48-b040-df47ab9efb73.par"
+Used Dataset: Control: Steering (Open Loop); Sine with Dwell Waveform
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Generic\VS_commands\GenVS_afc5a996-25a3-4795-ab5a-eb6c47fe2f91.par"
+Used Dataset: Generic VS Commands; { Sine with Dwell } Increment Sine with Dwell Amplitude
+Used Dataset: Events; { Sine with Dwell } E. Start Sine with Dwell
+
+Event encountered at t = 12.464: T_EVENT >= 0.714 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_7f4b45e9-e64c-45a3-9fa6-746c489098c3.par"
+Used Dataset: Events; { Sine with Dwell } F. Reset Peak Yaw Rate at 0.714 s
+
+Event encountered at t = 12.82: T_EVENT >= 1.07 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_27f9fdb2-99ab-42ab-af45-f95bf00ad9bd.par"
+Used Dataset: Events; { Sine with Dwell } G. Check SWA Amplitude at 1.07 s
+
+Event encountered at t = 12.821: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_1e59de02-0ba4-4532-b024-30c0f37484cc.par"
+Used Dataset: Events; { Sine with Dwell } I. Clear Events and Continue to 2.929 s
+
+Event encountered at t = 14.679: T_EVENT >= 2.929 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_3b72ae41-9f55-4b4e-8705-080d7b845d76.par"
+Used Dataset: Events; { Sine with Dwell } J. Check Yaw Rate at 2.929 s (1.0 s after COS)
+
+Event encountered at t = 15.429: T_EVENT >= 3.679 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_dab7d06b-69d0-498a-8be4-135ed5df7cee.par"
+Used Dataset: Events; { Sine with Dwell } K. Check Yaw Rate at 3.679 s (1.75 s COS)
+
+Event encountered at t = 15.43: OPT_SWD_RESTORE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_4041b90b-f7b0-4816-934b-2aa90d270564.par"
+Used Dataset: Events; { Sine with Dwell } D2. Restore State for 80 km/h
+
+Saved state was restored at t = 15.43; the clock was reset to t = 11.749.
+
+Event encountered at t = 11.75: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_66d82aca-f992-425f-bb09-d018030df90c.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_ff9a8fb4-4a22-4d48-b040-df47ab9efb73.par"
+Used Dataset: Control: Steering (Open Loop); Sine with Dwell Waveform
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Generic\VS_commands\GenVS_afc5a996-25a3-4795-ab5a-eb6c47fe2f91.par"
+Used Dataset: Generic VS Commands; { Sine with Dwell } Increment Sine with Dwell Amplitude
+Used Dataset: Events; { Sine with Dwell } E. Start Sine with Dwell
+
+Event encountered at t = 12.464: T_EVENT >= 0.714 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_7f4b45e9-e64c-45a3-9fa6-746c489098c3.par"
+Used Dataset: Events; { Sine with Dwell } F. Reset Peak Yaw Rate at 0.714 s
+
+Event encountered at t = 12.82: T_EVENT >= 1.07 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_27f9fdb2-99ab-42ab-af45-f95bf00ad9bd.par"
+Used Dataset: Events; { Sine with Dwell } G. Check SWA Amplitude at 1.07 s
+
+Event encountered at t = 12.821: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_1e59de02-0ba4-4532-b024-30c0f37484cc.par"
+Used Dataset: Events; { Sine with Dwell } I. Clear Events and Continue to 2.929 s
+
+Event encountered at t = 14.679: T_EVENT >= 2.929 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_3b72ae41-9f55-4b4e-8705-080d7b845d76.par"
+Used Dataset: Events; { Sine with Dwell } J. Check Yaw Rate at 2.929 s (1.0 s after COS)
+
+Event encountered at t = 15.429: T_EVENT >= 3.679 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_dab7d06b-69d0-498a-8be4-135ed5df7cee.par"
+Used Dataset: Events; { Sine with Dwell } K. Check Yaw Rate at 3.679 s (1.75 s COS)
+
+Event encountered at t = 15.43: OPT_SWD_RESTORE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_4041b90b-f7b0-4816-934b-2aa90d270564.par"
+Used Dataset: Events; { Sine with Dwell } D2. Restore State for 80 km/h
+
+Saved state was restored at t = 15.43; the clock was reset to t = 11.749.
+
+Event encountered at t = 11.75: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_66d82aca-f992-425f-bb09-d018030df90c.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_ff9a8fb4-4a22-4d48-b040-df47ab9efb73.par"
+Used Dataset: Control: Steering (Open Loop); Sine with Dwell Waveform
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Generic\VS_commands\GenVS_afc5a996-25a3-4795-ab5a-eb6c47fe2f91.par"
+Used Dataset: Generic VS Commands; { Sine with Dwell } Increment Sine with Dwell Amplitude
+Used Dataset: Events; { Sine with Dwell } E. Start Sine with Dwell
+
+Event encountered at t = 12.464: T_EVENT >= 0.714 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_7f4b45e9-e64c-45a3-9fa6-746c489098c3.par"
+Used Dataset: Events; { Sine with Dwell } F. Reset Peak Yaw Rate at 0.714 s
+
+Event encountered at t = 12.82: T_EVENT >= 1.07 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_27f9fdb2-99ab-42ab-af45-f95bf00ad9bd.par"
+Used Dataset: Events; { Sine with Dwell } G. Check SWA Amplitude at 1.07 s
+
+Event encountered at t = 12.821: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_1e59de02-0ba4-4532-b024-30c0f37484cc.par"
+Used Dataset: Events; { Sine with Dwell } I. Clear Events and Continue to 2.929 s
+
+Event encountered at t = 14.679: T_EVENT >= 2.929 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_3b72ae41-9f55-4b4e-8705-080d7b845d76.par"
+Used Dataset: Events; { Sine with Dwell } J. Check Yaw Rate at 2.929 s (1.0 s after COS)
+
+Event encountered at t = 15.429: T_EVENT >= 3.679 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_dab7d06b-69d0-498a-8be4-135ed5df7cee.par"
+Used Dataset: Events; { Sine with Dwell } K. Check Yaw Rate at 3.679 s (1.75 s COS)
+
+Event encountered at t = 15.43: OPT_SWD_RESTORE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_4041b90b-f7b0-4816-934b-2aa90d270564.par"
+Used Dataset: Events; { Sine with Dwell } D2. Restore State for 80 km/h
+
+Saved state was restored at t = 15.43; the clock was reset to t = 11.749.
+
+Event encountered at t = 11.75: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_66d82aca-f992-425f-bb09-d018030df90c.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_ff9a8fb4-4a22-4d48-b040-df47ab9efb73.par"
+Used Dataset: Control: Steering (Open Loop); Sine with Dwell Waveform
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Generic\VS_commands\GenVS_afc5a996-25a3-4795-ab5a-eb6c47fe2f91.par"
+Used Dataset: Generic VS Commands; { Sine with Dwell } Increment Sine with Dwell Amplitude
+Used Dataset: Events; { Sine with Dwell } E. Start Sine with Dwell
+
+Event encountered at t = 12.464: T_EVENT >= 0.714 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_7f4b45e9-e64c-45a3-9fa6-746c489098c3.par"
+Used Dataset: Events; { Sine with Dwell } F. Reset Peak Yaw Rate at 0.714 s
+
+Event encountered at t = 12.82: T_EVENT >= 1.07 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_27f9fdb2-99ab-42ab-af45-f95bf00ad9bd.par"
+Used Dataset: Events; { Sine with Dwell } G. Check SWA Amplitude at 1.07 s
+
+Event encountered at t = 12.821: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_1e59de02-0ba4-4532-b024-30c0f37484cc.par"
+Used Dataset: Events; { Sine with Dwell } I. Clear Events and Continue to 2.929 s
+
+Event encountered at t = 14.679: T_EVENT >= 2.929 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_3b72ae41-9f55-4b4e-8705-080d7b845d76.par"
+Used Dataset: Events; { Sine with Dwell } J. Check Yaw Rate at 2.929 s (1.0 s after COS)
+
+Event encountered at t = 15.429: T_EVENT >= 3.679 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_dab7d06b-69d0-498a-8be4-135ed5df7cee.par"
+Used Dataset: Events; { Sine with Dwell } K. Check Yaw Rate at 3.679 s (1.75 s COS)
+
+Event encountered at t = 15.43: OPT_SWD_RESTORE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_4041b90b-f7b0-4816-934b-2aa90d270564.par"
+Used Dataset: Events; { Sine with Dwell } D2. Restore State for 80 km/h
+
+Saved state was restored at t = 15.43; the clock was reset to t = 11.749.
+
+Event encountered at t = 11.75: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_66d82aca-f992-425f-bb09-d018030df90c.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_ff9a8fb4-4a22-4d48-b040-df47ab9efb73.par"
+Used Dataset: Control: Steering (Open Loop); Sine with Dwell Waveform
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Generic\VS_commands\GenVS_afc5a996-25a3-4795-ab5a-eb6c47fe2f91.par"
+Used Dataset: Generic VS Commands; { Sine with Dwell } Increment Sine with Dwell Amplitude
+Used Dataset: Events; { Sine with Dwell } E. Start Sine with Dwell
+
+Event encountered at t = 12.464: T_EVENT >= 0.714 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_7f4b45e9-e64c-45a3-9fa6-746c489098c3.par"
+Used Dataset: Events; { Sine with Dwell } F. Reset Peak Yaw Rate at 0.714 s
+
+Event encountered at t = 12.82: T_EVENT >= 1.07 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_27f9fdb2-99ab-42ab-af45-f95bf00ad9bd.par"
+Used Dataset: Events; { Sine with Dwell } G. Check SWA Amplitude at 1.07 s
+
+Event encountered at t = 12.821: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_1e59de02-0ba4-4532-b024-30c0f37484cc.par"
+Used Dataset: Events; { Sine with Dwell } I. Clear Events and Continue to 2.929 s
+
+Event encountered at t = 14.679: T_EVENT >= 2.929 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_3b72ae41-9f55-4b4e-8705-080d7b845d76.par"
+Used Dataset: Events; { Sine with Dwell } J. Check Yaw Rate at 2.929 s (1.0 s after COS)
+
+Event encountered at t = 15.429: T_EVENT >= 3.679 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_dab7d06b-69d0-498a-8be4-135ed5df7cee.par"
+Used Dataset: Events; { Sine with Dwell } K. Check Yaw Rate at 3.679 s (1.75 s COS)
+
+Event encountered at t = 15.43: OPT_SWD_RESTORE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_4041b90b-f7b0-4816-934b-2aa90d270564.par"
+Used Dataset: Events; { Sine with Dwell } D2. Restore State for 80 km/h
+
+Saved state was restored at t = 15.43; the clock was reset to t = 11.749.
+
+Event encountered at t = 11.75: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_66d82aca-f992-425f-bb09-d018030df90c.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_ff9a8fb4-4a22-4d48-b040-df47ab9efb73.par"
+Used Dataset: Control: Steering (Open Loop); Sine with Dwell Waveform
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Generic\VS_commands\GenVS_afc5a996-25a3-4795-ab5a-eb6c47fe2f91.par"
+Used Dataset: Generic VS Commands; { Sine with Dwell } Increment Sine with Dwell Amplitude
+Used Dataset: Events; { Sine with Dwell } E. Start Sine with Dwell
+
+Event encountered at t = 12.464: T_EVENT >= 0.714 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_7f4b45e9-e64c-45a3-9fa6-746c489098c3.par"
+Used Dataset: Events; { Sine with Dwell } F. Reset Peak Yaw Rate at 0.714 s
+
+Event encountered at t = 12.82: T_EVENT >= 1.07 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_27f9fdb2-99ab-42ab-af45-f95bf00ad9bd.par"
+Used Dataset: Events; { Sine with Dwell } G. Check SWA Amplitude at 1.07 s
+
+Event encountered at t = 12.821: SWA_MULT >= 5 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_16cc7cb7-86a4-4c31-af4b-1c7a2f1ea4eb.par"
+Used Dataset: Events; { Sine with Dwell } H. Check Lateral Displacement
+
+Event encountered at t = 12.822: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_1e59de02-0ba4-4532-b024-30c0f37484cc.par"
+Used Dataset: Events; { Sine with Dwell } I. Clear Events and Continue to 2.929 s
+
+Event encountered at t = 14.679: T_EVENT >= 2.929 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_3b72ae41-9f55-4b4e-8705-080d7b845d76.par"
+Used Dataset: Events; { Sine with Dwell } J. Check Yaw Rate at 2.929 s (1.0 s after COS)
+
+Event encountered at t = 15.429: T_EVENT >= 3.679 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_dab7d06b-69d0-498a-8be4-135ed5df7cee.par"
+Used Dataset: Events; { Sine with Dwell } K. Check Yaw Rate at 3.679 s (1.75 s COS)
+
+Event encountered at t = 15.43: OPT_SWD_RESTORE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_4041b90b-f7b0-4816-934b-2aa90d270564.par"
+Used Dataset: Events; { Sine with Dwell } D2. Restore State for 80 km/h
+
+Saved state was restored at t = 15.43; the clock was reset to t = 11.749.
+
+Event encountered at t = 11.75: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_66d82aca-f992-425f-bb09-d018030df90c.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_ff9a8fb4-4a22-4d48-b040-df47ab9efb73.par"
+Used Dataset: Control: Steering (Open Loop); Sine with Dwell Waveform
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Generic\VS_commands\GenVS_afc5a996-25a3-4795-ab5a-eb6c47fe2f91.par"
+Used Dataset: Generic VS Commands; { Sine with Dwell } Increment Sine with Dwell Amplitude
+Used Dataset: Events; { Sine with Dwell } E. Start Sine with Dwell
+
+Event encountered at t = 12.464: T_EVENT >= 0.714 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_7f4b45e9-e64c-45a3-9fa6-746c489098c3.par"
+Used Dataset: Events; { Sine with Dwell } F. Reset Peak Yaw Rate at 0.714 s
+
+Event encountered at t = 12.82: T_EVENT >= 1.07 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_27f9fdb2-99ab-42ab-af45-f95bf00ad9bd.par"
+Used Dataset: Events; { Sine with Dwell } G. Check SWA Amplitude at 1.07 s
+
+Event encountered at t = 12.821: SWA_MULT >= 5 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_16cc7cb7-86a4-4c31-af4b-1c7a2f1ea4eb.par"
+Used Dataset: Events; { Sine with Dwell } H. Check Lateral Displacement
+
+Event encountered at t = 12.822: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_1e59de02-0ba4-4532-b024-30c0f37484cc.par"
+Used Dataset: Events; { Sine with Dwell } I. Clear Events and Continue to 2.929 s
+
+Event encountered at t = 14.679: T_EVENT >= 2.929 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_3b72ae41-9f55-4b4e-8705-080d7b845d76.par"
+Used Dataset: Events; { Sine with Dwell } J. Check Yaw Rate at 2.929 s (1.0 s after COS)
+
+Event encountered at t = 15.429: T_EVENT >= 3.679 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_dab7d06b-69d0-498a-8be4-135ed5df7cee.par"
+Used Dataset: Events; { Sine with Dwell } K. Check Yaw Rate at 3.679 s (1.75 s COS)
+
+Event encountered at t = 15.43: OPT_SWD_RESTORE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_4041b90b-f7b0-4816-934b-2aa90d270564.par"
+Used Dataset: Events; { Sine with Dwell } D2. Restore State for 80 km/h
+
+Saved state was restored at t = 15.43; the clock was reset to t = 11.749.
+
+Event encountered at t = 11.75: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_66d82aca-f992-425f-bb09-d018030df90c.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_ff9a8fb4-4a22-4d48-b040-df47ab9efb73.par"
+Used Dataset: Control: Steering (Open Loop); Sine with Dwell Waveform
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Generic\VS_commands\GenVS_afc5a996-25a3-4795-ab5a-eb6c47fe2f91.par"
+Used Dataset: Generic VS Commands; { Sine with Dwell } Increment Sine with Dwell Amplitude
+Used Dataset: Events; { Sine with Dwell } E. Start Sine with Dwell
+
+Event encountered at t = 12.464: T_EVENT >= 0.714 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_7f4b45e9-e64c-45a3-9fa6-746c489098c3.par"
+Used Dataset: Events; { Sine with Dwell } F. Reset Peak Yaw Rate at 0.714 s
+
+Event encountered at t = 12.82: T_EVENT >= 1.07 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_27f9fdb2-99ab-42ab-af45-f95bf00ad9bd.par"
+Used Dataset: Events; { Sine with Dwell } G. Check SWA Amplitude at 1.07 s
+
+Event encountered at t = 12.821: SWA_MULT >= 5 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_16cc7cb7-86a4-4c31-af4b-1c7a2f1ea4eb.par"
+Used Dataset: Events; { Sine with Dwell } H. Check Lateral Displacement
+
+Event encountered at t = 12.822: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_1e59de02-0ba4-4532-b024-30c0f37484cc.par"
+Used Dataset: Events; { Sine with Dwell } I. Clear Events and Continue to 2.929 s
+
+Event encountered at t = 14.679: T_EVENT >= 2.929 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_3b72ae41-9f55-4b4e-8705-080d7b845d76.par"
+Used Dataset: Events; { Sine with Dwell } J. Check Yaw Rate at 2.929 s (1.0 s after COS)
+
+Event encountered at t = 15.429: T_EVENT >= 3.679 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_dab7d06b-69d0-498a-8be4-135ed5df7cee.par"
+Used Dataset: Events; { Sine with Dwell } K. Check Yaw Rate at 3.679 s (1.75 s COS)
+
+Event encountered at t = 15.43: OPT_SWD_RESTORE ~= 0 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_4041b90b-f7b0-4816-934b-2aa90d270564.par"
+Used Dataset: Events; { Sine with Dwell } D2. Restore State for 80 km/h
+
+Saved state was restored at t = 15.43; the clock was reset to t = 11.749.
+
+Event encountered at t = 11.75: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_66d82aca-f992-425f-bb09-d018030df90c.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_ff9a8fb4-4a22-4d48-b040-df47ab9efb73.par"
+Used Dataset: Control: Steering (Open Loop); Sine with Dwell Waveform
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Generic\VS_commands\GenVS_afc5a996-25a3-4795-ab5a-eb6c47fe2f91.par"
+Used Dataset: Generic VS Commands; { Sine with Dwell } Increment Sine with Dwell Amplitude
+Used Dataset: Events; { Sine with Dwell } E. Start Sine with Dwell
+
+Event encountered at t = 12.464: T_EVENT >= 0.714 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_7f4b45e9-e64c-45a3-9fa6-746c489098c3.par"
+Used Dataset: Events; { Sine with Dwell } F. Reset Peak Yaw Rate at 0.714 s
+
+Event encountered at t = 12.82: T_EVENT >= 1.07 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_27f9fdb2-99ab-42ab-af45-f95bf00ad9bd.par"
+Used Dataset: Events; { Sine with Dwell } G. Check SWA Amplitude at 1.07 s
+
+Event encountered at t = 12.821: SWA_MULT >= 5 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_16cc7cb7-86a4-4c31-af4b-1c7a2f1ea4eb.par"
+Used Dataset: Events; { Sine with Dwell } H. Check Lateral Displacement
+
+Event encountered at t = 12.822: T > 0 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_1e59de02-0ba4-4532-b024-30c0f37484cc.par"
+Used Dataset: Events; { Sine with Dwell } I. Clear Events and Continue to 2.929 s
+
+Event encountered at t = 14.679: T_EVENT >= 2.929 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_3b72ae41-9f55-4b4e-8705-080d7b845d76.par"
+Used Dataset: Events; { Sine with Dwell } J. Check Yaw Rate at 2.929 s (1.0 s after COS)
+
+Event encountered at t = 15.429: T_EVENT >= 3.679 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_dab7d06b-69d0-498a-8be4-135ed5df7cee.par"
+Used Dataset: Events; { Sine with Dwell } K. Check Yaw Rate at 3.679 s (1.75 s COS)
+
+Event encountered at t = 15.43: STEER_SW_GAIN <= -270 
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_39c363a3-8a7a-4eb5-9456-c867afe46689.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_7f9cda4f-c5c0-4182-81bc-a0f95ff0366d.par"
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Control\Steer\StrSW_d02d6236-3489-4162-b8b9-953cdc586f4c.par"
+Used Dataset: Control: Steering (Open Loop); Constant: Zero Degrees
+Used Dataset: Events; { Sine with Dwell } O. Wait 0.5 s and Stop
+Used Dataset: Events; { Sine with Dwell } N. This Vehicle PASSED the Test
+
+Event encountered at t = 15.93: T_EVENT > 0.5 s
+Include PARSFILE "D:\Product_Dev\trunk\Image\CarSim\Core\CarSim_Data\Events\Events_b5af09b5-d8ad-4e81-ae24-eebce691780e.par"
+
+Run stopped at t = 15.93. VS Command STOP_RUN_NOW End event triggered
+Used Dataset: Events; End Events
+
+Computational efficiency: RTIME = 0.705336 sec/sim. sec
+

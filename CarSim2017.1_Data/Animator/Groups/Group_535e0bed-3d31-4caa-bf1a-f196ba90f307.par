@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName Animator: Group`Sky for Water`Skies
+PARSFILE Animator\Frames\Frame_8761c9b6-c784-4d2d-b8bc-72683578e773.par
+#BlueLink0 Animator: Reference Frame`Skybox (Vehicle Reference)` ` , Miscellaneous`Frame_8761c9b6-c784-4d2d-b8bc-72683578e773
+
+PARSFILE Animator\STL\Shape_6d5f4980-0cdc-4aa2-841c-f127e1b02f97.par
+#BlueLink1 Animator: Shape File Link`Partly Cloudy Sky` Skies` , Miscellaneous`Shape_6d5f4980-0cdc-4aa2-841c-f127e1b02f97
+
+PARSFILE Animator\STL\Shape_d3f8376a-8f91-476d-87ea-e4dd38f64216.par
+#BlueLink2 Animator: Shape File Link`Complex Land Bowl for Water` Terrain` , Miscellaneous`Shape_d3f8376a-8f91-476d-87ea-e4dd38f64216
+
+
+#CheckBox0 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink20 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+LOG_ENTRY Used Dataset: Animator: Group; { Skies } Sky for Water
+#Library : Animator: Group
+#DataSet : Sky for Water
+#Category: Skies
+#FileID  : Group_535e0bed-3d31-4caa-bf1a-f196ba90f307
+#Product : CarSim 2017.1
+#VehCode Animator Group
+
+END

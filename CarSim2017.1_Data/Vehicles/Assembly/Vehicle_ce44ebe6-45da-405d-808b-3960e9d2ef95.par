@@ -1,0 +1,104 @@
+PARSFILE
+#FullDataName Vehicle: Assembly`Large European Van`European Van
+#VehCode Ind_SA
+#CheckBox0 0    
+#CheckBox1 0    
+
+#RingCtrl0 2
+OPT_PT 2
+#RingCtrl1 1
+#RingCtrl2 3
+#RingCtrl3 0
+
+* Front components
+iaxle 1
+symbol_push  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_f5055c0b-7aa9-411e-9c5d-4598f4c8e5bb.par
+#BlueLink19 Suspension: Independent System Kinematics`Large European Van - Front` European Van` , Kinematics`KinInd_f5055c0b-7aa9-411e-9c5d-4598f4c8e5bb
+
+PARSFILE Suspensions\Compliance\CmpInd_375fc0cb-6d9e-4780-8fff-dadf597e9520.par
+#BlueLink16 Suspension: Independent Compliance, Springs, and Dampers`Pickup, Full Size - Front` Pickup` , Compliance`CmpInd_375fc0cb-6d9e-4780-8fff-dadf597e9520
+
+
+OPT_ALL_FOUR_TIRES_ALIKE 1
+
+* LF tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_4d5e073a-0dc0-4aca-939c-c52b6f0aec2b.par
+#BlueLink999 Tire`265/75 R16` Touring Tires` , Tire`Tire_4d5e073a-0dc0-4aca-939c-c52b6f0aec2b
+
+
+* RF tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_4d5e073a-0dc0-4aca-939c-c52b6f0aec2b.par
+#BlueLink10 Tire`265/75 R16` Touring Tires` , Tire`Tire_4d5e073a-0dc0-4aca-939c-c52b6f0aec2b
+
+* Rear components
+iaxle 2
+symbol_add  <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_AXLE
+PARSFILE Suspensions\Kin_Solid\KinSA_b0dd64e0-fb90-4867-a4f5-375740dc43d4.par
+#BlueLink23 Suspension: Solid Axle System Kinematics`Large European Van - Rear` ` , Kinematics`KinSA_b0dd64e0-fb90-4867-a4f5-375740dc43d4
+
+PARSFILE Suspensions\Compliance_SA\CmpSA_648aa2cf-03c4-4d12-97b4-530d19c14efd.par
+#BlueLink22 Suspension: Solid Axle Compliance, Springs, and Dampers`Pickup, Full Size - Rear` Pickup` , Compliance`CmpSA_648aa2cf-03c4-4d12-97b4-530d19c14efd
+
+
+* LR tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_4d5e073a-0dc0-4aca-939c-c52b6f0aec2b.par
+#BlueLink999 Tire`265/75 R16` Touring Tires` , Tire`Tire_4d5e073a-0dc0-4aca-939c-c52b6f0aec2b
+
+
+* RR tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_4d5e073a-0dc0-4aca-939c-c52b6f0aec2b.par
+#BlueLink999 Tire`265/75 R16` Touring Tires` , Tire`Tire_4d5e073a-0dc0-4aca-939c-c52b6f0aec2b
+
+symbol_set <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Vehicles\Sprung_Mass\SprMass_1a648c0a-6290-4882-8661-dce79b56e179.par
+#BlueLink0 Vehicle: Sprung Mass`Large European Van` European Van` , Sprung Mass`SprMass_1a648c0a-6290-4882-8661-dce79b56e179
+
+PARSFILE Aerodynamics\Aero_Main\Aero_918effe5-e507-4aea-9e4c-0bf514885398.par
+#BlueLink1 Aerodynamics: Basic`D-Class, Minivan` ` , Aerodynamics`Aero_918effe5-e507-4aea-9e4c-0bf514885398
+
+PARSFILE Animator\Vehicles\AniVeh_a8aec856-9536-4ef7-a407-8f78b29909e9.par
+#BlueLink2 Animator: Vehicles and Sensor Targets`Large European Van` Working Vehicles` , Vehicle 3D Shape`AniVeh_a8aec856-9536-4ef7-a407-8f78b29909e9
+
+R_REAR_DRIVE_SC 0
+PMAX_SC 185
+PARSFILE Powertrain\Rwd\RWD_e4b51f72-175f-4ab5-b1dd-fabcd89dbf84.par
+#BlueLink4 Powertrain: Rear-Wheel Drive`270 kW Diesel, 6-spd., 4.1 Ratio` ` , Powertrain`RWD_e4b51f72-175f-4ab5-b1dd-fabcd89dbf84
+
+PARSFILE Brakes\4W_System\Brk4W_1cac803a-e36c-431b-b18e-ee34e2087187.par
+#BlueLink6 Brakes: Four-Wheel System`Pickup, Full Size w/ ABS` Pickup Trucks and SUVs` , Brake System`Brk4W_1cac803a-e36c-431b-b18e-ee34e2087187
+
+PARSFILE Steering\System2\StrSys2_c860e0c1-118a-40e7-b9f7-f714f0e5b5af.par
+#BlueLink7 Steering`Pickup, Full Size: Power, Recirc. Ball` Pickup Trucks and SUVs` , Steering System`StrSys2_c860e0c1-118a-40e7-b9f7-f714f0e5b5af
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_a8aec856-9536-4ef7-a407-8f78b29909e9.png
+
+#EMBEDDED_NOTES
+#Generic Large European Van with an SLA front and a Hotchkiss Solid Axle rear suspension.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Assembly; { European Van } Large European Van
+#Library : Vehicle: Assembly
+#DataSet : Large European Van
+#Category: European Van
+#FileID  : Vehicle_ce44ebe6-45da-405d-808b-3960e9d2ef95
+#Product : CarSim 2017.1
+#VehCode Ind_SA
+
+END

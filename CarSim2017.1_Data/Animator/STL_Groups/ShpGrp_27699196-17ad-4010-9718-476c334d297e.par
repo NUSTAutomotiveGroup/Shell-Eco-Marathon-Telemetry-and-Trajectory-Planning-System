@@ -1,0 +1,76 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`B-Class, Convertible`CS B-Class
+*COLOR .36 .117 .117
+*SCALE_X 1
+*SCALE_Y 0.95
+*SCALE_Z 1
+*OFFSET_X 0
+*OFFSET_Y 0
+*OFFSET_Z 0.270
+*X_REF_LENGTH 2390
+*Y_REF_LENGTH 1700
+*Z_REF_LENGTH 1175
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 1    
+#CheckBox4 1    
+#CheckBox5 1    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_27699196-17ad-4010-9718-476c334d297e.png
+PARSFILE Animator\STL\Shape_71d4339f-b88d-4071-9f51-de824a48d309.par
+#BlueLink0 Animator: Shape File Link`Conv.: Body` CS Sports Car` , Shape File`Shape_71d4339f-b88d-4071-9f51-de824a48d309
+
+set_scale_x 1
+set_scale_y 0.95
+set_scale_z 1
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.270
+PARSFILE Animator\STL\Shape_3db782ca-fe16-4e01-a76f-516d74f6d484.par
+#BlueLink1 Animator: Shape File Link`Conv.: Details` CS Sports Car` , Shape File`Shape_3db782ca-fe16-4e01-a76f-516d74f6d484
+
+set_scale_x 1
+set_scale_y 0.95
+set_scale_z 1
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.270
+PARSFILE Animator\STL\Shape_6548304c-1e27-4846-a45e-476ec0dec554.par
+#BlueLink2 Animator: Shape File Link`Conv.: Windows` CS Sports Car` , Shape File`Shape_6548304c-1e27-4846-a45e-476ec0dec554
+
+set_scale_x 1
+set_scale_y 0.95
+set_scale_z 1
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.270
+PARSFILE Animator\STL\Shape_2b7e9aaf-ddf1-4ac7-8c15-543f67e68b23.par
+#BlueLink13 Animator: Shape File Link`Conv.: Driver` CS Sports Car` , Shape File`Shape_2b7e9aaf-ddf1-4ac7-8c15-543f67e68b23
+
+set_scale_x 1
+set_scale_y 0.95
+set_scale_z 1
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.270
+x_ref_length 2390
+y_ref_length 1700
+z_ref_length 1175
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { CS B-Class } B-Class, Convertible
+#Library : Animator: Shape Assembly
+#DataSet : B-Class, Convertible
+#Category: CS B-Class
+#FileID  : ShpGrp_27699196-17ad-4010-9718-476c334d297e
+#Product : CarSim 2017.1
+#VehCode Shape Assembly
+
+END

@@ -1,0 +1,35 @@
+PARSFILE
+#FullDataName Batch Runs`Road Networks: 3D Geometry and Terrain`Built-In Solvers
+#CheckBox1 0    
+
+#MiscYellow1
+#<Road Networks: 3D Geometry and Terrain> 2D-Spline: Off-Road Driving
+#<Road Networks: 3D Geometry and Terrain> Clothoid Connectors (Automatic)
+#<Road Networks: 3D Geometry and Terrain> Clothoid Connectors (Table-Defined)
+#<Road Networks: 3D Geometry and Terrain> GPS Long Road Import
+#<Road Networks: 3D Geometry and Terrain> GPS Short Road Import
+#<Road Networks: 3D Geometry and Terrain> Railroad Track Crossing
+#<Road Networks: 3D Geometry and Terrain> Road w/ Surface Roughness
+#<Road Networks: 3D Geometry and Terrain> Road X-Y-Z Edges
+#<Road Networks: 3D Geometry and Terrain> Rough Road 01 - 242 in/mi (3.82 m/km)
+#<Road Networks: 3D Geometry and Terrain> Rough Road 02 - 92 in/mi (1.45 m/km)
+#<Road Networks: 3D Geometry and Terrain> Rough Road 03 - 66 in/mi (1.04 m/km)
+#<Road Networks: 3D Geometry and Terrain> Rough Road 04 - 55 in/mi (0.87 m/km)
+#<Road Networks: 3D Geometry and Terrain> Rough Road 05 - 77 in/mi (1.215 m/km)
+#<Road Networks: 3D Geometry and Terrain> Rough Road 06 - 142 in/mi (2.24 m/km)
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains the datasets which are in the Road Networks: 3D Geometry and Terrain category
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; { Built-In Solvers } Road Networks: 3D Geometry and Terrain
+#Library : Batch Runs
+#DataSet : Road Networks: 3D Geometry and Terrain
+#Category: Built-In Solvers
+#FileID  : BatRun_31e2c65f-2ba2-4b72-9f82-f83cfdac843c
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

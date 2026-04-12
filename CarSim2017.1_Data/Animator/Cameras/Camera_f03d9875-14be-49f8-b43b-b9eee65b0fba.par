@@ -1,0 +1,39 @@
+PARSFILE
+#FullDataName Animator: Camera Setup`Top View (Veh. Ref.)`Vehicle Reference
+#RingCtrl1 0
+
+#CheckBox1 1    
+#CheckBox2 0    
+#CheckBox3 0    
+
+SET_CAMERA_Reference_Frame Car Tracking Car X-Y-Z
+PARSFILE Animator\Frames\Frame_d2b5165c-cec2-4d4b-a319-0d7cf12b8f0d.par
+#BlueLink0 Animator: Reference Frame`Car X-Y-Z` Car Tracking` , Reference frame for outside camera`Frame_d2b5165c-cec2-4d4b-a319-0d7cf12b8f0d
+
+SET_LOOKPOINT_Reference_Frame Car Tracking Car X-Y-Z
+SET_LOOKPOINT_X 0
+SET_LOOKPOINT_Y 0.3
+SET_LOOKPOINT_Z 0
+SET_AZIMUTH 270
+SET_ELEVATION 90
+SET_DISTANCE 13.5
+SET_CAMERAMAN_NAME External camera
+*SET_LOOKPOINT_X 0
+*SET_LOOKPOINT_Y 0.3
+*SET_LOOKPOINT_Z 0
+*SET_AZIMUTH 270
+*SET_ELEVATION 90
+*SET_DISTANCE 13.5
+FOG_SCALE 0
+SET_FIELD_OF_VIEW 61
+SUN_POSITION 500 500 1000
+
+LOG_ENTRY Used Dataset: Animator: Camera Setup; { Vehicle Reference } Top View (Veh. Ref.)
+#Library : Animator: Camera Setup
+#DataSet : Top View (Veh. Ref.)
+#Category: Vehicle Reference
+#FileID  : Camera_f03d9875-14be-49f8-b43b-b9eee65b0fba
+#Product : CarSim 2017.1
+#VehCode Camera
+
+END

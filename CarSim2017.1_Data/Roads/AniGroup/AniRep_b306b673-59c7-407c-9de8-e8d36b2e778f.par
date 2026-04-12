@@ -1,0 +1,29 @@
+PARSFILE
+#FullDataName Road: Animator Repeated Object`House w/ Driveway`
+#RingCtrl0 1
+#RingCtrl1 0
+#DiagramOne0
+*POINTS_TABLE 
+0, 20
+25, 20
+150, 20
+250, 20
+375, 20
+525, 20
+ENDTABLE
+#RadioCtrl0 0    
+
+
+SPECIAL_PARSFILE Animator\STL_Groups\ShpGrp_805162eb-0259-44cb-9b93-1d40f6c67a5b.par
+#BlueLink0 Animator: Shape Assembly`House` Scenery` , 3D Object`ShpGrp_805162eb-0259-44cb-9b93-1d40f6c67a5b
+
+
+LOG_ENTRY Used Dataset: Road: Animator Repeated Object; House w/ Driveway
+#Library : Road: Animator Repeated Object
+#DataSet : House w/ Driveway
+#Category: 
+#FileID  : AniRep_b306b673-59c7-407c-9de8-e8d36b2e778f
+#Product : CarSim 2017.1
+#VehCode Repeated Object
+
+END

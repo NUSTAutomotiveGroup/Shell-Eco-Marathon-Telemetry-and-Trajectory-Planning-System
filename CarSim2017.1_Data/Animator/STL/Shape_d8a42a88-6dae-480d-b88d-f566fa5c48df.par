@@ -1,0 +1,34 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`SUV: Windows`CS SUV
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\vehicles\suv\windows.obj
+#ENDMYellow
+
+SET_COLOR 0.188 0.188 0.188
+*SPECULAR 0.9
+*TRANSPARENCY 0.85
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+set_transparency 0.85
+SET_SPECULAR 0.9 0.9 0.9
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_d8a42a88-6dae-480d-b88d-f566fa5c48df.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS SUV } SUV: Windows
+#Library : Animator: Shape File Link
+#DataSet : SUV: Windows
+#Category: CS SUV
+#FileID  : Shape_d8a42a88-6dae-480d-b88d-f566fa5c48df
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

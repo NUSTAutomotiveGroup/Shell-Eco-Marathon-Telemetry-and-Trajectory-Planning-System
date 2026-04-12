@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Road: Off-Center Elevation Map, S-L Grid`3.5 cm Bump (7 m Wide, 40 cm Long, Sharp)`Bumps
+#CheckBox0 0    
+
+#RingCtrl0 2D_STEP
+#RingCtrl3 1
+DEFINE_DZ_TABLES 1 ! add 1 more DZ table
+IROAD_DZ = NROAD_DZ ! make this the active table
+ROAD_DZ_ID = IROAD_DZ
+ROAD_N_DZ = ROAD_N_DZ + 1 ! increment count for the road
+IDZ_ROAD = ROAD_N_DZ ! set index for the new ID
+RD_DZ_ID = ROAD_DZ_ID ! Specify the user ID
+set_description RD_DZ_ID ROAD_DZ_ID for: 3.5 cm Bump (7 m Wide, 40 cm Long, Sharp)
+
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*3D_XLabel Lateral coordinate (m)
+*3D_YLabel Station (m)
+*3D_ZLabel Incremental elevation (m)
+
+#DiagramTwo0
+*3D_DATA 6, 4 ! columns x rows
+ROAD_DZ_CARPET 2D_STEP
+0, -10, -4, -3.5, 3.5, 4, 10
+105, 0, 0, 0, 0, 0, 0
+105.01, 0, 0, 0.035, 0.035, 0, 0
+105.39, 0, 0, 0.035, 0.035, 0, 0
+105.4, 0, 0, 0, 0, 0, 0
+ENDTABLE
+
+
+LOG_ENTRY Used Dataset: Road: Off-Center Elevation Map, S-L Grid; { Bumps } 3.5 cm Bump (7 m Wide, 40 cm Long, Sharp)
+#Library : Road: Off-Center Elevation Map, S-L Grid
+#DataSet : 3.5 cm Bump (7 m Wide, 40 cm Long, Sharp)
+#Category: Bumps
+#FileID  : RdMapZ_e39b90bf-0123-41f1-9f82-bf93ee862c21
+#Product : CarSim 2017.1
+#VehCode dZ via S-L Grid
+
+END

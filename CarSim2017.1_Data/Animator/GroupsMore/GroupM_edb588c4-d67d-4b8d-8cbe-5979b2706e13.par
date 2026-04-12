@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Animator: Group (More)`Aero Force Arrows`
+PARSFILE Animator\Frames\Frame_dfdac0c2-23d5-4262-b780-4a0fdce79f82.par
+#BlueLink0 Animator: Reference Frame`Aero Fx` Aero Forces` , Miscellaneous`Frame_dfdac0c2-23d5-4262-b780-4a0fdce79f82
+
+PARSFILE Animator\STL_Groups\ShpGrp_c46513ba-398b-4542-a362-91b6e5cca8c0.par
+#BlueLink1 Animator: Shape Assembly`Fx Double (Tail Origin)` Arrows` , Miscellaneous`ShpGrp_c46513ba-398b-4542-a362-91b6e5cca8c0
+
+PARSFILE Animator\Frames\Frame_fb1b5cc3-63a1-4f6f-b776-2a7565c724b8.par
+#BlueLink2 Animator: Reference Frame`Aero Fy` Aero Forces` , Miscellaneous`Frame_fb1b5cc3-63a1-4f6f-b776-2a7565c724b8
+
+PARSFILE Animator\STL_Groups\ShpGrp_a9cad450-c091-48c5-af31-08e943362f7e.par
+#BlueLink3 Animator: Shape Assembly`Fy Double (Tail Origin)` Arrows` , Miscellaneous`ShpGrp_a9cad450-c091-48c5-af31-08e943362f7e
+
+PARSFILE Animator\Frames\Frame_6e9f95b8-f3da-4aae-b1c0-0160bff6960b.par
+#BlueLink4 Animator: Reference Frame`Aero Fz` Aero Forces` , Miscellaneous`Frame_6e9f95b8-f3da-4aae-b1c0-0160bff6960b
+
+PARSFILE Animator\STL_Groups\ShpGrp_633107e3-ce5c-4346-b0d8-f6d93c814de8.par
+#BlueLink5 Animator: Shape Assembly`Fz Double (Tail Origin)` Arrows` , Miscellaneous`ShpGrp_633107e3-ce5c-4346-b0d8-f6d93c814de8
+
+
+#CheckBox0 0    
+
+
+LOG_ENTRY Used Dataset: Animator: Group (More); Aero Force Arrows
+#Library : Animator: Group (More)
+#DataSet : Aero Force Arrows
+#Category: 
+#FileID  : GroupM_edb588c4-d67d-4b8d-8cbe-5979b2706e13
+#Product : CarSim 2017.1
+#VehCode Group (More)
+
+END

@@ -1,0 +1,80 @@
+PARSFILE
+#FullDataName Generic Data Group`Lane Detection, 2 Edges, Based On Lat_Veh`ADAS Sensors and Controls
+#VehCode Generic Group
+#MiscYellow0
+! The sensor must be defined before the
+! points of interest, because the X_SENSOR
+! parameter is used to locate the points
+#ENDMYellow
+
+PARSFILE Sensors_Traffic\Radar\Radar_081f1bcc-1e3b-46a2-bb4b-01e45d3cb284.par
+#BlueLink0 ADAS Sensors for Range and Tracking`Lane-Detection, X = -1200, Z = 1450` Forward Facing Sensors` , Link 1`Radar_081f1bcc-1e3b-46a2-bb4b-01e45d3cb284
+
+
+#MiscYellow1
+define_parameter Lane_Width = 3.85; m; ...
+  Lane width, used to calculate edge locations
+PATH_ID_DM = 1
+Current_Road_ID = 1
+#ENDMYellow
+
+#BlueLink1 ` , Link 2` , Link 2` , Link 2`
+
+
+#BlueLink2 ` , Link 3` , Link 3` , Link 3`
+
+
+#MiscYellow3
+define_output L_Edge_R = 0 ; m ; ...
+    L coordinate of right lane edge
+eq_out L_Edge_R = floor(Lat_Veh/Lane_Width)*Lane_Width
+symbol_push <<edge>> L_Edge_R
+#ENDMYellow
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_aac06321-108e-468f-a1b7-7e1fe58bb049.par
+#BlueLink3 Multiple Moving Objects`5 Lane Edge Markers Based On [[Edge]]` Points of Interest` , Link 4`TMotion_aac06321-108e-468f-a1b7-7e1fe58bb049
+
+
+#MiscYellow4
+define_output L_Edge_L = 0 ; m ; ...
+    L coordinate of left lane edge
+eq_out  L_Edge_L = L_Edge_R + Lane_Width
+symbol_set <<edge>> L_Edge_L
+#ENDMYellow
+
+PARSFILE Sensors_Traffic\Traffic\TMotion_aac06321-108e-468f-a1b7-7e1fe58bb049.par
+#BlueLink4 Multiple Moving Objects`5 Lane Edge Markers Based On [[Edge]]` Points of Interest` , Link 5`TMotion_aac06321-108e-468f-a1b7-7e1fe58bb049
+
+
+#BlueLink5 ` , Link 6` , Link 6` , Link 6`
+
+
+PARSFILE Generic\VS_commands\GenVS_cac40fdd-a603-415e-9d8b-7a61f343ec79.par
+#BlueLink6 Generic VS Commands`Lane Departure Warning and HUD` ADAS Support` , Link 7`GenVS_cac40fdd-a603-415e-9d8b-7a61f343ec79
+
+
+#BlueLink7 ` , Link 8` , Link 8` , Link 8`
+
+
+
+
+#EMBEDDED_NOTES
+#Define a front-facing lane-detection sensor and 10 moving objects located on lane edges.
+#
+#The sensor is defined before the objects, because they use the coordinate X_SENSOR to define station S on the lane edge. The VS Commands for warnings and HUD  follows the sensor and objects, because it uses sensor detection variables.
+#
+#The target objects on the lane edges are located with the custom output variables L_Edge_L and L_Edge_R, defined here using the current vehcle location (Lat_Veh) and a user-defined parameter for lane width (Lane_Width).
+#
+#A Symbol Stack variable <<edge>> is defined to reuse the same dataset for two sets of edge markers.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Generic Data Group; { ADAS Sensors and Controls } Lane Detection, 2 Edges, Based On Lat_Veh
+#Library : Generic Data Group
+#DataSet : Lane Detection, 2 Edges, Based On Lat_Veh
+#Category: ADAS Sensors and Controls
+#FileID  : GenGrp_e6afd1a6-5c94-4257-b658-683dc3d24f3e
+#Product : CarSim 2017.1
+#VehCode Generic Group
+
+END

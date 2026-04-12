@@ -1,0 +1,63 @@
+PARSFILE
+#FullDataName Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip`D-Class, Sedan`
+#CheckBox0 0    
+
+#RingCtrl0 SPLINE
+#RadioCtrl0 0    
+
+#DiagramOne0
+MX_AERO_SHAPING_TABLE SPLINE
+-180, 0
+-170, -0.055142688
+-160, -0.108609893
+-150, -0.158777042
+-140, -0.204119831
+-130, -0.243260542
+-120, -0.275009904
+-110, -0.29840323
+-100, -0.312729724
+-90, -0.317554084
+-80, -0.312729724
+-70, -0.29840323
+-60, -0.275009904
+-50, -0.243260542
+-40, -0.204119831
+-30, -0.158777042
+-20, -0.108609893
+-10, -0.055142688
+0, 0
+10, 0.055142688
+20, 0.108609893
+30, 0.158777042
+40, 0.204119831
+50, 0.243260542
+60, 0.275009904
+70, 0.29840323
+80, 0.312729724
+90, 0.317554084
+100, 0.312729724
+110, 0.29840323
+120, 0.275009904
+130, 0.243260542
+140, 0.204119831
+150, 0.158777042
+160, 0.108609893
+170, 0.055142688
+180, 0
+ENDTABLE
+*SCALAR 0
+
+
+#EMBEDDED_NOTES
+#Example CMx data.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip; D-Class, Sedan
+#Library : Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip
+#DataSet : D-Class, Sedan
+#Category: 
+#FileID  : AirCMx_c1f5fa37-2e65-4776-9f9f-34cf4a7a0309
+#Product : CarSim 2017.1
+#VehCode Mx vs. Aero Slip
+
+END

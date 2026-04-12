@@ -1,0 +1,96 @@
+PARSFILE
+#FullDataName CarSim Run Control`Bode Analysis (Steer Angle to Yaw Rate and Ay)`Linearization
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_88aaef70-c4f0-462a-81f6-c68c732df51a
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_358f7aeb-0e81-446e-a19f-f2c18b21801b.par
+#BlueLink0 Animator: Camera Setup`13 deg. Azimuth, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_358f7aeb-0e81-446e-a19f-f2c18b21801b
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 8
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0 0.4 0
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_70e7b013-1a9e-47ef-8cae-494923a692f1.par
+#BlueLink2 Vehicle: Assembly`A-Class, Hatchback 2017` A-Class` , Vehicle Configuration`Vehicle_70e7b013-1a9e-47ef-8cae-494923a692f1
+
+PARSFILE Procedures\Proc_e0188652-f79e-4817-aa92-e7dc4c508740.par
+#BlueLink28 Procedures`60 km/h Const. Speed, No Steer` Driver Controls` , Procedure`Proc_e0188652-f79e-4817-aa92-e7dc4c508740
+
+PARSFILE Generic\VS_commands\GenVS_44f17f63-d827-475c-9c3a-8644fb05fc42.par
+#BlueLink9 Generic VS Commands`39 States to Linearize (Root Locus) v2016` Linearization` , Miscellaneous`GenVS_44f17f63-d827-475c-9c3a-8644fb05fc42
+
+PARSFILE Events\Events_686ac774-14b9-4e07-8ec1-fce3af00ef6d.par
+#BlueLink10 Events`A. Bode Analysis for Steer Input` Linearization` , Miscellaneous`Events_686ac774-14b9-4e07-8ec1-fce3af00ef6d
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_b14ad677-d682-43e8-af70-e8b7d82428ed.png
+WRITE_SENSOR_DETECT
+Title Bode Analysis (Steer Angle to Yaw Rate and Ay) <Linearization>
+CATEGORY Linearization 
+DATASET_TITLE Bode Analysis (Steer Angle to Yaw Rate and Ay)
+#MiscYellow0
+linear_control IMP_STEER_SW
+linear_output EXP_AVz
+linear_output EXP_AY
+#ENDMYellow
+
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example creates linear matrices of the vehicle model during the simulation run (in steady state) with a constant speed of 60 km/h on a flat surface. 39 state variables, steer input, yaw rate, and lateral acceleration outputs are specified to linearize the system. The generated matrices can be loaded with MATLAB and analyzed with a frequency-domain bode plot.
+#
+#Please note that the MATLAB Control System Toolbox is required for the bode plot.
+#
+#A similar example (that uses a motorcycle in BikeSim) is explained in a Technical Memo (Help-> Technical Memos -> Linear Analysis in VehicleSim Models).
+#
+#To perform a linear analysis, follow these steps:
+#
+#1) Run this simulation.
+#
+#2) Go to the folder, "CarSimXX_Data\Extensions\ Linearization\" and confirm "Linear_steer_input.m" has been created.
+#
+#3) Start Matlab and change the current directory to the folder "Extensions\ Linearization\."
+#
+#4) Type "bdp_steer" and hit enter key for bode plot.
+#
+#The bode plot result should be comparable with spectrum analysis (see technical memos -> Spectrum Analysis with VehicleSim Models).
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Linearization } Bode Analysis (Steer Angle to Yaw Rate and Ay)
+#Library : CarSim Run Control
+#DataSet : Bode Analysis (Steer Angle to Yaw Rate and Ay)
+#Category: Linearization
+#FileID  : Run_88aaef70-c4f0-462a-81f6-c68c732df51a
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

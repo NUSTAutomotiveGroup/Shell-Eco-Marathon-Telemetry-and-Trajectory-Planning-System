@@ -1,0 +1,36 @@
+PARSFILE
+#FullDataName Suspension: Toe Angle`Semi-Trailing Arm - Rear`
+#CheckBox0 0    
+
+#RingCtrl0 SPLINE
+#RadioCtrl0 0    
+
+#DiagramOne0
+TOE_TABLE SPLINE
+-70, -0.518494
+-60, -0.462509
+-50, -0.400577
+-40, -0.332667
+-30, -0.25873
+-20, -0.178702
+-10, -0.092495
+0, 0
+10, 0.098919
+20, 0.204432
+30, 0.316745
+40, 0.436112
+50, 0.562845
+60, 0.697325
+70, 0.840023
+ENDTABLE
+
+
+LOG_ENTRY Used Dataset: Suspension: Toe Angle; Semi-Trailing Arm - Rear
+#Library : Suspension: Toe Angle
+#DataSet : Semi-Trailing Arm - Rear
+#Category: 
+#FileID  : Toe_e94be5d3-51fa-4fd6-8673-37a07c20022d
+#Product : CarSim 2017.1
+#VehCode Toe
+
+END

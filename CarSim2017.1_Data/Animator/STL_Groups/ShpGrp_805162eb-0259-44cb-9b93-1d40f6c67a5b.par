@@ -1,0 +1,53 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`House`Scenery
+*ANGLE_Z -90
+*ANGLE_Y 0
+*ANGLE_X 0
+*OFFSET_X -1.8
+*OFFSET_Y -4
+*OFFSET_Z -0.01
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+#CheckBox2 1    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+
+#RingCtrl1 0
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_805162eb-0259-44cb-9b93-1d40f6c67a5b.png
+PARSFILE Animator\STL\Shape_fdb2c0d3-24fe-402a-946e-d5ff6d1e9128.par
+#BlueLink0 Animator: Shape File Link`Roof` House` , Shape File`Shape_fdb2c0d3-24fe-402a-946e-d5ff6d1e9128
+
+set_lighting on
+set_angle_x 0
+set_angle_y 0
+set_angle_z -90
+set_offset_x -1.8
+set_offset_y -4
+set_offset_z -0.01
+PARSFILE Animator\STL\Shape_d47d6ed4-1c69-485d-8dad-12c31ceef7e1.par
+#BlueLink1 Animator: Shape File Link`House` House` , Shape File`Shape_d47d6ed4-1c69-485d-8dad-12c31ceef7e1
+
+set_lighting on
+set_angle_x 0
+set_angle_y 0
+set_angle_z -90
+set_offset_x -1.8
+set_offset_y -4
+set_offset_z -0.01
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Scenery } House
+#Library : Animator: Shape Assembly
+#DataSet : House
+#Category: Scenery
+#FileID  : ShpGrp_805162eb-0259-44cb-9b93-1d40f6c67a5b
+#Product : CarSim 2017.1
+#VehCode Shape Assembly
+
+END

@@ -1,0 +1,21 @@
+PARSFILE
+#FullDataName Animator: Group`Aero Force and Moment Arrows`
+PARSFILE Animator\GroupsMore\GroupM_edb588c4-d67d-4b8d-8cbe-5979b2706e13.par
+#BlueLink0 Animator: Group (More)`Aero Force Arrows` ` , Miscellaneous`GroupM_edb588c4-d67d-4b8d-8cbe-5979b2706e13
+
+PARSFILE Animator\GroupsMore\GroupM_a75d273d-6bab-4aa6-864e-4f981db9ac38.par
+#BlueLink1 Animator: Group (More)`Aero Moment Arrows` ` , Miscellaneous`GroupM_a75d273d-6bab-4aa6-864e-4f981db9ac38
+
+
+#CheckBox0 0    
+
+
+LOG_ENTRY Used Dataset: Animator: Group; Aero Force and Moment Arrows
+#Library : Animator: Group
+#DataSet : Aero Force and Moment Arrows
+#Category: 
+#FileID  : Group_5df11fca-68d2-4d1e-bd7f-71f60b3b28c3
+#Product : CarSim 2017.1
+#VehCode Animator Group
+
+END

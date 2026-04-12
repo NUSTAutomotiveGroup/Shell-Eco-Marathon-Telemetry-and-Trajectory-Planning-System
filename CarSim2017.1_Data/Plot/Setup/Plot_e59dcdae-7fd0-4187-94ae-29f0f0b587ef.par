@@ -1,0 +1,41 @@
+PARSFILE
+#FullDataName Plot: Setup`Sensor Longitudinal Acceleration`Position, Accel. and Rate Sensors
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS AxG_S1, Time
+PLOTCHANNELS AxG_S2, Time
+PLOTCHANNELS AxG_S3, Time
+PLOTCHANNELS AxG_S4, Time
+PLOTCHANNELS AxG_S5, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Sensor Longitudinal Acceleration
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Position, Accel. and Rate Sensors } Sensor Longitudinal Acceleration
+#Library : Plot: Setup
+#DataSet : Sensor Longitudinal Acceleration
+#Category: Position, Accel. and Rate Sensors
+#FileID  : Plot_e59dcdae-7fd0-4187-94ae-29f0f0b587ef
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

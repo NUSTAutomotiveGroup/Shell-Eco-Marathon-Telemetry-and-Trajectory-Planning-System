@@ -1,0 +1,73 @@
+PARSFILE
+#FullDataName CarSim Run Control`Outrigger for Roll Stability Testing`Extended Models
+#VEHICLECODE Ind_SA
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_756d0204-ba6a-45dc-8a4d-3cabfb558523
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_9420feda-471d-4218-a289-2df6fb091649.par
+#BlueLink0 Animator: Camera Setup`325 deg. Azimuth, 33.5 deg. FOV, Veh. Ref.` Vehicle Reference` , Animator camera`Camera_9420feda-471d-4218-a289-2df6fb091649
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0.878 0.878 0.878
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_6fccc07d-0ba1-4166-a519-d53e722f3216.par
+#BlueLink2 Vehicle with Loads, Sensors, Trailer, etc.`E-Class, SUV 2017: Outriggers and Roof Load` Rollover` , Vehicle Configuration`VehLoad_6fccc07d-0ba1-4166-a519-d53e722f3216
+
+PARSFILE Procedures\Proc_a0851ee1-9bdf-4e52-9626-6e255ef6ca84.par
+#BlueLink28 Procedures`Rollover Steer Input` Stability Testing` , Procedure`Proc_a0851ee1-9bdf-4e52-9626-6e255ef6ca84
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_6a406309-46ad-4966-bff0-ace339f3d75d.png
+WRITE_SENSOR_DETECT
+Title Outrigger for Roll Stability Testing <Extended Models>
+CATEGORY Extended Models 
+DATASET_TITLE Outrigger for Roll Stability Testing
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example uses payloads, custom forces, and VS Commands to simulate the addition of outriggers such as those commonly attached to a vehicle during rollover stability testing.
+#
+#VS Commands are used to define reaction forces applied to the ends of the outriggers when they come into contact with the road surface.
+#
+#This example shows an E-Class SUV with three added payloads: one each representing the front and rear outriggers, and the third representing a roof load.
+#
+#The payload datasets for the outriggers only determine their position with respect to the vehicle's sprung mass coordinate system origin, as well as their mass and inertia properties. See the Reference Points dataset, linked on the Vehicle: Loads, Sensors, etc. screen, for more information on how you can simulate the resulting impact between the ends of the outriggers and the road surface.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Extended Models } Outrigger for Roll Stability Testing
+#Library : CarSim Run Control
+#DataSet : Outrigger for Roll Stability Testing
+#Category: Extended Models
+#FileID  : Run_756d0204-ba6a-45dc-8a4d-3cabfb558523
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

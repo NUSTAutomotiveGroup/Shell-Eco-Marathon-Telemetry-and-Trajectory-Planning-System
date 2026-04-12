@@ -1,0 +1,54 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`Fan`Scenery
+*SCALE_X 1.5
+*SCALE_Y 3
+*SCALE_Z 1.5
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 1    
+#CheckBox4 0    
+#CheckBox5 0    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_88e9ac91-269d-44d7-af0a-a1ae6c64f755.png
+PARSFILE Animator\STL\Shape_0cd5bd8d-de3f-4a53-83f5-05670c787585.par
+#BlueLink0 Animator: Shape File Link`Fan: Case` Misc. Parts` , Shape File`Shape_0cd5bd8d-de3f-4a53-83f5-05670c787585
+
+set_scale_x 1.5
+set_scale_y 3
+set_scale_z 1.5
+PARSFILE Animator\STL\Shape_3a06b902-0bae-4320-9f43-1ffba36a447a.par
+#BlueLink1 Animator: Shape File Link`Fan: Blades` Misc. Parts` , Shape File`Shape_3a06b902-0bae-4320-9f43-1ffba36a447a
+
+set_scale_x 1.5
+set_scale_y 3
+set_scale_z 1.5
+PARSFILE Animator\STL\Shape_6b68aa98-b4ce-4b87-8119-6dcabc1ca043.par
+#BlueLink2 Animator: Shape File Link`Fan: Grill (Front)` Misc. Parts` , Shape File`Shape_6b68aa98-b4ce-4b87-8119-6dcabc1ca043
+
+set_scale_x 1.5
+set_scale_y 3
+set_scale_z 1.5
+PARSFILE Animator\STL\Shape_d15ecaa9-f64a-4db4-bffa-ea58374aea1f.par
+#BlueLink3 Animator: Shape File Link`Fan: Grill (Back)` Misc. Parts` , Shape File`Shape_d15ecaa9-f64a-4db4-bffa-ea58374aea1f
+
+set_scale_x 1.5
+set_scale_y 3
+set_scale_z 1.5
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Scenery } Fan
+#Library : Animator: Shape Assembly
+#DataSet : Fan
+#Category: Scenery
+#FileID  : ShpGrp_88e9ac91-269d-44d7-af0a-a1ae6c64f755
+#Product : CarSim 2017.1
+#VehCode Shape Assembly
+
+END

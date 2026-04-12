@@ -1,0 +1,30 @@
+PARSFILE
+#FullDataName Batch Runs`Driver Model`Built-In Solvers
+#CheckBox1 0    
+
+#MiscYellow1
+#<Driver Model> Accident Avoidance
+#<Driver Model> Baja Driving
+#<Driver Model> Distracted Driver
+#<Driver Model> DLC, Constant Target Speed
+#<Driver Model> DLC, Preview Speed Control
+#<Driver Model> Highway Merge
+#<Driver Model> Highway Merge Avoidance w/o ESC
+#<Driver Model> Lane Keeping, Normal Driving
+#<Driver Model> Speed Control from Driver Path
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains the datasets which are in the Driver Model category
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; { Built-In Solvers } Driver Model
+#Library : Batch Runs
+#DataSet : Driver Model
+#Category: Built-In Solvers
+#FileID  : BatRun_dffc1201-29db-4ab5-8981-554294cd017f
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

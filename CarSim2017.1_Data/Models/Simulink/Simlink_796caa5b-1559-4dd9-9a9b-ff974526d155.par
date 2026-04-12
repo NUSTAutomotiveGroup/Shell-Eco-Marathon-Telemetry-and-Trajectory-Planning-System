@@ -1,0 +1,35 @@
+PARSFILE
+#FullDataName Models: Simulink`External Springs`Suspension and Suspension Controls
+#RunMdlFile Extensions\Simulink\Springs\Ext_Springs_CS9.mdl
+#RingCtrl1 2
+OPT_INT_METHOD 2
+#CheckBox0 0    
+*USE_ALT_DIR 0
+#CheckBox1 0    
+*USE_DIFF_SOLVERS 0
+#CheckBox2 0    
+OPT_IO_UPDATE 0
+#CheckBox3 0    
+
+PARSFILE IO_Channels\I_Channels\Import_82d4371e-1b4d-468f-b43d-70ba9e137245.par
+#BlueLink0 I/O Channels: Import`External Springs` Steering and Susp. Imports` , Import`Import_82d4371e-1b4d-468f-b43d-70ba9e137245
+
+PARSFILE IO_Channels\O_Channels\Export_7309da5d-bd3f-4ddf-a7c7-b36c32bb9062.par
+#BlueLink1 I/O Channels: Export`External Springs` Steering and Susp. Exports` , Export`Export_7309da5d-bd3f-4ddf-a7c7-b36c32bb9062
+
+LIVE_SERVER_UPDATE_FREQ_MAX 60
+
+#EMBEDDED_NOTES
+#This example is meant to be used with Simulink-defined suspension springs. This example is set up to export the CarSim-calculated spring compressions, and the Simulink model will calculate the spring forces.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Models: Simulink; { Suspension and Suspension Controls } External Springs
+#Library : Models: Simulink
+#DataSet : External Springs
+#Category: Suspension and Suspension Controls
+#FileID  : Simlink_796caa5b-1559-4dd9-9a9b-ff974526d155
+#Product : CarSim 2017.1
+#VehCode 
+
+END

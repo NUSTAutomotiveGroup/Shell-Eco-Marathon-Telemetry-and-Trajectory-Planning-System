@@ -1,0 +1,44 @@
+PARSFILE
+#FullDataName Plot: Setup`Slip Angles: Lagged (dual tires - outer)`Tire Kinematics
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS AlphLL1o, Time
+PLOTCHANNELS AlphLR1o, Time
+PLOTCHANNELS AlphLL2o, Time
+PLOTCHANNELS AlphLR2o, Time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Slip Angles: Lagged (dual tires - outer)
+
+END_ENTITY Plot
+
+
+#EMBEDDED_NOTES
+#Slip values after applying relaxation length
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Plot: Setup; { Tire Kinematics } Slip Angles: Lagged (dual tires - outer)
+#Library : Plot: Setup
+#DataSet : Slip Angles: Lagged (dual tires - outer)
+#Category: Tire Kinematics
+#FileID  : Plot_3033a8cf-ed0c-49a3-b30f-bfa8c704485d
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

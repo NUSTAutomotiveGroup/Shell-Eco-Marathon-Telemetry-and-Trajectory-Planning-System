@@ -1,0 +1,66 @@
+PARSFILE
+#FullDataName Events`C. RF Tire Ref. Mu Reset, Driver Overreacts`Wind-tripped Rollover
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 1    
+#CheckBox6 1    
+#CheckBox7 0    
+
+#RingCtrl0 >
+#RingCtrl10 1
+#RingCtrl11 5
+*NAME1 yaw
+*VALUE1 25
+
+
+! Reset all open-loop control clocks by setting parameters to current time
+TSTART_T_EVENT = T ; ! 2014
+T_EVENT_START = T ; ! legacy
+TSTART_BRAKES = T ;
+TSTART_STEER_TQ = T ;
+TSTART_F_BRAKE_PEDAL = T ;
+TSTART_PBK_CON = T ;
+TSTART_CLUTCH = T ;
+TSTART_GEAR = T ;
+TSTART_SPEED_CTRL = T ;
+TSTART_STEER = T ;
+TSTART_THROTTLE = T ;
+TSTART_TRANS = T ;
+TSTART_WIND = T ;
+OPT_INIT_CONFIG 0
+OPT_INIT_PATH 0
+OPT_INIT_SPEED 0
+Opt_SC 0
+PARSFILE Control\Throttle\Throttle_768d3744-c109-4ff7-a65b-3b0bea560117.par
+#BlueLink18 Control: Throttle (Open Loop)`Constant: 0` Constant` , Throttle`Throttle_768d3744-c109-4ff7-a65b-3b0bea560117
+
+#MiscYellow0
+mu_ref_x(2,2) 1.5
+mu_ref_y(2,2) 1.5
+#ENDMYellow
+
+PARSFILE Control\Driver\StrDM_271a8b16-eb16-40c0-9466-d362ae61ef9e.par
+#BlueLink10 Control: Steering by the Closed-loop Driver Model`Driver Over-reacts` Driver Errors` , Miscellaneous`StrDM_271a8b16-eb16-40c0-9466-d362ae61ef9e
+
+DEFINE_EVENT yaw > 25 ; Events\Events_cf09b648-b936-40ae-ae63-994065ffb78c.par
+#BlueLink0 Events`D. Front Rim Digs-in` Wind-tripped Rollover` , Events`Events_cf09b648-b936-40ae-ae63-994065ffb78c
+
+
+#EMBEDDED_NOTES
+#The right front tire has dropped off of the road surface and into the shoulder. The friction characteristics of the tire are changed to simulate the effect of the tire digging into a soft surface.
+#
+#The vehicle's yaw angle is monitored and used as an Event trigger.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Wind-tripped Rollover } C. RF Tire Ref. Mu Reset, Driver Overreacts
+#Library : Events
+#DataSet : C. RF Tire Ref. Mu Reset, Driver Overreacts
+#Category: Wind-tripped Rollover
+#FileID  : Events_1f00163b-88e9-465d-a953-bf8105ab86ec
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

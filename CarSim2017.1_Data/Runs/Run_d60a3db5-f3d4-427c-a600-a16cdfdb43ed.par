@@ -1,0 +1,70 @@
+PARSFILE
+#FullDataName CarSim Run Control`On Center Steer Test`Steering Tests
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_d60a3db5-f3d4-427c-a600-a16cdfdb43ed
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_36b2ee7b-54ec-4c39-9781-51b289ab39c0.par
+#BlueLink0 Animator: Camera Setup`Rear View , Road Ref. (Frt. Facing)` Road Reference` , Animator camera`Camera_36b2ee7b-54ec-4c39-9781-51b289ab39c0
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0.878 0.878 0.878
+SET_RUN_COLOR 0.878 0.878 0.878
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_30c22a64-baf6-443f-93a1-3f2a95df26b9.par
+#BlueLink2 Vehicle: Assembly`D-Class, Sedan 2017` D-Class` , Vehicle Configuration`Vehicle_30c22a64-baf6-443f-93a1-3f2a95df26b9
+
+PARSFILE Procedures\Proc_07d9a19f-3ef9-44ff-9e52-f41142cc19c3.par
+#BlueLink28 Procedures`On Center Steer Test` Driver Controls` , Procedure`Proc_07d9a19f-3ef9-44ff-9e52-f41142cc19c3
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_4c0e86ee-c21f-408d-8b23-6643df4bf3f4.png
+WRITE_SENSOR_DETECT
+Title On Center Steer Test <Steering Tests>
+CATEGORY Steering Tests 
+DATASET_TITLE On Center Steer Test
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This on-center steer test consists of 5 cycles of a sinusoidal path, with smooth (cosine) lead-in and lead-out. The length was chosen to achieve 5 seconds per cycle (0.2 Hz) at 100 kph.
+#
+#The closed loop steer controller is used to follow the path.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Steering Tests } On Center Steer Test
+#Library : CarSim Run Control
+#DataSet : On Center Steer Test
+#Category: Steering Tests
+#FileID  : Run_d60a3db5-f3d4-427c-a600-a16cdfdb43ed
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

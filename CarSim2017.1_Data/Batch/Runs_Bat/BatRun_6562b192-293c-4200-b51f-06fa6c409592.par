@@ -1,0 +1,26 @@
+PARSFILE
+#FullDataName Batch Runs`ISO Steady State Circle Series`Built-In Solvers
+#CheckBox1 0    
+
+#MiscYellow1
+#<Handling and Stability Tests> ISO Steady-State Circle, R = 100
+#<Handling and Stability Tests> ISO Steady-State Circle, R = 100, Different Tires
+#<Handling and Stability Tests> ISO Steady-State Circle, R = 100, Full Run
+#<Handling and Stability Tests> ISO Steady-State Circle, R = 100, Right Turn
+#<Handling and Stability Tests> ISO Steady-State Circle, R = 30
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains the datasets which are in the ISO Steady State Circle Series, which is part of the Handling and Stability Tests category
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; { Built-In Solvers } ISO Steady State Circle Series
+#Library : Batch Runs
+#DataSet : ISO Steady State Circle Series
+#Category: Built-In Solvers
+#FileID  : BatRun_6562b192-293c-4200-b51f-06fa6c409592
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

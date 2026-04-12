@@ -1,0 +1,82 @@
+PARSFILE
+#FullDataName CarSim Run Control`Braking - Split Mu: ABS`Brake Tests
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_963baaf9-0eae-44ca-b359-c11aefcfbe02
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_8f7a3057-cb7d-444e-8cf2-c6f46989b6a4.par
+#BlueLink0 Animator: Camera Setup`Front View, Road Ref. (Rr. Facing)` Road Reference` , Animator camera`Camera_8f7a3057-cb7d-444e-8cf2-c6f46989b6a4
+
+#CheckBox0 1    
+#CheckBox1 1    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 2
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_25ff3357-7266-4734-90f1-9129ff414f34.par
+#BlueLink2 Vehicle: Assembly`B-Class, Hatchback 2017` B-Class` , Vehicle Configuration`Vehicle_25ff3357-7266-4734-90f1-9129ff414f34
+
+PARSFILE Procedures\Proc_af7b7a9d-340b-49a4-ae1a-008e5c2b5b38.par
+#BlueLink28 Procedures`Split Mu from 65 km/h` Accel. and Brake Testing` , Procedure`Proc_af7b7a9d-340b-49a4-ae1a-008e5c2b5b38
+
+PARSFILE Plot\Setup\Plot_eb50101f-6615-4617-8639-ca7693556ca3.par
+#BlueLink15 Plot: Setup`Locked Brake Status (Axle 1)` Braking` , Plot`Plot_eb50101f-6615-4617-8639-ca7693556ca3
+
+PARSFILE Plot\Setup\Plot_3adb6053-15ab-44c1-adf9-64e31969b810.par
+#BlueLink16 Plot: Setup`Locked Brake Status (Axle 2)` Braking` , Plot`Plot_3adb6053-15ab-44c1-adf9-64e31969b810
+
+
+SPECIAL_PARSFILE Runs\Run_5b3d86e9-3bdc-4863-b51d-fa00438bded3.par
+#BlueLink23 CarSim Run Control`Braking - Split Mu: No ABS` Brake Tests` , Overlay run or ERD file`Run_5b3d86e9-3bdc-4863-b51d-fa00438bded3
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_82c243fc-f3db-4580-95e7-f811abb55d9f.png
+WRITE_SENSOR_DETECT
+Title Braking - Split Mu: ABS <Brake Tests>
+CATEGORY Brake Tests 
+DATASET_TITLE Braking - Split Mu: ABS
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example demonstrates the effect an ABS system can have while braking on a split-mu surface.
+#
+#The B-Class Hatchback uses a CarSim ABS system. More information can be found by browsing to the Vehicle: Assembly screen and clicking the blue link for the brake system "B-Class, Hatchback w/ ABS".
+#
+#For comparison, this simulation is overlaid with another example, "Braking - Split Mu: No ABS". That example has the same B-Class Hatchback as this example, but the braking system does not use any ABS system.
+#
+#Review the plots and animation to see the difference an ABS system can have on a vehicle performing a straight-line split-mu stop.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Brake Tests } Braking - Split Mu: ABS
+#Library : CarSim Run Control
+#DataSet : Braking - Split Mu: ABS
+#Category: Brake Tests
+#FileID  : Run_963baaf9-0eae-44ca-b359-c11aefcfbe02
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

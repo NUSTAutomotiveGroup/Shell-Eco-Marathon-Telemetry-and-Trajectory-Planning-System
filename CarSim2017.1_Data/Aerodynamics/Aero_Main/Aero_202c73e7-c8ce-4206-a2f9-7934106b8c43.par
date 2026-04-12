@@ -1,0 +1,36 @@
+PARSFILE
+#FullDataName Aerodynamics: Basic`No Aerodynamics`
+#CheckBox0 0    
+
+#RingCtrl0 1
+#RingCtrl1 1
+#RingCtrl2 1
+#RingCtrl3 1
+#RingCtrl4 1
+#RingCtrl5 1
+FX_AERO_SHAPING_CONSTANT 0
+FY_AERO_SHAPING_CONSTANT 0
+FZ_AERO_SHAPING_CONSTANT 0
+MX_AERO_SHAPING_CONSTANT 0
+MY_AERO_SHAPING_CONSTANT 0
+MZ_AERO_SHAPING_CONSTANT 0
+X_REF_AERO 0
+Y_REF_AERO 0
+H_REF_AERO 0
+L_REF_AERO 0
+AREA_AERO 0
+D_AIR 1.206
+
+#EMBEDDED_NOTES
+#The frontal area and reference length are zero to remove aerodynamic effects from this dataset. Aerodynamic effects can also be disabled by setting the air mass density to zero, or by linking to force and moment data sets that always return zero.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Aerodynamics: Basic; No Aerodynamics
+#Library : Aerodynamics: Basic
+#DataSet : No Aerodynamics
+#Category: 
+#FileID  : Aero_202c73e7-c8ce-4206-a2f9-7934106b8c43
+#Product : CarSim 2017.1
+#VehCode Aerodynamics
+
+END

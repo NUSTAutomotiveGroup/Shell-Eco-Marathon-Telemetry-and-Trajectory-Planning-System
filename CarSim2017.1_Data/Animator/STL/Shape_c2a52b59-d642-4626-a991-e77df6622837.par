@@ -1,0 +1,32 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Cube`Primitives
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\primitives\cube_1m_wide.obj
+#ENDMYellow
+
+SET_COLOR 0.376 0.376 0.376
+*SPECULAR 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+SET_SPECULAR 1 1 1
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_52079630-c01a-43a9-bc0c-30080f01066f.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Top)` Shape Preview` , Video Camera`Camera_52079630-c01a-43a9-bc0c-30080f01066f
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_c2a52b59-d642-4626-a991-e77df6622837.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Primitives } Cube
+#Library : Animator: Shape File Link
+#DataSet : Cube
+#Category: Primitives
+#FileID  : Shape_c2a52b59-d642-4626-a991-e77df6622837
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

@@ -1,0 +1,70 @@
+PARSFILE
+#FullDataName CarSim Run Control`K & C: Bounce Test`Suspension and Ride Tests
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_11317e72-ee44-43ca-b964-c9a8f7e49191
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_78646c82-3c25-4eef-b153-d76a910f00fb.par
+#BlueLink0 Animator: Camera Setup`K & C View` ` , Animator camera`Camera_78646c82-3c25-4eef-b153-d76a910f00fb
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 0    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Loaded\VehLoad_d68e39cd-60bd-44bf-90c2-6ef8811712a7.par
+#BlueLink2 Vehicle with Loads, Sensors, Trailer, etc.`D-Class, Sedan 2017: K&C Reference Point` D-Class` , Vehicle Configuration`VehLoad_d68e39cd-60bd-44bf-90c2-6ef8811712a7
+
+PARSFILE Procedures\Proc_d5438202-de54-4c8d-9911-8a45734f221d.par
+#BlueLink28 Procedures`K & C Bounce Test` Test Rigs` , Procedure`Proc_d5438202-de54-4c8d-9911-8a45734f221d
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_c98c3df2-ad28-4dce-9a71-3d7eeb0c7c83.png
+WRITE_SENSOR_DETECT
+Title K & C: Bounce Test <Suspension and Ride Tests>
+CATEGORY Suspension and Ride Tests 
+DATASET_TITLE K & C: Bounce Test
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#Simulated Kinematics and Compliance Bounce Test.
+#
+#The simulated Kinematics and Compliance Rig can be used to verify that the suspension data in the vehicle dataset results in performance of the simulated vehicle matching the expected or actual results from an in-vehicle test.
+#
+#The Bounce Test is defined with VS Commands.  You can view these commands by clicking on the Procedure blue link "K & C Bounce Test", then clicking on the link for Generic VS Commands: K & C Bounce Test VS.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Suspension and Ride Tests } K & C: Bounce Test
+#Library : CarSim Run Control
+#DataSet : K & C: Bounce Test
+#Category: Suspension and Ride Tests
+#FileID  : Run_11317e72-ee44-43ca-b964-c9a8f7e49191
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

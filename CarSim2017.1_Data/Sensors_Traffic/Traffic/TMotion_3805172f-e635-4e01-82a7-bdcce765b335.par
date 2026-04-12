@@ -1,0 +1,288 @@
+PARSFILE
+#FullDataName Multiple Moving Objects`6 Vehicles, Speed = Vx * 0.95, ILTARG`Traffic Vehicles (Forward)
+#RingCtrl0 6
+DEFINE_MOVING_OBJECTS 6
+#RingCtrl1 3
+#RingCtrl2 1
+#CheckBox0 0    
+#CheckBox1 1    
+#CheckBox2 1    
+#CheckBox3 1    
+#CheckBox4 1    
+#CheckBox5 1    
+#CheckBox6 1    
+#CheckBox7 1    
+#CheckBox8 1    
+#CheckBox9 1    
+#CheckBox10 1    
+#CheckBox11 1    
+#CheckBox12 1    
+#CheckBox25 1    
+#CheckBox26 1    
+#CheckBox27 1    
+#CheckBox28 1    
+#CheckBox29 1    
+#CheckBox30 1    
+#CheckBox31 1    
+#CheckBox38 1    
+
+*L ILTARG
+*LEAD 1600
+*TRAIL 500
+*HIDE 20
+*PATH_ID PATH_ID_DM
+*ROAD_ID CURRENT_ROAD_ID
+*ROAD_ID CURRENT_ROAD_ID
+*V Vx * 0.95
+
+IOBJECT_INCREMENT
+symbol_add <<o>> 1
+SET_DESCRIPTION OBJECT_NAME 6 Vehicles, Speed = Vx * 0.95, ILTARG, Object #1
+
+PATH_ID_OBJ PATH_ID_DM
+ROAD_ID_OBJ CURRENT_ROAD_ID
+EQ_DIFFERENTIAL S_OBJ_<<o>> = Vx * 0.95
+LTARG_ID_OBJ = ILTARG
+OPT_RECYCLE_OBJ 0
+*SINIT_1 sv_Station + 50
+EQ_INIT S_OBJ_<<o>> = sv_Station + 50
+*COLOR_1 0.8 0.4 0
+SET_RUN_COLOR 0.8 0.4 0
+*H_TARGET_1 -1.7
+H_OBJ -1.7
+PARSFILE Animator\Vehicles\AniVeh_4c0e86ee-c21f-408d-8b23-6643df4bf3f4.par
+#BlueLink0 Animator: Vehicles and Sensor Targets`D-Class, Sedan` D-Class Vehicles` , Traffic Vehicle Ani File`AniVeh_4c0e86ee-c21f-408d-8b23-6643df4bf3f4
+
+OPT_RECT_OBJ 1
+*SIZE_1 4.3
+LENGTH_OBJ 4.3
+*WIDTH_1 1.85
+WIDTH_OBJ 1.85
+*LX_FRONT_1 0.65
+LX_FRONT_OBJ 0.65
+*REFLECT_1 1
+MATERIAL_TYPE_OBJ 1
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+X_REF_LENGTH 1
+Y_REF_LENGTH 1
+Z_REF_LENGTH 1
+X_LENGTH 4.3
+Y_LENGTH 1.85
+Z_LENGTH 1.7
+PARSFILE Animator\STL\Shape_c6c6c3f2-d5ef-4ee8-892f-bb524018e4e3.par
+SET_OFFSET_X -0.348837
+SET_OFFSET_Z 0.5
+SET_COLOR 0.8 0.4 0
+
+IOBJECT_INCREMENT
+symbol_add <<o>> 1
+SET_DESCRIPTION OBJECT_NAME 6 Vehicles, Speed = Vx * 0.95, ILTARG, Object #2
+
+PATH_ID_OBJ PATH_ID_DM
+ROAD_ID_OBJ CURRENT_ROAD_ID
+EQ_DIFFERENTIAL S_OBJ_<<o>> = Vx * 0.95
+LTARG_ID_OBJ = ILTARG
+OPT_RECYCLE_OBJ 0
+*SINIT_2 sv_Station - 20
+EQ_INIT S_OBJ_<<o>> = sv_Station - 20
+*COLOR_2 0.4 0.8 1
+SET_RUN_COLOR 0.4 0.8 1
+*H_TARGET_2 -2
+H_OBJ -2
+PARSFILE Animator\Vehicles\AniVeh_6a406309-46ad-4966-bff0-ace339f3d75d.par
+#BlueLink1 Animator: Vehicles and Sensor Targets`E-Class, SUV` E-Class Vehicles` , Traffic Vehicle Ani File`AniVeh_6a406309-46ad-4966-bff0-ace339f3d75d
+
+OPT_RECT_OBJ 1
+*SIZE_2 4.75
+LENGTH_OBJ 4.75
+*WIDTH_2 2
+WIDTH_OBJ 2
+*LX_FRONT_2 0.75
+LX_FRONT_OBJ 0.75
+*REFLECT_2 1
+MATERIAL_TYPE_OBJ 1
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+X_REF_LENGTH 1
+Y_REF_LENGTH 1
+Z_REF_LENGTH 1
+X_LENGTH 4.75
+Y_LENGTH 2
+Z_LENGTH 2
+PARSFILE Animator\STL\Shape_c6c6c3f2-d5ef-4ee8-892f-bb524018e4e3.par
+SET_OFFSET_X -0.342105
+SET_OFFSET_Z 0.5
+SET_COLOR 0.4 0.8 1
+
+IOBJECT_INCREMENT
+symbol_add <<o>> 1
+SET_DESCRIPTION OBJECT_NAME 6 Vehicles, Speed = Vx * 0.95, ILTARG, Object #3
+
+PATH_ID_OBJ PATH_ID_DM
+ROAD_ID_OBJ CURRENT_ROAD_ID
+EQ_DIFFERENTIAL S_OBJ_<<o>> = Vx * 0.95
+LTARG_ID_OBJ = ILTARG
+OPT_RECYCLE_OBJ 0
+*SINIT_3 sv_Station -10
+EQ_INIT S_OBJ_<<o>> = sv_Station -10
+*COLOR_3 1 0.4 0.6
+SET_RUN_COLOR 1 0.4 0.6
+*H_TARGET_3 -1.8
+H_OBJ -1.8
+PARSFILE Animator\Vehicles\AniVeh_ecb4bc00-731a-4eec-9e10-b0fa5a9a76b7.par
+#BlueLink2 Animator: Vehicles and Sensor Targets`F-Class, Sedan` ` , Traffic Vehicle Ani File`AniVeh_ecb4bc00-731a-4eec-9e10-b0fa5a9a76b7
+
+OPT_RECT_OBJ 1
+*SIZE_3 5.1
+LENGTH_OBJ 5.1
+*WIDTH_3 1.9
+WIDTH_OBJ 1.9
+*LX_FRONT_3 0.8
+LX_FRONT_OBJ 0.8
+*REFLECT_3 1
+MATERIAL_TYPE_OBJ 1
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+X_REF_LENGTH 1
+Y_REF_LENGTH 1
+Z_REF_LENGTH 1
+X_LENGTH 5.1
+Y_LENGTH 1.9
+Z_LENGTH 1.8
+PARSFILE Animator\STL\Shape_c6c6c3f2-d5ef-4ee8-892f-bb524018e4e3.par
+SET_OFFSET_X -0.343137
+SET_OFFSET_Z 0.5
+SET_COLOR 1 0.4 0.6
+
+IOBJECT_INCREMENT
+symbol_add <<o>> 1
+SET_DESCRIPTION OBJECT_NAME 6 Vehicles, Speed = Vx * 0.95, ILTARG, Object #4
+
+PATH_ID_OBJ PATH_ID_DM
+ROAD_ID_OBJ CURRENT_ROAD_ID
+EQ_DIFFERENTIAL S_OBJ_<<o>> = Vx * 0.95
+LTARG_ID_OBJ = ILTARG
+OPT_RECYCLE_OBJ 0
+*SINIT_4 sv_Station +5
+EQ_INIT S_OBJ_<<o>> = sv_Station +5
+*COLOR_4 1 1 1
+SET_RUN_COLOR 1 1 1
+*H_TARGET_4 -1.6
+H_OBJ -1.6
+PARSFILE Animator\Vehicles\AniVeh_b14ad677-d682-43e8-af70-e8b7d82428ed.par
+#BlueLink3 Animator: Vehicles and Sensor Targets`A-Class, Subcompact 2012` A-Class Vehicles` , Traffic Vehicle Ani File`AniVeh_b14ad677-d682-43e8-af70-e8b7d82428ed
+
+OPT_RECT_OBJ 1
+*SIZE_4 3.3
+LENGTH_OBJ 3.3
+*WIDTH_4 1.7
+WIDTH_OBJ 1.7
+*LX_FRONT_4 0.5
+LX_FRONT_OBJ 0.5
+*REFLECT_4 1
+MATERIAL_TYPE_OBJ 1
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+X_REF_LENGTH 1
+Y_REF_LENGTH 1
+Z_REF_LENGTH 1
+X_LENGTH 3.3
+Y_LENGTH 1.7
+Z_LENGTH 1.6
+PARSFILE Animator\STL\Shape_c6c6c3f2-d5ef-4ee8-892f-bb524018e4e3.par
+SET_OFFSET_X -0.348485
+SET_OFFSET_Z 0.5
+SET_COLOR 1 1 1
+
+IOBJECT_INCREMENT
+symbol_add <<o>> 1
+SET_DESCRIPTION OBJECT_NAME 6 Vehicles, Speed = Vx * 0.95, ILTARG, Object #5
+
+PATH_ID_OBJ PATH_ID_DM
+ROAD_ID_OBJ CURRENT_ROAD_ID
+EQ_DIFFERENTIAL S_OBJ_<<o>> = Vx * 0.95
+LTARG_ID_OBJ = ILTARG
+OPT_RECYCLE_OBJ 0
+*SINIT_5 sv_Station + 25
+EQ_INIT S_OBJ_<<o>> = sv_Station + 25
+*COLOR_5 1 0 0
+SET_RUN_COLOR 1 0 0
+*H_TARGET_5 -2.1
+H_OBJ -2.1
+PARSFILE Animator\Vehicles\AniVeh_f7c57fa3-a4ed-4e9d-87dd-cf8f8c2aca00.par
+#BlueLink4 Animator: Vehicles and Sensor Targets`D-Class, Minivan 2012` D-Class Vehicles` , Traffic Vehicle Ani File`AniVeh_f7c57fa3-a4ed-4e9d-87dd-cf8f8c2aca00
+
+OPT_RECT_OBJ 1
+*SIZE_5 4.8
+LENGTH_OBJ 4.8
+*WIDTH_5 2.5
+WIDTH_OBJ 2.5
+*LX_FRONT_5 0.7
+LX_FRONT_OBJ 0.7
+*REFLECT_5 1
+MATERIAL_TYPE_OBJ 1
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+X_REF_LENGTH 1
+Y_REF_LENGTH 1
+Z_REF_LENGTH 1
+X_LENGTH 4.8
+Y_LENGTH 2.5
+Z_LENGTH 2.1
+PARSFILE Animator\STL\Shape_c6c6c3f2-d5ef-4ee8-892f-bb524018e4e3.par
+SET_OFFSET_X -0.354167
+SET_OFFSET_Z 0.5
+SET_COLOR 1 0 0
+
+IOBJECT_INCREMENT
+symbol_add <<o>> 1
+SET_DESCRIPTION OBJECT_NAME 6 Vehicles, Speed = Vx * 0.95, ILTARG, Object #6
+
+PATH_ID_OBJ PATH_ID_DM
+ROAD_ID_OBJ CURRENT_ROAD_ID
+EQ_DIFFERENTIAL S_OBJ_<<o>> = Vx * 0.95
+LTARG_ID_OBJ = ILTARG
+OPT_RECYCLE_OBJ 0
+*SINIT_6 sv_Station + 80
+EQ_INIT S_OBJ_<<o>> = sv_Station + 80
+*COLOR_6 0 0 0.8
+SET_RUN_COLOR 0 0 0.8
+*H_TARGET_6 -1.8
+H_OBJ -1.8
+PARSFILE Animator\Vehicles\AniVeh_ecb4bc00-731a-4eec-9e10-b0fa5a9a76b7.par
+#BlueLink5 Animator: Vehicles and Sensor Targets`F-Class, Sedan` ` , Traffic Vehicle Ani File`AniVeh_ecb4bc00-731a-4eec-9e10-b0fa5a9a76b7
+
+OPT_RECT_OBJ 1
+*SIZE_6 4.75
+LENGTH_OBJ 4.75
+*WIDTH_6 2.2
+WIDTH_OBJ 2.2
+*LX_FRONT_6 0.5
+LX_FRONT_OBJ 0.5
+*REFLECT_6 1
+MATERIAL_TYPE_OBJ 1
+WRITE_ADD_REFERENCE_FRAME_OBJECT
+X_REF_LENGTH 1
+Y_REF_LENGTH 1
+Z_REF_LENGTH 1
+X_LENGTH 4.75
+Y_LENGTH 2.2
+Z_LENGTH 1.8
+PARSFILE Animator\STL\Shape_c6c6c3f2-d5ef-4ee8-892f-bb524018e4e3.par
+SET_OFFSET_X -0.394737
+SET_OFFSET_Z 0.5
+SET_COLOR 0 0 0.8
+
+#EMBEDDED_NOTES
+#Use the same path as the driver model (PATH_ID_DM) and road (CURRENT_ROAD_ID).
+#
+#Use a lateral position calculated with LTARG dataset ILTARG, which can be set before the link to this dataset.
+#
+#The moving objects (traffic) are going 5% slower than the ego vehicle (Vx * 0.95), in the same direction.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Multiple Moving Objects; { Traffic Vehicles (Forward) } 6 Vehicles, Speed = Vx * 0.95, ILTARG
+#Library : Multiple Moving Objects
+#DataSet : 6 Vehicles, Speed = Vx * 0.95, ILTARG
+#Category: Traffic Vehicles (Forward)
+#FileID  : TMotion_3805172f-e635-4e01-82a7-bdcce765b335
+#Product : CarSim 2017.1
+#VehCode Multiple Objects
+
+END

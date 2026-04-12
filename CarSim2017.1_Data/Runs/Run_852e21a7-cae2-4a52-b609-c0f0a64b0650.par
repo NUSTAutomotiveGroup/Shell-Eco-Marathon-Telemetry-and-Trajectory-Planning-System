@@ -1,0 +1,81 @@
+PARSFILE
+#FullDataName CarSim Run Control`Handbrake Turn`Extended Models
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_852e21a7-cae2-4a52-b609-c0f0a64b0650
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_ba3fe239-88d8-4ffa-a4a9-7c163f3c38ed.par
+#BlueLink0 Animator: Camera Setup`180 deg. Azimuth, 10 deg. El., Veh. Ref. (No Yaw)` Vehicle Reference` , Animator camera`Camera_ba3fe239-88d8-4ffa-a4a9-7c163f3c38ed
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 1
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0 0 0.776
+SET_RUN_COLOR 0 0 0.776
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_a0aaeca0-2c47-4094-9562-cbd5e0d325b6.par
+#BlueLink2 Vehicle: Assembly`C-Class, Hatchback 2017` C-Class` , Vehicle Configuration`Vehicle_a0aaeca0-2c47-4094-9562-cbd5e0d325b6
+
+PARSFILE Procedures\Proc_b7a44d20-0f08-48ff-b302-d2f62c9d75ea.par
+#BlueLink28 Procedures`Handbrake Turn Initialization 2017` Driver Controls` , Procedure`Proc_b7a44d20-0f08-48ff-b302-d2f62c9d75ea
+
+PARSFILE Animator\Arrows\Arrows_0707108a-af33-4db9-b1d3-bdbd23eea887.par
+#BlueLink9 Animator: Wheel Arrows and Other Indicators`Tire Skid Marks (2 Axles)` Tire Paths (2 Axle)` , Miscellaneous`Arrows_0707108a-af33-4db9-b1d3-bdbd23eea887
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_a0aaeca0-2c47-4094-9562-cbd5e0d325b6.png
+WRITE_SENSOR_DETECT
+Title Handbrake Turn <Extended Models>
+CATEGORY Extended Models 
+DATASET_TITLE Handbrake Turn
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example simulates the application of a handbrake. Three concepts are illustrated in this example:
+#
+#1. Using VS Commands to operate the rear brakes only in response to a user-defined control signal (hb_on) to simulate the action of a handbrake.
+#
+#2. Defining a state variable to implement brake system dynamics (a time constant) in the handbrake application.
+#
+#3. Implementing the control signal using generic, user-defined table functions.
+#
+#The hand brake is applied to the rear wheels only and its operation does not cause the brake lights to illuminate.
+#
+#Click on the Procedures blue link "Handbrake Turn Initialization" and follow the Event series for more information.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Extended Models } Handbrake Turn
+#Library : CarSim Run Control
+#DataSet : Handbrake Turn
+#Category: Extended Models
+#FileID  : Run_852e21a7-cae2-4a52-b609-c0f0a64b0650
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

@@ -1,0 +1,43 @@
+PARSFILE
+#FullDataName Control: Steering by the Closed-loop Driver Model`No Offset, 0.5 sec. Preview  Mcity`Constant Position
+#CheckBox0 0    
+OPT_DRIVER_MODEL 1
+#CheckBox1 0    
+CREATE_PATH_OBJ off
+#CheckBox2 0    
+
+#RingCtrl0 0
+#RingCtrl1 CONSTANT
+LTARG_CONSTANT 0
+#RadioCtrl0 0    
+
+AV_SW_MAX_DM 1200
+TLAG_DM 0
+A_SW_MAX_DM 720
+*TPREV 0.5
+*GAIN 0
+*SCALAR 0
+VLOW_DRIVER 10
+SET_PATH_WIDTH 0.1
+SET_PATH_DASH_INTERVAL 1
+SET_PATH_VERTEX_INTERVAL 1
+SET_PATH_DZ 0.05
+SET_PATH_COLOR .5 .6 1
+
+TPREV_CONSTANT 0.5
+
+#EMBEDDED_NOTES
+#A preview time of 0.15 is agressive and will only work if the target path is fairly smooth.
+#
+#These settings were made for an example of a sports car being driven aggressively on a racetrack, following a target path defined independently of the road reverence line.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Control: Steering by the Closed-loop Driver Model; { Constant Position } No Offset, 0.5 sec. Preview  Mcity
+#Library : Control: Steering by the Closed-loop Driver Model
+#DataSet : No Offset, 0.5 sec. Preview  Mcity
+#Category: Constant Position
+#FileID  : StrDM_a77682bd-39a8-419d-82cf-59b447ce29f2
+#Product : CarSim 2017.1
+#VehCode Driver Path Follower
+
+END

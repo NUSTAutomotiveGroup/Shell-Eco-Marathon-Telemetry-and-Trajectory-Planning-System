@@ -1,0 +1,36 @@
+PARSFILE
+#FullDataName Suspension: Camber Angle`Semi-Trailing Arm - Rear`
+#CheckBox0 0    
+
+#RingCtrl0 SPLINE
+#RadioCtrl0 0    
+
+#DiagramOne0
+CAMBER_TABLE SPLINE
+-70, 2.26745
+-60, 1.93841
+-50, 1.61105
+-40, 1.28537
+-30, 0.961399
+-20, 0.639149
+-10, 0.318665
+0, 0
+10, -0.316769
+20, -0.63154
+30, -0.94418
+40, -1.25451
+50, -1.56231
+60, -1.86727
+70, -2.16901
+ENDTABLE
+
+
+LOG_ENTRY Used Dataset: Suspension: Camber Angle; Semi-Trailing Arm - Rear
+#Library : Suspension: Camber Angle
+#DataSet : Semi-Trailing Arm - Rear
+#Category: 
+#FileID  : Camber_2f27d6cf-d1bf-49df-8983-ab35275991d8
+#Product : CarSim 2017.1
+#VehCode Camber
+
+END

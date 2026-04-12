@@ -1,0 +1,20 @@
+PARSFILE
+#FullDataName Suspension: Camber Angle`Constant: Zero`
+#CheckBox0 0    
+
+#RingCtrl0 CONSTANT
+#RadioCtrl0 0    
+
+CAMBER_CONSTANT 0
+*SCALAR 0
+
+
+LOG_ENTRY Used Dataset: Suspension: Camber Angle; Constant: Zero
+#Library : Suspension: Camber Angle
+#DataSet : Constant: Zero
+#Category: 
+#FileID  : Camber_5cee59cc-2426-4df4-a920-9b8b69a16f36
+#Product : CarSim 2017.1
+#VehCode Camber
+
+END

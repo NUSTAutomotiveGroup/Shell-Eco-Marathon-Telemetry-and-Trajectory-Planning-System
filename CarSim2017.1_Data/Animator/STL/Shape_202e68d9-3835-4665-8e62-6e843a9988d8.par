@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Tube`Primitives
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\primitives\tube_1m_radius_1m_long.obj
+#ENDMYellow
+
+SET_COLOR 0.376 0.376 0.376
+*SPECULAR 1
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+SET_SPECULAR 1 1 1
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_52079630-c01a-43a9-bc0c-30080f01066f.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Top)` Shape Preview` , Video Camera`Camera_52079630-c01a-43a9-bc0c-30080f01066f
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_202e68d9-3835-4665-8e62-6e843a9988d8.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Primitives } Tube
+#Library : Animator: Shape File Link
+#DataSet : Tube
+#Category: Primitives
+#FileID  : Shape_202e68d9-3835-4665-8e62-6e843a9988d8
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

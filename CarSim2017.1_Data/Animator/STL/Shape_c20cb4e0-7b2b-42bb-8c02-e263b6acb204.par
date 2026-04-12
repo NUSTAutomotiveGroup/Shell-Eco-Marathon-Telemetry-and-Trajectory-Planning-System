@@ -1,0 +1,34 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`European Van: Windows`CS European Van
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\vehicles\european_van\windows.obj
+#ENDMYellow
+
+SET_COLOR 0 0 0
+*SPECULAR 1
+*TRANSPARENCY 0.9
+#CheckBox0 0    
+set_lighting on
+#CheckBox1 0    
+set_fogging on
+#CheckBox3 0    
+#CheckBox4 0    
+
+set_transparency 0.9
+SET_SPECULAR 1 1 1
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_c20cb4e0-7b2b-42bb-8c02-e263b6acb204.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS European Van } European Van: Windows
+#Library : Animator: Shape File Link
+#DataSet : European Van: Windows
+#Category: CS European Van
+#FileID  : Shape_c20cb4e0-7b2b-42bb-8c02-e263b6acb204
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

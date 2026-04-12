@@ -1,0 +1,24 @@
+Include PARSFILE "Roads\3D_Road\Road_c5761baa-2380-4734-9bfe-2a7a1decab71.par"
+Include PARSFILE "Roads\BuilderSegment\RoadSeg_299f5dd8-31b0-44f2-9251-eaaf215df33c.par"
+ Straight East <Straight>
+Used Dataset: Path: Segment Builder; { Straight } Straight East
+Include PARSFILE "Roads\Friction\RdMu_25e73395-9471-44b9-9c60-27bd9cc24921.par"
+Used Dataset: Road: Friction Map, S-L Grid; { Constant } Constant: 0.85
+Include PARSFILE "Roads\Shapes\RdShape_ef1078c3-6bdf-4b38-b3c0-a8e5ae64660d.par"
+Used Dataset: Road: Animator Surface Shapes; { Roads } Braking Test Road
+Include PARSFILE "Animator\Groups\Group_0d3dc35e-ec2b-4c1b-b2d7-c7180c3704f2.par"
+Include PARSFILE "Animator\Frames\Frame_8761c9b6-c784-4d2d-b8bc-72683578e773.par"
+Used Dataset: Animator: Reference Frame; Skybox (Vehicle Reference)
+Include PARSFILE "Animator\STL\Shape_6d5f4980-0cdc-4aa2-841c-f127e1b02f97.par"
+Used Dataset: Animator: Shape File Link; { Skies } Partly Cloudy Sky
+Include PARSFILE "Animator\STL\Shape_349ac76d-c442-4763-af39-5cd730fb5731.par"
+Used Dataset: Animator: Shape File Link; { Terrain } Land Bowl for Light Grass
+Used Dataset: Animator: Group; { Skies } Sky for Light Grass
+Include PARSFILE "Roads\3D_Road\Road_c5761baa-2380-4734-9bfe-2a7a1decab71.ani"
+Used Dataset: Road: 3D Surface (All Properties); { Straight } Braking Distance Test Road
+
+Time to read input = 0.002
+
+Run stopped at t = 0. Stop time reached.
+
+Run started: ERD output file = Roads\3D_Road\Road_c5761baa-2380-4734-9bfe-2a7a1decab71.bin

@@ -1,0 +1,286 @@
+PARSFILE
+#FullDataName Batch Runs`All Run Control Datasets`
+#CheckBox1 0    
+
+#MiscYellow1
+#<* * Quick Start Guide Example> Baseline
+#<* CS 2017 - Dual Tires> Pickup, Full Size, Dual Tires
+#<* CS 2017 - Engine Torque Control> No Control: Low Mu Acceleration
+#<* CS 2017 - Engine Torque Control> TCS: Low Mu Acceleration
+#<* CS 2017 - External Powertrain Model> GT-Suite: Accel. and Brake on Circle
+#<* CS 2017 - External Steering Models> * 2017 * Closed Loop: Replace Tie Rod / Steer Arm Kinematics (2D)
+#<* CS 2017 - External Steering Models> * 2017 * Closed Loop: Replace Tie Rod / Steer Arm Kinematics (Base)
+#<* CS 2017 - External Steering Models> Closed Loop: Full Internal Model
+#<* CS 2017 - External Steering Models> Closed Loop: Replace Entire System
+#<* CS 2017 - External Steering Models> Closed Loop: Replace Entire System (Simulink)
+#<* CS 2017 - External Steering Models> Closed Loop: Replace Rack and Pinion Only
+#<* CS 2017 - External Steering Models> Closed Loop: Replace Rack and Pinion Only (Simulink)
+#<* CS 2017 - External Steering Models> Closed Loop: Retain TieRod / Steer Arm Kinem. (Simulink)
+#<* CS 2017 - External Steering Models> Closed Loop: Retain TieRod / Steer Arm Kinematics
+#<* CS 2017 - External Steering Models> Open Loop: Full Internal Model
+#<* CS 2017 - External Steering Models> Open Loop: Replace Entire System
+#<* CS 2017 - External Steering Models> Open Loop: Replace Entire System (Simulink)
+#<* CS 2017 - External Steering Models> Open Loop: Replace Rack and Pinion Only
+#<* CS 2017 - External Steering Models> Open Loop: Retain TieRod / Steer Arm Kinem. (Simulink)
+#<* CS 2017 - External Steering Models> Open Loop: Retain TieRod / Steer Arm Kinematics
+#<* CS 2017 - Loaded Tables> Baseline (loaded road profile)
+#<* CS 2017 - Loaded Tables> Baseline (nominal profile)
+#<* CS 2017 - Mcity> Mcity Proving Grounds
+#<* CS 2017 - Mcity> Mcity Proving Grounds: Outside Loop
+#<* CS 2017 - Mcity> Mcity: ADAS - Cross Traffic (Baseline)
+#<* CS 2017 - Mcity> Mcity: ADAS - Cross Traffic w/ AEB
+#<* More Examples (Extra License Options)> AVL Cruise: Accel. and Brake on Circle
+#<* More Examples (Extra License Options)> Chassis Flex: Flexible Chassis
+#<* More Examples (Extra License Options)> FTire: Small Bump
+#<* More Examples (Extra License Options)> MF-Swift (Rigid Ring): Acc./Braking
+#<* More Examples (Extra License Options)> MF-Swift (Short Wavelength): Small Bump
+#<* More Examples (Extra License Options)> MF-Swift 7.1, Rigid Ring: Acc./Braking
+#<* More Examples (Extra License Options)> MF-Swift v7, Turn-Slip: Parking Maneuver
+#<* More Examples (Extra License Options)> MF-Tyre/MF-Swift v7: DLC
+#<* More Examples (Extra License Options)> Powertrain Mounts: Front Engine, FWD Based AWD
+#<ADAS and Active Safety> ACC, 4-Lane Road, Fwd and Opp. Traffic
+#<ADAS and Active Safety> ACC, 5-Lane Road, 3 Lanes Fwd Traffic
+#<ADAS and Active Safety> Blind Spot Warning, Reversing in Parking Lot
+#<ADAS and Active Safety> Lane Departure in Double Lane Change
+#<ADAS and Active Safety> Lane Departure Warning, 4 Lanes Divided
+#<ADAS and Active Safety> Lane Departure Warning, 4 Lanes, Adjacent
+#<ADAS and Active Safety> Many Sensors, 5-Lane Road, 3 Lanes Fwd
+#<AEB: Automated Emergency Braking> AEB  CCRb: - 2 m/s2, 12 m
+#<AEB: Automated Emergency Braking> AEB  CCRb: - 6 m/s2, 12 m
+#<AEB: Automated Emergency Braking> AEB  CCRb: - 6 m/s2, 40 m
+#<AEB: Automated Emergency Braking> AEB Test Series for CCRm
+#<AEB: Automated Emergency Braking> AEB Test Series for CCRs
+#<Aero Effects> Crosswind w/ Steering
+#<Aero Effects> Crosswind w/o Steering
+#<Aero Effects> Crosswind, Low Mu
+#<Alternate Vehicle Data Measurement> Measured Ride Rates
+#<Alternate Vehicle Data Measurement> Payload: DLC, Loaded 2000 kg
+#<Alternate Vehicle Data Measurement> Payload: Driver and Fuel Loads
+#<Alternate Vehicle Data Measurement> Payload: SUV w/ 7 Passengers
+#<Alternate Vehicle Data Measurement> Sprung Mass from Whole Vehicle: i_i
+#<Alternate Vehicle Data Measurement> Sprung Mass from Whole Vehicle: s_s
+#<Brake Tests> Brake Distance Test (Force Input w. ABS)
+#<Brake Tests> Brake Distance Test (Force Input)
+#<Brake Tests> Brake Distance Test (Pressure Input)
+#<Brake Tests> Braking - Split Mu: ABS
+#<Brake Tests> Braking - Split Mu: No ABS
+#<Brake Tests> Braking in Turn: Brake Temp. and Booster Effects
+#<Brake Tests> Braking: ABS Type A Ctrl., Legacy
+#<Brake Tests> Braking: ABS Type B Ctrl., Legacy
+#<Brake Tests> Braking: Advanced, Type A Ext. ABS
+#<Brake Tests> Braking: Advanced, Type B Ext. ABS
+#<Brake Tests> Braking: Fade Test, Repeated 0-100-0 km/h
+#<Driver Model> Accident Avoidance
+#<Driver Model> Baja Driving
+#<Driver Model> Distracted Driver
+#<Driver Model> DLC, Constant Target Speed
+#<Driver Model> DLC, Preview Speed Control
+#<Driver Model> Highway Merge
+#<Driver Model> Highway Merge Avoidance w/o ESC
+#<Driver Model> Lane Keeping, Normal Driving
+#<Driver Model> Speed Control from Driver Path
+#<Extended Models> Crosswind and Tripped Rollover
+#<Extended Models> Handbrake Turn
+#<Extended Models> Ignition Switch and Transmission Park
+#<Extended Models> Non-linear Spring Deflection
+#<Extended Models> Outrigger for Roll Stability Testing
+#<Extended Models> Steer Controller with External C and Simulink
+#<Extended Models> Steer Controller with External C Code
+#<Extended Models> Steer Controller with MATLAB
+#<Extended Models> Steer Controller with Python
+#<Extended Models> Steer Controller with VB
+#<Extended Models> Steer Controller with VS Comands in C
+#<Extended Models> Steer Controller with VS Commands
+#<External Control: COM, FMU, MATLAB, Python, VB> Baseline COM
+#<External Control: COM, FMU, MATLAB, Python, VB> Baseline FMI 1.0
+#<External Control: COM, FMU, MATLAB, Python, VB> Baseline FMI 2.0
+#<External Control: COM, FMU, MATLAB, Python, VB> Ext. ABS: Split Mu (Flat Ports)
+#<External Control: COM, FMU, MATLAB, Python, VB> Ext. ABS: Split Mu (Structured Ports)
+#<External Control: COM, FMU, MATLAB, Python, VB> Fishhook Procedure: E-Class SUV  FMI 2.0 Self-Contained
+#<External Control: COM, FMU, MATLAB, Python, VB> Simple Run from Here with C Program
+#<External Control: COM, FMU, MATLAB, Python, VB> Simple Run from Here with VB Program
+#<External Control: COM, FMU, MATLAB, Python, VB> Simple Run from MATLAB
+#<External Control: COM, FMU, MATLAB, Python, VB> Simple Run from Python
+#<External Control: COM, FMU, MATLAB, Python, VB> Simple Run from VB Program
+#<Handling and Stability Tests> Double Lane Change, Short Prev., Low Mu
+#<Handling and Stability Tests> Double Lane Change, Tight w/o ESC
+#<Handling and Stability Tests> Fishhook Procedure: E-Class SUV
+#<Handling and Stability Tests> Fishhook Procedure: E-Class SUV w/ Roof Load
+#<Handling and Stability Tests> ISO Steady-State Circle, R = 100
+#<Handling and Stability Tests> ISO Steady-State Circle, R = 100, Different Tires
+#<Handling and Stability Tests> ISO Steady-State Circle, R = 100, Full Run
+#<Handling and Stability Tests> ISO Steady-State Circle, R = 100, Right Turn
+#<Handling and Stability Tests> ISO Steady-State Circle, R = 30
+#<Handling and Stability Tests> Parametric ESC Model, DLC (Tight)
+#<Handling and Stability Tests> Roll Stability Testing w/ Parametric ESC
+#<Handling and Stability Tests> Rollover Steer Input: Stable
+#<Handling and Stability Tests> Rollover Steer Input: Unstable
+#<Handling and Stability Tests> Sine with Dwell (ECE R13H) w/ ESC
+#<Handling and Stability Tests> Sine with Dwell (ECE R13H) w/o ESC
+#<Handling and Stability Tests> Transient Response Times
+#<Linearization> Bode Analysis (Steer Angle to Yaw Rate and Ay)
+#<Linearization> Bode Analysis (Steer Torque to Yaw Rate and Ay)
+#<Linearization> Root Locus (Speed Series)
+#<Output Options> 5 Accel. and Rate Sensors: Rollover Steering Input
+#<Output Options> 5 Reference Points: Rollover Steering Input
+#<Output Options> GPS and 64-bit Output
+#<Output Options> Output to Excel Format (From ERD to CSV/MAT)
+#<Output Options> Quick Start Example: CSV Only
+#<Output Options> Quick Start Example: Export to CSV
+#<Output Options> SI Units for Output
+#<Powertrain Tests> 8-Speed Transmission
+#<Powertrain Tests> Events: Shift 2WD to 4WD
+#<Powertrain Tests> Half Throttle Acceleration: CVT
+#<Powertrain Tests> Lockup Torque Converter
+#<Powertrain Tests> MT Open-loop Shift and Clutch, Accel. - 0.5 Throt.
+#<Powertrain Tests> MT w/ Closed-loop Shift and Clutch,  Accel. - Full Throt.
+#<Powertrain Tests> Rear In-Wheel Motors: E-Class, Sedan w/ Hybrid Battery Payload
+#<Restore, Restart, Optimize> A. QS DLC stop @ 3s
+#<Restore, Restart, Optimize> B. QS DLC continue
+#<Restore, Restart, Optimize> S-Turn with Optimized Speed
+#<Restore, Restart, Optimize> S-Turn, Too Fast
+#<Restore, Restart, Optimize> S-Turn, Too Slow
+#<Restore, Restart, Optimize> Sine with Dwell (ECE R13H) w/ ESC (Fast)
+#<Road Networks: 3D Geometry and Terrain> 2D-Spline: Off-Road Driving
+#<Road Networks: 3D Geometry and Terrain> Clothoid Connectors (Automatic)
+#<Road Networks: 3D Geometry and Terrain> Clothoid Connectors (Table-Defined)
+#<Road Networks: 3D Geometry and Terrain> GPS Long Road Import
+#<Road Networks: 3D Geometry and Terrain> GPS Short Road Import
+#<Road Networks: 3D Geometry and Terrain> Railroad Track Crossing
+#<Road Networks: 3D Geometry and Terrain> Road w/ Surface Roughness
+#<Road Networks: 3D Geometry and Terrain> Road X-Y-Z Edges
+#<Road Networks: 3D Geometry and Terrain> Rough Road 01 - 242 in/mi (3.82 m/km)
+#<Road Networks: 3D Geometry and Terrain> Rough Road 02 - 92 in/mi (1.45 m/km)
+#<Road Networks: 3D Geometry and Terrain> Rough Road 03 - 66 in/mi (1.04 m/km)
+#<Road Networks: 3D Geometry and Terrain> Rough Road 04 - 55 in/mi (0.87 m/km)
+#<Road Networks: 3D Geometry and Terrain> Rough Road 05 - 77 in/mi (1.215 m/km)
+#<Road Networks: 3D Geometry and Terrain> Rough Road 06 - 142 in/mi (2.24 m/km)
+#<Road Networks: Intersections and Roundabouts> Intersection, 3-Way w/ Curbs, Traffic, C-Class
+#<Road Networks: Intersections and Roundabouts> Intersection, 4-Way w/ Curbs, Pickup w/ Trailer
+#<Road Networks: Intersections and Roundabouts> Intersection, 4-Way w/ Flat Roads
+#<Road Networks: Intersections and Roundabouts> Road Network - Roundabouts (Flat)
+#<Road Networks: Intersections and Roundabouts> Roundabout (3D, 36 m), C-Class, Traffic
+#<Road Networks: Intersections and Roundabouts> Roundabout (3D, 36 m), Pickup w/ Trailer
+#<Road Networks: Intersections and Roundabouts> Roundabout (3D, 36 m), Visible Boundaries
+#<Simulink and LabVIEW Models> Active Transfer Case Control
+#<Simulink and LabVIEW Models> Active Transfer Case Control - Multi-Port
+#<Simulink and LabVIEW Models> Ext. ABS: Split Mu
+#<Simulink and LabVIEW Models> Ext. ABS: Split Mu - Multi-Port
+#<Simulink and LabVIEW Models> Ext. ABS: Split Mu - Multi-Port SLX
+#<Simulink and LabVIEW Models> Ext. Center Diff.
+#<Simulink and LabVIEW Models> Ext. Driver Model
+#<Simulink and LabVIEW Models> Ext. Eng. and Torque Coupler
+#<Simulink and LabVIEW Models> Ext. Frt., Ctr., and Rr. Diffs.
+#<Simulink and LabVIEW Models> Ext. Torque Coupler
+#<Simulink and LabVIEW Models> Ext. Transmission
+#<Simulink and LabVIEW Models> External 4WS, DLC
+#<Simulink and LabVIEW Models> External Engine
+#<Simulink and LabVIEW Models> External Powertrain, Acceleration
+#<Simulink and LabVIEW Models> External Springs, DLC
+#<Simulink and LabVIEW Models> LabVIEW Baseline Example
+#<Simulink and LabVIEW Models> LabVIEW Ext. ABS: Split Mu
+#<Simulink and LabVIEW Models> Radar Active Cruise: First Car (Ext. Sen.)
+#<Simulink and LabVIEW Models> Radar Active Cruise: Second Car (Ext. Sen.)
+#<Simulink and LabVIEW Models> Rear Twin Clutch Control
+#<Simulink and LabVIEW Models> Semi-Active Susp.: Bounce Sine Sweep
+#<Simulink and LabVIEW Models> Yaw Control Diff., DLC w/ Low Mu
+#<Steering Tests> Events: Reverse Spin
+#<Steering Tests> On Center Steer Test
+#<Steering Tests> Sine Sweep Steer Angle Test
+#<Steering Tests> Sine Sweep Steer Torque Test
+#<Steering Tests> Speed Variable Steer Test w/ 4WS
+#<Steering Tests> Static Steer Test - Brakes Off
+#<Steering Tests> Static Steer Test - Brakes On
+#<Steering Tests> Torque Input: Apply and Release - Manual
+#<Steering Tests> Torque Input: Apply and Release - Power
+#<Suspension and Ride Tests> Bounce Sine Sweep
+#<Suspension and Ride Tests> Chassis Flex: Rigid Chassis Overlay
+#<Suspension and Ride Tests> K & C: Bounce Test
+#<Suspension and Ride Tests> K & C: Roll Stiffness Test
+#<Suspension and Ride Tests> Lifted Suspension (SA_SA)
+#<Suspension and Ride Tests> Lowered Suspension
+#<Suspension and Ride Tests> Non-Linear Suspension Compliance
+#<Suspension and Ride Tests> Roll Sine Sweep
+#<Suspension and Ride Tests> Suspension Bump Stops
+#<Suspension and Ride Tests> Twist Beam - DLC
+#<Suspension and Ride Tests> Twist Beam Legacy - DLC
+#<Suspension and Ride Tests> Twist Beam Suspension Legacy
+#<Suspension and Ride Tests> Twist Beam Suspension Legacy - DLC
+#<Tire Models> CS 9 Extended Camber: Asym - Acc./Brk
+#<Tire Models> CS 9 Extended Camber: Asymmetric - DLC
+#<Tire Models> CS 9 Normalized Tire Data (E-Class Sedan)
+#<Tire Models> CS 9 Simple Camber: Asymmetric - DLC
+#<Tire Models> Extended Tires: Acc./Braking
+#<Tire Models> Extended Tires: Sine Steer
+#<Tire Models> Extended Tires: Small Bump
+#<Tire Models> MF-Tyre, Asymmetric: Acc./Brk
+#<Tire Models> MF-Tyre, Asymmetric: DLC
+#<Tire Models> MF-Tyre, Sym.: Acc./Braking
+#<Tire Models> MF-Tyre, Sym.: Sine Steer
+#<Tire Models> MF-Tyre, Sym.: Small Bump
+#<Tire Models> Pacejka 5.2: DLC, Consumers Union
+#<Tire Models> Rescaled Tire Data (C-Class Hatchback)
+#<Tire Models> Rescaled Tire Data (E-Class Sedan)
+#<Tire Models> Simple TYDEX/STI Model: DLC
+#<Tire Models> Simple VS/STI Model: DLC
+#<Tire Models> Variable Contact Patch Dimensions
+#<Tire Tester> Camber Effects - Gamma = -1 deg
+#<Tire Tester> Camber Effects - Gamma = -2 deg
+#<Tire Tester> Camber Effects - Gamma = 0 deg
+#<Tire Tester> Camber Effects - Gamma = 1 deg
+#<Tire Tester> Camber Effects - Gamma = 2 deg
+#<Tire Tester> Friction Ellipse - Alpha = -10 deg
+#<Tire Tester> Friction Ellipse - Alpha = -2 deg
+#<Tire Tester> Friction Ellipse - Alpha = -4 deg
+#<Tire Tester> Friction Ellipse - Alpha = -6 deg
+#<Tire Tester> Friction Ellipse - Alpha = -8 deg
+#<Tire Tester> Friction Ellipse - Alpha = 0 deg
+#<Tire Tester> Load Sensitivity at 1000 N
+#<Tire Tester> Load Sensitivity at 2000 N
+#<Tire Tester> Load Sensitivity at 4000 N
+#<Tire Tester> Load Sensitivity at 500 N
+#<Tire Tester> Load Sensitivity at 6000 N
+#<Tire Tester> Load Sensitivity at 8000 N
+#<Tire Tester> MF-Tyre Friction Ellipse - Alpha = -10 deg
+#<Tire Tester> MF-Tyre Friction Ellipse - Alpha = -2 deg
+#<Tire Tester> MF-Tyre Friction Ellipse - Alpha = -4 deg
+#<Tire Tester> MF-Tyre Friction Ellipse - Alpha = -6 deg
+#<Tire Tester> MF-Tyre Friction Ellipse - Alpha = -8 deg
+#<Tire Tester> MF-Tyre Friction Ellipse - Alpha = 0 deg
+#<Tire Tester> MF-Tyre Sweep Alpha (Fz = 2000 N)
+#<Tire Tester> MF-Tyre Sweep Alpha (Fz = 4000N)
+#<Tire Tester> MF-Tyre Sweep Alpha (Fz = 6000N)
+#<Tire Tester> MF-Tyre Sweep Gamma (Fz = 2000 N)
+#<Tire Tester> MF-Tyre Sweep Gamma (Fz = 4000N)
+#<Tire Tester> MF-Tyre Sweep Gamma (Fz = 6000N)
+#<Tire Tester> MF-Tyre Sweep Kappa (Fz = 2000 N)
+#<Tire Tester> MF-Tyre Sweep Kappa (Fz = 4000 N)
+#<Tire Tester> MF-Tyre Sweep Kappa (Fz = 6000 N)
+#<Trailers (Extra License Needed)> Fishhook Procedure: Van w/ Trailer
+#<Trailers (Extra License Needed)> Trailer: Railroad Track Crossing
+#<Trailers (Extra License Needed)> Trailer: Reversing (Parametric Hitch)
+#<Unconventional Vehicles> Three-wheeled Vehicle
+#<Unconventional Vehicles> Tractor w/ Center Pivot Front Axle
+#<Unconventional Vehicles> Utility Truck
+#<VS Visualizer Examples> Configurable Heads Up Display (HUD) - Handling Course (OSG)
+#<VS Visualizer Examples> Configurable Heads Up Display (HUD) - Handling Course (OSG) with Gauges
+#<VS Visualizer Examples> Configurable Heads Up Display (HUD) - Rearview Mirror
+#<VS Visualizer Examples> E-Class Sedan, Right-Hand Drive
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains all of the shipping examples for CarSim.
+#
+#Please note that many of these runs either require additional license options or additional external software to run.  Some runs also may require a change to the dataset (typically to specify the proper path for external DLLs) in order to execute properly.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; All Run Control Datasets
+#Library : Batch Runs
+#DataSet : All Run Control Datasets
+#Category: 
+#FileID  : BatRun_1558c19b-886a-43c5-916e-929e8db01d27
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

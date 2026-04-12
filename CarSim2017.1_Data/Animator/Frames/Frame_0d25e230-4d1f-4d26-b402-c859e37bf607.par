@@ -1,0 +1,28 @@
+PARSFILE
+#FullDataName Animator: Reference Frame`L1 Outrigger Fz`Rollover Ref. Frames
+ADD_REFERENCE_FRAME Rollover Ref. Frames L1 Outrigger Fz
+#RingCtrl0 yaw_pitch_roll
+SET_EULER_ANGLES yaw_pitch_roll
+SET_X_NAME x_rp1
+SET_Y_NAME y_rp1
+SET_YAW_NAME Yaw
+SET_FRAME_SCALE_Z_NAME FZ_RP1
+
+WRT_x_rp1
+ANI_x_rp1
+WRT_y_rp1
+ANI_y_rp1
+WRT_Yaw
+ANI_Yaw
+WRT_FZ_RP1
+ANI_FZ_RP1
+
+LOG_ENTRY Used Dataset: Animator: Reference Frame; { Rollover Ref. Frames } L1 Outrigger Fz
+#Library : Animator: Reference Frame
+#DataSet : L1 Outrigger Fz
+#Category: Rollover Ref. Frames
+#FileID  : Frame_0d25e230-4d1f-4d26-b402-c859e37bf607
+#Product : CarSim 2017.1
+#VehCode Reference Frame
+
+END

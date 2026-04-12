@@ -1,0 +1,40 @@
+PARSFILE
+#FullDataName Plot: Setup`Rack Test`2D Steer
+
+ADD_ENTITY Plot
+
+
+PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+#CheckBox0 0    
+
+
+#MiscYellow0
+PLOTCHANNELS rackl1, Time
+PLOTCHANNELS rackr1, Time
+PLOTCHANNELS rackCl1, time
+PLOTCHANNELS rackCr1, time
+
+#ENDMYellow
+
+
+#RingCtrl2 Auto
+YMaxmin Auto
+#RingCtrl3 Auto
+XMaxmin Auto
+#RingCtrl8 1
+
+
+PTITLE Rack Test
+
+END_ENTITY Plot
+
+
+LOG_ENTRY Used Dataset: Plot: Setup; { 2D Steer } Rack Test
+#Library : Plot: Setup
+#DataSet : Rack Test
+#Category: 2D Steer
+#FileID  : Plot_6eb2927e-9468-4aa1-af00-e77192f40f57
+#Product : CarSim 2017.1
+#VehCode Plot Setup
+
+END

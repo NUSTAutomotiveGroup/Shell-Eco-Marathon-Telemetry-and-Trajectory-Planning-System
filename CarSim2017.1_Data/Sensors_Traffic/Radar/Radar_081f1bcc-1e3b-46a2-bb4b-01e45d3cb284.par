@@ -1,0 +1,65 @@
+PARSFILE
+#FullDataName ADAS Sensors for Range and Tracking`Lane-Detection, X = -1200, Z = 1450`Forward Facing Sensors
+DEFINE_SENSORS 1
+NSENSORS_INCREMENT
+symbol_add <<s>> 1
+SET_DESCRIPTION SENSOR_NAME Lane-Detection, X = -1200, Z = 1450
+#CheckBox0 1    
+#CheckBox1 1    
+OPT_BLOCK_SENSOR 1
+#CheckBox2 1    
+OPT_SORT_OUTPUTS_SENSOR 1
+#CheckBox3 1    
+#CheckBox5 0    
+OPT_EXPORT_SENSOR 0
+#CheckBox6 1    
+
+#RingCtrl0 0
+#RingCtrl1 1
+SENSOR_DETECT_TRANSLUCENCY 1
+#RingCtrl2 1
+IUNIT_SENSOR 1
+#RingCtrl3 1
+TYPE_SENSOR 1
+PARSFILE Sensors_Traffic\Radar_Range\Range_bffa1a3e-6e4a-4c40-9dfb-a498f33b25ee.par
+#BlueLink0 Sensor Range and Bearing Sensitivity`25.1 m X Limit` ` , Range & Bearing Sensitivity`Range_bffa1a3e-6e4a-4c40-9dfb-a498f33b25ee
+
+PARSFILE Sensors_Traffic\Radar_Elevation\SenElev_c3a8a857-ca54-46aa-9e2d-0220f925dd7e.par
+#BlueLink1 Sensor Elevation Sensitivity`Only Down` ` , Elevation Sensitivity`SenElev_c3a8a857-ca54-46aa-9e2d-0220f925dd7e
+
+X_SENSOR -1200
+Y_SENSOR 0
+Z_SENSOR 1450
+YAW_AIM_SENSOR 0
+PITCH_AIM_SENSOR 0
+ROLL_AIM_SENSOR 0
+SENSOR_DETECT_COLOR 0 0.8 0
+*SET_TRANSPARENCY 0.2
+*SET_COLOR_FIELD 0 0.8 0
+BEARING_MIN_SENSOR -60
+BEARING_MAX_SENSOR 60
+
+SPECIAL_PARSFILE Animator\STL\Shape_79e403bf-c597-42c5-83f6-ad98b66136c0.par
+#BlueLink3 Animator: Shape File Link`Sensor Detection Vector (Box)` Sensors` , Shape for vector`Shape_79e403bf-c597-42c5-83f6-ad98b66136c0
+
+SENSOR_DETECT_OBJ Animator\STL\Shape_79e403bf-c597-42c5-83f6-ad98b66136c0.par
+#MiscYellow0
+ani_global_interpolation off
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This sensor is for use in lane detection scenarios. It is limited to 25.1 m forward and elevation (down) more than 1 degree.
+#
+#Traffic vehicles can occlude detections, but will usually not count as a detection because of the elevation sensitivity.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: ADAS Sensors for Range and Tracking; { Forward Facing Sensors } Lane-Detection, X = -1200, Z = 1450
+#Library : ADAS Sensors for Range and Tracking
+#DataSet : Lane-Detection, X = -1200, Z = 1450
+#Category: Forward Facing Sensors
+#FileID  : Radar_081f1bcc-1e3b-46a2-bb4b-01e45d3cb284
+#Product : CarSim 2017.1
+#VehCode ADAS Sensor
+
+END

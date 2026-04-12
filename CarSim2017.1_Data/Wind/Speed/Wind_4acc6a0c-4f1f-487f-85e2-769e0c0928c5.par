@@ -1,0 +1,33 @@
+PARSFILE
+#FullDataName Wind Amplitude`Constant: 50 km/h`
+#CheckBox0 0    
+
+#RingCtrl0 CONSTANT
+#RingCtrl1 CONSTANT
+#RingCtrl2 MULTIPLY
+WIND_SPEED_COMBINE MULTIPLY
+WIND_SPEED_CONSTANT 50
+WIND_SPEED_S_CONSTANT 1
+#RadioCtrl0 0    
+#RadioCtrl1 0    
+
+*SCALAR 50
+*SCALAR2 1
+D_AIR 1.206
+
+
+#EMBEDDED_NOTES
+#Wind Speed (kph)
+#
+#This dataset is used to represent a constant wind speed of 50 kph.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Wind Amplitude; Constant: 50 km/h
+#Library : Wind Amplitude
+#DataSet : Constant: 50 km/h
+#Category: 
+#FileID  : Wind_4acc6a0c-4f1f-487f-85e2-769e0c0928c5
+#Product : CarSim 2017.1
+#VehCode Wind Speed
+
+END

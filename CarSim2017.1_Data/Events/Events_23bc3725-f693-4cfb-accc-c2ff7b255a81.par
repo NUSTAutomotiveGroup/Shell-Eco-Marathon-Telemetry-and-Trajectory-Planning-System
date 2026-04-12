@@ -1,0 +1,69 @@
+PARSFILE
+#FullDataName Events`B. Maintain Constant Speed`Transient Response Times
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 1    
+#CheckBox6 1    
+#CheckBox7 0    
+#CheckBox8 0    
+
+#RingCtrl0 >
+#RingCtrl10 1
+#RingCtrl11 1
+*NAME1 t_event
+*VALUE1 time_settle
+*SPEED speed_in_mph
+
+
+! Reset all open-loop control clocks by setting parameters to current time
+TSTART_T_EVENT = T ; ! 2014
+T_EVENT_START = T ; ! legacy
+TSTART_BRAKES = T ;
+TSTART_STEER_TQ = T ;
+TSTART_F_BRAKE_PEDAL = T ;
+TSTART_PBK_CON = T ;
+TSTART_CLUTCH = T ;
+TSTART_GEAR = T ;
+TSTART_SPEED_CTRL = T ;
+TSTART_STEER = T ;
+TSTART_THROTTLE = T ;
+TSTART_TRANS = T ;
+TSTART_WIND = T ;
+OPT_INIT_CONFIG 0
+OPT_INIT_PATH 0
+OPT_INIT_SPEED 0
+INSTALL_DRIVER_SPEED_CONTROLLER 2014
+Opt_SC 3
+OPT_SC 3
+SPEED_TARGET_COMBINE ADD
+SPEED_TARGET_CONSTANT 0
+SPEED_TARGET_S_CONSTANT speed_in_mph
+OPT_SC_ENGINE_BRAKING 0
+PARSFILE Control\Throttle\Throttle_768d3744-c109-4ff7-a65b-3b0bea560117.par
+#BlueLink10 Control: Throttle (Open Loop)`Constant: 0` Constant` , Miscellaneous`Throttle_768d3744-c109-4ff7-a65b-3b0bea560117
+
+DEFINE_EVENT t_event > time_settle ; Events\Events_4c485117-53e8-4b01-b982-a673f7fc25b8.par
+#BlueLink0 Events`C. Slowly Increasing Steer` Transient Response Times` , Events`Events_4c485117-53e8-4b01-b982-a673f7fc25b8
+
+
+#EMBEDDED_NOTES
+#The "speed_in_mph" parameter is pasted into the yellow field for the Constant Target Speed. (Even though the field is too small to display it, it is there.)
+#
+#An open-loop throttle control is linked here to "turn-off" the open loop throttle setting from the previous event.
+#
+#The target speed is maintained for a settling time, to reach steady state.
+#
+#The checkbox to reset the control clocks is checked so t_event can be used to monitor the time elapsed since this event began.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Transient Response Times } B. Maintain Constant Speed
+#Library : Events
+#DataSet : B. Maintain Constant Speed
+#Category: Transient Response Times
+#FileID  : Events_23bc3725-f693-4cfb-accc-c2ff7b255a81
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

@@ -1,0 +1,68 @@
+PARSFILE
+#FullDataName Suspension: Twist Beam Compliances - Lateral`B-Class, Hatchback - Rear`
+define_variable CLATX_FX1 = 0.0; mm/N; var. lat. deflection due to par. Fx(L)
+define_variable CLATX_FY1 = 0.0; mm/N; var. lat. deflection due to par. Fy(L)
+define_variable CLATX_MY1 = 0.0; mm/N-m; var. lat. deflection due to par. My(L)
+define_variable CLATX_MZ1 = 0.0; mm/N-m; var. lat. deflection due to par. Mz(L)
+define_variable CLATY_FX1 = 0.0; mm/N; var. lat. deflection due to opp. Fx(L)
+define_variable CLATY_FY1 = 0.0; mm/N; var. lat. deflection due to opp. Fy(L)
+define_variable CLATY_MY1 = 0.0; mm/N-m; var. lat. deflection due to opp. My(L)
+define_variable CLATY_MZ1 = 0.0; mm/N-m; var. lat. deflection due to opp. Mz(L)
+define_variable CLATX_FX2 = 0.0; mm/N; var. lat. deflection due to par. Fx(R)
+define_variable CLATX_FY2 = 0.0; mm/N; var. lat. deflection due to par. Fy(R)
+define_variable CLATX_MY2 = 0.0; mm/N-m; var. lat. deflection due to par. My(R)
+define_variable CLATX_MZ2 = 0.0; mm/N-m; var. lat. deflection due to par. Mz(R)
+define_variable CLATY_FX2 = 0.0; mm/N; var. lat. deflection due to opp. Fx(R)
+define_variable CLATY_FY2 = 0.0; mm/N; var. lat. deflection due to opp. Fy(R)
+define_variable CLATY_MY2 = 0.0; mm/N-m; var. lat. deflection due to opp. My(R)
+define_variable CLATY_MZ2 = 0.0; mm/N-m; var. lat. deflection due to opp. Mz(R)
+#CheckBox0 0    
+#CheckBox1 0    
+
+*CLATX_FX_L 0.0
+*CLATX_FX_R 0.0
+*CLATX_FY_L 0.00000942
+*CLATX_FY_R 0.0
+*CLATX_MY_L 0.0
+*CLATX_MY_R 0.0
+*CLATX_MZ_L 0.0
+*CLATX_MZ_R 0.0
+*CLATY_FX_L 0.0
+*CLATY_FX_R 0.0
+*CLATY_FY_L 0.00000942
+*CLATY_FY_R 0.0
+*CLATY_MY_L 0.0
+*CLATY_MY_R 0.0
+*CLATY_MZ_L 0.0
+*CLATY_MZ_R 0.0
+
+CLATX_FX1 0.0
+CLATX_FX2 0.0*(-1)
+CLATX_FY1 0.00000942
+CLATX_FY2 0.00000942
+CLATX_MY1 0.0
+CLATX_MY2 0.0*(-1)
+CLATX_MZ1 0.0
+CLATX_MZ2 0.0
+CLATY_FX1 0.0
+CLATY_FX2 0.0*(-1)
+CLATY_FY1 0.00000942
+CLATY_FY2 0.00000942
+CLATY_MY1 0.0
+CLATY_MY2 0.0*(-1)
+CLATY_MZ1 0.0
+CLATY_MZ2 0.0
+
+#EMBEDDED_NOTES
+#This screen automatically defines new variables with VS Commands using values specified in the GUI.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Suspension: Twist Beam Compliances - Lateral; B-Class, Hatchback - Rear
+#Library : Suspension: Twist Beam Compliances - Lateral
+#DataSet : B-Class, Hatchback - Rear
+#Category: 
+#FileID  : TBLat_060c0c33-5a67-473a-8cd9-609f7357fe94
+#Product : CarSim 2017.1
+#VehCode Twist Beam (Lat.)
+
+END

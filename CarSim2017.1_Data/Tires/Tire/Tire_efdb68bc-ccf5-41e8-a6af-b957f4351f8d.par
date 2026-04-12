@@ -1,0 +1,75 @@
+PARSFILE
+#FullDataName Tire`Trailer - 235/80 R16`
+FZ_REF 16000
+X_LENGTH 390
+Z_LENGTH 390
+Y_LENGTH 235
+#CheckBox2 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+
+#RingCtrl0 1
+#RingCtrl5 2
+#RingCtrl6 2
+#RingCtrl7 1
+#RingCtrl8 1
+#RingCtrl9 2
+OPT_TIRE_LAG_KAPPA 2
+#RingCtrl10 1
+OPT_TIRE_LAG_ALPHA 1
+OPT_TIRE_MODEL 1
+
+PARSFILE Animator\STL_Groups\ShpGrp_c40dcf66-c86c-4383-9f67-841915970c80.par
+#BlueLink4 Animator: Shape Assembly`Trailer Tire` Tires` , Animator`ShpGrp_c40dcf66-c86c-4383-9f67-841915970c80
+
+WRITE_WHEEL_OFFSET
+*SET_THICKNESS 235
+#BlueLink13 ` , Animator` , Animator` , Animator`
+
+RRE 365
+R0 390
+FZ_TIRE_COEFFICIENT 420
+FZ_MAX 100000
+IT 0
+PARSFILE Generic\tables\GenTab_6200ca2d-9af8-4768-9d04-87ea0bd47068.par
+#BlueLink14 Generic Table`Lx Variable, Scaled to Tire` Tire Relaxation Length` , Longitudinal relaxation length`GenTab_6200ca2d-9af8-4768-9d04-87ea0bd47068
+
+PARSFILE Generic\tables\GenTab_edb0dc74-f107-43df-b9cc-c9fa4d21267d.par
+#BlueLink15 Generic Table`Ly Variable, Scaled to Tire` Tire Relaxation Length` , Longitudinal relaxation length`GenTab_edb0dc74-f107-43df-b9cc-c9fa4d21267d
+
+VLOW_KAPPA 2
+VLOW_ALPHA 2
+RR_C 0.0045
+RR_V 0.000028
+L_CONTACT_X_CONSTANT 150
+L_CONTACT_Y_CONSTANT 235
+RR_FX 1
+OPT_TIRE_COMB 0
+PARSFILE Tires\Mz\TireMz_8435afbb-6031-4c72-be74-71afd4e121e3.par
+#BlueLink0 Tire: Aligning Moment`Trailer - 235/80 R16` ` , Aligning Moment`TireMz_8435afbb-6031-4c72-be74-71afd4e121e3
+
+PARSFILE Tires\Fy\TireFy_aa7e12c1-f75b-4d6b-b80d-d9095bbcbd38.par
+#BlueLink1 Tire: Lateral Force`Trailer - 235/80 R16` ` , Lateral Force`TireFy_aa7e12c1-f75b-4d6b-b80d-d9095bbcbd38
+
+PARSFILE Tires\Fx\TireFx_20576817-0621-4851-bdac-e5ab71913d96.par
+#BlueLink2 Tire: Longitudinal Force`Trailer - 235/80  R16` ` , Longitudinal Force`TireFx_20576817-0621-4851-bdac-e5ab71913d96
+
+PARSFILE Tires\Camber_Thrust\CamStiff_6ed9cd4d-ffa9-4c48-81e3-9923acdeca6a.par
+#BlueLink3 Tire: Camber Thrust Coefficient`Trailer - 235/80 R16` ` , Camber Thrust`CamStiff_6ed9cd4d-ffa9-4c48-81e3-9923acdeca6a
+
+
+
+#EMBEDDED_NOTES
+#Tire & Rim Association Load Rating: 1600 kg
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Tire; Trailer - 235/80 R16
+#Library : Tire
+#DataSet : Trailer - 235/80 R16
+#Category: 
+#FileID  : Tire_efdb68bc-ccf5-41e8-a6af-b957f4351f8d
+#Product : CarSim 2017.1
+#VehCode Tire
+
+END

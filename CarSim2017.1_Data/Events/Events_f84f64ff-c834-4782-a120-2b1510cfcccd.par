@@ -1,0 +1,29 @@
+PARSFILE
+#FullDataName Events`D. Get Ready`Reverse Spin
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl0 <
+#RingCtrl10 1
+#RingCtrl11 4
+*NAME1 vx
+*VALUE1 0.1
+
+DEFINE_EVENT vx < 0.1 ; Events\Events_68eab734-e8d0-48e2-b402-3e92d15cb1bd.par
+#BlueLink0 Events`E. Stand On It` Reverse Spin` , Events`Events_68eab734-e8d0-48e2-b402-3e92d15cb1bd
+
+
+#EMBEDDED_NOTES
+#This event checks to see that the vehicle is nearly stopped. It is required in combination with the previous event because the sign of the vehicle speed changes as it spins.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Reverse Spin } D. Get Ready
+#Library : Events
+#DataSet : D. Get Ready
+#Category: Reverse Spin
+#FileID  : Events_f84f64ff-c834-4782-a120-2b1510cfcccd
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

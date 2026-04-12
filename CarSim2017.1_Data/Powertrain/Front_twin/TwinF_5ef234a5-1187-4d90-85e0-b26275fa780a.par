@@ -1,0 +1,22 @@
+PARSFILE
+#FullDataName Powertrain: Front Twin-Clutch Differential`No Data`Empty (You should edit or delete this)
+
+IDIFF 1
+opt_twin_clutch 1
+
+
+
+
+iside 1
+
+iside 2
+
+LOG_ENTRY Used Dataset: Powertrain: Front Twin-Clutch Differential; { Empty (You should edit or delete this) } No Data
+#Library : Powertrain: Front Twin-Clutch Differential
+#DataSet : No Data
+#Category: Empty (You should edit or delete this)
+#FileID  : TwinF_5ef234a5-1187-4d90-85e0-b26275fa780a
+#Product : CarSim 2017.1
+#VehCode Twin Clutches
+
+END

@@ -1,0 +1,82 @@
+PARSFILE
+#FullDataName CarSim Run Control`Mcity: ADAS - Cross Traffic w/ AEB`* CS 2017 - Mcity
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_a0757dbc-d5ee-4c89-9535-f3c806fd67d7
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_8e88a03d-829a-4903-9070-6f77c84a8e7b.par
+#BlueLink0 Animator: Camera Setup`Mcity: Scene view - 160 deg Azimuth, 20 deg El` Mcity` , Animator camera`Camera_8e88a03d-829a-4903-9070-6f77c84a8e7b
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 3
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 2
+#RingCtrl7 -1
+*RUN_COLOR 0 0 1
+SET_RUN_COLOR 0 0 1
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_a0aaeca0-2c47-4094-9562-cbd5e0d325b6.par
+#BlueLink2 Vehicle: Assembly`C-Class, Hatchback 2017` C-Class` , Vehicle Configuration`Vehicle_a0aaeca0-2c47-4094-9562-cbd5e0d325b6
+
+PARSFILE Procedures\Proc_d0fd1e4d-941e-46a8-9a0a-aee8812cd9d1.par
+#BlueLink28 Procedures`30 km/h Mcity ADAS Example` Mcity` , Procedure`Proc_d0fd1e4d-941e-46a8-9a0a-aee8812cd9d1
+
+PARSFILE Roads\Center_XY\PathXY_9020aa54-c6f3-40b1-b1ad-7460d0e34d60.par
+#BlueLink10 Path: X-Y Coordinates`Mcity Straight Path State Street` Mcity` , Miscellaneous`PathXY_9020aa54-c6f3-40b1-b1ad-7460d0e34d60
+
+PARSFILE Generic\VS_commands\GenVS_22ae457e-3041-414d-9e92-83dea09ae702.par
+#BlueLink11 Generic VS Commands`Mcity: FCW Booleans and HUD Alert` ADAS Support` , Miscellaneous`GenVS_22ae457e-3041-414d-9e92-83dea09ae702
+
+PARSFILE Plot\Setup\Plot_79f3157d-d29b-4f16-ba4e-cc4b4a19b7ed.par
+#BlueLink15 Plot: Setup`Distances for Closest 2 Objects, Sensor 1` ADAS` , Plot`Plot_79f3157d-d29b-4f16-ba4e-cc4b4a19b7ed
+
+PARSFILE Plot\Setup\Plot_f5d0f978-49a4-4e36-9c25-7d47b1c2be3e.par
+#BlueLink16 Plot: Setup`Wheel Cylinder Pressures` Braking` , Plot`Plot_f5d0f978-49a4-4e36-9c25-7d47b1c2be3e
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Vehicles\Assembly\Vehicle_a0aaeca0-2c47-4094-9562-cbd5e0d325b6.png
+WRITE_SENSOR_DETECT
+Title Mcity: ADAS - Cross Traffic w/ AEB <* CS 2017 - Mcity>
+CATEGORY * CS 2017 - Mcity 
+DATASET_TITLE Mcity: ADAS - Cross Traffic w/ AEB
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#Simple ADAS example using Mcity simulation.
+#
+#To aid in the development of additional driving paths, a grid map of Mcity can be found on the Help Menu under the heading "Real-Time and DS Systems"
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { * CS 2017 - Mcity } Mcity: ADAS - Cross Traffic w/ AEB
+#Library : CarSim Run Control
+#DataSet : Mcity: ADAS - Cross Traffic w/ AEB
+#Category: * CS 2017 - Mcity
+#FileID  : Run_a0757dbc-d5ee-4c89-9535-f3c806fd67d7
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

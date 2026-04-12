@@ -1,0 +1,63 @@
+PARSFILE
+#FullDataName Control: Speed (Closed Loop) Using Path Preview`Normal Driving on Road Course`Miscellaneous
+INSTALL_DRIVER_SPEED_CONTROLLER CarSim9
+#RingCtrl0 2
+OPT_SC_SKILL 2
+#RingCtrl1 1
+#RingCtrl2 1
+#RingCtrl3 1
+#RingCtrl4 1
+#RingCtrl5 3
+SPEED_TARGET_COMBINE ADD
+SPEED_TARGET_CONSTANT 0
+SPEED_AX_THROTTLE_CONSTANT 0.3
+SPEED_AX_BRAKE_CONSTANT 0.3
+SPEED_AY_LEFT_CONSTANT 0.3
+SPEED_AY_RIGHT_CONSTANT 0.3
+PARSFILE Control\Speed_s\SpdSta_d5036356-52c6-49e2-bda6-634857674701.par
+#BlueLink4 Control: Speed (Closed Loop) vs. Station (Legacy)`Normal Driving on Road Course` ` , Speed vs. station`SpdSta_d5036356-52c6-49e2-bda6-634857674701
+
+OPT_SC 4
+#CheckBox0 1    
+OPT_SC_ENGINE_BRAKING 1
+#CheckBox1 1    
+#CheckBox2 0    
+OPT_SC_3D 0
+
+SPEED_KP 0.4
+SPEED_KI 0.1
+SPEED_KP3 4
+BK_PERF_SC 0.1
+FPD_PERF_SC 0.1
+SPEED_PREVIEW_STEP 2
+SPEED_CURV_LENGTH 50
+SPEED_PREVIEW_START 2
+SPEED_PREVIEW 200
+PBK_CON_MAX_SC 10
+#MiscYellow0
+define_variable sv_vx_err_save 0;-; ...
+     Use to reset integral ctrl for Vx overshoot
+eq_out sv_iverr = if_gt_0_then(vx_err * sv_vx_err_save, sv_iverr,0);
+eq_save sv_vx_err_save = vx_err;
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#In daily highway driving drivers limit themselves to fairly low acceleration levels. Here we use a maximum of 0.3 G's in all directions.
+#
+#The speed limit for the run is obtained from the linked table. This table allows a higher speed on the straight part of the test track.
+#
+#The calculation of the target speed is performed for a segment of the road stretching from 2m ahead of the car to 202m ahead (segment length 200m). An estimate of road curvature is taken from a segment 50m long, centered about each point where the target speed is calculated. Calculations are performed at points 2m apart in the 200m interval.
+#
+#The miscellaneous data field contains some VS commands to reset the integral error of the controller to zero when its effect is to cause overshoot, to improve tracking of the target.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Control: Speed (Closed Loop) Using Path Preview; { Miscellaneous } Normal Driving on Road Course
+#Library : Control: Speed (Closed Loop) Using Path Preview
+#DataSet : Normal Driving on Road Course
+#Category: Miscellaneous
+#FileID  : SpdPath_65670824-831c-47e5-a0ce-1ce4d6dd8fa1
+#Product : CarSim 2017.1
+#VehCode Speed Using Path Preview
+
+END

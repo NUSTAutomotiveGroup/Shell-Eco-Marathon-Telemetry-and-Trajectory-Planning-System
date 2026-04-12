@@ -1,0 +1,32 @@
+PARSFILE
+#FullDataName Events`3. Steer Back into Left Lane`Blind Spot
+#CheckBox1 0    
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl0 ==
+#RingCtrl10 1
+#RingCtrl11 4
+*NAME1 CLEAR
+*VALUE1 1
+
+PARSFILE Control\Driver\StrDM_0b8c2a30-b49a-4f39-ab3d-a93f658ae09b.par
+#BlueLink10 Control: Steering by the Closed-loop Driver Model`1 m Left, 1. sec. Preview` Constant Position` , Miscellaneous`StrDM_0b8c2a30-b49a-4f39-ab3d-a93f658ae09b
+
+#MiscYellow1
+delete_events CLEAR
+#ENDMYellow
+
+DEFINE_EVENT CLEAR == 1 ; Events\Events_edb75a35-b819-4a79-8bae-f16ad31f6f0f.par
+#BlueLink0 Events`2. Change Lanes` Blind Spot` , Events`Events_edb75a35-b819-4a79-8bae-f16ad31f6f0f
+
+
+LOG_ENTRY Used Dataset: Events; { Blind Spot } 3. Steer Back into Left Lane
+#Library : Events
+#DataSet : 3. Steer Back into Left Lane
+#Category: Blind Spot
+#FileID  : Events_9397633f-3939-4591-bb03-91a795290267
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

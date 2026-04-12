@@ -1,0 +1,72 @@
+PARSFILE
+#FullDataName Events`E. Stand On It`Reverse Spin
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 1    
+#CheckBox6 1    
+#CheckBox7 0    
+
+#RingCtrl0 >
+#RingCtrl10 1
+#RingCtrl11 5
+*NAME1 vx
+*VALUE1 vx_max
+
+
+! Reset all open-loop control clocks by setting parameters to current time
+TSTART_T_EVENT = T ; ! 2014
+T_EVENT_START = T ; ! legacy
+TSTART_BRAKES = T ;
+TSTART_STEER_TQ = T ;
+TSTART_F_BRAKE_PEDAL = T ;
+TSTART_PBK_CON = T ;
+TSTART_CLUTCH = T ;
+TSTART_GEAR = T ;
+TSTART_SPEED_CTRL = T ;
+TSTART_STEER = T ;
+TSTART_THROTTLE = T ;
+TSTART_TRANS = T ;
+TSTART_WIND = T ;
+OPT_INIT_CONFIG 0
+OPT_INIT_PATH 0
+OPT_INIT_SPEED 0
+Opt_SC 0
+PARSFILE Control\Throttle\Throttle_a0adeeaa-d70b-43f1-9dbb-326347a748c0.par
+#BlueLink18 Control: Throttle (Open Loop)`Ramp To Half Throttle in 0.9 sec.` Ramp` , Throttle`Throttle_a0adeeaa-d70b-43f1-9dbb-326347a748c0
+
+#MiscYellow0
+! Tell the driver model it is now driving in the
+! reverse direction on the road.
+opt_direction -1
+#ENDMYellow
+
+PARSFILE Control\Driver\StrDM_456721d6-9fab-4568-8552-3258b3bf2eda.par
+#BlueLink10 Control: Steering by the Closed-loop Driver Model`No Offset, 1 sec. Preview, High Dynamic Speed` Constant Position` , Miscellaneous`StrDM_456721d6-9fab-4568-8552-3258b3bf2eda
+
+PARSFILE Control\Gear_at\GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86.par
+#BlueLink11 Control: Shifting (Closed Loop)`AT All Gears` ` , Miscellaneous`GearCL_3f60e7d2-b8c4-4d68-a9c4-d897bb3e2a86
+
+PARSFILE Control\Braking\PbkCon_bf4961f4-c4cf-4b18-a8f7-5f65e31ecd3f.par
+#BlueLink14 Control: Braking MC Pressure (Open Loop)`Constant: 0 MPa` Constant` , Miscellaneous`PbkCon_bf4961f4-c4cf-4b18-a8f7-5f65e31ecd3f
+
+DEFINE_EVENT vx > vx_max ; Events\Events_b5af09b5-d8ad-4e81-ae24-eebce691780e.par
+#BlueLink0 Events`End Events` ` , Events`Events_b5af09b5-d8ad-4e81-ae24-eebce691780e
+
+
+#EMBEDDED_NOTES
+#In this event, the vehicle accelerates out of the spin to a pre-determined maximum speed vx_max.
+#
+#The steering is returned to straight ahead, the transmission is shifted into neutral, and the speed control is set to open loop.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Reverse Spin } E. Stand On It
+#Library : Events
+#DataSet : E. Stand On It
+#Category: Reverse Spin
+#FileID  : Events_68eab734-e8d0-48e2-b402-3e92d15cb1bd
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

@@ -1,0 +1,23 @@
+PARSFILE
+#FullDataName Batch Runs`Loaded Tables`* 2017: New Examples
+#CheckBox1 0    
+
+#MiscYellow1
+#<* CS 2017 - Loaded Tables> Baseline (loaded road profile)
+#<* CS 2017 - Loaded Tables> Baseline (nominal profile)
+#ENDMYellow
+
+
+#EMBEDDED_NOTES
+#This batch run dataset contains the datasets which illustrate the ability to load large tables from an external file
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Batch Runs; { * 2017: New Examples } Loaded Tables
+#Library : Batch Runs
+#DataSet : Loaded Tables
+#Category: * 2017: New Examples
+#FileID  : BatRun_5636e26a-2543-46dc-bd99-4d9c13305b4c
+#Product : CarSim 2017.1
+#VehCode Batch Run
+
+END

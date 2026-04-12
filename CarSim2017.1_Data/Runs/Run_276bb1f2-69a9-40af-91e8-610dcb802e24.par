@@ -1,0 +1,79 @@
+PARSFILE
+#FullDataName CarSim Run Control`Braking in Turn: Brake Temp. and Booster Effects`Brake Tests
+#VEHICLECODE Ind_Ind
+symbol_push  <<s>> 0
+symbol_push  <<o>> 0
+symbol_push  <<id_run>> Run_276bb1f2-69a9-40af-91e8-610dcb802e24
+
+OPT_ALL_WRITE 0
+IOBJECT 0
+OPT_INT_METHOD 2
+OPT_VS_FILETYPE 3
+PARSFILE Animator\Cameras\Camera_5feacfa5-2cee-4705-8aee-f5baa805e553.par
+#BlueLink0 Animator: Camera Setup`FL View, Road Ref. (Rr. Facing)` Road Reference` , Animator camera`Camera_5feacfa5-2cee-4705-8aee-f5baa805e553
+
+#CheckBox0 1    
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 1    
+#CheckBox4 1    
+#CheckBox5 0    
+#CheckBox6 0    
+#CheckBox7 0    
+#CheckBox8 1    
+#CheckBox9 0    
+#CheckBox10 0    
+#CheckBox11 0    
+
+#RingCtrl0 4
+#RingCtrl1 0
+#RingCtrl2 3
+#RingCtrl3 0
+#RingCtrl6 0
+#RingCtrl7 -1
+*RUN_COLOR 0.396 1 0.996
+SET_RUN_COLOR 0.396 1 0.996
+#RingCtrl4 off
+RT_WINDOW_CLOSE off
+#RingCtrl5 0
+LIVE_SERVER_MAX_CONNECTIONS 0
+PARSFILE Vehicles\Assembly\Vehicle_0784d2bd-bfb3-4db3-a9a3-939be6410358.par
+#BlueLink2 Vehicle: Assembly`E-Class, Sedan 2017: w/ Temp. and Boost` E-Class` , Vehicle Configuration`Vehicle_0784d2bd-bfb3-4db3-a9a3-939be6410358
+
+PARSFILE Procedures\Proc_7b30fa68-3ee7-4dcf-8126-8500064113a1.par
+#BlueLink28 Procedures`Braking from 80 km/h, 250 N Pedal Force` Accel. and Brake Testing` , Procedure`Proc_7b30fa68-3ee7-4dcf-8126-8500064113a1
+
+PARSFILE Roads\3D_Road\Road_e8572ed8-f752-4691-aef8-defbe1fd35dd.par
+#BlueLink9 Road: 3D Surface (All Properties)`500-ft Radius Circle, Mu = 0.85` Circular Roads` , Miscellaneous`Road_e8572ed8-f752-4691-aef8-defbe1fd35dd
+
+PARSFILE Animator\Arrows\Arrows_0707108a-af33-4db9-b1d3-bdbd23eea887.par
+#BlueLink10 Animator: Wheel Arrows and Other Indicators`Tire Skid Marks (2 Axles)` Tire Paths (2 Axle)` , Miscellaneous`Arrows_0707108a-af33-4db9-b1d3-bdbd23eea887
+
+PARSFILE Control\Driver\StrDM_5e1b87df-4a9a-4a60-ac80-544adfa4667d.par
+#BlueLink3 Control: Steering by the Closed-loop Driver Model`No Offset, 1 sec. Preview` Constant Position` , Steering`StrDM_5e1b87df-4a9a-4a60-ac80-544adfa4667d
+
+
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_56213a52-605a-4200-ab95-2aae09c11489.png
+WRITE_SENSOR_DETECT
+Title Braking in Turn: Brake Temp. and Booster Effects <Brake Tests>
+CATEGORY Brake Tests 
+DATASET_TITLE Braking in Turn: Brake Temp. and Booster Effects
+#RingCtrl8 1
+#RingCtrl9 1
+
+#EMBEDDED_NOTES
+#This example shows an E-Class Sedan with the Boost and Thermal brake system performing a braking test on a constant radius circle from 80 km/h. Since this vehicle has the Boost and Thermal brake system, pedal force has to be used as the driver control input for braking.
+#
+#The brake system dataset includes caliper and rotor properties as well as temperature sensitivity. To see how this dataset is set up, browse to the Vehicle: Assembly screen and click on the brake system blue link "E-Class, Sedan w/ Temp. and Boost".
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: CarSim Run Control; { Brake Tests } Braking in Turn: Brake Temp. and Booster Effects
+#Library : CarSim Run Control
+#DataSet : Braking in Turn: Brake Temp. and Booster Effects
+#Category: Brake Tests
+#FileID  : Run_276bb1f2-69a9-40af-91e8-610dcb802e24
+#Product : CarSim 2017.1
+#VehCode Run
+
+END

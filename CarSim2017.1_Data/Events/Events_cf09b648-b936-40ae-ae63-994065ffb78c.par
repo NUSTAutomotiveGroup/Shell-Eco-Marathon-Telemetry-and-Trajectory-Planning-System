@@ -1,0 +1,84 @@
+PARSFILE
+#FullDataName Events`D. Front Rim Digs-in`Wind-tripped Rollover
+#CheckBox1 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 0    
+#CheckBox5 1    
+#CheckBox6 1    
+#CheckBox7 0    
+
+#RingCtrl0 >
+#RingCtrl1 >
+#RingCtrl2 <
+#RingCtrl3 >
+#RingCtrl4 <
+#RingCtrl10 5
+#RingCtrl11 4
+*NAME1 t_event
+*NAME2 roll
+*NAME3 roll
+*NAME4 pitch
+*NAME5 pitch
+*VALUE1 5
+*VALUE2 40
+*VALUE3 -40
+*VALUE4 40
+*VALUE5 -40
+
+
+! Reset all open-loop control clocks by setting parameters to current time
+TSTART_T_EVENT = T ; ! 2014
+T_EVENT_START = T ; ! legacy
+TSTART_BRAKES = T ;
+TSTART_STEER_TQ = T ;
+TSTART_F_BRAKE_PEDAL = T ;
+TSTART_PBK_CON = T ;
+TSTART_CLUTCH = T ;
+TSTART_GEAR = T ;
+TSTART_SPEED_CTRL = T ;
+TSTART_STEER = T ;
+TSTART_THROTTLE = T ;
+TSTART_TRANS = T ;
+TSTART_WIND = T ;
+OPT_INIT_CONFIG 0
+OPT_INIT_PATH 0
+OPT_INIT_SPEED 0
+#MiscYellow0
+mu_ref_y(1,2) 0.3
+mu_ref_y(2,2) 0.6
+#ENDMYellow
+
+PARSFILE Wind\Speed\Wind_a1caacd1-6688-4f0b-a0bf-88090bf82fb0.par
+#BlueLink10 Wind Amplitude`Constant: Zero` ` , Miscellaneous`Wind_a1caacd1-6688-4f0b-a0bf-88090bf82fb0
+
+DEFINE_EVENT t_event > 5 ; Events\Events_b5af09b5-d8ad-4e81-ae24-eebce691780e.par
+#BlueLink0 Events`End Events` ` , Events`Events_b5af09b5-d8ad-4e81-ae24-eebce691780e
+
+DEFINE_EVENT roll > 40 ; Events\Events_b5af09b5-d8ad-4e81-ae24-eebce691780e.par
+#BlueLink1 Events`End Events` ` , Events`Events_b5af09b5-d8ad-4e81-ae24-eebce691780e
+
+DEFINE_EVENT roll < -40 ; Events\Events_b5af09b5-d8ad-4e81-ae24-eebce691780e.par
+#BlueLink2 Events`End Events` ` , Events`Events_b5af09b5-d8ad-4e81-ae24-eebce691780e
+
+DEFINE_EVENT pitch > 40 ; Events\Events_b5af09b5-d8ad-4e81-ae24-eebce691780e.par
+#BlueLink3 Events`End Events` ` , Events`Events_b5af09b5-d8ad-4e81-ae24-eebce691780e
+
+DEFINE_EVENT pitch < -40 ; Events\Events_b5af09b5-d8ad-4e81-ae24-eebce691780e.par
+#BlueLink4 Events`End Events` ` , Events`Events_b5af09b5-d8ad-4e81-ae24-eebce691780e
+
+
+#EMBEDDED_NOTES
+#Tire properties are again changed to simulate the tire de-beading and the wheel digging into the road surface.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Wind-tripped Rollover } D. Front Rim Digs-in
+#Library : Events
+#DataSet : D. Front Rim Digs-in
+#Category: Wind-tripped Rollover
+#FileID  : Events_cf09b648-b936-40ae-ae63-994065ffb78c
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

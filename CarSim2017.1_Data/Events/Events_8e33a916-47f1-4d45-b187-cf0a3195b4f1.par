@@ -1,0 +1,37 @@
+PARSFILE
+#FullDataName Events`CCRm D. New Test, Increase Speed`Euro NCAP AEB Testing
+#CheckBox1 1    
+RESET_EVENTS
+#CheckBox6 0    
+#CheckBox7 0    
+
+#RingCtrl0 >
+#RingCtrl10 1
+#RingCtrl11 4
+*NAME1 t
+*VALUE1 0
+
+#MiscYellow0
+VUT_START = VUT_START + (10/3.6);
+#ENDMYellow
+
+#BlueLink10 ` , Miscellaneous` , Miscellaneous` , Miscellaneous`
+
+DEFINE_EVENT t > 0 ; Events\Events_9ffeec9f-d0be-4493-8bce-2d26f0ebbff6.par
+#BlueLink0 Events`CCRm F. Reset Vehicle and Target` Euro NCAP AEB Testing` , Events`Events_9ffeec9f-d0be-4493-8bce-2d26f0ebbff6
+
+
+#EMBEDDED_NOTES
+#Reset VUT_START to 10 km/h higher than previous initial speed.
+#Reset target vehicle starting location.
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Events; { Euro NCAP AEB Testing } CCRm D. New Test, Increase Speed
+#Library : Events
+#DataSet : CCRm D. New Test, Increase Speed
+#Category: Euro NCAP AEB Testing
+#FileID  : Events_8e33a916-47f1-4d45-b187-cf0a3195b4f1
+#Product : CarSim 2017.1
+#VehCode Events
+
+END

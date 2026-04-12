@@ -1,0 +1,27 @@
+PARSFILE
+#FullDataName Models: Transfer to dSPACE SCALEXIO Target`No Data`Empty (You should edit or delete this)
+*TARGET_PATH /tmp/
+*TARGET_ID 
+
+
+#RingCtrl0 2
+OPT_INT_METHOD 2
+#RingCtrl1 1
+*FMI_PORT_TYPE 1
+#CheckBox0 0    
+OPT_IO_UPDATE 0
+#CheckBox1 0    
+#CheckBox2 0    
+*SCX_USEFMU 0
+
+*USE_DIFF_SOLVERS 0
+
+LOG_ENTRY Used Dataset: Models: Transfer to dSPACE SCALEXIO Target; { Empty (You should edit or delete this) } No Data
+#Library : Models: Transfer to dSPACE SCALEXIO Target
+#DataSet : No Data
+#Category: Empty (You should edit or delete this)
+#FileID  : SCALEXIO_1ca98d23-0114-4778-b248-a7780d4582cb
+#Product : CarSim 2017.1
+#VehCode 
+
+END

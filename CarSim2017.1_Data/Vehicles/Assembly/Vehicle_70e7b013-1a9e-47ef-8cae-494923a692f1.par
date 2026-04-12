@@ -1,0 +1,114 @@
+PARSFILE
+#FullDataName Vehicle: Assembly`A-Class, Hatchback 2017`A-Class
+#VehCode Ind_Ind
+#CheckBox0 0    
+#CheckBox1 1    
+
+#RingCtrl0 1
+OPT_PT 1
+#RingCtrl1 1
+#RingCtrl2 1
+#RingCtrl3 0
+
+* Front components
+iaxle 1
+symbol_push  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_0f8d59c1-4c84-4abd-aa67-b2a15c6e24c1.par
+#BlueLink19 Suspension: Independent System Kinematics`A-Class, Hatchback - Front` A-Class` , Kinematics`KinInd_0f8d59c1-4c84-4abd-aa67-b2a15c6e24c1
+
+PARSFILE Suspensions\Compliance\CmpInd_33af22ab-8d37-457c-81cc-2dd54103e211.par
+#BlueLink16 Suspension: Independent Compliance, Springs, and Dampers`A-Class, Hatchback - Front` A-Class` , Compliance`CmpInd_33af22ab-8d37-457c-81cc-2dd54103e211
+
+PARSFILE Generic\Group\GenGrp_baa9b102-b5f5-48f5-9eda-fa32db038d2a.par
+#BlueLink11 Generic Data Group`LCA Sub-compact (Front)` Control Arms` , Misc. Front Data`GenGrp_baa9b102-b5f5-48f5-9eda-fa32db038d2a
+
+
+OPT_ALL_FOUR_TIRES_ALIKE 1
+
+* LF tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_a1408d72-3f16-4f21-987d-670a1dcab2ac.par
+#BlueLink999 Tire`175/65 R14` Touring Tires` , Tire`Tire_a1408d72-3f16-4f21-987d-670a1dcab2ac
+
+
+* RF tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_a1408d72-3f16-4f21-987d-670a1dcab2ac.par
+#BlueLink10 Tire`175/65 R14` Touring Tires` , Tire`Tire_a1408d72-3f16-4f21-987d-670a1dcab2ac
+
+* Rear components
+iaxle 2
+symbol_add  <<axle>> 1
+PARSFILE Suspensions\Kin_Indy\KinInd_d7600692-963b-42c2-af66-5f07b531faf7.par
+#BlueLink20 Suspension: Independent System Kinematics`A-Class, Hatchback - Rear` A-Class` , Kinematics`KinInd_d7600692-963b-42c2-af66-5f07b531faf7
+
+PARSFILE Suspensions\Compliance\CmpInd_13763e89-46c0-4596-bfe8-3c54875493f7.par
+#BlueLink17 Suspension: Independent Compliance, Springs, and Dampers`A-Class, Hatchback - Rear` A-Class` , Compliance`CmpInd_13763e89-46c0-4596-bfe8-3c54875493f7
+
+PARSFILE Generic\Group\GenGrp_391bae9b-4a4e-4b80-a3a0-6a9accd1371e.par
+#BlueLink15 Generic Data Group`LCA Sub-compact (Rear)` Control Arms` , Misc. Rear Data`GenGrp_391bae9b-4a4e-4b80-a3a0-6a9accd1371e
+
+
+* LR tire
+iside 1
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> L<<axle>>
+PARSFILE Tires\Tire\Tire_a1408d72-3f16-4f21-987d-670a1dcab2ac.par
+#BlueLink999 Tire`175/65 R14` Touring Tires` , Tire`Tire_a1408d72-3f16-4f21-987d-670a1dcab2ac
+
+
+* RR tire
+iside 2
+WRITE_ADD_REFERENCE_FRAME_WHEEL
+symbol_push  <<tire>> R<<axle>>
+PARSFILE Tires\Tire\Tire_a1408d72-3f16-4f21-987d-670a1dcab2ac.par
+#BlueLink999 Tire`175/65 R14` Touring Tires` , Tire`Tire_a1408d72-3f16-4f21-987d-670a1dcab2ac
+
+symbol_set <<axle>> 1
+WRITE_ADD_REFERENCE_FRAME_BODY
+PARSFILE Vehicles\Sprung_Mass\SprMass_9a03ed72-c0cc-4785-95d9-05b3ad80463d.par
+#BlueLink0 Vehicle: Sprung Mass`A-Class, Hatchback` ` , Sprung Mass`SprMass_9a03ed72-c0cc-4785-95d9-05b3ad80463d
+
+PARSFILE Aerodynamics\Aero_Main\Aero_48d30a48-3cc4-46fd-be0c-77e1d8b465f8.par
+#BlueLink1 Aerodynamics: Basic`A-Class, Hatchback` Hatchbacks` , Aerodynamics`Aero_48d30a48-3cc4-46fd-be0c-77e1d8b465f8
+
+PARSFILE Animator\Vehicles\AniVeh_b14ad677-d682-43e8-af70-e8b7d82428ed.par
+#BlueLink2 Animator: Vehicles and Sensor Targets`A-Class, Subcompact 2012` A-Class Vehicles` , Vehicle 3D Shape`AniVeh_b14ad677-d682-43e8-af70-e8b7d82428ed
+
+PARSFILE Powertrain\Fwd\FWD_53113d09-c94c-461b-891c-1e585c8b4d02.par
+#BlueLink3 Powertrain: Front-Wheel Drive`75 kW, 5-spd., 4.1 Ratio` ` , Powertrain`FWD_53113d09-c94c-461b-891c-1e585c8b4d02
+
+PARSFILE Brakes\4W_System\Brk4W_fe782403-49f0-41fe-9d31-b3b1cb8e31da.par
+#BlueLink6 Brakes: Four-Wheel System`A-Class w/o ABS` A-Class` , Brake System`Brk4W_fe782403-49f0-41fe-9d31-b3b1cb8e31da
+
+PARSFILE Steering\System2\StrSys2_15589801-d4e7-488f-9884-031d53c5d85c.par
+#BlueLink7 Steering`A-Class, Hatchback: Manual, R&P 2017` ` , Steering System`StrSys2_15589801-d4e7-488f-9884-031d53c5d85c
+
+*IMAGE_FIT_MODE 1
+*IMAGE_TYPE PASS_THROUGH
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_b14ad677-d682-43e8-af70-e8b7d82428ed.png
+
+#EMBEDDED_NOTES
+#Generic A-Class (Sub-compact) hatchback with Strut front and Tri-Link Strut rear suspension.
+#
+#A-Class vehicles include the Citroen C1, Fiat 500, Honda Fit, Renault Twingo, and Tata Nano.
+#
+#This dataset uses custom settings to show suspension control arms.
+#
+#Updated for CarSim 2017 with revised steering system parameters.  Tested for On Center, Static Steer, and Free Response Stability.
+#
+#END_EMBEDDED_NOTES
+
+LOG_ENTRY Used Dataset: Vehicle: Assembly; { A-Class } A-Class, Hatchback 2017
+#Library : Vehicle: Assembly
+#DataSet : A-Class, Hatchback 2017
+#Category: A-Class
+#FileID  : Vehicle_70e7b013-1a9e-47ef-8cae-494923a692f1
+#Product : CarSim 2017.1
+#VehCode Ind_Ind
+
+END

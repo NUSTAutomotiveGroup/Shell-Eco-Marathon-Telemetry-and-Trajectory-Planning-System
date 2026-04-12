@@ -1,0 +1,34 @@
+PARSFILE
+#FullDataName Animator: Shape File Link`Clear Sky`Off-Road/City Loop
+#MiscYellow3
+add_obj Animator\3D_shape_files_CS\scenery\City_Offroad\CityOffroad_Sky.obj
+#ENDMYellow
+
+SET_COLOR 1 1 1
+SET_SCALE_X 15
+SET_SCALE_Y 15
+SET_SCALE_Z 5
+*IMAGE_FIT_MODE 1
+#CheckBox0 1    
+set_lighting off
+#CheckBox1 1    
+set_fogging off
+#CheckBox3 0    
+#CheckBox4 0    
+
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink2 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL\Shape_043f0d6f-4a32-48ba-b420-34711e9c72e4.png
+
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Off-Road/City Loop } Clear Sky
+#Library : Animator: Shape File Link
+#DataSet : Clear Sky
+#Category: Off-Road/City Loop
+#FileID  : Shape_043f0d6f-4a32-48ba-b420-34711e9c72e4
+#Product : CarSim 2017.1
+#VehCode Shape File
+
+END

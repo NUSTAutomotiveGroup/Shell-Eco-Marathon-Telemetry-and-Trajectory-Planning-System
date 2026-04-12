@@ -1,0 +1,73 @@
+PARSFILE
+#FullDataName Animator: Shape Assembly`D-Class, SUV V9`CS D-Class
+*COLOR .36 .117 .117
+*OFFSET_X 0
+*OFFSET_Y 0
+*OFFSET_Z 0.3
+*X_REF_LENGTH 2660
+*Y_REF_LENGTH 1845
+*Z_REF_LENGTH 1705
+*IMAGE_FIT_MODE 1
+#CheckBox0 0    
+#CheckBox2 0    
+#CheckBox3 0    
+#CheckBox4 1    
+#CheckBox5 1    
+
+#RingCtrl1 2
+#RingCtrl2 2
+*IMAGE_TYPE PASTED
+*IMAGE_PASTED Animator\STL_Groups\ShpGrp_623a2bd3-4639-491a-b014-525f80a38e03.png
+PARSFILE Animator\STL\Shape_f018092d-f0f4-436e-86e4-b5e5f1d8aeea.par
+#BlueLink0 Animator: Shape File Link`D-Class, SUV V9 Body` CS SUV` , Shape File`Shape_f018092d-f0f4-436e-86e4-b5e5f1d8aeea
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.3
+PARSFILE Animator\STL\Shape_571d2994-3434-4d78-8e09-ec5c6aae2890.par
+#BlueLink1 Animator: Shape File Link`D-Class, SUV V9 Interior` CS SUV` , Shape File`Shape_571d2994-3434-4d78-8e09-ec5c6aae2890
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.3
+PARSFILE Animator\STL\Shape_7bfd7dd0-1804-4d94-9a87-703aaec727b9.par
+#BlueLink2 Animator: Shape File Link`D-Class, SUV V9 Windows` CS SUV` , Shape File`Shape_7bfd7dd0-1804-4d94-9a87-703aaec727b9
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.3
+PARSFILE Animator\STL\Shape_50c71da2-d1e7-4da0-ac0e-49de8256e0d6.par
+#BlueLink3 Animator: Shape File Link`D-Class, SUV V9 Details` CS SUV` , Shape File`Shape_50c71da2-d1e7-4da0-ac0e-49de8256e0d6
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.3
+PARSFILE Animator\STL\Shape_42376e80-7913-4d53-8234-6cb117b76a79.par
+#BlueLink4 Animator: Shape File Link`D-Class, SUV V9 Color Details` CS SUV` , Shape File`Shape_42376e80-7913-4d53-8234-6cb117b76a79
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.3
+PARSFILE Animator\STL\Shape_46d6dd95-1882-4ed0-88f9-dd40811958b2.par
+#BlueLink5 Animator: Shape File Link`D-Class, SUV V9 Driver` CS SUV` , Shape File`Shape_46d6dd95-1882-4ed0-88f9-dd40811958b2
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.3
+x_ref_length 2660
+y_ref_length 1845
+z_ref_length 1705
+
+SPECIAL_PARSFILE Animator\Cameras\Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60.par
+#BlueLink17 Animator: Camera Setup`Shape Preview (Side)` Shape Preview` , Video Camera`Camera_36f7b3ee-b8ff-46b0-8d75-a0bab22adf60
+
+
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { CS D-Class } D-Class, SUV V9
+#Library : Animator: Shape Assembly
+#DataSet : D-Class, SUV V9
+#Category: CS D-Class
+#FileID  : ShpGrp_623a2bd3-4639-491a-b014-525f80a38e03
+#Product : CarSim 2017.1
+#VehCode Shape Assembly
+
+END
