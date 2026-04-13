@@ -56,9 +56,6 @@ PARSFILE Tires\Fy\TireFy_c09440db-22a8-41ab-92bc-cab9175d24dd.par
 PARSFILE Tires\Fx\TireFx_fd854240-a518-407f-a02f-7ebe149157dd.par
 #BlueLink2 Tire: Longitudinal Force`Touring: Peak = 0.96 at Kappa = 0.15` Normalized Tires` , Longitudinal Force`TireFx_fd854240-a518-407f-a02f-7ebe149157dd
 
-PARSFILE Tires\Camber_Thrust\CamStiff_78c1548d-c68c-45de-aae0-7e2dfa7517f9.par
-#BlueLink3 Tire: Camber Thrust Coefficient`Normalized` ` , Camber Thrust`CamStiff_78c1548d-c68c-45de-aae0-7e2dfa7517f9
-
 
 
 #EMBEDDED_NOTES

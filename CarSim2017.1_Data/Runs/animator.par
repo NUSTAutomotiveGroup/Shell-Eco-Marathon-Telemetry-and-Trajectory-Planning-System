@@ -1,6 +1,6 @@
 PARSFILE
 search_path_append .
-search_path_append C:\Users\Public\Documents\CarSim2017.1_Data\
+search_path_append D:\FYP\Computational Stuff (Non ML)\Shell-Eco-Marathon-Telemetry-and-Trajectory-Planning-System\CarSim2017.1_Data\
 search_path_append D:\CarSIM\Resources\
 search_path_append D:\CarSIM\\
 set_run_slot 0

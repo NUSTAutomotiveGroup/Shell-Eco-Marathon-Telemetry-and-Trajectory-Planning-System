@@ -1,23 +1,28 @@
-2026-04-04T19:11:28 Logfile initialized.
-2026-04-04T19:11:28 CarSim 2017.1
-2026-04-04T19:11:28 -
-2026-04-04T19:11:28 command-line: 
-2026-04-04T19:11:28 -
-2026-04-04T19:11:28 Working Dir: C:\Users\Public\Documents\CarSim2017.1_Data\
-2026-04-04T19:11:28 Program Dir: D:\CarSIM\
-2026-04-04T19:11:28 -
-2026-04-04T19:11:28 OS Version:        6.2 (build 9200)
-2026-04-04T19:11:28 CPU Architecture:  x64
-2026-04-04T19:11:28 CPU Count:         12
-2026-04-04T19:11:28 CPU Level/Rev:     6/47618
-2026-04-04T19:11:28 Start Mem Total:   16024 MB
-2026-04-04T19:11:28 Start Mem Used:    87%
-2026-04-04T19:11:28 -
-2026-04-04T19:11:28 Could not load dataset index cache "Configuration\index.cache"
-2026-04-04T19:11:29 License check took 0.61 seconds.
-2026-04-04T19:11:59 Indexed whole database in 30.12s
-2026-04-04T19:12:01 Initial setup took 1.92 seconds.
-2026-04-04T19:12:01 Auto updates took 0.00 seconds.
-2026-04-04T19:12:01 Loaded last screen in 0.19 seconds.
-2026-04-04T19:12:01 Total init time 33.16 seconds.
-2026-04-04T22:01:31 3343 index cache entries written in 0.000s
+2026-04-13T09:52:04 Logfile initialized.
+2026-04-13T09:52:04 CarSim 2017.1
+2026-04-13T09:52:04 -
+2026-04-13T09:52:04 command-line: 
+2026-04-13T09:52:04 -
+2026-04-13T09:52:04 Working Dir: D:\FYP\Computational Stuff (Non ML)\Shell-Eco-Marathon-Telemetry-and-Trajectory-Planning-System\CarSim2017.1_Data\
+2026-04-13T09:52:04 Program Dir: D:\CarSIM\
+2026-04-13T09:52:04 -
+2026-04-13T09:52:04 OS Version:        6.2 (build 9200)
+2026-04-13T09:52:04 CPU Architecture:  x64
+2026-04-13T09:52:04 CPU Count:         12
+2026-04-13T09:52:04 CPU Level/Rev:     6/47618
+2026-04-13T09:52:04 Start Mem Total:   16024 MB
+2026-04-13T09:52:04 Start Mem Used:    84%
+2026-04-13T09:52:04 -
+2026-04-13T09:52:04 Loaded dataset index cache in 0.00s, 1.1 megabytes.
+2026-04-13T09:52:05 License check took 0.52 seconds.
+2026-04-13T09:52:07 Initial setup took 1.89 seconds.
+2026-04-13T09:52:07 Auto updates took 0.00 seconds.
+2026-04-13T09:52:07 Loaded last screen in 0.22 seconds.
+2026-04-13T09:52:07 Total init time 2.91 seconds.
+2026-04-13T09:52:12 Running math model for: {  } sem 1
+2026-04-13T09:52:13 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-13T09:52:13 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-13T09:52:13 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-13T09:52:13 Running command: "D:\FYP\Computational Stuff (Non ML)\Shell-Eco-Marathon-Telemetry-and-Trajectory-Planning-System\CarSim2017.1_Data\extensions\custom_c\solver_simple\solver_simple.exe"
+2026-04-13T09:52:21 Math model run completed.
+2026-04-13T09:52:36 3344 index cache entries written in 0.000s

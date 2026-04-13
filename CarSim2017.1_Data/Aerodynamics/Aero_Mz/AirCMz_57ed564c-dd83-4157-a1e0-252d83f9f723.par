@@ -2,17 +2,11 @@ PARSFILE
 #FullDataName Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip`0.05 at 90 deg`
 #CheckBox0 0    
 
-#RingCtrl0 SPLINE
+#RingCtrl0 CONSTANT
 #RadioCtrl0 0    
 
-#DiagramOne0
-MZ_AERO_SHAPING_TABLE SPLINE
--180, 0
--90, 0.05
-0, 0
-90, -0.05
-180, 0
-ENDTABLE
+MZ_AERO_SHAPING_CONSTANT 0.05
+*SCALAR 0.05
 
 
 #EMBEDDED_NOTES

@@ -1,8 +1,8 @@
 SIMFILE
 
 SET_MACRO $(ROOT_FILE_NAME)$ Run_1255e55b-9af3-438e-ae5e-d47f6fc15382
-SET_MACRO $(OUTPUT_PATH)$ C:\Users\Public\Documents\CarSim2017.1_Data\Results
-SET_MACRO $(WORK_DIR)$ C:\Users\Public\Documents\CarSim2017.1_Data\
+SET_MACRO $(OUTPUT_PATH)$ D:\FYP\Computational Stuff (Non ML)\Shell-Eco-Marathon-Telemetry-and-Trajectory-Planning-System\CarSim2017.1_Data\Results
+SET_MACRO $(WORK_DIR)$ D:\FYP\Computational Stuff (Non ML)\Shell-Eco-Marathon-Telemetry-and-Trajectory-Planning-System\CarSim2017.1_Data\
 SET_MACRO $(OUTPUT_FILE_PREFIX)$ $(WORK_DIR)$Results\Run_1255e55b-9af3-438e-ae5e-d47f6fc15382\LastRun
 
 FILEBASE $(OUTPUT_FILE_PREFIX)$
@@ -13,12 +13,12 @@ FINAL $(OUTPUT_FILE_PREFIX)$_end.par
 LOGFILE $(OUTPUT_FILE_PREFIX)$_log.txt
 ERDFILE $(OUTPUT_FILE_PREFIX)$.erd
 PROGDIR D:\CarSIM\
-DATADIR C:\Users\Public\Documents\CarSim2017.1_Data\
-GUI_REFRESH_V CarSim_RefreshEvent_14728
+DATADIR D:\FYP\Computational Stuff (Non ML)\Shell-Eco-Marathon-Telemetry-and-Trajectory-Planning-System\CarSim2017.1_Data\
+GUI_REFRESH_V CarSim_RefreshEvent_27208
 RESOURCEDIR D:\CarSIM\\Resources\
 PRODUCT_ID CarSim
 PRODUCT_VER 2017.1
-ANIFILE C:\Users\Public\Documents\CarSim2017.1_Data\runs\animator.par
+ANIFILE D:\FYP\Computational Stuff (Non ML)\Shell-Eco-Marathon-Telemetry-and-Trajectory-Planning-System\CarSim2017.1_Data\runs\animator.par
 VEHICLE_CODE i_i
 EXT_MODEL_STEP 0.00100000
 PORTS_IMP 1,2

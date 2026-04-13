@@ -2,21 +2,11 @@ PARSFILE
 #FullDataName Aerodynamics: Fz (Lift) Coef. vs. Aero Slip`0.18 at 0 Degrees`
 #CheckBox0 0    
 
-#RingCtrl0 SPLINE_FLAT
+#RingCtrl0 CONSTANT
 #RadioCtrl0 0    
 
-#DiagramOne0
-FZ_AERO_SHAPING_TABLE SPLINE_FLAT
--180, 0.4
--135, 0.45
--90, 0.35
--20, 0.185
-0, 0.18
-20, 0.185
-90, 0.35
-135, 0.45
-180, 0.4
-ENDTABLE
+FZ_AERO_SHAPING_CONSTANT 0.18
+*SCALAR 0.18
 
 
 #EMBEDDED_NOTES

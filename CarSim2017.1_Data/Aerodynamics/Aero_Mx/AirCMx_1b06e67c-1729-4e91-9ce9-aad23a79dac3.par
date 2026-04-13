@@ -2,17 +2,11 @@ PARSFILE
 #FullDataName Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip`0.3 at 90 deg`
 #CheckBox0 0    
 
-#RingCtrl0 SPLINE
+#RingCtrl0 CONSTANT
 #RadioCtrl0 0    
 
-#DiagramOne0
-MX_AERO_SHAPING_TABLE SPLINE
--180, 0
--90, -0.3
-0, 0
-90, 0.3
-180, 0
-ENDTABLE
+MX_AERO_SHAPING_CONSTANT 0.3
+*SCALAR 0.3
 
 
 #EMBEDDED_NOTES

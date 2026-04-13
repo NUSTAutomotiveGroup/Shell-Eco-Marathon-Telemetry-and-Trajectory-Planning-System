@@ -28,8 +28,8 @@ PARSFILE Powertrain\Engine\Engine_6d2a4e9b-2c00-46b6-9250-b54c51f9c1ea.par
 PARSFILE Powertrain\Clutch\TrqCl_d863b57d-39cf-4fd9-ac2e-cabe376f0675.par
 #BlueLink6 Powertrain: Clutch Torque`Maximum 1800 N-m (Linear)` ` , Clutch`TrqCl_d863b57d-39cf-4fd9-ac2e-cabe376f0675
 
-PARSFILE Powertrain\TransExt\Trans18_ae794f50-f755-4cff-9dea-2c38062c1336.par
-#BlueLink9 Powertrain: Transmission (18 Gears or CVT)`5-Speed` ` , Transmission (Extended)`Trans18_ae794f50-f755-4cff-9dea-2c38062c1336
+PARSFILE Powertrain\TransExt\Trans18_55b3d8ee-e987-4803-8615-8a5b5c910733.par
+#BlueLink9 Powertrain: Transmission (18 Gears or CVT)`6-Speed` ` , Transmission (Extended)`Trans18_55b3d8ee-e987-4803-8615-8a5b5c910733
 
 
 IDIFF 2

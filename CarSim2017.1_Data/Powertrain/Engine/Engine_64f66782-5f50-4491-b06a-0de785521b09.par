@@ -1,44 +1,38 @@
 PARSFILE
 #FullDataName Powertrain: Engine`sem_1`
-#RingCtrl0 LINEAR
-#RingCtrl1 CONSTANT
+#RingCtrl0 2D_SPLINE
 #CheckBox0 0    
 OPT_THROTTLE_DELAY 0
 
-#DiagramOne0
-MENGINE_TABLE LINEAR
-0, 0
-400, 0
-517, 0
-633, 0.1
-750, 0.1
-1107, 0.12
-1463, 0.66
-1820, 1.14
-2177, 1.57
-2533, 2.03
-2890, 2.39
-3247, 2.84
-3603, 3.1
-3960, 3.46
-4317, 3.72
-4673, 3.96
-5030, 4.23
-5387, 4.49
-5743, 4.64
-6100, 4.8
-6500, 5
-6700, 5
-6900, 5.1
-7100, 5.1
-7300, 5.1
-7500, 5.2
-7700, 5.2
-7900, 5.2
-8100, 5.2
-8300, 5.2
+*3D_XLabel Throttle (-)
+*3D_YLabel Engine speed (rpm)
+*3D_ZLabel Engine torque (N-m)
+
+#DiagramTwo0
+*3D_DATA 5, 18 ! columns x rows
+MENGINE_CARPET 2D_SPLINE
+0, 0, 0.25, 0.5, 0.75, 1
+0, -1, -0.25, -0.5, -0.75, -1
+1000, 0, 0.05, 0.1, 0.15, 0.2
+1500, 0, 0.2125, 0.425, 0.6375, 0.85
+2000, 0, 0.525, 1.05, 1.575, 2.1
+2500, 0, 1.05, 2.1, 3.15, 4.2
+3000, 0, 1.3, 2.6, 3.9, 5.2
+3500, 0, 1.3625, 2.7251, 4.0875, 5.45
+4000, 0, 1.37, 2.74, 4.11, 5.48
+4500, 0, 1.3625, 2.7251, 4.0875, 5.45
+5000, 0, 1.355, 2.71, 4.065, 5.42
+5500, 0, 1.345, 2.69, 4.035, 5.38
+6000, 0, 1.325, 2.65, 3.975, 5.3
+6500, 0, 1.275, 2.55, 3.825, 5.1
+7000, 0, 1.3, 2.6, 3.9, 5.2
+7500, 0, 1.325, 2.65, 3.975, 5.3
+8000, 0, 1.3125, 2.6251, 3.9375, 5.25
+8500, 0, 1.0875, 2.1749, 3.2625, 4.35
+9000, 0, 1.1225, 2.2451, 3.3675, 4.49
 ENDTABLE
-MENGINE_THROTTLE_CONSTANT .85
+
+MENGINE_THROTTLE_CONSTANT 0.85
 #RadioCtrl0 0    
 #RadioCtrl1 0    
 
@@ -50,7 +44,7 @@ PARSFILE Generic\Group\GenGrp_efabcbad-be3a-48c3-a446-5dff753de8d2.par
 
 AV_ENG_IDLE 750
 IENG 0.016
-*SCALAR2 .85
+*SCALAR2 0.85
 
 LOG_ENTRY Used Dataset: Powertrain: Engine; sem_1
 #Library : Powertrain: Engine

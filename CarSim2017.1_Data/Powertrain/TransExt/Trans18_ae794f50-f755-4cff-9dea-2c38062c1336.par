@@ -8,10 +8,10 @@ OPT_SHIFT_INTERNAL 1
 OPT_TR_GEAR_INTERNAL 1
 #CheckBox0 0    
 R_GEAR_TR_REVERSE -3.168
-R_GEAR_TR(1) 3.78
-R_GEAR_TR(2) 2.12
-R_GEAR_TR(3) 1.36
-R_GEAR_TR(4) 1.03
+R_GEAR_TR(1) 3.272
+R_GEAR_TR(2) 1.937
+R_GEAR_TR(3) 1.350
+R_GEAR_TR(4) 1.043
 R_GEAR_TR(5) 0.84
 R_GEAR_TR(6) 0.84
 R_GEAR_TR(7) 0.84
@@ -34,7 +34,7 @@ R_EFF_TR_R(2) 0.92
 R_EFF_TR_R(3) 0.95
 R_EFF_TR_R(4) 0.95
 R_EFF_TR_R(5) 0.98
-T_SHIFT 0
+T_SHIFT 0.2
 
 
 igear 1
@@ -43,13 +43,13 @@ PARSFILE Powertrain\Shift\Shift_607ef453-4a73-44bc-bd45-937e662b0d53.par
 
 
 igear 2
-PARSFILE Powertrain\Shift\Shift_607ef453-4a73-44bc-bd45-937e662b0d53.par
-#BlueLink1 Powertrain: Shift Schedule`5-speed, 1-2 Shift` 5-speed` , Shift schedule`Shift_607ef453-4a73-44bc-bd45-937e662b0d53
+PARSFILE Powertrain\Shift\Shift_ae854a71-bdd0-4684-89cc-439653095ba0.par
+#BlueLink1 Powertrain: Shift Schedule`5-speed, 2-3 Shift` 5-speed` , Shift schedule`Shift_ae854a71-bdd0-4684-89cc-439653095ba0
 
 
 igear 3
-PARSFILE Powertrain\Shift\Shift_607ef453-4a73-44bc-bd45-937e662b0d53.par
-#BlueLink2 Powertrain: Shift Schedule`5-speed, 1-2 Shift` 5-speed` , Shift schedule`Shift_607ef453-4a73-44bc-bd45-937e662b0d53
+PARSFILE Powertrain\Shift\Shift_e4e31aad-8078-4069-832b-30a530e15c24.par
+#BlueLink2 Powertrain: Shift Schedule`5-speed, 3-4 Shift` 5-speed` , Shift schedule`Shift_e4e31aad-8078-4069-832b-30a530e15c24
 
 
 igear 4

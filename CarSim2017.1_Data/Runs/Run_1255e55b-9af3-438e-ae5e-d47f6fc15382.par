@@ -34,8 +34,8 @@ PARSFILE Animator\Cameras\Camera_78646c82-3c25-4eef-b153-d76a910f00fb.par
 #RingCtrl3 0
 #RingCtrl6 1
 #RingCtrl7 -1
-*RUN_COLOR 0 0 0
-SET_RUN_COLOR 0 0 0
+*RUN_COLOR 0 0 0.016
+SET_RUN_COLOR 0 0 0.016
 #RingCtrl4 off
 RT_WINDOW_CLOSE off
 #RingCtrl5 0

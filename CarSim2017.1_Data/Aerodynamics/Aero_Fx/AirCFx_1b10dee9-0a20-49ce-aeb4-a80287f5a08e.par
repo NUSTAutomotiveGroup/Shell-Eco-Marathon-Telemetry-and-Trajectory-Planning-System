@@ -2,21 +2,11 @@ PARSFILE
 #FullDataName Aerodynamics: Fx (Drag) Coef. vs. Aero Slip`0.30 at 0 Degrees`
 #CheckBox0 0    
 
-#RingCtrl0 SPLINE_FLAT
+#RingCtrl0 CONSTANT
 #RadioCtrl0 0    
 
-#DiagramOne0
-FX_AERO_SHAPING_TABLE SPLINE_FLAT
--180, -0.45
--160, -0.45
--90, 0
--20, 0.325
-0, 0.3
-20, 0.325
-90, 0
-160, -0.45
-180, -0.45
-ENDTABLE
+FX_AERO_SHAPING_CONSTANT 0.322
+*SCALAR 0.322
 
 
 #EMBEDDED_NOTES

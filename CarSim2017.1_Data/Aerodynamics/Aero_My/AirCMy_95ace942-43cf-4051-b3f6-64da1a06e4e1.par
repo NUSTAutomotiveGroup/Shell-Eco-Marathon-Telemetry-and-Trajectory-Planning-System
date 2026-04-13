@@ -2,21 +2,11 @@ PARSFILE
 #FullDataName Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip`-0.15 at 0 Degrees`
 #CheckBox0 0    
 
-#RingCtrl0 SPLINE
+#RingCtrl0 CONSTANT
 #RadioCtrl0 0    
 
-#DiagramOne0
-MY_AERO_SHAPING_TABLE SPLINE
--180, -0.25
--160, -0.25
--90, 0
--20, 0.17
-0, 0.15
-20, 0.17
-90, 0
-160, -0.25
-180, -0.25
-ENDTABLE
+MY_AERO_SHAPING_CONSTANT -0.15
+*SCALAR -0.15
 
 
 #EMBEDDED_NOTES
