@@ -7,7 +7,7 @@ DATASET_TITLE sem 1
 TITLE sem 1
 
 ! Echo: D:\FYP\Computational Stuff (Non ML)\Shell-Eco-Marathon-Telemetry-and-Trajectory-Planning-System\CarSim2017.1_Data\Results\Run_1255e55b-9af3-438e-ae5e-d47f6fc15382\LastRun_echo.par
-! This run was made 00:42 on April 14, 2026.
+! This run was made 17:01 on April 24, 2026.
 
 !------------------------------------------------------------------------------------
 ! SYSTEM PARAMETERS (SIMULATION AND MODEL OPTIONS)
@@ -21,9 +21,9 @@ IPRINT             25 ! Print interval: output time step TSTEP_WRITE = TSTEP*IPR
                       ! set IPRINT = 0 for debug (TSTEP_WRITE = T_DT)
 NDIGITS_ECHO       10 ! [D] Max. no. of digits for printing floating-point numbers
 ! NIMPORT           2 ! CALC -- Number of variables activated for import
-! NOUT_ANI_LIVE    50 ! CALC -- Number of variables sent live to animators
-! NOUT_EXPORT       2 ! CALC -- Number of output variables activated for export
-! NOUT_WRITE       83 ! CALC -- Number of output variables written to file
+! NOUT_ANI_LIVE    52 ! CALC -- Number of variables sent live to animators
+! NOUT_EXPORT       4 ! CALC -- Number of output variables activated for export
+! NOUT_WRITE       89 ! CALC -- Number of output variables written to file
 OPT_ABORTIVE_SOCKET_CLOSE 0 ! [D] Use abortive close for license socket connections:
                             ! 0 -> Normal, 1 -> Abortive
 OPT_ALL_WRITE       0 ! Write all outputs to file? 1 -> all, 0 -> only activated
@@ -60,7 +60,7 @@ OPT_LOG_VERBOSE     2 ! [D] Log file verbosity: 2 -> errors + most events + pars
 OPT_LOG_WARNINGS    1 ! [D] Write warnings into log file? 1 -> yes, 0 -> no
 OPT_PAUSE           0 ! [D] Pause at end of run with window open? 0 -> no, 1 -> yes
 OPT_SORT_WRITE      1 ! [D] Sort written outputs? 1 -> alphabetical, 0 -> as entered
-OPT_STOP            0 ! Option for stopping the run: 0 -> stop when T reaches TSTOP;
+OPT_STOP            1 ! Option for stopping the run: 0 -> stop when T reaches TSTOP;
                       ! 1 -> stop when T reaches TSTOP or station reaches SSTOP; -1
                       ! -> run until stopped using VS Commands or external control
 OPT_VS_FILETYPE     3 ! Type of output file: 3 -> 32-bit ERD, 1-> 64-bit VS, 2->
@@ -87,10 +87,10 @@ VLOW_STOP          -1 ; km/h ! [D] Stop the run if the absolute vehicle speed dr
 ! Vz, Ax, Ay, and Az are based on the motion of this instant CG for the total laden
 ! (TL) unit.
 
-! H_CG_TL 383.9988993 ; mm ! CALC -- Height of TL CG
-! LX_CG_TL 522.7297113 ; mm ! CALC -- X distance TL CG is behind origin
-! Y_CG_TL -6.058418062e-05 ; mm ! CALC -- Y coordinate of TL CG
-! M_TL            440 ; kg ! CALC -- TL mass
+! H_CG_TL 351.1106032 ; mm ! CALC -- Height of TL CG
+! LX_CG_TL 525.2536463 ; mm ! CALC -- X distance TL CG is behind origin
+! Y_CG_TL -1.79528751e-05 ; mm ! CALC -- Y coordinate of TL CG
+! M_TL            396 ; kg ! CALC -- TL mass
 
 !------------------------------------------------------------------------------------
 ! SPRUNG MASS
@@ -103,8 +103,8 @@ VLOW_STOP          -1 ; km/h ! [D] Stop the run if the absolute vehicle speed dr
 H_CG_SU           540 ; mm ! Height of CG of sprung mass, unladen (SU) [I]
 LX_CG_SU          500 ; mm ! X distance SU CG is behind sprung mass origin [I]
 Y_CG_SU             0 ; mm ! Y coordinate of SU CG [I]
-M_SU              220 ; kg ! Mass of unladen sprung mass (SU) [I]
-IXX_SU             80 ; kg-m2 ! Roll inertia for unladen sprung mass [I]
+M_SU              176 ; kg ! Mass of unladen sprung mass (SU) [I]
+IXX_SU            200 ; kg-m2 ! Roll inertia for unladen sprung mass [I]
 IYY_SU            200 ; kg-m2 ! Pitch inertia for SU [I]
 IZZ_SU            200 ; kg-m2 ! Yaw inertia for SU [I]
 IXY_SU              0 ; kg-m2 ! XY product of inertia for SU [I]
@@ -127,7 +127,7 @@ IYZ_SU              0 ; kg-m2 ! YZ product of inertia for SU [I]
 
 D_AIR           1.225 ; kg/m3 ! Air mass density
 
-AREA_AERO       1.298 ; m2 ! Frontal cross-section area
+AREA_AERO        0.86 ; m2 ! Frontal cross-section area
 H_REF_AERO        100 ; mm ! Height of aerodynamic reference point
 L_REF_AERO        100 ; mm ! Aerodynamic reference length
 X_REF_AERO        100 ; mm ! X coordinate of aerodynamic reference point
@@ -146,8 +146,8 @@ A_CAMBER(1,1)       0 ; deg ! Static camber for wheel L1 [I]
 A_CAMBER(1,2)       0 ; deg ! Static camber for wheel R1 [I]
 A_TOE(1,1)          0 ; deg ! Static camber for wheel L1 [I]
 A_TOE(1,2)          0 ; deg ! Static camber for wheel R1 [I]
-H_WC(1,1)         228 ; mm ! Design height (Z coord.) of wheel center L1 [I]
-H_WC(1,2)         228 ; mm ! Design height (Z coord.) of wheel center R1 [I]
+H_WC(1,1)         200 ; mm ! Design height (Z coord.) of wheel center L1 [I]
+H_WC(1,2)         200 ; mm ! Design height (Z coord.) of wheel center R1 [I]
 IW(1,1)           0.9 ; kg-m2 ! Spin inertia for wheel L1 [I]
 IW(1,2)           0.9 ; kg-m2 ! Spin inertia for wheel R1 [I]
 L_TRACK(1)       1000 ; mm ! Track width, wheel-center to wheel-center, axle 1 [I]
@@ -161,8 +161,8 @@ A_CAMBER(2,1)       0 ; deg ! Static camber for wheel L2 [I]
 A_CAMBER(2,2)       0 ; deg ! Static camber for wheel R2 [I]
 A_TOE(2,1)          0 ; deg ! Static camber for wheel L2 [I]
 A_TOE(2,2)          0 ; deg ! Static camber for wheel R2 [I]
-H_WC(2,1)         228 ; mm ! Design height (Z coord.) of wheel center L2 [I]
-H_WC(2,2)         228 ; mm ! Design height (Z coord.) of wheel center R2 [I]
+H_WC(2,1)         200 ; mm ! Design height (Z coord.) of wheel center L2 [I]
+H_WC(2,2)         200 ; mm ! Design height (Z coord.) of wheel center R2 [I]
 IW(2,1)           0.9 ; kg-m2 ! Spin inertia for wheel L2 [I]
 IW(2,2)           0.9 ; kg-m2 ! Spin inertia for wheel R2 [I]
 L_TRACK(2)        800 ; mm ! Track width, wheel-center to wheel-center, axle 2 [I]
@@ -193,9 +193,9 @@ CMP_OFFSET(1,2)     0 ; mm ! Initial compression of external spring R1 [I]
 DAUX(1)             0 ; N-m-s/deg ! Auxiliary roll damping, axle 1
 FS_OFFSET(1,1)      0 ; N ! Force offset added to static load for spring L1 [I]
 FS_OFFSET(1,2)      0 ; N ! Force offset added to static load for spring R1 [I]
-! FSA_DES(1) 1078.7315 ; N ! CALC -- Design (unladen) suspension load, axle 1
-! FZA_L(1)  2059.3965 ; N ! CALC -- Static ground force, laden, axle 1
-! FZA_UL(1) 2059.3965 ; N ! CALC -- Static ground force, unladen, axle 1
+! FSA_DES(1) 862.9852 ; N ! CALC -- Design (unladen) suspension load, axle 1
+! FZA_L(1)  1843.6502 ; N ! CALC -- Static ground force, laden, axle 1
+! FZA_UL(1) 1843.6502 ; N ! CALC -- Static ground force, unladen, axle 1
 JNC_DESIGN(1,1)     0 ; mm ! Jounce in the design condition, spring L1 [I]
 JNC_DESIGN(1,2)     0 ; mm ! Jounce in the design condition, spring R1 [I]
 L_SPG_ADJ(1,1)      0 ; mm ! Upper seat height adj. for spring L1 [I]
@@ -215,9 +215,9 @@ CMP_OFFSET(2,2)     0 ; mm ! Initial compression of external spring R2 [I]
 DAUX(2)             0 ; N-m-s/deg ! Auxiliary roll damping, axle 2
 FS_OFFSET(2,1)      0 ; N ! Force offset added to static load for spring L2 [I]
 FS_OFFSET(2,2)      0 ; N ! Force offset added to static load for spring R2 [I]
-! FSA_DES(2) 1078.7315 ; N ! CALC -- Design (unladen) suspension load, axle 2
-! FZA_L(2)  2255.5295 ; N ! CALC -- Static ground force, laden, axle 2
-! FZA_UL(2) 2255.5295 ; N ! CALC -- Static ground force, unladen, axle 2
+! FSA_DES(2) 862.9852 ; N ! CALC -- Design (unladen) suspension load, axle 2
+! FZA_L(2)  2039.7832 ; N ! CALC -- Static ground force, laden, axle 2
+! FZA_UL(2) 2039.7832 ; N ! CALC -- Static ground force, unladen, axle 2
 JNC_DESIGN(2,1)     0 ; mm ! Jounce in the design condition, spring L2 [I]
 JNC_DESIGN(2,2)     0 ; mm ! Jounce in the design condition, spring R2 [I]
 L_SPG_ADJ(2,1)      0 ; mm ! Upper seat height adj. for spring L2 [I]
@@ -309,7 +309,7 @@ FZ_REF(1,1)       550 ; N ! Reference vertical force: Not used directly in the V
                       ! users to scale other parameters and Configurable Functions
                       ! for this tire
 IT(1,1)           0.5 ; kg-m2 ! Spin inertia for tire L1 [I]
-MU_REF_X(1,1)   0.001 ; - ! Ground friction during meas. of Fx data, tire L1
+MU_REF_X(1,1)       1 ; - ! Ground friction during meas. of Fx data, tire L1
 MU_REF_Y(1,1)       1 ; - ! Ground friction during meas. of Fy data, tire L1
 R0(1,1)           298 ; mm ! Free (unloaded) radius (if 0, R0 is set to RRE) [I]
 RRE(1,1)          280 ; mm ! Effective rolling radius (Vx/AVy), tire L1 [I]
@@ -329,7 +329,7 @@ OPT_TIRE_LAG_KAPPA(1,2) 2 ! Options for handling lag in kappa
 FZ_MAX(1,2)    100000 ; N ! Maximum allowed vertical force, tire R1 [I]
 FZ_REF(1,2)       550 ; N ! Reference vertical force
 IT(1,2)           0.5 ; kg-m2 ! Spin inertia for tire R1 [I]
-MU_REF_X(1,2)   0.001 ; - ! Ground friction during meas. of Fx data, tire R1
+MU_REF_X(1,2)       1 ; - ! Ground friction during meas. of Fx data, tire R1
 MU_REF_Y(1,2)       1 ; - ! Ground friction during meas. of Fy data, tire R1
 R0(1,2)           298 ; mm ! Free (unloaded) radius (if 0, R0 is set to RRE) [I]
 RRE(1,2)          280 ; mm ! Effective rolling radius (Vx/AVy), tire R1 [I]
@@ -347,7 +347,7 @@ OPT_TIRE_LAG_KAPPA(2,1) 2 ! Options for handling lag in kappa
 FZ_MAX(2,1)    100000 ; N ! Maximum allowed vertical force, tire L2 [I]
 FZ_REF(2,1)       550 ; N ! Reference vertical force
 IT(2,1)           0.5 ; kg-m2 ! Spin inertia for tire L2 [I]
-MU_REF_X(2,1)   0.001 ; - ! Ground friction during meas. of Fx data, tire L2
+MU_REF_X(2,1)       1 ; - ! Ground friction during meas. of Fx data, tire L2
 MU_REF_Y(2,1)       1 ; - ! Ground friction during meas. of Fy data, tire L2
 R0(2,1)           298 ; mm ! Free (unloaded) radius (if 0, R0 is set to RRE) [I]
 RRE(2,1)          280 ; mm ! Effective rolling radius (Vx/AVy), tire L2 [I]
@@ -365,7 +365,7 @@ OPT_TIRE_LAG_KAPPA(2,2) 2 ! Options for handling lag in kappa
 FZ_MAX(2,2)    100000 ; N ! Maximum allowed vertical force, tire R2 [I]
 FZ_REF(2,2)       550 ; N ! Reference vertical force
 IT(2,2)           0.5 ; kg-m2 ! Spin inertia for tire R2 [I]
-MU_REF_X(2,2)   0.001 ; - ! Ground friction during meas. of Fx data, tire R2
+MU_REF_X(2,2)       1 ; - ! Ground friction during meas. of Fx data, tire R2
 MU_REF_Y(2,2)       1 ; - ! Ground friction during meas. of Fy data, tire R2
 R0(2,2)           298 ; mm ! Free (unloaded) radius (if 0, R0 is set to RRE) [I]
 RRE(2,2)          280 ; mm ! Effective rolling radius (Vx/AVy), tire R2 [I]
@@ -431,7 +431,7 @@ ENGINE_ESC_PG       5 ; 1/s ! [D] P gain of ESC engine torque control [I]
 ENGINE_ESC_IG     0.5 ; 1/s2 ! [D] I gain of ESC engine torque control [I]
 ENGINE_STALL_DAMP 0.2 ; N-m-s/deg ! [D] Damping coefficient of the stalled engine
                       ! [I]
-IENG            0.016 ; kg-m2 ! Spin inertia of engine crankshaft [I]
+IENG            0.003 ; kg-m2 ! Spin inertia of engine crankshaft [I]
 ITC_INPUT_SHAFT 0.015 ; kg-m2 ! Spin inertia of input shaft of torque converter [I]
 R_MDRIVE            0 ; - ! Ratio: multiplier for drive shaft torque acting on
                       ! sprung mass from drive axle. +1 -> cause positive vehicle
@@ -489,28 +489,28 @@ OPT_SHIFT_INTERNAL  1 ! Model option for gear shift command: 1 -> internal model
                       ! -> external model [I]
 NGEARS              4 ! Number of gears in transmission [I]
 ITC_OUTPUT_SHAFT 0.015 ; kg-m2 ! Spin inertia of torque converter output shaft [I]
-ITR_NEUTRAL     0.034 ; kg-m2 ! Neutral-gear spin inertia of transmission [I]
-ITR_REVERSE     0.034 ; kg-m2 ! Reverse-gear spin inertia of transmission [I]
+ITR_NEUTRAL    0.0034 ; kg-m2 ! Neutral-gear spin inertia of transmission [I]
+ITR_REVERSE    0.0034 ; kg-m2 ! Reverse-gear spin inertia of transmission [I]
 R_EFF_TR_F_REVERSE 0.91 ; - ! Reverse-gear forward efficiency of transmission [I]
 R_EFF_TR_R_REVERSE 0.91 ; - ! Reverse-gear reverse efficiency of transmission [I]
 R_GEAR_TR_REVERSE -3.168 ; - ! Reverse-gear ratio of transmission (should be
                          ! negative) [I]
 T_SHIFT           0.2 ; s ! Shift duration in closed-loop transmission control [I]
-ITR(1)          0.037 ; kg-m2 ! 1st-gear transmission spin inertia at output shaft.
+ITR(1)         0.0037 ; kg-m2 ! 1st-gear transmission spin inertia at output shaft.
                       ! (Transmission spin inertias do not include the torque
                       ! converter.) [I]
 R_EFF_TR_F(1)    0.92 ; - ! 1st-gear forward efficiency of transmission [I]
 R_EFF_TR_R(1)    0.92 ; - ! 1st-gear reverse efficiency of transmission [I]
 R_GEAR_TR(1)    3.272 ; - ! 1st-gear ratio of transmission [I]
-ITR(2)          0.034 ; kg-m2 ! 2nd-gear trans.spin inertia at output shaft
+ITR(2)         0.0034 ; kg-m2 ! 2nd-gear trans.spin inertia at output shaft
 R_EFF_TR_F(2)    0.92 ; - ! 2nd-gear forward efficiency of transmission
 R_EFF_TR_R(2)    0.92 ; - ! 2nd-gear reverse efficiency of transmission
 R_GEAR_TR(2)    1.937 ; - ! 2nd-gear ratio of transmission
-ITR(3)          0.042 ; kg-m2 ! 3rd-gear trans.spin inertia at output shaft
+ITR(3)         0.0042 ; kg-m2 ! 3rd-gear trans.spin inertia at output shaft
 R_EFF_TR_F(3)    0.95 ; - ! 3rd-gear forward efficiency of transmission
 R_EFF_TR_R(3)    0.95 ; - ! 3rd-gear reverse efficiency of transmission
 R_GEAR_TR(3)     1.35 ; - ! 3rd-gear ratio of transmission
-ITR(4)           0.04 ; kg-m2 ! 4th-gear trans.spin inertia at output shaft
+ITR(4)          0.004 ; kg-m2 ! 4th-gear trans.spin inertia at output shaft
 R_EFF_TR_F(4)    0.95 ; - ! 4th-gear forward efficiency of transmission
 R_EFF_TR_R(4)    0.95 ; - ! 4th-gear reverse efficiency of transmission
 R_GEAR_TR(4)    1.043 ; - ! 4th-gear ratio of transmission
@@ -539,10 +539,10 @@ VLOW_DIFF_CL_LOCK(2) 0.48 ; rpm ! [D] Lock the differential clutch when the spee
                           ! differential is below this speed, or the clutch
                           ! capacity is bigger than the theoretical locked torque.
                           ! (2nd drive axle) [I]
-IDS(2)           0.01 ; kg-m2 ! Spin inertia of rear driveshaft [I]
-IHS_L(2)         0.01 ; kg-m2 ! Spin inertia of half left shaft, 2nd rear
+IDS(2)          0.001 ; kg-m2 ! Spin inertia of rear driveshaft [I]
+IHS_L(2)        0.001 ; kg-m2 ! Spin inertia of half left shaft, 2nd rear
                       ! differential [I]
-IHS_R(2)         0.01 ; kg-m2 ! Spin inertia of half right shaft, rear differential
+IHS_R(2)        0.001 ; kg-m2 ! Spin inertia of half right shaft, rear differential
                       ! [I]
 
 OPT_CLUTCH_DIFF(2)  0 ! [D] Clutch control option for rear differential clutch: 0 ->
@@ -585,6 +585,8 @@ SSTART              0 ; m ! Start the vehicle at this station on the driver path
                       ! surface ID CURRENT_ROAD_ID, then it might be a good idea to
                       ! specify an initial value for the state variable SV_STA_ROAD
                       ! (station along the road reference path). [I]
+SSTOP            3711 ; m ! Use to set OPT_DIRECTION (if OPT_DIRECTION = 0); stop
+                      ! when the vehicle reaches this station (if OPT_STOP = 1)
 
 PATH_ID(1)          1 ; Lusail
 SPATH_START(1)      0 ; m ! Station at the start of this path
@@ -1421,8 +1423,8 @@ CMP_R_SCALE_FD(2,2) 1 ! Scale factor divided into (compression speed -
 ! e.g., (1,2), the current values of the indices IAXLE and ISIDE are used to identify
 ! the dataset when reading data.
 
-FS_COMP_COEFFICIENT(1,1) 10000 ! Coefficient: spring force per unit spring
-                               ! compression (N/mm), axle 1, left side
+FS_COMP_COEFFICIENT(1,1) 100 ! Coefficient: spring force per unit spring compression
+                             ! (N/mm), axle 1, left side
 FS_COMP_GAIN(1,1)   1 ! Gain multiplied with calculated value to get spring force
 FS_COMP_OFFSET(1,1) 0 ; N ! Offset added (after gain) to get spring force
 CMP_START_FS_COMP(1,1) 0 ; mm ! Offset subtracted from spring compression
@@ -1432,8 +1434,8 @@ FS_COMP_COMBINE(1,1) MULTIPLY ! How to combine the two components
 FS_COMP_FSTATIC_CONSTANT(1,1) 1 ; - ! [D] Constant spring force component due to
                                 ! static spring force, axle 1, left side
 
-FS_COMP_COEFFICIENT(1,2) 10000 ! Coefficient: spring force per unit spring
-                               ! compression (N/mm), axle 1, right side
+FS_COMP_COEFFICIENT(1,2) 100 ! Coefficient: spring force per unit spring compression
+                             ! (N/mm), axle 1, right side
 FS_COMP_GAIN(1,2)   1 ! Gain multiplied with calculated value to get spring force
 FS_COMP_OFFSET(1,2) 0 ; N ! Offset added (after gain) to get spring force
 CMP_START_FS_COMP(1,2) 0 ; mm ! Offset subtracted from spring compression
@@ -1443,8 +1445,8 @@ FS_COMP_COMBINE(1,2) MULTIPLY ! How to combine the two components
 FS_COMP_FSTATIC_CONSTANT(1,2) 1 ; - ! [D] Constant spring force component due to
                                 ! static spring force, axle 1, right side
 
-FS_COMP_COEFFICIENT(2,1) 10000 ! Coefficient: spring force per unit spring
-                               ! compression (N/mm), axle 2, left side
+FS_COMP_COEFFICIENT(2,1) 100 ! Coefficient: spring force per unit spring compression
+                             ! (N/mm), axle 2, left side
 FS_COMP_GAIN(2,1)   1 ! Gain multiplied with calculated value to get spring force
 FS_COMP_OFFSET(2,1) 0 ; N ! Offset added (after gain) to get spring force
 CMP_START_FS_COMP(2,1) 0 ; mm ! Offset subtracted from spring compression
@@ -1454,8 +1456,8 @@ FS_COMP_COMBINE(2,1) MULTIPLY ! How to combine the two components
 FS_COMP_FSTATIC_CONSTANT(2,1) 1 ; - ! [D] Constant spring force component due to
                                 ! static spring force, axle 2, left side
 
-FS_COMP_COEFFICIENT(2,2) 10000 ! Coefficient: spring force per unit spring
-                               ! compression (N/mm), axle 2, right side
+FS_COMP_COEFFICIENT(2,2) 100 ! Coefficient: spring force per unit spring compression
+                             ! (N/mm), axle 2, right side
 FS_COMP_GAIN(2,2)   1 ! Gain multiplied with calculated value to get spring force
 FS_COMP_OFFSET(2,2) 0 ; N ! Offset added (after gain) to get spring force
 CMP_START_FS_COMP(2,2) 0 ; mm ! Offset subtracted from spring compression
@@ -1478,8 +1480,8 @@ FS_COMP_FSTATIC_CONSTANT(2,2) 1 ; - ! [D] Constant spring force component due to
 ! values of the indices IAXLE and ISIDE are used to identify the dataset when reading
 ! data.
 
-FS_EXT_COEFFICIENT(1,1) 10000 ! Coefficient: spring force per unit spring
-                              ! compression (N/mm), axle 1, left side
+FS_EXT_COEFFICIENT(1,1) 100 ! Coefficient: spring force per unit spring compression
+                            ! (N/mm), axle 1, left side
 FS_EXT_GAIN(1,1)    1 ! Gain multiplied with calculated value to get spring force
 FS_EXT_OFFSET(1,1)  0 ; N ! Offset added (after gain) to get spring force
 CMP_START_FS_EXT(1,1) 0 ; mm ! Offset subtracted from spring compression
@@ -1489,8 +1491,8 @@ FS_EXT_COMBINE(1,1) MULTIPLY ! How to combine the two components
 FS_EXT_FSTATIC_CONSTANT(1,1) 1 ; - ! [D] Constant spring force component due to
                                ! static spring force, axle 1, left side
 
-FS_EXT_COEFFICIENT(1,2) 10000 ! Coefficient: spring force per unit spring
-                              ! compression (N/mm), axle 1, right side
+FS_EXT_COEFFICIENT(1,2) 100 ! Coefficient: spring force per unit spring compression
+                            ! (N/mm), axle 1, right side
 FS_EXT_GAIN(1,2)    1 ! Gain multiplied with calculated value to get spring force
 FS_EXT_OFFSET(1,2)  0 ; N ! Offset added (after gain) to get spring force
 CMP_START_FS_EXT(1,2) 0 ; mm ! Offset subtracted from spring compression
@@ -1500,8 +1502,8 @@ FS_EXT_COMBINE(1,2) MULTIPLY ! How to combine the two components
 FS_EXT_FSTATIC_CONSTANT(1,2) 1 ; - ! [D] Constant spring force component due to
                                ! static spring force, axle 1, right side
 
-FS_EXT_COEFFICIENT(2,1) 10000 ! Coefficient: spring force per unit spring
-                              ! compression (N/mm), axle 2, left side
+FS_EXT_COEFFICIENT(2,1) 100 ! Coefficient: spring force per unit spring compression
+                            ! (N/mm), axle 2, left side
 FS_EXT_GAIN(2,1)    1 ! Gain multiplied with calculated value to get spring force
 FS_EXT_OFFSET(2,1)  0 ; N ! Offset added (after gain) to get spring force
 CMP_START_FS_EXT(2,1) 0 ; mm ! Offset subtracted from spring compression
@@ -1511,8 +1513,8 @@ FS_EXT_COMBINE(2,1) MULTIPLY ! How to combine the two components
 FS_EXT_FSTATIC_CONSTANT(2,1) 1 ; - ! [D] Constant spring force component due to
                                ! static spring force, axle 2, left side
 
-FS_EXT_COEFFICIENT(2,2) 10000 ! Coefficient: spring force per unit spring
-                              ! compression (N/mm), axle 2, right side
+FS_EXT_COEFFICIENT(2,2) 100 ! Coefficient: spring force per unit spring compression
+                            ! (N/mm), axle 2, right side
 FS_EXT_GAIN(2,2)    1 ! Gain multiplied with calculated value to get spring force
 FS_EXT_OFFSET(2,2)  0 ; N ! Offset added (after gain) to get spring force
 CMP_START_FS_EXT(2,2) 0 ; mm ! Offset subtracted from spring compression
@@ -1572,7 +1574,7 @@ THROTTLE_SCALE_FUEL_RATE 1 ! Scale factor divided into (throttle position -
 ! Aerodynamic slip angle used in the calculation can be adjusted with
 ! SLIP_SCALE_FX_AERO and SLIP_START_FX_AERO.
 
-FX_AERO_SHAPING_CONSTANT 0.322 ; - ! Constant CFX
+FX_AERO_SHAPING_CONSTANT 0.14 ; - ! Constant CFX
 FX_AERO_SHAPING_GAIN 1 ! Gain multiplied with calculated value to get CFX
 FX_AERO_SHAPING_OFFSET 0 ; - ! Offset added (after gain) to get CFX
 
@@ -1602,261 +1604,113 @@ FX_AERO_SHAPING_Z_CONSTANT 1 ; - ! [D] Constant CFX2 component due to ride heigh
 ! values of the indices IAXLE and ISIDE are used to identify the dataset when reading
 ! data.
 
-! 2D table: row 1 has "0" (place holder) followed by 8 values of Fz (N). Other rows
-! have Kappa (-) followed by 8 values of Fx (N). With type = 2D_FROM _ZERO, the table
-! includes a hidden row 2 of zeros along with a hidden column 1 of zeros.
-FX_TIRE_CARPET(1,1) 2D_FROM_ZERO ! axle 1, left side
- 0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2
- 0.02, 0.1295, 0.255, 0.3758, 0.4917, 0.6022, 0.7073, 0.8068, 0.9007
- 0.04, 0.2006, 0.3956, 0.584, 0.7654, 0.9394, 1.106, 1.264, 1.414
- 0.06, 0.2322, 0.4583, 0.6774, 0.8888, 1.092, 1.287, 1.473, 1.65
- 0.08, 0.2465, 0.4868, 0.7199, 0.9452, 1.162, 1.371, 1.57, 1.76
- 0.1, 0.2532, 0.5002, 0.74, 0.972, 1.196, 1.411, 1.617, 1.813
- 0.12, 0.2563, 0.5064, 0.7493, 0.9844, 1.211, 1.429, 1.639, 1.839
- 0.14, 0.2574, 0.5087, 0.7528, 0.9892, 1.217, 1.437, 1.648, 1.849
- 0.16, 0.2575, 0.5089, 0.7532, 0.9899, 1.218, 1.438, 1.65, 1.852
- 0.18, 0.2569, 0.5079, 0.7518, 0.9881, 1.216, 1.436, 1.647, 1.849
- 0.2, 0.2561, 0.5062, 0.7493, 0.9849, 1.213, 1.432, 1.642, 1.844
- 0.22, 0.255, 0.5041, 0.7462, 0.981, 1.208, 1.426, 1.636, 1.837
- 0.24, 0.2538, 0.5017, 0.7429, 0.9765, 1.202, 1.42, 1.629, 1.829
- 0.26, 0.2526, 0.4993, 0.7393, 0.9719, 1.197, 1.413, 1.621, 1.821
- 0.28, 0.2513, 0.4969, 0.7357, 0.9672, 1.191, 1.407, 1.614, 1.812
- 0.3, 0.2501, 0.4945, 0.7322, 0.9626, 1.185, 1.4, 1.606, 1.804
- 0.32, 0.2489, 0.4921, 0.7287, 0.958, 1.18, 1.393, 1.599, 1.795
- 0.34, 0.2478, 0.4898, 0.7253, 0.9536, 1.174, 1.387, 1.591, 1.787
- 0.36, 0.2466, 0.4876, 0.7221, 0.9493, 1.169, 1.381, 1.584, 1.779
- 0.38, 0.2456, 0.4855, 0.7189, 0.9452, 1.164, 1.375, 1.577, 1.772
- 0.4, 0.2445, 0.4835, 0.7159, 0.9412, 1.159, 1.369, 1.571, 1.764
- 0.42, 0.2435, 0.4815, 0.713, 0.9374, 1.154, 1.364, 1.565, 1.757
- 0.44, 0.2426, 0.4796, 0.7102, 0.9338, 1.15, 1.358, 1.558, 1.75
- 0.46, 0.2417, 0.4779, 0.7076, 0.9303, 1.146, 1.353, 1.553, 1.744
- 0.48, 0.2408, 0.4761, 0.7051, 0.927, 1.142, 1.348, 1.547, 1.738
- 0.5, 0.24, 0.4745, 0.7026, 0.9238, 1.138, 1.344, 1.542, 1.732
- 0.52, 0.2392, 0.4729, 0.7003, 0.9208, 1.134, 1.339, 1.537, 1.726
- 0.54, 0.2384, 0.4715, 0.6981, 0.9179, 1.13, 1.335, 1.532, 1.72
- 0.56, 0.2377, 0.47, 0.696, 0.9151, 1.127, 1.331, 1.527, 1.715
- 0.58, 0.237, 0.4687, 0.694, 0.9124, 1.124, 1.327, 1.523, 1.71
- 0.6, 0.2364, 0.4674, 0.692, 0.9099, 1.12, 1.323, 1.518, 1.705
- 0.62, 0.2357, 0.4661, 0.6902, 0.9074, 1.117, 1.32, 1.514, 1.701
- 0.64, 0.2351, 0.4649, 0.6884, 0.9051, 1.115, 1.316, 1.51, 1.696
- 0.66, 0.2346, 0.4637, 0.6867, 0.9028, 1.112, 1.313, 1.507, 1.692
- 0.68, 0.234, 0.4626, 0.685, 0.9007, 1.109, 1.31, 1.503, 1.688
- 0.7, 0.2335, 0.4616, 0.6835, 0.8986, 1.107, 1.307, 1.5, 1.684
- 0.72, 0.2329, 0.4606, 0.682, 0.8966, 1.104, 1.304, 1.496, 1.68
- 0.74, 0.2324, 0.4596, 0.6805, 0.8947, 1.102, 1.301, 1.493, 1.677
- 0.76, 0.232, 0.4586, 0.6791, 0.8928, 1.099, 1.299, 1.49, 1.673
- 0.78, 0.2315, 0.4577, 0.6777, 0.8911, 1.097, 1.296, 1.487, 1.67
- 0.8, 0.2311, 0.4568, 0.6764, 0.8893, 1.095, 1.293, 1.484, 1.667
- 0.82, 0.2306, 0.456, 0.6752, 0.8877, 1.093, 1.291, 1.481, 1.663
- 0.84, 0.2302, 0.4552, 0.674, 0.8861, 1.091, 1.289, 1.479, 1.66
- 0.86, 0.2298, 0.4544, 0.6728, 0.8846, 1.089, 1.286, 1.476, 1.658
- 0.88, 0.2294, 0.4536, 0.6717, 0.8831, 1.087, 1.284, 1.473, 1.655
- 0.9, 0.2291, 0.4529, 0.6706, 0.8816, 1.086, 1.282, 1.471, 1.652
- 0.92, 0.2287, 0.4522, 0.6695, 0.8803, 1.084, 1.28, 1.469, 1.649
- 0.94, 0.2284, 0.4515, 0.6685, 0.8789, 1.082, 1.278, 1.466, 1.647
- 0.96, 0.228, 0.4508, 0.6675, 0.8776, 1.081, 1.276, 1.464, 1.644
- 0.98, 0.2277, 0.4502, 0.6666, 0.8764, 1.079, 1.274, 1.462, 1.642
- 1, 0.2274, 0.4496, 0.6657, 0.8751, 1.078, 1.273, 1.46, 1.64
- 1.02, 0.2274, 0.4496, 0.6657, 0.8751, 1.078, 1.273, 1.46, 1.64
+! 1D table: col 1 = Kappa (-), col 2 = Fx (N)
+FX_TIRE_TABLE(1,1) SPLINE ! axle 1, left side
+ -1, -0.92909
+ -0.4, -0.99408
+ -0.2, -1.013
+ -0.14, -0.99995
+ -0.12, -0.98768
+ -0.08, -0.93044
+ -0.04, -0.7283
+ 0, 0
+ 0.04, 0.7283
+ 0.08, 0.93045
+ 0.12, 0.98768
+ 0.14, 0.99995
+ 0.2, 1.013
+ 0.4, 0.99408
+ 1, 0.92909
 ENDTABLE
-FX_TIRE_GAIN(1,1) 550 ! Gain multiplied with calculated value to get Fx
+FX_TIRE_GAIN(1,1)   1 ! Gain multiplied with calculated value to get Fx
 FX_TIRE_OFFSET(1,1) 0 ; N ! Offset added (after gain) to get Fx
 KAPPA_START_FX_TIRE(1,1) 0 ; - ! Offset subtracted from Kappa
 KAPPA_SCALE_FX_TIRE(1,1) 1 ! Scale factor divided into (Kappa - KAPPA_START_FX_TIRE)
+FX_TIRE_FZ_COEFFICIENT(1,1) 1 ! Coefficient: Fx scaling due to Fz per unit Fz (-/N),
+                              ! axle 1, left side
 FZ_START_FX_TIRE(1,1) 0 ; N ! Offset subtracted from Fz
-FZ_SCALE_FX_TIRE(1,1) 550 ! Scale factor divided into (Fz - FZ_START_FX_TIRE)
+FZ_SCALE_FX_TIRE(1,1) 1 ! Scale factor divided into (Fz - FZ_START_FX_TIRE)
 
-! 2D table: row 1 has "0" (place holder) followed by 8 values of Fz (N). Other rows
-! have Kappa (-) followed by 8 values of Fx (N). With type = 2D_FROM _ZERO, the table
-! includes a hidden row 2 of zeros along with a hidden column 1 of zeros.
-FX_TIRE_CARPET(1,2) 2D_FROM_ZERO ! axle 1, right side
- 0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2
- 0.02, 0.1295, 0.255, 0.3758, 0.4917, 0.6022, 0.7073, 0.8068, 0.9007
- 0.04, 0.2006, 0.3956, 0.584, 0.7654, 0.9394, 1.106, 1.264, 1.414
- 0.06, 0.2322, 0.4583, 0.6774, 0.8888, 1.092, 1.287, 1.473, 1.65
- 0.08, 0.2465, 0.4868, 0.7199, 0.9452, 1.162, 1.371, 1.57, 1.76
- 0.1, 0.2532, 0.5002, 0.74, 0.972, 1.196, 1.411, 1.617, 1.813
- 0.12, 0.2563, 0.5064, 0.7493, 0.9844, 1.211, 1.429, 1.639, 1.839
- 0.14, 0.2574, 0.5087, 0.7528, 0.9892, 1.217, 1.437, 1.648, 1.849
- 0.16, 0.2575, 0.5089, 0.7532, 0.9899, 1.218, 1.438, 1.65, 1.852
- 0.18, 0.2569, 0.5079, 0.7518, 0.9881, 1.216, 1.436, 1.647, 1.849
- 0.2, 0.2561, 0.5062, 0.7493, 0.9849, 1.213, 1.432, 1.642, 1.844
- 0.22, 0.255, 0.5041, 0.7462, 0.981, 1.208, 1.426, 1.636, 1.837
- 0.24, 0.2538, 0.5017, 0.7429, 0.9765, 1.202, 1.42, 1.629, 1.829
- 0.26, 0.2526, 0.4993, 0.7393, 0.9719, 1.197, 1.413, 1.621, 1.821
- 0.28, 0.2513, 0.4969, 0.7357, 0.9672, 1.191, 1.407, 1.614, 1.812
- 0.3, 0.2501, 0.4945, 0.7322, 0.9626, 1.185, 1.4, 1.606, 1.804
- 0.32, 0.2489, 0.4921, 0.7287, 0.958, 1.18, 1.393, 1.599, 1.795
- 0.34, 0.2478, 0.4898, 0.7253, 0.9536, 1.174, 1.387, 1.591, 1.787
- 0.36, 0.2466, 0.4876, 0.7221, 0.9493, 1.169, 1.381, 1.584, 1.779
- 0.38, 0.2456, 0.4855, 0.7189, 0.9452, 1.164, 1.375, 1.577, 1.772
- 0.4, 0.2445, 0.4835, 0.7159, 0.9412, 1.159, 1.369, 1.571, 1.764
- 0.42, 0.2435, 0.4815, 0.713, 0.9374, 1.154, 1.364, 1.565, 1.757
- 0.44, 0.2426, 0.4796, 0.7102, 0.9338, 1.15, 1.358, 1.558, 1.75
- 0.46, 0.2417, 0.4779, 0.7076, 0.9303, 1.146, 1.353, 1.553, 1.744
- 0.48, 0.2408, 0.4761, 0.7051, 0.927, 1.142, 1.348, 1.547, 1.738
- 0.5, 0.24, 0.4745, 0.7026, 0.9238, 1.138, 1.344, 1.542, 1.732
- 0.52, 0.2392, 0.4729, 0.7003, 0.9208, 1.134, 1.339, 1.537, 1.726
- 0.54, 0.2384, 0.4715, 0.6981, 0.9179, 1.13, 1.335, 1.532, 1.72
- 0.56, 0.2377, 0.47, 0.696, 0.9151, 1.127, 1.331, 1.527, 1.715
- 0.58, 0.237, 0.4687, 0.694, 0.9124, 1.124, 1.327, 1.523, 1.71
- 0.6, 0.2364, 0.4674, 0.692, 0.9099, 1.12, 1.323, 1.518, 1.705
- 0.62, 0.2357, 0.4661, 0.6902, 0.9074, 1.117, 1.32, 1.514, 1.701
- 0.64, 0.2351, 0.4649, 0.6884, 0.9051, 1.115, 1.316, 1.51, 1.696
- 0.66, 0.2346, 0.4637, 0.6867, 0.9028, 1.112, 1.313, 1.507, 1.692
- 0.68, 0.234, 0.4626, 0.685, 0.9007, 1.109, 1.31, 1.503, 1.688
- 0.7, 0.2335, 0.4616, 0.6835, 0.8986, 1.107, 1.307, 1.5, 1.684
- 0.72, 0.2329, 0.4606, 0.682, 0.8966, 1.104, 1.304, 1.496, 1.68
- 0.74, 0.2324, 0.4596, 0.6805, 0.8947, 1.102, 1.301, 1.493, 1.677
- 0.76, 0.232, 0.4586, 0.6791, 0.8928, 1.099, 1.299, 1.49, 1.673
- 0.78, 0.2315, 0.4577, 0.6777, 0.8911, 1.097, 1.296, 1.487, 1.67
- 0.8, 0.2311, 0.4568, 0.6764, 0.8893, 1.095, 1.293, 1.484, 1.667
- 0.82, 0.2306, 0.456, 0.6752, 0.8877, 1.093, 1.291, 1.481, 1.663
- 0.84, 0.2302, 0.4552, 0.674, 0.8861, 1.091, 1.289, 1.479, 1.66
- 0.86, 0.2298, 0.4544, 0.6728, 0.8846, 1.089, 1.286, 1.476, 1.658
- 0.88, 0.2294, 0.4536, 0.6717, 0.8831, 1.087, 1.284, 1.473, 1.655
- 0.9, 0.2291, 0.4529, 0.6706, 0.8816, 1.086, 1.282, 1.471, 1.652
- 0.92, 0.2287, 0.4522, 0.6695, 0.8803, 1.084, 1.28, 1.469, 1.649
- 0.94, 0.2284, 0.4515, 0.6685, 0.8789, 1.082, 1.278, 1.466, 1.647
- 0.96, 0.228, 0.4508, 0.6675, 0.8776, 1.081, 1.276, 1.464, 1.644
- 0.98, 0.2277, 0.4502, 0.6666, 0.8764, 1.079, 1.274, 1.462, 1.642
- 1, 0.2274, 0.4496, 0.6657, 0.8751, 1.078, 1.273, 1.46, 1.64
- 1.02, 0.2274, 0.4496, 0.6657, 0.8751, 1.078, 1.273, 1.46, 1.64
+! 1D table: col 1 = Kappa (-), col 2 = Fx (N)
+FX_TIRE_TABLE(1,2) SPLINE ! axle 1, right side
+ -1, -0.92909
+ -0.4, -0.99408
+ -0.2, -1.013
+ -0.14, -0.99995
+ -0.12, -0.98768
+ -0.08, -0.93044
+ -0.04, -0.7283
+ 0, 0
+ 0.04, 0.7283
+ 0.08, 0.93045
+ 0.12, 0.98768
+ 0.14, 0.99995
+ 0.2, 1.013
+ 0.4, 0.99408
+ 1, 0.92909
 ENDTABLE
-FX_TIRE_GAIN(1,2) 550 ! Gain multiplied with calculated value to get Fx
+FX_TIRE_GAIN(1,2)   1 ! Gain multiplied with calculated value to get Fx
 FX_TIRE_OFFSET(1,2) 0 ; N ! Offset added (after gain) to get Fx
 KAPPA_START_FX_TIRE(1,2) 0 ; - ! Offset subtracted from Kappa
 KAPPA_SCALE_FX_TIRE(1,2) 1 ! Scale factor divided into (Kappa - KAPPA_START_FX_TIRE)
+FX_TIRE_FZ_COEFFICIENT(1,2) 1 ! Coefficient: Fx scaling due to Fz per unit Fz (-/N),
+                              ! axle 1, right side
 FZ_START_FX_TIRE(1,2) 0 ; N ! Offset subtracted from Fz
-FZ_SCALE_FX_TIRE(1,2) 550 ! Scale factor divided into (Fz - FZ_START_FX_TIRE)
+FZ_SCALE_FX_TIRE(1,2) 1 ! Scale factor divided into (Fz - FZ_START_FX_TIRE)
 
-! 2D table: row 1 has "0" (place holder) followed by 8 values of Fz (N). Other rows
-! have Kappa (-) followed by 8 values of Fx (N). With type = 2D_FROM _ZERO, the table
-! includes a hidden row 2 of zeros along with a hidden column 1 of zeros.
-FX_TIRE_CARPET(2,1) 2D_FROM_ZERO ! axle 2, left side
- 0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2
- 0.02, 0.1295, 0.255, 0.3758, 0.4917, 0.6022, 0.7073, 0.8068, 0.9007
- 0.04, 0.2006, 0.3956, 0.584, 0.7654, 0.9394, 1.106, 1.264, 1.414
- 0.06, 0.2322, 0.4583, 0.6774, 0.8888, 1.092, 1.287, 1.473, 1.65
- 0.08, 0.2465, 0.4868, 0.7199, 0.9452, 1.162, 1.371, 1.57, 1.76
- 0.1, 0.2532, 0.5002, 0.74, 0.972, 1.196, 1.411, 1.617, 1.813
- 0.12, 0.2563, 0.5064, 0.7493, 0.9844, 1.211, 1.429, 1.639, 1.839
- 0.14, 0.2574, 0.5087, 0.7528, 0.9892, 1.217, 1.437, 1.648, 1.849
- 0.16, 0.2575, 0.5089, 0.7532, 0.9899, 1.218, 1.438, 1.65, 1.852
- 0.18, 0.2569, 0.5079, 0.7518, 0.9881, 1.216, 1.436, 1.647, 1.849
- 0.2, 0.2561, 0.5062, 0.7493, 0.9849, 1.213, 1.432, 1.642, 1.844
- 0.22, 0.255, 0.5041, 0.7462, 0.981, 1.208, 1.426, 1.636, 1.837
- 0.24, 0.2538, 0.5017, 0.7429, 0.9765, 1.202, 1.42, 1.629, 1.829
- 0.26, 0.2526, 0.4993, 0.7393, 0.9719, 1.197, 1.413, 1.621, 1.821
- 0.28, 0.2513, 0.4969, 0.7357, 0.9672, 1.191, 1.407, 1.614, 1.812
- 0.3, 0.2501, 0.4945, 0.7322, 0.9626, 1.185, 1.4, 1.606, 1.804
- 0.32, 0.2489, 0.4921, 0.7287, 0.958, 1.18, 1.393, 1.599, 1.795
- 0.34, 0.2478, 0.4898, 0.7253, 0.9536, 1.174, 1.387, 1.591, 1.787
- 0.36, 0.2466, 0.4876, 0.7221, 0.9493, 1.169, 1.381, 1.584, 1.779
- 0.38, 0.2456, 0.4855, 0.7189, 0.9452, 1.164, 1.375, 1.577, 1.772
- 0.4, 0.2445, 0.4835, 0.7159, 0.9412, 1.159, 1.369, 1.571, 1.764
- 0.42, 0.2435, 0.4815, 0.713, 0.9374, 1.154, 1.364, 1.565, 1.757
- 0.44, 0.2426, 0.4796, 0.7102, 0.9338, 1.15, 1.358, 1.558, 1.75
- 0.46, 0.2417, 0.4779, 0.7076, 0.9303, 1.146, 1.353, 1.553, 1.744
- 0.48, 0.2408, 0.4761, 0.7051, 0.927, 1.142, 1.348, 1.547, 1.738
- 0.5, 0.24, 0.4745, 0.7026, 0.9238, 1.138, 1.344, 1.542, 1.732
- 0.52, 0.2392, 0.4729, 0.7003, 0.9208, 1.134, 1.339, 1.537, 1.726
- 0.54, 0.2384, 0.4715, 0.6981, 0.9179, 1.13, 1.335, 1.532, 1.72
- 0.56, 0.2377, 0.47, 0.696, 0.9151, 1.127, 1.331, 1.527, 1.715
- 0.58, 0.237, 0.4687, 0.694, 0.9124, 1.124, 1.327, 1.523, 1.71
- 0.6, 0.2364, 0.4674, 0.692, 0.9099, 1.12, 1.323, 1.518, 1.705
- 0.62, 0.2357, 0.4661, 0.6902, 0.9074, 1.117, 1.32, 1.514, 1.701
- 0.64, 0.2351, 0.4649, 0.6884, 0.9051, 1.115, 1.316, 1.51, 1.696
- 0.66, 0.2346, 0.4637, 0.6867, 0.9028, 1.112, 1.313, 1.507, 1.692
- 0.68, 0.234, 0.4626, 0.685, 0.9007, 1.109, 1.31, 1.503, 1.688
- 0.7, 0.2335, 0.4616, 0.6835, 0.8986, 1.107, 1.307, 1.5, 1.684
- 0.72, 0.2329, 0.4606, 0.682, 0.8966, 1.104, 1.304, 1.496, 1.68
- 0.74, 0.2324, 0.4596, 0.6805, 0.8947, 1.102, 1.301, 1.493, 1.677
- 0.76, 0.232, 0.4586, 0.6791, 0.8928, 1.099, 1.299, 1.49, 1.673
- 0.78, 0.2315, 0.4577, 0.6777, 0.8911, 1.097, 1.296, 1.487, 1.67
- 0.8, 0.2311, 0.4568, 0.6764, 0.8893, 1.095, 1.293, 1.484, 1.667
- 0.82, 0.2306, 0.456, 0.6752, 0.8877, 1.093, 1.291, 1.481, 1.663
- 0.84, 0.2302, 0.4552, 0.674, 0.8861, 1.091, 1.289, 1.479, 1.66
- 0.86, 0.2298, 0.4544, 0.6728, 0.8846, 1.089, 1.286, 1.476, 1.658
- 0.88, 0.2294, 0.4536, 0.6717, 0.8831, 1.087, 1.284, 1.473, 1.655
- 0.9, 0.2291, 0.4529, 0.6706, 0.8816, 1.086, 1.282, 1.471, 1.652
- 0.92, 0.2287, 0.4522, 0.6695, 0.8803, 1.084, 1.28, 1.469, 1.649
- 0.94, 0.2284, 0.4515, 0.6685, 0.8789, 1.082, 1.278, 1.466, 1.647
- 0.96, 0.228, 0.4508, 0.6675, 0.8776, 1.081, 1.276, 1.464, 1.644
- 0.98, 0.2277, 0.4502, 0.6666, 0.8764, 1.079, 1.274, 1.462, 1.642
- 1, 0.2274, 0.4496, 0.6657, 0.8751, 1.078, 1.273, 1.46, 1.64
- 1.02, 0.2274, 0.4496, 0.6657, 0.8751, 1.078, 1.273, 1.46, 1.64
+! 1D table: col 1 = Kappa (-), col 2 = Fx (N)
+FX_TIRE_TABLE(2,1) SPLINE ! axle 2, left side
+ -1, -0.92909
+ -0.4, -0.99408
+ -0.2, -1.013
+ -0.14, -0.99995
+ -0.12, -0.98768
+ -0.08, -0.93044
+ -0.04, -0.7283
+ 0, 0
+ 0.04, 0.7283
+ 0.08, 0.93045
+ 0.12, 0.98768
+ 0.14, 0.99995
+ 0.2, 1.013
+ 0.4, 0.99408
+ 1, 0.92909
 ENDTABLE
-FX_TIRE_GAIN(2,1) 550 ! Gain multiplied with calculated value to get Fx
+FX_TIRE_GAIN(2,1)   1 ! Gain multiplied with calculated value to get Fx
 FX_TIRE_OFFSET(2,1) 0 ; N ! Offset added (after gain) to get Fx
 KAPPA_START_FX_TIRE(2,1) 0 ; - ! Offset subtracted from Kappa
 KAPPA_SCALE_FX_TIRE(2,1) 1 ! Scale factor divided into (Kappa - KAPPA_START_FX_TIRE)
+FX_TIRE_FZ_COEFFICIENT(2,1) 1 ! Coefficient: Fx scaling due to Fz per unit Fz (-/N),
+                              ! axle 2, left side
 FZ_START_FX_TIRE(2,1) 0 ; N ! Offset subtracted from Fz
-FZ_SCALE_FX_TIRE(2,1) 550 ! Scale factor divided into (Fz - FZ_START_FX_TIRE)
+FZ_SCALE_FX_TIRE(2,1) 1 ! Scale factor divided into (Fz - FZ_START_FX_TIRE)
 
-! 2D table: row 1 has "0" (place holder) followed by 8 values of Fz (N). Other rows
-! have Kappa (-) followed by 8 values of Fx (N). With type = 2D_FROM _ZERO, the table
-! includes a hidden row 2 of zeros along with a hidden column 1 of zeros.
-FX_TIRE_CARPET(2,2) 2D_FROM_ZERO ! axle 2, right side
- 0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2
- 0.02, 0.1295, 0.255, 0.3758, 0.4917, 0.6022, 0.7073, 0.8068, 0.9007
- 0.04, 0.2006, 0.3956, 0.584, 0.7654, 0.9394, 1.106, 1.264, 1.414
- 0.06, 0.2322, 0.4583, 0.6774, 0.8888, 1.092, 1.287, 1.473, 1.65
- 0.08, 0.2465, 0.4868, 0.7199, 0.9452, 1.162, 1.371, 1.57, 1.76
- 0.1, 0.2532, 0.5002, 0.74, 0.972, 1.196, 1.411, 1.617, 1.813
- 0.12, 0.2563, 0.5064, 0.7493, 0.9844, 1.211, 1.429, 1.639, 1.839
- 0.14, 0.2574, 0.5087, 0.7528, 0.9892, 1.217, 1.437, 1.648, 1.849
- 0.16, 0.2575, 0.5089, 0.7532, 0.9899, 1.218, 1.438, 1.65, 1.852
- 0.18, 0.2569, 0.5079, 0.7518, 0.9881, 1.216, 1.436, 1.647, 1.849
- 0.2, 0.2561, 0.5062, 0.7493, 0.9849, 1.213, 1.432, 1.642, 1.844
- 0.22, 0.255, 0.5041, 0.7462, 0.981, 1.208, 1.426, 1.636, 1.837
- 0.24, 0.2538, 0.5017, 0.7429, 0.9765, 1.202, 1.42, 1.629, 1.829
- 0.26, 0.2526, 0.4993, 0.7393, 0.9719, 1.197, 1.413, 1.621, 1.821
- 0.28, 0.2513, 0.4969, 0.7357, 0.9672, 1.191, 1.407, 1.614, 1.812
- 0.3, 0.2501, 0.4945, 0.7322, 0.9626, 1.185, 1.4, 1.606, 1.804
- 0.32, 0.2489, 0.4921, 0.7287, 0.958, 1.18, 1.393, 1.599, 1.795
- 0.34, 0.2478, 0.4898, 0.7253, 0.9536, 1.174, 1.387, 1.591, 1.787
- 0.36, 0.2466, 0.4876, 0.7221, 0.9493, 1.169, 1.381, 1.584, 1.779
- 0.38, 0.2456, 0.4855, 0.7189, 0.9452, 1.164, 1.375, 1.577, 1.772
- 0.4, 0.2445, 0.4835, 0.7159, 0.9412, 1.159, 1.369, 1.571, 1.764
- 0.42, 0.2435, 0.4815, 0.713, 0.9374, 1.154, 1.364, 1.565, 1.757
- 0.44, 0.2426, 0.4796, 0.7102, 0.9338, 1.15, 1.358, 1.558, 1.75
- 0.46, 0.2417, 0.4779, 0.7076, 0.9303, 1.146, 1.353, 1.553, 1.744
- 0.48, 0.2408, 0.4761, 0.7051, 0.927, 1.142, 1.348, 1.547, 1.738
- 0.5, 0.24, 0.4745, 0.7026, 0.9238, 1.138, 1.344, 1.542, 1.732
- 0.52, 0.2392, 0.4729, 0.7003, 0.9208, 1.134, 1.339, 1.537, 1.726
- 0.54, 0.2384, 0.4715, 0.6981, 0.9179, 1.13, 1.335, 1.532, 1.72
- 0.56, 0.2377, 0.47, 0.696, 0.9151, 1.127, 1.331, 1.527, 1.715
- 0.58, 0.237, 0.4687, 0.694, 0.9124, 1.124, 1.327, 1.523, 1.71
- 0.6, 0.2364, 0.4674, 0.692, 0.9099, 1.12, 1.323, 1.518, 1.705
- 0.62, 0.2357, 0.4661, 0.6902, 0.9074, 1.117, 1.32, 1.514, 1.701
- 0.64, 0.2351, 0.4649, 0.6884, 0.9051, 1.115, 1.316, 1.51, 1.696
- 0.66, 0.2346, 0.4637, 0.6867, 0.9028, 1.112, 1.313, 1.507, 1.692
- 0.68, 0.234, 0.4626, 0.685, 0.9007, 1.109, 1.31, 1.503, 1.688
- 0.7, 0.2335, 0.4616, 0.6835, 0.8986, 1.107, 1.307, 1.5, 1.684
- 0.72, 0.2329, 0.4606, 0.682, 0.8966, 1.104, 1.304, 1.496, 1.68
- 0.74, 0.2324, 0.4596, 0.6805, 0.8947, 1.102, 1.301, 1.493, 1.677
- 0.76, 0.232, 0.4586, 0.6791, 0.8928, 1.099, 1.299, 1.49, 1.673
- 0.78, 0.2315, 0.4577, 0.6777, 0.8911, 1.097, 1.296, 1.487, 1.67
- 0.8, 0.2311, 0.4568, 0.6764, 0.8893, 1.095, 1.293, 1.484, 1.667
- 0.82, 0.2306, 0.456, 0.6752, 0.8877, 1.093, 1.291, 1.481, 1.663
- 0.84, 0.2302, 0.4552, 0.674, 0.8861, 1.091, 1.289, 1.479, 1.66
- 0.86, 0.2298, 0.4544, 0.6728, 0.8846, 1.089, 1.286, 1.476, 1.658
- 0.88, 0.2294, 0.4536, 0.6717, 0.8831, 1.087, 1.284, 1.473, 1.655
- 0.9, 0.2291, 0.4529, 0.6706, 0.8816, 1.086, 1.282, 1.471, 1.652
- 0.92, 0.2287, 0.4522, 0.6695, 0.8803, 1.084, 1.28, 1.469, 1.649
- 0.94, 0.2284, 0.4515, 0.6685, 0.8789, 1.082, 1.278, 1.466, 1.647
- 0.96, 0.228, 0.4508, 0.6675, 0.8776, 1.081, 1.276, 1.464, 1.644
- 0.98, 0.2277, 0.4502, 0.6666, 0.8764, 1.079, 1.274, 1.462, 1.642
- 1, 0.2274, 0.4496, 0.6657, 0.8751, 1.078, 1.273, 1.46, 1.64
- 1.02, 0.2274, 0.4496, 0.6657, 0.8751, 1.078, 1.273, 1.46, 1.64
+! 1D table: col 1 = Kappa (-), col 2 = Fx (N)
+FX_TIRE_TABLE(2,2) SPLINE ! axle 2, right side
+ -1, -0.92909
+ -0.4, -0.99408
+ -0.2, -1.013
+ -0.14, -0.99995
+ -0.12, -0.98768
+ -0.08, -0.93044
+ -0.04, -0.7283
+ 0, 0
+ 0.04, 0.7283
+ 0.08, 0.93045
+ 0.12, 0.98768
+ 0.14, 0.99995
+ 0.2, 1.013
+ 0.4, 0.99408
+ 1, 0.92909
 ENDTABLE
-FX_TIRE_GAIN(2,2) 550 ! Gain multiplied with calculated value to get Fx
+FX_TIRE_GAIN(2,2)   1 ! Gain multiplied with calculated value to get Fx
 FX_TIRE_OFFSET(2,2) 0 ; N ! Offset added (after gain) to get Fx
 KAPPA_START_FX_TIRE(2,2) 0 ; - ! Offset subtracted from Kappa
 KAPPA_SCALE_FX_TIRE(2,2) 1 ! Scale factor divided into (Kappa - KAPPA_START_FX_TIRE)
+FX_TIRE_FZ_COEFFICIENT(2,2) 1 ! Coefficient: Fx scaling due to Fz per unit Fz (-/N),
+                              ! axle 2, right side
 FZ_START_FX_TIRE(2,2) 0 ; N ! Offset subtracted from Fz
-FZ_SCALE_FX_TIRE(2,2) 550 ! Scale factor divided into (Fz - FZ_START_FX_TIRE)
+FZ_SCALE_FX_TIRE(2,2) 1 ! Scale factor divided into (Fz - FZ_START_FX_TIRE)
 
 ! FY_AERO_SHAPING: Coefficient CFY for for Y component of aerodynamic force. CFY is
 ! a function of aerodynamic slip angle (CONSTANT, COEFFICIENT, or TABLE).
@@ -1895,261 +1749,73 @@ FY_AERO_SHAPING_Z_CONSTANT 1 ; - ! [D] Constant CFY2 component due to ride heigh
 ! values of the indices IAXLE and ISIDE are used to identify the dataset when reading
 ! data.
 
-! 2D table: row 1 has "0" (place holder) followed by 8 values of Fz (N). Other rows
-! have Alpha (deg) followed by 8 values of Fy (N). With type = 2D_FROM _ZERO, the
-! table includes a hidden row 2 of zeros along with a hidden column 1 of zeros.
-FY_TIRE_CARPET(1,1) 2D_FROM_ZERO ! axle 1, left side
- 0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2
- 0.5, 0.03799, 0.07454, 0.1094, 0.1426, 0.1739, 0.2033, 0.2309, 0.2564
- 1, 0.07457, 0.1464, 0.215, 0.2802, 0.3418, 0.3998, 0.4541, 0.5045
- 1.5, 0.1085, 0.2131, 0.3132, 0.4084, 0.4985, 0.5833, 0.6628, 0.7369
- 2, 0.1389, 0.273, 0.4014, 0.5237, 0.6397, 0.7491, 0.8518, 0.9477
- 2.5, 0.1653, 0.3249, 0.478, 0.6241, 0.7629, 0.8941, 1.018, 1.133
- 3, 0.1873, 0.3685, 0.5425, 0.709, 0.8673, 1.017, 1.159, 1.292
- 3.5, 0.2053, 0.4041, 0.5954, 0.7786, 0.9534, 1.119, 1.276, 1.424
- 4, 0.2195, 0.4324, 0.6376, 0.8345, 1.023, 1.202, 1.371, 1.531
- 4.5, 0.2306, 0.4545, 0.6706, 0.8783, 1.077, 1.267, 1.446, 1.616
- 5, 0.239, 0.4713, 0.6959, 0.912, 1.119, 1.317, 1.505, 1.683
- 5.5, 0.2453, 0.4839, 0.7148, 0.9373, 1.151, 1.355, 1.55, 1.734
- 6, 0.2498, 0.493, 0.7286, 0.9559, 1.174, 1.384, 1.583, 1.773
- 6.5, 0.253, 0.4995, 0.7385, 0.9693, 1.191, 1.404, 1.608, 1.801
- 7, 0.2551, 0.5039, 0.7452, 0.9785, 1.203, 1.419, 1.625, 1.822
- 7.5, 0.2565, 0.5067, 0.7496, 0.9845, 1.211, 1.428, 1.637, 1.835
- 8, 0.2572, 0.5083, 0.7521, 0.988, 1.216, 1.434, 1.644, 1.844
- 8.5, 0.2575, 0.5089, 0.7532, 0.9897, 1.218, 1.438, 1.648, 1.849
- 9, 0.2575, 0.5089, 0.7532, 0.9899, 1.218, 1.438, 1.65, 1.851
- 9.5, 0.2571, 0.5083, 0.7525, 0.9891, 1.218, 1.438, 1.649, 1.851
- 10, 0.2566, 0.5073, 0.7511, 0.9875, 1.216, 1.436, 1.647, 1.849
- 10.5, 0.2559, 0.5061, 0.7494, 0.9852, 1.213, 1.433, 1.644, 1.846
- 11, 0.2552, 0.5046, 0.7472, 0.9825, 1.21, 1.429, 1.64, 1.842
- 11.5, 0.2544, 0.503, 0.7449, 0.9795, 1.206, 1.425, 1.635, 1.837
- 12, 0.2535, 0.5013, 0.7424, 0.9763, 1.203, 1.421, 1.63, 1.831
- 12.5, 0.2526, 0.4995, 0.7399, 0.973, 1.199, 1.416, 1.625, 1.826
- 13, 0.2517, 0.4977, 0.7372, 0.9696, 1.194, 1.411, 1.62, 1.82
- 13.5, 0.2507, 0.4959, 0.7346, 0.9661, 1.19, 1.406, 1.614, 1.813
- 14, 0.2498, 0.4941, 0.7319, 0.9627, 1.186, 1.401, 1.608, 1.807
- 14.5, 0.2489, 0.4923, 0.7293, 0.9592, 1.182, 1.396, 1.603, 1.801
- 15, 0.248, 0.4906, 0.7267, 0.9558, 1.178, 1.391, 1.597, 1.795
- 15.5, 0.2471, 0.4888, 0.7241, 0.9524, 1.173, 1.387, 1.592, 1.789
- 16, 0.2463, 0.4871, 0.7216, 0.9492, 1.169, 1.382, 1.586, 1.782
- 16.5, 0.2454, 0.4855, 0.7191, 0.9459, 1.165, 1.377, 1.581, 1.776
- 17, 0.2446, 0.4838, 0.7167, 0.9428, 1.162, 1.373, 1.576, 1.771
- 17.5, 0.2438, 0.4823, 0.7144, 0.9397, 1.158, 1.368, 1.571, 1.765
- 18, 0.2431, 0.4807, 0.7121, 0.9367, 1.154, 1.364, 1.566, 1.759
- 18.5, 0.2423, 0.4792, 0.7099, 0.9338, 1.15, 1.36, 1.561, 1.754
- 19, 0.2416, 0.4778, 0.7078, 0.931, 1.147, 1.355, 1.556, 1.749
- 19.5, 0.2409, 0.4764, 0.7057, 0.9282, 1.144, 1.351, 1.551, 1.743
- 20, 0.2402, 0.475, 0.7037, 0.9256, 1.14, 1.348, 1.547, 1.738
- 20.5, 0.2395, 0.4737, 0.7017, 0.923, 1.137, 1.344, 1.543, 1.733
- 21, 0.2388, 0.4724, 0.6998, 0.9205, 1.134, 1.34, 1.538, 1.729
- 21.5, 0.2382, 0.4712, 0.6979, 0.918, 1.131, 1.336, 1.534, 1.724
- 22, 0.2376, 0.4699, 0.6961, 0.9156, 1.128, 1.333, 1.53, 1.719
- 22.5, 0.237, 0.4688, 0.6944, 0.9133, 1.125, 1.33, 1.526, 1.715
- 23, 0.2364, 0.4676, 0.6927, 0.9111, 1.122, 1.326, 1.523, 1.711
- 23.5, 0.2359, 0.4665, 0.691, 0.9089, 1.12, 1.323, 1.519, 1.707
- 24, 0.2353, 0.4654, 0.6894, 0.9068, 1.117, 1.32, 1.515, 1.703
- 24.5, 0.2348, 0.4644, 0.6879, 0.9047, 1.115, 1.317, 1.512, 1.699
- 25, 0.2343, 0.4634, 0.6863, 0.9027, 1.112, 1.314, 1.508, 1.695
- 26, 0.2343, 0.4634, 0.6863, 0.9027, 1.112, 1.314, 1.508, 1.695
+! 1D table: col 1 = Alpha (deg), col 2 = Fy (N)
+FY_TIRE_TABLE(1,1) SPLINE ! axle 1, left side
+ -9, -1
+ -1, -0.28
+ 0, 0
+ 1, 0.28
+ 9, 1
 ENDTABLE
-FY_TIRE_GAIN(1,1) 550 ! Gain multiplied with calculated value to get Fy
+FY_TIRE_GAIN(1,1)   1 ! Gain multiplied with calculated value to get Fy
 FY_TIRE_OFFSET(1,1) 0 ; N ! Offset added (after gain) to get Fy
 ALPHA_START_FY_TIRE(1,1) 0 ; deg ! Offset subtracted from Alpha
 ALPHA_SCALE_FY_TIRE(1,1) 1 ! Scale factor divided into (Alpha - ALPHA_START_FY_TIRE)
+FY_TIRE_FZ_COEFFICIENT(1,1) 1 ! Coefficient: Fy scaling due to Fz per unit Fz (-/N),
+                              ! axle 1, left side
 FZ_START_FY_TIRE(1,1) 0 ; N ! Offset subtracted from Fz
-FZ_SCALE_FY_TIRE(1,1) 550 ! Scale factor divided into (Fz - FZ_START_FY_TIRE)
+FZ_SCALE_FY_TIRE(1,1) 1 ! Scale factor divided into (Fz - FZ_START_FY_TIRE)
 
-! 2D table: row 1 has "0" (place holder) followed by 8 values of Fz (N). Other rows
-! have Alpha (deg) followed by 8 values of Fy (N). With type = 2D_FROM _ZERO, the
-! table includes a hidden row 2 of zeros along with a hidden column 1 of zeros.
-FY_TIRE_CARPET(1,2) 2D_FROM_ZERO ! axle 1, right side
- 0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2
- 0.5, 0.03799, 0.07454, 0.1094, 0.1426, 0.1739, 0.2033, 0.2309, 0.2564
- 1, 0.07457, 0.1464, 0.215, 0.2802, 0.3418, 0.3998, 0.4541, 0.5045
- 1.5, 0.1085, 0.2131, 0.3132, 0.4084, 0.4985, 0.5833, 0.6628, 0.7369
- 2, 0.1389, 0.273, 0.4014, 0.5237, 0.6397, 0.7491, 0.8518, 0.9477
- 2.5, 0.1653, 0.3249, 0.478, 0.6241, 0.7629, 0.8941, 1.018, 1.133
- 3, 0.1873, 0.3685, 0.5425, 0.709, 0.8673, 1.017, 1.159, 1.292
- 3.5, 0.2053, 0.4041, 0.5954, 0.7786, 0.9534, 1.119, 1.276, 1.424
- 4, 0.2195, 0.4324, 0.6376, 0.8345, 1.023, 1.202, 1.371, 1.531
- 4.5, 0.2306, 0.4545, 0.6706, 0.8783, 1.077, 1.267, 1.446, 1.616
- 5, 0.239, 0.4713, 0.6959, 0.912, 1.119, 1.317, 1.505, 1.683
- 5.5, 0.2453, 0.4839, 0.7148, 0.9373, 1.151, 1.355, 1.55, 1.734
- 6, 0.2498, 0.493, 0.7286, 0.9559, 1.174, 1.384, 1.583, 1.773
- 6.5, 0.253, 0.4995, 0.7385, 0.9693, 1.191, 1.404, 1.608, 1.801
- 7, 0.2551, 0.5039, 0.7452, 0.9785, 1.203, 1.419, 1.625, 1.822
- 7.5, 0.2565, 0.5067, 0.7496, 0.9845, 1.211, 1.428, 1.637, 1.835
- 8, 0.2572, 0.5083, 0.7521, 0.988, 1.216, 1.434, 1.644, 1.844
- 8.5, 0.2575, 0.5089, 0.7532, 0.9897, 1.218, 1.438, 1.648, 1.849
- 9, 0.2575, 0.5089, 0.7532, 0.9899, 1.218, 1.438, 1.65, 1.851
- 9.5, 0.2571, 0.5083, 0.7525, 0.9891, 1.218, 1.438, 1.649, 1.851
- 10, 0.2566, 0.5073, 0.7511, 0.9875, 1.216, 1.436, 1.647, 1.849
- 10.5, 0.2559, 0.5061, 0.7494, 0.9852, 1.213, 1.433, 1.644, 1.846
- 11, 0.2552, 0.5046, 0.7472, 0.9825, 1.21, 1.429, 1.64, 1.842
- 11.5, 0.2544, 0.503, 0.7449, 0.9795, 1.206, 1.425, 1.635, 1.837
- 12, 0.2535, 0.5013, 0.7424, 0.9763, 1.203, 1.421, 1.63, 1.831
- 12.5, 0.2526, 0.4995, 0.7399, 0.973, 1.199, 1.416, 1.625, 1.826
- 13, 0.2517, 0.4977, 0.7372, 0.9696, 1.194, 1.411, 1.62, 1.82
- 13.5, 0.2507, 0.4959, 0.7346, 0.9661, 1.19, 1.406, 1.614, 1.813
- 14, 0.2498, 0.4941, 0.7319, 0.9627, 1.186, 1.401, 1.608, 1.807
- 14.5, 0.2489, 0.4923, 0.7293, 0.9592, 1.182, 1.396, 1.603, 1.801
- 15, 0.248, 0.4906, 0.7267, 0.9558, 1.178, 1.391, 1.597, 1.795
- 15.5, 0.2471, 0.4888, 0.7241, 0.9524, 1.173, 1.387, 1.592, 1.789
- 16, 0.2463, 0.4871, 0.7216, 0.9492, 1.169, 1.382, 1.586, 1.782
- 16.5, 0.2454, 0.4855, 0.7191, 0.9459, 1.165, 1.377, 1.581, 1.776
- 17, 0.2446, 0.4838, 0.7167, 0.9428, 1.162, 1.373, 1.576, 1.771
- 17.5, 0.2438, 0.4823, 0.7144, 0.9397, 1.158, 1.368, 1.571, 1.765
- 18, 0.2431, 0.4807, 0.7121, 0.9367, 1.154, 1.364, 1.566, 1.759
- 18.5, 0.2423, 0.4792, 0.7099, 0.9338, 1.15, 1.36, 1.561, 1.754
- 19, 0.2416, 0.4778, 0.7078, 0.931, 1.147, 1.355, 1.556, 1.749
- 19.5, 0.2409, 0.4764, 0.7057, 0.9282, 1.144, 1.351, 1.551, 1.743
- 20, 0.2402, 0.475, 0.7037, 0.9256, 1.14, 1.348, 1.547, 1.738
- 20.5, 0.2395, 0.4737, 0.7017, 0.923, 1.137, 1.344, 1.543, 1.733
- 21, 0.2388, 0.4724, 0.6998, 0.9205, 1.134, 1.34, 1.538, 1.729
- 21.5, 0.2382, 0.4712, 0.6979, 0.918, 1.131, 1.336, 1.534, 1.724
- 22, 0.2376, 0.4699, 0.6961, 0.9156, 1.128, 1.333, 1.53, 1.719
- 22.5, 0.237, 0.4688, 0.6944, 0.9133, 1.125, 1.33, 1.526, 1.715
- 23, 0.2364, 0.4676, 0.6927, 0.9111, 1.122, 1.326, 1.523, 1.711
- 23.5, 0.2359, 0.4665, 0.691, 0.9089, 1.12, 1.323, 1.519, 1.707
- 24, 0.2353, 0.4654, 0.6894, 0.9068, 1.117, 1.32, 1.515, 1.703
- 24.5, 0.2348, 0.4644, 0.6879, 0.9047, 1.115, 1.317, 1.512, 1.699
- 25, 0.2343, 0.4634, 0.6863, 0.9027, 1.112, 1.314, 1.508, 1.695
- 26, 0.2343, 0.4634, 0.6863, 0.9027, 1.112, 1.314, 1.508, 1.695
+! 1D table: col 1 = Alpha (deg), col 2 = Fy (N)
+FY_TIRE_TABLE(1,2) SPLINE ! axle 1, right side
+ -9, -1
+ -1, -0.28
+ 0, 0
+ 1, 0.28
+ 9, 1
 ENDTABLE
-FY_TIRE_GAIN(1,2) 550 ! Gain multiplied with calculated value to get Fy
+FY_TIRE_GAIN(1,2)   1 ! Gain multiplied with calculated value to get Fy
 FY_TIRE_OFFSET(1,2) 0 ; N ! Offset added (after gain) to get Fy
 ALPHA_START_FY_TIRE(1,2) 0 ; deg ! Offset subtracted from Alpha
 ALPHA_SCALE_FY_TIRE(1,2) 1 ! Scale factor divided into (Alpha - ALPHA_START_FY_TIRE)
+FY_TIRE_FZ_COEFFICIENT(1,2) 1 ! Coefficient: Fy scaling due to Fz per unit Fz (-/N),
+                              ! axle 1, right side
 FZ_START_FY_TIRE(1,2) 0 ; N ! Offset subtracted from Fz
-FZ_SCALE_FY_TIRE(1,2) 550 ! Scale factor divided into (Fz - FZ_START_FY_TIRE)
+FZ_SCALE_FY_TIRE(1,2) 1 ! Scale factor divided into (Fz - FZ_START_FY_TIRE)
 
-! 2D table: row 1 has "0" (place holder) followed by 8 values of Fz (N). Other rows
-! have Alpha (deg) followed by 8 values of Fy (N). With type = 2D_FROM _ZERO, the
-! table includes a hidden row 2 of zeros along with a hidden column 1 of zeros.
-FY_TIRE_CARPET(2,1) 2D_FROM_ZERO ! axle 2, left side
- 0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2
- 0.5, 0.03799, 0.07454, 0.1094, 0.1426, 0.1739, 0.2033, 0.2309, 0.2564
- 1, 0.07457, 0.1464, 0.215, 0.2802, 0.3418, 0.3998, 0.4541, 0.5045
- 1.5, 0.1085, 0.2131, 0.3132, 0.4084, 0.4985, 0.5833, 0.6628, 0.7369
- 2, 0.1389, 0.273, 0.4014, 0.5237, 0.6397, 0.7491, 0.8518, 0.9477
- 2.5, 0.1653, 0.3249, 0.478, 0.6241, 0.7629, 0.8941, 1.018, 1.133
- 3, 0.1873, 0.3685, 0.5425, 0.709, 0.8673, 1.017, 1.159, 1.292
- 3.5, 0.2053, 0.4041, 0.5954, 0.7786, 0.9534, 1.119, 1.276, 1.424
- 4, 0.2195, 0.4324, 0.6376, 0.8345, 1.023, 1.202, 1.371, 1.531
- 4.5, 0.2306, 0.4545, 0.6706, 0.8783, 1.077, 1.267, 1.446, 1.616
- 5, 0.239, 0.4713, 0.6959, 0.912, 1.119, 1.317, 1.505, 1.683
- 5.5, 0.2453, 0.4839, 0.7148, 0.9373, 1.151, 1.355, 1.55, 1.734
- 6, 0.2498, 0.493, 0.7286, 0.9559, 1.174, 1.384, 1.583, 1.773
- 6.5, 0.253, 0.4995, 0.7385, 0.9693, 1.191, 1.404, 1.608, 1.801
- 7, 0.2551, 0.5039, 0.7452, 0.9785, 1.203, 1.419, 1.625, 1.822
- 7.5, 0.2565, 0.5067, 0.7496, 0.9845, 1.211, 1.428, 1.637, 1.835
- 8, 0.2572, 0.5083, 0.7521, 0.988, 1.216, 1.434, 1.644, 1.844
- 8.5, 0.2575, 0.5089, 0.7532, 0.9897, 1.218, 1.438, 1.648, 1.849
- 9, 0.2575, 0.5089, 0.7532, 0.9899, 1.218, 1.438, 1.65, 1.851
- 9.5, 0.2571, 0.5083, 0.7525, 0.9891, 1.218, 1.438, 1.649, 1.851
- 10, 0.2566, 0.5073, 0.7511, 0.9875, 1.216, 1.436, 1.647, 1.849
- 10.5, 0.2559, 0.5061, 0.7494, 0.9852, 1.213, 1.433, 1.644, 1.846
- 11, 0.2552, 0.5046, 0.7472, 0.9825, 1.21, 1.429, 1.64, 1.842
- 11.5, 0.2544, 0.503, 0.7449, 0.9795, 1.206, 1.425, 1.635, 1.837
- 12, 0.2535, 0.5013, 0.7424, 0.9763, 1.203, 1.421, 1.63, 1.831
- 12.5, 0.2526, 0.4995, 0.7399, 0.973, 1.199, 1.416, 1.625, 1.826
- 13, 0.2517, 0.4977, 0.7372, 0.9696, 1.194, 1.411, 1.62, 1.82
- 13.5, 0.2507, 0.4959, 0.7346, 0.9661, 1.19, 1.406, 1.614, 1.813
- 14, 0.2498, 0.4941, 0.7319, 0.9627, 1.186, 1.401, 1.608, 1.807
- 14.5, 0.2489, 0.4923, 0.7293, 0.9592, 1.182, 1.396, 1.603, 1.801
- 15, 0.248, 0.4906, 0.7267, 0.9558, 1.178, 1.391, 1.597, 1.795
- 15.5, 0.2471, 0.4888, 0.7241, 0.9524, 1.173, 1.387, 1.592, 1.789
- 16, 0.2463, 0.4871, 0.7216, 0.9492, 1.169, 1.382, 1.586, 1.782
- 16.5, 0.2454, 0.4855, 0.7191, 0.9459, 1.165, 1.377, 1.581, 1.776
- 17, 0.2446, 0.4838, 0.7167, 0.9428, 1.162, 1.373, 1.576, 1.771
- 17.5, 0.2438, 0.4823, 0.7144, 0.9397, 1.158, 1.368, 1.571, 1.765
- 18, 0.2431, 0.4807, 0.7121, 0.9367, 1.154, 1.364, 1.566, 1.759
- 18.5, 0.2423, 0.4792, 0.7099, 0.9338, 1.15, 1.36, 1.561, 1.754
- 19, 0.2416, 0.4778, 0.7078, 0.931, 1.147, 1.355, 1.556, 1.749
- 19.5, 0.2409, 0.4764, 0.7057, 0.9282, 1.144, 1.351, 1.551, 1.743
- 20, 0.2402, 0.475, 0.7037, 0.9256, 1.14, 1.348, 1.547, 1.738
- 20.5, 0.2395, 0.4737, 0.7017, 0.923, 1.137, 1.344, 1.543, 1.733
- 21, 0.2388, 0.4724, 0.6998, 0.9205, 1.134, 1.34, 1.538, 1.729
- 21.5, 0.2382, 0.4712, 0.6979, 0.918, 1.131, 1.336, 1.534, 1.724
- 22, 0.2376, 0.4699, 0.6961, 0.9156, 1.128, 1.333, 1.53, 1.719
- 22.5, 0.237, 0.4688, 0.6944, 0.9133, 1.125, 1.33, 1.526, 1.715
- 23, 0.2364, 0.4676, 0.6927, 0.9111, 1.122, 1.326, 1.523, 1.711
- 23.5, 0.2359, 0.4665, 0.691, 0.9089, 1.12, 1.323, 1.519, 1.707
- 24, 0.2353, 0.4654, 0.6894, 0.9068, 1.117, 1.32, 1.515, 1.703
- 24.5, 0.2348, 0.4644, 0.6879, 0.9047, 1.115, 1.317, 1.512, 1.699
- 25, 0.2343, 0.4634, 0.6863, 0.9027, 1.112, 1.314, 1.508, 1.695
- 26, 0.2343, 0.4634, 0.6863, 0.9027, 1.112, 1.314, 1.508, 1.695
+! 1D table: col 1 = Alpha (deg), col 2 = Fy (N)
+FY_TIRE_TABLE(2,1) SPLINE ! axle 2, left side
+ -9, -1
+ -1, -0.28
+ 0, 0
+ 1, 0.28
+ 9, 1
 ENDTABLE
-FY_TIRE_GAIN(2,1) 550 ! Gain multiplied with calculated value to get Fy
+FY_TIRE_GAIN(2,1)   1 ! Gain multiplied with calculated value to get Fy
 FY_TIRE_OFFSET(2,1) 0 ; N ! Offset added (after gain) to get Fy
 ALPHA_START_FY_TIRE(2,1) 0 ; deg ! Offset subtracted from Alpha
 ALPHA_SCALE_FY_TIRE(2,1) 1 ! Scale factor divided into (Alpha - ALPHA_START_FY_TIRE)
+FY_TIRE_FZ_COEFFICIENT(2,1) 1 ! Coefficient: Fy scaling due to Fz per unit Fz (-/N),
+                              ! axle 2, left side
 FZ_START_FY_TIRE(2,1) 0 ; N ! Offset subtracted from Fz
-FZ_SCALE_FY_TIRE(2,1) 550 ! Scale factor divided into (Fz - FZ_START_FY_TIRE)
+FZ_SCALE_FY_TIRE(2,1) 1 ! Scale factor divided into (Fz - FZ_START_FY_TIRE)
 
-! 2D table: row 1 has "0" (place holder) followed by 8 values of Fz (N). Other rows
-! have Alpha (deg) followed by 8 values of Fy (N). With type = 2D_FROM _ZERO, the
-! table includes a hidden row 2 of zeros along with a hidden column 1 of zeros.
-FY_TIRE_CARPET(2,2) 2D_FROM_ZERO ! axle 2, right side
- 0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2
- 0.5, 0.03799, 0.07454, 0.1094, 0.1426, 0.1739, 0.2033, 0.2309, 0.2564
- 1, 0.07457, 0.1464, 0.215, 0.2802, 0.3418, 0.3998, 0.4541, 0.5045
- 1.5, 0.1085, 0.2131, 0.3132, 0.4084, 0.4985, 0.5833, 0.6628, 0.7369
- 2, 0.1389, 0.273, 0.4014, 0.5237, 0.6397, 0.7491, 0.8518, 0.9477
- 2.5, 0.1653, 0.3249, 0.478, 0.6241, 0.7629, 0.8941, 1.018, 1.133
- 3, 0.1873, 0.3685, 0.5425, 0.709, 0.8673, 1.017, 1.159, 1.292
- 3.5, 0.2053, 0.4041, 0.5954, 0.7786, 0.9534, 1.119, 1.276, 1.424
- 4, 0.2195, 0.4324, 0.6376, 0.8345, 1.023, 1.202, 1.371, 1.531
- 4.5, 0.2306, 0.4545, 0.6706, 0.8783, 1.077, 1.267, 1.446, 1.616
- 5, 0.239, 0.4713, 0.6959, 0.912, 1.119, 1.317, 1.505, 1.683
- 5.5, 0.2453, 0.4839, 0.7148, 0.9373, 1.151, 1.355, 1.55, 1.734
- 6, 0.2498, 0.493, 0.7286, 0.9559, 1.174, 1.384, 1.583, 1.773
- 6.5, 0.253, 0.4995, 0.7385, 0.9693, 1.191, 1.404, 1.608, 1.801
- 7, 0.2551, 0.5039, 0.7452, 0.9785, 1.203, 1.419, 1.625, 1.822
- 7.5, 0.2565, 0.5067, 0.7496, 0.9845, 1.211, 1.428, 1.637, 1.835
- 8, 0.2572, 0.5083, 0.7521, 0.988, 1.216, 1.434, 1.644, 1.844
- 8.5, 0.2575, 0.5089, 0.7532, 0.9897, 1.218, 1.438, 1.648, 1.849
- 9, 0.2575, 0.5089, 0.7532, 0.9899, 1.218, 1.438, 1.65, 1.851
- 9.5, 0.2571, 0.5083, 0.7525, 0.9891, 1.218, 1.438, 1.649, 1.851
- 10, 0.2566, 0.5073, 0.7511, 0.9875, 1.216, 1.436, 1.647, 1.849
- 10.5, 0.2559, 0.5061, 0.7494, 0.9852, 1.213, 1.433, 1.644, 1.846
- 11, 0.2552, 0.5046, 0.7472, 0.9825, 1.21, 1.429, 1.64, 1.842
- 11.5, 0.2544, 0.503, 0.7449, 0.9795, 1.206, 1.425, 1.635, 1.837
- 12, 0.2535, 0.5013, 0.7424, 0.9763, 1.203, 1.421, 1.63, 1.831
- 12.5, 0.2526, 0.4995, 0.7399, 0.973, 1.199, 1.416, 1.625, 1.826
- 13, 0.2517, 0.4977, 0.7372, 0.9696, 1.194, 1.411, 1.62, 1.82
- 13.5, 0.2507, 0.4959, 0.7346, 0.9661, 1.19, 1.406, 1.614, 1.813
- 14, 0.2498, 0.4941, 0.7319, 0.9627, 1.186, 1.401, 1.608, 1.807
- 14.5, 0.2489, 0.4923, 0.7293, 0.9592, 1.182, 1.396, 1.603, 1.801
- 15, 0.248, 0.4906, 0.7267, 0.9558, 1.178, 1.391, 1.597, 1.795
- 15.5, 0.2471, 0.4888, 0.7241, 0.9524, 1.173, 1.387, 1.592, 1.789
- 16, 0.2463, 0.4871, 0.7216, 0.9492, 1.169, 1.382, 1.586, 1.782
- 16.5, 0.2454, 0.4855, 0.7191, 0.9459, 1.165, 1.377, 1.581, 1.776
- 17, 0.2446, 0.4838, 0.7167, 0.9428, 1.162, 1.373, 1.576, 1.771
- 17.5, 0.2438, 0.4823, 0.7144, 0.9397, 1.158, 1.368, 1.571, 1.765
- 18, 0.2431, 0.4807, 0.7121, 0.9367, 1.154, 1.364, 1.566, 1.759
- 18.5, 0.2423, 0.4792, 0.7099, 0.9338, 1.15, 1.36, 1.561, 1.754
- 19, 0.2416, 0.4778, 0.7078, 0.931, 1.147, 1.355, 1.556, 1.749
- 19.5, 0.2409, 0.4764, 0.7057, 0.9282, 1.144, 1.351, 1.551, 1.743
- 20, 0.2402, 0.475, 0.7037, 0.9256, 1.14, 1.348, 1.547, 1.738
- 20.5, 0.2395, 0.4737, 0.7017, 0.923, 1.137, 1.344, 1.543, 1.733
- 21, 0.2388, 0.4724, 0.6998, 0.9205, 1.134, 1.34, 1.538, 1.729
- 21.5, 0.2382, 0.4712, 0.6979, 0.918, 1.131, 1.336, 1.534, 1.724
- 22, 0.2376, 0.4699, 0.6961, 0.9156, 1.128, 1.333, 1.53, 1.719
- 22.5, 0.237, 0.4688, 0.6944, 0.9133, 1.125, 1.33, 1.526, 1.715
- 23, 0.2364, 0.4676, 0.6927, 0.9111, 1.122, 1.326, 1.523, 1.711
- 23.5, 0.2359, 0.4665, 0.691, 0.9089, 1.12, 1.323, 1.519, 1.707
- 24, 0.2353, 0.4654, 0.6894, 0.9068, 1.117, 1.32, 1.515, 1.703
- 24.5, 0.2348, 0.4644, 0.6879, 0.9047, 1.115, 1.317, 1.512, 1.699
- 25, 0.2343, 0.4634, 0.6863, 0.9027, 1.112, 1.314, 1.508, 1.695
- 26, 0.2343, 0.4634, 0.6863, 0.9027, 1.112, 1.314, 1.508, 1.695
+! 1D table: col 1 = Alpha (deg), col 2 = Fy (N)
+FY_TIRE_TABLE(2,2) SPLINE ! axle 2, right side
+ -9, -1
+ -1, -0.28
+ 0, 0
+ 1, 0.28
+ 9, 1
 ENDTABLE
-FY_TIRE_GAIN(2,2) 550 ! Gain multiplied with calculated value to get Fy
+FY_TIRE_GAIN(2,2)   1 ! Gain multiplied with calculated value to get Fy
 FY_TIRE_OFFSET(2,2) 0 ; N ! Offset added (after gain) to get Fy
 ALPHA_START_FY_TIRE(2,2) 0 ; deg ! Offset subtracted from Alpha
 ALPHA_SCALE_FY_TIRE(2,2) 1 ! Scale factor divided into (Alpha - ALPHA_START_FY_TIRE)
+FY_TIRE_FZ_COEFFICIENT(2,2) 1 ! Coefficient: Fy scaling due to Fz per unit Fz (-/N),
+                              ! axle 2, right side
 FZ_START_FY_TIRE(2,2) 0 ; N ! Offset subtracted from Fz
-FZ_SCALE_FY_TIRE(2,2) 550 ! Scale factor divided into (Fz - FZ_START_FY_TIRE)
+FZ_SCALE_FY_TIRE(2,2) 1 ! Scale factor divided into (Fz - FZ_START_FY_TIRE)
 
 ! FZ_AERO_SHAPING: Coefficient CFZ for for Z component of aerodynamic force. CFZ is
 ! a function of aerodynamic slip angle (CONSTANT, COEFFICIENT, or TABLE).
@@ -2158,8 +1824,7 @@ FZ_SCALE_FY_TIRE(2,2) 550 ! Scale factor divided into (Fz - FZ_START_FY_TIRE)
 ! Aerodynamic slip angle used in the calculation can be adjusted with
 ! SLIP_SCALE_FZ_AERO and SLIP_START_FZ_AERO.
 
-FZ_AERO_SHAPING_CONSTANT 0.18 ; - ! Constant CFZ
-FZ_AERO_SHAPING_GAIN 1 ! Gain multiplied with calculated value to get CFZ
+FZ_AERO_SHAPING_CONSTANT 0 ; - ! Constant CFZ
 FZ_AERO_SHAPING_OFFSET 0 ; - ! Offset added (after gain) to get CFZ
 
 ! FZ_AERO_SHAPING_2: Coefficient CFZ2 for Z component of aerodynamic force. CFZ2 can
@@ -2958,7 +2623,6 @@ MENGINE_CARPET 2D_SPLINE
  7500, 0, 1.325, 2.65, 3.975, 5.3
  8000, 0, 1.3125, 2.6251, 3.9375, 5.25
  8500, 0, 1.0875, 2.1749, 3.2625, 4.35
- 9000, 0, 1.1225, 2.2451, 3.3675, 4.49
 ENDTABLE
 MENGINE_GAIN        1 ! Gain multiplied with calculated value to get engine torque
 MENGINE_OFFSET      0 ; N-m ! Offset added (after gain) to get engine torque
@@ -4067,8 +3731,383 @@ ROAD_NEW_ID_OFFSET(1,2) 0 ; - ! Offset added (after gain) to get ID
 ! 100 datasets; if indices shown below are not used, e.g., (2), the current value of
 ! the index IROAD is used to identify the dataset when reading data.
 
-ROAD_ZS_CONSTANT(1) 0 ; m ! [D] Constant elevation
+! 1D table: col 1 = station (m), col 2 = elevation (m)
+ROAD_ZS_TABLE(1) LINEAR ! linear interpolation and extrapolation
+ 0, 11.64943921
+ 10, 11.81327146
+ 20, 11.86775131
+ 30, 11.85459467
+ 40, 11.79038483
+ 50, 11.68732701
+ 60, 11.46140343
+ 70, 11.12787153
+ 80, 10.70601599
+ 90, 10.27680129
+ 100, 9.924523772
+ 110, 9.726299576
+ 120, 9.681940701
+ 130, 9.742342975
+ 140, 9.869926839
+ 150, 10.05042923
+ 160, 10.20177354
+ 170, 10.30007928
+ 180, 10.31951573
+ 190, 10.21842397
+ 200, 9.972719654
+ 210, 9.597191329
+ 220, 9.18092369
+ 230, 8.796881017
+ 240, 8.439758545
+ 250, 8.049217423
+ 260, 7.613814582
+ 270, 7.319166912
+ 280, 7.289175293
+ 290, 7.42962921
+ 300, 7.664402365
+ 310, 8.08528619
+ 320, 8.698584339
+ 330, 9.362973114
+ 340, 9.895177694
+ 350, 10.32504473
+ 360, 10.65059231
+ 370, 10.87698249
+ 380, 11.02114431
+ 390, 11.13730549
+ 400, 11.26156651
+ 410, 11.26015085
+ 420, 11.01344085
+ 430, 10.62591905
+ 440, 10.34810981
+ 450, 10.28376634
+ 460, 10.28799973
+ 470, 10.1917031
+ 480, 10.11825409
+ 490, 10.22703572
+ 500, 10.53342545
+ 510, 10.83870076
+ 520, 10.92809803
+ 530, 10.80021065
+ 540, 10.52412512
+ 550, 10.21983057
+ 560, 9.91173526
+ 570, 9.667238216
+ 580, 9.696389499
+ 590, 10.10757435
+ 600, 10.90204082
+ 610, 11.82251014
+ 620, 12.50726177
+ 630, 12.82000498
+ 640, 12.93621373
+ 650, 12.93456477
+ 660, 12.72931663
+ 670, 12.26194025
+ 680, 11.72215452
+ 690, 11.21907857
+ 700, 10.72125982
+ 710, 10.3231738
+ 720, 10.07546264
+ 730, 9.937450452
+ 740, 9.86461528
+ 750, 9.890205894
+ 760, 10.04803506
+ 770, 10.27255883
+ 780, 10.52625201
+ 790, 10.89231013
+ 800, 11.26181567
+ 810, 11.47911844
+ 820, 11.53516274
+ 830, 11.56898684
+ 840, 11.66852024
+ 850, 11.68497814
+ 860, 11.50419942
+ 870, 11.18881741
+ 880, 10.97079436
+ 890, 10.93637908
+ 900, 10.98173458
+ 910, 11.07511155
+ 920, 11.24695463
+ 930, 11.38558518
+ 940, 11.36074656
+ 950, 11.18922965
+ 960, 11.00909647
+ 970, 10.84236563
+ 980, 10.6728012
+ 990, 10.50909647
+ 1000, 10.33759315
+ 1001, 10.32084985
+ 1010, 10.15105438
+ 1011, 10.13432241
+ 1020, 10.05332624
+ 1021, 10.05189699
+ 1030, 10.1238284
+ 1040, 10.35892999
+ 1050, 10.60850755
+ 1060, 10.76954404
+ 1070, 10.87735849
+ 1080, 11.00836259
+ 1090, 11.14310403
+ 1100, 11.17836871
+ 1110, 11.15865365
+ 1120, 11.26061066
+ 1130, 11.51365829
+ 1140, 11.8087182
+ 1150, 11.94385603
+ 1160, 12.0153435
+ 1170, 12.13463952
+ 1180, 12.35853134
+ 1190, 12.62513081
+ 1200, 12.75516546
+ 1210, 12.75451086
+ 1220, 12.74020929
+ 1230, 12.83138689
+ 1240, 12.95488913
+ 1250, 13.00810664
+ 1260, 13.00915536
+ 1270, 12.97365739
+ 1280, 12.9257016
+ 1290, 12.88916623
+ 1300, 12.93034723
+ 1310, 13.03506761
+ 1320, 13.18024644
+ 1330, 13.31883168
+ 1340, 13.44779497
+ 1350, 13.56379759
+ 1360, 13.67449319
+ 1370, 13.77750572
+ 1380, 13.87349657
+ 1390, 13.89453895
+ 1400, 13.76668554
+ 1410, 13.48502571
+ 1420, 13.22519423
+ 1430, 13.10884958
+ 1440, 13.07009672
+ 1450, 12.94205758
+ 1460, 12.66422116
+ 1470, 12.30890847
+ 1480, 11.93709937
+ 1490, 11.56385649
+ 1500, 11.23340053
+ 1510, 11.0325466
+ 1520, 10.9776756
+ 1530, 10.99733629
+ 1540, 11
+ 1550, 10.98762146
+ 1560, 11.02197105
+ 1570, 11.13986953
+ 1580, 11.33985141
+ 1590, 11.52195746
+ 1600, 11.56405128
+ 1610, 11.55444291
+ 1620, 11.6471381
+ 1630, 11.93175836
+ 1640, 12.24748012
+ 1650, 12.40741806
+ 1660, 12.42696777
+ 1670, 12.38969852
+ 1680, 12.42362454
+ 1690, 12.53520125
+ 1700, 12.68528392
+ 1710, 12.79228295
+ 1720, 12.84923101
+ 1730, 12.72386691
+ 1740, 12.33220684
+ 1750, 11.69040975
+ 1760, 11.0612562
+ 1770, 10.5711024
+ 1780, 10.18373236
+ 1790, 9.828786609
+ 1800, 9.508349
+ 1810, 9.311356996
+ 1820, 9.261387574
+ 1830, 9.338290788
+ 1840, 9.492065505
+ 1850, 9.679424223
+ 1860, 9.906976375
+ 1870, 10.04292962
+ 1880, 10.05900247
+ 1890, 10.00210877
+ 1900, 9.99939976
+ 1910, 10.1038506
+ 1920, 10.33203697
+ 1930, 10.63548438
+ 1940, 10.89322974
+ 1950, 11.08039593
+ 1960, 11.25610093
+ 1970, 11.37927699
+ 1980, 11.38225781
+ 1990, 11.2815715
+ 2000, 11.12185553
+ 2020, 10.6321774
+ 2040, 10.20941131
+ 2050, 9.919626719
+ 2060, 9.496914992
+ 2070, 9.050932071
+ 2080, 8.638399511
+ 2090, 8.249052074
+ 2100, 7.911957236
+ 2110, 7.719117081
+ 2120, 7.699272917
+ 2130, 7.795993114
+ 2140, 8.139088088
+ 2150, 8.797478992
+ 2160, 9.732211375
+ 2170, 10.68010827
+ 2180, 11.4941788
+ 2190, 12.17771184
+ 2200, 12.73539378
+ 2210, 13.19003828
+ 2220, 13.57196765
+ 2230, 14.01453714
+ 2240, 14.52457134
+ 2250, 14.95930372
+ 2260, 15.19303721
+ 2270, 15.21788942
+ 2280, 15.09710526
+ 2290, 14.8459195
+ 2300, 14.50421754
+ 2310, 14.14510408
+ 2320, 13.79327731
+ 2330, 13.46211239
+ 2340, 13.2638361
+ 2350, 13.26737865
+ 2360, 13.44930803
+ 2370, 13.7247616
+ 2380, 14.0299214
+ 2390, 14.34103377
+ 2400, 14.52978097
+ 2410, 14.54385603
+ 2420, 14.41048042
+ 2430, 14.25248137
+ 2440, 14.1696052
+ 2450, 14.0853632
+ 2460, 13.87229835
+ 2470, 13.53724207
+ 2480, 13.16425514
+ 2490, 12.85796281
+ 2500, 12.59207004
+ 2510, 12.43983103
+ 2520, 12.47487599
+ 2530, 12.69997961
+ 2540, 12.91382138
+ 2550, 12.97143763
+ 2560, 12.86223244
+ 2570, 12.63907223
+ 2580, 12.32661442
+ 2590, 11.93816168
+ 2600, 11.57015108
+ 2610, 11.28037102
+ 2620, 11.07787945
+ 2630, 11.02902444
+ 2640, 11.16240458
+ 2650, 11.42152031
+ 2660, 11.71904913
+ 2670, 12.10739315
+ 2680, 12.60137036
+ 2690, 13.15260368
+ 2700, 13.52399375
+ 2710, 13.61473873
+ 2720, 13.48940633
+ 2730, 13.29942015
+ 2740, 13.25074181
+ 2750, 13.24927178
+ 2760, 13.25472378
+ 2770, 13.21833564
+ 2780, 13.16554622
+ 2790, 13.13637228
+ 2800, 13.07514779
+ 2810, 13.03204376
+ 2820, 12.99967836
+ 2830, 12.98267005
+ 2840, 12.99465673
+ 2850, 13.08309361
+ 2860, 13.35449048
+ 2870, 13.78778908
+ 2880, 14.20938866
+ 2890, 14.48963736
+ 2900, 14.59528642
+ 2910, 14.62217717
+ 2920, 14.56518154
+ 2930, 14.42015901
+ 2940, 14.16804005
+ 2950, 13.83004598
+ 2960, 13.40327074
+ 2970, 12.87211488
+ 2980, 12.23243335
+ 2990, 11.5173526
+ 3000, 10.75164103
+ 3010, 10.01503092
+ 3020, 9.414140751
+ 3030, 9.07674466
+ 3040, 9.094697502
+ 3050, 9.347384992
+ 3060, 9.711461188
+ 3070, 10.15300233
+ 3080, 10.76869012
+ 3090, 11.4431516
+ 3100, 11.9142608
+ 3110, 12.17638452
+ 3120, 12.4130422
+ 3130, 12.67581146
+ 3140, 12.82633129
+ 3150, 12.82128927
+ 3160, 12.81640354
+ 3170, 12.91719631
+ 3180, 12.99123649
+ 3190, 12.91497656
+ 3200, 12.63778342
+ 3210, 12.26845908
+ 3220, 11.89664092
+ 3230, 11.51563342
+ 3240, 11.21770369
+ 3250, 11.07439806
+ 3260, 11.07564384
+ 3270, 11.09004281
+ 3280, 10.99791615
+ 3290, 10.92244898
+ 3300, 10.95547578
+ 3310, 11.24512899
+ 3320, 11.75610999
+ 3330, 12.32362001
+ 3340, 12.74724003
+ 3350, 13.02484314
+ 3360, 13.31817482
+ 3370, 13.68172779
+ 3380, 13.89669528
+ 3390, 13.80082448
+ 3400, 13.49098281
+ 3410, 13.1908016
+ 3420, 13.02227231
+ 3430, 12.89737253
+ 3440, 12.77347392
+ 3450, 12.68851616
+ 3460, 12.71103536
+ 3470, 12.86184059
+ 3480, 13.06961879
+ 3490, 13.0869578
+ 3500, 12.86556207
+ 3510, 12.46671952
+ 3520, 12.06524723
+ 3530, 11.65871707
+ 3540, 11.17124963
+ 3550, 10.60808399
+ 3560, 10.13928062
+ 3570, 9.897673786
+ 3580, 9.868468142
+ 3590, 9.950768987
+ 3600, 10.08167795
+ 3610, 10.26064464
+ 3620, 10.43909488
+ 3630, 10.63041065
+ 3640, 10.80288342
+ 3650, 11.00531156
+ 3660, 11.23332264
+ 3670, 11.51267199
+ 3711.08, 11.64943921
+ENDTABLE
+ROAD_ZS_GAIN(1)     1 ! Gain multiplied with calculated value to get elevation
 ROAD_ZS_OFFSET(1)   0 ; m ! Offset added (after gain) to get elevation
+SSTART_ROAD_ZS(1)   0 ; m ! Offset subtracted from station
+SSCALE_ROAD_ZS(1)   1 ! Scale factor divided into (station - SSTART_ROAD_ZS)
 
 ! SPEED_TARGET: Speed controller target. Speed can be a nonlinear CARPET function of
 ! station and time or a function of time (CONSTANT, COEFFICIENT, or TABLE) combined
@@ -4086,7 +4125,7 @@ SPEED_TARGET_GAIN(1) 1 ! Gain multiplied with calculated value to get speed
 SPEED_TARGET_OFFSET(1) 0 ; km/h ! Offset added (after gain) to get speed
 SPEED_TARGET_COMBINE(1) ADD ! How to combine the two components
 SET_UNITS SPEED_TARGET_S_TABLE(1) km/h ;
-SPEED_TARGET_S_CONSTANT(1) 10 ; km/h ! Constant speed component due to station
+SPEED_TARGET_S_CONSTANT(1) 20 ; km/h ! Constant speed component due to station
 
 ! STEER_COMP: Steer of each wheel on an axle as a function of the total kingpin
 ! steering moment from both wheels on the axle, MINUS steering due to suspension
@@ -4232,7 +4271,7 @@ TOE_OFFSET(2,2)     0 ; deg ! Offset added (after gain) to get toe
 ! Vehicle speed used in the calculation can be adjusted with VX_SCALE_TPREV and
 ! VX_START_TPREV.
 
-TPREV_CONSTANT    1.5 ; s ! Constant preview time
+TPREV_CONSTANT    0.5 ; s ! Constant preview time
 TPREV_GAIN          1 ! Gain multiplied with calculated value to get preview time
 TPREV_OFFSET        0 ; s ! Offset added (after gain) to get preview time
 
@@ -8032,6 +8071,7 @@ ENDTABLE
 !------------------------------------------------------------------------------------
 ! NEW VARIABLES DEFINED AT RUN TIME
 !------------------------------------------------------------------------------------
+DEFINE_PARAMETER AIR_SPEED_REF = 50; km/h ; Reference speed for wind audio
 DEFINE_PARAMETER MAX_BRAKE_TORQUE = -50; N-m ; Max engine braking torque for audio
 DEFINE_PARAMETER MAX_TORQUE = 265; N-m ; Max engine torque for audio
 
@@ -8051,6 +8091,8 @@ DEFINE_OUTPUT mod1_R2 = 0; - ; mod1_R2
 DEFINE_OUTPUT mod2_R2 = 0; - ; mod2_R2 
 DEFINE_OUTPUT mod3_R2 = 0; - ; Audio control variable for tire  
 DEFINE_OUTPUT mod4_R2 = 0; - ; mod4_R2 
+DEFINE_OUTPUT v_mod3 = 0.0639989; - ; Audio control, wind speed, vol 
+DEFINE_OUTPUT v_mod4 = 0.632454; - ; Audio control, wind speed, freq 
 DEFINE_OUTPUT v_mod2 = 0; - ; Audio control (power off) 
 DEFINE_OUTPUT v_mod1 = 0; - ; Audio control (power on) 
 
@@ -8073,6 +8115,8 @@ EQ_OUT MOD1_R2 = (ABS(FY_R2)/FZ_REF(2,2))*MUY_R2;
 EQ_OUT MOD2_R2 = SIN(MIN(ABS(ALPHL_R2), 15/DR)*ABS(VXCENR2));
 EQ_OUT MOD3_R2 = (ABS(FX_R2)/FZ_REF(2,2))*MUX_R2;
 EQ_OUT MOD4_R2 = MIN(ABS(KAPPL_R2), 1)*ABS(VXCENR2);
+EQ_OUT V_MOD3 = POW(VAIR/AIR_SPEED_REF, 3);
+EQ_OUT V_MOD4 = POW(VAIR/AIR_SPEED_REF, 0.5);
 EQ_OUT V_MOD2 = IF_GT_0_THEN(M_ENGOUT, 0, POW(M_ENGOUT/MAX_BRAKE_TORQUE, 0.5));
 EQ_OUT V_MOD1 = IF_GT_0_THEN(M_ENGOUT, POW(M_ENGOUT/MAX_TORQUE, 0.5), 0);
 
@@ -8085,8 +8129,10 @@ IMPORT IMP_CLUTCH REPLACE 1 ; - ! #2. Clutch control for transmission
 !------------------------------------------------------------------------------------
 ! EXPORTED VARIABLES
 !------------------------------------------------------------------------------------
-EXPORT VX 9.964997076 ! #1. Long. speed, inst. CG, vehicle (km/h)
+EXPORT VX 19.98374355 ! #1. Long. speed, inst. CG, vehicle (km/h)
 EXPORT MFUEL        0 ! #2. Mass of fuel consumed (kg)
+EXPORT STATION      0 ! #3. Station (path) at vehicle origin (m)
+EXPORT FS_L1 474.6893289 ! #4. Spring force L1 (comp.) (N)
 
 
 END

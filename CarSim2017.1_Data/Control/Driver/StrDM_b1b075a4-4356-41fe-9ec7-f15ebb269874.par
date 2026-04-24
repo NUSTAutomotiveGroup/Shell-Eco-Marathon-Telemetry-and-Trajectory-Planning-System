@@ -2,8 +2,8 @@ PARSFILE
 #FullDataName Control: Steering by the Closed-loop Driver Model`No Offset, 1.5 sec. Preview`Constant Position
 #CheckBox0 0    
 OPT_DRIVER_MODEL 1
-#CheckBox1 0    
-CREATE_PATH_OBJ off
+#CheckBox1 1    
+CREATE_PATH_OBJ on
 #CheckBox2 0    
 
 #RingCtrl0 0
@@ -17,6 +17,9 @@ A_SW_MAX_DM 720
 *TPREV 1.5
 *SCALAR 0
 VLOW_DRIVER 10
+SET_PATH_WIDTH 1
+SET_PATH_DASH_INTERVAL 1
+SET_PATH_VERTEX_INTERVAL 11
 
 TPREV_CONSTANT 1.5
 

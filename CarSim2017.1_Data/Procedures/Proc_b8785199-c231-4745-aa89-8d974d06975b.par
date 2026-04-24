@@ -4,29 +4,28 @@ PARSFILE
 #CheckBox4 0    
 
 #RingCtrl0 1
-#RingCtrl1 0
-#RingCtrl2 0
-OPT_STOP 0
+#RingCtrl1 1
+OPT_STOP 1
 TSTART 0
 SSTART 0
 TSTART_WRITE = TSTART;
 TSTOP 525
-SSTOP =  SSTART + 1 ;
-OPT_DIRECTION 1
-*SPEED 10
+SSTOP 3711
+OPT_DIRECTION 0
+*SPEED 20
 *TSTOP 525
 *TSTART 0
 *SSTART 0
-*SSTOP 2235
+*SSTOP 3711
 
 INSTALL_DRIVER_SPEED_CONTROLLER CarSim9
 OPT_SC 3
 SPEED_TARGET_COMBINE ADD
 SPEED_TARGET_CONSTANT 0
-SPEED_TARGET_S_CONSTANT 10
+SPEED_TARGET_S_CONSTANT 20
 OPT_SC_ENGINE_BRAKING 0
-PARSFILE Control\Driver\StrDM_b1b075a4-4356-41fe-9ec7-f15ebb269874.par
-#BlueLink27 Control: Steering by the Closed-loop Driver Model`No Offset, 1.5 sec. Preview` Constant Position` , Steering`StrDM_b1b075a4-4356-41fe-9ec7-f15ebb269874
+PARSFILE Control\Driver\StrDM_db287201-78d5-4dc0-abec-ed318ae6874b.par
+#BlueLink27 Control: Steering by the Closed-loop Driver Model`No Offset, 0.5 sec. Preview` Constant Position` , Steering`StrDM_db287201-78d5-4dc0-abec-ed318ae6874b
 
 #BlueLink28 Control: Braking Pedal Force (Open Loop)`Constant: 0 MPa` Constant` , Braking`
 
@@ -35,6 +34,9 @@ PARSFILE Control\Gear_at\GearCL_3d656f9b-b010-469b-b86b-d4e11ee52bef.par
 
 PARSFILE Roads\Center_XY\PathXY_9c516fea-efdf-45e3-b862-8ae0dc19716a.par
 #BlueLink0 Path: X-Y Coordinates`Lusail` ` , Miscellaneous`PathXY_9c516fea-efdf-45e3-b862-8ae0dc19716a
+
+PARSFILE Roads\Center_Z\RdRefZ_88b7bccf-60c0-41a9-a547-776b2e26230c.par
+#BlueLink1 Road: Reference Line Elevation`Lusail` ` , Miscellaneous`RdRefZ_88b7bccf-60c0-41a9-a547-776b2e26230c
 
 PARSFILE Plot\Setup\Plot_b3ef8646-beef-4024-9925-3f874e91a76b.par
 #BlueLink8 Plot: Setup`Wheel Speeds` Braking` , Plot`Plot_b3ef8646-beef-4024-9925-3f874e91a76b
@@ -74,6 +76,9 @@ PARSFILE Plot\Setup\Plot_54f319fb-1aa2-48dc-9260-eda2669b08b3.par
 
 PARSFILE Plot\Setup\Plot_8b22f20a-1297-43cf-9e59-a0b1d530d136.par
 #BlueLink20 Plot: Setup`Lateral Accel. of CG's` Vehicle Motion` , Plot`Plot_8b22f20a-1297-43cf-9e59-a0b1d530d136
+
+PARSFILE Plot\Setup\Plot_c7306601-bee0-4edc-92fb-2c670cb34a1b.par
+#BlueLink21 Plot: Setup`Longitudinal Forces` Tire Forces` , Plot`Plot_c7306601-bee0-4edc-92fb-2c670cb34a1b
 
 
 #EMBEDDED_NOTES

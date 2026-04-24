@@ -2,8 +2,8 @@ Include PARSFILE "D:\FYP\Computational Stuff (Non ML)\Shell-Eco-Marathon-Telemet
 Used Dataset: I/O Channels: Import; Throttle #1
 Used Dataset: I/O Channels: Export; speed
 Used Dataset: Models: Simulink; New Simulink with No Connections
-Used Dataset: Animator: Reference Frame; { Car Tracking } Car X-Y
-Used Dataset: Animator: Camera Setup; K & C View
+Used Dataset: Animator: Reference Frame; { Car Tracking } Car X-Y-Z
+Used Dataset: Animator: Camera Setup; { Vehicle Reference } Top View (Veh. Ref.)
 Used Dataset: Suspension: Dive Angle (Caster Change); Constant: Zero
 Used Dataset: Suspension: Longitudinal Movement; Constant: Zero
 Used Dataset: Suspension: Camber Angle; Constant: Zero
@@ -21,10 +21,10 @@ Used Dataset: Suspension: Shock Absorber; Big Car
 Used Dataset: Suspension: Jounce and Rebound Stops; +60 mm / -40 mm
 Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 384 N-m/deg
 Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { Exotic } Exotic - Rear
-Used Dataset: Animator: Shape File Link; { Tires } Sports Car Tire
-Used Dataset: Animator: Shape File Link; { Tires } Sports Car Wheel
-Used Dataset: Animator: Shape File Link; { Tires } Sports Car Stripe
-Used Dataset: Animator: Shape Assembly; { Tires } Sports Car
+Used Dataset: Animator: Shape File Link; { Tires } Small Car Tire
+Used Dataset: Animator: Shape File Link; { Tires } Small Car Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Small Car Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Small Car
 Used Dataset: Animator: Sound Modifier; { Tires } Loudness: Lateral Force Effects
 Used Dataset: Animator: Sound Modifier; { Tires } Loudness: Lateral Speed Effects
 Used Dataset: Animator: Sound Sample; { Tire Sounds } Lateral Slip
@@ -35,13 +35,13 @@ Used Dataset: Animator: Sound Set; Tire Sounds - Scaled to Fz_Ref
 Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
 Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
 Used Dataset: Tire: Aligning Moment; { Normalized Tires } Normalized
-Used Dataset: Tire: Lateral Force; { Normalized Tires } Touring: Peak = 0.96 at Alpha = 9 deg
-Used Dataset: Tire: Longitudinal Force; { Normalized Tires } Touring: Peak = 0.96 at Kappa = 0.15
+Used Dataset: Tire: Lateral Force; { Normalized Tires } Normalized 1D (5-pt spline)
+Used Dataset: Tire: Longitudinal Force; { Normalized Tires } Normalized 1D (15-pt spline)
 Used Dataset: Tire; { Normalized Tires } sem
-Used Dataset: Animator: Shape File Link; { Tires } Sports Car Tire
-Used Dataset: Animator: Shape File Link; { Tires } Sports Car Wheel
-Used Dataset: Animator: Shape File Link; { Tires } Sports Car Stripe
-Used Dataset: Animator: Shape Assembly; { Tires } Sports Car
+Used Dataset: Animator: Shape File Link; { Tires } Small Car Tire
+Used Dataset: Animator: Shape File Link; { Tires } Small Car Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Small Car Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Small Car
 Used Dataset: Animator: Sound Modifier; { Tires } Loudness: Lateral Force Effects
 Used Dataset: Animator: Sound Modifier; { Tires } Loudness: Lateral Speed Effects
 Used Dataset: Animator: Sound Sample; { Tire Sounds } Lateral Slip
@@ -52,8 +52,8 @@ Used Dataset: Animator: Sound Set; Tire Sounds - Scaled to Fz_Ref
 Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
 Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
 Used Dataset: Tire: Aligning Moment; { Normalized Tires } Normalized
-Used Dataset: Tire: Lateral Force; { Normalized Tires } Touring: Peak = 0.96 at Alpha = 9 deg
-Used Dataset: Tire: Longitudinal Force; { Normalized Tires } Touring: Peak = 0.96 at Kappa = 0.15
+Used Dataset: Tire: Lateral Force; { Normalized Tires } Normalized 1D (5-pt spline)
+Used Dataset: Tire: Longitudinal Force; { Normalized Tires } Normalized 1D (15-pt spline)
 Used Dataset: Tire; { Normalized Tires } sem
 Used Dataset: Suspension: Longitudinal Movement; Constant: Zero
 Used Dataset: Suspension: Camber Angle; Constant: Zero
@@ -70,10 +70,10 @@ Used Dataset: Suspension: Shock Absorber; Big Car
 Used Dataset: Suspension: Jounce and Rebound Stops; +60 mm / -40 mm
 Used Dataset: Suspension: Auxiliary Roll Moment; { Linear } Linear: 384 N-m/deg
 Used Dataset: Suspension: Independent Compliance, Springs, and Dampers; { Exotic } Exotic - Rear
-Used Dataset: Animator: Shape File Link; { Tires } Sports Car Tire
-Used Dataset: Animator: Shape File Link; { Tires } Sports Car Wheel
-Used Dataset: Animator: Shape File Link; { Tires } Sports Car Stripe
-Used Dataset: Animator: Shape Assembly; { Tires } Sports Car
+Used Dataset: Animator: Shape File Link; { Tires } Small Car Tire
+Used Dataset: Animator: Shape File Link; { Tires } Small Car Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Small Car Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Small Car
 Used Dataset: Animator: Sound Modifier; { Tires } Loudness: Lateral Force Effects
 Used Dataset: Animator: Sound Modifier; { Tires } Loudness: Lateral Speed Effects
 Used Dataset: Animator: Sound Sample; { Tire Sounds } Lateral Slip
@@ -84,13 +84,13 @@ Used Dataset: Animator: Sound Set; Tire Sounds - Scaled to Fz_Ref
 Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
 Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
 Used Dataset: Tire: Aligning Moment; { Normalized Tires } Normalized
-Used Dataset: Tire: Lateral Force; { Normalized Tires } Touring: Peak = 0.96 at Alpha = 9 deg
-Used Dataset: Tire: Longitudinal Force; { Normalized Tires } Touring: Peak = 0.96 at Kappa = 0.15
+Used Dataset: Tire: Lateral Force; { Normalized Tires } Normalized 1D (5-pt spline)
+Used Dataset: Tire: Longitudinal Force; { Normalized Tires } Normalized 1D (15-pt spline)
 Used Dataset: Tire; { Normalized Tires } sem
-Used Dataset: Animator: Shape File Link; { Tires } Sports Car Tire
-Used Dataset: Animator: Shape File Link; { Tires } Sports Car Wheel
-Used Dataset: Animator: Shape File Link; { Tires } Sports Car Stripe
-Used Dataset: Animator: Shape Assembly; { Tires } Sports Car
+Used Dataset: Animator: Shape File Link; { Tires } Small Car Tire
+Used Dataset: Animator: Shape File Link; { Tires } Small Car Wheel
+Used Dataset: Animator: Shape File Link; { Tires } Small Car Stripe
+Used Dataset: Animator: Shape Assembly; { Tires } Small Car
 Used Dataset: Animator: Sound Modifier; { Tires } Loudness: Lateral Force Effects
 Used Dataset: Animator: Sound Modifier; { Tires } Loudness: Lateral Speed Effects
 Used Dataset: Animator: Sound Sample; { Tire Sounds } Lateral Slip
@@ -101,8 +101,8 @@ Used Dataset: Animator: Sound Set; Tire Sounds - Scaled to Fz_Ref
 Used Dataset: Generic Table; { Tire Relaxation Length } Lx Variable, Scaled to Tire
 Used Dataset: Generic Table; { Tire Relaxation Length } Ly Variable, Scaled to Tire
 Used Dataset: Tire: Aligning Moment; { Normalized Tires } Normalized
-Used Dataset: Tire: Lateral Force; { Normalized Tires } Touring: Peak = 0.96 at Alpha = 9 deg
-Used Dataset: Tire: Longitudinal Force; { Normalized Tires } Touring: Peak = 0.96 at Kappa = 0.15
+Used Dataset: Tire: Lateral Force; { Normalized Tires } Normalized 1D (5-pt spline)
+Used Dataset: Tire: Longitudinal Force; { Normalized Tires } Normalized 1D (15-pt spline)
 Used Dataset: Tire; { Normalized Tires } sem
 Used Dataset: Vehicle: Sprung Mass; sem_sprung
 Used Dataset: Aerodynamics: Fx (Drag) Coef. vs. Aero Slip; 0.30 at 0 Degrees
@@ -112,11 +112,16 @@ Used Dataset: Aerodynamics: Mx (Roll Moment) Coef. vs. Aero Slip; 0.3 at 90 deg
 Used Dataset: Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip; -0.15 at 0 Degrees
 Used Dataset: Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip; 0.05 at 90 deg
 Used Dataset: Aerodynamics: Basic; sem_aero
-Used Dataset: Animator: Shape File Link; { Trailer, Gooseneck } Gooseneck: Frame
-Used Dataset: Animator: Shape File Link; { Trailer, Gooseneck } Gooseneck: Details
-Used Dataset: Animator: Shape Assembly; { Trailers } Gooseneck Trailer
-Used Dataset: Animator: Shape File Link; { Trailer, Gooseneck } Gooseneck: Brake Lights
-Used Dataset: Animator: Vehicles and Sensor Targets; 2A Gooseneck
+Used Dataset: Animator: Shape File Link; { CS Hatchback } B Class Hatchback Body 2012
+Used Dataset: Animator: Shape File Link; { CS Hatchback } B Class, Hatchback: Details 2012
+Used Dataset: Animator: Shape File Link; { CS Hatchback } B Class, Hatchback: Driver 2012
+Used Dataset: Animator: Shape Assembly; { CS B-Class } B-Class, Hatchback 2012
+Used Dataset: Animator: Sound Modifier; { Wind } Loudness: Speed Effect
+Used Dataset: Animator: Sound Modifier; { Wind } Frequency: Speed Effect
+Used Dataset: Animator: Sound Sample; Wind Noise
+Used Dataset: Animator: Sound Set; Wind Noise
+Used Dataset: Animator: Shape File Link; { CS Hatchback } B-Class, Hatchback: Brake Lights 2012
+Used Dataset: Animator: Vehicles and Sensor Targets; { B-Class Vehicles } B-Class, Hatchback 2012
 Used Dataset: Powertrain: Fuel Consumption Rate; 150 kW Gasoline Engine
 Used Dataset: Animator: Sound Modifier; { Gas Engine } Power Off Loudness: Load Effect
 Used Dataset: Animator: Sound Modifier; { Gas Engine } Power Off Loudness: Speed Effect
@@ -145,10 +150,11 @@ Used Dataset: Steering System: Compliance; { Constant } Constant: 0.001 deg/N-m
 Used Dataset: Steering: Parking Torque for 2 Wheels; A-Class Hatchback 2017
 Used Dataset: Steering; A-Class, Hatchback: Manual, R&P 2017
 Used Dataset: Vehicle: Assembly; SEM1
-Used Dataset: Control: Steering by the Closed-loop Driver Model; { Constant Position } No Offset, 1.5 sec. Preview
+Used Dataset: Control: Steering by the Closed-loop Driver Model; { Constant Position } No Offset, 0.5 sec. Preview
 Used Dataset: Control: Clutch Shifting Timelines (Closed Loop); Fast
 Used Dataset: Control: Shifting (Closed Loop); Closed-loop Shift and Clutch (All Gears, Fast)
 Used Dataset: Path: X-Y Coordinates; Lusail
+Used Dataset: Road: Reference Line Elevation; Lusail
 Used Dataset: Plot: Format; Default
 Used Dataset: Plot: Setup; { Braking } Wheel Speeds
 Used Dataset: Plot: Format; Lines without Symbols
@@ -165,54 +171,4 @@ Used Dataset: Plot: Format; Default
 Used Dataset: Plot: Setup; { Controls: Driver } Throttle: Control Input
 Used Dataset: Plot: Format; Default
 Used Dataset: Plot: Setup; { Powertrain } Torques in Powertrain
-Used Dataset: Plot: Format; Lines without Symbols
-Used Dataset: Plot: Setup; { Powertrain } Engine RPM
-Used Dataset: Plot: Format; Default
-Used Dataset: Plot: Setup; { Tire Forces } Lateral Forces
-Used Dataset: Plot: Format; Default
-Used Dataset: Plot: Setup; { Aerodynamics and Wind } Aerodynamic Forces
-Used Dataset: Plot: Format; Default
-Used Dataset: Plot: Setup; { Suspension Forces and Moments } Spring Force
-Used Dataset: Plot: Format; Lines without Symbols
-Used Dataset: Plot: Setup; { Vehicle Motion } Lateral Accel. of CG's
-Used Dataset: Procedures; { Driving } Lusail Test #1
- sem 1
-Used Dataset: CarSim Run Control; sem 1
-
-Time to read input = 0.039
-Function FY_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for XCOL = 2.05048 N at T = 0
-Function FY_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for XCOL = 2.05048 N at T = 0
-Function L_RELAX_X_FZ_TABLE(1,1) extrapolated (out of range HIGH) for X = 1.91697 N at T = 0
-Function L_RELAX_X_FZ_TABLE(1,2) extrapolated (out of range HIGH) for X = 1.83249 N at T = 0
-Function L_RELAX_X_FZ_TABLE(2,1) extrapolated (out of range HIGH) for X = 2.05049 N at T = 0
-Function L_RELAX_Y_FZ_TABLE(2,1) extrapolated (out of range HIGH) for X = 2.05049 N at T = 0
-Function FX_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for XCOL = 2.05049 N at T = 0
-Function MZ_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for XCOL = 2.05049 N at T = 0
-Function L_RELAX_X_FZ_TABLE(2,2) extrapolated (out of range HIGH) for X = 2.05049 N at T = 0
-Function L_RELAX_Y_FZ_TABLE(2,2) extrapolated (out of range HIGH) for X = 2.05049 N at T = 0
-Function FX_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for XCOL = 2.05049 N at T = 0
-Function MZ_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for XCOL = 2.05049 N at T = 0
-Function F_REB_STOP_TABLE(1,1) extrapolated (out of range HIGH) for X = 0 mm at T = 0
-Function F_JNC_STOP_TABLE(1,1) extrapolated (out of range LOW) for X = 0 mm at T = 0
-Function F_REB_STOP_TABLE(1,2) extrapolated (out of range HIGH) for X = 0 mm at T = 0
-Function F_JNC_STOP_TABLE(1,2) extrapolated (out of range LOW) for X = 0 mm at T = 0
-Function F_REB_STOP_TABLE(2,1) extrapolated (out of range HIGH) for X = -1.35525e-17 mm at T = 0
-Function F_JNC_STOP_TABLE(2,1) extrapolated (out of range LOW) for X = -1.35525e-17 mm at T = 0
-Function F_REB_STOP_TABLE(2,2) extrapolated (out of range HIGH) for X = -1.35525e-17 mm at T = 0
-Function F_JNC_STOP_TABLE(2,2) extrapolated (out of range LOW) for X = -1.35525e-17 mm at T = 0
-
-Run started: ERD output file = D:\FYP\Computational Stuff (Non ML)\Shell-Eco-Marathon-Telemetry-and-Trajectory-Planning-System\CarSim2017.1_Data\Results\Run_1255e55b-9af3-438e-ae5e-d47f6fc15382\LastRun.bin
-Function INV_CAP_TC_TABLE extrapolated (out of range HIGH) for X = 1.00441 - at T = 0.0015
-Function L_RELAX_Y_FZ_TABLE(1,2) extrapolated (out of range HIGH) for X = 2.00144 N at T = 0.0925
-Function FY_TIRE_CARPET(1,2) extrapolated (out of range HIGH) for XCOL = 2.00144 N at T = 0.0925
-Function FX_TIRE_CARPET(1,2) extrapolated (out of range HIGH) for XCOL = 2.00144 N at T = 0.0925
-Function MZ_TIRE_CARPET(1,2) extrapolated (out of range HIGH) for XCOL = 2.00144 N at T = 0.0925
-Function L_RELAX_Y_FZ_TABLE(1,1) extrapolated (out of range HIGH) for X = 2.00074 N at T = 0.3545
-Function FY_TIRE_CARPET(1,1) extrapolated (out of range HIGH) for XCOL = 2.00074 N at T = 0.3545
-Function FX_TIRE_CARPET(1,1) extrapolated (out of range HIGH) for XCOL = 2.00074 N at T = 0.3545
-Function MZ_TIRE_CARPET(1,1) extrapolated (out of range HIGH) for XCOL = 2.00074 N at T = 0.3545
-
-Run stopped at t = 525. Stop time reached.
-
-Computational efficiency: RTIME = 0.0381867 sec/sim. sec
-
+Used Dataset: Plot: Format; Lines without S

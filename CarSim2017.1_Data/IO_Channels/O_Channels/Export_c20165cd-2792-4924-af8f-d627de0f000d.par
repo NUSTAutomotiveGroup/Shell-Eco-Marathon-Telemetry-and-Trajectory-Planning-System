@@ -7,10 +7,14 @@ PARSFILE
 
 EXPORT Vx
 EXPORT Mfuel
+EXPORT Station
+EXPORT Fs_L1
 #MiscYellow0
-#Number of Selected Channels: 2
+#Number of Selected Channels: 4
 #CHN_NAME: Vx
 #CHN_NAME: Mfuel
+#CHN_NAME: Station
+#CHN_NAME: Fs_L1
 #ENDMYellow
 
 #BlueLink0 CarSim Run Control`8-Speed Transmission` Powertrain Tests` , example run`Run_84980fe9-aeb3-4eb2-9960-95fb758e901a

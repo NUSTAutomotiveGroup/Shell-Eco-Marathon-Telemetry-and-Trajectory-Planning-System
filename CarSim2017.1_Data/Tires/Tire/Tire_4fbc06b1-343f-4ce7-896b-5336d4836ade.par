@@ -20,8 +20,8 @@ OPT_TIRE_LAG_KAPPA 2
 OPT_TIRE_LAG_ALPHA 1
 OPT_TIRE_MODEL 1
 
-PARSFILE Animator\STL_Groups\ShpGrp_d5b55623-3c6f-43ea-b7a0-880a3303d1d2.par
-#BlueLink4 Animator: Shape Assembly`Sports Car` Tires` , Animator`ShpGrp_d5b55623-3c6f-43ea-b7a0-880a3303d1d2
+PARSFILE Animator\STL_Groups\ShpGrp_a242724f-2fdb-4b77-9ec1-81739a7709cb.par
+#BlueLink4 Animator: Shape Assembly`Small Car` Tires` , Animator`ShpGrp_a242724f-2fdb-4b77-9ec1-81739a7709cb
 
 WRITE_WHEEL_OFFSET
 *SET_THICKNESS 80
@@ -50,11 +50,11 @@ OPT_TIRE_COMB 0
 PARSFILE Tires\Mz\TireMz_8710db58-1999-4bfa-b2d0-009ed3e16885.par
 #BlueLink0 Tire: Aligning Moment`Normalized` Normalized Tires` , Aligning Moment`TireMz_8710db58-1999-4bfa-b2d0-009ed3e16885
 
-PARSFILE Tires\Fy\TireFy_c09440db-22a8-41ab-92bc-cab9175d24dd.par
-#BlueLink1 Tire: Lateral Force`Touring: Peak = 0.96 at Alpha = 9 deg` Normalized Tires` , Lateral Force`TireFy_c09440db-22a8-41ab-92bc-cab9175d24dd
+PARSFILE Tires\Fy\TireFy_4a47b90a-b302-4824-b1b0-ee2b80db6bbc.par
+#BlueLink1 Tire: Lateral Force`Normalized 1D (5-pt spline)` Normalized Tires` , Lateral Force`TireFy_4a47b90a-b302-4824-b1b0-ee2b80db6bbc
 
-PARSFILE Tires\Fx\TireFx_fd854240-a518-407f-a02f-7ebe149157dd.par
-#BlueLink2 Tire: Longitudinal Force`Touring: Peak = 0.96 at Kappa = 0.15` Normalized Tires` , Longitudinal Force`TireFx_fd854240-a518-407f-a02f-7ebe149157dd
+PARSFILE Tires\Fx\TireFx_1ecbd52d-e92e-4e93-a843-85163cbb9226.par
+#BlueLink2 Tire: Longitudinal Force`Normalized 1D (15-pt spline)` Normalized Tires` , Longitudinal Force`TireFx_1ecbd52d-e92e-4e93-a843-85163cbb9226
 
 
 

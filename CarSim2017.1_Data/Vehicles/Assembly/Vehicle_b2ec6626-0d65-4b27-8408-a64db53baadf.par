@@ -70,8 +70,8 @@ PARSFILE Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par
 PARSFILE Aerodynamics\Aero_Main\Aero_f859fe21-5fac-4ae2-8aef-5c1268cf9de2.par
 #BlueLink1 Aerodynamics: Basic`sem_aero` ` , Aerodynamics`Aero_f859fe21-5fac-4ae2-8aef-5c1268cf9de2
 
-PARSFILE Animator\Vehicles\AniVeh_60c109ee-5c8d-45dd-bfaa-dfba617c42c7.par
-#BlueLink2 Animator: Vehicles and Sensor Targets`2A Gooseneck` ` , Vehicle 3D Shape`AniVeh_60c109ee-5c8d-45dd-bfaa-dfba617c42c7
+PARSFILE Animator\Vehicles\AniVeh_82c243fc-f3db-4580-95e7-f811abb55d9f.par
+#BlueLink2 Animator: Vehicles and Sensor Targets`B-Class, Hatchback 2012` B-Class Vehicles` , Vehicle 3D Shape`AniVeh_82c243fc-f3db-4580-95e7-f811abb55d9f
 
 PARSFILE Powertrain\Rwd\RWD_02ab1f32-7e9e-4fa6-b0c5-3005c1f474df.par
 #BlueLink4 Powertrain: Rear-Wheel Drive`sem_power` ` , Powertrain`RWD_02ab1f32-7e9e-4fa6-b0c5-3005c1f474df
@@ -83,7 +83,7 @@ PARSFILE Steering\System2\StrSys2_15589801-d4e7-488f-9884-031d53c5d85c.par
 #BlueLink7 Steering`A-Class, Hatchback: Manual, R&P 2017` ` , Steering System`StrSys2_15589801-d4e7-488f-9884-031d53c5d85c
 
 *IMAGE_TYPE PASS_THROUGH
-*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_60c109ee-5c8d-45dd-bfaa-dfba617c42c7.png
+*IMAGE_PASS_THROUGH Animator\Vehicles\AniVeh_82c243fc-f3db-4580-95e7-f811abb55d9f.png
 
 LOG_ENTRY Used Dataset: Vehicle: Assembly; SEM1
 #Library : Vehicle: Assembly

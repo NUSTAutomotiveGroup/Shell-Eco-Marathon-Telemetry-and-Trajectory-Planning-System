@@ -1,28 +1,209 @@
-2026-04-13T09:52:04 Logfile initialized.
-2026-04-13T09:52:04 CarSim 2017.1
-2026-04-13T09:52:04 -
-2026-04-13T09:52:04 command-line: 
-2026-04-13T09:52:04 -
-2026-04-13T09:52:04 Working Dir: D:\FYP\Computational Stuff (Non ML)\Shell-Eco-Marathon-Telemetry-and-Trajectory-Planning-System\CarSim2017.1_Data\
-2026-04-13T09:52:04 Program Dir: D:\CarSIM\
-2026-04-13T09:52:04 -
-2026-04-13T09:52:04 OS Version:        6.2 (build 9200)
-2026-04-13T09:52:04 CPU Architecture:  x64
-2026-04-13T09:52:04 CPU Count:         12
-2026-04-13T09:52:04 CPU Level/Rev:     6/47618
-2026-04-13T09:52:04 Start Mem Total:   16024 MB
-2026-04-13T09:52:04 Start Mem Used:    84%
-2026-04-13T09:52:04 -
-2026-04-13T09:52:04 Loaded dataset index cache in 0.00s, 1.1 megabytes.
-2026-04-13T09:52:05 License check took 0.52 seconds.
-2026-04-13T09:52:07 Initial setup took 1.89 seconds.
-2026-04-13T09:52:07 Auto updates took 0.00 seconds.
-2026-04-13T09:52:07 Loaded last screen in 0.22 seconds.
-2026-04-13T09:52:07 Total init time 2.91 seconds.
-2026-04-13T09:52:12 Running math model for: {  } sem 1
-2026-04-13T09:52:13 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
-2026-04-13T09:52:13 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
-2026-04-13T09:52:13 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
-2026-04-13T09:52:13 Running command: "D:\FYP\Computational Stuff (Non ML)\Shell-Eco-Marathon-Telemetry-and-Trajectory-Planning-System\CarSim2017.1_Data\extensions\custom_c\solver_simple\solver_simple.exe"
-2026-04-13T09:52:21 Math model run completed.
-2026-04-13T09:52:36 3344 index cache entries written in 0.000s
+2026-04-21T19:44:13 Logfile initialized.
+2026-04-21T19:44:13 CarSim 2017.1
+2026-04-21T19:44:13 -
+2026-04-21T19:44:13 command-line: 
+2026-04-21T19:44:13 -
+2026-04-21T19:44:13 Working Dir: D:\FYP\Computational Stuff (Non ML)\Shell-Eco-Marathon-Telemetry-and-Trajectory-Planning-System\CarSim2017.1_Data\
+2026-04-21T19:44:13 Program Dir: D:\CarSIM\
+2026-04-21T19:44:13 -
+2026-04-21T19:44:13 OS Version:        6.2 (build 9200)
+2026-04-21T19:44:13 CPU Architecture:  x64
+2026-04-21T19:44:13 CPU Count:         12
+2026-04-21T19:44:13 CPU Level/Rev:     6/47618
+2026-04-21T19:44:13 Start Mem Total:   16024 MB
+2026-04-21T19:44:13 Start Mem Used:    52%
+2026-04-21T19:44:13 -
+2026-04-21T19:44:13 Loaded dataset index cache in 0.02s, 1.1 megabytes.
+2026-04-21T19:44:14 License check took 0.58 seconds.
+2026-04-21T19:44:16 Initial setup took 1.72 seconds.
+2026-04-21T19:44:16 Auto updates took 0.00 seconds.
+2026-04-21T19:44:17 Loaded last screen in 0.73 seconds.
+2026-04-21T19:44:17 Total init time 3.41 seconds.
+2026-04-21T19:44:24 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-21T19:44:24 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-21T19:44:24 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T11:02:47 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T11:02:47 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T11:02:47 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T11:14:28 Assembling animation...
+2026-04-22T11:14:29 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T11:14:29 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T11:14:29 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T11:14:29 Animation assembly finished.
+2026-04-22T11:29:45 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T11:29:45 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T11:29:45 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:02:31 Assembling animation...
+2026-04-22T12:02:31 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:02:31 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:02:31 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:02:32 Animation assembly finished.
+2026-04-22T12:03:19 Assembling animation...
+2026-04-22T12:03:19 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:03:19 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:03:19 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:03:19 Animation assembly finished.
+2026-04-22T12:03:28 Assembling animation...
+2026-04-22T12:03:28 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:03:28 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:03:28 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:03:29 Animation assembly finished.
+2026-04-22T12:04:03 Assembling animation...
+2026-04-22T12:04:03 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:04:03 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:04:03 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:04:03 Animation assembly finished.
+2026-04-22T12:04:20 Assembling animation...
+2026-04-22T12:04:21 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:04:21 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:04:21 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:04:21 Animation assembly finished.
+2026-04-22T12:05:00 Assembling animation...
+2026-04-22T12:05:00 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:05:00 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:05:00 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:05:00 Animation assembly finished.
+2026-04-22T12:06:53 Assembling animation...
+2026-04-22T12:06:53 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:06:53 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:06:53 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:06:53 Animation assembly finished.
+2026-04-22T12:07:07 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:07:07 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:07:07 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:07:48 Assembling animation...
+2026-04-22T12:07:48 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:07:48 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:07:48 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:07:48 Animation assembly finished.
+2026-04-22T12:07:54 Assembling animation...
+2026-04-22T12:07:54 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:07:54 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:07:54 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:07:54 Animation assembly finished.
+2026-04-22T12:08:22 Assembling animation...
+2026-04-22T12:08:22 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:08:22 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:08:22 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:08:23 Animation assembly finished.
+2026-04-22T12:09:51 Assembling animation...
+2026-04-22T12:09:51 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:09:51 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:09:51 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:09:51 Animation assembly finished.
+2026-04-22T12:10:59 Assembling animation...
+2026-04-22T12:10:59 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:10:59 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:10:59 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:10:59 Animation assembly finished.
+2026-04-22T12:13:54 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:13:54 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:13:54 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:14:49 Assembling animation...
+2026-04-22T12:14:49 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:14:49 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:14:49 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:14:49 Animation assembly finished.
+2026-04-22T12:15:07 Assembling animation...
+2026-04-22T12:15:07 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:15:07 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:15:07 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:15:08 Animation assembly finished.
+2026-04-22T12:15:31 Assembling animation...
+2026-04-22T12:15:31 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:15:31 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:15:31 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:15:31 Animation assembly finished.
+2026-04-22T12:16:49 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:16:49 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:16:49 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:18:46 Assembling animation...
+2026-04-22T12:18:46 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:18:46 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:18:46 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:18:47 Animation assembly finished.
+2026-04-22T12:19:04 Assembling animation...
+2026-04-22T12:19:04 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:19:04 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:19:04 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:19:05 Animation assembly finished.
+2026-04-22T12:20:01 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:20:01 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:20:01 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:20:16 Assembling animation...
+2026-04-22T12:20:16 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:20:16 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:20:16 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:20:16 Animation assembly finished.
+2026-04-22T12:20:35 Assembling animation...
+2026-04-22T12:20:35 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:20:35 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:20:35 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:20:35 Animation assembly finished.
+2026-04-22T12:21:00 Assembling animation...
+2026-04-22T12:21:00 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:21:00 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:21:00 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:21:00 Animation assembly finished.
+2026-04-22T12:21:47 Assembling animation...
+2026-04-22T12:21:48 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:21:48 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:21:48 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:21:48 Animation assembly finished.
+2026-04-22T12:30:29 Assembling animation...
+2026-04-22T12:30:29 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:30:29 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:30:29 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:30:30 Animation assembly finished.
+2026-04-22T12:35:06 Assembling animation...
+2026-04-22T12:35:06 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T12:35:06 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T12:35:06 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T12:35:06 Animation assembly finished.
+2026-04-22T14:44:46 Assembling animation...
+2026-04-22T14:44:47 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T14:44:47 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T14:44:47 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T14:44:47 Animation assembly finished.
+2026-04-22T14:59:51 Assembling animation...
+2026-04-22T14:59:51 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T14:59:51 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T14:59:51 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T14:59:51 Animation assembly finished.
+2026-04-22T15:00:14 Assembling animation...
+2026-04-22T15:00:14 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T15:00:14 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T15:00:14 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T15:00:14 Animation assembly finished.
+2026-04-22T15:01:32 Assembling animation...
+2026-04-22T15:01:32 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T15:01:32 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T15:01:32 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T15:01:32 Animation assembly finished.
+2026-04-22T15:01:54 Assembling animation...
+2026-04-22T15:01:55 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T15:01:55 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T15:01:55 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T15:01:55 Animation assembly finished.
+2026-04-22T15:03:12 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T15:03:12 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T15:03:12 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T15:07:46 Assembling animation...
+2026-04-22T15:07:47 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T15:07:47 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T15:07:47 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T15:07:47 Animation assembly finished.
+2026-04-22T15:14:24 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T15:14:24 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T15:14:24 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T15:14:45 Assembling animation...
+2026-04-22T15:14:45 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T15:14:45 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T15:14:45 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T15:14:45 Animation assembly finished.
+2026-04-22T15:14:56 Assembling animation...
+2026-04-22T15:14:57 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T15:14:57 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T15:14:57 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-22T15:14:57 Animation assembly finished.
+2026-04-22T15:15:51 ! --- Symbol Stack Error: "Vehicl

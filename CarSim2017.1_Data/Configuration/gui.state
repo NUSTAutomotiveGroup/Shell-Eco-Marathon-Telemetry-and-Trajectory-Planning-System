@@ -19,17 +19,17 @@ LastDS Aerodynamics: My (Pitch Moment) Coef. vs. Aero Slip`AirCMy_95ace942-43cf-
 LastDS Aerodynamics: My (Pitch Moment) Coef. vs. Bounce and Pitch`AirCMy2_0097f0ea-fb53-4cad-82f9-59a442a329fa
 LastDS Aerodynamics: Mz (Yaw Moment) Coef. vs. Aero Slip`AirCMz_57ed564c-dd83-4157-a1e0-252d83f9f723
 LastDS Aerodynamics: Mz (Yaw Moment) Coef. vs. Bounce and Pitch`AirCMz2_cb0d683b-aec1-40aa-84be-90c196ad166a
-LastDS Animator: Camera Setup`Camera_78646c82-3c25-4eef-b153-d76a910f00fb
-LastDS Animator: Group`Group_a8489aec-2878-4c67-a66a-e98619f18833
+LastDS Animator: Camera Setup`Camera_f03d9875-14be-49f8-b43b-b9eee65b0fba
+LastDS Animator: Group`Group_5df11fca-68d2-4d1e-bd7f-71f60b3b28c3
 LastDS Animator: Group (More)`GroupM_edb588c4-d67d-4b8d-8cbe-5979b2706e13
-LastDS Animator: Reference Frame`Frame_98b78536-0175-4a08-84c7-14478fa86af4
+LastDS Animator: Reference Frame`Frame_4a84e9d9-bea7-42c9-a041-63f7807b22a9
 LastDS Animator: Shape File Link`Shape_587aa98f-459e-4d62-9de9-550a9a2ed6ea
 LastDS Animator: Shape Assembly`ShpGrp_3d0fefac-775d-4db0-8f9c-7868d539f5c1
 LastDS Animator: Sound Modifier`SndMod_d5acd2c9-248f-409b-9fca-760fe3cda633
 LastDS Animator: Sound Sample`SndSmp_f107203a-a225-4132-8ebc-daab89d25fd4
 LastDS Animator: Sound Set`SndSet_d03f53b6-e5d8-433e-bddd-d970bd354bea
 LastDS Animator: HUD`HUD_be2da55f-e0d2-4547-9074-dfbb79adcf74
-LastDS Animator: Vehicles and Sensor Targets`AniVeh_60c109ee-5c8d-45dd-bfaa-dfba617c42c7
+LastDS Animator: Vehicles and Sensor Targets`AniVeh_82c243fc-f3db-4580-95e7-f811abb55d9f
 LastDS Animator: Wheel Arrows and Other Indicators`Arrows_18420e1c-c5d6-497f-996a-a8576addf69b
 LastDS Batch Matrix`Matrix_1f18034e-03f0-4f5a-b526-b85242cffdb8
 LastDS Batch Runs`BatRun_1558c19b-886a-43c5-916e-929e8db01d27
@@ -60,7 +60,7 @@ LastDS Control: Steering by the Closed-loop Driver Model`StrDM_b1b075a4-4356-41f
 LastDS Control: Steering Preview Time for the Driver Model`Tprev_2be5f040-10f2-4127-85ab-7c551ae4d327
 LastDS Control: Steering (Open Loop)`StrSW_d02d6236-3489-4162-b8b9-953cdc586f4c
 LastDS Control: Steering Torque (Open Loop)`StrTrq_f3c7a142-84e8-4bf8-ac82-6dc3c250e7d2
-LastDS Control: Throttle (Open Loop)`Throttle_90791c92-46ac-4bc1-990e-3a38f65a84fe
+LastDS Control: Throttle (Open Loop)`Throttle_a707549f-09ea-4f2d-86ee-5ccb52597176
 LastDS Custom Forces and Reference Points`RefPt_945967f1-b0fe-4cb8-b523-4697c18dbb04
 LastDS Positions, Velocities, and Accelerations`MoSen_adadcfc9-3356-4974-ac57-1db758def3b6
 LastDS Preview Points for External Driver Control`DrvSen_e1249794-1c3d-4451-be79-047cb07d05fd
@@ -91,7 +91,7 @@ LastDS Hitch: Roll Moment`HchMx_d2b0acf3-3598-4f6f-8626-f6e6636f2bfd
 LastDS Hitch: Pitch Moment`HchMy_993f741e-2394-46db-ac19-aa5bdb03e0af
 LastDS Hitch: Yaw Moment`HchMz_db3c7550-5072-41fb-9e50-1efcb41c0227
 LastDS I/O Channels: Ports`Port_8e0bbf7e-e32e-4042-b165-a22d956735b6
-LastDS I/O Channels: Export`Export_96663ee3-3d7c-4bb8-8b2c-e99664b51fe7
+LastDS I/O Channels: Export`Export_c20165cd-2792-4924-af8f-d627de0f000d
 LastDS I/O Channels: Import`Import_d5560ccf-ad04-4cdb-9a83-c213caaf847b
 LastDS I/O Channels: Write`Write_c42883e2-9b42-45ed-be16-cedbe8354668
 LastDS Models: Self-Contained Solvers`Extern_2a2b9c91-931f-465d-a680-f500ef249a74
@@ -114,12 +114,12 @@ LastDS Road: Boundaries`RdBnd_23c898a4-0355-49ae-b5ca-19cfccd3f975
 LastDS Path: X-Y Coordinates for Segment`XYtab_4c008d63-f59f-4bca-9da5-3a3f08d91872
 LastDS Road: Animator Surface Shapes`RdShape_8c8a59c7-01ef-42eb-8aa5-a5c0c0605130
 LastDS Road: Animator Repeated Object`AniRep_13e13ec7-cea3-4a96-a6ad-d28c56008d88
-LastDS Road: Reference Line Elevation`RdRefZ_598f8ea7-d2f1-4e0b-a828-7b8c7dfb136e
+LastDS Road: Reference Line Elevation`RdRefZ_88b7bccf-60c0-41a9-a547-776b2e26230c
 LastDS Road: Friction Map, S-L Grid`RdMu_14d0d322-e529-4060-b63a-06992b038998
 LastDS Road: Friction Map, Variable Width`VarWidMu_ba8d0e86-1d71-4f6a-8000-d0e2cf9a8726
 LastDS Road: Off-Center Elevation Map, S-L Grid`RdMapZ_daeb5d83-fffb-4248-89b6-089cb34929b0
 LastDS Road: Off-Center Elevation Map, Variable Width`VarWidZ_cae79fce-7476-41ab-8d40-e09e7d478cce
-LastDS Road: X-Y-Z Coordinates of Reference Line`RoadXYZ_759e43e0-bfdb-4659-b1a4-02990cf4017e
+LastDS Road: X-Y-Z Coordinates of Reference Line`RoadXYZ_8e4787f4-83b8-4e1d-b1ec-bd52d99d9bbc
 LastDS Road: X-Y-Z Coordinates of Edges`RdEdges_b10cf095-b186-4e13-a66f-f071c03ff017
 LastDS Road Boundary: Lateral Edge`RdBdL_611be0eb-3b8d-4f6f-90ca-26e59be93489
 LastDS Road Boundary: New Road ID`RdBdID_a805f392-90a3-45e3-8f37-a2db61573a58

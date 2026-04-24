@@ -1,12 +1,34 @@
-2026-04-13T09:53:21 Logfile initialized.
-2026-04-13T09:53:21 CarSim 2017.1
-2026-04-13T09:53:21 -
-2026-04-13T09:53:21 command-line: 
-2026-04-13T09:53:21 -
-2026-04-13T09:53:21 Working Dir: D:\FYP\Computational Stuff (Non ML)\Shell-Eco-Marathon-Telemetry-and-Trajectory-Planning-System\CarSim2017.1_Data\
-2026-04-13T09:53:21 Program Dir: D:\CarSIM\
-2026-04-13T09:53:21 -
-2026-04-13T09:53:21 OS Version:        6.2 (build 9200)
-2026-04-13T09:53:21 CPU Architecture:  x64
-2026-04-13T09:53:21 CPU Count:         12
-202
+2026-04-22T17:07:08 Logfile initialized.
+2026-04-22T17:07:08 CarSim 2017.1
+2026-04-22T17:07:08 -
+2026-04-22T17:07:08 command-line: 
+2026-04-22T17:07:08 -
+2026-04-22T17:07:08 Working Dir: D:\FYP\Computational Stuff (Non ML)\Shell-Eco-Marathon-Telemetry-and-Trajectory-Planning-System\CarSim2017.1_Data\
+2026-04-22T17:07:08 Program Dir: D:\CarSIM\
+2026-04-22T17:07:08 -
+2026-04-22T17:07:08 OS Version:        6.2 (build 9200)
+2026-04-22T17:07:08 CPU Architecture:  x64
+2026-04-22T17:07:08 CPU Count:         12
+2026-04-22T17:07:08 CPU Level/Rev:     6/47618
+2026-04-22T17:07:08 Start Mem Total:   16024 MB
+2026-04-22T17:07:08 Start Mem Used:    45%
+2026-04-22T17:07:08 -
+2026-04-22T17:07:08 Could not load dataset index cache "Configuration\index.cache"
+2026-04-22T17:07:09 License check took 0.59 seconds.
+2026-04-22T17:07:29 Indexed whole database in 20.81s
+2026-04-22T17:07:31 Initial setup took 1.69 seconds.
+2026-04-22T17:07:31 Auto updates took 0.00 seconds.
+2026-04-22T17:07:32 Loaded last screen in 0.39 seconds.
+2026-04-22T17:07:32 Total init time 23.64 seconds.
+2026-04-22T17:21:43 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-22T17:21:43 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-22T17:21:43 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-23T22:52:17 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-23T22:52:17 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-23T22:52:17 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-24T15:16:10 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-24T15:16:10 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-24T15:16:10 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_z"): symbol_set <<hitch_z>> 0.228
+2026-04-24T15:16:22 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_x"): symbol_set <<hitch_x>> -1.5
+2026-04-24T15:16:22 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par" (undefined symbol "hitch_y"): symbol_set <<hitch_y>> 0
+2026-04-24T15:16:22 ! --- Symbol Stack Error: "Vehicles\Sprung_Mass\SprMass

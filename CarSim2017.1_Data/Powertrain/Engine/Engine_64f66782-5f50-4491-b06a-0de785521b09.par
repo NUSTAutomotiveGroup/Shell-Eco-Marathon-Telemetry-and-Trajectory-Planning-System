@@ -9,7 +9,7 @@ OPT_THROTTLE_DELAY 0
 *3D_ZLabel Engine torque (N-m)
 
 #DiagramTwo0
-*3D_DATA 5, 18 ! columns x rows
+*3D_DATA 5, 17 ! columns x rows
 MENGINE_CARPET 2D_SPLINE
 0, 0, 0.25, 0.5, 0.75, 1
 0, -1, -0.25, -0.5, -0.75, -1
@@ -29,7 +29,6 @@ MENGINE_CARPET 2D_SPLINE
 7500, 0, 1.325, 2.65, 3.975, 5.3
 8000, 0, 1.3125, 2.6251, 3.9375, 5.25
 8500, 0, 1.0875, 2.1749, 3.2625, 4.35
-9000, 0, 1.1225, 2.2451, 3.3675, 4.49
 ENDTABLE
 
 MENGINE_THROTTLE_CONSTANT 0.85
@@ -43,7 +42,7 @@ PARSFILE Generic\Group\GenGrp_efabcbad-be3a-48c3-a446-5dff753de8d2.par
 #BlueLink1 Generic Data Group`Gasoline Engine (4 Cylinder)` Audio Sound Sets` , Miscellaneous`GenGrp_efabcbad-be3a-48c3-a446-5dff753de8d2
 
 AV_ENG_IDLE 750
-IENG 0.016
+IENG 0.003
 *SCALAR2 0.85
 
 LOG_ENTRY Used Dataset: Powertrain: Engine; sem_1

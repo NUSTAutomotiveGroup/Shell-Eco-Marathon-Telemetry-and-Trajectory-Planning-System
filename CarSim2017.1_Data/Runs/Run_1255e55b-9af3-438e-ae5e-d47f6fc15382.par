@@ -12,8 +12,8 @@ OPT_VS_FILETYPE 3
 PARSFILE Models\Simulink\Simlink_d891ba6b-8c8b-4af5-b9c8-0aaa125a984c.par
 #BlueLink12 Models: Simulink`New Simulink with No Connections` ` , Models`Simlink_d891ba6b-8c8b-4af5-b9c8-0aaa125a984c
 
-PARSFILE Animator\Cameras\Camera_78646c82-3c25-4eef-b153-d76a910f00fb.par
-#BlueLink0 Animator: Camera Setup`K & C View` ` , Animator camera`Camera_78646c82-3c25-4eef-b153-d76a910f00fb
+PARSFILE Animator\Cameras\Camera_f03d9875-14be-49f8-b43b-b9eee65b0fba.par
+#BlueLink0 Animator: Camera Setup`Top View (Veh. Ref.)` Vehicle Reference` , Animator camera`Camera_f03d9875-14be-49f8-b43b-b9eee65b0fba
 
 #CheckBox0 1    
 #CheckBox1 0    
@@ -57,7 +57,7 @@ WRITE_SENSOR_DETECT
 Title sem 1
 DATASET_TITLE sem 1
 #RingCtrl8 1
-#RingCtrl9 1
+#RingCtrl9 LastRun
 
 #EMBEDDED_NOTES
 #This example shows a Braking Distance Test for an E-Class Sedan with pedal force input, power boost, and thermal effects.

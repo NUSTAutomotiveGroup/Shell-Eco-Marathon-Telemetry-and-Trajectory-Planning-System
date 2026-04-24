@@ -11,36 +11,36 @@ H_H 228
 H_CG_SU 540
 LX_AXLE 1000
 LX_CG_SU 500
-M_SU 220
-IXX_SU 80
+M_SU 176
+IXX_SU 200
 IYY_SU 200
 IZZ_SU 200
 IXZ_SU 0
-*RX 0.603
-*RY 0.953
-*RZ 0.953
+*RX 1.066
+*RY 1.066
+*RZ 1.066
 Y_CG_SU 0
 Y_H 0
 IXY_SU 0
 IYZ_SU 0
 Z_LENGTH 1219
 Y_LENGTH 1780
-*HWC_LF 228
-*HWC_RF 228
-*HWC_LR 228
-*HWC_RR 228
+*HWC_LF 200
+*HWC_RF 200
+*HWC_LR 200
+*HWC_RR 200
 
 symbol_set <<hitch_x>> -1.5
 symbol_set <<hitch_y>> 0
 symbol_set <<hitch_z>> 0.228
-H_WC 228
+H_WC 200
 iside 2
-H_WC 228
+H_WC 200
 iaxle 1
 iside 1
-H_WC 228
+H_WC 200
 iside 2
-H_WC 228
+H_WC 200
 iaxle 2
 iside 1
 

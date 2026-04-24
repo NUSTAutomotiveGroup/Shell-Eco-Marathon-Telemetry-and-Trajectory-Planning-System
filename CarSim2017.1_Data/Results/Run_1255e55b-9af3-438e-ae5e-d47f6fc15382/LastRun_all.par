@@ -6,21 +6,21 @@ PARSFILE
 ! It contains the contents of that file plus the contents of any files linked
 ! with the "PARSFILE" keyword.
 
-! File created: 00:42 on April 14, 2026 by CarSim 2017.1
+! File created: 15:16 on April 24, 2026 by CarSim 2017.1
 
 PRODUCT_NAME CarSim
 
 tstep 0.001
 iprint 25
 
-ENTER_PARSFILE Runs\Run_1255e55b-9af3-438e-ae5e-d47f6fc15382.par`04-13-2026`09:54:24
+ENTER_PARSFILE Runs\Run_1255e55b-9af3-438e-ae5e-d47f6fc15382.par`04-22-2026`12:21:40
 #FullDataName CarSim Run Control`sem 1`
 VEHICLE_CODE i_i
 OPT_ALL_WRITE 0
 IOBJECT 0
 OPT_INT_METHOD 2
 OPT_VS_FILETYPE 3
-ENTER_PARSFILE Models\Simulink\Simlink_d891ba6b-8c8b-4af5-b9c8-0aaa125a984c.par`02-10-2026`04:43:56
+ENTER_PARSFILE Models\Simulink\Simlink_d891ba6b-8c8b-4af5-b9c8-0aaa125a984c.par`04-20-2026`17:38:58
 #FullDataName Models: Simulink`New Simulink with No Connections`
 OPT_INT_METHOD 2
 OPT_IO_UPDATE 0
@@ -29,7 +29,7 @@ ENTER_PARSFILE IO_Channels\I_Channels\Import_798db140-cf5b-404a-bd73-77fbcd88ca7
 LOG_ENTRY Used Dataset: I/O Channels: Import; Throttle #1
 EXIT_PARSFILE IO_Channels\I_Channels\Import_798db140-cf5b-404a-bd73-77fbcd88ca7a.par
 
-ENTER_PARSFILE IO_Channels\O_Channels\Export_c20165cd-2792-4924-af8f-d627de0f000d.par`02-10-2026`04:50:46
+ENTER_PARSFILE IO_Channels\O_Channels\Export_c20165cd-2792-4924-af8f-d627de0f000d.par`04-22-2026`15:03:06
 #FullDataName I/O Channels: Export`speed`
 LOG_ENTRY Used Dataset: I/O Channels: Export; speed
 EXIT_PARSFILE IO_Channels\O_Channels\Export_c20165cd-2792-4924-af8f-d627de0f000d.par
@@ -38,39 +38,43 @@ LIVE_SERVER_UPDATE_FREQ_MAX 30
 LOG_ENTRY Used Dataset: Models: Simulink; New Simulink with No Connections
 EXIT_PARSFILE Models\Simulink\Simlink_d891ba6b-8c8b-4af5-b9c8-0aaa125a984c.par
 
-ENTER_PARSFILE Animator\Cameras\Camera_78646c82-3c25-4eef-b153-d76a910f00fb.par`02-09-2026`03:24:48
-#FullDataName Animator: Camera Setup`K & C View`
-SET_CAMERA_Reference_Frame Car Tracking Car X-Y
-ENTER_PARSFILE Animator\Frames\Frame_4a84e9d9-bea7-42c9-a041-63f7807b22a9.par`03-03-2017`14:07:58
-#FullDataName Animator: Reference Frame`Car X-Y`Car Tracking
-ADD_REFERENCE_FRAME Car Tracking Car X-Y
+ENTER_PARSFILE Animator\Cameras\Camera_f03d9875-14be-49f8-b43b-b9eee65b0fba.par`03-03-2017`14:07:50
+#FullDataName Animator: Camera Setup`Top View (Veh. Ref.)`Vehicle Reference
+SET_CAMERA_Reference_Frame Car Tracking Car X-Y-Z
+ENTER_PARSFILE Animator\Frames\Frame_d2b5165c-cec2-4d4b-a319-0d7cf12b8f0d.par`03-03-2017`14:07:58
+#FullDataName Animator: Reference Frame`Car X-Y-Z`Car Tracking
+ADD_REFERENCE_FRAME Car Tracking Car X-Y-Z
 SET_EULER_ANGLES yaw_pitch_roll
 SET_X_NAME Xo
 SET_Y_NAME Yo
+SET_Z_NAME Zo
 WRT_Xo
 ANI_Xo
 WRT_Yo
 ANI_Yo
-LOG_ENTRY Used Dataset: Animator: Reference Frame; { Car Tracking } Car X-Y
-EXIT_PARSFILE Animator\Frames\Frame_4a84e9d9-bea7-42c9-a041-63f7807b22a9.par
+WRT_Zo
+ANI_Zo
+LOG_ENTRY Used Dataset: Animator: Reference Frame; { Car Tracking } Car X-Y-Z
+EXIT_PARSFILE Animator\Frames\Frame_d2b5165c-cec2-4d4b-a319-0d7cf12b8f0d.par
 
-SET_LOOKPOINT_Reference_Frame Car Tracking Car X-Y
-SET_LOOKPOINT_X -1.2
-SET_LOOKPOINT_Y 0
+SET_LOOKPOINT_Reference_Frame Car Tracking Car X-Y-Z
+SET_LOOKPOINT_X 0
+SET_LOOKPOINT_Y 0.3
 SET_LOOKPOINT_Z 0
-SET_AZIMUTH 35
-SET_ELEVATION 5
-SET_DISTANCE 7.5
+SET_AZIMUTH 270
+SET_ELEVATION 90
+SET_DISTANCE 13.5
 SET_CAMERAMAN_NAME External camera
 FOG_SCALE 0
-SET_FIELD_OF_VIEW 50
-LOG_ENTRY Used Dataset: Animator: Camera Setup; K & C View
-EXIT_PARSFILE Animator\Cameras\Camera_78646c82-3c25-4eef-b153-d76a910f00fb.par
+SET_FIELD_OF_VIEW 61
+SUN_POSITION 500 500 1000
+LOG_ENTRY Used Dataset: Animator: Camera Setup; { Vehicle Reference } Top View (Veh. Ref.)
+EXIT_PARSFILE Animator\Cameras\Camera_f03d9875-14be-49f8-b43b-b9eee65b0fba.par
 
 SET_RUN_COLOR 0 0 0.016
 RT_WINDOW_CLOSE off
 LIVE_SERVER_MAX_CONNECTIONS 0
-ENTER_PARSFILE Vehicles\Assembly\Vehicle_b2ec6626-0d65-4b27-8408-a64db53baadf.par`04-13-2026`09:47:28
+ENTER_PARSFILE Vehicles\Assembly\Vehicle_b2ec6626-0d65-4b27-8408-a64db53baadf.par`04-20-2026`17:42:24
 #FullDataName Vehicle: Assembly`SEM1`
 OPT_PT 2
 iaxle 1
@@ -162,13 +166,13 @@ A_CAMBER 0
 LOG_ENTRY Used Dataset: Suspension: Independent System Kinematics; { Exotic } Exotic - Front
 EXIT_PARSFILE Suspensions\Kin_Indy\KinInd_52d00983-7021-4ad7-8c6c-4e0ee3de6404.par
 
-ENTER_PARSFILE Suspensions\Compliance\CmpInd_2b16f5ad-b911-4647-be70-43ea27928d9d.par`04-13-2026`04:15:26
+ENTER_PARSFILE Suspensions\Compliance\CmpInd_2b16f5ad-b911-4647-be70-43ea27928d9d.par`04-20-2026`11:40:32
 #FullDataName Suspension: Independent Compliance, Springs, and Dampers`Exotic - Rear`Exotic
 DAUX 0
 iside 1
 OPT_EXT_SP 0
-FS_COMP_COEFFICIENT 10000
-FS_EXT_COEFFICIENT 10000
+FS_COMP_COEFFICIENT 100
+FS_EXT_COEFFICIENT 100
 FS_COMP_OFFSET 0
 FS_EXT_OFFSET 0
 SPRING_COMP_BETA 2
@@ -225,8 +229,8 @@ C_LAT_COEFFICIENT 0
 CD_MY_COEFFICIENT 0
 iside 2
 OPT_EXT_SP 0
-FS_COMP_COEFFICIENT 10000
-FS_EXT_COEFFICIENT 10000
+FS_COMP_COEFFICIENT 100
+FS_EXT_COEFFICIENT 100
 FS_COMP_OFFSET 0
 FS_EXT_OFFSET 0
 SPRING_COMP_BETA 2
@@ -322,7 +326,7 @@ Z_REF_LENGTH 1
 X_LENGTH 1
 Y_LENGTH 1
 Z_LENGTH 1
-ENTER_PARSFILE Tires\Tire\Tire_4fbc06b1-343f-4ce7-896b-5336d4836ade.par`04-13-2026`08:11:48
+ENTER_PARSFILE Tires\Tire\Tire_4fbc06b1-343f-4ce7-896b-5336d4836ade.par`04-22-2026`12:19:56
 #FullDataName Tire`sem`Normalized Tires
 FZ_REF 550
 X_LENGTH 298
@@ -331,33 +335,33 @@ Y_LENGTH 80
 OPT_TIRE_LAG_KAPPA 2
 OPT_TIRE_LAG_ALPHA 1
 OPT_TIRE_MODEL 1
-ENTER_PARSFILE Animator\STL_Groups\ShpGrp_d5b55623-3c6f-43ea-b7a0-880a3303d1d2.par`03-03-2017`14:08:10
-#FullDataName Animator: Shape Assembly`Sports Car`Tires
-ENTER_PARSFILE Animator\STL\Shape_9e9cf3ff-6a77-4076-a9f0-1b70114e603e.par`03-03-2017`14:08:42
-#FullDataName Animator: Shape File Link`Sports Car Tire`Tires
-add_obj Animator\3D_shape_files_CS\tires\195_45R16\tire.obj
+ENTER_PARSFILE Animator\STL_Groups\ShpGrp_a242724f-2fdb-4b77-9ec1-81739a7709cb.par`03-03-2017`14:08:10
+#FullDataName Animator: Shape Assembly`Small Car`Tires
+ENTER_PARSFILE Animator\STL\Shape_d8996593-b0bb-42de-9e27-596079d0f698.par`03-03-2017`14:08:42
+#FullDataName Animator: Shape File Link`Small Car Tire`Tires
+add_obj Animator\3D_shape_files_CS\tires\145_80R13\tire.obj
 SET_COLOR 1 1 1
 set_lighting on
 set_fogging on
 SET_SPECULAR 0.3 0.3 0.3
 vsv_enable_shadows_recursive
-LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Sports Car Tire
-EXIT_PARSFILE Animator\STL\Shape_9e9cf3ff-6a77-4076-a9f0-1b70114e603e.par
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Small Car Tire
+EXIT_PARSFILE Animator\STL\Shape_d8996593-b0bb-42de-9e27-596079d0f698.par
 
-ENTER_PARSFILE Animator\STL\Shape_e8969a6e-9ef6-43c7-9f40-228c21b5b4a1.par`03-03-2017`14:08:42
-#FullDataName Animator: Shape File Link`Sports Car Wheel`Tires
-add_obj Animator\3D_shape_files_CS\tires\195_45R16\wheel.obj
+ENTER_PARSFILE Animator\STL\Shape_90f31ee0-e7fb-4992-98ec-a258d85fad19.par`03-03-2017`14:08:42
+#FullDataName Animator: Shape File Link`Small Car Wheel`Tires
+add_obj Animator\3D_shape_files_CS\tires\145_80R13\wheel.obj
 SET_COLOR .62 .62 .62
 set_lighting on
 set_fogging on
 SET_SPECULAR 0.5 0.5 0.5
 vsv_enable_shadows_recursive
-LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Sports Car Wheel
-EXIT_PARSFILE Animator\STL\Shape_e8969a6e-9ef6-43c7-9f40-228c21b5b4a1.par
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Small Car Wheel
+EXIT_PARSFILE Animator\STL\Shape_90f31ee0-e7fb-4992-98ec-a258d85fad19.par
 
-ENTER_PARSFILE Animator\STL\Shape_8ffa6ffc-1b17-4180-964d-d52d768c1b70.par`03-03-2017`14:08:42
-#FullDataName Animator: Shape File Link`Sports Car Stripe`Tires
-add_obj Animator\3D_shape_files_CS\tires\195_45R16\stripe.obj
+ENTER_PARSFILE Animator\STL\Shape_05f0894a-00cb-4265-8b98-8551dd702874.par`03-03-2017`14:08:42
+#FullDataName Animator: Shape File Link`Small Car Stripe`Tires
+add_obj Animator\3D_shape_files_CS\tires\145_80R13\stripe.obj
 SET_COLOR white
 SET_OFFSET_X 0
 SET_OFFSET_Y 0.01
@@ -365,14 +369,14 @@ SET_OFFSET_Z 0.01
 set_lighting on
 set_fogging on
 SET_SPECULAR 0 0 0
-LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Sports Car Stripe
-EXIT_PARSFILE Animator\STL\Shape_8ffa6ffc-1b17-4180-964d-d52d768c1b70.par
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Small Car Stripe
+EXIT_PARSFILE Animator\STL\Shape_05f0894a-00cb-4265-8b98-8551dd702874.par
 
-x_ref_length 291
-y_ref_length 195
-z_ref_length 291
-LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } Sports Car
-EXIT_PARSFILE Animator\STL_Groups\ShpGrp_d5b55623-3c6f-43ea-b7a0-880a3303d1d2.par
+x_ref_length 281
+y_ref_length 145
+z_ref_length 281
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } Small Car
+EXIT_PARSFILE Animator\STL_Groups\ShpGrp_a242724f-2fdb-4b77-9ec1-81739a7709cb.par
 
 WRITE_WHEEL_OFFSET
 SET_OFFSET_Y 0
@@ -673,129 +677,43 @@ ENDTABLE
 LOG_ENTRY Used Dataset: Tire: Aligning Moment; { Normalized Tires } Normalized
 EXIT_PARSFILE Tires\Mz\TireMz_8710db58-1999-4bfa-b2d0-009ed3e16885.par
 
-ENTER_PARSFILE Tires\Fy\TireFy_c09440db-22a8-41ab-92bc-cab9175d24dd.par`03-03-2017`14:09:56
-#FullDataName Tire: Lateral Force`Touring: Peak = 0.96 at Alpha = 9 deg`Normalized Tires
-fy_tire_gain = FZ_REF
-fz_scale_fy_tire = FZ_REF
-FY_TIRE_CARPET 2D_FROM_ZERO
-0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2
-0.5, 0.03799, 0.07454, 0.1094, 0.1426, 0.1739, 0.2033, 0.2309, 0.2564
-1, 0.07457, 0.1464, 0.215, 0.2802, 0.3418, 0.3998, 0.4541, 0.5045
-1.5, 0.1085, 0.2131, 0.3132, 0.4084, 0.4985, 0.5833, 0.6628, 0.7369
-2, 0.1389, 0.273, 0.4014, 0.5237, 0.6397, 0.7491, 0.8518, 0.9477
-2.5, 0.1653, 0.3249, 0.478, 0.6241, 0.7629, 0.8941, 1.018, 1.133
-3, 0.1873, 0.3685, 0.5425, 0.709, 0.8673, 1.017, 1.159, 1.292
-3.5, 0.2053, 0.4041, 0.5954, 0.7786, 0.9534, 1.119, 1.276, 1.424
-4, 0.2195, 0.4324, 0.6376, 0.8345, 1.023, 1.202, 1.371, 1.531
-4.5, 0.2306, 0.4545, 0.6706, 0.8783, 1.077, 1.267, 1.446, 1.616
-5, 0.239, 0.4713, 0.6959, 0.912, 1.119, 1.317, 1.505, 1.683
-5.5, 0.2453, 0.4839, 0.7148, 0.9373, 1.151, 1.355, 1.55, 1.734
-6, 0.2498, 0.493, 0.7286, 0.9559, 1.174, 1.384, 1.583, 1.773
-6.5, 0.253, 0.4995, 0.7385, 0.9693, 1.191, 1.404, 1.608, 1.801
-7, 0.2551, 0.5039, 0.7452, 0.9785, 1.203, 1.419, 1.625, 1.822
-7.5, 0.2565, 0.5067, 0.7496, 0.9845, 1.211, 1.428, 1.637, 1.835
-8, 0.2572, 0.5083, 0.7521, 0.988, 1.216, 1.434, 1.644, 1.844
-8.5, 0.2575, 0.5089, 0.7532, 0.9897, 1.218, 1.438, 1.648, 1.849
-9, 0.2575, 0.5089, 0.7532, 0.9899, 1.218, 1.438, 1.65, 1.851
-9.5, 0.2571, 0.5083, 0.7525, 0.9891, 1.218, 1.438, 1.649, 1.851
-10, 0.2566, 0.5073, 0.7511, 0.9875, 1.216, 1.436, 1.647, 1.849
-10.5, 0.2559, 0.5061, 0.7494, 0.9852, 1.213, 1.433, 1.644, 1.846
-11, 0.2552, 0.5046, 0.7472, 0.9825, 1.21, 1.429, 1.64, 1.842
-11.5, 0.2544, 0.503, 0.7449, 0.9795, 1.206, 1.425, 1.635, 1.837
-12, 0.2535, 0.5013, 0.7424, 0.9763, 1.203, 1.421, 1.63, 1.831
-12.5, 0.2526, 0.4995, 0.7399, 0.973, 1.199, 1.416, 1.625, 1.826
-13, 0.2517, 0.4977, 0.7372, 0.9696, 1.194, 1.411, 1.62, 1.82
-13.5, 0.2507, 0.4959, 0.7346, 0.9661, 1.19, 1.406, 1.614, 1.813
-14, 0.2498, 0.4941, 0.7319, 0.9627, 1.186, 1.401, 1.608, 1.807
-14.5, 0.2489, 0.4923, 0.7293, 0.9592, 1.182, 1.396, 1.603, 1.801
-15, 0.248, 0.4906, 0.7267, 0.9558, 1.178, 1.391, 1.597, 1.795
-15.5, 0.2471, 0.4888, 0.7241, 0.9524, 1.173, 1.387, 1.592, 1.789
-16, 0.2463, 0.4871, 0.7216, 0.9492, 1.169, 1.382, 1.586, 1.782
-16.5, 0.2454, 0.4855, 0.7191, 0.9459, 1.165, 1.377, 1.581, 1.776
-17, 0.2446, 0.4838, 0.7167, 0.9428, 1.162, 1.373, 1.576, 1.771
-17.5, 0.2438, 0.4823, 0.7144, 0.9397, 1.158, 1.368, 1.571, 1.765
-18, 0.2431, 0.4807, 0.7121, 0.9367, 1.154, 1.364, 1.566, 1.759
-18.5, 0.2423, 0.4792, 0.7099, 0.9338, 1.15, 1.36, 1.561, 1.754
-19, 0.2416, 0.4778, 0.7078, 0.931, 1.147, 1.355, 1.556, 1.749
-19.5, 0.2409, 0.4764, 0.7057, 0.9282, 1.144, 1.351, 1.551, 1.743
-20, 0.2402, 0.475, 0.7037, 0.9256, 1.14, 1.348, 1.547, 1.738
-20.5, 0.2395, 0.4737, 0.7017, 0.923, 1.137, 1.344, 1.543, 1.733
-21, 0.2388, 0.4724, 0.6998, 0.9205, 1.134, 1.34, 1.538, 1.729
-21.5, 0.2382, 0.4712, 0.6979, 0.918, 1.131, 1.336, 1.534, 1.724
-22, 0.2376, 0.4699, 0.6961, 0.9156, 1.128, 1.333, 1.53, 1.719
-22.5, 0.237, 0.4688, 0.6944, 0.9133, 1.125, 1.33, 1.526, 1.715
-23, 0.2364, 0.4676, 0.6927, 0.9111, 1.122, 1.326, 1.523, 1.711
-23.5, 0.2359, 0.4665, 0.691, 0.9089, 1.12, 1.323, 1.519, 1.707
-24, 0.2353, 0.4654, 0.6894, 0.9068, 1.117, 1.32, 1.515, 1.703
-24.5, 0.2348, 0.4644, 0.6879, 0.9047, 1.115, 1.317, 1.512, 1.699
-25, 0.2343, 0.4634, 0.6863, 0.9027, 1.112, 1.314, 1.508, 1.695
-26, 0.2343, 0.4634, 0.6863, 0.9027, 1.112, 1.314, 1.508, 1.695
+ENTER_PARSFILE Tires\Fy\TireFy_4a47b90a-b302-4824-b1b0-ee2b80db6bbc.par`03-03-2017`14:09:56
+#FullDataName Tire: Lateral Force`Normalized 1D (5-pt spline)`Normalized Tires
+FY_TIRE_TABLE SPLINE
+-9, -1
+-1, -0.28
+0, 0
+1, 0.28
+9, 1
 ENDTABLE
+FY_TIRE_FZ_COEFFICIENT 1
 MU_REF_Y 1.0
-LOG_ENTRY Used Dataset: Tire: Lateral Force; { Normalized Tires } Touring: Peak = 0.96 at Alpha = 9 deg
-EXIT_PARSFILE Tires\Fy\TireFy_c09440db-22a8-41ab-92bc-cab9175d24dd.par
+LOG_ENTRY Used Dataset: Tire: Lateral Force; { Normalized Tires } Normalized 1D (5-pt spline)
+EXIT_PARSFILE Tires\Fy\TireFy_4a47b90a-b302-4824-b1b0-ee2b80db6bbc.par
 
-ENTER_PARSFILE Tires\Fx\TireFx_fd854240-a518-407f-a02f-7ebe149157dd.par`03-01-2026`09:16:16
-#FullDataName Tire: Longitudinal Force`Touring: Peak = 0.96 at Kappa = 0.15`Normalized Tires
-fx_tire_gain = FZ_REF
-fz_scale_fx_tire = FZ_REF
-FX_TIRE_CARPET 2D_FROM_ZERO
-0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2
-0.02, 0.1295, 0.255, 0.3758, 0.4917, 0.6022, 0.7073, 0.8068, 0.9007
-0.04, 0.2006, 0.3956, 0.584, 0.7654, 0.9394, 1.106, 1.264, 1.414
-0.06, 0.2322, 0.4583, 0.6774, 0.8888, 1.092, 1.287, 1.473, 1.65
-0.08, 0.2465, 0.4868, 0.7199, 0.9452, 1.162, 1.371, 1.57, 1.76
-0.1, 0.2532, 0.5002, 0.74, 0.972, 1.196, 1.411, 1.617, 1.813
-0.12, 0.2563, 0.5064, 0.7493, 0.9844, 1.211, 1.429, 1.639, 1.839
-0.14, 0.2574, 0.5087, 0.7528, 0.9892, 1.217, 1.437, 1.648, 1.849
-0.16, 0.2575, 0.5089, 0.7532, 0.9899, 1.218, 1.438, 1.65, 1.852
-0.18, 0.2569, 0.5079, 0.7518, 0.9881, 1.216, 1.436, 1.647, 1.849
-0.2, 0.2561, 0.5062, 0.7493, 0.9849, 1.213, 1.432, 1.642, 1.844
-0.22, 0.255, 0.5041, 0.7462, 0.981, 1.208, 1.426, 1.636, 1.837
-0.24, 0.2538, 0.5017, 0.7429, 0.9765, 1.202, 1.42, 1.629, 1.829
-0.26, 0.2526, 0.4993, 0.7393, 0.9719, 1.197, 1.413, 1.621, 1.821
-0.28, 0.2513, 0.4969, 0.7357, 0.9672, 1.191, 1.407, 1.614, 1.812
-0.3, 0.2501, 0.4945, 0.7322, 0.9626, 1.185, 1.4, 1.606, 1.804
-0.32, 0.2489, 0.4921, 0.7287, 0.958, 1.18, 1.393, 1.599, 1.795
-0.34, 0.2478, 0.4898, 0.7253, 0.9536, 1.174, 1.387, 1.591, 1.787
-0.36, 0.2466, 0.4876, 0.7221, 0.9493, 1.169, 1.381, 1.584, 1.779
-0.38, 0.2456, 0.4855, 0.7189, 0.9452, 1.164, 1.375, 1.577, 1.772
-0.4, 0.2445, 0.4835, 0.7159, 0.9412, 1.159, 1.369, 1.571, 1.764
-0.42, 0.2435, 0.4815, 0.713, 0.9374, 1.154, 1.364, 1.565, 1.757
-0.44, 0.2426, 0.4796, 0.7102, 0.9338, 1.15, 1.358, 1.558, 1.75
-0.46, 0.2417, 0.4779, 0.7076, 0.9303, 1.146, 1.353, 1.553, 1.744
-0.48, 0.2408, 0.4761, 0.7051, 0.927, 1.142, 1.348, 1.547, 1.738
-0.5, 0.24, 0.4745, 0.7026, 0.9238, 1.138, 1.344, 1.542, 1.732
-0.52, 0.2392, 0.4729, 0.7003, 0.9208, 1.134, 1.339, 1.537, 1.726
-0.54, 0.2384, 0.4715, 0.6981, 0.9179, 1.13, 1.335, 1.532, 1.72
-0.56, 0.2377, 0.47, 0.696, 0.9151, 1.127, 1.331, 1.527, 1.715
-0.58, 0.237, 0.4687, 0.694, 0.9124, 1.124, 1.327, 1.523, 1.71
-0.6, 0.2364, 0.4674, 0.692, 0.9099, 1.12, 1.323, 1.518, 1.705
-0.62, 0.2357, 0.4661, 0.6902, 0.9074, 1.117, 1.32, 1.514, 1.701
-0.64, 0.2351, 0.4649, 0.6884, 0.9051, 1.115, 1.316, 1.51, 1.696
-0.66, 0.2346, 0.4637, 0.6867, 0.9028, 1.112, 1.313, 1.507, 1.692
-0.68, 0.234, 0.4626, 0.685, 0.9007, 1.109, 1.31, 1.503, 1.688
-0.7, 0.2335, 0.4616, 0.6835, 0.8986, 1.107, 1.307, 1.5, 1.684
-0.72, 0.2329, 0.4606, 0.682, 0.8966, 1.104, 1.304, 1.496, 1.68
-0.74, 0.2324, 0.4596, 0.6805, 0.8947, 1.102, 1.301, 1.493, 1.677
-0.76, 0.232, 0.4586, 0.6791, 0.8928, 1.099, 1.299, 1.49, 1.673
-0.78, 0.2315, 0.4577, 0.6777, 0.8911, 1.097, 1.296, 1.487, 1.67
-0.8, 0.2311, 0.4568, 0.6764, 0.8893, 1.095, 1.293, 1.484, 1.667
-0.82, 0.2306, 0.456, 0.6752, 0.8877, 1.093, 1.291, 1.481, 1.663
-0.84, 0.2302, 0.4552, 0.674, 0.8861, 1.091, 1.289, 1.479, 1.66
-0.86, 0.2298, 0.4544, 0.6728, 0.8846, 1.089, 1.286, 1.476, 1.658
-0.88, 0.2294, 0.4536, 0.6717, 0.8831, 1.087, 1.284, 1.473, 1.655
-0.9, 0.2291, 0.4529, 0.6706, 0.8816, 1.086, 1.282, 1.471, 1.652
-0.92, 0.2287, 0.4522, 0.6695, 0.8803, 1.084, 1.28, 1.469, 1.649
-0.94, 0.2284, 0.4515, 0.6685, 0.8789, 1.082, 1.278, 1.466, 1.647
-0.96, 0.228, 0.4508, 0.6675, 0.8776, 1.081, 1.276, 1.464, 1.644
-0.98, 0.2277, 0.4502, 0.6666, 0.8764, 1.079, 1.274, 1.462, 1.642
-1, 0.2274, 0.4496, 0.6657, 0.8751, 1.078, 1.273, 1.46, 1.64
-1.02, 0.2274, 0.4496, 0.6657, 0.8751, 1.078, 1.273, 1.46, 1.64
+ENTER_PARSFILE Tires\Fx\TireFx_1ecbd52d-e92e-4e93-a843-85163cbb9226.par`03-03-2017`14:09:54
+#FullDataName Tire: Longitudinal Force`Normalized 1D (15-pt spline)`Normalized Tires
+FX_TIRE_TABLE SPLINE
+-1, -0.92909
+-0.4, -0.99408
+-0.2, -1.013
+-0.14, -0.99995
+-0.12, -0.98768
+-0.08, -0.93044
+-0.04, -0.7283
+0, 0
+0.04, 0.7283
+0.08, 0.93045
+0.12, 0.98768
+0.14, 0.99995
+0.2, 1.013
+0.4, 0.99408
+1, 0.92909
 ENDTABLE
-MU_REF_X 0.001
-LOG_ENTRY Used Dataset: Tire: Longitudinal Force; { Normalized Tires } Touring: Peak = 0.96 at Kappa = 0.15
-EXIT_PARSFILE Tires\Fx\TireFx_fd854240-a518-407f-a02f-7ebe149157dd.par
+FX_TIRE_FZ_COEFFICIENT 1
+MU_REF_X 1.0
+LOG_ENTRY Used Dataset: Tire: Longitudinal Force; { Normalized Tires } Normalized 1D (15-pt spline)
+EXIT_PARSFILE Tires\Fx\TireFx_1ecbd52d-e92e-4e93-a843-85163cbb9226.par
 
 LOG_ENTRY Used Dataset: Tire; { Normalized Tires } sem
 EXIT_PARSFILE Tires\Tire\Tire_4fbc06b1-343f-4ce7-896b-5336d4836ade.par
@@ -831,7 +749,7 @@ Z_REF_LENGTH 1
 X_LENGTH 1
 Y_LENGTH 1
 Z_LENGTH 1
-ENTER_PARSFILE Tires\Tire\Tire_4fbc06b1-343f-4ce7-896b-5336d4836ade.par`04-13-2026`08:11:48
+ENTER_PARSFILE Tires\Tire\Tire_4fbc06b1-343f-4ce7-896b-5336d4836ade.par`04-22-2026`12:19:56
 #FullDataName Tire`sem`Normalized Tires
 FZ_REF 550
 X_LENGTH 298
@@ -840,33 +758,33 @@ Y_LENGTH 80
 OPT_TIRE_LAG_KAPPA 2
 OPT_TIRE_LAG_ALPHA 1
 OPT_TIRE_MODEL 1
-ENTER_PARSFILE Animator\STL_Groups\ShpGrp_d5b55623-3c6f-43ea-b7a0-880a3303d1d2.par`03-03-2017`14:08:10
-#FullDataName Animator: Shape Assembly`Sports Car`Tires
-ENTER_PARSFILE Animator\STL\Shape_9e9cf3ff-6a77-4076-a9f0-1b70114e603e.par`03-03-2017`14:08:42
-#FullDataName Animator: Shape File Link`Sports Car Tire`Tires
-add_obj Animator\3D_shape_files_CS\tires\195_45R16\tire.obj
+ENTER_PARSFILE Animator\STL_Groups\ShpGrp_a242724f-2fdb-4b77-9ec1-81739a7709cb.par`03-03-2017`14:08:10
+#FullDataName Animator: Shape Assembly`Small Car`Tires
+ENTER_PARSFILE Animator\STL\Shape_d8996593-b0bb-42de-9e27-596079d0f698.par`03-03-2017`14:08:42
+#FullDataName Animator: Shape File Link`Small Car Tire`Tires
+add_obj Animator\3D_shape_files_CS\tires\145_80R13\tire.obj
 SET_COLOR 1 1 1
 set_lighting on
 set_fogging on
 SET_SPECULAR 0.3 0.3 0.3
 vsv_enable_shadows_recursive
-LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Sports Car Tire
-EXIT_PARSFILE Animator\STL\Shape_9e9cf3ff-6a77-4076-a9f0-1b70114e603e.par
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Small Car Tire
+EXIT_PARSFILE Animator\STL\Shape_d8996593-b0bb-42de-9e27-596079d0f698.par
 
-ENTER_PARSFILE Animator\STL\Shape_e8969a6e-9ef6-43c7-9f40-228c21b5b4a1.par`03-03-2017`14:08:42
-#FullDataName Animator: Shape File Link`Sports Car Wheel`Tires
-add_obj Animator\3D_shape_files_CS\tires\195_45R16\wheel.obj
+ENTER_PARSFILE Animator\STL\Shape_90f31ee0-e7fb-4992-98ec-a258d85fad19.par`03-03-2017`14:08:42
+#FullDataName Animator: Shape File Link`Small Car Wheel`Tires
+add_obj Animator\3D_shape_files_CS\tires\145_80R13\wheel.obj
 SET_COLOR .62 .62 .62
 set_lighting on
 set_fogging on
 SET_SPECULAR 0.5 0.5 0.5
 vsv_enable_shadows_recursive
-LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Sports Car Wheel
-EXIT_PARSFILE Animator\STL\Shape_e8969a6e-9ef6-43c7-9f40-228c21b5b4a1.par
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Small Car Wheel
+EXIT_PARSFILE Animator\STL\Shape_90f31ee0-e7fb-4992-98ec-a258d85fad19.par
 
-ENTER_PARSFILE Animator\STL\Shape_8ffa6ffc-1b17-4180-964d-d52d768c1b70.par`03-03-2017`14:08:42
-#FullDataName Animator: Shape File Link`Sports Car Stripe`Tires
-add_obj Animator\3D_shape_files_CS\tires\195_45R16\stripe.obj
+ENTER_PARSFILE Animator\STL\Shape_05f0894a-00cb-4265-8b98-8551dd702874.par`03-03-2017`14:08:42
+#FullDataName Animator: Shape File Link`Small Car Stripe`Tires
+add_obj Animator\3D_shape_files_CS\tires\145_80R13\stripe.obj
 SET_COLOR white
 SET_OFFSET_X 0
 SET_OFFSET_Y 0.01
@@ -874,14 +792,14 @@ SET_OFFSET_Z 0.01
 set_lighting on
 set_fogging on
 SET_SPECULAR 0 0 0
-LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Sports Car Stripe
-EXIT_PARSFILE Animator\STL\Shape_8ffa6ffc-1b17-4180-964d-d52d768c1b70.par
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Small Car Stripe
+EXIT_PARSFILE Animator\STL\Shape_05f0894a-00cb-4265-8b98-8551dd702874.par
 
-x_ref_length 291
-y_ref_length 195
-z_ref_length 291
-LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } Sports Car
-EXIT_PARSFILE Animator\STL_Groups\ShpGrp_d5b55623-3c6f-43ea-b7a0-880a3303d1d2.par
+x_ref_length 281
+y_ref_length 145
+z_ref_length 281
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } Small Car
+EXIT_PARSFILE Animator\STL_Groups\ShpGrp_a242724f-2fdb-4b77-9ec1-81739a7709cb.par
 
 WRITE_WHEEL_OFFSET
 SET_OFFSET_Y 0
@@ -1182,129 +1100,43 @@ ENDTABLE
 LOG_ENTRY Used Dataset: Tire: Aligning Moment; { Normalized Tires } Normalized
 EXIT_PARSFILE Tires\Mz\TireMz_8710db58-1999-4bfa-b2d0-009ed3e16885.par
 
-ENTER_PARSFILE Tires\Fy\TireFy_c09440db-22a8-41ab-92bc-cab9175d24dd.par`03-03-2017`14:09:56
-#FullDataName Tire: Lateral Force`Touring: Peak = 0.96 at Alpha = 9 deg`Normalized Tires
-fy_tire_gain = FZ_REF
-fz_scale_fy_tire = FZ_REF
-FY_TIRE_CARPET 2D_FROM_ZERO
-0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2
-0.5, 0.03799, 0.07454, 0.1094, 0.1426, 0.1739, 0.2033, 0.2309, 0.2564
-1, 0.07457, 0.1464, 0.215, 0.2802, 0.3418, 0.3998, 0.4541, 0.5045
-1.5, 0.1085, 0.2131, 0.3132, 0.4084, 0.4985, 0.5833, 0.6628, 0.7369
-2, 0.1389, 0.273, 0.4014, 0.5237, 0.6397, 0.7491, 0.8518, 0.9477
-2.5, 0.1653, 0.3249, 0.478, 0.6241, 0.7629, 0.8941, 1.018, 1.133
-3, 0.1873, 0.3685, 0.5425, 0.709, 0.8673, 1.017, 1.159, 1.292
-3.5, 0.2053, 0.4041, 0.5954, 0.7786, 0.9534, 1.119, 1.276, 1.424
-4, 0.2195, 0.4324, 0.6376, 0.8345, 1.023, 1.202, 1.371, 1.531
-4.5, 0.2306, 0.4545, 0.6706, 0.8783, 1.077, 1.267, 1.446, 1.616
-5, 0.239, 0.4713, 0.6959, 0.912, 1.119, 1.317, 1.505, 1.683
-5.5, 0.2453, 0.4839, 0.7148, 0.9373, 1.151, 1.355, 1.55, 1.734
-6, 0.2498, 0.493, 0.7286, 0.9559, 1.174, 1.384, 1.583, 1.773
-6.5, 0.253, 0.4995, 0.7385, 0.9693, 1.191, 1.404, 1.608, 1.801
-7, 0.2551, 0.5039, 0.7452, 0.9785, 1.203, 1.419, 1.625, 1.822
-7.5, 0.2565, 0.5067, 0.7496, 0.9845, 1.211, 1.428, 1.637, 1.835
-8, 0.2572, 0.5083, 0.7521, 0.988, 1.216, 1.434, 1.644, 1.844
-8.5, 0.2575, 0.5089, 0.7532, 0.9897, 1.218, 1.438, 1.648, 1.849
-9, 0.2575, 0.5089, 0.7532, 0.9899, 1.218, 1.438, 1.65, 1.851
-9.5, 0.2571, 0.5083, 0.7525, 0.9891, 1.218, 1.438, 1.649, 1.851
-10, 0.2566, 0.5073, 0.7511, 0.9875, 1.216, 1.436, 1.647, 1.849
-10.5, 0.2559, 0.5061, 0.7494, 0.9852, 1.213, 1.433, 1.644, 1.846
-11, 0.2552, 0.5046, 0.7472, 0.9825, 1.21, 1.429, 1.64, 1.842
-11.5, 0.2544, 0.503, 0.7449, 0.9795, 1.206, 1.425, 1.635, 1.837
-12, 0.2535, 0.5013, 0.7424, 0.9763, 1.203, 1.421, 1.63, 1.831
-12.5, 0.2526, 0.4995, 0.7399, 0.973, 1.199, 1.416, 1.625, 1.826
-13, 0.2517, 0.4977, 0.7372, 0.9696, 1.194, 1.411, 1.62, 1.82
-13.5, 0.2507, 0.4959, 0.7346, 0.9661, 1.19, 1.406, 1.614, 1.813
-14, 0.2498, 0.4941, 0.7319, 0.9627, 1.186, 1.401, 1.608, 1.807
-14.5, 0.2489, 0.4923, 0.7293, 0.9592, 1.182, 1.396, 1.603, 1.801
-15, 0.248, 0.4906, 0.7267, 0.9558, 1.178, 1.391, 1.597, 1.795
-15.5, 0.2471, 0.4888, 0.7241, 0.9524, 1.173, 1.387, 1.592, 1.789
-16, 0.2463, 0.4871, 0.7216, 0.9492, 1.169, 1.382, 1.586, 1.782
-16.5, 0.2454, 0.4855, 0.7191, 0.9459, 1.165, 1.377, 1.581, 1.776
-17, 0.2446, 0.4838, 0.7167, 0.9428, 1.162, 1.373, 1.576, 1.771
-17.5, 0.2438, 0.4823, 0.7144, 0.9397, 1.158, 1.368, 1.571, 1.765
-18, 0.2431, 0.4807, 0.7121, 0.9367, 1.154, 1.364, 1.566, 1.759
-18.5, 0.2423, 0.4792, 0.7099, 0.9338, 1.15, 1.36, 1.561, 1.754
-19, 0.2416, 0.4778, 0.7078, 0.931, 1.147, 1.355, 1.556, 1.749
-19.5, 0.2409, 0.4764, 0.7057, 0.9282, 1.144, 1.351, 1.551, 1.743
-20, 0.2402, 0.475, 0.7037, 0.9256, 1.14, 1.348, 1.547, 1.738
-20.5, 0.2395, 0.4737, 0.7017, 0.923, 1.137, 1.344, 1.543, 1.733
-21, 0.2388, 0.4724, 0.6998, 0.9205, 1.134, 1.34, 1.538, 1.729
-21.5, 0.2382, 0.4712, 0.6979, 0.918, 1.131, 1.336, 1.534, 1.724
-22, 0.2376, 0.4699, 0.6961, 0.9156, 1.128, 1.333, 1.53, 1.719
-22.5, 0.237, 0.4688, 0.6944, 0.9133, 1.125, 1.33, 1.526, 1.715
-23, 0.2364, 0.4676, 0.6927, 0.9111, 1.122, 1.326, 1.523, 1.711
-23.5, 0.2359, 0.4665, 0.691, 0.9089, 1.12, 1.323, 1.519, 1.707
-24, 0.2353, 0.4654, 0.6894, 0.9068, 1.117, 1.32, 1.515, 1.703
-24.5, 0.2348, 0.4644, 0.6879, 0.9047, 1.115, 1.317, 1.512, 1.699
-25, 0.2343, 0.4634, 0.6863, 0.9027, 1.112, 1.314, 1.508, 1.695
-26, 0.2343, 0.4634, 0.6863, 0.9027, 1.112, 1.314, 1.508, 1.695
+ENTER_PARSFILE Tires\Fy\TireFy_4a47b90a-b302-4824-b1b0-ee2b80db6bbc.par`03-03-2017`14:09:56
+#FullDataName Tire: Lateral Force`Normalized 1D (5-pt spline)`Normalized Tires
+FY_TIRE_TABLE SPLINE
+-9, -1
+-1, -0.28
+0, 0
+1, 0.28
+9, 1
 ENDTABLE
+FY_TIRE_FZ_COEFFICIENT 1
 MU_REF_Y 1.0
-LOG_ENTRY Used Dataset: Tire: Lateral Force; { Normalized Tires } Touring: Peak = 0.96 at Alpha = 9 deg
-EXIT_PARSFILE Tires\Fy\TireFy_c09440db-22a8-41ab-92bc-cab9175d24dd.par
+LOG_ENTRY Used Dataset: Tire: Lateral Force; { Normalized Tires } Normalized 1D (5-pt spline)
+EXIT_PARSFILE Tires\Fy\TireFy_4a47b90a-b302-4824-b1b0-ee2b80db6bbc.par
 
-ENTER_PARSFILE Tires\Fx\TireFx_fd854240-a518-407f-a02f-7ebe149157dd.par`03-01-2026`09:16:16
-#FullDataName Tire: Longitudinal Force`Touring: Peak = 0.96 at Kappa = 0.15`Normalized Tires
-fx_tire_gain = FZ_REF
-fz_scale_fx_tire = FZ_REF
-FX_TIRE_CARPET 2D_FROM_ZERO
-0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2
-0.02, 0.1295, 0.255, 0.3758, 0.4917, 0.6022, 0.7073, 0.8068, 0.9007
-0.04, 0.2006, 0.3956, 0.584, 0.7654, 0.9394, 1.106, 1.264, 1.414
-0.06, 0.2322, 0.4583, 0.6774, 0.8888, 1.092, 1.287, 1.473, 1.65
-0.08, 0.2465, 0.4868, 0.7199, 0.9452, 1.162, 1.371, 1.57, 1.76
-0.1, 0.2532, 0.5002, 0.74, 0.972, 1.196, 1.411, 1.617, 1.813
-0.12, 0.2563, 0.5064, 0.7493, 0.9844, 1.211, 1.429, 1.639, 1.839
-0.14, 0.2574, 0.5087, 0.7528, 0.9892, 1.217, 1.437, 1.648, 1.849
-0.16, 0.2575, 0.5089, 0.7532, 0.9899, 1.218, 1.438, 1.65, 1.852
-0.18, 0.2569, 0.5079, 0.7518, 0.9881, 1.216, 1.436, 1.647, 1.849
-0.2, 0.2561, 0.5062, 0.7493, 0.9849, 1.213, 1.432, 1.642, 1.844
-0.22, 0.255, 0.5041, 0.7462, 0.981, 1.208, 1.426, 1.636, 1.837
-0.24, 0.2538, 0.5017, 0.7429, 0.9765, 1.202, 1.42, 1.629, 1.829
-0.26, 0.2526, 0.4993, 0.7393, 0.9719, 1.197, 1.413, 1.621, 1.821
-0.28, 0.2513, 0.4969, 0.7357, 0.9672, 1.191, 1.407, 1.614, 1.812
-0.3, 0.2501, 0.4945, 0.7322, 0.9626, 1.185, 1.4, 1.606, 1.804
-0.32, 0.2489, 0.4921, 0.7287, 0.958, 1.18, 1.393, 1.599, 1.795
-0.34, 0.2478, 0.4898, 0.7253, 0.9536, 1.174, 1.387, 1.591, 1.787
-0.36, 0.2466, 0.4876, 0.7221, 0.9493, 1.169, 1.381, 1.584, 1.779
-0.38, 0.2456, 0.4855, 0.7189, 0.9452, 1.164, 1.375, 1.577, 1.772
-0.4, 0.2445, 0.4835, 0.7159, 0.9412, 1.159, 1.369, 1.571, 1.764
-0.42, 0.2435, 0.4815, 0.713, 0.9374, 1.154, 1.364, 1.565, 1.757
-0.44, 0.2426, 0.4796, 0.7102, 0.9338, 1.15, 1.358, 1.558, 1.75
-0.46, 0.2417, 0.4779, 0.7076, 0.9303, 1.146, 1.353, 1.553, 1.744
-0.48, 0.2408, 0.4761, 0.7051, 0.927, 1.142, 1.348, 1.547, 1.738
-0.5, 0.24, 0.4745, 0.7026, 0.9238, 1.138, 1.344, 1.542, 1.732
-0.52, 0.2392, 0.4729, 0.7003, 0.9208, 1.134, 1.339, 1.537, 1.726
-0.54, 0.2384, 0.4715, 0.6981, 0.9179, 1.13, 1.335, 1.532, 1.72
-0.56, 0.2377, 0.47, 0.696, 0.9151, 1.127, 1.331, 1.527, 1.715
-0.58, 0.237, 0.4687, 0.694, 0.9124, 1.124, 1.327, 1.523, 1.71
-0.6, 0.2364, 0.4674, 0.692, 0.9099, 1.12, 1.323, 1.518, 1.705
-0.62, 0.2357, 0.4661, 0.6902, 0.9074, 1.117, 1.32, 1.514, 1.701
-0.64, 0.2351, 0.4649, 0.6884, 0.9051, 1.115, 1.316, 1.51, 1.696
-0.66, 0.2346, 0.4637, 0.6867, 0.9028, 1.112, 1.313, 1.507, 1.692
-0.68, 0.234, 0.4626, 0.685, 0.9007, 1.109, 1.31, 1.503, 1.688
-0.7, 0.2335, 0.4616, 0.6835, 0.8986, 1.107, 1.307, 1.5, 1.684
-0.72, 0.2329, 0.4606, 0.682, 0.8966, 1.104, 1.304, 1.496, 1.68
-0.74, 0.2324, 0.4596, 0.6805, 0.8947, 1.102, 1.301, 1.493, 1.677
-0.76, 0.232, 0.4586, 0.6791, 0.8928, 1.099, 1.299, 1.49, 1.673
-0.78, 0.2315, 0.4577, 0.6777, 0.8911, 1.097, 1.296, 1.487, 1.67
-0.8, 0.2311, 0.4568, 0.6764, 0.8893, 1.095, 1.293, 1.484, 1.667
-0.82, 0.2306, 0.456, 0.6752, 0.8877, 1.093, 1.291, 1.481, 1.663
-0.84, 0.2302, 0.4552, 0.674, 0.8861, 1.091, 1.289, 1.479, 1.66
-0.86, 0.2298, 0.4544, 0.6728, 0.8846, 1.089, 1.286, 1.476, 1.658
-0.88, 0.2294, 0.4536, 0.6717, 0.8831, 1.087, 1.284, 1.473, 1.655
-0.9, 0.2291, 0.4529, 0.6706, 0.8816, 1.086, 1.282, 1.471, 1.652
-0.92, 0.2287, 0.4522, 0.6695, 0.8803, 1.084, 1.28, 1.469, 1.649
-0.94, 0.2284, 0.4515, 0.6685, 0.8789, 1.082, 1.278, 1.466, 1.647
-0.96, 0.228, 0.4508, 0.6675, 0.8776, 1.081, 1.276, 1.464, 1.644
-0.98, 0.2277, 0.4502, 0.6666, 0.8764, 1.079, 1.274, 1.462, 1.642
-1, 0.2274, 0.4496, 0.6657, 0.8751, 1.078, 1.273, 1.46, 1.64
-1.02, 0.2274, 0.4496, 0.6657, 0.8751, 1.078, 1.273, 1.46, 1.64
+ENTER_PARSFILE Tires\Fx\TireFx_1ecbd52d-e92e-4e93-a843-85163cbb9226.par`03-03-2017`14:09:54
+#FullDataName Tire: Longitudinal Force`Normalized 1D (15-pt spline)`Normalized Tires
+FX_TIRE_TABLE SPLINE
+-1, -0.92909
+-0.4, -0.99408
+-0.2, -1.013
+-0.14, -0.99995
+-0.12, -0.98768
+-0.08, -0.93044
+-0.04, -0.7283
+0, 0
+0.04, 0.7283
+0.08, 0.93045
+0.12, 0.98768
+0.14, 0.99995
+0.2, 1.013
+0.4, 0.99408
+1, 0.92909
 ENDTABLE
-MU_REF_X 0.001
-LOG_ENTRY Used Dataset: Tire: Longitudinal Force; { Normalized Tires } Touring: Peak = 0.96 at Kappa = 0.15
-EXIT_PARSFILE Tires\Fx\TireFx_fd854240-a518-407f-a02f-7ebe149157dd.par
+FX_TIRE_FZ_COEFFICIENT 1
+MU_REF_X 1.0
+LOG_ENTRY Used Dataset: Tire: Longitudinal Force; { Normalized Tires } Normalized 1D (15-pt spline)
+EXIT_PARSFILE Tires\Fx\TireFx_1ecbd52d-e92e-4e93-a843-85163cbb9226.par
 
 LOG_ENTRY Used Dataset: Tire; { Normalized Tires } sem
 EXIT_PARSFILE Tires\Tire\Tire_4fbc06b1-343f-4ce7-896b-5336d4836ade.par
@@ -1386,13 +1218,13 @@ A_CAMBER 0
 LOG_ENTRY Used Dataset: Suspension: Independent System Kinematics; { Exotic } Exotic - Rear
 EXIT_PARSFILE Suspensions\Kin_Indy\KinInd_6beeb7de-841d-4706-876f-d2ad1c0e471c.par
 
-ENTER_PARSFILE Suspensions\Compliance\CmpInd_2b16f5ad-b911-4647-be70-43ea27928d9d.par`04-13-2026`04:15:26
+ENTER_PARSFILE Suspensions\Compliance\CmpInd_2b16f5ad-b911-4647-be70-43ea27928d9d.par`04-20-2026`11:40:32
 #FullDataName Suspension: Independent Compliance, Springs, and Dampers`Exotic - Rear`Exotic
 DAUX 0
 iside 1
 OPT_EXT_SP 0
-FS_COMP_COEFFICIENT 10000
-FS_EXT_COEFFICIENT 10000
+FS_COMP_COEFFICIENT 100
+FS_EXT_COEFFICIENT 100
 FS_COMP_OFFSET 0
 FS_EXT_OFFSET 0
 SPRING_COMP_BETA 2
@@ -1449,8 +1281,8 @@ C_LAT_COEFFICIENT 0
 CD_MY_COEFFICIENT 0
 iside 2
 OPT_EXT_SP 0
-FS_COMP_COEFFICIENT 10000
-FS_EXT_COEFFICIENT 10000
+FS_COMP_COEFFICIENT 100
+FS_EXT_COEFFICIENT 100
 FS_COMP_OFFSET 0
 FS_EXT_OFFSET 0
 SPRING_COMP_BETA 2
@@ -1545,7 +1377,7 @@ Z_REF_LENGTH 1
 X_LENGTH 1
 Y_LENGTH 1
 Z_LENGTH 1
-ENTER_PARSFILE Tires\Tire\Tire_4fbc06b1-343f-4ce7-896b-5336d4836ade.par`04-13-2026`08:11:48
+ENTER_PARSFILE Tires\Tire\Tire_4fbc06b1-343f-4ce7-896b-5336d4836ade.par`04-22-2026`12:19:56
 #FullDataName Tire`sem`Normalized Tires
 FZ_REF 550
 X_LENGTH 298
@@ -1554,33 +1386,33 @@ Y_LENGTH 80
 OPT_TIRE_LAG_KAPPA 2
 OPT_TIRE_LAG_ALPHA 1
 OPT_TIRE_MODEL 1
-ENTER_PARSFILE Animator\STL_Groups\ShpGrp_d5b55623-3c6f-43ea-b7a0-880a3303d1d2.par`03-03-2017`14:08:10
-#FullDataName Animator: Shape Assembly`Sports Car`Tires
-ENTER_PARSFILE Animator\STL\Shape_9e9cf3ff-6a77-4076-a9f0-1b70114e603e.par`03-03-2017`14:08:42
-#FullDataName Animator: Shape File Link`Sports Car Tire`Tires
-add_obj Animator\3D_shape_files_CS\tires\195_45R16\tire.obj
+ENTER_PARSFILE Animator\STL_Groups\ShpGrp_a242724f-2fdb-4b77-9ec1-81739a7709cb.par`03-03-2017`14:08:10
+#FullDataName Animator: Shape Assembly`Small Car`Tires
+ENTER_PARSFILE Animator\STL\Shape_d8996593-b0bb-42de-9e27-596079d0f698.par`03-03-2017`14:08:42
+#FullDataName Animator: Shape File Link`Small Car Tire`Tires
+add_obj Animator\3D_shape_files_CS\tires\145_80R13\tire.obj
 SET_COLOR 1 1 1
 set_lighting on
 set_fogging on
 SET_SPECULAR 0.3 0.3 0.3
 vsv_enable_shadows_recursive
-LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Sports Car Tire
-EXIT_PARSFILE Animator\STL\Shape_9e9cf3ff-6a77-4076-a9f0-1b70114e603e.par
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Small Car Tire
+EXIT_PARSFILE Animator\STL\Shape_d8996593-b0bb-42de-9e27-596079d0f698.par
 
-ENTER_PARSFILE Animator\STL\Shape_e8969a6e-9ef6-43c7-9f40-228c21b5b4a1.par`03-03-2017`14:08:42
-#FullDataName Animator: Shape File Link`Sports Car Wheel`Tires
-add_obj Animator\3D_shape_files_CS\tires\195_45R16\wheel.obj
+ENTER_PARSFILE Animator\STL\Shape_90f31ee0-e7fb-4992-98ec-a258d85fad19.par`03-03-2017`14:08:42
+#FullDataName Animator: Shape File Link`Small Car Wheel`Tires
+add_obj Animator\3D_shape_files_CS\tires\145_80R13\wheel.obj
 SET_COLOR .62 .62 .62
 set_lighting on
 set_fogging on
 SET_SPECULAR 0.5 0.5 0.5
 vsv_enable_shadows_recursive
-LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Sports Car Wheel
-EXIT_PARSFILE Animator\STL\Shape_e8969a6e-9ef6-43c7-9f40-228c21b5b4a1.par
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Small Car Wheel
+EXIT_PARSFILE Animator\STL\Shape_90f31ee0-e7fb-4992-98ec-a258d85fad19.par
 
-ENTER_PARSFILE Animator\STL\Shape_8ffa6ffc-1b17-4180-964d-d52d768c1b70.par`03-03-2017`14:08:42
-#FullDataName Animator: Shape File Link`Sports Car Stripe`Tires
-add_obj Animator\3D_shape_files_CS\tires\195_45R16\stripe.obj
+ENTER_PARSFILE Animator\STL\Shape_05f0894a-00cb-4265-8b98-8551dd702874.par`03-03-2017`14:08:42
+#FullDataName Animator: Shape File Link`Small Car Stripe`Tires
+add_obj Animator\3D_shape_files_CS\tires\145_80R13\stripe.obj
 SET_COLOR white
 SET_OFFSET_X 0
 SET_OFFSET_Y 0.01
@@ -1588,14 +1420,14 @@ SET_OFFSET_Z 0.01
 set_lighting on
 set_fogging on
 SET_SPECULAR 0 0 0
-LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Sports Car Stripe
-EXIT_PARSFILE Animator\STL\Shape_8ffa6ffc-1b17-4180-964d-d52d768c1b70.par
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Small Car Stripe
+EXIT_PARSFILE Animator\STL\Shape_05f0894a-00cb-4265-8b98-8551dd702874.par
 
-x_ref_length 291
-y_ref_length 195
-z_ref_length 291
-LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } Sports Car
-EXIT_PARSFILE Animator\STL_Groups\ShpGrp_d5b55623-3c6f-43ea-b7a0-880a3303d1d2.par
+x_ref_length 281
+y_ref_length 145
+z_ref_length 281
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } Small Car
+EXIT_PARSFILE Animator\STL_Groups\ShpGrp_a242724f-2fdb-4b77-9ec1-81739a7709cb.par
 
 WRITE_WHEEL_OFFSET
 SET_OFFSET_Y 0
@@ -1896,129 +1728,43 @@ ENDTABLE
 LOG_ENTRY Used Dataset: Tire: Aligning Moment; { Normalized Tires } Normalized
 EXIT_PARSFILE Tires\Mz\TireMz_8710db58-1999-4bfa-b2d0-009ed3e16885.par
 
-ENTER_PARSFILE Tires\Fy\TireFy_c09440db-22a8-41ab-92bc-cab9175d24dd.par`03-03-2017`14:09:56
-#FullDataName Tire: Lateral Force`Touring: Peak = 0.96 at Alpha = 9 deg`Normalized Tires
-fy_tire_gain = FZ_REF
-fz_scale_fy_tire = FZ_REF
-FY_TIRE_CARPET 2D_FROM_ZERO
-0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2
-0.5, 0.03799, 0.07454, 0.1094, 0.1426, 0.1739, 0.2033, 0.2309, 0.2564
-1, 0.07457, 0.1464, 0.215, 0.2802, 0.3418, 0.3998, 0.4541, 0.5045
-1.5, 0.1085, 0.2131, 0.3132, 0.4084, 0.4985, 0.5833, 0.6628, 0.7369
-2, 0.1389, 0.273, 0.4014, 0.5237, 0.6397, 0.7491, 0.8518, 0.9477
-2.5, 0.1653, 0.3249, 0.478, 0.6241, 0.7629, 0.8941, 1.018, 1.133
-3, 0.1873, 0.3685, 0.5425, 0.709, 0.8673, 1.017, 1.159, 1.292
-3.5, 0.2053, 0.4041, 0.5954, 0.7786, 0.9534, 1.119, 1.276, 1.424
-4, 0.2195, 0.4324, 0.6376, 0.8345, 1.023, 1.202, 1.371, 1.531
-4.5, 0.2306, 0.4545, 0.6706, 0.8783, 1.077, 1.267, 1.446, 1.616
-5, 0.239, 0.4713, 0.6959, 0.912, 1.119, 1.317, 1.505, 1.683
-5.5, 0.2453, 0.4839, 0.7148, 0.9373, 1.151, 1.355, 1.55, 1.734
-6, 0.2498, 0.493, 0.7286, 0.9559, 1.174, 1.384, 1.583, 1.773
-6.5, 0.253, 0.4995, 0.7385, 0.9693, 1.191, 1.404, 1.608, 1.801
-7, 0.2551, 0.5039, 0.7452, 0.9785, 1.203, 1.419, 1.625, 1.822
-7.5, 0.2565, 0.5067, 0.7496, 0.9845, 1.211, 1.428, 1.637, 1.835
-8, 0.2572, 0.5083, 0.7521, 0.988, 1.216, 1.434, 1.644, 1.844
-8.5, 0.2575, 0.5089, 0.7532, 0.9897, 1.218, 1.438, 1.648, 1.849
-9, 0.2575, 0.5089, 0.7532, 0.9899, 1.218, 1.438, 1.65, 1.851
-9.5, 0.2571, 0.5083, 0.7525, 0.9891, 1.218, 1.438, 1.649, 1.851
-10, 0.2566, 0.5073, 0.7511, 0.9875, 1.216, 1.436, 1.647, 1.849
-10.5, 0.2559, 0.5061, 0.7494, 0.9852, 1.213, 1.433, 1.644, 1.846
-11, 0.2552, 0.5046, 0.7472, 0.9825, 1.21, 1.429, 1.64, 1.842
-11.5, 0.2544, 0.503, 0.7449, 0.9795, 1.206, 1.425, 1.635, 1.837
-12, 0.2535, 0.5013, 0.7424, 0.9763, 1.203, 1.421, 1.63, 1.831
-12.5, 0.2526, 0.4995, 0.7399, 0.973, 1.199, 1.416, 1.625, 1.826
-13, 0.2517, 0.4977, 0.7372, 0.9696, 1.194, 1.411, 1.62, 1.82
-13.5, 0.2507, 0.4959, 0.7346, 0.9661, 1.19, 1.406, 1.614, 1.813
-14, 0.2498, 0.4941, 0.7319, 0.9627, 1.186, 1.401, 1.608, 1.807
-14.5, 0.2489, 0.4923, 0.7293, 0.9592, 1.182, 1.396, 1.603, 1.801
-15, 0.248, 0.4906, 0.7267, 0.9558, 1.178, 1.391, 1.597, 1.795
-15.5, 0.2471, 0.4888, 0.7241, 0.9524, 1.173, 1.387, 1.592, 1.789
-16, 0.2463, 0.4871, 0.7216, 0.9492, 1.169, 1.382, 1.586, 1.782
-16.5, 0.2454, 0.4855, 0.7191, 0.9459, 1.165, 1.377, 1.581, 1.776
-17, 0.2446, 0.4838, 0.7167, 0.9428, 1.162, 1.373, 1.576, 1.771
-17.5, 0.2438, 0.4823, 0.7144, 0.9397, 1.158, 1.368, 1.571, 1.765
-18, 0.2431, 0.4807, 0.7121, 0.9367, 1.154, 1.364, 1.566, 1.759
-18.5, 0.2423, 0.4792, 0.7099, 0.9338, 1.15, 1.36, 1.561, 1.754
-19, 0.2416, 0.4778, 0.7078, 0.931, 1.147, 1.355, 1.556, 1.749
-19.5, 0.2409, 0.4764, 0.7057, 0.9282, 1.144, 1.351, 1.551, 1.743
-20, 0.2402, 0.475, 0.7037, 0.9256, 1.14, 1.348, 1.547, 1.738
-20.5, 0.2395, 0.4737, 0.7017, 0.923, 1.137, 1.344, 1.543, 1.733
-21, 0.2388, 0.4724, 0.6998, 0.9205, 1.134, 1.34, 1.538, 1.729
-21.5, 0.2382, 0.4712, 0.6979, 0.918, 1.131, 1.336, 1.534, 1.724
-22, 0.2376, 0.4699, 0.6961, 0.9156, 1.128, 1.333, 1.53, 1.719
-22.5, 0.237, 0.4688, 0.6944, 0.9133, 1.125, 1.33, 1.526, 1.715
-23, 0.2364, 0.4676, 0.6927, 0.9111, 1.122, 1.326, 1.523, 1.711
-23.5, 0.2359, 0.4665, 0.691, 0.9089, 1.12, 1.323, 1.519, 1.707
-24, 0.2353, 0.4654, 0.6894, 0.9068, 1.117, 1.32, 1.515, 1.703
-24.5, 0.2348, 0.4644, 0.6879, 0.9047, 1.115, 1.317, 1.512, 1.699
-25, 0.2343, 0.4634, 0.6863, 0.9027, 1.112, 1.314, 1.508, 1.695
-26, 0.2343, 0.4634, 0.6863, 0.9027, 1.112, 1.314, 1.508, 1.695
+ENTER_PARSFILE Tires\Fy\TireFy_4a47b90a-b302-4824-b1b0-ee2b80db6bbc.par`03-03-2017`14:09:56
+#FullDataName Tire: Lateral Force`Normalized 1D (5-pt spline)`Normalized Tires
+FY_TIRE_TABLE SPLINE
+-9, -1
+-1, -0.28
+0, 0
+1, 0.28
+9, 1
 ENDTABLE
+FY_TIRE_FZ_COEFFICIENT 1
 MU_REF_Y 1.0
-LOG_ENTRY Used Dataset: Tire: Lateral Force; { Normalized Tires } Touring: Peak = 0.96 at Alpha = 9 deg
-EXIT_PARSFILE Tires\Fy\TireFy_c09440db-22a8-41ab-92bc-cab9175d24dd.par
+LOG_ENTRY Used Dataset: Tire: Lateral Force; { Normalized Tires } Normalized 1D (5-pt spline)
+EXIT_PARSFILE Tires\Fy\TireFy_4a47b90a-b302-4824-b1b0-ee2b80db6bbc.par
 
-ENTER_PARSFILE Tires\Fx\TireFx_fd854240-a518-407f-a02f-7ebe149157dd.par`03-01-2026`09:16:16
-#FullDataName Tire: Longitudinal Force`Touring: Peak = 0.96 at Kappa = 0.15`Normalized Tires
-fx_tire_gain = FZ_REF
-fz_scale_fx_tire = FZ_REF
-FX_TIRE_CARPET 2D_FROM_ZERO
-0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2
-0.02, 0.1295, 0.255, 0.3758, 0.4917, 0.6022, 0.7073, 0.8068, 0.9007
-0.04, 0.2006, 0.3956, 0.584, 0.7654, 0.9394, 1.106, 1.264, 1.414
-0.06, 0.2322, 0.4583, 0.6774, 0.8888, 1.092, 1.287, 1.473, 1.65
-0.08, 0.2465, 0.4868, 0.7199, 0.9452, 1.162, 1.371, 1.57, 1.76
-0.1, 0.2532, 0.5002, 0.74, 0.972, 1.196, 1.411, 1.617, 1.813
-0.12, 0.2563, 0.5064, 0.7493, 0.9844, 1.211, 1.429, 1.639, 1.839
-0.14, 0.2574, 0.5087, 0.7528, 0.9892, 1.217, 1.437, 1.648, 1.849
-0.16, 0.2575, 0.5089, 0.7532, 0.9899, 1.218, 1.438, 1.65, 1.852
-0.18, 0.2569, 0.5079, 0.7518, 0.9881, 1.216, 1.436, 1.647, 1.849
-0.2, 0.2561, 0.5062, 0.7493, 0.9849, 1.213, 1.432, 1.642, 1.844
-0.22, 0.255, 0.5041, 0.7462, 0.981, 1.208, 1.426, 1.636, 1.837
-0.24, 0.2538, 0.5017, 0.7429, 0.9765, 1.202, 1.42, 1.629, 1.829
-0.26, 0.2526, 0.4993, 0.7393, 0.9719, 1.197, 1.413, 1.621, 1.821
-0.28, 0.2513, 0.4969, 0.7357, 0.9672, 1.191, 1.407, 1.614, 1.812
-0.3, 0.2501, 0.4945, 0.7322, 0.9626, 1.185, 1.4, 1.606, 1.804
-0.32, 0.2489, 0.4921, 0.7287, 0.958, 1.18, 1.393, 1.599, 1.795
-0.34, 0.2478, 0.4898, 0.7253, 0.9536, 1.174, 1.387, 1.591, 1.787
-0.36, 0.2466, 0.4876, 0.7221, 0.9493, 1.169, 1.381, 1.584, 1.779
-0.38, 0.2456, 0.4855, 0.7189, 0.9452, 1.164, 1.375, 1.577, 1.772
-0.4, 0.2445, 0.4835, 0.7159, 0.9412, 1.159, 1.369, 1.571, 1.764
-0.42, 0.2435, 0.4815, 0.713, 0.9374, 1.154, 1.364, 1.565, 1.757
-0.44, 0.2426, 0.4796, 0.7102, 0.9338, 1.15, 1.358, 1.558, 1.75
-0.46, 0.2417, 0.4779, 0.7076, 0.9303, 1.146, 1.353, 1.553, 1.744
-0.48, 0.2408, 0.4761, 0.7051, 0.927, 1.142, 1.348, 1.547, 1.738
-0.5, 0.24, 0.4745, 0.7026, 0.9238, 1.138, 1.344, 1.542, 1.732
-0.52, 0.2392, 0.4729, 0.7003, 0.9208, 1.134, 1.339, 1.537, 1.726
-0.54, 0.2384, 0.4715, 0.6981, 0.9179, 1.13, 1.335, 1.532, 1.72
-0.56, 0.2377, 0.47, 0.696, 0.9151, 1.127, 1.331, 1.527, 1.715
-0.58, 0.237, 0.4687, 0.694, 0.9124, 1.124, 1.327, 1.523, 1.71
-0.6, 0.2364, 0.4674, 0.692, 0.9099, 1.12, 1.323, 1.518, 1.705
-0.62, 0.2357, 0.4661, 0.6902, 0.9074, 1.117, 1.32, 1.514, 1.701
-0.64, 0.2351, 0.4649, 0.6884, 0.9051, 1.115, 1.316, 1.51, 1.696
-0.66, 0.2346, 0.4637, 0.6867, 0.9028, 1.112, 1.313, 1.507, 1.692
-0.68, 0.234, 0.4626, 0.685, 0.9007, 1.109, 1.31, 1.503, 1.688
-0.7, 0.2335, 0.4616, 0.6835, 0.8986, 1.107, 1.307, 1.5, 1.684
-0.72, 0.2329, 0.4606, 0.682, 0.8966, 1.104, 1.304, 1.496, 1.68
-0.74, 0.2324, 0.4596, 0.6805, 0.8947, 1.102, 1.301, 1.493, 1.677
-0.76, 0.232, 0.4586, 0.6791, 0.8928, 1.099, 1.299, 1.49, 1.673
-0.78, 0.2315, 0.4577, 0.6777, 0.8911, 1.097, 1.296, 1.487, 1.67
-0.8, 0.2311, 0.4568, 0.6764, 0.8893, 1.095, 1.293, 1.484, 1.667
-0.82, 0.2306, 0.456, 0.6752, 0.8877, 1.093, 1.291, 1.481, 1.663
-0.84, 0.2302, 0.4552, 0.674, 0.8861, 1.091, 1.289, 1.479, 1.66
-0.86, 0.2298, 0.4544, 0.6728, 0.8846, 1.089, 1.286, 1.476, 1.658
-0.88, 0.2294, 0.4536, 0.6717, 0.8831, 1.087, 1.284, 1.473, 1.655
-0.9, 0.2291, 0.4529, 0.6706, 0.8816, 1.086, 1.282, 1.471, 1.652
-0.92, 0.2287, 0.4522, 0.6695, 0.8803, 1.084, 1.28, 1.469, 1.649
-0.94, 0.2284, 0.4515, 0.6685, 0.8789, 1.082, 1.278, 1.466, 1.647
-0.96, 0.228, 0.4508, 0.6675, 0.8776, 1.081, 1.276, 1.464, 1.644
-0.98, 0.2277, 0.4502, 0.6666, 0.8764, 1.079, 1.274, 1.462, 1.642
-1, 0.2274, 0.4496, 0.6657, 0.8751, 1.078, 1.273, 1.46, 1.64
-1.02, 0.2274, 0.4496, 0.6657, 0.8751, 1.078, 1.273, 1.46, 1.64
+ENTER_PARSFILE Tires\Fx\TireFx_1ecbd52d-e92e-4e93-a843-85163cbb9226.par`03-03-2017`14:09:54
+#FullDataName Tire: Longitudinal Force`Normalized 1D (15-pt spline)`Normalized Tires
+FX_TIRE_TABLE SPLINE
+-1, -0.92909
+-0.4, -0.99408
+-0.2, -1.013
+-0.14, -0.99995
+-0.12, -0.98768
+-0.08, -0.93044
+-0.04, -0.7283
+0, 0
+0.04, 0.7283
+0.08, 0.93045
+0.12, 0.98768
+0.14, 0.99995
+0.2, 1.013
+0.4, 0.99408
+1, 0.92909
 ENDTABLE
-MU_REF_X 0.001
-LOG_ENTRY Used Dataset: Tire: Longitudinal Force; { Normalized Tires } Touring: Peak = 0.96 at Kappa = 0.15
-EXIT_PARSFILE Tires\Fx\TireFx_fd854240-a518-407f-a02f-7ebe149157dd.par
+FX_TIRE_FZ_COEFFICIENT 1
+MU_REF_X 1.0
+LOG_ENTRY Used Dataset: Tire: Longitudinal Force; { Normalized Tires } Normalized 1D (15-pt spline)
+EXIT_PARSFILE Tires\Fx\TireFx_1ecbd52d-e92e-4e93-a843-85163cbb9226.par
 
 LOG_ENTRY Used Dataset: Tire; { Normalized Tires } sem
 EXIT_PARSFILE Tires\Tire\Tire_4fbc06b1-343f-4ce7-896b-5336d4836ade.par
@@ -2054,7 +1800,7 @@ Z_REF_LENGTH 1
 X_LENGTH 1
 Y_LENGTH 1
 Z_LENGTH 1
-ENTER_PARSFILE Tires\Tire\Tire_4fbc06b1-343f-4ce7-896b-5336d4836ade.par`04-13-2026`08:11:48
+ENTER_PARSFILE Tires\Tire\Tire_4fbc06b1-343f-4ce7-896b-5336d4836ade.par`04-22-2026`12:19:56
 #FullDataName Tire`sem`Normalized Tires
 FZ_REF 550
 X_LENGTH 298
@@ -2063,33 +1809,33 @@ Y_LENGTH 80
 OPT_TIRE_LAG_KAPPA 2
 OPT_TIRE_LAG_ALPHA 1
 OPT_TIRE_MODEL 1
-ENTER_PARSFILE Animator\STL_Groups\ShpGrp_d5b55623-3c6f-43ea-b7a0-880a3303d1d2.par`03-03-2017`14:08:10
-#FullDataName Animator: Shape Assembly`Sports Car`Tires
-ENTER_PARSFILE Animator\STL\Shape_9e9cf3ff-6a77-4076-a9f0-1b70114e603e.par`03-03-2017`14:08:42
-#FullDataName Animator: Shape File Link`Sports Car Tire`Tires
-add_obj Animator\3D_shape_files_CS\tires\195_45R16\tire.obj
+ENTER_PARSFILE Animator\STL_Groups\ShpGrp_a242724f-2fdb-4b77-9ec1-81739a7709cb.par`03-03-2017`14:08:10
+#FullDataName Animator: Shape Assembly`Small Car`Tires
+ENTER_PARSFILE Animator\STL\Shape_d8996593-b0bb-42de-9e27-596079d0f698.par`03-03-2017`14:08:42
+#FullDataName Animator: Shape File Link`Small Car Tire`Tires
+add_obj Animator\3D_shape_files_CS\tires\145_80R13\tire.obj
 SET_COLOR 1 1 1
 set_lighting on
 set_fogging on
 SET_SPECULAR 0.3 0.3 0.3
 vsv_enable_shadows_recursive
-LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Sports Car Tire
-EXIT_PARSFILE Animator\STL\Shape_9e9cf3ff-6a77-4076-a9f0-1b70114e603e.par
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Small Car Tire
+EXIT_PARSFILE Animator\STL\Shape_d8996593-b0bb-42de-9e27-596079d0f698.par
 
-ENTER_PARSFILE Animator\STL\Shape_e8969a6e-9ef6-43c7-9f40-228c21b5b4a1.par`03-03-2017`14:08:42
-#FullDataName Animator: Shape File Link`Sports Car Wheel`Tires
-add_obj Animator\3D_shape_files_CS\tires\195_45R16\wheel.obj
+ENTER_PARSFILE Animator\STL\Shape_90f31ee0-e7fb-4992-98ec-a258d85fad19.par`03-03-2017`14:08:42
+#FullDataName Animator: Shape File Link`Small Car Wheel`Tires
+add_obj Animator\3D_shape_files_CS\tires\145_80R13\wheel.obj
 SET_COLOR .62 .62 .62
 set_lighting on
 set_fogging on
 SET_SPECULAR 0.5 0.5 0.5
 vsv_enable_shadows_recursive
-LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Sports Car Wheel
-EXIT_PARSFILE Animator\STL\Shape_e8969a6e-9ef6-43c7-9f40-228c21b5b4a1.par
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Small Car Wheel
+EXIT_PARSFILE Animator\STL\Shape_90f31ee0-e7fb-4992-98ec-a258d85fad19.par
 
-ENTER_PARSFILE Animator\STL\Shape_8ffa6ffc-1b17-4180-964d-d52d768c1b70.par`03-03-2017`14:08:42
-#FullDataName Animator: Shape File Link`Sports Car Stripe`Tires
-add_obj Animator\3D_shape_files_CS\tires\195_45R16\stripe.obj
+ENTER_PARSFILE Animator\STL\Shape_05f0894a-00cb-4265-8b98-8551dd702874.par`03-03-2017`14:08:42
+#FullDataName Animator: Shape File Link`Small Car Stripe`Tires
+add_obj Animator\3D_shape_files_CS\tires\145_80R13\stripe.obj
 SET_COLOR white
 SET_OFFSET_X 0
 SET_OFFSET_Y 0.01
@@ -2097,14 +1843,14 @@ SET_OFFSET_Z 0.01
 set_lighting on
 set_fogging on
 SET_SPECULAR 0 0 0
-LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Sports Car Stripe
-EXIT_PARSFILE Animator\STL\Shape_8ffa6ffc-1b17-4180-964d-d52d768c1b70.par
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { Tires } Small Car Stripe
+EXIT_PARSFILE Animator\STL\Shape_05f0894a-00cb-4265-8b98-8551dd702874.par
 
-x_ref_length 291
-y_ref_length 195
-z_ref_length 291
-LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } Sports Car
-EXIT_PARSFILE Animator\STL_Groups\ShpGrp_d5b55623-3c6f-43ea-b7a0-880a3303d1d2.par
+x_ref_length 281
+y_ref_length 145
+z_ref_length 281
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Tires } Small Car
+EXIT_PARSFILE Animator\STL_Groups\ShpGrp_a242724f-2fdb-4b77-9ec1-81739a7709cb.par
 
 WRITE_WHEEL_OFFSET
 SET_OFFSET_Y 0
@@ -2405,129 +2151,43 @@ ENDTABLE
 LOG_ENTRY Used Dataset: Tire: Aligning Moment; { Normalized Tires } Normalized
 EXIT_PARSFILE Tires\Mz\TireMz_8710db58-1999-4bfa-b2d0-009ed3e16885.par
 
-ENTER_PARSFILE Tires\Fy\TireFy_c09440db-22a8-41ab-92bc-cab9175d24dd.par`03-03-2017`14:09:56
-#FullDataName Tire: Lateral Force`Touring: Peak = 0.96 at Alpha = 9 deg`Normalized Tires
-fy_tire_gain = FZ_REF
-fz_scale_fy_tire = FZ_REF
-FY_TIRE_CARPET 2D_FROM_ZERO
-0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2
-0.5, 0.03799, 0.07454, 0.1094, 0.1426, 0.1739, 0.2033, 0.2309, 0.2564
-1, 0.07457, 0.1464, 0.215, 0.2802, 0.3418, 0.3998, 0.4541, 0.5045
-1.5, 0.1085, 0.2131, 0.3132, 0.4084, 0.4985, 0.5833, 0.6628, 0.7369
-2, 0.1389, 0.273, 0.4014, 0.5237, 0.6397, 0.7491, 0.8518, 0.9477
-2.5, 0.1653, 0.3249, 0.478, 0.6241, 0.7629, 0.8941, 1.018, 1.133
-3, 0.1873, 0.3685, 0.5425, 0.709, 0.8673, 1.017, 1.159, 1.292
-3.5, 0.2053, 0.4041, 0.5954, 0.7786, 0.9534, 1.119, 1.276, 1.424
-4, 0.2195, 0.4324, 0.6376, 0.8345, 1.023, 1.202, 1.371, 1.531
-4.5, 0.2306, 0.4545, 0.6706, 0.8783, 1.077, 1.267, 1.446, 1.616
-5, 0.239, 0.4713, 0.6959, 0.912, 1.119, 1.317, 1.505, 1.683
-5.5, 0.2453, 0.4839, 0.7148, 0.9373, 1.151, 1.355, 1.55, 1.734
-6, 0.2498, 0.493, 0.7286, 0.9559, 1.174, 1.384, 1.583, 1.773
-6.5, 0.253, 0.4995, 0.7385, 0.9693, 1.191, 1.404, 1.608, 1.801
-7, 0.2551, 0.5039, 0.7452, 0.9785, 1.203, 1.419, 1.625, 1.822
-7.5, 0.2565, 0.5067, 0.7496, 0.9845, 1.211, 1.428, 1.637, 1.835
-8, 0.2572, 0.5083, 0.7521, 0.988, 1.216, 1.434, 1.644, 1.844
-8.5, 0.2575, 0.5089, 0.7532, 0.9897, 1.218, 1.438, 1.648, 1.849
-9, 0.2575, 0.5089, 0.7532, 0.9899, 1.218, 1.438, 1.65, 1.851
-9.5, 0.2571, 0.5083, 0.7525, 0.9891, 1.218, 1.438, 1.649, 1.851
-10, 0.2566, 0.5073, 0.7511, 0.9875, 1.216, 1.436, 1.647, 1.849
-10.5, 0.2559, 0.5061, 0.7494, 0.9852, 1.213, 1.433, 1.644, 1.846
-11, 0.2552, 0.5046, 0.7472, 0.9825, 1.21, 1.429, 1.64, 1.842
-11.5, 0.2544, 0.503, 0.7449, 0.9795, 1.206, 1.425, 1.635, 1.837
-12, 0.2535, 0.5013, 0.7424, 0.9763, 1.203, 1.421, 1.63, 1.831
-12.5, 0.2526, 0.4995, 0.7399, 0.973, 1.199, 1.416, 1.625, 1.826
-13, 0.2517, 0.4977, 0.7372, 0.9696, 1.194, 1.411, 1.62, 1.82
-13.5, 0.2507, 0.4959, 0.7346, 0.9661, 1.19, 1.406, 1.614, 1.813
-14, 0.2498, 0.4941, 0.7319, 0.9627, 1.186, 1.401, 1.608, 1.807
-14.5, 0.2489, 0.4923, 0.7293, 0.9592, 1.182, 1.396, 1.603, 1.801
-15, 0.248, 0.4906, 0.7267, 0.9558, 1.178, 1.391, 1.597, 1.795
-15.5, 0.2471, 0.4888, 0.7241, 0.9524, 1.173, 1.387, 1.592, 1.789
-16, 0.2463, 0.4871, 0.7216, 0.9492, 1.169, 1.382, 1.586, 1.782
-16.5, 0.2454, 0.4855, 0.7191, 0.9459, 1.165, 1.377, 1.581, 1.776
-17, 0.2446, 0.4838, 0.7167, 0.9428, 1.162, 1.373, 1.576, 1.771
-17.5, 0.2438, 0.4823, 0.7144, 0.9397, 1.158, 1.368, 1.571, 1.765
-18, 0.2431, 0.4807, 0.7121, 0.9367, 1.154, 1.364, 1.566, 1.759
-18.5, 0.2423, 0.4792, 0.7099, 0.9338, 1.15, 1.36, 1.561, 1.754
-19, 0.2416, 0.4778, 0.7078, 0.931, 1.147, 1.355, 1.556, 1.749
-19.5, 0.2409, 0.4764, 0.7057, 0.9282, 1.144, 1.351, 1.551, 1.743
-20, 0.2402, 0.475, 0.7037, 0.9256, 1.14, 1.348, 1.547, 1.738
-20.5, 0.2395, 0.4737, 0.7017, 0.923, 1.137, 1.344, 1.543, 1.733
-21, 0.2388, 0.4724, 0.6998, 0.9205, 1.134, 1.34, 1.538, 1.729
-21.5, 0.2382, 0.4712, 0.6979, 0.918, 1.131, 1.336, 1.534, 1.724
-22, 0.2376, 0.4699, 0.6961, 0.9156, 1.128, 1.333, 1.53, 1.719
-22.5, 0.237, 0.4688, 0.6944, 0.9133, 1.125, 1.33, 1.526, 1.715
-23, 0.2364, 0.4676, 0.6927, 0.9111, 1.122, 1.326, 1.523, 1.711
-23.5, 0.2359, 0.4665, 0.691, 0.9089, 1.12, 1.323, 1.519, 1.707
-24, 0.2353, 0.4654, 0.6894, 0.9068, 1.117, 1.32, 1.515, 1.703
-24.5, 0.2348, 0.4644, 0.6879, 0.9047, 1.115, 1.317, 1.512, 1.699
-25, 0.2343, 0.4634, 0.6863, 0.9027, 1.112, 1.314, 1.508, 1.695
-26, 0.2343, 0.4634, 0.6863, 0.9027, 1.112, 1.314, 1.508, 1.695
+ENTER_PARSFILE Tires\Fy\TireFy_4a47b90a-b302-4824-b1b0-ee2b80db6bbc.par`03-03-2017`14:09:56
+#FullDataName Tire: Lateral Force`Normalized 1D (5-pt spline)`Normalized Tires
+FY_TIRE_TABLE SPLINE
+-9, -1
+-1, -0.28
+0, 0
+1, 0.28
+9, 1
 ENDTABLE
+FY_TIRE_FZ_COEFFICIENT 1
 MU_REF_Y 1.0
-LOG_ENTRY Used Dataset: Tire: Lateral Force; { Normalized Tires } Touring: Peak = 0.96 at Alpha = 9 deg
-EXIT_PARSFILE Tires\Fy\TireFy_c09440db-22a8-41ab-92bc-cab9175d24dd.par
+LOG_ENTRY Used Dataset: Tire: Lateral Force; { Normalized Tires } Normalized 1D (5-pt spline)
+EXIT_PARSFILE Tires\Fy\TireFy_4a47b90a-b302-4824-b1b0-ee2b80db6bbc.par
 
-ENTER_PARSFILE Tires\Fx\TireFx_fd854240-a518-407f-a02f-7ebe149157dd.par`03-01-2026`09:16:16
-#FullDataName Tire: Longitudinal Force`Touring: Peak = 0.96 at Kappa = 0.15`Normalized Tires
-fx_tire_gain = FZ_REF
-fz_scale_fx_tire = FZ_REF
-FX_TIRE_CARPET 2D_FROM_ZERO
-0, 0.25, 0.5, 0.75, 1, 1.25, 1.5, 1.75, 2
-0.02, 0.1295, 0.255, 0.3758, 0.4917, 0.6022, 0.7073, 0.8068, 0.9007
-0.04, 0.2006, 0.3956, 0.584, 0.7654, 0.9394, 1.106, 1.264, 1.414
-0.06, 0.2322, 0.4583, 0.6774, 0.8888, 1.092, 1.287, 1.473, 1.65
-0.08, 0.2465, 0.4868, 0.7199, 0.9452, 1.162, 1.371, 1.57, 1.76
-0.1, 0.2532, 0.5002, 0.74, 0.972, 1.196, 1.411, 1.617, 1.813
-0.12, 0.2563, 0.5064, 0.7493, 0.9844, 1.211, 1.429, 1.639, 1.839
-0.14, 0.2574, 0.5087, 0.7528, 0.9892, 1.217, 1.437, 1.648, 1.849
-0.16, 0.2575, 0.5089, 0.7532, 0.9899, 1.218, 1.438, 1.65, 1.852
-0.18, 0.2569, 0.5079, 0.7518, 0.9881, 1.216, 1.436, 1.647, 1.849
-0.2, 0.2561, 0.5062, 0.7493, 0.9849, 1.213, 1.432, 1.642, 1.844
-0.22, 0.255, 0.5041, 0.7462, 0.981, 1.208, 1.426, 1.636, 1.837
-0.24, 0.2538, 0.5017, 0.7429, 0.9765, 1.202, 1.42, 1.629, 1.829
-0.26, 0.2526, 0.4993, 0.7393, 0.9719, 1.197, 1.413, 1.621, 1.821
-0.28, 0.2513, 0.4969, 0.7357, 0.9672, 1.191, 1.407, 1.614, 1.812
-0.3, 0.2501, 0.4945, 0.7322, 0.9626, 1.185, 1.4, 1.606, 1.804
-0.32, 0.2489, 0.4921, 0.7287, 0.958, 1.18, 1.393, 1.599, 1.795
-0.34, 0.2478, 0.4898, 0.7253, 0.9536, 1.174, 1.387, 1.591, 1.787
-0.36, 0.2466, 0.4876, 0.7221, 0.9493, 1.169, 1.381, 1.584, 1.779
-0.38, 0.2456, 0.4855, 0.7189, 0.9452, 1.164, 1.375, 1.577, 1.772
-0.4, 0.2445, 0.4835, 0.7159, 0.9412, 1.159, 1.369, 1.571, 1.764
-0.42, 0.2435, 0.4815, 0.713, 0.9374, 1.154, 1.364, 1.565, 1.757
-0.44, 0.2426, 0.4796, 0.7102, 0.9338, 1.15, 1.358, 1.558, 1.75
-0.46, 0.2417, 0.4779, 0.7076, 0.9303, 1.146, 1.353, 1.553, 1.744
-0.48, 0.2408, 0.4761, 0.7051, 0.927, 1.142, 1.348, 1.547, 1.738
-0.5, 0.24, 0.4745, 0.7026, 0.9238, 1.138, 1.344, 1.542, 1.732
-0.52, 0.2392, 0.4729, 0.7003, 0.9208, 1.134, 1.339, 1.537, 1.726
-0.54, 0.2384, 0.4715, 0.6981, 0.9179, 1.13, 1.335, 1.532, 1.72
-0.56, 0.2377, 0.47, 0.696, 0.9151, 1.127, 1.331, 1.527, 1.715
-0.58, 0.237, 0.4687, 0.694, 0.9124, 1.124, 1.327, 1.523, 1.71
-0.6, 0.2364, 0.4674, 0.692, 0.9099, 1.12, 1.323, 1.518, 1.705
-0.62, 0.2357, 0.4661, 0.6902, 0.9074, 1.117, 1.32, 1.514, 1.701
-0.64, 0.2351, 0.4649, 0.6884, 0.9051, 1.115, 1.316, 1.51, 1.696
-0.66, 0.2346, 0.4637, 0.6867, 0.9028, 1.112, 1.313, 1.507, 1.692
-0.68, 0.234, 0.4626, 0.685, 0.9007, 1.109, 1.31, 1.503, 1.688
-0.7, 0.2335, 0.4616, 0.6835, 0.8986, 1.107, 1.307, 1.5, 1.684
-0.72, 0.2329, 0.4606, 0.682, 0.8966, 1.104, 1.304, 1.496, 1.68
-0.74, 0.2324, 0.4596, 0.6805, 0.8947, 1.102, 1.301, 1.493, 1.677
-0.76, 0.232, 0.4586, 0.6791, 0.8928, 1.099, 1.299, 1.49, 1.673
-0.78, 0.2315, 0.4577, 0.6777, 0.8911, 1.097, 1.296, 1.487, 1.67
-0.8, 0.2311, 0.4568, 0.6764, 0.8893, 1.095, 1.293, 1.484, 1.667
-0.82, 0.2306, 0.456, 0.6752, 0.8877, 1.093, 1.291, 1.481, 1.663
-0.84, 0.2302, 0.4552, 0.674, 0.8861, 1.091, 1.289, 1.479, 1.66
-0.86, 0.2298, 0.4544, 0.6728, 0.8846, 1.089, 1.286, 1.476, 1.658
-0.88, 0.2294, 0.4536, 0.6717, 0.8831, 1.087, 1.284, 1.473, 1.655
-0.9, 0.2291, 0.4529, 0.6706, 0.8816, 1.086, 1.282, 1.471, 1.652
-0.92, 0.2287, 0.4522, 0.6695, 0.8803, 1.084, 1.28, 1.469, 1.649
-0.94, 0.2284, 0.4515, 0.6685, 0.8789, 1.082, 1.278, 1.466, 1.647
-0.96, 0.228, 0.4508, 0.6675, 0.8776, 1.081, 1.276, 1.464, 1.644
-0.98, 0.2277, 0.4502, 0.6666, 0.8764, 1.079, 1.274, 1.462, 1.642
-1, 0.2274, 0.4496, 0.6657, 0.8751, 1.078, 1.273, 1.46, 1.64
-1.02, 0.2274, 0.4496, 0.6657, 0.8751, 1.078, 1.273, 1.46, 1.64
+ENTER_PARSFILE Tires\Fx\TireFx_1ecbd52d-e92e-4e93-a843-85163cbb9226.par`03-03-2017`14:09:54
+#FullDataName Tire: Longitudinal Force`Normalized 1D (15-pt spline)`Normalized Tires
+FX_TIRE_TABLE SPLINE
+-1, -0.92909
+-0.4, -0.99408
+-0.2, -1.013
+-0.14, -0.99995
+-0.12, -0.98768
+-0.08, -0.93044
+-0.04, -0.7283
+0, 0
+0.04, 0.7283
+0.08, 0.93045
+0.12, 0.98768
+0.14, 0.99995
+0.2, 1.013
+0.4, 0.99408
+1, 0.92909
 ENDTABLE
-MU_REF_X 0.001
-LOG_ENTRY Used Dataset: Tire: Longitudinal Force; { Normalized Tires } Touring: Peak = 0.96 at Kappa = 0.15
-EXIT_PARSFILE Tires\Fx\TireFx_fd854240-a518-407f-a02f-7ebe149157dd.par
+FX_TIRE_FZ_COEFFICIENT 1
+MU_REF_X 1.0
+LOG_ENTRY Used Dataset: Tire: Longitudinal Force; { Normalized Tires } Normalized 1D (15-pt spline)
+EXIT_PARSFILE Tires\Fx\TireFx_1ecbd52d-e92e-4e93-a843-85163cbb9226.par
 
 LOG_ENTRY Used Dataset: Tire; { Normalized Tires } sem
 EXIT_PARSFILE Tires\Tire\Tire_4fbc06b1-343f-4ce7-896b-5336d4836ade.par
@@ -2554,7 +2214,7 @@ ANI_Pitch
 SET_ROLL_NAME Roll_E
 WRT_Roll_E
 ANI_Roll_E
-ENTER_PARSFILE Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par`04-13-2026`09:47:46
+ENTER_PARSFILE Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par`04-23-2026`22:54:22
 #FullDataName Vehicle: Sprung Mass`sem_sprung`
 X_LENGTH 1000
 Y_LENGTH 1500
@@ -2565,8 +2225,8 @@ H_H 228
 H_CG_SU 540
 LX_AXLE 1000
 LX_CG_SU 500
-M_SU 220
-IXX_SU 80
+M_SU 176
+IXX_SU 200
 IYY_SU 200
 IZZ_SU 200
 IXZ_SU 0
@@ -2576,24 +2236,24 @@ IXY_SU 0
 IYZ_SU 0
 Z_LENGTH 1219
 Y_LENGTH 1780
-H_WC 228
+H_WC 200
 iside 2
-H_WC 228
+H_WC 200
 iaxle 1
 iside 1
-H_WC 228
+H_WC 200
 iside 2
-H_WC 228
+H_WC 200
 iaxle 2
 iside 1
 LOG_ENTRY Used Dataset: Vehicle: Sprung Mass; sem_sprung
 EXIT_PARSFILE Vehicles\Sprung_Mass\SprMass_d448cb16-2f3b-480b-a5e9-8c50df97b11b.par
 
-ENTER_PARSFILE Aerodynamics\Aero_Main\Aero_f859fe21-5fac-4ae2-8aef-5c1268cf9de2.par`04-13-2026`08:07:46
+ENTER_PARSFILE Aerodynamics\Aero_Main\Aero_f859fe21-5fac-4ae2-8aef-5c1268cf9de2.par`04-23-2026`22:54:38
 #FullDataName Aerodynamics: Basic`sem_aero`
-ENTER_PARSFILE Aerodynamics\Aero_Fx\AirCFx_1b10dee9-0a20-49ce-aeb4-a80287f5a08e.par`04-13-2026`10:00:26
+ENTER_PARSFILE Aerodynamics\Aero_Fx\AirCFx_1b10dee9-0a20-49ce-aeb4-a80287f5a08e.par`04-23-2026`22:54:32
 #FullDataName Aerodynamics: Fx (Drag) Coef. vs. Aero Slip`0.30 at 0 Degrees`
-FX_AERO_SHAPING_CONSTANT 0.322
+FX_AERO_SHAPING_CONSTANT 0.14
 LOG_ENTRY Used Dataset: Aerodynamics: Fx (Drag) Coef. vs. Aero Slip; 0.30 at 0 Degrees
 EXIT_PARSFILE Aerodynamics\Aero_Fx\AirCFx_1b10dee9-0a20-49ce-aeb4-a80287f5a08e.par
 
@@ -2603,9 +2263,9 @@ FY_AERO_SHAPING_CONSTANT 0.5
 LOG_ENTRY Used Dataset: Aerodynamics: Fy (Side Force) Coef. vs. Aero Slip; 0.5 at 90 deg #1
 EXIT_PARSFILE Aerodynamics\Aero_Fy\AirCFy_d05b6c38-9466-446c-8aba-909a4d8a993a.par
 
-ENTER_PARSFILE Aerodynamics\Aero_Fz\AirCFz_2bd7b5e8-8499-40e6-bccc-0c23b363d70a.par`04-13-2026`09:45:34
+ENTER_PARSFILE Aerodynamics\Aero_Fz\AirCFz_2bd7b5e8-8499-40e6-bccc-0c23b363d70a.par`04-22-2026`15:15:44
 #FullDataName Aerodynamics: Fz (Lift) Coef. vs. Aero Slip`0.18 at 0 Degrees`
-FZ_AERO_SHAPING_CONSTANT 0.18
+FZ_AERO_SHAPING_CONSTANT 0
 LOG_ENTRY Used Dataset: Aerodynamics: Fz (Lift) Coef. vs. Aero Slip; 0.18 at 0 Degrees
 EXIT_PARSFILE Aerodynamics\Aero_Fz\AirCFz_2bd7b5e8-8499-40e6-bccc-0c23b363d70a.par
 
@@ -2631,16 +2291,16 @@ X_REF_AERO 100
 Y_REF_AERO 100
 H_REF_AERO 100
 L_REF_AERO 100
-AREA_AERO 1.298
+AREA_AERO 0.86
 D_AIR 1.225
 LOG_ENTRY Used Dataset: Aerodynamics: Basic; sem_aero
 EXIT_PARSFILE Aerodynamics\Aero_Main\Aero_f859fe21-5fac-4ae2-8aef-5c1268cf9de2.par
 
-ENTER_PARSFILE Animator\Vehicles\AniVeh_60c109ee-5c8d-45dd-bfaa-dfba617c42c7.par`04-27-2017`20:47:56
-#FullDataName Animator: Vehicles and Sensor Targets`2A Gooseneck`
-OBJ_X_LENGTH 6710
-OBJ_Y_LENGTH 2438
-OBJ_Z_LENGTH 1670
+ENTER_PARSFILE Animator\Vehicles\AniVeh_82c243fc-f3db-4580-95e7-f811abb55d9f.par`04-27-2017`20:47:56
+#FullDataName Animator: Vehicles and Sensor Targets`B-Class, Hatchback 2012`B-Class Vehicles
+OBJ_X_LENGTH 2600
+OBJ_Y_LENGTH 1661
+OBJ_Z_LENGTH 1535
 DZ_OBJECT 0
 WRITE_ADD_REFERENCE_FRAME_OBJECT
 ADD_REFERENCE_FRAME sprung mass body 1
@@ -2664,31 +2324,31 @@ ANI_Pitch
 SET_ROLL_NAME Roll_E
 WRT_Roll_E
 ANI_Roll_E
-SET_SCALE_X 1.2
-SET_SCALE_Y 1.2
-SET_SCALE_Z 1.2
-SET_OFFSET_X -5.895
-SET_OFFSET_Y 1.2225
+SET_SCALE_X 1
+SET_SCALE_Y 1
+SET_SCALE_Z 1
+SET_OFFSET_X 0
+SET_OFFSET_Y 0.73
 SET_OFFSET_Z 0.30875
-SET_SCALE_X 1.2
-SET_SCALE_Y 1.2
-SET_SCALE_Z 1.2
+SET_SCALE_X 1
+SET_SCALE_Y 1
+SET_SCALE_Z 1
 SET_ANGLE_X 180
-SET_OFFSET_X -5.895
-SET_OFFSET_Y -1.2225
+SET_OFFSET_X 0
+SET_OFFSET_Y -0.73
 SET_OFFSET_Z 0.30875
-SET_SCALE_X 1.2
-SET_SCALE_Y 1.2
-SET_SCALE_Z 1.2
-SET_OFFSET_X -6.71
-SET_OFFSET_Y 1.2225
+SET_SCALE_X 1
+SET_SCALE_Y 1
+SET_SCALE_Z 1
+SET_OFFSET_X -2.6
+SET_OFFSET_Y 0.73
 SET_OFFSET_Z 0.30875
-SET_SCALE_X 1.2
-SET_SCALE_Y 1.2
-SET_SCALE_Z 1.2
+SET_SCALE_X 1
+SET_SCALE_Y 1
+SET_SCALE_Z 1
 SET_ANGLE_X 180
-SET_OFFSET_X -6.71
-SET_OFFSET_Y -1.2225
+SET_OFFSET_X -2.6
+SET_OFFSET_Y -0.73
 SET_OFFSET_Z 0.30875
 DZ_OBJECT 0
 WRITE_ADD_REFERENCE_FRAME_OBJECT
@@ -2713,47 +2373,121 @@ ANI_Pitch
 SET_ROLL_NAME Roll_E
 WRT_Roll_E
 ANI_Roll_E
-ENTER_PARSFILE Animator\STL_Groups\ShpGrp_9b36271b-4640-42ef-9427-c26be4af9282.par`03-03-2017`14:08:10
-#FullDataName Animator: Shape Assembly`Gooseneck Trailer`Trailers
-ENTER_PARSFILE Animator\STL\Shape_e8ff1d8b-2747-4693-9de9-2db685db36e9.par`03-03-2017`14:08:42
-#FullDataName Animator: Shape File Link`Gooseneck: Frame`Trailer, Gooseneck
-add_obj Animator\3D_shape_files_CS\vehicles\trailers\Trailer_Gooseneck\frame.obj
-SET_COLOR 1 1 1
+ENTER_PARSFILE Animator\STL_Groups\ShpGrp_3d0fefac-775d-4db0-8f9c-7868d539f5c1.par`03-03-2017`14:08:10
+#FullDataName Animator: Shape Assembly`B-Class, Hatchback 2012`CS B-Class
+ENTER_PARSFILE Animator\STL\Shape_0d3e4673-7e49-4fb5-a753-6c0def3e2cf3.par`03-03-2017`14:08:42
+#FullDataName Animator: Shape File Link`B Class Hatchback Body 2012`CS Hatchback
+add_obj Animator\3D_shape_files_CS\vehicles\ClassB_Hatchback\ClassB_Hatchback_Body.obj
+SET_COLOR 1 0 0
 set_lighting on
 set_fogging on
-SET_SPECULAR 0.6 0.6 0.6
+USE_RUN_COLOR
+SET_COLOR 0 0 0.016
+SET_SPECULAR 1 1 1
 vsv_enable_shadows_recursive
-LOG_ENTRY Used Dataset: Animator: Shape File Link; { Trailer, Gooseneck } Gooseneck: Frame
-EXIT_PARSFILE Animator\STL\Shape_e8ff1d8b-2747-4693-9de9-2db685db36e9.par
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS Hatchback } B Class Hatchback Body 2012
+EXIT_PARSFILE Animator\STL\Shape_0d3e4673-7e49-4fb5-a753-6c0def3e2cf3.par
 
-set_scale_x 1
-set_scale_y 1.05
-set_scale_z 1
 set_offset_x 0
 set_offset_y 0
-set_offset_z -0.2
-ENTER_PARSFILE Animator\STL\Shape_53bcd8b6-47dc-437a-90ff-431ada464b0c.par`03-03-2017`14:08:42
-#FullDataName Animator: Shape File Link`Gooseneck: Details`Trailer, Gooseneck
-add_obj Animator\3D_shape_files_CS\vehicles\trailers\Trailer_Gooseneck\details.obj
+set_offset_z 0.27
+ENTER_PARSFILE Animator\STL\Shape_5b086dec-ad84-4fd8-b98d-8c15fd31672e.par`03-03-2017`14:08:42
+#FullDataName Animator: Shape File Link`B Class, Hatchback: Details 2012`CS Hatchback
+add_obj Animator\3D_shape_files_CS\vehicles\ClassB_Hatchback\ClassB_Hatchback_Details.obj
 SET_COLOR 1 1 1
 set_lighting on
 set_fogging on
 SET_SPECULAR 0.3 0.3 0.3
 vsv_enable_shadows_recursive
-LOG_ENTRY Used Dataset: Animator: Shape File Link; { Trailer, Gooseneck } Gooseneck: Details
-EXIT_PARSFILE Animator\STL\Shape_53bcd8b6-47dc-437a-90ff-431ada464b0c.par
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS Hatchback } B Class, Hatchback: Details 2012
+EXIT_PARSFILE Animator\STL\Shape_5b086dec-ad84-4fd8-b98d-8c15fd31672e.par
 
-set_scale_x 1
-set_scale_y 1.05
-set_scale_z 1
 set_offset_x 0
 set_offset_y 0
-set_offset_z -0.2
-x_ref_length 6660
-y_ref_length 2400
-z_ref_length 1670
-LOG_ENTRY Used Dataset: Animator: Shape Assembly; { Trailers } Gooseneck Trailer
-EXIT_PARSFILE Animator\STL_Groups\ShpGrp_9b36271b-4640-42ef-9427-c26be4af9282.par
+set_offset_z 0.27
+ENTER_PARSFILE Animator\STL\Shape_9ed0881d-f31e-4a87-9ea1-8bf68d266c20.par`03-03-2017`14:08:42
+#FullDataName Animator: Shape File Link`B Class, Hatchback: Driver 2012`CS Hatchback
+add_obj Animator\3D_shape_files_CS\vehicles\Driver_2012\Driver_2012.obj
+SET_COLOR 0.753 0.753 0.753
+SET_SCALE_X 1.0
+SET_SCALE_Y 1.025
+SET_SCALE_Z 1.025
+SET_OFFSET_X 0.30
+SET_OFFSET_Y 0.0
+SET_OFFSET_Z 0.05
+set_lighting on
+set_fogging on
+SET_SPECULAR 0 0 0
+vsv_enable_shadows_recursive
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS Hatchback } B Class, Hatchback: Driver 2012
+EXIT_PARSFILE Animator\STL\Shape_9ed0881d-f31e-4a87-9ea1-8bf68d266c20.par
+
+set_offset_x 0
+set_offset_y 0
+set_offset_z 0.27
+x_ref_length 2600
+y_ref_length 1661
+z_ref_length 1535
+LOG_ENTRY Used Dataset: Animator: Shape Assembly; { CS B-Class } B-Class, Hatchback 2012
+EXIT_PARSFILE Animator\STL_Groups\ShpGrp_3d0fefac-775d-4db0-8f9c-7868d539f5c1.par
+
+ENTER_PARSFILE Animator\Sound\Set\SndSet_7a16a539-6395-4fa5-9971-033e89fa67b0.par`03-03-2017`14:08:46
+#FullDataName Animator: Sound Set`Wind Noise`
+ENTER_PARSFILE Animator\Sound\Sample\SndSmp_10e59797-9993-4228-b401-95c72f722186.par`03-03-2017`14:08:48
+#FullDataName Animator: Sound Sample`Wind Noise`
+ADD_3D_SOUND Animator\Audio\Environment\Wind_1_Mono.WAV
+LOOP_SOUND on
+SOUND_AUTO_START Default
+SOUND_VOL_MULT 0.3
+SOUND_VOL_MIN 0.01
+SOUND_VOL_MAX 9.0
+SOUND_FREQ_MULT 1.0
+SOUND_FREQ_MIN 0.01
+SOUND_FREQ_MAX 9.0
+ENTER_PARSFILE Animator\Sound\Modifier\SndMod_59e0531b-dd39-45ad-ba0e-7a1d650b1244.par`03-03-2017`14:08:48
+#FullDataName Animator: Sound Modifier`Loudness: Speed Effect`Wind
+define_parameter air_speed_ref 50; km/h; Reference speed for wind audio
+define_output v_mod3 = pow(vAir/air_speed_ref, 3.0); ; Audio control, wind speed, vol
+ADD_SOUND_MODIFIER VOLUME
+SOUNDMOD_OPERATION mult
+SOUNDMOD_INPUT_NAME v_mod3
+SOUNDMOD_INPUT_MIN 0.0
+SOUNDMOD_INPUT_LOW 1.0
+SOUNDMOD_INPUT_HIGH 2.0
+SOUNDMOD_INPUT_MAX 3.0
+SOUNDMOD_OUTPUT_MIN 0.0
+SOUNDMOD_OUTPUT_LOW 1.0
+SOUNDMOD_OUTPUT_HIGH 2.0
+SOUNDMOD_OUTPUT_MAX 3.0
+WRT_v_mod3
+ANI_v_mod3
+LOG_ENTRY Used Dataset: Animator: Sound Modifier; { Wind } Loudness: Speed Effect
+EXIT_PARSFILE Animator\Sound\Modifier\SndMod_59e0531b-dd39-45ad-ba0e-7a1d650b1244.par
+
+ENTER_PARSFILE Animator\Sound\Modifier\SndMod_6c2f9d3c-2cd8-4a47-8c30-a4cac11ee2de.par`03-03-2017`14:08:48
+#FullDataName Animator: Sound Modifier`Frequency: Speed Effect`Wind
+define_output v_mod4 = pow(vAir/air_speed_ref, 0.5); ; Audio control, wind speed, freq
+ADD_SOUND_MODIFIER FREQUENCY
+SOUNDMOD_OPERATION mult
+SOUNDMOD_INPUT_NAME v_mod4
+SOUNDMOD_INPUT_MIN 0.0
+SOUNDMOD_INPUT_LOW 1.0
+SOUNDMOD_INPUT_HIGH 2.0
+SOUNDMOD_INPUT_MAX 3.0
+SOUNDMOD_OUTPUT_MIN 0.0
+SOUNDMOD_OUTPUT_LOW 0.5
+SOUNDMOD_OUTPUT_HIGH 1.0
+SOUNDMOD_OUTPUT_MAX 1.5
+WRT_v_mod4
+ANI_v_mod4
+LOG_ENTRY Used Dataset: Animator: Sound Modifier; { Wind } Frequency: Speed Effect
+EXIT_PARSFILE Animator\Sound\Modifier\SndMod_6c2f9d3c-2cd8-4a47-8c30-a4cac11ee2de.par
+
+LOG_ENTRY Used Dataset: Animator: Sound Sample; Wind Noise
+EXIT_PARSFILE Animator\Sound\Sample\SndSmp_10e59797-9993-4228-b401-95c72f722186.par
+
+LOG_ENTRY Used Dataset: Animator: Sound Set; Wind Noise
+EXIT_PARSFILE Animator\Sound\Set\SndSet_7a16a539-6395-4fa5-9971-033e89fa67b0.par
 
 WRITE_REFERENCE_FRAME_SIZE
 X_LENGTH 1000
@@ -2783,29 +2517,29 @@ ANI_Roll_E
 SET_FRAME_VISIBLE_NAME Bk_Stat
 WRT_Bk_Stat
 ANI_Bk_Stat
-ENTER_PARSFILE Animator\STL\Shape_f5ea6ff4-02ea-4da6-b416-845ecf3e4018.par`03-03-2017`14:08:42
-#FullDataName Animator: Shape File Link`Gooseneck: Brake Lights`Trailer, Gooseneck
-add_obj Animator\3D_shape_files_CS\vehicles\trailers\Trailer_Gooseneck\brakes_on.obj
+ENTER_PARSFILE Animator\STL\Shape_3aeeb897-9a31-4505-b8c1-8da3543bbedb.par`03-03-2017`14:08:42
+#FullDataName Animator: Shape File Link`B-Class, Hatchback: Brake Lights 2012`CS Hatchback
+add_obj Animator\3D_shape_files_CS\vehicles\ClassB_Hatchback\ClassB_Hatchback_Brakes_ON.obj
 SET_COLOR 1 1 1
-SET_OFFSET_X 0.075
-SET_OFFSET_Y 0
-SET_OFFSET_Z -0.2
-X_REF_LENGTH 6600
-Y_REF_LENGTH 2300
-Z_REF_LENGTH 1670
-set_lighting on
+SET_SCALE_X 1
+SET_SCALE_Y 1
+SET_SCALE_Z 1
+SET_OFFSET_Z 0.27
+X_REF_LENGTH 2600
+Y_REF_LENGTH 1661
+Z_REF_LENGTH 1535
+set_lighting off
 set_fogging on
 SET_SPECULAR 1 1 1
-vsv_enable_shadows_recursive
-LOG_ENTRY Used Dataset: Animator: Shape File Link; { Trailer, Gooseneck } Gooseneck: Brake Lights
-EXIT_PARSFILE Animator\STL\Shape_f5ea6ff4-02ea-4da6-b416-845ecf3e4018.par
+LOG_ENTRY Used Dataset: Animator: Shape File Link; { CS Hatchback } B-Class, Hatchback: Brake Lights 2012
+EXIT_PARSFILE Animator\STL\Shape_3aeeb897-9a31-4505-b8c1-8da3543bbedb.par
 
 WRITE_REFERENCE_FRAME_SIZE
 X_LENGTH 1000
 Y_LENGTH 1780
 Z_LENGTH 1219
-LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; 2A Gooseneck
-EXIT_PARSFILE Animator\Vehicles\AniVeh_60c109ee-5c8d-45dd-bfaa-dfba617c42c7.par
+LOG_ENTRY Used Dataset: Animator: Vehicles and Sensor Targets; { B-Class Vehicles } B-Class, Hatchback 2012
+EXIT_PARSFILE Animator\Vehicles\AniVeh_82c243fc-f3db-4580-95e7-f811abb55d9f.par
 
 ENTER_PARSFILE Powertrain\Rwd\RWD_02ab1f32-7e9e-4fa6-b0c5-3005c1f474df.par`04-13-2026`05:07:02
 #FullDataName Powertrain: Rear-Wheel Drive`sem_power`
@@ -2817,7 +2551,7 @@ OPT_ENGINE_INTERNAL 1
 OPT_PWR_CPL_INTERNAL 1
 OPT_TRANS_INTERNAL 1
 OPT_DIFF_INTERNAL(2) 1
-ENTER_PARSFILE Powertrain\Engine\Engine_64f66782-5f50-4491-b06a-0de785521b09.par`04-14-2026`00:39:02
+ENTER_PARSFILE Powertrain\Engine\Engine_64f66782-5f50-4491-b06a-0de785521b09.par`04-14-2026`06:05:10
 #FullDataName Powertrain: Engine`sem_1`
 OPT_THROTTLE_DELAY 0
 MENGINE_CARPET 2D_SPLINE
@@ -2839,7 +2573,6 @@ MENGINE_CARPET 2D_SPLINE
 7500, 0, 1.325, 2.65, 3.975, 5.3
 8000, 0, 1.3125, 2.6251, 3.9375, 5.25
 8500, 0, 1.0875, 2.1749, 3.2625, 4.35
-9000, 0, 1.1225, 2.2451, 3.3675, 4.49
 ENDTABLE
 MENGINE_THROTTLE_CONSTANT 0.85
 ENTER_PARSFILE Powertrain\Fuel_Rate\FuelRate_a32b7233-c00b-43fa-b605-4c55b974550c.par`04-14-2026`00:42:22
@@ -3039,7 +2772,7 @@ LOG_ENTRY Used Dataset: Generic Data Group; { Audio Sound Sets } Gasoline Engine
 EXIT_PARSFILE Generic\Group\GenGrp_efabcbad-be3a-48c3-a446-5dff753de8d2.par
 
 AV_ENG_IDLE 750
-IENG 0.016
+IENG 0.003
 LOG_ENTRY Used Dataset: Powertrain: Engine; sem_1
 EXIT_PARSFILE Powertrain\Engine\Engine_64f66782-5f50-4491-b06a-0de785521b09.par
 
@@ -3058,7 +2791,7 @@ ITC_OUTPUT_SHAFT 0.015
 LOG_ENTRY Used Dataset: Powertrain: Clutch Torque; Maximum 1800 N-m (Linear)
 EXIT_PARSFILE Powertrain\Clutch\TrqCl_d863b57d-39cf-4fd9-ac2e-cabe376f0675.par
 
-ENTER_PARSFILE Powertrain\TransExt\Trans18_ae794f50-f755-4cff-9dea-2c38062c1336.par`04-13-2026`04:54:42
+ENTER_PARSFILE Powertrain\TransExt\Trans18_ae794f50-f755-4cff-9dea-2c38062c1336.par`04-14-2026`06:05:28
 #FullDataName Powertrain: Transmission (18 Gears or CVT)`5-Speed`
 NGEARS 4
 OPT_SHIFT_INTERNAL 1
@@ -3071,12 +2804,12 @@ R_GEAR_TR(4) 1.043
 R_GEAR_TR(5) 0.84
 R_GEAR_TR(6) 0.84
 R_GEAR_TR(7) 0.84
-ITR_REVERSE 0.034
-ITR_NEUTRAL 0.034
-ITR(1) 0.037
-ITR(2) 0.034
-ITR(3) 0.042
-ITR(4) 0.04
+ITR_REVERSE 0.0034
+ITR_NEUTRAL 0.0034
+ITR(1) 0.0037
+ITR(2) 0.0034
+ITR(3) 0.0042
+ITR(4) 0.004
 ITR(5) 0.04
 R_EFF_TR_F_REVERSE 0.91
 R_EFF_TR_F(1) 0.92
@@ -3150,7 +2883,7 @@ LOG_ENTRY Used Dataset: Powertrain: Transmission (18 Gears or CVT); 5-Speed
 EXIT_PARSFILE Powertrain\TransExt\Trans18_ae794f50-f755-4cff-9dea-2c38062c1336.par
 
 IDIFF 2
-ENTER_PARSFILE Powertrain\Reardiff\DiffR_d0834241-b61e-470e-9545-8f24c80f4365.par`04-13-2026`09:53:40
+ENTER_PARSFILE Powertrain\Reardiff\DiffR_d0834241-b61e-470e-9545-8f24c80f4365.par`04-14-2026`06:05:34
 #FullDataName Powertrain: Rear Differential`Open: Gear Ratio 4.1`
 LOCKED_RD_OPT 1
 OPT_LOCKED_DIFF 1
@@ -3161,22 +2894,22 @@ R_EFF_F_RD 0.99
 R_EFF_R_RD 0.99
 LOCKED_RD_DAMP 0.8
 LOCKED_RD_K 80
-IDS_R 0.01
-IHS_LR 0.01
-IHS_RR 0.01
+IDS_R 0.001
+IHS_LR 0.001
+IHS_RR 0.001
 R_GEAR_DIFF 10.898
 R_EFF_F_DIFF 0.99
 R_EFF_R_DIFF 0.99
 LOCKED_DIFF_DAMP 0.8
 LOCKED_DIFF_K 80
-IDS 0.01
-IHS_L 0.01
-IHS_R 0.01
+IDS 0.001
+IHS_L 0.001
+IHS_R 0.001
 LOG_ENTRY Used Dataset: Powertrain: Rear Differential; Open: Gear Ratio 4.1
 EXIT_PARSFILE Powertrain\Reardiff\DiffR_d0834241-b61e-470e-9545-8f24c80f4365.par
 
 IDIFF 2
-ENTER_PARSFILE Powertrain\Reardiff\DiffR_d0834241-b61e-470e-9545-8f24c80f4365.par`04-13-2026`09:53:40
+ENTER_PARSFILE Powertrain\Reardiff\DiffR_d0834241-b61e-470e-9545-8f24c80f4365.par`04-14-2026`06:05:34
 #FullDataName Powertrain: Rear Differential`Open: Gear Ratio 4.1`
 LOCKED_RD_OPT 1
 OPT_LOCKED_DIFF 1
@@ -3187,17 +2920,17 @@ R_EFF_F_RD 0.99
 R_EFF_R_RD 0.99
 LOCKED_RD_DAMP 0.8
 LOCKED_RD_K 80
-IDS_R 0.01
-IHS_LR 0.01
-IHS_RR 0.01
+IDS_R 0.001
+IHS_LR 0.001
+IHS_RR 0.001
 R_GEAR_DIFF 10.898
 R_EFF_F_DIFF 0.99
 R_EFF_R_DIFF 0.99
 LOCKED_DIFF_DAMP 0.8
 LOCKED_DIFF_K 80
-IDS 0.01
-IHS_L 0.01
-IHS_R 0.01
+IDS 0.001
+IHS_L 0.001
+IHS_R 0.001
 LOG_ENTRY Used Dataset: Powertrain: Rear Differential; Open: Gear Ratio 4.1
 EXIT_PARSFILE Powertrain\Reardiff\DiffR_d0834241-b61e-470e-9545-8f24c80f4365.par
 
@@ -3798,33 +3531,38 @@ EXIT_PARSFILE Steering\System2\StrSys2_15589801-d4e7-488f-9884-031d53c5d85c.par
 LOG_ENTRY Used Dataset: Vehicle: Assembly; SEM1
 EXIT_PARSFILE Vehicles\Assembly\Vehicle_b2ec6626-0d65-4b27-8408-a64db53baadf.par
 
-ENTER_PARSFILE Procedures\Proc_b8785199-c231-4745-aa89-8d974d06975b.par`04-13-2026`09:50:20
+ENTER_PARSFILE Procedures\Proc_b8785199-c231-4745-aa89-8d974d06975b.par`04-22-2026`15:14:20
 #FullDataName Procedures`Lusail Test #1`Driving
-OPT_STOP 0
+OPT_STOP 1
 TSTART 0
 SSTART 0
 TSTART_WRITE = TSTART;
 TSTOP 525
-SSTOP =  SSTART + 1 ;
-OPT_DIRECTION 1
+SSTOP 3711
+OPT_DIRECTION 0
 INSTALL_DRIVER_SPEED_CONTROLLER CarSim9
 OPT_SC 3
 SPEED_TARGET_COMBINE ADD
 SPEED_TARGET_CONSTANT 0
-SPEED_TARGET_S_CONSTANT 10
+SPEED_TARGET_S_CONSTANT 20
 OPT_SC_ENGINE_BRAKING 0
-ENTER_PARSFILE Control\Driver\StrDM_b1b075a4-4356-41fe-9ec7-f15ebb269874.par`03-03-2017`14:11:24
-#FullDataName Control: Steering by the Closed-loop Driver Model`No Offset, 1.5 sec. Preview`Constant Position
+ENTER_PARSFILE Control\Driver\StrDM_db287201-78d5-4dc0-abec-ed318ae6874b.par`03-03-2017`14:11:24
+#FullDataName Control: Steering by the Closed-loop Driver Model`No Offset, 0.5 sec. Preview`Constant Position
 OPT_DRIVER_MODEL 1
-CREATE_PATH_OBJ off
+CREATE_PATH_OBJ on
 LTARG_CONSTANT 0
 AV_SW_MAX_DM 1200
 TLAG_DM 0
 A_SW_MAX_DM 720
 VLOW_DRIVER 10
-TPREV_CONSTANT 1.5
-LOG_ENTRY Used Dataset: Control: Steering by the Closed-loop Driver Model; { Constant Position } No Offset, 1.5 sec. Preview
-EXIT_PARSFILE Control\Driver\StrDM_b1b075a4-4356-41fe-9ec7-f15ebb269874.par
+SET_PATH_WIDTH 0.05
+SET_PATH_DASH_INTERVAL 1
+SET_PATH_VERTEX_INTERVAL 3
+SET_PATH_DZ 0.05
+SET_PATH_COLOR 0 0 1
+TPREV_CONSTANT 0.5
+LOG_ENTRY Used Dataset: Control: Steering by the Closed-loop Driver Model; { Constant Position } No Offset, 0.5 sec. Preview
+EXIT_PARSFILE Control\Driver\StrDM_db287201-78d5-4dc0-abec-ed318ae6874b.par
 
 ENTER_PARSFILE Control\Gear_at\GearCL_3d656f9b-b010-469b-b86b-d4e11ee52bef.par`03-30-2026`04:20:06
 #FullDataName Control: Shifting (Closed Loop)`Closed-loop Shift and Clutch (All Gears, Fast)`
@@ -3847,7 +3585,7 @@ EXIT_PARSFILE Control\Int_Shift\ClTime_8c23883a-cbef-438f-b53f-5a2261662ba9.par
 LOG_ENTRY Used Dataset: Control: Shifting (Closed Loop); Closed-loop Shift and Clutch (All Gears, Fast)
 EXIT_PARSFILE Control\Gear_at\GearCL_3d656f9b-b010-469b-b86b-d4e11ee52bef.par
 
-ENTER_PARSFILE Roads\Center_XY\PathXY_9c516fea-efdf-45e3-b862-8ae0dc19716a.par`02-08-2026`22:52:36
+ENTER_PARSFILE Roads\Center_XY\PathXY_9c516fea-efdf-45e3-b862-8ae0dc19716a.par`04-20-2026`11:06:12
 #FullDataName Path: X-Y Coordinates`Lusail`
 DEFINE_PATHS 1
 IPATH = NPATH
@@ -7546,6 +7284,383 @@ ENDTABLE
 LOG_ENTRY Used Dataset: Path: X-Y Coordinates; Lusail
 EXIT_PARSFILE Roads\Center_XY\PathXY_9c516fea-efdf-45e3-b862-8ae0dc19716a.par
 
+ENTER_PARSFILE Roads\Center_Z\RdRefZ_88b7bccf-60c0-41a9-a547-776b2e26230c.par`04-20-2026`11:25:24
+#FullDataName Road: Reference Line Elevation`Lusail`
+ROAD_ZS_TABLE LINEAR
+0, 11.6494392113
+10, 11.8132714592
+20, 11.8677513063
+30, 11.8545946681
+40, 11.7903848332
+50, 11.6873270063
+60, 11.4614034293
+70, 11.127871526
+80, 10.7060159913
+90, 10.2768012866
+100, 9.92452377177
+110, 9.72629957643
+120, 9.68194070081
+130, 9.74234297492
+140, 9.86992683866
+150, 10.0504292283
+160, 10.2017735396
+170, 10.300079277
+180, 10.3195157308
+190, 10.2184239734
+200, 9.9727196539
+210, 9.59719132936
+220, 9.18092369023
+230, 8.79688101656
+240, 8.43975854493
+250, 8.04921742282
+260, 7.61381458244
+270, 7.31916691205
+280, 7.28917529276
+290, 7.42962921017
+300, 7.66440236472
+310, 8.08528618995
+320, 8.6985843394
+330, 9.36297311377
+340, 9.89517769372
+350, 10.3250447349
+360, 10.6505923124
+370, 10.8769824911
+380, 11.0211443068
+390, 11.1373054882
+400, 11.2615665134
+410, 11.2601508528
+420, 11.013440848
+430, 10.6259190469
+440, 10.34810981
+450, 10.2837663367
+460, 10.2879997282
+470, 10.1917030963
+480, 10.1182540941
+490, 10.2270357199
+500, 10.5334254456
+510, 10.8387007633
+520, 10.9280980317
+530, 10.8002106503
+540, 10.5241251217
+550, 10.2198305737
+560, 9.91173526014
+570, 9.66723821604
+580, 9.69638949919
+590, 10.1075743505
+600, 10.9020408163
+610, 11.8225101361
+620, 12.5072617726
+630, 12.8200049831
+640, 12.9362137308
+650, 12.9345647693
+660, 12.7293166323
+670, 12.2619402478
+680, 11.7221545222
+690, 11.2190785748
+700, 10.7212598247
+710, 10.3231737978
+720, 10.0754626379
+730, 9.93745045188
+740, 9.86461528007
+750, 9.89020589368
+760, 10.0480350631
+770, 10.2725588349
+780, 10.5262520102
+790, 10.8923101316
+800, 11.2618156697
+810, 11.4791184398
+820, 11.5351627443
+830, 11.56898684
+840, 11.6685202383
+850, 11.6849781422
+860, 11.5041994156
+870, 11.1888174138
+880, 10.9707943555
+890, 10.9363790799
+900, 10.9817345806
+910, 11.0751115541
+920, 11.2469546309
+930, 11.3855851775
+940, 11.3607465628
+950, 11.1892296541
+960, 11.0090964688
+970, 10.8423656255
+980, 10.6728011959
+990, 10.5090964688
+1000, 10.3375931505
+1001, 10.3208498494
+1010, 10.151054384
+1011, 10.1343224082
+1020, 10.0533262362
+1021, 10.0518969852
+1030, 10.1238283993
+1040, 10.3589299871
+1050, 10.608507554
+1060, 10.769544044
+1070, 10.8773584906
+1080, 11.0083625903
+1090, 11.1431040341
+1100, 11.178368706
+1110, 11.1586536501
+1120, 11.2606106594
+1130, 11.5136582935
+1140, 11.8087182043
+1150, 11.943856033
+1160, 12.0153434959
+1170, 12.1346395162
+1180, 12.3585313371
+1190, 12.625130807
+1200, 12.7551654624
+1210, 12.7545108609
+1220, 12.7402092913
+1230, 12.8313868944
+1240, 12.9548891255
+1250, 13.0081066389
+1260, 13.0091553603
+1270, 12.9736573875
+1280, 12.9257016014
+1290, 12.8891662325
+1300, 12.9303472332
+1310, 13.0350676119
+1320, 13.1802464382
+1330, 13.3188316836
+1340, 13.447794967
+1350, 13.5637975945
+1360, 13.6744931935
+1370, 13.7775057193
+1380, 13.8734965684
+1390, 13.8945389477
+1400, 13.7666855421
+1410, 13.4850257084
+1420, 13.2251942286
+1430, 13.1088495776
+1440, 13.0700967179
+1450, 12.9420575777
+1460, 12.6642211602
+1470, 12.308908469
+1480, 11.937099368
+1490, 11.563856486
+1500, 11.23340053
+1510, 11.0325466035
+1520, 10.9776755985
+1530, 10.997336293
+1540, 11
+1550, 10.9876214637
+1560, 11.0219710526
+1570, 11.1398695327
+1580, 11.3398514123
+1590, 11.5219574622
+1600, 11.5640512809
+1610, 11.5544429092
+1620, 11.6471381005
+1630, 11.9317583637
+1640, 12.2474801241
+1650, 12.4074180616
+1660, 12.4269677682
+1670, 12.3896985209
+1680, 12.4236245442
+1690, 12.5352012503
+1700, 12.6852839249
+1710, 12.7922829509
+1720, 12.8492310132
+1730, 12.7238669053
+1740, 12.332206845
+1750, 11.6904097488
+1760, 11.0612562006
+1770, 10.5711024032
+1780, 10.1837323609
+1790, 9.82878660898
+1800, 9.50834899998
+1810, 9.31135699563
+1820, 9.2613875739
+1830, 9.33829078801
+1840, 9.49206550545
+1850, 9.67942422252
+1860, 9.90697637545
+1870, 10.0429296247
+1880, 10.0590024689
+1890, 10.002108768
+1900, 9.9993997599
+1910, 10.1038505968
+1920, 10.3320369657
+1930, 10.6354843824
+1940, 10.8932297447
+1950, 11.080395932
+1960, 11.2561009309
+1970, 11.3792769938
+1980, 11.3822578088
+1990, 11.2815714965
+2000, 11.1218555347
+2020, 10.6321773993
+2040, 10.2094113117
+2050, 9.91962671861
+2060, 9.49691499241
+2070, 9.05093207094
+2080, 8.63839951075
+2090, 8.24905207366
+2100, 7.91195723572
+2110, 7.71911708079
+2120, 7.69927291671
+2130, 7.79599311423
+2140, 8.13908808806
+2150, 8.7974789916
+2160, 9.73221137511
+2170, 10.6801082697
+2180, 11.4941788036
+2190, 12.1777118395
+2200, 12.7353937802
+2210, 13.1900382795
+2220, 13.571967655
+2230, 14.0145371356
+2240, 14.524571338
+2250, 14.9593037215
+2260, 15.1930372149
+2270, 15.2178894199
+2280, 15.0971052572
+2290, 14.8459194999
+2300, 14.5042175361
+2310, 14.1451040794
+2320, 13.7932773109
+2330, 13.4621123921
+2340, 13.2638361005
+2350, 13.2673786496
+2360, 13.4493080251
+2370, 13.7247616028
+2380, 14.0299214025
+2390, 14.341033772
+2400, 14.529780969
+2410, 14.543856033
+2420, 14.4104804186
+2430, 14.2524813699
+2440, 14.1696052006
+2450, 14.0853632019
+2460, 13.8722983533
+2470, 13.5372420666
+2480, 13.164255136
+2490, 12.8579628078
+2500, 12.5920700356
+2510, 12.4398310267
+2520, 12.4748759881
+2530, 12.6999796145
+2540, 12.9138213776
+2550, 12.9714376317
+2560, 12.8622324401
+2570, 12.6390722327
+2580, 12.3266144194
+2590, 11.9381616798
+2600, 11.5701510793
+2610, 11.2803710163
+2620, 11.0778794537
+2630, 11.02902444
+2640, 11.1624045845
+2650, 11.4215203062
+2660, 11.7190491291
+2670, 12.1073931459
+2680, 12.6013703595
+2690, 13.152603683
+2700, 13.5239937484
+2710, 13.6147387257
+2720, 13.4894063286
+2730, 13.2994201454
+2740, 13.2507418062
+2750, 13.2492717842
+2760, 13.2547237763
+2770, 13.2183356361
+2780, 13.1655462185
+2790, 13.1363722848
+2800, 13.075147795
+2810, 13.0320437609
+2820, 12.9996783619
+2830, 12.9826700492
+2840, 12.9946567306
+2850, 13.0830936148
+2860, 13.3544904754
+2870, 13.7877890779
+2880, 14.2093886611
+2890, 14.4896373644
+2900, 14.5952864165
+2910, 14.6221771728
+2920, 14.5651815443
+2930, 14.420159007
+2940, 14.1680400462
+2950, 13.8300459807
+2960, 13.4032707423
+2970, 12.8721148837
+2980, 12.2324333507
+2990, 11.5173526014
+3000, 10.7516410338
+3010, 10.015030918
+3020, 9.41414075064
+3030, 9.07674466013
+3040, 9.09469750164
+3050, 9.34738499173
+3060, 9.71146118825
+3070, 10.153002333
+3080, 10.7686901176
+3090, 11.4431516003
+3100, 11.9142607987
+3110, 12.1763845161
+3120, 12.413042198
+3130, 12.6758114567
+3140, 12.8263312872
+3150, 12.8212892704
+3160, 12.8164035425
+3170, 12.9171963125
+3180, 12.9912364946
+3190, 12.9149765567
+3200, 12.6377834153
+3210, 12.2684590817
+3220, 11.8966409205
+3230, 11.5156334232
+3240, 11.2177036852
+3250, 11.0743980611
+3260, 11.0756438424
+3270, 11.0900428096
+3280, 10.9979161476
+3290, 10.9224489796
+3300, 10.9554757752
+3310, 11.245128995
+3320, 11.7561099912
+3330, 12.323620014
+3340, 12.7472400281
+3350, 13.0248431448
+3360, 13.3181748171
+3370, 13.6817277855
+3380, 13.8966952819
+3390, 13.8008244807
+3400, 13.4909828082
+3410, 13.1908016037
+3420, 13.0222723051
+3430, 12.8973725339
+3440, 12.7734739179
+3450, 12.6885161612
+3460, 12.7110353575
+3470, 12.8618405853
+3480, 13.0696187909
+3490, 13.086957802
+3500, 12.8655620739
+3510, 12.466719518
+3520, 12.065247231
+3530, 11.6587170717
+3540, 11.1712496319
+3550, 10.6080839883
+3560, 10.1392806179
+3570, 9.89767378649
+3580, 9.86846814197
+3590, 9.95076898684
+3600, 10.0816779542
+3610, 10.2606446352
+3620, 10.4390948832
+3630, 10.6304106548
+3640, 10.8028834175
+3650, 11.0053115586
+3660, 11.2333226353
+3670, 11.5126719948
+3711.08, 11.6494392113
+ENDTABLE
+LOG_ENTRY Used Dataset: Road: Reference Line Elevation; Lusail
+EXIT_PARSFILE Roads\Center_Z\RdRefZ_88b7bccf-60c0-41a9-a547-776b2e26230c.par
+
 ENTER_PARSFILE Plot\Setup\Plot_b3ef8646-beef-4024-9925-3f874e91a76b.par`03-03-2017`14:09:20
 #FullDataName Plot: Setup`Wheel Speeds`Braking
 ADD_ENTITY Plot
@@ -8115,6 +8230,51 @@ END_ENTITY Plot
 LOG_ENTRY Used Dataset: Plot: Setup; { Vehicle Motion } Lateral Accel. of CG's
 EXIT_PARSFILE Plot\Setup\Plot_8b22f20a-1297-43cf-9e59-a0b1d530d136.par
 
+ENTER_PARSFILE Plot\Setup\Plot_c7306601-bee0-4edc-92fb-2c670cb34a1b.par`03-03-2017`14:09:20
+#FullDataName Plot: Setup`Longitudinal Forces`Tire Forces
+ADD_ENTITY Plot
+ENTER_PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par`03-03-2017`14:09:20
+#FullDataName Plot: Format`Default`
+LEGENDPERCENT 60
+TITLEFONTSIZE 10
+TITLELOCATION -1
+AXES Axes
+FRAME Frame
+GRID CourseGrid
+LEGENDDATA_1 RigidBodyName
+JUNK AutoLocation
+TITLEFONTSTYLE Regular
+TITLEFONTNAME Arial
+LEGENDFONTNAME Arial
+LEGENDFONTSIZE 10
+LEGENDFONTSTYLE Regular
+LABELFONTNAME Arial
+LABELFONTSIZE 10
+LABELFONTSTYLE Regular
+TICLABELFONTNAME Arial
+TICLABELFONTSIZE 10
+TICLABELFONTSTYLE Regular
+SYMBOLS 10,1,2,3,4,5,6,7,8,9,10,4,1,2,3,4,5,6,7,8
+LINESTYL 1,1,1,1,1,1,2,1,1,1,2,1,1,1,2,1,1,1,2,1
+COLORS 8,2,3,7,4,0,6,14,8,9,10,11,12,13,14,6,1,2,0,4
+LOG_ENTRY Used Dataset: Plot: Format; Default
+EXIT_PARSFILE Plot\Format\PlotFmt_01028e0f-04b1-4222-bdf3-7848a11f4ae5.par
+
+PLOTCHANNELS Fx_L1, Time
+WRT_FX_L1
+PLOTCHANNELS Fx_R1, Time
+WRT_FX_R1
+PLOTCHANNELS Fx_L2, Time
+WRT_FX_L2
+PLOTCHANNELS Fx_R2, Time
+WRT_FX_R2
+YMaxmin Auto
+XMaxmin Auto
+PTITLE Longitudinal Forces
+END_ENTITY Plot
+LOG_ENTRY Used Dataset: Plot: Setup; { Tire Forces } Longitudinal Forces
+EXIT_PARSFILE Plot\Setup\Plot_c7306601-bee0-4edc-92fb-2c670cb34a1b.par
+
 LOG_ENTRY Used Dataset: Procedures; { Driving } Lusail Test #1
 EXIT_PARSFILE Procedures\Proc_b8785199-c231-4745-aa89-8d974d06975b.par
 
@@ -8128,6 +8288,8 @@ IMPORT IMP_THROTTLE_ENGINE Replace 0.3 ! 1
 IMPORT IMP_CLUTCH Replace 1 ! 1
 EXPORT Vx
 EXPORT Mfuel
+EXPORT Station
+EXPORT Fs_L1
 
 
 END
