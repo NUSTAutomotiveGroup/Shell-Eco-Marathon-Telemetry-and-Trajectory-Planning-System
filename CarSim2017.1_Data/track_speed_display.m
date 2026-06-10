@@ -75,7 +75,7 @@ speed_height = alt + speed_on_track * speed_scale;
 % =========================================================
 figure('Name', 'Track Speed Profile', ...
        'Position', [100, 100, 1200, 700], ...
-       'Color', [0.12 0.12 0.15]);
+       'Color', [0 0 0]);
 
 %% --- Plot 1: 3D track with speed as height ---
 ax1 = subplot(2, 2, [1 3]);

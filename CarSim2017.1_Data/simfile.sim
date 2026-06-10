@@ -14,7 +14,7 @@ LOGFILE $(OUTPUT_FILE_PREFIX)$_log.txt
 ERDFILE $(OUTPUT_FILE_PREFIX)$.erd
 PROGDIR D:\CarSIM\
 DATADIR D:\FYP\Computational Stuff (Non ML)\Shell-Eco-Marathon-Telemetry-and-Trajectory-Planning-System\CarSim2017.1_Data\
-GUI_REFRESH_V CarSim_RefreshEvent_17592
+GUI_REFRESH_V CarSim_RefreshEvent_20620
 RESOURCEDIR D:\CarSIM\\Resources\
 PRODUCT_ID CarSim
 PRODUCT_VER 2017.1

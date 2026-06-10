@@ -171,4 +171,50 @@ Used Dataset: Plot: Format; Default
 Used Dataset: Plot: Setup; { Controls: Driver } Throttle: Control Input
 Used Dataset: Plot: Format; Default
 Used Dataset: Plot: Setup; { Powertrain } Torques in Powertrain
-Used Dataset: Plot: Format; Lines without S
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Powertrain } Engine RPM
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Forces } Lateral Forces
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Aerodynamics and Wind } Aerodynamic Forces
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Suspension Forces and Moments } Spring Force
+Used Dataset: Plot: Format; Lines without Symbols
+Used Dataset: Plot: Setup; { Vehicle Motion } Lateral Accel. of CG's
+Used Dataset: Plot: Format; Default
+Used Dataset: Plot: Setup; { Tire Forces } Longitudinal Forces
+Used Dataset: Procedures; { Driving } Lusail Test #1
+ sem 1
+Used Dataset: CarSim Run Control; sem 1
+
+Time to read input = 0.06
+Function ROAD_ZS_TABLE(1) extrapolated (out of range HIGH) for X = 3711.08 m at T = 0
+Function L_RELAX_X_FZ_TABLE(1,1) extrapolated (out of range HIGH) for X = 1.72352 N at T = 0
+Function L_RELAX_X_FZ_TABLE(1,2) extrapolated (out of range HIGH) for X = 1.67807 N at T = 0
+Function L_RELAX_X_FZ_TABLE(2,1) extrapolated (out of range HIGH) for X = 1.85545 N at T = 0
+Function L_RELAX_X_FZ_TABLE(2,2) extrapolated (out of range HIGH) for X = 1.85136 N at T = 0
+Function F_REB_STOP_TABLE(1,1) extrapolated (out of range HIGH) for X = 8.67362e-16 mm at T = 0
+Function F_JNC_STOP_TABLE(1,1) extrapolated (out of range LOW) for X = 8.67362e-16 mm at T = 0
+Function F_REB_STOP_TABLE(1,2) extrapolated (out of range HIGH) for X = 8.67362e-16 mm at T = 0
+Function F_JNC_STOP_TABLE(1,2) extrapolated (out of range LOW) for X = 8.67362e-16 mm at T = 0
+Function F_REB_STOP_TABLE(2,1) extrapolated (out of range HIGH) for X = -8.67362e-16 mm at T = 0
+Function F_JNC_STOP_TABLE(2,1) extrapolated (out of range LOW) for X = -8.67362e-16 mm at T = 0
+Function F_REB_STOP_TABLE(2,2) extrapolated (out of range HIGH) for X = -8.67362e-16 mm at T = 0
+Function F_JNC_STOP_TABLE(2,2) extrapolated (out of range LOW) for X = -8.67362e-16 mm at T = 0
+
+Run started: ERD output file = D:\FYP\Computational Stuff (Non ML)\Shell-Eco-Marathon-Telemetry-and-Trajectory-Planning-System\CarSim2017.1_Data\Results\Run_1255e55b-9af3-438e-ae5e-d47f6fc15382\LastRun.bin
+Function INV_CAP_TC_TABLE extrapolated (out of range HIGH) for X = 1.00501 - at T = 0.0015
+Function L_RELAX_Y_FZ_TABLE(1,1) extrapolated (out of range HIGH) for X = 2.00245 N at T = 0.0105
+Function MZ_TIRE_CARPET(1,1) extrapolated (out of range HIGH) for XCOL = 2.00245 N at T = 0.0105
+Function L_RELAX_Y_FZ_TABLE(1,2) extrapolated (out of range HIGH) for X = 2.00639 N at T = 0.014
+Function MZ_TIRE_CARPET(1,2) extrapolated (out of range HIGH) for XCOL = 2.00639 N at T = 0.014
+Function L_RELAX_Y_FZ_TABLE(2,2) extrapolated (out of range HIGH) for X = 2.00111 N at T = 0.123
+Function MZ_TIRE_CARPET(2,2) extrapolated (out of range HIGH) for XCOL = 2.00111 N at T = 0.123
+Function L_RELAX_Y_FZ_TABLE(2,1) extrapolated (out of range HIGH) for X = 2.00162 N at T = 0.15
+Function MZ_TIRE_CARPET(2,1) extrapolated (out of range HIGH) for XCOL = 2.00162 N at T = 0.15
+Function FD_TABLE(1,2) extrapolated (out of range HIGH) for X = 1161.81 mm/s at T = 195.331
+
+Run stopped at t = 330.456. Station limit reached: driver station = 3711
+
+Computational efficiency: RTIME = 0.0475252 sec/sim. sec
+

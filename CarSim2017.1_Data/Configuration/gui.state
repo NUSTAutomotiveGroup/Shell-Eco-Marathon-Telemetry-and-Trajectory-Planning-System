@@ -92,7 +92,7 @@ LastDS Hitch: Pitch Moment`HchMy_993f741e-2394-46db-ac19-aa5bdb03e0af
 LastDS Hitch: Yaw Moment`HchMz_db3c7550-5072-41fb-9e50-1efcb41c0227
 LastDS I/O Channels: Ports`Port_8e0bbf7e-e32e-4042-b165-a22d956735b6
 LastDS I/O Channels: Export`Export_c20165cd-2792-4924-af8f-d627de0f000d
-LastDS I/O Channels: Import`Import_d5560ccf-ad04-4cdb-9a83-c213caaf847b
+LastDS I/O Channels: Import`Import_798db140-cf5b-404a-bd73-77fbcd88ca7a
 LastDS I/O Channels: Write`Write_c42883e2-9b42-45ed-be16-cedbe8354668
 LastDS Models: Self-Contained Solvers`Extern_2a2b9c91-931f-465d-a680-f500ef249a74
 LastDS Models: Simulink`Simlink_d891ba6b-8c8b-4af5-b9c8-0aaa125a984c
@@ -178,7 +178,7 @@ LastDS Steering: Power Assist Force`FBoost_0bb8e61c-8e81-4468-afe8-7b5e4c7c0092
 LastDS Steering: Power Assist Torque`TqBoost_e3a4ab04-2cd4-4f79-a0df-168c086eb748
 LastDS Steering Wheel Torque`TqSW_5c66537c-d541-44c7-9bf9-b556c59323c9
 LastDS Steering (Legacy)`StrSys_62acafe6-0bbf-48d3-b4bc-b1756033a512
-LastDS Suspension: Independent System Kinematics`KinInd_52d00983-7021-4ad7-8c6c-4e0ee3de6404
+LastDS Suspension: Independent System Kinematics`KinInd_6beeb7de-841d-4706-876f-d2ad1c0e471c
 LastDS Suspension: Independent Compliance, Springs, and Dampers`CmpInd_2b16f5ad-b911-4647-be70-43ea27928d9d
 LastDS Suspension: Solid Axle System Kinematics`KinSA_111d9434-24eb-4a6e-bce8-014e55435117
 LastDS Suspension: Solid Axle Compliance, Springs, and Dampers`CmpSA_3aaf895e-b7cf-47b3-85d5-2d7ca48a9b4a
@@ -229,4 +229,4 @@ LastDS Vehicle: Trailer with 2 Axles`Trl_2a_61fb7969-fb82-4f1f-803f-5cb0d691e336
 LastDS Wind Amplitude`Wind_6b787635-c1cb-4f71-b6a7-36440312c211
 LastDS Wind Heading`WindDir_9b223025-b174-4573-9336-53155714266e
 LastDS Preferences`pref_a9da94e2-90cd-46fc-a780-bb613a55ea92
-LastScreen CarSim Run Control
+LastScreen Vehicle: Assembly

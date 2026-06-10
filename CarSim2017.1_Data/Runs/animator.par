@@ -4,5 +4,14 @@ search_path_append D:\FYP\Computational Stuff (Non ML)\Shell-Eco-Marathon-Teleme
 search_path_append D:\CarSIM\Resources\
 search_path_append D:\CarSIM\\
 set_run_slot 0
-PARSFILE Results\Run_1255e55b-9af3-438e-ae5e-d47f6fc15382\Run_all.par
+DATASET D:\FYP\Computational Stuff (Non ML)\Shell-Eco-Marathon-Telemetry-and-Trajectory-Planning-System\CarSim2017.1_Data\Results\Run_1255e55b-9af3-438e-ae5e-d47f6fc15382\LastRun.erd
+PARSFILE D:\FYP\Computational Stuff (Non ML)\Shell-Eco-Marathon-Telemetry-and-Trajectory-Planning-System\CarSim2017.1_Data\Results\Run_1255e55b-9af3-438e-ae5e-d47f6fc15382\LastRun_all.par
+LIVE_SERVER_REMOVE_ALL
+SET_PATH_COLOR 1 1 1
+DISPLAY OFF
+ADD_REFERENCE_FRAME _TARGET_PATH_0_
+ADD_OBJ D:\FYP\Computational Stuff (Non ML)\Shell-Eco-Marathon-Telemetry-and-Trajectory-Planning-System\CarSim2017.1_Data\Runs\Target_Path_0.obj
+SET_COLOR 0 0 1
+SET_OFFSET_Z 0.05
+SET_SPECULAR 0 0 0
 END
